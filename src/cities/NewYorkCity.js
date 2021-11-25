@@ -1,5 +1,8 @@
 import React from "react";
+import nycboroughs from '../images/boroughs.png'
 import pie from '../images/pie.jpg';
+import nycneighborhoods from '../images/neighborhoods.jpeg';
+import nycsubway from '../images/nyc-subway.jpeg';
 import {
     Link,
 } from "react-router-dom";
@@ -14,15 +17,15 @@ class NewYorkCity extends React.Component {
 
             <ul>
                 <li>
-                    <img class="article" src={pie} alt="Italian Trulli" />
+                    <img class="article" src={nycboroughs} alt="Italian Trulli" />
                     <Link to="/NYCarticle4"> Best resturant in every NYC borough </Link>
                 </li>
                 <li>
-                    <img class="article" src={pie} alt="Best resturant in every NYC neighborhood " />
+                    <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " />
                     <Link to="/NYCarticle2"> Best resturant in every NYC neighborhood </Link>
                 </li>                
                 <li>
-                    <img class="article" src={pie} alt="Best resturant by every subway stop" />
+                    <img class="article" src={nycsubway} alt="Best resturant by every subway stop" />
                     <Link to="/NYCarticle"> Best resturant by every subway stop </Link>
                 </li>                
                 <li>
