@@ -12,8 +12,11 @@ class NewYorkCity extends React.Component {
     render() {
         return (<div>
 
-            <h2> Uber eats promo code: eats-sxnvv </h2>
-            <h2> Grubhub invite link: https://www.grubhub.com/referral/3c840580-6470-11e8-b9ea-43abd66f1334?utm_source=grubhub.com&utm_medium=content_owned&utm_campaign=growth_refer-a-friend_share-link&utm_content=promo_</h2>
+            <h2> Food delivery promo codes </h2>
+            <ul>
+            <li> Uber eats promo code: eats-sxnvv </li>
+            <li> Grubhub invite link: https://www.grubhub.com/referral/3c840580-6470-11e8-b9ea-43abd66f1334?utm_source=grubhub.com&utm_medium=content_owned&utm_campaign=growth_refer-a-friend_share-link&utm_content=promo_</li>
+            </ul>
 
             <ul>
                 <li>
