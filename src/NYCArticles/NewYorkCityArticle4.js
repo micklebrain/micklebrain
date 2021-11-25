@@ -113,21 +113,27 @@ class NewYorkCityArticle4 extends React.Component {
             </div>
         );
 
-        return (<div>
+        return (            
+        <div>
+            {/* <h1> September, 2021 top resturant in each New York borough </h1> */}
 
-            {/* <h1> Top Resturant lists </h1>
-            <h2>  Top attractions </h2>
+            <div class="split left">
+            <div class="centered">
+                {resturantsList}
+            </div>
+            </div>
 
+            <div class="split right">
+            <div id="map" class="centered">
+                <div id="map"></div>
+            </div>
+            </div>
+
+            {/* <h2>  Top attractions </h2>
             <ul>
                 <li> https://www.hudsonyardsnewyork.com/discover/vessel </li>                
                 <li> https://www.esbnyc.com/ </li>
-            </ul>*/}
-
-            <h1> September, 2021 top resturant in each New York borough </h1>
-
-            {resturantsList}
-
-            <div id="map"></div>
+            </ul> */}
         </div>)
     }
 }
