@@ -116,7 +116,6 @@ class NewYorkCityArticle4 extends React.Component {
         return (            
         <div>
             {/* <h1> September, 2021 top resturant in each New York borough </h1> */}
-
             <div class="split left">
             <div class="centered">
                 {resturantsList}
