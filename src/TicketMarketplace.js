@@ -3,7 +3,7 @@ function TicketMarketplace() {
         <div>        
             <h1> Ticket marketplace </h1>           
             <div>
-                <p style = { {textAlign: "center"} }> Venmo micklebrain with comment of ticket name and quantity </p>
+                <p style = { {textAlign: "center"} }> Venmo @micklebrain with comment of ticket name and quantity </p>
                 <ul>
                     <li>                    
                         None available

@@ -20,6 +20,9 @@ import NewYorkCityArticle2 from './NYCArticles/NewYorkCityArticle2';
 import NewYorkCityArticle3 from './NYCArticles/NewYorkCityArticle3';
 import NewYorkCityArticle4 from './NYCArticles/NewYorkCityArticle4';
 import Article from './Article'
+import { Dropdown, DropdownButton } from 'react-bootstrap';
+
+import Navbarmenu from './Navbarmenu';
 
 class App extends React.Component {
   
@@ -31,45 +34,7 @@ class App extends React.Component {
     return (
     <div>
       <Router>
-          <nav id='navbar'>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/ticketMarketplace">Ticket Marketplace</Link>
-              </li>                      
-              {/* 
-              bars
-              nightclubs 
-              general attractions 
-              tour guide
-              festivals
-              hotels
-              speakeasies
-              */}
-            </ul>
-          </nav>
-          <div style = { {
-            width: '100%',
-            maxWidth: 360,
-            } }>
-            <List component="nav" aria-label="secondary mailbox folders" >
-              Cities
-              <ListItem button>
-                <Link to="/denver">Denver</Link>      
-              </ListItem>
-              <ListItem button>
-                <Link to="/lasvegas">Las Vegas</Link>       
-              </ListItem>
-              <ListItem button>
-                <Link to="/newyorkcity">New York City</Link>       
-              </ListItem>         
-              {/* <ListItemLink href="#simple-list">
-                <ListItemText primary="Spam" />
-              </ListItemLink> */}
-            </List>
-          </div>
+          <Navbarmenu/>
           <Switch>
             <Route exact path="/">
               <Home />
