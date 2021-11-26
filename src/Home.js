@@ -4,7 +4,7 @@ function Home() {
     return (
       <div className="App">              
         <h1> Lost Minds </h1>
-        <h2> Itinerary to travel USA cities so you don't waste time </h2>
+        <h2> You have come to the ultimate travel itinerary for all USA cities to help you not waste time when exploring </h2>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
     );

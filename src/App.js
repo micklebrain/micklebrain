@@ -36,9 +36,7 @@ class App extends React.Component {
       <Router>
           <Navbarmenu/>
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Route exact path="/"> <Home /> </Route>
             <Route exact path="/speakeasies" component={Speakeasy} />
             <Route exact path="/denver" component={Denver} />
             <Route exact path="/newyorkcity" component={NewYorkCity} />                        
