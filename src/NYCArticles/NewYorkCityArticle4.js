@@ -1,12 +1,5 @@
 import React from "react";
 
-import pie from '../images/pie.jpg';
-
-import {
-    Link,
-} from "react-router-dom";
-
-
 class NewYorkCityArticle4 extends React.Component {
 
     constructor(props) {
