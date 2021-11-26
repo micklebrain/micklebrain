@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
 const Navbarmenu = () => {
 
@@ -34,17 +35,18 @@ const Navbarmenu = () => {
         <header className="header__middle">
             <div className="container">
                 <div className="row">
+
                     <div className="header__middle__menus">
                         <nav className="main-nav " >
                             {/* Responsive Menu Button */}
                             {isResponsiveclose === true ? <>
-                                <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > </span>
+                                <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiXCircle /> </span>
                             </> : <>
-                                <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > </span>
+                                <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight /> </span>
                             </>}
                             <ul className={boxClass.join(' ')}>
                                 <li className="menu-item" > <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Lostminds </NavLink> </li>
-                                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Cities </Link>
+                                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Cities <FiChevronDown /> </Link>
                                     <ul className={boxClassSubMenu.join(' ')} >
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/denver`}> Denver </NavLink> </li>
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/lasvegas`}> Las Vegas </NavLink> </li>
