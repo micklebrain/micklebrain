@@ -65,9 +65,19 @@ table, th, td {
   border: 1px solid black;
 }
 
+/**** Article links ******/
+
 .article {
   height: 300px;
 }
+
+.articlePreview {
+  width: 75%;
+  display: block;
+  border-style: solid;  
+}
+
+/**** Article links ******/
 
 /********************** Half Split ******/
 
