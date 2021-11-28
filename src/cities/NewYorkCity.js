@@ -21,7 +21,7 @@ class NewYorkCity extends React.Component {
             <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> Best resturant in every NYC borough </Link>
             <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best resturant in every NYC neighborhood </Link>
             <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best resturant by every subway stop" /> Best resturant by every subway stop </Link>
-            <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Italian Trulli" /> Stuck on where to eat? </Link>
+            {/* <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Italian Trulli" /> Stuck on where to eat? </Link> */}
 
             {/* <h2>  Top attractions </h2>
             <ul>

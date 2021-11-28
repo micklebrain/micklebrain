@@ -107,17 +107,19 @@ class Denver extends React.Component {
                 {/* <div> Recommended dish : { resturant.topDish } </div> */}
             </div>
         );
-
-        
-
         return (<div>             
-            <h1> September, 2021 top resturants in Denver </h1>
+            <h1> September, 2021 top resturants in Denver </h1>                 
+            <div class="split left">
+            <div class="centered">
+                {resturantsList}
+            </div>
+            </div>
 
-            <h2> Uber eats promo code: eats-sxnvv </h2>
-                 
-            { resturantsList }
-
-            <div id="map"></div>
+            <div class="split right">
+            <div id="map" class="centered">
+                <div id="map"></div>
+            </div>
+            </div>
      
         </div>)
     }
