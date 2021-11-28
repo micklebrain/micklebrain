@@ -108,7 +108,7 @@ class Denver extends React.Component {
             </div>
         );
         return (<div>             
-            <h1> September, 2021 top resturants in Denver </h1>                 
+            <h1> December, 2021 top resturants in Denver </h1>                 
             <div class="split left">
             <div class="centered">
                 {resturantsList}
