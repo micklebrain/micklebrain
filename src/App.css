@@ -76,7 +76,9 @@ table, th, td {
 .articlePreview {
   width: 50%;
   display: block;
-  border-style: solid;  
+  border-style: solid;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /**** Article links ******/
