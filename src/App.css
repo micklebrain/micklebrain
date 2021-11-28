@@ -69,10 +69,12 @@ table, th, td {
 
 .article {
   height: 300px;
+  width: 300px;
+  object-fit: contain;
 }
 
 .articlePreview {
-  width: 75%;
+  width: 50%;
   display: block;
   border-style: solid;  
 }
