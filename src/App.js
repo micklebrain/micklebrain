@@ -8,9 +8,13 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+
+import Chicago from './cities/Chicago';
 import Denver from './cities/Denver';
 import NewYorkCity from './cities/NewYorkCity';
-import TopVegasResturants from './TopVegasResturants';
+import SanFrancisco from './cities/SanFrancisco';
+import LasVegas from './cities/LasVegas';
+
 import TicketMarketplace from './TicketMarketplace';
 import NewYorkCityArticle from './NYCArticles/NewYorkCityArticle';
 import NewYorkCityArticle2 from './NYCArticles/NewYorkCityArticle2';
@@ -29,12 +33,15 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/"> <Home /> </Route>
             <Route exact path="/speakeasies" component={Speakeasy} />
+
+            <Route exact path="/chicago" component={Chicago} />
             <Route exact path="/denver" component={Denver} />
-            <Route exact path="/newyorkcity" component={NewYorkCity} />                        
-            <Route exact path="/topvegasresturants" component={TopVegasResturants} />
-            <Route exact path="/hotels" component={Hotels} />   
+            <Route exact path="/newyorkcity" component={NewYorkCity} />
+            <Route exact path="/sanfrancisco" component={SanFrancisco} />
+            <Route exact path="/lasvegas" component={LasVegas} />
+
+            <Route exact path="/hotels" component={Hotels} />               
             <Route exact path="/ticketMarketplace" component={TicketMarketplace} />
-            
             <Route exact path="/article" component={Article} />
             <Route exact path="/NYCarticle" component={NewYorkCityArticle} />
             <Route exact path="/NYCarticle2" component={NewYorkCityArticle2} />
