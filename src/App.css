@@ -74,11 +74,12 @@ table, th, td {
 }
 
 .articlePreview {
-  width: 50%;
-  display: block;
-  border-style: solid;
+  width: 50%;  
+  /* border-style: solid; */
   font-weight: bold;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 /**** Article links ******/
@@ -335,3 +336,7 @@ li {
 }
 
 /************ Nav Bar ***********/
+ 
+span {
+  padding: 10px;
+}

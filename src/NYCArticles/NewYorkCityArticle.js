@@ -42,9 +42,6 @@ class NewYorkCityArticle extends React.Component {
                 <h1> Best resturant by every subway stop </h1>                     
                 <table>
                     <tr>
-                        <td> A Line </td>                                            
-                    </tr>
-                    <tr>
                         <td> Inwood 207 St </td>                    
                         <td> Guadalupe </td>
                     </tr>
@@ -65,7 +62,6 @@ class NewYorkCityArticle extends React.Component {
                 <h2> 175 St - Malecon </h2>            
                 <h2> 168 St - Jaya </h2>
                 <h2> 145 St - Chopped parsley </h2>
-
                 <h2> 168 St - </h2>
                 <h2> 125 St - </h2>
                 <h2> 59 St Columbus Circle - </h2>
@@ -88,9 +84,7 @@ class NewYorkCityArticle extends React.Component {
                 <h2> Grant Av - </h2>                
                 <h2> 80 St - </h2>
                 <h2> 88 St - </h2>
-                <h2> Rockaway Blvd - </h2>
-                <h1> B line </h1>
-
+                <h2> Rockaway Blvd - </h2>                
         </div>)
     }
 }
