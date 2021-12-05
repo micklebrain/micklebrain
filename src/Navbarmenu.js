@@ -45,7 +45,7 @@ const Navbarmenu = () => {
                                 <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight /> </span>
                             </>}
                             <ul className={boxClass.join(' ')}>
-                                <li className="menu-item" > <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Lostminds </NavLink> </li>
+                                <li className="menu-item" > <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Micklebrain </NavLink> </li>
                                 <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Cities <FiChevronDown /> </Link>
                                     <ul className={boxClassSubMenu.join(' ')} >
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/chicago`}> Chicago </NavLink> </li>
