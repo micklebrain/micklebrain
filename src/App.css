@@ -71,6 +71,7 @@ table, th, td {
   height: 300px;
   width: 300px;
   object-fit: contain;
+  margin: 20px;
 }
 
 .articlePreview {

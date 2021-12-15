@@ -40,25 +40,10 @@ class NewYorkCityArticle extends React.Component {
             
             <div>       
                 <h1> Best resturant by every subway stop </h1>                     
-                <table>
-                    <tr>
-                        <td> Inwood 207 St </td>                    
-                        <td> Guadalupe </td>
-                    </tr>
-                    <tr>
-                        <td> Dyckman St </td>                    
-                        <td> International Food House </td>
-                    </tr>
-                    <tr>
-                        <td> 190 St </td>
-                        <td> No.1 Tex-Mex Express </td>
-                    </tr>
-                    <tr>
-                        <td> 181 St </td>
-                        <td> Burger Heights </td>
-                    </tr>
-                </table>                   
-                                                             
+                <h2> Inwood 207 St - Guadalupe </h2>
+                <h2> Dyckman St - International Food House </h2>
+                <h2> 190 St - No.1 Tex-Mex Express </h2>
+                <h2> 181 St - Burger Heights </h2>
                 <h2> 175 St - Malecon </h2>            
                 <h2> 168 St - Jaya </h2>
                 <h2> 145 St - Chopped parsley </h2>
