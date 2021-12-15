@@ -11,7 +11,7 @@ class NewYorkCity extends React.Component {
 
     render() {
         return (<div>
-            <h2> New York City travel guide </h2>
+            <h1> New York City travel guide </h1>
             <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> <span> Best resturant in all five NYC boroughs </span> </Link>
             <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best resturant in every NYC neighborhood </Link>
             <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best resturant by every subway stop" /> Best resturant by every subway stop </Link>
