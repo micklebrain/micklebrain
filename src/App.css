@@ -341,3 +341,9 @@ li {
 span {
   padding: 10px;
 }
+
+a {
+  text-align: center;
+  display:block;
+  color: black;
+}
