@@ -22,7 +22,7 @@ class NewYorkCityArticle2 extends React.Component {
                 <a href="https://www.grubhub.com/restaurant/raclette-195-avenue-a-new-york/305505" target="_blank"> Alphabet City - Raclette </a>
                 <a href="https://www.grubhub.com/restaurant/dig---madison-square-16-e-23rd-st-new-york/304579" target="_blank"> Battery Park City - Dig </a>
                 <h2> Central Park - Express Cafe in the Loeb Boathouse </h2>
-                <h2> Chelsea - Bottino </h2>
+                <a href="https://www.grubhub.com/restaurant/bottino-246-10th-ave-new-york/457634" target="_blank"> Chelsea - Bottino </a>                
                 <h2> Chinatown - Kong Sihk Tong </h2>
                 <h2> Civic Center - Potbelly Sandwich Shop </h2>        
                 <h2> East Harlem - Texas Chicken and Burgers </h2>
