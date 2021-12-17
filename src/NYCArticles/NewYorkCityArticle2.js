@@ -1,6 +1,7 @@
 import React from "react";
 
 import grubhubIcon from '../images/grubhub.png'
+import resyIcon from '../images/resy_icon.png'
 
 class NewYorkCityArticle2 extends React.Component {
 
@@ -13,27 +14,36 @@ class NewYorkCityArticle2 extends React.Component {
         }
     }
 
-    async componentDidMount() {      
-                
+    async componentDidMount() {
+
     }
 
-    render() {            
-        return (<div>       
-            <div>     
-                <h1> Best resturant in every Manhattan neighborhood </h1>                   
-                <h2> Alphabet City - Raclette </h2> <a href="https://www.grubhub.com/restaurant/raclette-195-avenue-a-new-york/305505" target="_blank"> <img src={grubhubIcon} alt="Raclette" width="50" height="50"/> </a>
-                <h2> Battery Park City - Dig </h2> <a href="https://www.grubhub.com/restaurant/dig---madison-square-16-e-23rd-st-new-york/304579" target="_blank"> <img src={grubhubIcon} alt="Raclette" width="50" height="50"/> </a>
+    render() {
+        return (<div>
+            <div>
+                <h1> Best resturant in every Manhattan neighborhood </h1>
+                <h2> Alphabet City - Raclette </h2> <a href="https://www.grubhub.com/restaurant/raclette-195-avenue-a-new-york/305505" target="_blank"> <img src={grubhubIcon} alt="Raclette" width="50" height="50" /> </a>
+                <h2> Battery Park City - Liberty Bistro </h2>
+                <div class="row">
+                    <div class="column">
+                        <a href="https://www.grubhub.com/restaurant/liberty-cafe-37-w-43rd-st-new-york/80141" target="_blank"> <img src={grubhubIcon} alt="Liberty Bistro" width="100" height="100" /> </a>
+
+                    </div>
+                    <div class="column">
+                        <a href="https://resy.com/cities/ny/liberty-bistro?date=2021-12-17&seats=2" target="_blank"> <img src={resyIcon} alt="Liberty Bistro" width="100" height="100" /> </a>
+                    </div>
+                </div>
                 <h2> Central Park - Express Cafe in the Loeb Boathouse </h2>
-                <h2> Chelsea - Bottino </h2> <a href="https://www.grubhub.com/restaurant/bottino-246-10th-ave-new-york/457634" target="_blank"> <img src={grubhubIcon} alt="Bottino" width="50" height="50"/> </a>
-                <h2> Chinatown - Kong Sihk Tong <a href="https://www.grubhub.com/restaurant/new-kim-tong-1722-amsterdam-ave-new-york/320818" target="_blank"> <img src={grubhubIcon} alt="Kong Sihk Tong" width="50" height="50"/> </a> </h2>
-                <h2> Civic Center - Potbelly Sandwich Shop </h2>        
+                <h2> Chelsea - Bottino </h2> <a href="https://www.grubhub.com/restaurant/bottino-246-10th-ave-new-york/457634" target="_blank"> <img src={grubhubIcon} alt="Bottino" width="50" height="50" /> </a>
+                <h2> Chinatown - Kong Sihk Tong <a href="https://www.grubhub.com/restaurant/new-kim-tong-1722-amsterdam-ave-new-york/320818" target="_blank"> <img src={grubhubIcon} alt="Kong Sihk Tong" width="50" height="50" /> </a> </h2>
+                <h2> Civic Center - Potbelly Sandwich Shop </h2>
                 <h2> East Harlem - Texas Chicken and Burgers </h2>
                 <h2> East Village - Nowan </h2>
                 <h2> Financial District - Bao Bao </h2>
                 <h2> Flatiron District - Upland </h2>
                 <h2> Garment district - Chef Yu </h2>
                 <h2> Gramercy - Bite </h2>
-                <h2> Greenwich village - Tue Thai Food </h2>                
+                <h2> Greenwich village - Tue Thai Food </h2>
                 <h2> Harlem - Manna's </h2>
                 <h2> Hell's Kitchen - Yum Yum Too </h2>
                 <h2> Hudson Square - Ear Inn </h2>
@@ -54,12 +64,12 @@ class NewYorkCityArticle2 extends React.Component {
                 <h2> Roosevelt Island - Granny Annie's Bar and Kitchen </h2>
                 <h2> SOHO - Fanelli’s Cafe </h2>
                 <h2> Stuyvesant Town - Ess-a-Bagel </h2>
-                <h2> Tribeca - Bubby's </h2>                
+                <h2> Tribeca - Bubby's </h2>
                 <h2> Union Square - Breads Bakery </h2>
                 <h2> Upper East Side - Vietnaam </h2>
                 <h2> Upper West Side - Sushi Kaito </h2>
                 <h2> West Village - L'Artusi </h2>
-            </div>    
+            </div>
         </div>)
     }
 }
