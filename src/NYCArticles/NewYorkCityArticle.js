@@ -46,14 +46,14 @@ class NewYorkCityArticle extends React.Component {
                 <h2> 175 St - Malecon </h2>            
                 <h2> 168 St - Jaya </h2>
                 <h2> 145 St - Chopped parsley </h2>
-                <h2> 168 St - </h2>
-                <h2> 125 St - </h2>
-                <h2> 59 St Columbus Circle - </h2>
+                <h2> 168 St - Dallas BBQ Washington Heights </h2>
+                <h2> 125 St - Clay </h2>
+                <h2> 59 St Columbus Circle - Marea </h2>
                 <h2> 42 St/Port Authority Bus Terminal - </h2>
                 <h2> 34 St Penn Station - </h2>
-                <h2> 14 St </h2>
-                <h2> W 4 St Wash Sq - </h2>
-                <h2> Canal St - </h2>
+                <h2> 14 St Semma subway station</h2>
+                <h2> W 4 St Wash Sq - Down the Hatch </h2>
+                <h2> Canal St - Veranda </h2>
                 <h2> Chambers St - </h2>
                 <h2> Fulton St - </h2>
                 <h2> High St - </h2>
