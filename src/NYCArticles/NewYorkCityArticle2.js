@@ -1,7 +1,9 @@
 import React from "react";
 
 import grubhubIcon from '../images/grubhub.png'
+import postmatesIcon from '../images/Postmates_Icon.png'
 import resyIcon from '../images/resy_icon.png'
+import uberEatsIcon from '../images/Uber-Eats-Icon.png'
 
 class NewYorkCityArticle2 extends React.Component {
 
@@ -22,15 +24,21 @@ class NewYorkCityArticle2 extends React.Component {
         return (<div>
             <div>
                 <h1> Best resturant in every Manhattan neighborhood </h1>
-                <h2> Alphabet City - Raclette </h2> <a href="https://www.grubhub.com/restaurant/raclette-195-avenue-a-new-york/305505" target="_blank"> <img src={grubhubIcon} alt="Raclette" width="50" height="50" /> </a>
+                <h2> Alphabet City - Raclette </h2> <a href="https://www.grubhub.com/restaurant/raclette-195-avenue-a-new-york/305505" target="_blank"> <img src={grubhubIcon} alt="Raclette" width="75" height="75" /> </a>
                 <h2> Battery Park City - Liberty Bistro </h2>
                 <div class="row">
                     <div class="column">
-                        <a href="https://www.grubhub.com/restaurant/liberty-cafe-37-w-43rd-st-new-york/80141" target="_blank"> <img src={grubhubIcon} alt="Liberty Bistro" width="100" height="100" /> </a>
+                        <a href="https://www.grubhub.com/restaurant/liberty-cafe-37-w-43rd-st-new-york/80141" target="_blank"> <img src={grubhubIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
 
                     </div>
                     <div class="column">
-                        <a href="https://resy.com/cities/ny/liberty-bistro?date=2021-12-17&seats=2" target="_blank"> <img src={resyIcon} alt="Liberty Bistro" width="100" height="100" /> </a>
+                        <a href="https://resy.com/cities/ny/liberty-bistro?date=2021-12-17&seats=2" target="_blank"> <img src={resyIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.ubereats.com/store/liberty-cafe/8o7ZV6QVS96r_2fRh5ankw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjkyOCUyMFBvbnRlbm92YSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpGLUlTNTluVndvQVI3RGplcW9PT3h6OCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EzNC4wMTEzMTg5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTExNy45NTk2MTE5JTdE" target="_blank"> <img src={uberEatsIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                    </div>
+                    <div class="column">
+                        <a href="" target="_blank"> <img src={postmatesIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
                     </div>
                 </div>
                 <h2> Central Park - Express Cafe in the Loeb Boathouse </h2>
@@ -65,7 +73,7 @@ class NewYorkCityArticle2 extends React.Component {
                 <h2> SOHO - Fanelli’s Cafe </h2>
                 <h2> Stuyvesant Town - Ess-a-Bagel </h2>
                 <h2> Tribeca - Bubby's </h2>
-                <h2> Union Square - Breads Bakery </h2>
+                <h2> Union Square - Tsurutontan Udon Noodle Brasserie </h2>
                 <h2> Upper East Side - Vietnaam </h2>
                 <h2> Upper West Side - Sushi Kaito </h2>
                 <h2> West Village - L'Artusi </h2>

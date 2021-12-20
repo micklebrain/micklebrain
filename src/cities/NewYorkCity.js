@@ -1,6 +1,5 @@
 import React from "react";
 import nycboroughs from '../images/boroughs.png'
-import pie from '../images/pie.jpg';
 import nycneighborhoods from '../images/neighborhoods.jpeg';
 import nycsubway from '../images/nyc-subway.jpeg';
 import {
@@ -9,14 +8,30 @@ import {
 
 class NewYorkCity extends React.Component {
 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            itinerary: [],
+        }
+    }
+
+    addToItinerary() {
+        console.log('Add to itin');
+        let itinerary = this.state.itinerary;
+        itinerary.push("movies");
+        this.setState({ itinerary: itinerary });        
+    }
+
     render() {
         return (<div>
-            <h1> New York City travel guide </h1>
+            <h1> New York City travel guide </h1>            
             <h2> Upcoming Events </h2>
-            <ul> 
-                <li> Radio City Christmas Spectacular Dec 19, All Day Event  1260 6th Avenue, New York </li>
+            <ul>                 
                 <li> Lady of Haven Fatima Jan 2, 3pm to 6pm  4867 58 STREET Queens, Parade </li>
+                {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
                 <li> New York Botanical Garden Holiday Train Show Jan 22, All Day Event  2900 Southern Boulevard, Bronx </li>
+                <li> David Bryne Jan 29 St. James Theatre </li>
             </ul>
             <h2> Top attractions </h2>
             <ul>
