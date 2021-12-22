@@ -76,11 +76,6 @@ class NewYorkCityArticle2 extends React.Component {
 
                 {resturantsList}
                 
-                <h2> Civic Center - Potbelly Sandwich Shop </h2>
-                <h2> East Harlem - Texas Chicken and Burgers </h2>
-                <h2> East Village - Nowan </h2>
-                <h2> Financial District - Bao Bao </h2>
-                <h2> Flatiron District - Upland </h2>
                 <h2> Garment district - Chef Yu </h2>
                 <h2> Gramercy - Bite </h2>
                 <h2> Greenwich village - Tue Thai Food </h2>
