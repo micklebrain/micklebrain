@@ -16,11 +16,14 @@ class NewYorkCity extends React.Component {
         }
     }
 
-    addToItinerary() {
-        console.log('Add to itin');
+    addToItinerary() {        
         let itinerary = this.state.itinerary;
         itinerary.push("movies");
         this.setState({ itinerary: itinerary });        
+    }
+
+    getResturants() {
+
     }
 
     render() {
@@ -35,8 +38,8 @@ class NewYorkCity extends React.Component {
             </ul>
             <h2> Top attractions </h2>
             <ul>
-                <li> <a href="https://www.hudsonyardsnewyork.com/discover/vessel"> Vessel </a> </li>
-                <li> <a href="https://www.esbnyc.com/"> Empire State Building lookout </a> </li>                
+                <li> <a href="https://www.hudsonyardsnewyork.com/discover/vessel" target="_blank"> Vessel </a> </li>
+                <li> <a href="https://www.esbnyc.com/" target="_blank"> Empire State Building lookout </a> </li>                
             </ul>
             <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> Best resturant in all five NYC boroughs </Link>
             <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best resturant in every NYC neighborhood </Link>

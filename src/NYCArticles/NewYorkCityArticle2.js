@@ -17,30 +17,65 @@ class NewYorkCityArticle2 extends React.Component {
     }
 
     async componentDidMount() {
+        this.getResturants();
+    }
 
+    getResturants() {
+        var requestOptions = {
+            method: 'GET',
+        };
+
+        fetch(
+            "https://lostmindsbackend.vercel.app/boroughresturants", requestOptions)
+            // "http://localhost:3000/boroughresturants", requestOptions)
+            .then(response => response.text())
+            .then(response => {
+                var resyJson = JSON.parse(response);
+
+                resyJson['doc'].forEach(resturant => {
+                    const res = {
+                        name: resturant['name'],
+                        neighborhood: resturant['neighborhood'],
+                        grubhubLink: resturant['GrubhubLink'],
+                        resyLink: resturant['ResyLink']
+                    }
+                    let resturants = this.state.resturantDetails;
+                    resturants.push(res);
+                    this.setState({ resturantDetails: resturants });
+                });
+            })
+            .catch(error => console.log('error', error));
     }
 
     render() {
-        return (<div>
+        const resturantDetails = this.state.resturantDetails
+        const resturantsList = resturantDetails.map((resturant) =>
             <div>
-                <h1> Best resturant in every Manhattan neighborhood </h1>
-                <h2> Alphabet City - Raclette </h2> <a href="https://www.grubhub.com/restaurant/raclette-195-avenue-a-new-york/305505" target="_blank"> <img src={grubhubIcon} alt="Raclette" width="75" height="75" /> </a>
-                <h2> Battery Park City - Liberty Bistro </h2>
+                <h2> {resturant.neighborhood} - {resturant.name} </h2>
                 <div class="row">
                     <div class="column">
-                        <a href="https://www.grubhub.com/restaurant/liberty-cafe-37-w-43rd-st-new-york/80141" target="_blank"> <img src={grubhubIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                        <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                    </div>
+                    <div class="column">
+                        <a href={resturant.resyLink} target="_blank"> <img src={resyIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                    </div>
+                    <div class="column">
+                        <a href={resturant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                    </div>
+                    <div class="column">
+                        <a href={resturant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
+                    </div>
+                </div>           
+            </div>
+        );
 
-                    </div>
-                    <div class="column">
-                        <a href="https://resy.com/cities/ny/liberty-bistro?date=2021-12-17&seats=2" target="_blank"> <img src={resyIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
-                    </div>
-                    <div class="column">
-                        <a href="https://www.ubereats.com/store/liberty-cafe/8o7ZV6QVS96r_2fRh5ankw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjkyOCUyMFBvbnRlbm92YSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpGLUlTNTluVndvQVI3RGplcW9PT3h6OCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EzNC4wMTEzMTg5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTExNy45NTk2MTE5JTdE" target="_blank"> <img src={uberEatsIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
-                    </div>
-                    <div class="column">
-                        <a href="" target="_blank"> <img src={postmatesIcon} alt="Liberty Bistro" width="75" height="75" /> </a>
-                    </div>
-                </div>
+        return (<div>
+            <div>
+        
+                <h1> Best resturant in every Manhattan neighborhood </h1>
+
+                {resturantsList}
+                
                 <h2> Central Park - Express Cafe in the Loeb Boathouse </h2>
                 <h2> Chelsea - Bottino </h2> <a href="https://www.grubhub.com/restaurant/bottino-246-10th-ave-new-york/457634" target="_blank"> <img src={grubhubIcon} alt="Bottino" width="50" height="50" /> </a>
                 <h2> Chinatown - Kong Sihk Tong <a href="https://www.grubhub.com/restaurant/new-kim-tong-1722-amsterdam-ave-new-york/320818" target="_blank"> <img src={grubhubIcon} alt="Kong Sihk Tong" width="50" height="50" /> </a> </h2>

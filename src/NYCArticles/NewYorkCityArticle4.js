@@ -16,7 +16,8 @@ class NewYorkCityArticle4 extends React.Component {
             method: 'GET',
         };
 
-        fetch("https://lostmindsbackend.vercel.app/resturants/newyorkcity", requestOptions)
+        fetch(
+            "https://lostmindsbackend.vercel.app/resturants/newyorkcity", requestOptions)
             // fetch("http://localhost:3000/resturants/newyorkcity", requestOptions)
             .then(response => response.text())
             .then(response => {
