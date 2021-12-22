@@ -76,34 +76,6 @@ class NewYorkCityArticle2 extends React.Component {
 
                 {resturantsList}
                 
-                <h2> Garment district - Chef Yu </h2>
-                <h2> Gramercy - Bite </h2>
-                <h2> Greenwich village - Tue Thai Food </h2>
-                <h2> Harlem - Manna's </h2>
-                <h2> Hell's Kitchen - Yum Yum Too </h2>
-                <h2> Hudson Square - Ear Inn </h2>
-                <h2> Inwood - La Casa del Mofongo and Piano Bar </h2>
-                <h2> Kips Bay - Soft Swerve </h2>
-                <h2> Koreatown - Antoya KBBQ </h2>
-                <h2> Lower East Side - Sweet Chick </h2>
-                <h2> Little Italy - Gelso and Grand </h2>
-                <h2> Meatpacking District - Catch NYC </h2>
-                <h2> Midtown East - Obao </h2>
-                <h2> Midtown South - Chef Yu </h2>
-                <h2> Midtown West - Ivan Ramen Slurp Shop </h2>
-                <h2> Morning Side Heights - Tom's </h2>
-                <h2> Murray Hill - Sushi Ryusei </h2>
-                <h2> NoHo - Lafayette Grand Café and Bakery </h2>
-                <h2> Nolita - Rubirosa </h2>
-                <h2> NOMAD - KazuNori </h2>
-                <h2> Roosevelt Island - Granny Annie's Bar and Kitchen </h2>
-                <h2> SOHO - Fanelli’s Cafe </h2>
-                <h2> Stuyvesant Town - Ess-a-Bagel </h2>
-                <h2> Tribeca - Bubby's </h2>
-                <h2> Union Square - Tsurutontan Udon Noodle Brasserie </h2>
-                <h2> Upper East Side - Vietnaam </h2>
-                <h2> Upper West Side - Sushi Kaito </h2>
-                <h2> West Village - L'Artusi </h2>
             </div>
         </div>)
     }
