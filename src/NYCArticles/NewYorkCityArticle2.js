@@ -1,6 +1,6 @@
 import React from "react";
 
-import grubhubIcon from '../images/grubhub.png'
+import grubhubIcon from '../images/grubhubIcon.png'
 import postmatesIcon from '../images/Postmates_Icon.png'
 import resyIcon from '../images/resy_icon.png'
 import uberEatsIcon from '../images/Uber-Eats-Icon.png'
