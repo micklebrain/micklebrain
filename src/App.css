@@ -348,7 +348,8 @@ span {
 
 a {
   text-align: center;
-  display:block;  
+  display:block;
+  color: black;
 }
 
 /******** Icons ************/
