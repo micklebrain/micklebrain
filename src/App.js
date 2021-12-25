@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 
+import Atlanta from './cities/Atlanta';
 import Chicago from './cities/Chicago';
 import Denver from './cities/Denver';
 import NewYorkCity from './cities/NewYorkCity';
@@ -17,13 +18,14 @@ import LasVegas from './cities/LasVegas';
 
 import TicketMarketplace from './TicketMarketplace';
 
-import ChicagoArticle from './ChicagoArticles/ChicagoArticle';
-import LasVegasArticle from './LasVegasArticles/LasVegasArticle';
-import NewYorkCityArticle from './NYCArticles/NewYorkCityArticle';
-import NewYorkCityArticle2 from './NYCArticles/NewYorkCityArticle2';
-import NewYorkCityArticle3 from './NYCArticles/NewYorkCityArticle3';
-import NewYorkCityArticle4 from './NYCArticles/NewYorkCityArticle4';
-import SanFranciscoArticle from './SanFranciscoArticles/SanFranciscoArticle';
+import ChicagoArticle from './articles/ChicagoArticles/ChicagoArticle';
+import LasVegasArticle from './articles/LasVegasArticles/LasVegasArticle';
+import NewYorkCityArticle from './articles/NYCArticles/NewYorkCityArticle';
+import NewYorkCityArticle2 from './articles/NYCArticles/NewYorkCityArticle2';
+import NewYorkCityArticle3 from './articles/NYCArticles/NewYorkCityArticle3';
+import NewYorkCityArticle4 from './articles/NYCArticles/NewYorkCityArticle4';
+import NewYorkCityArticle5 from './articles/NYCArticles/NewYorkCityArticle5';
+import SanFranciscoArticle from './articles/SanFranciscoArticles/SanFranciscoArticle';
 
 import Article from './Article'
 
@@ -39,6 +41,7 @@ class App extends React.Component {
             <Route exact path="/"> <Home /> </Route>
             <Route exact path="/speakeasies" component={Speakeasy} />
 
+            <Route exact path="/atlanta" component={Atlanta} />
             <Route exact path="/chicago" component={Chicago} />
             <Route exact path="/denver" component={Denver} />
             <Route exact path="/newyorkcity" component={NewYorkCity} />
@@ -55,6 +58,7 @@ class App extends React.Component {
             <Route exact path="/NYCarticle2" component={NewYorkCityArticle2} />
             <Route exact path="/NYCarticle3" component={NewYorkCityArticle3} />
             <Route exact path="/NYCarticle4" component={NewYorkCityArticle4} />
+            <Route exact path="/NYCarticle5" component={NewYorkCityArticle5} />
             <Route exact path="/SanFranciscoArticle" component={SanFranciscoArticle} />
           </Switch>          
       </Router>      

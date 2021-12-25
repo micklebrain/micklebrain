@@ -1,9 +1,9 @@
 import React from "react";
 
-import grubhubIcon from '../images/grubhubIcon.png'
-import postmatesIcon from '../images/Postmates_Icon.png'
-import resyIcon from '../images/resy_icon.png'
-import uberEatsIcon from '../images/Uber-Eats-Icon.png'
+import grubhubIcon from '../../images/grubhubIcon.png'
+import postmatesIcon from '../../images/Postmates_Icon.png'
+import resyIcon from '../../images/resy_icon.png'
+import uberEatsIcon from '../../images/Uber-Eats-Icon.png'
 
 class NewYorkCityArticle2 extends React.Component {
 
@@ -59,16 +59,16 @@ class NewYorkCityArticle2 extends React.Component {
                 <h2> {resturant.neighborhood} - {resturant.name} </h2>
                 <div class="row">
                     <div class="column">
-                        <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Liberty Bistro" width="50" height="50" /> </a>
+                        <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
                     </div>
                     <div class="column">
-                        <a href={resturant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Liberty Bistro" width="50" height="50" /> </a>
+                        <a href={resturant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Postmates" width="50" height="50" /> </a>
                     </div>
                     <div class="column">
-                        <a href={resturant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Liberty Bistro" width="50" height="50" /> </a>
+                        <a href={resturant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
                     </div>
                     <div class="column">
-                        <a href={resturant.resyLink} target="_blank"> <img src={resyIcon} alt="Liberty Bistro" width="50" height="50" /> </a>
+                        <a href={resturant.resyLink} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>
                     </div>
                 </div>           
             </div>
