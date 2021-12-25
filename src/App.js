@@ -16,10 +16,15 @@ import SanFrancisco from './cities/SanFrancisco';
 import LasVegas from './cities/LasVegas';
 
 import TicketMarketplace from './TicketMarketplace';
+
+import ChicagoArticle from './ChicagoArticles/ChicagoArticle';
+import LasVegasArticle from './LasVegasArticles/LasVegasArticle';
 import NewYorkCityArticle from './NYCArticles/NewYorkCityArticle';
 import NewYorkCityArticle2 from './NYCArticles/NewYorkCityArticle2';
 import NewYorkCityArticle3 from './NYCArticles/NewYorkCityArticle3';
 import NewYorkCityArticle4 from './NYCArticles/NewYorkCityArticle4';
+import SanFranciscoArticle from './SanFranciscoArticles/SanFranciscoArticle';
+
 import Article from './Article'
 
 import Navbarmenu from './Navbarmenu';
@@ -43,10 +48,14 @@ class App extends React.Component {
             <Route exact path="/hotels" component={Hotels} />               
             <Route exact path="/ticketMarketplace" component={TicketMarketplace} />
             <Route exact path="/article" component={Article} />
+
+            <Route exact path="/ChicagoArticle" component={ChicagoArticle} />
+            <Route exact path="/LasVegasArticle" component={LasVegasArticle} />
             <Route exact path="/NYCarticle" component={NewYorkCityArticle} />
             <Route exact path="/NYCarticle2" component={NewYorkCityArticle2} />
             <Route exact path="/NYCarticle3" component={NewYorkCityArticle3} />
             <Route exact path="/NYCarticle4" component={NewYorkCityArticle4} />
+            <Route exact path="/SanFranciscoArticle" component={SanFranciscoArticle} />
           </Switch>          
       </Router>      
     </div>)
