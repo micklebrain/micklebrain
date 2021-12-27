@@ -40,6 +40,7 @@ class NewYorkCityArticle2 extends React.Component {
                 resyJson['doc'].forEach(resturant => {
                     const res = {
                         name: resturant['name'],
+                        address: resturant['address'],
                         neighborhood: resturant['neighborhood'],
                         grubhubLink: resturant['GrubhubLink'],
                         resyLink: resturant['ResyLink']
@@ -57,6 +58,7 @@ class NewYorkCityArticle2 extends React.Component {
         const resturantsList = resturantDetails.map((resturant) =>
             <div>
                 <h2> {resturant.neighborhood} - {resturant.name} </h2>
+                <h2> {resturant.address} </h2>
                 <div class="row">
                     <div class="column">
                         <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
