@@ -122,12 +122,6 @@ class NewYorkCityArticle4 extends React.Component {
                     <div id="map"></div>
                 </div>
             </div>
-
-            {/* <h2>  Top attractions </h2>
-            <ul>
-                <li> https://www.hudsonyardsnewyork.com/discover/vessel </li>                
-                <li> https://www.esbnyc.com/ </li>
-            </ul> */}
         </div>)
     }
 }
