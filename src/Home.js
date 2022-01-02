@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <div className="App">
-      <h1> Lost Minds </h1>
+      <h1> Micklebrain </h1>
       <h2> Find amazing travel itineraries catered to every city </h2>
       <h2> Food delivery promo codes </h2>
             <ul>

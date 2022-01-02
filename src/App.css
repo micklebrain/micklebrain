@@ -76,8 +76,7 @@ table, th, td {
 }
 
 .articlePreview {
-  width: 50%;  
-  /* border-style: solid; */
+  width: 100%;    
   font-weight: bold;
   text-decoration: none;
   display: flex;
@@ -90,12 +89,12 @@ table, th, td {
 
 /* Split the screen in half */
 .split {
-  height: 100%;
   width: 50%;
   position: fixed;
-  z-index: -1;
-  /* top: 20; */
-  overflow-x: hidden;
+  margin-top: 210px;
+
+  /* z-index: -1; */
+  /* overflow-x: hidden; */
   /* padding-top: 100px; */
 }
 
@@ -360,9 +359,34 @@ a {
   padding: 5px;
 }
 
-/* Clear floats after image containers */
-.row::after {
+.container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* main split */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-main {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */  
+}
+
+/* Clear floats after the columns */
+.row:after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-main {
+    width: 100%;
+  }
 }

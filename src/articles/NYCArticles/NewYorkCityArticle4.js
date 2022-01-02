@@ -102,7 +102,7 @@ class NewYorkCityArticle4 extends React.Component {
             <div style={{ textAlign: "center" }}  >
                 <h2> {resturant.name} </h2>
                 <div> {resturant.address} </div>
-                {/* <div> Recommended dish: {resturant.recommendedDish} </div> */}
+                <div> Recommended dish: {resturant.recommendedDish} </div>
                 {/* <div> { resturant.region } </div> */}
                 {/* <div> Recommended dish : { resturant.topDish } </div> */}
             </div>
@@ -111,16 +111,12 @@ class NewYorkCityArticle4 extends React.Component {
         return (            
         <div>
             <h1> December, 2021 top resturant in each New York borough </h1>
-            <div class="split left">
-                <div class="centered">
-                    {resturantsList}
-                </div>
+            <div class="column-main">                
+                {resturantsList}
             </div>
 
-            <div class="split right">
-                <div id="map" class="centered">
-                    <div id="map"></div>
-                </div>
+            <div class="column-main">                
+                <div id="map"></div>                
             </div>
         </div>)
     }

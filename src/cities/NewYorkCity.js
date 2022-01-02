@@ -27,7 +27,7 @@ class NewYorkCity extends React.Component {
     }
 
     render() {
-        return (<div>
+        return (<div>            
             <h1> New York City guide </h1>            
             <h2> Upcoming Events </h2>
             <ul>                 
@@ -43,11 +43,15 @@ class NewYorkCity extends React.Component {
                 <li> <a href="https://www.onevanderbilt.com/" target="_blank"> One Vanderbilt </a> </li>
                 <li> <a href="https://www.hudsonyardsnewyork.com/discover/vessel" target="_blank"> Vessel </a> </li>
             </ul>
-            <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> Best Resturant in All Five NYC Boroughs </Link>
-            <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best Resturant in Every NYC Neighborhood </Link>
-            <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best resturant by every subway stop" /> Best Resturant by Every Subway Stop </Link>
-            <Link to="/NYCarticle5" class="articlePreview"> <img class="article" src={nycsubway} alt="Every broadway show" /> Every broadway show </Link>
-            {/* <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Find a place to eat through survey" /> Stuck on where to eat? </Link> */}
+            <div class="column-main">
+                <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> Best Resturant in All Five NYC Boroughs </Link>
+                <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best Resturant in Every NYC Neighborhood </Link>                
+                {/* <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Find a place to eat through survey" /> Stuck on where to eat? </Link> */}
+            </div>
+            <div class="column-main">
+                <Link to="/NYCarticle5" class="articlePreview"> <img class="article" src={nycsubway} alt="Every broadway show" /> Every broadway show </Link>
+                <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best resturant by every subway stop" /> Best Resturant by Every Subway Stop </Link>                
+            </div>
         </div>)
     }
 }
