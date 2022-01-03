@@ -109,15 +109,12 @@ class Denver extends React.Component {
         );
         return (<div>             
             <h1> December, 2021 top resturants in Denver </h1>                 
-            <div class="split left">
-            <div class="centered">
-                {resturantsList}
-            </div>
+            <div class="column-main">            
+                {resturantsList}            
             </div>
 
-            <div class="split right">
-            <div id="map" class="centered">
-                <div id="map"></div>
+            <div class="column-main">
+            <div id="map">
             </div>
             </div>
      

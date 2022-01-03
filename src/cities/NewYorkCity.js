@@ -45,7 +45,8 @@ class NewYorkCity extends React.Component {
             </ul>
             <div class="column-main">
                 <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> Best Resturant in All Five NYC Boroughs </Link>
-                <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best Resturant in Every NYC Neighborhood </Link>                
+                <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> Best Resturant in Every NYC Neighborhood </Link>
+                <Link to="/NYCarticle6" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="New pool coming to Manhattan river" /> New pool coming to Manhattan river </Link>
                 {/* <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Find a place to eat through survey" /> Stuck on where to eat? </Link> */}
             </div>
             <div class="column-main">

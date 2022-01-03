@@ -85,46 +85,6 @@ table, th, td {
 
 /**** Article links ******/
 
-/********************** Half Split ******/
-
-/* Split the screen in half */
-.split {
-  width: 50%;
-  position: fixed;
-  margin-top: 210px;
-
-  /* z-index: -1; */
-  /* overflow-x: hidden; */
-  /* padding-top: 100px; */
-}
-
-/* Control the left side */
-.left {
-  left: 0;
-}
-
-/* Control the right side */
-.right {
-  right: 0;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-
-/********************** Half Split ******/
-
 /* Nav Bar ****************/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -173,6 +133,7 @@ img {
 .navBar .col-md-3 {
   z-index: 7;
 }
+
 ul.main-menu {
   display: inline-flex;
   list-style: none;
@@ -181,16 +142,20 @@ ul.main-menu {
   float: right;
   z-index: 7;
 }
+
 ul.main-menu>li.menu-item:first-child {
   padding-left: 0;
   margin-left: 0;
 }
+
 .menu-item {
-  line-height: 23px;
+  line-height: 23px;  
 }
+
 li {
   list-style-type: none;
 }
+
 .menu-item a {
   font-size: 12px;
   font-weight: 600;
@@ -215,6 +180,7 @@ li {
   align-content: center;
   align-items: center;
 }
+
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;
 }
@@ -297,7 +263,6 @@ li {
   margin: 17px 0 0 0;
 }
 
-
 @media(max-width:991px){
 .header__middle__logo {width: 77%;}
 .header__middle__menus {width: 20%;}
@@ -363,7 +328,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* main split */
+/* split */
 
 * {
   box-sizing: border-box;

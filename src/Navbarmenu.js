@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
+import travellogo from "./images/travellogo.jpeg"
+
 const Navbarmenu = () => {
 
     const [isMenu, setisMenu] = useState(false);
@@ -35,7 +37,6 @@ const Navbarmenu = () => {
         <header className="header__middle">
             <div className="container">
                 <div className="row">
-
                     <div className="header__middle__menus">
                         <nav className="main-nav " >
                             {/* Responsive Menu Button */}
@@ -45,6 +46,7 @@ const Navbarmenu = () => {
                                 <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight /> </span>
                             </>}
                             <ul className={boxClass.join(' ')}>
+                                <img src={travellogo} alt="logo" />
                                 <li className="menu-item" > <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Micklebrain </NavLink> </li>
                                 <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Cities <FiChevronDown /> </Link>
                                     <ul className={boxClassSubMenu.join(' ')} >
