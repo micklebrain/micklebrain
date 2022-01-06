@@ -112,12 +112,10 @@ class Denver extends React.Component {
             <div class="column-main">            
                 {resturantsList}            
             </div>
-
             <div class="column-main">
             <div id="map">
             </div>
-            </div>
-     
+            </div>     
         </div>)
     }
 }
