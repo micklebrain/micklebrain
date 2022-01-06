@@ -81,6 +81,7 @@ table, th, td {
   text-decoration: none;
   display: flex;
   align-items: center;
+  border-top: solid red;
 }
 
 /**** Article links ******/

@@ -37,7 +37,8 @@ class NewYorkCityArticle extends React.Component {
 
     render() {            
         return (            
-            <div>       
+            <div>      
+                last updated: January 6th, 2022 
                 <h1> Best resturant by every subway stop </h1>                     
                 <h2> Inwood 207 St - Guadalupe </h2>
                 <h2> Dyckman St - International Food House </h2>
