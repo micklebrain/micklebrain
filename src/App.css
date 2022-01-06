@@ -356,3 +356,8 @@ a {
     width: 100%;
   }
 }
+
+.articleContainer {
+  margin: 50px;
+  /* padding: 20px; */
+}
