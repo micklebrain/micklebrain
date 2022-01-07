@@ -79,11 +79,11 @@ class NewYorkCityArticle2 extends React.Component {
         return (<div>
             <div>
 
-                <iframe src="https://www.google.com/maps/d/embed?mid=1P6ChdyZdDkC2N3X4biEE0yg5d90&ehbc=2E312F" width="640" height="480"></iframe>
-        
                 <h1> Best resturant in every Manhattan neighborhood </h1>
 
                 {resturantsList}
+
+                <iframe src="https://www.google.com/maps/d/embed?mid=1P6ChdyZdDkC2N3X4biEE0yg5d90&ehbc=2E312F" width="640" height="480"></iframe>
                 
             </div>
         </div>)

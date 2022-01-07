@@ -82,6 +82,7 @@ table, th, td {
   display: flex;
   align-items: center;
   border-top: solid red;
+  border-width: 1px;
 }
 
 /**** Article links ******/

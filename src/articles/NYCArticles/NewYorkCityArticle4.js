@@ -108,17 +108,18 @@ class NewYorkCityArticle4 extends React.Component {
             </div>
         );
 
-        return (            
-        <div>
-            <h1> December, 2021 top resturant in each New York borough </h1>
-            <div class="column-main">                
-                {resturantsList}
-            </div>
+        return (
+            <div>
+                <h1> Top Resturants in each New York borough </h1>
+                <h2> January, 2022 </h2>
+                <div class="column-main">
+                    {resturantsList}
+                </div>
 
-            <div class="column-main">                
-                <div id="map"></div>                
-            </div>
-        </div>)
+                <div class="column-main">
+                    <div id="map"></div>
+                </div>
+            </div>)
     }
 }
 

@@ -26,8 +26,8 @@ import NewYorkCityArticle3 from './articles/NYCArticles/NewYorkCityArticle3';
 import NewYorkCityArticle4 from './articles/NYCArticles/NewYorkCityArticle4';
 import NewYorkCityArticle5 from './articles/NYCArticles/NewYorkCityArticle5';
 import NewYorkCityArticle6 from './articles/NYCArticles/NewYorkCityArticle6';
-import NewYorkCityArticle7 from './articles/NYCArticles/NewYorkCityArticle6';
-import NewYorkCityArticle8 from './articles/NYCArticles/NewYorkCityArticle6';
+import NewYorkCityArticle7 from './articles/NYCArticles/NewYorkCityArticle7';
+import NewYorkCityArticle8 from './articles/NYCArticles/NewYorkCityArticle8';
 import SanFranciscoArticle from './articles/SanFranciscoArticles/SanFranciscoArticle';
 
 import Article from './Article'
