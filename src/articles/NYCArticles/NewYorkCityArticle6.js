@@ -11,13 +11,13 @@ class NewYorkCityArticle6 extends React.Component {
         }
     }
 
-    async componentDidMount() {      
-                
+    async componentDidMount() {
+
     }
 
-    render() {            
-        return (            
-            <div>       
+    render() {
+        return (
+            <div>
                 <p> New York is already the city that never sleeps, but it gets injected with a new level of liveliness in the summer months. Unfortunately, the season also comes with an often unbearable heat that sends city dwellers on the hunt for a public pool to cool off in.
                     Luckily, New Yorkers are one step closer to getting a new and certainly unique swimming hole: a floating pool on the East River.
                     Known as the +Pool for its shape, which resembles a plus sign, this project has been in the works for a decade. And the organization behind it all has finally secured an official spot to build the floating pool: the Lower East Side waterfront just north of the Manhattan Bridge.

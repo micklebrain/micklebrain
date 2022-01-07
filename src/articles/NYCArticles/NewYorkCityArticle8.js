@@ -9,20 +9,20 @@ class NewYorkCityArticle8 extends React.Component {
         }
     }
 
-    async componentDidMount() {      
-                
+    async componentDidMount() {
+
     }
 
-    render() {            
-        return (            
-            <div>       
-            <h2> Upcoming Events </h2>
-            <ul>                 
-                <li> Lady of Haven Fatima Jan 2, 3pm to 6pm  4867 58 STREET Queens, Parade </li>
-                {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
-                <li> New York Botanical Garden Holiday Train Show Jan 22, All Day Event  2900 Southern Boulevard, Bronx </li>
-                <li> David Bryne Jan 29 St. James Theatre </li>
-            </ul>             
+    render() {
+        return (
+            <div>
+                <h2> Upcoming Events </h2>
+                <ul>
+                    <li> Lady of Haven Fatima Jan 2, 3pm to 6pm  4867 58 STREET Queens, Parade </li>
+                    {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
+                    <li> New York Botanical Garden Holiday Train Show Jan 22, All Day Event  2900 Southern Boulevard, Bronx </li>
+                    <li> David Bryne Jan 29 St. James Theatre </li>
+                </ul>
             </div>)
     }
 }

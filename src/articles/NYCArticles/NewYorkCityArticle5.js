@@ -11,19 +11,18 @@ class NewYorkCityArticle extends React.Component {
         }
     }
 
-    async componentDidMount() {      
-                
+    async componentDidMount() {
     }
 
     resturantsTrain() {
     }
 
-    render() {            
-        return (            
-            <div>       
+    render() {
+        return (
+            <div>
                 <h1> Every broadway show </h1>
                 https://www.broadway.org/shows/index/all,-1,0,
-                <ul> 
+                <ul>
                     <li> Ain't Too Proud - The Life and Times of The Temptations : Imperial Theatre </li>
                     <li> Aladdin : New Amsterdam Theatre </li>
                     <li> American Buffalo : Circle in the Square Theatre </li>
@@ -33,7 +32,7 @@ class NewYorkCityArticle extends React.Component {
                     <li> The Book of Mormon : Eugene O'Neill Theatre </li>
                     <li> Caroline, or Change : Studio 54 </li>
                 </ul>
-        </div>)
+            </div>)
     }
 }
 
