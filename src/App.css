@@ -72,7 +72,6 @@ table, th, td {
   height: 300px;
   width: 300px;
   object-fit: contain;
-  margin: 20px;
 }
 
 .articlePreview {
@@ -83,6 +82,7 @@ table, th, td {
   align-items: center;
   border-top: solid red;
   border-width: 1px;
+  font-family: Paralucent;
 }
 
 /**** Article links ******/
