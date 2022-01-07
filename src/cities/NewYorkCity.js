@@ -28,21 +28,7 @@ class NewYorkCity extends React.Component {
 
     render() {
         return (<div class="articleContainer">            
-            <h1> New York City guide </h1>            
-            <h2> Upcoming Events </h2>
-            <ul>                 
-                <li> Lady of Haven Fatima Jan 2, 3pm to 6pm  4867 58 STREET Queens, Parade </li>
-                {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
-                <li> New York Botanical Garden Holiday Train Show Jan 22, All Day Event  2900 Southern Boulevard, Bronx </li>
-                <li> David Bryne Jan 29 St. James Theatre </li>
-            </ul>
-            <h2> Top attractions </h2>
-            <ul>
-                <li> <a href="https://banksyexpo.com/new-york/" target="_blank"> Banksy genius or vandal? </a> </li>
-                <li> <a href="https://www.esbnyc.com/" target="_blank"> Empire State Building </a> </li>
-                <li> <a href="https://www.onevanderbilt.com/" target="_blank"> One Vanderbilt </a> </li>
-                <li> <a href="https://www.hudsonyardsnewyork.com/discover/vessel" target="_blank"> Vessel </a> </li>
-            </ul>
+            <h1> New York City guide </h1>
             <div class="column-main">
                 <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> <div> <div> Best Resturant in All Five NYC Boroughs </div> <div> Jan 6, 2022 </div> </div> </Link>
                 <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> <div> <div> Best Resturant in Every NYC Neighborhood </div> <div> Jan 6, 2022 </div> </div> </Link>
