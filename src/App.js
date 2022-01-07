@@ -26,6 +26,8 @@ import NewYorkCityArticle3 from './articles/NYCArticles/NewYorkCityArticle3';
 import NewYorkCityArticle4 from './articles/NYCArticles/NewYorkCityArticle4';
 import NewYorkCityArticle5 from './articles/NYCArticles/NewYorkCityArticle5';
 import NewYorkCityArticle6 from './articles/NYCArticles/NewYorkCityArticle6';
+import NewYorkCityArticle7 from './articles/NYCArticles/NewYorkCityArticle6';
+import NewYorkCityArticle8 from './articles/NYCArticles/NewYorkCityArticle6';
 import SanFranciscoArticle from './articles/SanFranciscoArticles/SanFranciscoArticle';
 
 import Article from './Article'
@@ -61,6 +63,8 @@ class App extends React.Component {
             <Route exact path="/NYCarticle4" component={NewYorkCityArticle4} />
             <Route exact path="/NYCarticle5" component={NewYorkCityArticle5} />
             <Route exact path="/NYCarticle6" component={NewYorkCityArticle6} />
+            <Route exact path="/NYCarticle7" component={NewYorkCityArticle7} />
+            <Route exact path="/NYCarticle8" component={NewYorkCityArticle8} />
             <Route exact path="/SanFranciscoArticle" component={SanFranciscoArticle} />
           </Switch>          
       </Router>      
