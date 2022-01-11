@@ -15,6 +15,7 @@ import Denver from './cities/Denver';
 import NewYorkCity from './cities/NewYorkCity';
 import SanFrancisco from './cities/SanFrancisco';
 import LasVegas from './cities/LasVegas';
+import Seattle from './cities/Seattle';
 
 import TicketMarketplace from './TicketMarketplace';
 
@@ -29,6 +30,7 @@ import NewYorkCityArticle6 from './articles/NYCArticles/NewYorkCityArticle6';
 import NewYorkCityArticle7 from './articles/NYCArticles/NewYorkCityArticle7';
 import NewYorkCityArticle8 from './articles/NYCArticles/NewYorkCityArticle8';
 import SanFranciscoArticle from './articles/SanFranciscoArticles/SanFranciscoArticle';
+// import SeattleArticle from './articles/SeattleArticles/'
 
 import Article from './Article'
 
@@ -50,6 +52,8 @@ class App extends React.Component {
             <Route exact path="/newyorkcity" component={NewYorkCity} />
             <Route exact path="/sanfrancisco" component={SanFrancisco} />
             <Route exact path="/lasvegas" component={LasVegas} />
+            <Route exact path="/seattle" component={Seattle} />
+
 
             <Route exact path="/hotels" component={Hotels} />               
             <Route exact path="/ticketMarketplace" component={TicketMarketplace} />

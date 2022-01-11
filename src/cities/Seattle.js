@@ -1,36 +1,27 @@
 import React from "react";
 
-import broadway from '../images/broadway.jpeg';
-import pluspool from '../images/pluspool.jpeg';
-import nycboroughs from '../images/boroughs.png'
-import nycneighborhoods from '../images/neighborhoods.jpeg';
-import nycsubway from '../images/nyc-subway.jpeg';
-import nycattractions from '../images/nycattractions.jpeg';
-
 import {
     Link,
 } from "react-router-dom";
 
-class NewYorkCity extends React.Component {
 
-    constructor(props) {
-        super(props);
+class Seattle extends React.Component {
 
-        this.state = {
-            itinerary: [],
-        }
+    render() {        
+        return (<div class="articleContainer">
+            <h1> Seattle travel guide </h1>
+            <div class="column-main">
+
+                
+            </div>
+            <div class="column-main">               
+            <Link to="/SeattleArticle" class="articlePreview"> Top 5 must do things in Seattle </Link>
+            </div>
+        </div>)
     }
+}
 
-    addToItinerary() {
-        let itinerary = this.state.itinerary;
-        itinerary.push("movies");
-        this.setState({ itinerary: itinerary });
-    }
-
-    getResturants() {
-
-    }
-
+/*
     render() {
         return (<div class="articleContainer">
             <h1> New York City guide </h1>
@@ -38,7 +29,7 @@ class NewYorkCity extends React.Component {
                 <Link to="/NYCarticle4" class="articlePreview"> <img class="article" src={nycboroughs} alt="Italian Trulli" /> <div> <div> Best Resturant in All Five NYC Boroughs </div> <div> Jan 6, 2022 </div> </div> </Link>
                 <Link to="/NYCarticle5" class="articlePreview"> <img class="article" src={broadway} alt="Every broadway show" /> <div> <div> Every broadway show currently showing </div> <div> Jan 6, 2022 </div> </div> </Link>
                 <Link to="/NYCarticle6" class="articlePreview"> <img class="article" src={pluspool} alt="New pool coming to Manhattan river" /> <div> <div> New pool coming to Manhattan river </div> <div> Jan 6, 2022 </div> </div> </Link>
-                {/* <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Find a place to eat through survey" /> Stuck on where to eat? </Link> */}
+                { <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Find a place to eat through survey" /> Stuck on where to eat? </Link> }
                 <Link to="/NYCarticle8" class="articlePreview"> <img class="article" src={nycattractions} alt="Upcoming events" /> <div> <div> Upcoming events </div> <div> Jan 6, 2022 </div> </div> </Link>
             </div>
             <div class="column-main">
@@ -47,7 +38,8 @@ class NewYorkCity extends React.Component {
                 <Link to="/NYCarticle7" class="articlePreview"> <img class="article" src={nycattractions} alt="Top attractions" /> <div> <div> Top attractions </div> <div> Jan 6, 2022 </div> </div> </Link>
             </div>
         </div>)
-    }
-}
+    } 
+    */
+    
 
-export default NewYorkCity
+export default Seattle

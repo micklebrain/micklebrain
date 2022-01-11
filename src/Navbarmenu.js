@@ -56,6 +56,7 @@ const Navbarmenu = () => {
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/lasvegas`}> Las Vegas </NavLink> </li>
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/newyorkcity`}> New York City </NavLink> </li>
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/sanfrancisco`}> San Francisco </NavLink> </li>
+                                        <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/seattle`}> Seattle </NavLink> </li>
                                     </ul>
                                 </li>
                                 <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ticketMarketplace`}> Ticket marketplace </NavLink> </li>
