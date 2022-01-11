@@ -18,8 +18,6 @@ function Home() {
             </ul>
       {/* {itinerary.join(', ')} */}
       <img src={logo} className="App-logo" alt="logo" />
-
-      <Resturant name="Mcdonalds"> </Resturant>
     </div>
   );
 }
