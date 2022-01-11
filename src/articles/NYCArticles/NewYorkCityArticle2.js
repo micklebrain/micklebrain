@@ -5,6 +5,8 @@ import postmatesIcon from '../../images/Postmates_Icon.png'
 import resyIcon from '../../images/resy_icon.png'
 import uberEatsIcon from '../../images/Uber-Eats-Icon.png'
 
+import Resturant from "../../Resturant";
+
 class NewYorkCityArticle2 extends React.Component {
 
     constructor(props) {
@@ -56,24 +58,27 @@ class NewYorkCityArticle2 extends React.Component {
     render() {
         const resturantDetails = this.state.resturantDetails
         const resturantsList = resturantDetails.map((resturant) =>
-            <div>
-                <h2> {resturant.neighborhood} - {resturant.name} </h2>
-                <h2> {resturant.address} </h2>
-                <div class="row">
-                    <div class="column">
-                        <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
-                    </div>
-                    <div class="column">
-                        <a href={resturant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Postmates" width="50" height="50" /> </a>
-                    </div>
-                    <div class="column">
-                        <a href={resturant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
-                    </div>
-                    <div class="column">
-                        <a href={resturant.resyLink} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>
-                    </div>
-                </div>           
-            </div>
+
+            <Resturant address={resturant.address} name={resturant.name} neighborhood={resturant.neighborhood}> </Resturant>
+
+            // <div>
+            //     <h2> {resturant.neighborhood} - {resturant.name} </h2>
+            //     <h2> {resturant.address} </h2>
+            //     <div class="row">
+            //         <div class="column">
+            //             <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
+            //         </div>
+            //         <div class="column">
+            //             <a href={resturant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Postmates" width="50" height="50" /> </a>
+            //         </div>
+            //         <div class="column">
+            //             <a href={resturant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
+            //         </div>
+            //         <div class="column">
+            //             <a href={resturant.resyLink} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>
+            //         </div>
+            //     </div>       
+            // </div>
         );
 
         return (<div>

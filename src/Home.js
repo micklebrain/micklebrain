@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 
+import Resturant from './Resturant';
+
 function Home() {
 
   var itinerary = ['Park', 'Club', 'Skydeck'];
@@ -16,6 +18,8 @@ function Home() {
             </ul>
       {/* {itinerary.join(', ')} */}
       <img src={logo} className="App-logo" alt="logo" />
+
+      <Resturant name="Mcdonalds"> </Resturant>
     </div>
   );
 }

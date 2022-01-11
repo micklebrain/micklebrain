@@ -1,5 +1,7 @@
 import React from "react";
 
+import Resturant from "../../Resturant"
+
 class NewYorkCityArticle4 extends React.Component {
 
     constructor(props) {
@@ -99,12 +101,13 @@ class NewYorkCityArticle4 extends React.Component {
     render() {
         const resturantDetails = this.state.resturantDetails
         const resturantsList = resturantDetails.map((resturant) =>
-            <div style={{ textAlign: "center" }}  >
-                <h2> {resturant.name} </h2>
-                <div> {resturant.address} </div>
-                <div> Recommended dish: {resturant.recommendedDish} </div>
-                {/* <div> { resturant.region } </div> */}
-                {/* <div> Recommended dish : { resturant.topDish } </div> */}
+
+            <div style={{ textAlign: "center" }}>
+                <Resturant
+                address={resturant.address}
+                name={resturant.name}
+                neighborhood={resturant.neighborhood}
+                recommendedDish={resturant.recommendedDish}> </Resturant>
             </div>
         );
 

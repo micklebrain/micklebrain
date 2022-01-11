@@ -151,7 +151,7 @@ ul.main-menu>li.menu-item:first-child {
 }
 
 .menu-item {
-  line-height: 23px;  
+  line-height: 23px;
 }
 
 li {
@@ -361,4 +361,10 @@ a {
 .articleContainer {
   margin: 50px;
   /* padding: 20px; */
+}
+
+.articleTitle { 
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px;
 }
