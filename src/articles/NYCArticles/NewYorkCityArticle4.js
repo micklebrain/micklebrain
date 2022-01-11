@@ -106,7 +106,7 @@ class NewYorkCityArticle4 extends React.Component {
                 <Resturant
                 address={resturant.address}
                 name={resturant.name}
-                neighborhood={resturant.neighborhood}
+                neighborhood={resturant.region}
                 recommendedDish={resturant.recommendedDish}> </Resturant>
             </div>
         );
