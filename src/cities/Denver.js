@@ -6,12 +6,12 @@ class Denver extends React.Component {
         super(props);
 
         this.state = {
-            resturantDetails: [],
+            restaurantDetails: [],
             map: null
         }
     }
 
-    getResturantDetails() {
+    getRestaurantDetails() {
         var requestOptions = {
             method: 'GET',
         };
@@ -22,17 +22,17 @@ class Denver extends React.Component {
         .then(response => {             
             var resyJson = JSON.parse(response);        
             
-            resyJson['doc'].forEach(resturant => {                
+            resyJson['doc'].forEach(restaurant => {                
                 const res = {
-                    region: resturant['region'],
-                    name: resturant['name'],  
-                    address: resturant['address'],
-                    topDish: resturant['topDish']
+                    region: restaurant['region'],
+                    name: restaurant['name'],  
+                    address: restaurant['address'],
+                    topDish: restaurant['topDish']
 
                 }                
-                let resturants = this.state.resturantDetails;                 
-                resturants.push(res);
-                this.setState({ resturantDetails: resturants });     
+                let restaurants = this.state.restaurantDetails;                 
+                restaurants.push(res);
+                this.setState({ restaurantDetails: restaurants });     
             });               
         })
         .catch(error => console.log('error', error));
@@ -42,7 +42,7 @@ class Denver extends React.Component {
 
         const googleScript = document.getElementById('google-map-script')
 
-        this.getResturantDetails();
+        this.getRestaurantDetails();
 
         if (window.google) {
             this.initMap();        
@@ -98,19 +98,19 @@ class Denver extends React.Component {
     }
 
     render() {            
-        const resturantDetails = this.state.resturantDetails        
-        const resturantsList = resturantDetails.map((resturant) => 
+        const restaurantDetails = this.state.restaurantDetails        
+        const restaurantsList = restaurantDetails.map((restaurant) => 
             <div style = { {textAlign: "center"} }  >        
-                <h2> { resturant.name } </h2>        
-                <div> { resturant.address } </div>   
-                {/* <div> { resturant.region } </div> */}          
-                {/* <div> Recommended dish : { resturant.topDish } </div> */}
+                <h2> { restaurant.name } </h2>        
+                <div> { restaurant.address } </div>   
+                {/* <div> { restaurant.region } </div> */}          
+                {/* <div> Recommended dish : { restaurant.topDish } </div> */}
             </div>
         );
         return (<div>             
-            <h1> December, 2021 top resturants in Denver </h1>                 
+            <h1> December, 2021 top restaurants in Denver </h1>                 
             <div class="column-main">            
-                {resturantsList}            
+                {restaurantsList}            
             </div>
             <div class="column-main">
             <div id="map">

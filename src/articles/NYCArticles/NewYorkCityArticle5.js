@@ -6,7 +6,7 @@ class NewYorkCityArticle extends React.Component {
         super(props);
 
         this.state = {
-            resturantDetails: [],
+            restaurantDetails: [],
             map: null
         }
     }
@@ -14,7 +14,7 @@ class NewYorkCityArticle extends React.Component {
     async componentDidMount() {
     }
 
-    resturantsTrain() {
+    restaurantsTrain() {
     }
 
     render() {

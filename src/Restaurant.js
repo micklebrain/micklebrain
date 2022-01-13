@@ -5,7 +5,9 @@ import postmatesIcon from './images/Postmates_Icon.png'
 import resyIcon from './images/resy_icon.png'
 import uberEatsIcon from './images/Uber-Eats-Icon.png'
 
-class Resturant extends React.Component {
+import imageName from './images/imageName.jpeg'
+
+class Restaurant extends React.Component {
 
     constructor(props) {
         super(props)
@@ -14,15 +16,18 @@ class Resturant extends React.Component {
             address: props.address,
             name: props.name,
             neighborhood: props.neighborhood,
-            recommendedDish: props.recommendedDish
+            recommendedDish: props.recommendedDish,
+            imageName: props.imageName
         }
     }
 
     render() {
         return (<div>
-            <h2> {this.state.neighborhood} - {this.state.name} </h2>
+            <img class="articleImage" src={imageName} alt="image" />
+            <h2> {this.state.name} </h2>
             <h3> {this.state.address} </h3>
-            <h3> {this.state.recommendedDish} </h3>
+            <h3> Recommened dish - {this.state.recommendedDish} </h3>            
+            <div class="tag"> {this.state.neighborhood} </div>
             <div class="row">
                 <div class="column">
                     <a href={''} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
@@ -41,4 +46,4 @@ class Resturant extends React.Component {
     }
 }
 
-export default Resturant
+export default Restaurant

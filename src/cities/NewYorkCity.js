@@ -27,7 +27,7 @@ class NewYorkCity extends React.Component {
         this.setState({ itinerary: itinerary });
     }
 
-    getResturants() {
+    getRestaurants() {
 
     }
 
@@ -35,15 +35,15 @@ class NewYorkCity extends React.Component {
         return (<div class="articleContainer">
             <h1> New York City guide </h1>
             <div class="column-main">
-                <Link to="/NYCarticle4" class="articlePreview"> <img class="articleImage" src={nycboroughs} alt="Italian Trulli" /> </Link> <div> <div class="articleTitle"> Best Resturant in All Five NYC Boroughs </div> <div> Jan 6, 2022 </div> </div>
+                <Link to="/NYCarticle4" class="articlePreview"> <img class="articleImage" src={nycboroughs} alt="Italian Trulli" /> </Link> <div> <div class="articleTitle"> Best Restaurant in All Five NYC Boroughs </div> <div> Jan 6, 2022 </div> </div>
                 <Link to="/NYCarticle5" class="articlePreview"> <img class="articleImage" src={broadway} alt="Every broadway show" /> </Link> <div> <div class="articleTitle"> Every broadway show currently showing </div> <div> Jan 6, 2022 </div> </div>
                 <Link to="/NYCarticle6" class="articlePreview"> <img class="articleImage" src={pluspool} alt="New pool coming to Manhattan river" /> </Link> <div> <div class="articleTitle"> New pool coming to Manhattan river </div> <div> Jan 6, 2022 </div> </div>
                 {/* <Link to="/NYCarticle3" class="articlePreview"> <img class="article" src={pie} alt="Find a place to eat through survey" /> Stuck on where to eat? </Link> */}
                 <Link to="/NYCarticle8" class="articlePreview"> <img class="articleImage" src={nycattractions} alt="Upcoming events" /> </Link> <div> <div class="articleTitle"> Upcoming events </div> <div> Jan 6, 2022 </div> </div>
             </div>
             <div class="column-main">
-                <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best resturant in every NYC neighborhood " /> <div> <div class="articleTitle"> Best Resturant in Every NYC Neighborhood </div> <div> Jan 6, 2022 </div> </div> </Link>
-                <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best resturant by every subway stop" /> <div> <div class="articleTitle"> Best Resturant by Every Subway Stop </div> <div> Jan 6, 2022 </div> </div> </Link>
+                <Link to="/NYCarticle2" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best restaurant in every NYC neighborhood " /> <div> <div class="articleTitle"> Best Restaurant in Every NYC Neighborhood </div> <div> Jan 6, 2022 </div> </div> </Link>
+                <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best restaurant by every subway stop" /> <div> <div class="articleTitle"> Best Restaurant by Every Subway Stop </div> <div> Jan 6, 2022 </div> </div> </Link>
                 <Link to="/NYCarticle7" class="articlePreview"> <img class="article" src={nycattractions} alt="Top attractions" /> <div> <div class="articleTitle"> Top attractions </div> <div> Jan 6, 2022 </div> </div> </Link>
             </div>
         </div>)

@@ -45,6 +45,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 #navbar {
   text-align: center;
   list-style-type: none;
@@ -384,4 +388,13 @@ a {
   font-size: 20px;
   font-weight: 900;
   margin: 10px;
+}
+
+.tag {  
+  background: #ececec;
+  border-style: solid;  
+  border-width: 1px;
+  display: inline;
+  padding: 5px;
+  text-align: center;
 }

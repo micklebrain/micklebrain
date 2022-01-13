@@ -30,7 +30,7 @@ class NewYorkCityArticle3 extends React.Component {
         super(props);
 
         this.state = {
-            resturantDetails: [],
+            restaurantDetails: [],
             map: null,       
             isHidden: true
         }

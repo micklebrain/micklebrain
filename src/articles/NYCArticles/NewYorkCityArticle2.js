@@ -1,11 +1,5 @@
 import React from "react";
-
-import grubhubIcon from '../../images/grubhubIcon.png'
-import postmatesIcon from '../../images/Postmates_Icon.png'
-import resyIcon from '../../images/resy_icon.png'
-import uberEatsIcon from '../../images/Uber-Eats-Icon.png'
-
-import Resturant from "../../Resturant";
+import Restaurant from "../../Restaurant";
 
 class NewYorkCityArticle2 extends React.Component {
 
@@ -13,21 +7,21 @@ class NewYorkCityArticle2 extends React.Component {
         super(props);
 
         this.state = {
-            resturantDetails: [],
+            restaurantDetails: [],
             map: null
         }
     }
 
     async componentDidMount() {
-        this.getResturants();
+        this.getRestaurants();
 
-        navigator.geolocation.getCurrentPosition(function(position) {
-        console.log("Latitude is :", position.coords.latitude);
-        console.log("Longitude is :", position.coords.longitude);
-    });
+        navigator.geolocation.getCurrentPosition(function (position) {
+            console.log("Latitude is :", position.coords.latitude);
+            console.log("Longitude is :", position.coords.longitude);
+        });
     }
 
-    getResturants() {
+    getRestaurants() {
         var requestOptions = {
             method: 'GET',
         };
@@ -39,43 +33,43 @@ class NewYorkCityArticle2 extends React.Component {
             .then(response => {
                 var resyJson = JSON.parse(response);
 
-                resyJson['doc'].forEach(resturant => {
+                resyJson['doc'].forEach(restaurant => {
                     const res = {
-                        name: resturant['name'],
-                        address: resturant['address'],
-                        neighborhood: resturant['neighborhood'],
-                        grubhubLink: resturant['GrubhubLink'],
-                        resyLink: resturant['ResyLink']
+                        name: restaurant['name'],
+                        address: restaurant['address'],
+                        neighborhood: restaurant['neighborhood'],
+                        grubhubLink: restaurant['GrubhubLink'],
+                        resyLink: restaurant['ResyLink']
                     }
-                    let resturants = this.state.resturantDetails;
-                    resturants.push(res);
-                    this.setState({ resturantDetails: resturants });
+                    let restaurants = this.state.restaurantDetails;
+                    restaurants.push(res);
+                    this.setState({ restaurantDetails: restaurants });
                 });
             })
             .catch(error => console.log('error', error));
     }
 
     render() {
-        const resturantDetails = this.state.resturantDetails
-        const resturantsList = resturantDetails.map((resturant) =>
+        const restaurantDetails = this.state.restaurantDetails
+        const restaurantsList = restaurantDetails.map((restaurant) =>
 
-            <Resturant address={resturant.address} name={resturant.name} neighborhood={resturant.neighborhood}> </Resturant>
+            <Restaurant address={restaurant.address} name={restaurant.name} neighborhood={restaurant.neighborhood}> </Restaurant>
 
             // <div>
-            //     <h2> {resturant.neighborhood} - {resturant.name} </h2>
-            //     <h2> {resturant.address} </h2>
+            //     <h2> {restaurant.neighborhood} - {restaurant.name} </h2>
+            //     <h2> {restaurant.address} </h2>
             //     <div class="row">
             //         <div class="column">
-            //             <a href={resturant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
+            //             <a href={restaurant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
             //         </div>
             //         <div class="column">
-            //             <a href={resturant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Postmates" width="50" height="50" /> </a>
+            //             <a href={restaurant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Postmates" width="50" height="50" /> </a>
             //         </div>
             //         <div class="column">
-            //             <a href={resturant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
+            //             <a href={restaurant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
             //         </div>
             //         <div class="column">
-            //             <a href={resturant.resyLink} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>
+            //             <a href={restaurant.resyLink} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>
             //         </div>
             //     </div>       
             // </div>
@@ -84,12 +78,12 @@ class NewYorkCityArticle2 extends React.Component {
         return (<div>
             <div>
 
-                <h1> Best resturant in every Manhattan neighborhood </h1>
+                <h1> Best Restaurant in every Manhattan Neighborhood </h1>
 
-                {resturantsList}
+                {restaurantsList}
 
                 <iframe src="https://www.google.com/maps/d/embed?mid=1P6ChdyZdDkC2N3X4biEE0yg5d90&ehbc=2E312F" width="640" height="480"></iframe>
-                
+
             </div>
         </div>)
     }

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 
-import Resturant from './Resturant';
+import Restaurant from './Restaurant';
 
 function Home() {
 

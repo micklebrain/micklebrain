@@ -1,6 +1,6 @@
 import React from "react";
 
-import Resturant from "../../Resturant"
+import Restaurant from "../../Restaurant"
 
 class NewYorkCityArticle4 extends React.Component {
 
@@ -8,12 +8,12 @@ class NewYorkCityArticle4 extends React.Component {
         super(props);
 
         this.state = {
-            resturantDetails: [],
+            restaurantDetails: [],
             map: null
         }
     }
 
-    getResturantDetails() {
+    getRestaurantDetails() {
         var requestOptions = {
             method: 'GET',
         };
@@ -25,17 +25,17 @@ class NewYorkCityArticle4 extends React.Component {
             .then(response => {
                 var resyJson = JSON.parse(response);
 
-                resyJson['doc'].forEach(resturant => {
+                resyJson['doc'].forEach(restaurant => {
                     const res = {
-                        region: resturant['region'],
-                        name: resturant['name'],
-                        address: resturant['address'],
-                        recommendedDish: resturant['recommendedDish']
+                        region: restaurant['region'],
+                        name: restaurant['name'],
+                        address: restaurant['address'],
+                        recommendedDish: restaurant['recommendedDish']
 
                     }
-                    let resturants = this.state.resturantDetails;
-                    resturants.push(res);
-                    this.setState({ resturantDetails: resturants });
+                    let restaurants = this.state.restaurantDetails;
+                    restaurants.push(res);
+                    this.setState({ restaurantDetails: restaurants });
                 });
             })
             .catch(error => console.log('error', error));
@@ -45,7 +45,7 @@ class NewYorkCityArticle4 extends React.Component {
 
         const googleScript = document.getElementById('google-map-script')
 
-        this.getResturantDetails();
+        this.getRestaurantDetails();
 
         if (window.google) {
             this.initMap();
@@ -99,24 +99,24 @@ class NewYorkCityArticle4 extends React.Component {
     }
 
     render() {
-        const resturantDetails = this.state.resturantDetails
-        const resturantsList = resturantDetails.map((resturant) =>
+        const restaurantDetails = this.state.restaurantDetails
+        const restaurantsList = restaurantDetails.map((restaurant) =>
 
             <div style={{ textAlign: "center" }}>
-                <Resturant
-                address={resturant.address}
-                name={resturant.name}
-                neighborhood={resturant.region}
-                recommendedDish={resturant.recommendedDish}> </Resturant>
+                <Restaurant
+                address={restaurant.address}
+                name={restaurant.name}
+                neighborhood={restaurant.region}
+                recommendedDish={restaurant.recommendedDish}> </Restaurant>
             </div>
         );
 
         return (
             <div>
-                <h1> Top Resturants in each New York borough </h1>
+                <h1> Top Restaurants in each New York borough </h1>
                 <h2> January, 2022 </h2>
                 <div class="column-main">
-                    {resturantsList}
+                    {restaurantsList}
                 </div>
 
                 <div class="column-main">
