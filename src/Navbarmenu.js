@@ -47,8 +47,8 @@ const Navbarmenu = () => {
                             </>}
                             <ul className={boxClass.join(' ')}>
                                 {/* <img src={travellogo} alt="logo" /> */}
-                                <li className="menu-item" > <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Micklebrain </NavLink> </li>
-                                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Cities <FiChevronDown /> </Link>
+                                <li className="menu-item" > <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> MICKLEBRAIN </NavLink> </li>
+                                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> CITIES <FiChevronDown /> </Link>
                                     <ul className={boxClassSubMenu.join(' ')} >
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/atlanta`}> Atlanta </NavLink> </li>
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/chicago`}> Chicago </NavLink> </li>
@@ -58,7 +58,7 @@ const Navbarmenu = () => {
                                         <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/sanfrancisco`}> San Francisco </NavLink> </li>
                                     </ul>
                                 </li>
-                                <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ticketMarketplace`}> Ticket marketplace </NavLink> </li>
+                                <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ticketMarketplace`}> TICKET MARKETPLACE </NavLink> </li>
                             </ul>
                         </nav>
                     </div>

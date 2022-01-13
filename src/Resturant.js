@@ -21,8 +21,8 @@ class Resturant extends React.Component {
     render() {
         return (<div>
             <h2> {this.state.neighborhood} - {this.state.name} </h2>
-            <h2> {this.state.address} </h2>
-            <h2> {this.state.recommendedDish} </h2>
+            <h3> {this.state.address} </h3>
+            <h3> {this.state.recommendedDish} </h3>
             <div class="row">
                 <div class="column">
                     <a href={''} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>

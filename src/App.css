@@ -74,7 +74,24 @@ table, th, td {
   object-fit: contain;
 }
 
+.articleImage {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
 .articlePreview {
+  width: 100%;    
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-top: solid red;
+  border-width: 1px;
+  font-family: Paralucent;
+}
+
+.articlePreview2 {
   width: 100%;    
   font-weight: bold;
   text-decoration: none;
