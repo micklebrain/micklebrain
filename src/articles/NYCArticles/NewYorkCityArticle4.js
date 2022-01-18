@@ -102,7 +102,7 @@ class NewYorkCityArticle4 extends React.Component {
         const restaurantDetails = this.state.restaurantDetails
         const restaurantsList = restaurantDetails.map((restaurant) =>
 
-            <div style={{ textAlign: "center" }}>
+            <div> 
                 <Restaurant
                 address={restaurant.address}
                 name={restaurant.name}

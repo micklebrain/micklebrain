@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -42,11 +42,11 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 h3 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 #navbar {
@@ -75,13 +75,15 @@ table, th, td {
 .article {
   height: 300px;
   width: 300px;
+  display: block;
   object-fit: contain;
 }
 
 .articleImage {
   height: 300px;
-  width: 100%;
-  object-fit: contain;
+  /* width: 100%; */
+  display: block;
+  /* object-fit: contain; */
 }
 
 .articlePreview {
@@ -334,7 +336,7 @@ span {
 }
 
 a {
-  text-align: center;
+  /* text-align: center; */
   display:block;
   color: black;
 }
@@ -344,7 +346,6 @@ a {
 .column {
   float: left;
   width: 20%;
-  padding: 5px;
 }
 
 .container {
