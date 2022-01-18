@@ -6,16 +6,15 @@ import {
 
 
 class Seattle extends React.Component {
-
     render() {        
         return (<div class="articleContainer">
-            <h1> Seattle travel guide </h1>
+            <h1> Seattle guide </h1>
             <div class="column-main">
 
                 
             </div>
             <div class="column-main">               
-            <Link to="/SeattleArticle" class="articlePreview"> Top 5 must do things in Seattle </Link>
+            <Link to="/SeattleArticle" class="articlePreview"> Top Attractions in Seattle </Link>
             </div>
         </div>)
     }
