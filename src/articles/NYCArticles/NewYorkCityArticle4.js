@@ -112,7 +112,7 @@ class NewYorkCityArticle4 extends React.Component {
         );
 
         return (
-            <div>
+            <div class="container">
                 <h1> Top Restaurants in each New York borough </h1>
                 <h2> January, 2022 </h2>
                 <div class="column-main">
