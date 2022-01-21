@@ -1,5 +1,7 @@
 import React from "react";
 
+import './Restaurant.css'
+
 import grubhubIcon from './images/grubhubIcon.png'
 import postmatesIcon from './images/Postmates_Icon.png'
 import resyIcon from './images/resy_icon.png'
@@ -26,7 +28,7 @@ class Restaurant extends React.Component {
             <img class="articleImage" src={imageName} alt="image" />
             <h2> {this.state.name} </h2>
             <h3> {this.state.address} </h3>
-            <h3> Recommened dish - {this.state.recommendedDish} </h3>            
+            <h4> Recommened dish - {this.state.recommendedDish} </h4>
             <div class="tag"> {this.state.neighborhood} </div>
             <div class="row">
                 <div class="column">

@@ -1,0 +1,10 @@
+.tag {
+    display: block;
+    margin-bottom: 25px;
+    width: 100px;
+}
+
+.row {
+    display: block;
+    margin-top: 10px;
+}
