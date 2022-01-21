@@ -1,14 +1,13 @@
 import React from "react";
 
-import './Restaurant.css'
-
 import grubhubIcon from './images/grubhubIcon.png'
+import imageName from './images/imageName.jpeg'
+import openTableIcon from './images/open-table-icon.png'
 import postmatesIcon from './images/Postmates_Icon.png'
 import resyIcon from './images/resy_icon.png'
-import openTableIcon from './images/open-table-icon.png'
 import uberEatsIcon from './images/Uber-Eats-Icon.png'
 
-import imageName from './images/imageName.jpeg'
+import './Restaurant.css'
 
 class Restaurant extends React.Component {
 
