@@ -102,12 +102,13 @@ class NewYorkCityArticle4 extends React.Component {
         const restaurantDetails = this.state.restaurantDetails
         const restaurantsList = restaurantDetails.map((restaurant) =>
 
-            <div> 
+            <div>
                 <Restaurant
-                address={restaurant.address}
-                name={restaurant.name}
-                neighborhood={restaurant.region}
-                recommendedDish={restaurant.recommendedDish}> </Restaurant>
+                    address={restaurant.address}
+                    name={restaurant.name}
+                    neighborhood={restaurant.region}
+                    recommendedDish={restaurant.recommendedDish}>
+                </Restaurant>
             </div>
         );
 
