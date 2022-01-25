@@ -1,10 +1,23 @@
-.tag {
-    display: block;
-    margin-bottom: 25px;
-    width: 100px;
+.foodDeliveryDetails {
+    font-size: 15px;
+}
+
+.resturantTitle {
+    font-size: 27px;
+}
+
+.resturantDetails {
+    font-size: 14px;
 }
 
 .row {
     display: block;
     margin-top: 10px;
+}
+
+.tag {
+    display: block;
+    margin-bottom: 25px;
+    width: 100px;
+    font-size: 14px;
 }

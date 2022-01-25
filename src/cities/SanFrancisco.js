@@ -7,7 +7,7 @@ class SanFrancisco extends React.Component {
 
     render() {
         return (<div>
-            <h2> San Francisco travel guide </h2>
+            <h1> San Francisco travel guide </h1>
             <Link to="/SanFranciscoArticle" class="articlePreview"> Top 5 must do things in San Francisco </Link>
         </div>)
     }

@@ -1,6 +1,7 @@
 import React from "react";
 
 import grubhubIcon from './images/grubhubIcon.png'
+import pinIcon from './images/pin-icon.jpg'
 import imageName from './images/imageName.jpeg'
 import openTableIcon from './images/open-table-icon.png'
 import postmatesIcon from './images/Postmates_Icon.png'
@@ -26,11 +27,18 @@ class Restaurant extends React.Component {
     render() {
         return (<div>
             <img class="articleImage" src={imageName} alt="image" />
-            <h2> {this.state.name} </h2>
-            <h3> {this.state.address} </h3>
-            <h4> Recommened dish - {this.state.recommendedDish} </h4>            
+            <h2 class="resturantTitle"> {this.state.name} </h2>
+            <div class="row">
+                <div class="column">
+                    <img src={pinIcon} alt="Pin" width="50" height="50" />
+                </div>
+                <div class="column">
+                    <p> {this.state.address} </p>
+                </div>
+            </div>            
+            <h4 class="resturantDetails"> Recommened dish - {this.state.recommendedDish} </h4>            
             <div class="tag"> {this.state.neighborhood} </div>
-            <h4> Available for Delivery/Takeout </h4>
+            <h4 class="foodDeliveryDetails"> Available for Delivery/Takeout </h4>
             <div class="row">
                 <div class="column">
                     <a href={''} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
@@ -42,7 +50,7 @@ class Restaurant extends React.Component {
                     <a href={''} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
                 </div>
             </div>
-            <h4> Available for Reservations </h4>
+            <h4 class="foodDeliveryDetails"> Available for Reservations </h4>
             <div class="row">
                 <div class="column">
                     <a href={''} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>

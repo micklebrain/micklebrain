@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 
-import Restaurant from './Restaurant';
-
 function Home() {
 
   var itinerary = ['Park', 'Club', 'Skydeck'];

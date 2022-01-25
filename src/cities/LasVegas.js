@@ -9,7 +9,7 @@ class LasVegas extends React.Component {
 
     render() {        
         return (<div>
-            <h2> Las Vegas travel guide </h2>                  
+            <h1> Las Vegas travel guide </h1>
             <Link to="/LasVegasArticle" class="articlePreview"> Top 5 must do things in Las Vegas </Link>
         </div>)
     }
