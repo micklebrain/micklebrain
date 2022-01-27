@@ -28,16 +28,17 @@ class Restaurant extends React.Component {
         return (<div>
             <img class="articleImage" src={imageName} alt="image" />
             <h2 class="resturantTitle"> {this.state.name} </h2>
-            <div class="row">
+            {/* <div class="row">
                 <div class="column">
                     <img src={pinIcon} alt="Pin" width="50" height="50" />
                 </div>
                 <div class="column">
                     <p> {this.state.address} </p>
                 </div>
-            </div>            
-            <h4 class="resturantDetails"> Recommened dish - {this.state.recommendedDish} </h4>            
-            <div class="tag"> {this.state.neighborhood} </div>
+            </div> */}
+            {/* <div class="label"> <img class="labelTag" src={pinIcon} alt="Pin" width="50" height="50" /> <div class="labelTag"> {this.state.address} </div> </div> */}
+            <i class='fas fa-map-marker-alt'></i> {this.state.neighborhood} <span>&#183;</span> Recommened dish - {this.state.recommendedDish}
+            {/* <div class="tag"> {this.state.neighborhood} </div> */}
             <h4 class="foodDeliveryDetails"> Available for Delivery/Takeout </h4>
             <div class="row">
                 <div class="column">

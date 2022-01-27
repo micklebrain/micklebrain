@@ -81,7 +81,7 @@ table, th, td {
 
 .articleImage {
   display: block;
-  height: 300px;
+  height: 500px;
   margin-top: 25px;
   /* width: 100%; */
   /* object-fit: contain; */
@@ -107,6 +107,12 @@ table, th, td {
   border-top: solid red;
   border-width: 1px;
   font-family: Paralucent;
+}
+
+.articleTitle { 
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px;
 }
 
 /**** Article links ******/
@@ -384,12 +390,6 @@ a {
 .articleContainer {
   margin: 50px;
   /* padding: 20px; */
-}
-
-.articleTitle { 
-  font-size: 20px;
-  font-weight: 900;
-  margin: 10px;
 }
 
 .tag {  
