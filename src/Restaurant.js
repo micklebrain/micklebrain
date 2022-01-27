@@ -1,7 +1,6 @@
 import React from "react";
 
 import grubhubIcon from './images/grubhubIcon.png'
-import imageName from './images/imageName.jpeg'
 import openTableIcon from './images/open-table-icon.png'
 import postmatesIcon from './images/Postmates_Icon.png'
 import resyIcon from './images/resy_icon.png'
