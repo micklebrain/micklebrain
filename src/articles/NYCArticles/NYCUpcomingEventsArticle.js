@@ -14,12 +14,12 @@ class NYCUpcomingEventsArticle extends React.Component {
     }
 
     render() {
+
         return (
             <div>
-                <h2> Upcoming Events </h2>
-                <ul>                    
+                <h1> Upcoming Events </h1>
+                <ul>
                     {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
-                    
                     <li> David Bryne Jan 29 St. James Theatre </li>
                     <li> Chinese new years celebration Feb 3-5 Brookfield Place</li>
                     <li> Chinatown lion dances Feb 5 </li>

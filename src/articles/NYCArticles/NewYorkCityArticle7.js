@@ -16,7 +16,7 @@ class NewYorkCityArticle7 extends React.Component {
     render() {
         return (
             <div>
-                <h2> Top attractions </h2>
+                <h1> Top attractions </h1>
                 <ul>
                     <li> <a href="https://banksyexpo.com/new-york/" target="_blank"> Banksy genius or vandal? </a> </li>
                     <li> <a href="https://www.esbnyc.com/" target="_blank"> Empire State Building </a> </li>

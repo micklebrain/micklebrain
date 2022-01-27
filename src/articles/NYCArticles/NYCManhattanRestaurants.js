@@ -1,7 +1,7 @@
 import React from "react";
 import Restaurant from "../../Restaurant";
 
-class NewYorkCityArticle2 extends React.Component {
+class NYCManhattanRestaurants extends React.Component {
 
     constructor(props) {
         super(props);
@@ -54,28 +54,9 @@ class NewYorkCityArticle2 extends React.Component {
         const restaurantsList = restaurantDetails.map((restaurant) =>
 
             <Restaurant address={restaurant.address} name={restaurant.name} neighborhood={restaurant.neighborhood}> </Restaurant>
-
-            // <div>
-            //     <h2> {restaurant.neighborhood} - {restaurant.name} </h2>
-            //     <h2> {restaurant.address} </h2>
-            //     <div class="row">
-            //         <div class="column">
-            //             <a href={restaurant.grubhubLink} target="_blank"> <img src={grubhubIcon} alt="Gruhbhub" width="50" height="50" /> </a>
-            //         </div>
-            //         <div class="column">
-            //             <a href={restaurant.postmatesLink} target="_blank"> <img src={postmatesIcon} alt="Postmates" width="50" height="50" /> </a>
-            //         </div>
-            //         <div class="column">
-            //             <a href={restaurant.ubereatsLink} target="_blank"> <img src={uberEatsIcon} alt="Ubereats" width="50" height="50" /> </a>
-            //         </div>
-            //         <div class="column">
-            //             <a href={restaurant.resyLink} target="_blank"> <img src={resyIcon} alt="Resy" width="50" height="50" /> </a>
-            //         </div>
-            //     </div>       
-            // </div>
         );
 
-        return (<div>
+        return (<div class="container">
             <div>
 
                 <h1> Best Restaurant in every Manhattan Neighborhood </h1>
@@ -89,4 +70,4 @@ class NewYorkCityArticle2 extends React.Component {
     }
 }
 
-export default NewYorkCityArticle2
+export default NYCManhattanRestaurants

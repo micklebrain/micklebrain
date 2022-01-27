@@ -10,7 +10,7 @@ class Chicago extends React.Component {
         return (<div>
             <h1> Chicago travel guide </h1>
             <Link to="/ChicagoArticle" class="articlePreview"> Top 5 must do things in Chicago </Link>
-            <Link to="/ChicagoArticle2" class="articlePreview"> Top resturants in Chicago </Link>
+            <Link to="/ChicagoArticle2" class="articlePreview"> Top 5 restaurants in Chicago </Link>
         </div>)
     }
 }
