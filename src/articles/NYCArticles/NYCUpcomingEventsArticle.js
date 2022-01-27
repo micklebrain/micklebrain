@@ -1,6 +1,6 @@
 import React from "react";
 
-class NewYorkCityArticle8 extends React.Component {
+class NYCUpcomingEventsArticle extends React.Component {
 
     constructor(props) {
         super(props);
@@ -17,14 +17,16 @@ class NewYorkCityArticle8 extends React.Component {
         return (
             <div>
                 <h2> Upcoming Events </h2>
-                <ul>
-                    <li> Lady of Haven Fatima Jan 2, 3pm to 6pm  4867 58 STREET Queens, Parade </li>
+                <ul>                    
                     {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
-                    <li> New York Botanical Garden Holiday Train Show Jan 22, All Day Event  2900 Southern Boulevard, Bronx </li>
+                    
                     <li> David Bryne Jan 29 St. James Theatre </li>
+                    <li> Chinese new years celebration Feb 3-5 Brookfield Place</li>
+                    <li> Chinatown lion dances Feb 5 </li>
+                    <li> Lunar New Years Celebration Feb 5 Queens Botanical Garden </li>
                 </ul>
             </div>)
     }
 }
 
-export default NewYorkCityArticle8
+export default NYCUpcomingEventsArticle

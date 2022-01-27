@@ -26,7 +26,7 @@ class Restaurant extends React.Component {
 
     render() {
         return (<div>
-            <img class="articleImage" src={imageName} alt="image" />
+            <img class="resturantImage" src={imageName} alt="image" />
             <h2 class="resturantTitle"> {this.state.name} </h2>
             <i class='fas fa-map-marker-alt'></i> {this.state.neighborhood} <span>&#183;</span> Recommened dish - {this.state.recommendedDish}
             {/* <div class="tag"> {this.state.neighborhood} </div> */}
