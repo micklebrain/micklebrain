@@ -101,7 +101,6 @@ class NewYorkCityArticle4 extends React.Component {
     render() {
         const restaurantDetails = this.state.restaurantDetails
         const restaurantsList = restaurantDetails.map((restaurant) =>
-
             <div>
                 <Restaurant
                     address={restaurant.address}

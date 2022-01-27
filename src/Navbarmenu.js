@@ -59,6 +59,7 @@ const Navbarmenu = () => {
                                     </ul>
                                 </li>
                                 <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ticketMarketplace`}> TICKET MARKETPLACE </NavLink> </li>
+                                <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/donate`}> DONATE </NavLink> </li>
                             </ul>
                         </nav>
                     </div>

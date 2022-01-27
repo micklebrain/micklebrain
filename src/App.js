@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import Donate from './Donate';
 import Home from './Home';
 import Hotels from './Hotels';
 import Speakeasy from './Speakeasy'
@@ -57,6 +58,7 @@ class App extends React.Component {
             <Route exact path="/hotels" component={Hotels} />
             <Route exact path="/speakeasies" component={Speakeasy} />
             <Route exact path="/ticketMarketplace" component={TicketMarketplace} />
+            <Route exact path="/donate" component={Donate} />
 
             <Route exact path="/AtlantaArticle" component={AtlantaArticle} />
             <Route exact path="/ChicagoArticle" component={ChicagoArticle} />
