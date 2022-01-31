@@ -7,7 +7,7 @@ import {
 class Atlanta extends React.Component {
 
     render() {
-        return (<div>
+        return (<div class='container'>
             <h1> Atlanta travel guide </h1>
             <Link to="/AtlantaArticle" class="articlePreview"> Top 5 resturants in Atlanta </Link>
         </div>)

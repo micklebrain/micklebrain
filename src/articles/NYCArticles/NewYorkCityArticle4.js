@@ -30,8 +30,8 @@ class NewYorkCityArticle4 extends React.Component {
                         region: restaurant['region'],
                         name: restaurant['name'],
                         address: restaurant['address'],
-                        recommendedDish: restaurant['recommendedDish']
-
+                        recommendedDish: restaurant['recommendedDish'],
+                        description: restaurant['description']
                     }
                     let restaurants = this.state.restaurantDetails;
                     restaurants.push(res);
@@ -106,7 +106,8 @@ class NewYorkCityArticle4 extends React.Component {
                     address={restaurant.address}
                     name={restaurant.name}
                     neighborhood={restaurant.region}
-                    recommendedDish={restaurant.recommendedDish}>
+                    recommendedDish={restaurant.recommendedDish}
+                    description={restaurant.description}>
                 </Restaurant>
             </div>
         );
