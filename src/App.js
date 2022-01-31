@@ -26,6 +26,7 @@ import ChicagoArticle2 from './articles/ChicagoArticles/ChicagoArticle2';
 import DenverArticle from './articles/DenverArticles/DenverArticle';
 import LasVegasArticle from './articles/LasVegasArticles/LasVegasArticle';
 import PhiladelphiaArticle from './articles/PhiladelphiaArticles/PhiladelphiaArticle';
+
 import NewYorkCityArticle from './articles/NYCArticles/NewYorkCityArticle';
 import NYCManhattanRestaurants from './articles/NYCArticles/NYCManhattanRestaurants';
 import NewYorkCityArticle3 from './articles/NYCArticles/NewYorkCityArticle3';
@@ -35,6 +36,8 @@ import NewYorkCityArticle6 from './articles/NYCArticles/NewYorkCityArticle6';
 import NewYorkCityArticle7 from './articles/NYCArticles/NewYorkCityArticle7';
 import NYCUpcomingEventsArticle from './articles/NYCArticles/NYCUpcomingEventsArticle';
 import NYCOmakaseArticle from './articles/NYCArticles/NYCOmakaseArticle';
+import NYCLunarNewYearsArticle from './articles/NYCArticles/NYCLunarNewYearsArticle';
+
 import SanFranciscoArticle from './articles/SanFranciscoArticles/SanFranciscoArticle';
 
 import Article from './Article'
@@ -80,6 +83,7 @@ class App extends React.Component {
             <Route exact path="/NYCarticle7" component={NewYorkCityArticle7} />
             <Route exact path="/NYCUpcomingEventsArticle" component={NYCUpcomingEventsArticle} />
             <Route exact path="/NYCOmakaseArticle" component={NYCOmakaseArticle} />
+            <Route exact path="/NYCLunarNewYearsArticle" component={NYCLunarNewYearsArticle} />
 
             <Route exact path="/SanFranciscoArticle" component={SanFranciscoArticle} />
           </Switch>

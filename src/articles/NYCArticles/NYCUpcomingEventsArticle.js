@@ -19,11 +19,10 @@ class NYCUpcomingEventsArticle extends React.Component {
             <div>
                 <h1> Upcoming Events </h1>
                 <ul>
-                    {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}
-                    <li> David Bryne Jan 29 St. James Theatre </li>
-                    <li> Chinese new years celebration Feb 3-5 Brookfield Place</li>
-                    <li> Chinatown lion dances Feb 5 </li>
-                    <li> Lunar New Years Celebration Feb 5 Queens Botanical Garden </li>
+                    {/* <button onClick={this.addToItinerary.bind(this)}> Add to itinerary </button> */}                    
+                    <li> Feb 3-5 @ 4-6pm | Lunar new years celebration, live ice carving | @ Brookfield Place </li>
+                    <li> Feb 4 @ 7:30-10:30pm | Macy and Ricky Present: NYC Lunar New Year Comedy Show | @ St. Marks Comedy Club </li>
+                    <li> Feb 5 | Lunar New Years Celebration | @ Queens Botanical Garden </li>
                 </ul>
             </div>)
     }
