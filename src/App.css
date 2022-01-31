@@ -62,7 +62,7 @@ h3 {
 }
 
 #map {
-  height: 400px;  
+  height: 400px;
   width: 100%;  
 }
 
@@ -373,7 +373,7 @@ a {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */  
+    /* height: 300px; Should be removed. Only for demonstration   */
   }
 
   /* Clear floats after the columns */
@@ -390,7 +390,6 @@ a {
   .column-main {
     width: 100%;
     padding: 10px;
-    height: 300px;
   }
 
   .row:after {
@@ -399,10 +398,9 @@ a {
     clear: both;
   }
 
-
   * {
     box-sizing: content-box;
-  }
+  } 
 }
 
 /* split */
