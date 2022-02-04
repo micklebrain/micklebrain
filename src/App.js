@@ -31,9 +31,9 @@ import NewYorkCityArticle from './articles/NYCArticles/NewYorkCityArticle';
 import NYCManhattanRestaurants from './articles/NYCArticles/NYCManhattanRestaurants';
 import NewYorkCityArticle3 from './articles/NYCArticles/NewYorkCityArticle3';
 import NewYorkCityArticle4 from './articles/NYCArticles/NewYorkCityArticle4';
-import NewYorkCityArticle5 from './articles/NYCArticles/NewYorkCityArticle5';
 import NewYorkCityArticle6 from './articles/NYCArticles/NewYorkCityArticle6';
 import NewYorkCityArticle7 from './articles/NYCArticles/NewYorkCityArticle7';
+import NYCBroadwaysArticle from './articles/NYCArticles/NYCBroadwaysArticle';
 import NYCUpcomingEventsArticle from './articles/NYCArticles/NYCUpcomingEventsArticle';
 import NYCOmakaseArticle from './articles/NYCArticles/NYCOmakaseArticle';
 import NYCLunarNewYearsArticle from './articles/NYCArticles/NYCLunarNewYearsArticle';
@@ -78,7 +78,7 @@ class App extends React.Component {
             <Route exact path="/NYCManhattanRestaurants" component={NYCManhattanRestaurants} />
             <Route exact path="/NYCarticle3" component={NewYorkCityArticle3} />
             <Route exact path="/NYCarticle4" component={NewYorkCityArticle4} />
-            <Route exact path="/NYCarticle5" component={NewYorkCityArticle5} />
+            <Route exact path="/NYCarticle5" component={NYCBroadwaysArticle} />
             <Route exact path="/NYCarticle6" component={NewYorkCityArticle6} />
             <Route exact path="/NYCarticle7" component={NewYorkCityArticle7} />
             <Route exact path="/NYCUpcomingEventsArticle" component={NYCUpcomingEventsArticle} />
