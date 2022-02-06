@@ -10,15 +10,17 @@ import {
   Route,
 } from "react-router-dom";
 
+import TicketMarketplace from './TicketMarketplace';
+
 import Atlanta from './cities/Atlanta';
 import Chicago from './cities/Chicago';
 import Denver from './cities/Denver';
-import NewYorkCity from './cities/NewYorkCity';
-import SanFrancisco from './cities/SanFrancisco';
 import LasVegas from './cities/LasVegas';
+import NewYorkCity from './cities/NewYorkCity';
 import Philadelphia from './cities/Philadelphia';
-
-import TicketMarketplace from './TicketMarketplace';
+import SanFrancisco from './cities/SanFrancisco';
+import Seattle from './cities/Seattle';
+import Toronto from './cities/Toronto';
 
 import AtlantaArticle from './articles/AtlantaArticles/AtlantaArticle';
 import ChicagoArticle from './articles/ChicagoArticles/ChicagoArticle';
@@ -55,11 +57,13 @@ class App extends React.Component {
 
             <Route exact path="/atlanta" component={Atlanta} />
             <Route exact path="/chicago" component={Chicago} />
-            <Route exact path="/denver" component={Denver} />
-            <Route exact path="/newyorkcity" component={NewYorkCity} />
-            <Route exact path="/sanfrancisco" component={SanFrancisco} />
+            <Route exact path="/denver" component={Denver} />                      
             <Route exact path="/lasvegas" component={LasVegas} />
+            <Route exact path="/newyorkcity" component={NewYorkCity} />  
             <Route exact path="/philadelphia" component={Philadelphia} />
+            <Route exact path="/sanfrancisco" component={SanFrancisco} />
+            <Route exact path="/seattle" component={Seattle} />
+            <Route exact path="/toronto" component={Toronto} />
 
             <Route exact path="/article" component={Article} />
             <Route exact path="/hotels" component={Hotels} />
