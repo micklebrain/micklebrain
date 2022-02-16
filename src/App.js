@@ -21,6 +21,7 @@ import Philadelphia from './cities/Philadelphia';
 import SanFrancisco from './cities/SanFrancisco';
 import Seattle from './cities/Seattle';
 import Toronto from './cities/Toronto';
+import WashingtonDC from './cities/WashingtonDC';
 
 import AtlantaArticle from './articles/AtlantaArticles/AtlantaArticle';
 import ChicagoArticle from './articles/ChicagoArticles/ChicagoArticle';
@@ -64,6 +65,7 @@ class App extends React.Component {
             <Route exact path="/sanfrancisco" component={SanFrancisco} />
             <Route exact path="/seattle" component={Seattle} />
             <Route exact path="/toronto" component={Toronto} />
+            <Route exact path="/washingtonDC" component={WashingtonDC} />
 
             <Route exact path="/article" component={Article} />
             <Route exact path="/hotels" component={Hotels} />
