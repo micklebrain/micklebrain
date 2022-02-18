@@ -26,12 +26,25 @@ class WashingtonDC extends React.Component {
             <ul> 
                 <li> The Hamilton </li>
                 <li> Old Ebbitt Grill </li>
+                <li> RPM Italian </li>
                 <li> Tortino Restaurant </li>                
                 <li> Zaytinya by José Andrés </li>
             </ul>
             <h3> Brunch </h3>
             <ul> 
+                <li> Farmers and Distillers </li>
+                <li> Founding Darmers DC </li>
+                <li> Firefly </li>
                 <li> The Pembroke </li>
+                <li> Succotash </li>
+            </ul>
+            <h3> Dessert </h3>
+            <ul>
+                <li> Crepaway </li>
+                <li> Larry's Cookies and Ice Cream </li>
+                <li> Jeni's Splendid Ice Creams </li>
+                <li> Pie Shop </li>
+                <li> Pitango Gelato </li>
             </ul>
             <h2> Speakeasies </h2>
             <ul>
