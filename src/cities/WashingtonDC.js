@@ -32,11 +32,12 @@ class WashingtonDC extends React.Component {
             </ul>
             <h3> Brunch </h3>
             <ul> 
-                <li> Farmers and Distillers </li>
-                <li> Founding Darmers DC </li>
-                <li> Firefly </li>
+                <li> Nina May </li>
+                <li> Shilling Canning Company </li>
+                <li> Imperfecto </li>                
+                <li> Duke's Grocery </li>
                 <li> The Pembroke </li>
-                <li> Succotash </li>
+                
             </ul>
             <h3> Dessert </h3>
             <ul>
