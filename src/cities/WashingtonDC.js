@@ -9,37 +9,41 @@ class WashingtonDC extends React.Component {
         return (<div>
             <h2> Washington DC travel guide </h2>
             <h2> Looking </h2>
-            <ul> 
-                <li> Smithsonian National Musuem of Natural History </li>
-                <li> National Gallery of Art open 10-5pm </li>
-                <li> Hirshhorn Museum | Smithsonian open 10-5:30pm </li>
+            <ul>                             
                 <li> Hirshhorn Sculpture garden | Smithsonian 10-4:30pm </li>
+                <li> National Gallery of Art open 10-5pm </li>
+                <li> Hirshhorn Museum | Smithsonian open 10-5:30pm </li>         
+                <li> Smithsonian National Musuem of Natural History </li>
             </ul>
             <h2> Ice Rinks </h2>
             <ul>
-                <li> The Wharf Ice Rink </li>
-                <li> Canal Park Outdoor Ice Skating </li>
+                <li> Canal Park Outdoor Ice Skating </li>                
                 <li> National Gallery of Art Sculpture Ice Rink </li>
-                <li> Washington Harbour Ice Rink </li> 
+                <li> Washington Harbour Ice Rink </li>
+                <li> The Wharf Ice Rink </li>
             </ul>
             <h2> Food </h2>
             <ul> 
                 <li> The Hamilton </li>
-                <li> Tortino Restaurant </li>
                 <li> Old Ebbitt Grill </li>
+                <li> Tortino Restaurant </li>                
                 <li> Zaytinya by José Andrés </li>
+            </ul>
+            <h3> Brunch </h3>
+            <ul> 
+                <li> The Pembroke </li>
             </ul>
             <h2> Speakeasies </h2>
             <ul>
-                <li> Silver Lyan </li>
-                <li> Allegory </li>
-                <li> Left Door </li>
-                <li> The Gibson </li>
-                <li> Chicken and Whiskey </li>
                 <li> 600t </li>
-                <li> O.K.P.B. </li>
-                <li> Tilt Side Bar </li>
+                <li> Allegory </li>
+                <li> Chicken and Whiskey </li>
                 <li> Denson Liquor Bar </li>
+                <li> The Gibson </li>
+                <li> Left Door </li>                
+                <li> O.K.P.B. </li>
+                <li> Silver Lyan </li>
+                <li> Tilt Side Bar </li>
             </ul>
         </div>)
     }

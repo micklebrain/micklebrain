@@ -31,7 +31,10 @@ class NYCBroadwaysArticle extends React.Component {
                     <li> Birthday Candles @ American Airlines Theatre </li>
                     <li> The Book of Mormon @ Eugene O'Neill Theatre </li>
                     <li> Caroline, or Change @ Studio 54 </li>
-                    <li> The Lion King @ Minskoff Theatre </li>
+                    <li> Chicago @ Studio 54 </li>
+                    <li> Hamilton @ Richard Rodgers Theatre </li>
+                    <li> The Lion King @ Minskoff Theatre </li>                    
+                    <li> Wicked @ Gershwin Theatre </li>
                 </ul>
             </div>)
     }

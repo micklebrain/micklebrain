@@ -12,11 +12,11 @@ class NYCArticle extends React.Component {
     render() {
         return (
             <div>
-                <ul>
-                    <li> NAKAJI </li>
-                    <li> Kosaka </li>
+                <ul>                    
                     <li> Cagen Japanese Restaurant </li>
+                    <li> Kosaka </li>
                     <li> Kaiseki Room By Yamada </li>
+                    <li> Nakaji </li>                    
                     <li> Sushi Nakazawa NY </li>
                     <li> Sushi Noz </li>
                     <li> Sushi Zo </li>
