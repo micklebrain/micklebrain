@@ -20,6 +20,7 @@ class NYCUpcomingEventsArticle extends React.Component {
                     <li> ongoing @ 6-10pm | Free Thursdays admissions | @Brooklyn Muesuem </li> 
                     <li> ongoing | Free Friday admissions @6-10pm | @The Rubin Museum of Art </li>
                     <li> ongoing | Free Friday admissions | @The Morgan library and museum </li>
+                    <li> Jan 8 - Feb 27 | FirstImpressions | West Chelsea Contemporary </li>
                     <h2> Febuary </h2>                    
                     <li> Feb 13 | Super Bowl Watch Party | @Magic Hour Rooftop Bar and Lounge </li>
                     <li> Feb 18 | Billie Ellish | @ Madison Square Garden </li>

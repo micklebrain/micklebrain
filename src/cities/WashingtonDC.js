@@ -10,10 +10,13 @@ class WashingtonDC extends React.Component {
             <h2> Washington DC travel guide </h2>
             <h2> Looking </h2>
             <ul>                             
-                <li> Hirshhorn Sculpture garden | Smithsonian 10-4:30pm </li>
+                <li> Hirshhorn Sculpture garden | Smithsonian 10-4:30pm </li>                
                 <li> National Gallery of Art open 10-5pm </li>
-                <li> Hirshhorn Museum | Smithsonian open 10-5:30pm </li>         
-                <li> Smithsonian National Musuem of Natural History </li>
+                <li> Hirshhorn Museum | Smithsonian open 10-5:30pm </li>
+                <li> United States Botanic Garden open 7:30-5:30pm </li>
+                <li> Smithsonian National Musuem of Natural History | 10-5:30pm </li>                                
+                <li> National Portrait Gallery open 11:30-7pm </li>
+                <li> National mall 1st 24/7 </li>
             </ul>
             <h2> Ice Rinks </h2>
             <ul>
