@@ -22,8 +22,7 @@ class NYCUpcomingEventsArticle extends React.Component {
                     <li> ongoing | Free Friday admissions | @The Morgan library and museum </li>
                     <li> Jan 8 - Feb 27 | FirstImpressions | West Chelsea Contemporary </li>
                     <h2> Febuary </h2>                    
-                    <li> Feb 13 | Super Bowl Watch Party | @Magic Hour Rooftop Bar and Lounge </li>
-                    <li> Feb 18 | Billie Ellish | @ Madison Square Garden </li>
+                    <li> through Feb 21 | Broadway 2 for 1 |</li>
                     <h2> March </h2>
                     <li> March 4 | Rezz | @Terminal 5 </li>
                     <li> March 6 | Seong-Jin | @New Jersey Performing Arts Center </li>
