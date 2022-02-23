@@ -37,38 +37,38 @@ class NYCUpcomingEventsArticle extends React.Component {
                     <li> 28th | New York Knicks vs Chicago Bull | @The Madison Square Garden </li>
                     
                     <h2> April </h2>
-                    <li> Apr 8 | Lil Tecca | @Terminal 5 </li>
+                    <li> 8th | Lil Tecca | @Terminal 5 </li>
 
                     <h2> May </h2>
-                    <li> May 1 | Govenors island reopened </li>
-                    <li> May 1 | Japan Day Festival | @Central Park </li>
-                    <li> May 9 | Japan Day Festival | @Central Park </li>
+                    <li> 1st | Govenors island reopened </li>
+                    <li> 1st | Japan Day Festival | @Central Park </li>
+                    <li> 9th | Japan Day Festival | @Central Park </li>
 
                     <h2> June </h2>
-                    <li> June 7 | Seaport Cinema </li> 
-                    <li> June 9 - June 20 | Tribeca Film Festival </li>
-                    <li> June 14 | Seaport Cinema </li>
-                    <li> June 19 | Queens Night market opens </li>
+                    <li> 7th | Seaport Cinema </li> 
+                    <li> 9th - 20th | Tribeca Film Festival </li>
+                    <li> 14th | Seaport Cinema </li>
+                    <li> 19th | Queens Night market opens </li>
 
                     <h2> July </h2>
-                    <li> July 31 - September 18 | Bric's Celebrates Brooklyn! Festival </li>
+                    <li> 31st - September 18 | Bric's Celebrates Brooklyn! Festival </li>
                     
                     <h2> August </h2>
-                    <li> August 1 | Pixar-themed mini-golf course </li>
-                    <li> August 21 - September 19 | Zero G Experience </li>
-                    <li> August 28 | Le Poisson Rouge </li>
+                    <li> 1st | Pixar-themed mini-golf course </li>
+                    <li> 21st - 19th | Zero G Experience </li>
+                    <li> 28th | Le Poisson Rouge </li>
 
                     <h2> September </h2>
-                    <li> August 30 - September 12 | US Open </li>
+                    <li> 30th - September 12 | US Open </li>
 
                     <h2> October </h2>
-                    <li> September 24 - October 10 | New York Film Festival </li>
+                    <li> 24th - 10th | New York Film Festival </li>
 
                     <h2> November </h2>
-                    <li> November 5| Eskimo Callboy | @The Brooklyn Monarch </li> 
+                    <li> 5th | Eskimo Callboy | @The Brooklyn Monarch </li> 
 
                     <h2> December </h2>
-                    <li> December 26 @4-5pm | Arts Festival | 5th Ave</li>
+                    <li> 26th from 4-5pm | Arts Festival | 5th Ave</li>
                 </ul>
             </div>)
     }
