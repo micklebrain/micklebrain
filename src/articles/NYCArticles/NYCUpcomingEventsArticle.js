@@ -41,8 +41,8 @@ class NYCUpcomingEventsArticle extends React.Component {
 
                     <h2> May </h2>
                     <li> May 1 | Govenors island reopened </li>
-                    <li> May 1-9 | Japan Day </li>
-                    <li> May 1-16 | Japan Day </li>
+                    <li> May 1 | Japan Day Festival | @Central Park </li>
+                    <li> May 9 | Japan Day Festival | @Central Park </li>
 
                     <h2> June </h2>
                     <li> June 7 | Seaport Cinema </li> 
