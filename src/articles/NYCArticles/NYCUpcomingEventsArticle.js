@@ -22,9 +22,9 @@ class NYCUpcomingEventsArticle extends React.Component {
                     <li> ongoing | Free Friday admissions | @The Morgan library and museum </li>                    
 
                     <h2> Febuary </h2>                    
-                    <li> through the 21st | Broadway 2 for 1 |</li>
+                    <li> until the 21st | Broadway 2 for 1 |</li>
                     <li> 27th | New York Knicks vs Philadelphia 76ers | @Madison Square Garden </li>
-                    <li> 27th | First Impressions | West Chelsea Contemporary </li>
+                    <li> until the 27th | First Impressions | West Chelsea Contemporary </li>
 
                     <h2> March </h2>
                     <li> 3rd from 2-9pm| NYC Winter Wine and Food Festival | @Webster Hall </li>
