@@ -20,7 +20,7 @@ class NYCUpcomingEventsArticle extends React.Component {
                     <li> ongoing @ 6-10pm | Free Thursdays admissions | @Brooklyn Muesuem </li> 
                     <li> ongoing | Free Friday admissions @6-10pm | @The Rubin Museum of Art </li>
                     <li> ongoing | Free Friday admissions | @The Morgan library and museum </li>
-                    <li> ongoing | Orchid show | @New York Botanical Garden </li>
+                    <li> until May 1st | Orchid show | @New York Botanical Garden </li>
 
                     <h2> Febuary </h2>                    
                     <li> until the 21st | Broadway 2 for 1 |</li>
