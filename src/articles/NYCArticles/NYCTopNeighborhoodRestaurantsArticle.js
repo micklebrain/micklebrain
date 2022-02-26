@@ -27,7 +27,7 @@ class NYCTopNeighborhoodRestaurantsArticle extends React.Component {
         };
 
         fetch(
-            "https://lostmindsbackend.vercel.app/neighborhoodresturants", requestOptions)
+            "https://lostmindsbackend.vercel.app/neighborhoodresturants/newyorkcity", requestOptions)
             // "http://localhost:3000/boroughresturants", requestOptions)
             .then(response => response.text())
             .then(response => {
