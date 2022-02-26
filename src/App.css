@@ -407,3 +407,9 @@ a {
   padding: 5px;
   text-align: center;
 }
+
+
+/* new */
+.link {
+  border-style: solid;
+}
