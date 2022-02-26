@@ -29,6 +29,7 @@ import ChicagoArticle2 from './articles/ChicagoArticles/ChicagoArticle2';
 import DenverArticle from './articles/DenverArticles/DenverArticle';
 import LasVegasArticle from './articles/LasVegasArticles/LasVegasArticle';
 import PhiladelphiaArticle from './articles/PhiladelphiaArticles/PhiladelphiaArticle';
+import PhiladelphiaNeighborhoodRestaurantsArticle from './articles/PhiladelphiaArticles/PhiladelphiaNeighborhoodRestaurantsArticle';
 
 import NYCBroadwaysArticle from './articles/NYCArticles/NYCBroadwaysArticle';
 import NYCBrunch from './articles/NYCArticles/NYCBrunch';
@@ -81,6 +82,7 @@ class App extends React.Component {
             <Route exact path="/DenverArticle" component={DenverArticle} />            
             <Route exact path="/LasVegasArticle" component={LasVegasArticle} />
             <Route exact path="/PhiladelphiaArticle" component={PhiladelphiaArticle} />
+            <Route exact path="/PhiladelphiaNeighborhoodRestaurantsArticle" component={PhiladelphiaNeighborhoodRestaurantsArticle} />
 
             <Route exact path="/NYCAYCEBBQArticle" component={NYCAYCEBBQArticle} />
             <Route exact path="/NYCTrainStopRestaurantsArticle" component={NYCTrainStopRestaurantsArticle} />            
