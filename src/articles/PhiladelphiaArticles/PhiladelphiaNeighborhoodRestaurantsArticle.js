@@ -27,7 +27,7 @@ class PhiladelphiaNeighborhoodRestaurantsArticle extends React.Component {
         };
 
         fetch(
-            "https://lostmindsbackend.vercel.app/neighborhoodresturants", requestOptions)
+            "https://lostmindsbackend.vercel.app/neighborhoodresturants/philadelphia", requestOptions)
             // "http://localhost:3000/boroughresturants", requestOptions)
             .then(response => response.text())
             .then(response => {
