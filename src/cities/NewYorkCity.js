@@ -47,10 +47,10 @@ class NewYorkCity extends React.Component {
                 <Link to="/NYCBrunch" class="articlePreview"> <img class="articleImage" src={brunch} alt="NYC best brunch spots" /> </Link> <div> <div class="articleTitle"> NYC brunch </div> <div> Jan 27, 2022 </div> </div>
             </div>
             <div class="column-main">
-                <Link to="/NYCManhattanRestaurants" class="articlePreview"> <img class="article" src={nycneighborhoods} alt="Best restaurant in every NYC neighborhood " /> <div> <div class="articleTitle"> Best Restaurant in Every NYC Neighborhood </div> <div> Jan 27, 2022 </div> </div> </Link>
-                <Link to="/NYCarticle" class="articlePreview"> <img class="article" src={nycsubway} alt="Best restaurant by every subway stop" /> <div> <div class="articleTitle"> Best Restaurant by Every Subway Stop </div> <div> Jan 27, 2022 </div> </div> </Link>
-                <Link to="/NYCarticle7" class="articlePreview"> <img class="article" src={nycattractions} alt="Top attractions" /> <div> <div class="articleTitle"> Top attractions </div> <div> Jan 27, 2022 </div> </div> </Link>
-                <Link to="/NYCOmakaseArticle" class="articlePreview"> <img class="article" src={omakase} alt="Top attractions" /> <div> <div class="articleTitle"> NYC Omakase </div> <div> Jan 27, 2022 </div> </div> </Link>
+                <Link to="/NYCManhattanRestaurants" class="articlePreview"> <img class="articleImage" src={nycneighborhoods} alt="Best restaurant in every NYC neighborhood " /> <div> <div class="articleTitle"> Best Restaurant in Every NYC Neighborhood </div> <div> Jan 27, 2022 </div> </div> </Link>
+                <Link to="/NYCarticle" class="articlePreview"> <img class="articleImage" src={nycsubway} alt="Best restaurant by every subway stop" /> <div> <div class="articleTitle"> Best Restaurant by Every Subway Stop </div> <div> Jan 27, 2022 </div> </div> </Link>
+                <Link to="/NYCarticle7" class="articlePreview"> <img class="articleImage" src={nycattractions} alt="Top attractions" /> <div> <div class="articleTitle"> Top attractions </div> <div> Jan 27, 2022 </div> </div> </Link>
+                <Link to="/NYCOmakaseArticle" class="articlePreview"> <img class="articleImage" src={omakase} alt="NYC Omakase" /> <div> <div class="articleTitle"> NYC Omakase </div> <div> Jan 27, 2022 </div> </div> </Link>
                 <Link to="/NYCLunarNewYearsArticle" class="articlePreview"> <img class="articleImage" src={lunarNewYears} alt="NYC Lunar New Years" /> </Link> <div> <div class="articleTitle"> NYC Lunar New Years </div> <div> Jan 27, 2022 </div> </div>
             </div>
         </div>)

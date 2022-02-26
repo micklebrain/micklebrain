@@ -10,7 +10,6 @@ class NYCUpcomingEventsArticle extends React.Component {
     }
 
     render() {
-
         return (
             <div>
                 <h1> Upcoming Events </h1>
@@ -22,9 +21,9 @@ class NYCUpcomingEventsArticle extends React.Component {
                     <li> ongoing | Free Friday admissions | @The Morgan library and museum </li>
                     <li> until May 1st | Orchid show | @New York Botanical Garden </li>
 
-                    <h2> Febuary </h2>                    
-                    <li> until the 21st | Broadway 2 for 1 |</li>
+                    <h2> Febuary </h2>                                    
                     <li> 27th | New York Knicks vs Philadelphia 76ers | @Madison Square Garden </li>
+                    <li> until the 27th | Broadway 2 for 1 |</li>
                     <li> until the 27th | First Impressions | West Chelsea Contemporary </li>                    
 
                     <h2> March </h2>
