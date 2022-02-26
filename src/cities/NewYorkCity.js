@@ -12,9 +12,7 @@ import nycboroughs from '../images/boroughs.png'
 import nycneighborhoods from '../images/neighborhoods.jpeg';
 import nycsubway from '../images/nyc-subway.jpeg';
 
-import {
-    Link,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class NewYorkCity extends React.Component {
 
