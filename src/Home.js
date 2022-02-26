@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div className="App">
-      <h1> Micklebrain </h1>
+      <h1> Borders gone </h1>
       <div class="column-main">        
         <Link to="/atlanta" class="articlePreview"> <img class="articleImage" src={atlanta} alt="Atlanta" /> </Link> <div> <div class="articleTitle"> Atlanta </div> </div>
         <Link to="/denver" class="articlePreview"> <img class="articleImage" src={denver} alt="Denver" /> </Link> <div> <div class="articleTitle"> Denver </div> </div>
