@@ -41,6 +41,7 @@ import NYCTrainStopRestaurantsArticle from './articles/NYCArticles/NYCTrainStopR
 import NewYorkCityArticle3 from './articles/NYCArticles/NewYorkCityArticle3';
 import NYCTopBoroughRestaurantsArticle from './articles/NYCArticles/NYCTopBoroughRestaurantsArticle';
 import NYCPlusPoolArticle from './articles/NYCArticles/NYCPlusPoolArticle';
+import NYCAYCEBBQArticle from './articles/NYCArticles/NYCAYCEBBQArticle'
 
 import SanFranciscoArticle from './articles/SanFranciscoArticles/SanFranciscoArticle';
 
@@ -81,8 +82,8 @@ class App extends React.Component {
             <Route exact path="/LasVegasArticle" component={LasVegasArticle} />
             <Route exact path="/PhiladelphiaArticle" component={PhiladelphiaArticle} />
 
+            <Route exact path="/NYCAYCEBBQArticle" component={NYCAYCEBBQArticle} />
             <Route exact path="/NYCTrainStopRestaurantsArticle" component={NYCTrainStopRestaurantsArticle} />            
-            <Route exact path="/NYCarticle3" component={NewYorkCityArticle3} />
             <Route exact path="/NYCTopBoroughRestaurantsArticle" component={NYCTopBoroughRestaurantsArticle} />
             <Route exact path="/NYCBroadwaysArticle" component={NYCBroadwaysArticle} />
             <Route exact path="/NYCPlusPoolArticle" component={NYCPlusPoolArticle} />
@@ -92,6 +93,7 @@ class App extends React.Component {
             <Route exact path="/NYCTopNeighborhoodRestaurantsArticle" component={NYCTopNeighborhoodRestaurantsArticle} />
             <Route exact path="/NYCOmakaseArticle" component={NYCOmakaseArticle} />
             <Route exact path="/NYCUpcomingEventsArticle" component={NYCUpcomingEventsArticle} />
+            <Route exact path="/NYCarticle3" component={NewYorkCityArticle3} />
 
             <Route exact path="/SanFranciscoArticle" component={SanFranciscoArticle} />
           </Switch>

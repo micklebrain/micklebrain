@@ -2,6 +2,7 @@ import React from "react";
 
 import broadway from '../images/broadway.jpeg';
 import brunch from '../images/brunch.jpeg'
+import koreanBBQ from '../images/KoreanBBQ.jpeg'
 import lunarNewYears from '../images/lunarNewYears.jpeg'
 import omakase from '../images/omakase.jpg';
 import pluspool from '../images/pluspool.jpeg';
@@ -45,6 +46,7 @@ class NewYorkCity extends React.Component {
                 <Link to="/NYCBroadwaysArticle" class="articlePreview"> <img class="articleImage" src={broadway} alt="Every broadway show" /> </Link> <div> <div class="articleTitle"> Every broadway show currently showing </div> <div> Jan 27, 2022 </div> </div>
                 <Link to="/NYCPlusPoolArticle" class="articlePreview"> <img class="articleImage" src={pluspool} alt="New pool coming to Manhattan river" /> </Link> <div> <div class="articleTitle"> New pool coming to Manhattan river </div> <div> Jan 27, 2022 </div> </div>
                 <Link to="/NYCBrunch" class="articlePreview"> <img class="articleImage" src={brunch} alt="NYC best brunch spots" /> </Link> <div> <div class="articleTitle"> NYC brunch </div> <div> Jan 27, 2022 </div> </div>
+                <Link to="/NYCAYCEBBQArticle" class="articlePreview"> <img class="articleImage" src={koreanBBQ} alt="NYC All you can eat BBQ guide" /> </Link> <div> <div class="articleTitle"> NYC All you can eat BBQ guide </div> <div> Jan 27, 2022 </div> </div>
             </div>
             <div class="column-main">
                 <Link to="/NYCTopNeighborhoodRestaurantsArticle" class="articlePreview"> <img class="articleImage" src={nycneighborhoods} alt="Best restaurant in every NYC neighborhood " /> </Link> <div> <div class="articleTitle"> Best Restaurant in Every NYC Neighborhood </div> <div> Jan 27, 2022 </div> </div>
