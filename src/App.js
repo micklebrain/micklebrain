@@ -55,7 +55,7 @@ class App extends React.Component {
     return (
       <div>
         <Router>
-          <Navbarmenu />
+          {/* <Navbarmenu /> */}
           <Switch>
             <Route exact path="/"> <Home /> </Route>
 
