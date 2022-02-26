@@ -18,8 +18,8 @@ function Home() {
   return (
     <div className="App">
       <h1> Links </h1>
-      <h1> <a href="poshmark.com/closet/micklebrain"> poshmark.com/closet/micklebrain </a> </h1>
-      <h1> <a href="opensea.io/collection/micklebrain"> NFT Collection </a> </h1>
+      <h1> <a href="https://poshmark.com/closet/micklebrain"> poshmark.com/closet/micklebrain </a> </h1>
+      <h1> <a href="https://opensea.io/collection/micklebrain"> NFT Collection </a> </h1>
 
     </div>
   );
