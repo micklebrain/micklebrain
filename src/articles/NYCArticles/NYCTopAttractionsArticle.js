@@ -1,6 +1,6 @@
 import React from "react";
 
-class NewYorkCityArticle7 extends React.Component {
+class NYCTopAttractionsArticle extends React.Component {
 
     constructor(props) {
         super(props);
@@ -10,7 +10,6 @@ class NewYorkCityArticle7 extends React.Component {
     }
 
     async componentDidMount() {
-
     }
 
     render() {
@@ -27,4 +26,4 @@ class NewYorkCityArticle7 extends React.Component {
     }
 }
 
-export default NewYorkCityArticle7
+export default NYCTopAttractionsArticle

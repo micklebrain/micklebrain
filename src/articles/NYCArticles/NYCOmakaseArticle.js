@@ -12,6 +12,7 @@ class NYCArticle extends React.Component {
     render() {
         return (
             <div>
+                <h1> NYC Omakase Guide </h1>
                 <ul>                    
                     <li> Cagen Japanese Restaurant </li>
                     <li> Kosaka </li>

@@ -2,17 +2,10 @@ import React from "react";
 
 import nycpool from "../../images/nyc-pool.jpeg"
 
-class NewYorkCityArticle6 extends React.Component {
+class NYCPlusPoolArticle extends React.Component {
 
     constructor(props) {
         super(props);
-
-        this.state = {
-        }
-    }
-
-    async componentDidMount() {
-
     }
 
     render() {
@@ -32,4 +25,4 @@ class NewYorkCityArticle6 extends React.Component {
     }
 }
 
-export default NewYorkCityArticle6
+export default NYCPlusPoolArticle

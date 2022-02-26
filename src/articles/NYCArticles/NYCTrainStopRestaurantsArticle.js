@@ -1,6 +1,6 @@
 import React from "react";
 
-class NewYorkCityArticle extends React.Component {
+class NYCTrainStopRestaurantsArticle extends React.Component {
 
     constructor(props) {
         super(props);
@@ -74,4 +74,4 @@ class NewYorkCityArticle extends React.Component {
     }
 }
 
-export default NewYorkCityArticle
+export default NYCTrainStopRestaurantsArticle
