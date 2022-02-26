@@ -18,9 +18,11 @@ function Home() {
   return (
     <div className="App">
       <h1> Links </h1>
-      <h1> <a href="https://www.linkedin.com/in/nathanthainguyen/"> Linkedin </a> </h1>
+      <h1> <a href="https://github.com/micklebrain"> Github repositories </a> </h1>
+      <h1> <a href="https://www.linkedin.com/in/nathanthainguyen/"> Linkedin </a> </h1>            
       <h1> <a href="https://opensea.io/collection/micklebrain"> Opensea NFT Collection </a> </h1>
-      <h1> <a href="https://poshmark.com/closet/micklebrain"> Poshmark closet </a> </h1>      
+      <h1> <a href="https://www.patreon.com/micklebrain"> Patreon </a> </h1>      
+      <h1> <a href="https://poshmark.com/closet/micklebrain"> Poshmark closet </a> </h1>
     </div>
   );
 }
