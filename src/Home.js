@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
 
 function Home() {
-
-  var itinerary = ['Park', 'Club', 'Skydeck'];
-
   return (
     <div className="App">
       <h1> Links </h1>
