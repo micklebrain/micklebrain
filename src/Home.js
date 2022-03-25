@@ -9,6 +9,7 @@ function Home() {
       <div class='link'>  <h1> <a href="https://opensea.io/collection/micklebrain" target="_blank"> Opensea NFT Collection </a> </h1> </div>
       <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank"> Patreon </a> </h1> </div>
       <div class='link'> <h1> <a href="https://poshmark.com/closet/micklebrain" target="_blank"> Poshmark closet </a> </h1> </div>
+      <div class='link'> <h1> <a href="https://www.tiktok.com/@micklebrain" target="_blank"> TikTok </a> </h1> </div>      
       <div class='link'> <h1> <a href="https://twitter.com/micklebrain" target="_blank"> Twitter </a> </h1> </div>
     </div>
   );
