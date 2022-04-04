@@ -413,3 +413,8 @@ a {
 .link {
   border-style: solid;
 }
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
