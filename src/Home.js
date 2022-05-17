@@ -15,7 +15,7 @@ function Home() {
   return (
     <div className="App">
       <h2> Connect </h2>
-      <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank">OnlyFans</a> </h1> </div>
+      <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank">Foot Model - OnlyFans</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank"><img class="icon" src={onlyfans} alt="twitter"/>OnlyFans</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank">Instagram</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank"><img class="icon" src={instagram} alt="instagram"/>Instagram</a> </h1> </div> */}
