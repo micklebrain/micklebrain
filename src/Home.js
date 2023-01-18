@@ -24,7 +24,7 @@ function Home() {
       {/* <div class='link'> <h1> <a href="https://twitter.com/micklebrain" target="_blank"><img class="icon" src={twitter} alt="twitter"/>Twitter</a> </h1> </div> */}      
       <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank">Patreon</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank"><img class="icon" src={patreon} alt="patreon"/>atreon</a> </h1> </div> */}
-      <div class='link'> <h1> <a href="https://pin.it/1dPIGAq" target="_blank">Pinterest</a> </h1> </div>          
+      <div class='link'> <h1> <a href="https://www.pinterest.it/micklebrain/" target="_blank">Pinterest</a> </h1> </div>          
       {/* <div class='link'> <h1> <a href="https://pin.it/1dPIGAq" target="_blank"><img class="icon" src={pinterest} alt="patreon"/>interest</a> </h1> </div>           */}
       <div class='link'> <h1> <a href="https://www.tiktok.com/@micklebrain" target="_blank">TikTok</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.tiktok.com/@micklebrain" target="_blank"><img class="icon" src={tiktok} alt="tikTok"/>TikTok</a> </h1> </div> */}
@@ -34,6 +34,7 @@ function Home() {
       {/* <div class='link'> <h1> <a href="https://opensea.io/collection/micklebrain" target="_blank"><img class="icon" src={opensea} alt="opensea"/>pensea NFT</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://poshmark.com/closet/micklebrain" target="_blank">Poshmark closet</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://poshmark.com/closet/micklebrain" target="_blank"><img class="icon" src={poshmark} alt="poshmark"/>Poshmark closet</a> </h1> </div> */}
+      <div class='link'> <h1> <a href="https://soundcloud.com/micklebrain" target="_blank">Sound Cloud</a> </h1> </div>
       <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank">World Domination</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank"><img class="icon" src={jet} alt="poshmark"/>World Domination</a> </h1> </div> */}
     </div>
