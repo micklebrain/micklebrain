@@ -35,6 +35,7 @@ function Home() {
       <div class='link'> <h1> <a href="https://poshmark.com/closet/micklebrain" target="_blank">Poshmark closet</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://poshmark.com/closet/micklebrain" target="_blank"><img class="icon" src={poshmark} alt="poshmark"/>Poshmark closet</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://soundcloud.com/micklebrain" target="_blank">Sound Cloud</a> </h1> </div>
+      <div class='link'> <h1> <a href="https://www.youtube.com/@micklebrain" target="_blank">Youtube</a> </h1> </div>
       <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank">World Domination</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank"><img class="icon" src={jet} alt="poshmark"/>World Domination</a> </h1> </div> */}
     </div>
