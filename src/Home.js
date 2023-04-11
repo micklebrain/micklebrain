@@ -18,7 +18,7 @@ function Home() {
       {/* <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank"><img class="icon" src={onlyfans} alt="twitter"/>OnlyFans</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank">Instagram</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank"><img class="icon" src={instagram} alt="instagram"/>Instagram</a> </h1> </div> */}
-            <div class='link'> <h1> <a href="https://soundcloud.com/micklebrain" target="_blank">Sound Cloud</a> </h1> </div>
+      <div class='link'> <h1 class='button-49'> <a href="https://soundcloud.com/micklebrain" target="_blank">Sound Cloud</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.youtube.com/@micklebrain" target="_blank">Youtube</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank">World Domination</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank"><img class="icon" src={jet} alt="poshmark"/>World Domination</a> </h1> </div> */}
