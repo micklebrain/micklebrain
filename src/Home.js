@@ -30,7 +30,7 @@ function Home() {
       {/* <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank"><img class="icon" src={patreon} alt="patreon"/>atreon</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://www.pinterest.it/micklebrain/" target="_blank">Pinterest</a> </h1> </div>          
       {/* <div class='link'> <h1> <a href="https://pin.it/1dPIGAq" target="_blank"><img class="icon" src={pinterest} alt="patreon"/>interest</a> </h1> </div>           */}
-      <div class='link'> <h1> <a href="https://www.tiktok.com/@micklebrain" target="_blank">TikTok</a> </h1> </div>
+      <div class='link'> <h1 class='button-49'> <a href="https://www.tiktok.com/@micklebrain" target="_blank">TikTok</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.tiktok.com/@micklebrain" target="_blank"><img class="icon" src={tiktok} alt="tikTok"/>TikTok</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://www.tumblr.com/blog/micklebrain" target="_blank">Tumblr</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.tumblr.com/blog/micklebrain" target="_blank"><img class="icon" src={tumblr} alt="tumbler"/>umblr</a> </h1> </div> */}      
