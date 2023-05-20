@@ -26,7 +26,7 @@ function Home() {
       {/* <div class='link'> <h1> <a href="https://www.linkedin.com/in/nathanthainguyen" target="_blank">Linked<img class="icon" src={linkedin} alt="linkedin"/></a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://twitter.com/micklebrain" target="_blank">Thoughts</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://twitter.com/micklebrain" target="_blank"><img class="icon" src={twitter} alt="twitter"/>Twitter</a> </h1> </div> */}      
-      <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank">Patreon</a> </h1> </div>
+      {/* <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank">Patreon</a> </h1> </div> */}
       {/* <div class='link'> <h1> <a href="https://www.patreon.com/micklebrain" target="_blank"><img class="icon" src={patreon} alt="patreon"/>atreon</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://www.pinterest.it/micklebrain/" target="_blank">Pinterest</a> </h1> </div>          
       {/* <div class='link'> <h1> <a href="https://pin.it/1dPIGAq" target="_blank"><img class="icon" src={pinterest} alt="patreon"/>interest</a> </h1> </div>           */}
