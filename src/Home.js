@@ -20,7 +20,7 @@ function Home() {
       {/* <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank"><img class="icon" src={instagram} alt="instagram"/>Instagram</a> </h1> </div> */}
       <div class='link'> <h1 class='button-49'> <a href="https://soundcloud.com/micklebrain" target="_blank">Music</a> </h1> </div>
       <div class='link'> <h1 class='button-49'> <a href="https://www.youtube.com/@micklebrain" target="_blank">Youtube</a> </h1> </div>
-      <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank">World Conquest</a> </h1> </div>
+      {/* <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank">World Conquest</a> </h1> </div> */}
       {/* <div class='link'> <h1> <a href="https://visitedcountries.vercel.app/" target="_blank"><img class="icon" src={jet} alt="poshmark"/>World Domination</a> </h1> </div> */}
       {/* <div class='link'> <h1> <a href="https://www.linkedin.com/in/micklebrain/" target="_blank">LinkedIn</a> </h1> </div> */}
       {/* <div class='link'> <h1> <a href="https://www.linkedin.com/in/nathanthainguyen" target="_blank">Linked<img class="icon" src={linkedin} alt="linkedin"/></a> </h1> </div> */}
