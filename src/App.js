@@ -17,6 +17,7 @@ class App extends React.Component {
           {/* <Navbarmenu /> */}
           <Switch>
             <Route exact path="/"> <Home /> </Route>
+            <Route exact path="/formula"> <Formula /> </Route>
           </Switch>
         </Router>
       </div>)
