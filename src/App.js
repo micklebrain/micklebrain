@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Home from './Home';
-import Formula from './Fome';
+import Formula from './Formula';
 import {
   BrowserRouter as Router,
   Switch,
