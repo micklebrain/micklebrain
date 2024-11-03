@@ -1,6 +1,16 @@
-.stat {
+.stat-neutral {
     font-size: 25px;
     color: blue;
+}
+
+.stat-bad {
+    font-size: 25px;
+    color: red;
+}
+
+.stat-good {
+    font-size: 25px;
+    color: green;
 }
 
 h1 {
