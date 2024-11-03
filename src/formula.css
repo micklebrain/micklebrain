@@ -13,6 +13,10 @@
     color: green;
 }
 
+.small {
+    font-size: 10px;
+}
+
 h1 {
     text-align: left;
 }
