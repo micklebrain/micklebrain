@@ -20,6 +20,8 @@ function Formula() {
       <p><span class='stat-good'>0</span> times contracted incurable HPV | 10/31/24</p>
       <p><span class='stat-neutral'>29</span> years old</p>
       <p><span class='stat-neutral'>5'7“</span> height | 10/31/24</p>
+      <p><span class='stat-neutral'>22</span> floor home | 10/31/24</p>
+      <p><span class='stat-neutral'>20</span> pound curl | 10/31/24</p>
     </div>
   );
 }
