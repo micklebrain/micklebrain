@@ -6,12 +6,12 @@ function Formula() {
   return (
     <div>
       <h1>health biomarkers ❤️</h1>
+      <p><span class='stat-neutral'>29</span> years old</p>
+      <p><span class='stat-neutral'>5'7“</span> height</p>
       <p><span class='stat-good'>0</span> times contracted incurable Hepatitis B</p>
       <p><span class='stat-good'>0</span> times contracted incurable Herpes</p>
       <p><span class='stat-good'>0</span> times contracted incurable HIV</p>
       <p><span class='stat-good'>0</span> times contracted incurable HPV</p>
-      <p><span class='stat-neutral'>29</span> years old</p>
-      <p><span class='stat-neutral'>5'7“</span> height</p>
       <p><span class='stat-neutral'>20</span> pound curl</p>
       <h1>finance 💵</h1>
       <p><span class='stat-good'>$250,000 net worth</span> next goal: $300,000</p>
