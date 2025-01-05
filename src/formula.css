@@ -4,8 +4,9 @@
 }
 
 .stat-bad {
-    font-size: 25px;
+    font-size: 25px; 
     color: red;
+    font-weight: bold;
 }
 
 .stat-good {
@@ -14,7 +15,14 @@
 }
 
 .small {
-    font-size: 10px;
+    font-size: 1rem;
+    font-family: serif;
+    text-align: center;
+    color: grey;
+    
+    /* Text Shadow Property */
+    text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, 1px 1px 0 grey,
+      1px 1px 0 grey;
 }
 
 h1 {
