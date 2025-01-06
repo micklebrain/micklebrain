@@ -11,7 +11,11 @@ function Formula() {
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
       <p><span class='stat-neutral'>5'7“</span> height</p>
-      <p><span class='stat-good'>*10^6</span> mm3 red blood cell count</p>
+      <p><span class='stat-good'>179 mg/dL</span> total cholesterol</p>
+      <p><span class='stat-good'>14.8 g/dL</span> hemoglobin</p>
+      <p><span class='stat-good'>5.07 * 10^6/mm3</span> red blood cell count</p>
+      <p><span class='stat-good'>4.78 * 10^3/mm3</span> white blood cell count</p>
+      <p><span class='stat-good'>98 mg/dl</span> triglycerides</p>
       <p><span class='stat-good'>0</span> times contracted incurable Hepatitis B</p>
       <p><span class='stat-good'>0</span> times contracted incurable Herpes</p>
       <p><span class='stat-good'>0</span> times contracted incurable HIV</p>
