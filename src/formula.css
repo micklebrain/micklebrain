@@ -25,6 +25,11 @@
       1px 1px 0 grey;
 }
 
+.ageProgress {
+    height:24px;
+    width:20%
+}
+
 h1 {
     text-align: left;
 }
