@@ -55,7 +55,7 @@
     width: 90%;
     height: 78px;
     border-radius: 10px;
-    /* text-align: center; */
+    text-align: center;
     -moz-box-shadow: inset 0 0 10px #ccc;
     -webkit-box-shadow: inset 0 0 10px #ccc;
     box-shadow: inset 0 0 10px #ccc;
@@ -88,7 +88,7 @@
 .progress-bg h3.goal,
 .progress-bg h3.raised {
     font-family: Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 600;
     line-height: 78px;
     margin: 0;
