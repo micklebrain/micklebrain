@@ -32,7 +32,7 @@ function Formula() {
                 </div>
               </div>
             </div>
-            <span class='gauge-legend-good'>≤200 mg/dL</span>
+            <span class='gauge-legend-good'><br></br>≤200 mg/dL</span>
             <span class='gauge-legend-bad'>≥200 mg/dL</span>
             <ul>
               <li>
@@ -75,7 +75,7 @@ function Formula() {
             </div>
           </div>
         </div>
-        <span class='gauge-legend-good'>11.6 - 15 mg/dL</span>
+        <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
         <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
         <li>
           <details>
