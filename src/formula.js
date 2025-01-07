@@ -87,7 +87,15 @@ function Formula() {
       <p><span class='stat-good'>450</span> # SoLo loans funded</p>
       <p><span class='stat-good'>$200,000 - $210,000</span> $ SoLo loans funded</p>
       <p><span class='stat-good'>$25,000</span> SoLo tips</p>
-      <p><span class='stat-bad'>341</span> <span class='small'>/ 3000</span> stocks owned</p>
+      {/* <p><span class='stat-bad'>341</span> <span class='small'>/ 3000</span> stocks owned</p> */}
+      <h2>stocks owned</h2>
+      <div class="progress-bg">
+        <div class="progress-bar">
+          <h3 class="raised">341&nbsp;</h3>
+        </div>
+
+        <h3 class="goal">Goal: 3,000</h3>
+      </div>
       <h2>social 📱</h2>
       <p><span class='stat-bad'>12</span> Youtube subscribers</p>
       {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
