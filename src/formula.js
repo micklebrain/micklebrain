@@ -198,6 +198,17 @@ function Formula() {
       </div>
       <h2>social 📱</h2>
       <p><span class='stat-bad'>12</span> Youtube subscribers</p>
+
+      <h3>Youtube play button</h3>
+      <div class="container">
+        <ol class="progress-meter">
+          <li class="progress-point todo">silver (100,000)</li>
+          <li class="progress-point todo">gold (1,000,000)</li>
+          <li class="progress-point todo">diamond (10,000,000)</li>
+          <li class="progress-point todo">red (100,000,000)</li>
+        </ol>
+      </div>
+
       {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
       <p><span class='stat-bad'>17,500</span> Instagram followers | next goal: 50,000</p>
@@ -215,7 +226,7 @@ function Formula() {
           <li class="progress-point todo">1</li>
         </ol>
       </div>
-      
+
       <h3>Japan visa</h3>
       <div class="container">
         <ol class="progress-meter">
@@ -226,7 +237,16 @@ function Formula() {
         </ol>
       </div>
 
-      <p><span class='stat-bad'>1</span> <span class='small'>2 3 4 5</span> TOPIK level</p>
+      <h3>TOPIK level</h3>
+      <div class="container">
+        <ol class="progress-meter">
+          <li class="progress-point done">1</li>
+          <li class="progress-point todo">2</li>
+          <li class="progress-point todo">3</li>
+          <li class="progress-point todo">5</li>
+        </ol>
+      </div>
+
     </div>
   );
 }
