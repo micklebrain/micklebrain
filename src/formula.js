@@ -101,8 +101,9 @@ function Formula() {
         <li>
           <details>
             <summary>
-            <span class='stat'> 
-                <div class="tooltip">97 mg/dL glucose fasting 
+            97 mg/dL
+            <span class='stat'>
+                <div class="tooltip">glucose fasting 
               <span class="tag tag-python tag-lg">sugar</span>
               <span class="tag tag-python tag-lg">carbohydrate</span>
               <span class="tag tag-python tag-lg">blood</span>
