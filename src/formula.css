@@ -4,7 +4,7 @@
 }
 
 .stat-bad {
-    font-size: 25px; 
+    font-size: 25px;
     color: red;
     font-weight: bold;
 }
@@ -25,15 +25,15 @@
     font-family: serif;
     text-align: center;
     color: grey;
-    
+
     /* Text Shadow Property */
     text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, 1px 1px 0 grey,
-      1px 1px 0 grey;
+        1px 1px 0 grey;
 }
 
 .ageProgress {
-    height:24px;
-    width:20%
+    height: 24px;
+    width: 20%
 }
 
 h1 {
@@ -41,169 +41,221 @@ h1 {
 }
 
 body {
-    padding: 50px;  
-  }
-  
-  .progress-bg {
-      margin: 0 auto;
-      width: 65%;
-      height: 78px;
-      border-radius: 10px;
+    padding: 50px;
+}
+
+.progress-bg {
+    margin: 0 auto;
+    width: 65%;
+    height: 78px;
+    border-radius: 10px;
     text-align: center;
-      -moz-box-shadow:    inset 0 0 10px #ccc;
-      -webkit-box-shadow: inset 0 0 10px #ccc;
-      box-shadow:         inset 0 0 10px #ccc;
-  }
-  
-  .progress-bar {
-      height: 78px;
-      border-radius: 10px;
-      float: left;
-      width: 50%;
-      /* fallback */ 
-      background-color: #1c314a; 
-      
-      /* Safari 4-5, Chrome 1-9 */ 
-      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c314a), to(#27425f)); 
-      
-      /* Safari 5.1, Chrome 10+ */ 
-      background: -webkit-linear-gradient(top, #1c314a, #27425f); 
-      
-      /* Firefox 3.6+ */ 
-      background: -moz-linear-gradient(top, #1c314a, #27425f); 
-      
-      /* IE 10 */ 
-      background: -ms-linear-gradient(top, #1c314a, #27425f); 
-      
-      /* Opera 11.10+ */ 
-      background: -o-linear-gradient(top, #1c314a, #27425f);	
-  }
-  
-  .progress-bg h3.goal, .progress-bg h3.raised {
-      font-family: Arial,sans-serif;
+    -moz-box-shadow: inset 0 0 10px #ccc;
+    -webkit-box-shadow: inset 0 0 10px #ccc;
+    box-shadow: inset 0 0 10px #ccc;
+}
+
+.progress-bar {
+    height: 78px;
+    border-radius: 10px;
+    float: left;
+    width: 50%;
+    /* fallback */
+    background-color: #1c314a;
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1c314a), to(#27425f));
+
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #1c314a, #27425f);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #1c314a, #27425f);
+
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #1c314a, #27425f);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #1c314a, #27425f);
+}
+
+.progress-bg h3.goal,
+.progress-bg h3.raised {
+    font-family: Arial, sans-serif;
     font-size: 2em;
     font-weight: 600;
-      line-height: 78px;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      display: inline;
-  }
-  
-  
-  .progress-bg h3.raised {
-      color: #fff;
-      margin: 14px 25px 0 50px;
-      padding: 0 25px 0 0;
-  }
-  
-  .progress-bg h3.goal {
-      color: #b2b2b2;
+    line-height: 78px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-  }
-  
-  body .progress-bg h3.raised {
-      -webkit-animation: fadein 4s; /* Safari and Chrome */
-         -moz-animation: fadein 4s; /* Firefox */
-          -ms-animation: fadein 4s; /* Internet Explorer */
-           -o-animation: fadein 4s; /* Opera */
-              animation: fadein 4s;
-  }
-  
-  /* money progress */
+    display: inline;
+}
 
-  @keyframes fadein {
-      from { opacity: 0; }
-      to   { opacity: 1; }
-  }
-  
-  /* Firefox */
-  @-moz-keyframes fadein {
-      from { opacity: 0; }
-      to   { opacity: 1; }
-  }
-  
-  /* Safari and Chrome */
-  @-webkit-keyframes fadein {
-      from { opacity: 0; }
-      to   { opacity: 1; }
-  }
-  
-  /* Internet Explorer */
-  @-ms-keyframes fadein {
-      from { opacity: 0; }
-      to   { opacity: 1; }
-  }​
-  
-  /* Opera */
-  @-o-keyframes fadein {
-      from { opacity: 0; }
-      to   { opacity: 1; }
-  }​
-  
-  .progress-bg h3.goal {
-      float: right;
-      display: inline;
-      padding: 0 25px 0 0;
+
+.progress-bg h3.raised {
+    color: #fff;
+    margin: 14px 25px 0 50px;
+    padding: 0 25px 0 0;
+}
+
+.progress-bg h3.goal {
+    color: #b2b2b2;
     text-align: center;
-  }
-  
-  body .progress-bg div {
-      -webkit-animation: progress-bar 2s ease forwards;
-      -moz-animation: progress-bar 2s ease forwards;
-      -o-animation: progress-bar 2s ease forwards;
-      animation: progress-bar 2s ease forwards;
-  }
-  
-  @-webkit-keyframes progress-bar {
-      from { width: 0%; }
-      to { width: 50%; }
-  }
-  
-  @-moz-keyframes progress-bar {
-      from { width: 0%; }
-      to { width: 50%; }
-  }
-  
-  @-o-keyframes progress-bar {
-      from { width: 0%; }
-      to { width: 50%; }
-  }
-  
-  @keyframes progress-bar {
-      from { width: 0%; }
-      to { width: 50%; }
-  }
+}
 
-  /* money progress */
+body .progress-bg h3.raised {
+    -webkit-animation: fadein 4s;
+    /* Safari and Chrome */
+    -moz-animation: fadein 4s;
+    /* Firefox */
+    -ms-animation: fadein 4s;
+    /* Internet Explorer */
+    -o-animation: fadein 4s;
+    /* Opera */
+    animation: fadein 4s;
+}
 
-  /* tree view */
+/* money progress */
 
-  .tree {
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+​
+
+/* Opera */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+​ .progress-bg h3.goal {
+    float: right;
+    display: inline;
+    padding: 0 25px 0 0;
+    text-align: center;
+}
+
+body .progress-bg div {
+    -webkit-animation: progress-bar 2s ease forwards;
+    -moz-animation: progress-bar 2s ease forwards;
+    -o-animation: progress-bar 2s ease forwards;
+    animation: progress-bar 2s ease forwards;
+}
+
+@-webkit-keyframes progress-bar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@-moz-keyframes progress-bar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@-o-keyframes progress-bar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes progress-bar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+/* money progress */
+
+/* tree view */
+
+.tree {
     --spacing: 1.5rem;
     --radius: 10px;
-  }
-  
-  .tree li {
+}
+
+.tree li {
     display: block;
     position: relative;
     padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
-  }
-  
-  .tree ul {
+}
+
+.tree ul {
     margin-left: calc(var(--radius) - var(--spacing));
     padding-left: 0;
-  }
-  
-  .tree ul li {
+}
+
+.tree ul li {
     border-left: 2px solid #ddd;
-  }
-  
-  .tree ul li:last-child {
+}
+
+.tree ul li:last-child {
     border-color: transparent;
-  }
-  
-  .tree ul li::before {
+}
+
+.tree ul li::before {
     content: '';
     display: block;
     position: absolute;
@@ -213,28 +265,28 @@ body {
     height: calc(var(--spacing) + 1px);
     border: solid #ddd;
     border-width: 0 0 2px 2px;
-  }
-  
-  .tree summary {
+}
+
+.tree summary {
     display: block;
     cursor: pointer;
-  }
-  
-  .tree summary::marker,
-  .tree summary::-webkit-details-marker {
+}
+
+.tree summary::marker,
+.tree summary::-webkit-details-marker {
     display: none;
-  }
-  
-  .tree summary:focus {
+}
+
+.tree summary:focus {
     outline: none;
-  }
-  
-  .tree summary:focus-visible {
+}
+
+.tree summary:focus-visible {
     outline: 1px dotted #000;
-  }
-  
-  .tree li::after,
-  .tree summary::before {
+}
+
+.tree li::after,
+.tree summary::before {
     content: '';
     display: block;
     position: absolute;
@@ -244,15 +296,73 @@ body {
     height: calc(2 * var(--radius));
     border-radius: 50%;
     background: #ddd;
-  }
-  
-  .tree summary::before {
+}
+
+.tree summary::before {
     z-index: 1;
     background: #696 url('images/expand-collapse.svg') 0 0;
-  }
-  
-  .tree details[open] > summary::before {
+}
+
+.tree details[open]>summary::before {
     background-position: calc(-2 * var(--radius)) 0;
-  }
-  
-  /* tree view */
+}
+
+/* tree view */
+
+/* achievement banner */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    font-weight: 500;
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa {
+    padding: 12px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.banner,
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.banner {
+    width: 48%;
+    background-color: green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+}
+
+/* achievement banner */
