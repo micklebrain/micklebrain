@@ -110,8 +110,8 @@ function Formula() {
         </li>
       </ul>
 
-      <h2>red blood cell count</h2>
-      <h3>/mm3</h3>
+      <h2>red blood cell count <span class="tag tag-python tag-lg">blood</span></h2>
+      <h3>per microliter</h3>
       <div class="container">
         <input type="radio" class="radio" name="progress2" value="five" id="five"></input>
         <label for="five" class="label">2,000,000</label>
