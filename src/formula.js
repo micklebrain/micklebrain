@@ -34,33 +34,45 @@ function Formula() {
             </ul>
           </details>
         </li>
+        <li>
+          <details>
+            <summary>14.8 g/dL hemoglobin</summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>5.07 * 10^6/mm3 red blood cell count</summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>4.78 * 10^3/mm3 white blood cell count</summary>
+          </details>
+        </li>
       </ul>
-      <p><span class='stat-good'>14.8 g/dL</span> hemoglobin</p>
-      <p><span class='stat-good'>5.07 * 10^6/mm3</span> red blood cell count</p>
-      <p><span class='stat-good'>4.78 * 10^3/mm3</span> white blood cell count</p>
 
-<h2>avoid</h2>
+      <h2>avoid</h2>
       <div class='content'>
-<div class="alert alert-danger alert-white rounded">
-    
-    <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-    <strong>scary!</strong> contracted incurable Hepatitis B
-</div>
-<div class="alert alert-danger alert-white rounded">
-    
-    <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-    <strong>scary!</strong> contracted incurable Herpes
-</div>
-<div class="alert alert-danger alert-white rounded">
-    
-    <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-    <strong>scary!</strong> contracted incurable HIV
-</div>
-<div class="alert alert-danger alert-white rounded">
-    <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-    <strong>scary!</strong> contracted incurable HPV
-</div>
-</div>
+        <div class="alert alert-danger alert-white rounded">
+
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> contracted incurable Hepatitis B
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> contracted incurable Herpes
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> contracted incurable HIV
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> contracted incurable HPV
+        </div>
+      </div>
 
       <p><span class='stat-neutral'>20</span> pound curl</p>
       <h2>finance 🏦</h2>
