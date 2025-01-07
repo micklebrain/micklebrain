@@ -14,21 +14,21 @@ function Formula() {
       <ul class="tree">
         <li>
           <details open>
-            <summary>179 mg/dL total cholesterol - a waxy, fat-like substance that's found in the blood and cells of the body. cholesterol is essential for good health and is needed to make cell walls, tissues, hormones, vitamin D, and bile acid</summary>
+            <summary>179 mg/dL <span class='stat'>cholesterol (total)</span> - a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</summary>
             <ul>
               <li>
                 <details>
-                  <summary>43 mg/dl HDL (good cholesterol)</summary>
+                  <summary>43 mg/dl <span class='stat'>HDL</span> (good cholesterol)</summary>
                 </details>
               </li>
               <li>
                 <details>
-                  <summary>117 mg/dl LDL (bad cholesterol)</summary>
+                  <summary>117 mg/dl <span class='stat'>LDL</span> (bad cholesterol)</summary>
                 </details>
               </li>
               <li>
                 <details>
-                  <summary>98 mg/dl triglycerides</summary>
+                  <summary>98 mg/dl <span class='stat'>triglycerides</span></summary>
                 </details>
               </li>
             </ul>
@@ -36,7 +36,7 @@ function Formula() {
         </li>
         <li>
           <details>
-            <summary>14.8 g/dL hemoglobin</summary>
+            <summary>14.8 g/dL <span class='stat'>hemoglobin</span> - a protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</summary>
           </details>
         </li>
         <li>
@@ -56,21 +56,29 @@ function Formula() {
         <div class="alert alert-danger alert-white rounded">
 
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable Hepatitis B
+          <strong>scary!</strong> contracted incurable Hepatitis B | STI
         </div>
         <div class="alert alert-danger alert-white rounded">
 
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable Herpes
+          <strong>scary!</strong> contracted incurable Herpes | STI
         </div>
         <div class="alert alert-danger alert-white rounded">
 
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable HIV
+          <strong>scary!</strong> contracted incurable HIV | STI
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable HPV
+          <strong>scary!</strong> contracted incurable HPV | STI
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> lung cancer
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> liver cancer
         </div>
       </div>
 

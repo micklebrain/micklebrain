@@ -1,3 +1,7 @@
+.stat {
+    font-weight: bold;
+}
+
 .stat-neutral {
     font-size: 25px;
     color: blue;
@@ -539,4 +543,3 @@ body {
 }
 
 /* warning banner */
-
