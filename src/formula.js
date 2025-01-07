@@ -14,7 +14,9 @@ function Formula() {
       <ul class="tree">
         <li>
           <details open>
-            <summary><span class='stat'>cholesterol (total)</span> - a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</summary>
+            <summary><span class='stat'> <div class="tooltip">cholesterol (total)
+  <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
+</div> </span> </summary>
             <div class="gauge-wrapper">
               <div class="gauge four rischio3">
                 <div class="slice-colors">
