@@ -15,13 +15,13 @@ function Formula() {
         <li>
           <details open>
             <summary>
-              <span class='stat'> 
-                <div class="tooltip">cholesterol (total) 
-              <span class="tag tag-python tag-lg">blood</span> 
-              <span class="tag tag-python tag-lg">cell</span>
-              <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
-            </div> 
-            </span> 
+              <span class='stat'>
+                <div class="tooltip">cholesterol (total)
+                  <span class="tag tag-python tag-lg">blood</span>
+                  <span class="tag tag-python tag-lg">cell</span>
+                  <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
+                </div>
+              </span>
             </summary>
             <div class="gauge-wrapper">
               <div class="gauge four rischio3">
@@ -62,12 +62,12 @@ function Formula() {
         <li>
           <details>
             <summary>
-              <span class='stat'> 
-                <div class="tooltip">hemoglobin 
-              <span class="tag tag-python tag-lg">iron</span>
-              <span class="tag tag-python tag-lg">red blood cell</span>
-              <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-            </div> </span> 
+              <span class='stat'>
+                <div class="tooltip">hemoglobin
+                  <span class="tag tag-python tag-lg">iron</span>
+                  <span class="tag tag-python tag-lg">red blood cell</span>
+                  <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+                </div> </span>
             </summary>
           </details>
         </li>
@@ -90,35 +90,52 @@ function Formula() {
         <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
         <li>
           <details>
-            <summary>5.07 * 10^6/mm3 <span class='stat'>red blood cell count</span></summary>
-          </details>
-        </li>
-        <li>
-          <details>
             <summary>4.78 * 10^3/mm3 <span class='stat'>white blood cell count</span></summary>
           </details>
         </li>
         <li>
           <details>
             <summary>
-            97 mg/dL
-            <span class='stat'>
-                <div class="tooltip">glucose fasting 
-              <span class="tag tag-python tag-lg">sugar</span>
-              <span class="tag tag-python tag-lg">carbohydrate</span>
-              <span class="tag tag-python tag-lg">blood</span>
-              <span class="tag tag-python tag-lg">insulin</span>
-              <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
-            </div> </span> 
+              97 mg/dL
+              <span class='stat'>
+                <div class="tooltip">glucose fasting
+                  <span class="tag tag-python tag-lg">sugar</span>
+                  <span class="tag tag-python tag-lg">carbohydrate</span>
+                  <span class="tag tag-python tag-lg">blood</span>
+                  <span class="tag tag-python tag-lg">insulin</span>
+                  <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
+                </div> </span>
             </summary>
           </details>
         </li>
       </ul>
 
+      <h2>red blood cell count</h2>
+      <h3>/mm3</h3>
+      <div class="container">
+        <input type="radio" class="radio" name="progress2" value="five" id="five"></input>
+        <label for="five" class="label">2,000,000</label>
+
+        <input type="radio" class="radio" name="progress2" value="twentyfive" id="twentyfive" ></input>
+        <label for="twentyfive" class="label">3,000,000</label>
+
+        <input type="radio" class="radio" name="progress2" value="fifty" id="fifty" ></input>
+        <label for="fifty" class="label">4,000,000</label>
+
+        <input type="radio" class="radio" name="progress2" value="seventyfive" id="seventyfive" checked></input>
+        <label for="seventyfive" class="label">5,070,000</label>
+
+        <input type="radio" class="radio" name="progress2" value="onehundred" id="onehundred" ></input>
+        <label for="onehundred" class="label">6,000,000</label>
+
+        <div class="progress2">
+          <div class="progress-bar-2"></div>
+        </div>
+      </div>
+
       <h2>avoid</h2>
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
-
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> contracted incurable Hepatitis B | STI
         </div>
@@ -143,6 +160,14 @@ function Formula() {
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> liver cancer
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> Alzheimer's disease
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> Huntington’s disease
         </div>
       </div>
 
