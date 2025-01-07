@@ -110,8 +110,11 @@ function Formula() {
         </li>
       </ul>
 
-      <h2>red blood cell count <span class="tag tag-python tag-lg">blood</span></h2>
-      <h3>per microliter</h3>
+      <h3>red blood cell count
+        <span class="tag tag-python tag-lg">blood</span>
+        <span class="tag tag-python tag-lg">iron</span>
+      </h3>
+      <h4>per microliter</h4>
       <div class="container">
         <input type="radio" class="radio" name="progress2" value="five" id="five"></input>
         <label for="five" class="label">2,000,000</label>
@@ -202,8 +205,27 @@ function Formula() {
       <p><span class='stat-bad'>162</span> TikTok followers | next goal: 1,000</p>
       <h2>vanity</h2>
       <p><span class='stat-neutral'>21st</span> floor home</p>
-      <p><span class='stat-bad'>5</span> <span class='small'>4 3 2 1</span> N JLPT level</p>
-      <p><span class='stat-bad'>3 month tourist</span> <span class='small'>6 month digital nomad 2 years student permanant residency</span> Japan visa</p>
+
+      <h3>N JLPT level</h3>
+      <div class="container">
+        <ol class="progress-meter">
+          <li class="progress-point done">5</li>
+          <li class="progress-point todo">4</li>
+          <li class="progress-point todo">3</li>
+          <li class="progress-point todo">1</li>
+        </ol>
+      </div>
+      
+      <h3>Japan visa</h3>
+      <div class="container">
+        <ol class="progress-meter">
+          <li class="progress-point done">3 month tourist</li>
+          <li class="progress-point todo">6 month digital nomad</li>
+          <li class="progress-point todo">2 years student</li>
+          <li class="progress-point todo">permanant residency</li>
+        </ol>
+      </div>
+
       <p><span class='stat-bad'>1</span> <span class='small'>2 3 4 5</span> TOPIK level</p>
     </div>
   );
