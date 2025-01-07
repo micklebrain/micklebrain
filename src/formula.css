@@ -690,7 +690,7 @@ body {
   
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    z-index: 11;
   }
   
   .tooltip:hover .tooltiptext {

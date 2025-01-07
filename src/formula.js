@@ -15,8 +15,8 @@ function Formula() {
         <li>
           <details open>
             <summary><span class='stat'> <div class="tooltip">cholesterol (total)
-  <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
-</div> </span> </summary>
+              <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
+            </div> </span> </summary>
             <div class="gauge-wrapper">
               <div class="gauge four rischio3">
                 <div class="slice-colors">
@@ -55,26 +55,28 @@ function Formula() {
         </li>
         <li>
           <details>
-            <summary><span class='stat'>hemoglobin</span> - a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</summary>
+            <summary><span class='stat'> <div class="tooltip">hemoglobin
+              <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+            </div> </span> </summary>
           </details>
         </li>
         <div class="gauge-wrapper">
-              <div class="gauge four rischio3">
-                <div class="slice-colors">
-                  <div class="st slice-item"></div>
-                  <div class="st slice-item"></div>
-                  <div class="st slice-item"></div>
-                  <div class="st slice-item"></div>
-                </div>
-                <div class="needle"></div>
-                <div class="gauge-center">
-                  <div class="label">g/dL</div>
-                  <div class="number">14.8</div>
-                </div>
-              </div>
+          <div class="gauge four rischio3">
+            <div class="slice-colors">
+              <div class="st slice-item"></div>
+              <div class="st slice-item"></div>
+              <div class="st slice-item"></div>
+              <div class="st slice-item"></div>
             </div>
-            <span class='gauge-legend-good'>11.6 - 15 mg/dL</span>
-            <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
+            <div class="needle"></div>
+            <div class="gauge-center">
+              <div class="label">g/dL</div>
+              <div class="number">14.8</div>
+            </div>
+          </div>
+        </div>
+        <span class='gauge-legend-good'>11.6 - 15 mg/dL</span>
+        <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
         <li>
           <details>
             <summary>5.07 * 10^6/mm3 <span class='stat'>red blood cell count</span></summary>
