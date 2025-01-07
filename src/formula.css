@@ -320,16 +320,16 @@ body .progress-bg div {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body {
-    font-family:'Open Sans',sans-serif;
-    line-height:normal;
-    background:#e9f0f4;
-    padding:0;
-    margin:0;   
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    background: #e9f0f4;
+    padding: 0;
+    margin: 0;
 }
 
 .content {
-    padding:0;
-    margin:10% 15%;   
+    padding: 0;
+    margin: 10% 15%;
 }
 
 .alert {
@@ -348,7 +348,8 @@ body {
     font-weight: bold;
 }
 
-.alert>p,.alert>ul {
+.alert>p,
+.alert>ul {
     margin-bottom: 0;
 }
 
@@ -426,7 +427,7 @@ body {
 .alert {
     border-radius: 0;
     -webkit-border-radius: 0;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.11);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.11);
 }
 
 .alert .sign {
@@ -463,7 +464,7 @@ body {
 }
 
 .alert-white {
-    background-image: linear-gradient(to bottom,#FFFFFF,#F9F9F9);
+    background-image: linear-gradient(to bottom, #FFFFFF, #F9F9F9);
     border-top-color: #d8d8d8;
     border-bottom-color: #bdbdbd;
     border-left-color: #cacaca;
@@ -522,24 +523,28 @@ body {
     top: 50%;
 }
 
-.alert-white.alert-danger .icon,.alert-white.alert-danger .icon:after {
+.alert-white.alert-danger .icon,
+.alert-white.alert-danger .icon:after {
     /* border-color: #ca452e;
     background: #da4932; */
     border-color: grey;
     background: grey;
 }
 
-.alert-white.alert-info .icon,.alert-white.alert-info .icon:after {
+.alert-white.alert-info .icon,
+.alert-white.alert-info .icon:after {
     border-color: #3a8ace;
     background: #4d90fd;
 }
 
-.alert-white.alert-warning .icon,.alert-white.alert-warning .icon:after {
+.alert-white.alert-warning .icon,
+.alert-white.alert-warning .icon:after {
     border-color: #d68000;
     background: #fc9700;
 }
 
-.alert-white.alert-success .icon,.alert-white.alert-success .icon:after {
+.alert-white.alert-success .icon,
+.alert-white.alert-success .icon:after {
     border-color: #54a754;
     background: #60c060;
 }
@@ -549,110 +554,166 @@ body {
 /* gauge */
 
 .gauge-wrapper {
-  display: inline-block;
-  width: auto;
-  margin: 0 auto;
-  padding: 20px 15px 15px;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px 15px 15px;
 }
 
 .gauge {
-  background: #e7e7e7;
-  box-shadow: 0 -3px 6px 2px rgba(0, 0, 0, 0.50);
-  width: 200px;
-  height: 100px;
-  border-radius: 100px 100px 0 0!important;
-  position: relative;
-  overflow: hidden;
+    background: #e7e7e7;
+    box-shadow: 0 -3px 6px 2px rgba(0, 0, 0, 0.50);
+    width: 200px;
+    height: 100px;
+    border-radius: 100px 100px 0 0 !important;
+    position: relative;
+    overflow: hidden;
 }
+
 .gauge.min-scaled {
-  transform: scale(0.5);
+    transform: scale(0.5);
 }
 
 .gauge-center {
-  content: '';
-  color: #fff;
-  width: 60%;
-  height: 60%;
-  background: #15222E;
-  border-radius: 100px 100px 0 0!important;
-  position: absolute;
-  box-shadow: 0 -13px 15px -10px rgba(0, 0, 0, 0.28);
-  right: 21%;
-  bottom: 0;
-  color: #fff;
-  z-index:10;
+    content: '';
+    color: #fff;
+    width: 60%;
+    height: 60%;
+    background: #15222E;
+    border-radius: 100px 100px 0 0 !important;
+    position: absolute;
+    box-shadow: 0 -13px 15px -10px rgba(0, 0, 0, 0.28);
+    right: 21%;
+    bottom: 0;
+    color: #fff;
+    z-index: 10;
 }
 
-.gauge-center .label, .gauge-center .number {display:block; width: 100%; text-align: center; border:0!important;}
-.gauge-center .label {font-size:0.75em; opacity:0.6; margin:1.1em 0 0.3em 0;}
-.gauge-center .number {font-size:1.2em;}
+.gauge-center .label,
+.gauge-center .number {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 0 !important;
+}
+
+.gauge-center .label {
+    font-size: 0.75em;
+    opacity: 0.6;
+    margin: 1.1em 0 0.3em 0;
+}
+
+.gauge-center .number {
+    font-size: 1.2em;
+}
 
 .needle {
-  width: 80px;
-  height: 7px;
-  background: #15222E;
-  border-bottom-left-radius: 100%!important;
-  border-bottom-right-radius: 5px!important;
-  border-top-left-radius: 100%!important;
-  border-top-right-radius: 5px!important;
-  position: absolute;
-  bottom: -2px;
-  left: 20px;
-  transform-origin: 100% 4px;
-  transform: rotate(115deg);
-  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38);
-  display:none;
-  z-index:9;
+    width: 80px;
+    height: 7px;
+    background: #15222E;
+    border-bottom-left-radius: 100% !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-left-radius: 100% !important;
+    border-top-right-radius: 5px !important;
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+    transform-origin: 100% 4px;
+    transform: rotate(115deg);
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38);
+    display: none;
+    z-index: 9;
 }
 
-.four.rischio1 .needle {animation: fourspeed1 2s 1 both; animation-delay: 1s; display:block;}
-.four.rischio2 .needle {animation: fourspeed2 2s 1 both; animation-delay: 1s; display:block;}
-.four.rischio3 .needle {animation: fourspeed3 2s 1 both; animation-delay: 1s; display:block;}
-.four.rischio4 .needle {animation: fourspeed4 2s 1 both; animation-delay: 1s; display:block;}
+.four.rischio1 .needle {
+    animation: fourspeed1 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
 
-.slice-colors {height:100%;}
+.four.rischio2 .needle {
+    animation: fourspeed2 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
+.four.rischio3 .needle {
+    animation: fourspeed3 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
+.four.rischio4 .needle {
+    animation: fourspeed4 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
+.slice-colors {
+    height: 100%;
+}
 
 .slice-colors .st {
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border: 50px solid transparent;  
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
 }
 
 
 .four .slice-colors .st.slice-item:nth-child(2) {
-  border-top: 50px #f1c40f solid;
-  border-right: 50px #f1c40f solid;
-  background-color:#e67e22;
+    border-top: 50px #f1c40f solid;
+    border-right: 50px #f1c40f solid;
+    background-color: #e67e22;
 }
 
 .four .slice-colors .st.slice-item:nth-child(4) {
-  left:50%;
-  border-bottom: 50px #E84C3D solid;
-  border-right: 50px #E84C3D solid;
-  background-color: #1eaa59;
+    left: 50%;
+    border-bottom: 50px #E84C3D solid;
+    border-right: 50px #E84C3D solid;
+    background-color: #1eaa59;
 }
 
 
 @-webkit-keyframes fourspeed1 {
-	0% {transform: rotate(0);}
-  100% {transform: rotate(16deg);}
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(16deg);
+    }
 }
 
 @-webkit-keyframes fourspeed2 {
-	0% {transform: rotate(0);}
-  100% {transform: rotate(65deg);}
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(65deg);
+    }
 }
 
 @-webkit-keyframes fourspeed3 {
-	0% {transform: rotate(0);}
-  100% {transform: rotate(115deg);}
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(115deg);
+    }
 }
 
 @-webkit-keyframes fourspeed4 {
-	0% {transform: rotate(0);}
-  100% {transform: rotate(164deg);}
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(164deg);
+    }
 }
 
 /* gauge */
@@ -660,12 +721,14 @@ body {
 /* gauge legend */
 
 .gauge-legend-good {
-    color: #1eaa59;;
+    color: #1eaa59;
+    ;
     font-weight: bold;
 }
 
 .gauge-legend-bad {
-    color: #E84C3D;;
+    color: #E84C3D;
+    ;
     font-weight: bold;
 }
 
@@ -677,9 +740,9 @@ body {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -687,14 +750,35 @@ body {
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-  
+
     /* Position the tooltip */
     position: absolute;
     z-index: 11;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+}
 
-  /* tool tip */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* tool tip */
+
+.tag {
+    display: inline-block;
+    border-radius: 3px;
+    padding: .2em .5em .3em;
+    border-radius: 2px;
+    background: var(--tag-bg);
+    color: var(--text-color);
+    font-weight: 600;
+    margin: .25em .1em
+}
+
+.tag-python {
+    color: #ffda5d;
+    background: #3879ab
+}
+
+.tag-lg {
+    font-size: .8em;
+    border-radius: 4px
+}

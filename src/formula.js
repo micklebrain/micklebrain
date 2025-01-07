@@ -14,9 +14,15 @@ function Formula() {
       <ul class="tree">
         <li>
           <details open>
-            <summary><span class='stat'> <div class="tooltip">cholesterol (total)
+            <summary>
+              <span class='stat'> 
+                <div class="tooltip">cholesterol (total) 
+              <span class="tag tag-python tag-lg">blood</span> 
+              <span class="tag tag-python tag-lg">cell</span>
               <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
-            </div> </span> </summary>
+            </div> 
+            </span> 
+            </summary>
             <div class="gauge-wrapper">
               <div class="gauge four rischio3">
                 <div class="slice-colors">
@@ -55,9 +61,14 @@ function Formula() {
         </li>
         <li>
           <details>
-            <summary><span class='stat'> <div class="tooltip">hemoglobin
+            <summary>
+              <span class='stat'> 
+                <div class="tooltip">hemoglobin 
+              <span class="tag tag-python tag-lg">iron</span>
+              <span class="tag tag-python tag-lg">red blood cell</span>
               <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-            </div> </span> </summary>
+            </div> </span> 
+            </summary>
           </details>
         </li>
         <div class="gauge-wrapper">
@@ -85,6 +96,20 @@ function Formula() {
         <li>
           <details>
             <summary>4.78 * 10^3/mm3 <span class='stat'>white blood cell count</span></summary>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+            <span class='stat'> 
+                <div class="tooltip">97 mg/dL glucose fasting 
+              <span class="tag tag-python tag-lg">sugar</span>
+              <span class="tag tag-python tag-lg">carbohydrate</span>
+              <span class="tag tag-python tag-lg">blood</span>
+              <span class="tag tag-python tag-lg">insulin</span>
+              <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
+            </div> </span> 
+            </summary>
           </details>
         </li>
       </ul>
