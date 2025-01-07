@@ -110,10 +110,10 @@ function Formula() {
         </li>
       </ul>
 
-      <h3>red blood cell count
+      <h4>red blood cell count
         <span class="tag tag-python tag-lg">blood</span>
         <span class="tag tag-python tag-lg">iron</span>
-      </h3>
+      </h4>
       <h4>per microliter</h4>
       <div class="container">
         <input type="radio" class="radio" name="progress2" value="five" id="five"></input>
@@ -136,7 +136,7 @@ function Formula() {
         </div>
       </div>
 
-      <h2>avoid</h2>
+      <h2>Dangers ⚠️</h2>
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
