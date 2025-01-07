@@ -36,17 +36,17 @@ function Formula() {
         </li>
         <li>
           <details>
-            <summary>14.8 g/dL <span class='stat'>hemoglobin</span> - a protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</summary>
+            <summary>14.8 g/dL <span class='stat'>hemoglobin</span> - a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</summary>
           </details>
         </li>
         <li>
           <details>
-            <summary>5.07 * 10^6/mm3 red blood cell count</summary>
+            <summary>5.07 * 10^6/mm3 <span class='stat'>red blood cell count</span></summary>
           </details>
         </li>
         <li>
           <details>
-            <summary>4.78 * 10^3/mm3 white blood cell count</summary>
+            <summary>4.78 * 10^3/mm3 <span class='stat'>white blood cell count</span></summary>
           </details>
         </li>
       </ul>

@@ -35,22 +35,24 @@
         1px 1px 0 grey;
 }
 
+/* money progress */
+
 .ageProgress {
     height: 24px;
     width: 20%
 }
 
-h1 {
+/* h1 {
     text-align: left;
-}
+} */
 
-body {
+/* body {
     padding: 50px;
-}
+} */
 
 .progress-bg {
     margin: 0 auto;
-    width: 65%;
+    width: 90%;
     height: 78px;
     border-radius: 10px;
     text-align: center;
