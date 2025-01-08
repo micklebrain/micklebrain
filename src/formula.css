@@ -882,27 +882,22 @@ body {
 }
 
 .radio:checked+.label {
-    color: white;
+    color: yellow;
     background: rgba(0, 0, 0, 0.25);
 }
 
 /* progress 2 */
 
-
-/* .container {
-    width: 500px;
-    margin: 0 auto;
-  } */
-  
-  .progress-meter {
+.progress-meter {
     padding: 0;
-  }
-  
-  ol.progress-meter {
+}
+
+ol.progress-meter {
     padding-bottom: 9.5px;
     list-style-type: none;
-  }
-  ol.progress-meter li {
+}
+
+ol.progress-meter li {
     display: inline-block;
     text-align: center;
     text-indent: -19px;
@@ -911,8 +906,9 @@ body {
     font-size: 12px;
     border-bottom-width: 4px;
     border-bottom-style: solid;
-  }
-  ol.progress-meter li:before {
+}
+
+ol.progress-meter li:before {
     position: relative;
     float: left;
     text-indent: 0;
@@ -921,11 +917,13 @@ body {
     left: -ms-calc(50% - 9.5px);
     left: -o-calc(50% - 9.5px);
     left: calc(50% - 9.5px);
-  }
-  ol.progress-meter li.done {
+}
+
+ol.progress-meter li.done {
     font-size: 12px;
-  }
-  ol.progress-meter li.done:before {
+}
+
+ol.progress-meter li.done:before {
     content: "\2713";
     height: 19px;
     width: 19px;
@@ -933,29 +931,34 @@ body {
     bottom: -28.175px;
     border: none;
     border-radius: 19px;
-  }
-  ol.progress-meter li.todo {
+}
+
+ol.progress-meter li.todo {
     font-size: 12px;
-  }
-  ol.progress-meter li.todo:before {
+}
+
+ol.progress-meter li.todo:before {
     content: "\2B24";
     font-size: 17.1px;
     bottom: -26.95px;
     line-height: 18.05px;
-  }
-  ol.progress-meter li.done {
+}
+
+ol.progress-meter li.done {
     color: black;
     border-bottom-color: yellowgreen;
-  }
-  ol.progress-meter li.done:before {
+}
+
+ol.progress-meter li.done:before {
     color: white;
     background-color: yellowgreen;
-  }
-  ol.progress-meter li.todo {
+}
+
+ol.progress-meter li.todo {
     color: silver;
     border-bottom-color: silver;
-  }
-  ol.progress-meter li.todo:before {
+}
+
+ol.progress-meter li.todo:before {
     color: silver;
-  }
-  
+}

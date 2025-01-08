@@ -17,10 +17,10 @@ function Formula() {
             <summary>
               <span class='stat'>
                 <div class="tooltip">cholesterol (total)
-                  <span class="tag tag-python tag-lg">blood</span>
-                  <span class="tag tag-python tag-lg">cell</span>
                   <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
                 </div>
+                <span class="tag tag-python tag-lg">blood</span>
+                <span class="tag tag-python tag-lg">cell</span>
               </span>
             </summary>
             <div class="gauge-wrapper">
@@ -59,13 +59,6 @@ function Formula() {
             </ul>
           </details>
         </li>
-        <li>
-          <details>
-            <summary>
-
-            </summary>
-          </details>
-        </li>
 
         <li>
           <details>
@@ -78,23 +71,24 @@ function Formula() {
               97 mg/dL
               <span class='stat'>
                 <div class="tooltip">glucose fasting
-                  <span class="tag tag-python tag-lg">sugar</span>
+                  <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
+                </div> 
+                </span>
+                <span class="tag tag-python tag-lg">sugar</span>
                   <span class="tag tag-python tag-lg">carbohydrate</span>
                   <span class="tag tag-python tag-lg">blood</span>
                   <span class="tag tag-python tag-lg">insulin</span>
-                  <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
-                </div> </span>
             </summary>
           </details>
         </li>
       </ul>
 
       <div class='stat'>
-        <div class="tooltip">hemoglobin
-          <span class="tag tag-python tag-lg">iron</span>
-          <span class="tag tag-python tag-lg">red blood cell</span>
+        <div class="tooltip">hemoglobin     
           <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
         </div>
+        <span class="tag tag-python tag-lg">iron</span>
+        <span class="tag tag-python tag-lg">red blood cell</span>
         <br></br>
       </div>
       <div class="gauge-wrapper">
