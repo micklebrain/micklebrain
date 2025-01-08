@@ -4,6 +4,8 @@ import silverPlay from './images/silver play button.png';
 import goldPlay from './images/youtube gold play button.png';
 import { Link } from "react-router-dom";
 
+import tiktok from './images/tiktok.png';
+
 function Formula() {
   return (
     <div>
@@ -217,7 +219,7 @@ function Formula() {
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
       <p><span class='stat-bad'>17,500</span> Instagram followers | next goal: 50,000</p>
       <p><span class='stat-bad'>4</span> Twitch followers</p>
-      <p><span class='stat-bad'>162</span> TikTok followers | next goal: 1,000</p>
+      <p><span class='stat-bad'>162</span> TikTok followers <img class="icon" src={tiktok} alt="tikTok"/> | next goal: 1,000</p>
       <h2>vanity</h2>
       <p><span class='stat-neutral'>21st</span> floor home</p>
 
