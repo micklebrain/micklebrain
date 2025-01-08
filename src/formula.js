@@ -62,32 +62,11 @@ function Formula() {
         <li>
           <details>
             <summary>
-              <span class='stat'>
-                <div class="tooltip">hemoglobin
-                  <span class="tag tag-python tag-lg">iron</span>
-                  <span class="tag tag-python tag-lg">red blood cell</span>
-                  <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-                </div> </span>
+
             </summary>
           </details>
         </li>
-        <div class="gauge-wrapper">
-          <div class="gauge four rischio3">
-            <div class="slice-colors">
-              <div class="st slice-item"></div>
-              <div class="st slice-item"></div>
-              <div class="st slice-item"></div>
-              <div class="st slice-item"></div>
-            </div>
-            <div class="needle"></div>
-            <div class="gauge-center">
-              <div class="label">g/dL</div>
-              <div class="number">14.8</div>
-            </div>
-          </div>
-        </div>
-        <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
-        <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
+
         <li>
           <details>
             <summary>4.78 * 10^3/mm3 <span class='stat'>white blood cell count</span></summary>
@@ -109,6 +88,32 @@ function Formula() {
           </details>
         </li>
       </ul>
+
+      <div class='stat'>
+        <div class="tooltip">hemoglobin
+          <span class="tag tag-python tag-lg">iron</span>
+          <span class="tag tag-python tag-lg">red blood cell</span>
+          <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+        </div>
+        <br></br>
+      </div>
+      <div class="gauge-wrapper">
+        <div class="gauge four rischio3">
+          <div class="slice-colors">
+            <div class="st slice-item"></div>
+            <div class="st slice-item"></div>
+            <div class="st slice-item"></div>
+            <div class="st slice-item"></div>
+          </div>
+          <div class="needle"></div>
+          <div class="gauge-center">
+            <div class="label">g/dL</div>
+            <div class="number">14.8</div>
+          </div>
+        </div>
+      </div>
+      <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
+      <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
 
       <h4>red blood cell count
         <span class="tag tag-python tag-lg">blood</span>
