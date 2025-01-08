@@ -45,7 +45,24 @@ function Formula() {
             <ul>
               <li>
                 <details>
-                  <summary>43 mg/dl <span class='stat'>HDL</span> (good cholesterol)</summary>
+                  <summary><span class='stat'>HDL</span> (good cholesterol)</summary>
+                  <div class="gauge-wrapper">
+                    <div class="gauge four rischio3">
+                      <div class="slice-colors">
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                      </div>
+                      <div class="needle-danger"></div>
+                      <div class="gauge-center">
+                        <div class="label">mg/dL</div>
+                        <div class="number">43</div>
+                      </div>
+                    </div>
+                  </div>
+                  <span class='gauge-legend-risk'><br></br>40-59 mg/dL</span>
+                  <span class='gauge-legend-good'>≥60 mg/dL</span>
                 </details>
               </li>
               <li>
@@ -61,7 +78,6 @@ function Formula() {
             </ul>
           </details>
         </li>
-
         <li>
           <details>
             <summary>4.78 * 10^3/mm3 <span class='stat'>white blood cell count</span></summary>
@@ -72,21 +88,21 @@ function Formula() {
             <summary>
               97 mg/dL
               <span class='stat'>
-                <div class="tooltip">glucose fasting
+                <div class="tooltip">glucose (fasting)
                   <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
-                </div> 
-                </span>
-                <span class="tag tag-python tag-lg">sugar</span>
-                  <span class="tag tag-python tag-lg">carbohydrate</span>
-                  <span class="tag tag-python tag-lg">blood</span>
-                  <span class="tag tag-python tag-lg">insulin</span>
+                </div>
+              </span>
+              <span class="tag tag-python tag-lg">sugar</span>
+              <span class="tag tag-python tag-lg">carbohydrate</span>
+              <span class="tag tag-python tag-lg">blood</span>
+              <span class="tag tag-python tag-lg">insulin</span>
             </summary>
           </details>
         </li>
       </ul>
 
       <div class='stat'>
-        <div class="tooltip">hemoglobin     
+        <div class="tooltip">hemoglobin
           <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
         </div>
         <span class="tag tag-python tag-lg">iron</span>
@@ -219,7 +235,7 @@ function Formula() {
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
       <p><span class='stat-bad'>17,500</span> Instagram followers | next goal: 50,000</p>
       <p><span class='stat-bad'>4</span> Twitch followers</p>
-      <p><span class='stat-bad'>162</span> TikTok followers <img class="icon" src={tiktok} alt="tikTok"/> | next goal: 1,000</p>
+      <p><span class='stat-bad'>162</span> TikTok followers <img class="icon" src={tiktok} alt="tikTok" /> | next goal: 1,000</p>
       <h2>vanity</h2>
       <p><span class='stat-neutral'>21st</span> floor home</p>
 

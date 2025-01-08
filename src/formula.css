@@ -633,6 +633,24 @@ body {
     z-index: 9;
 }
 
+.needle-danger {
+    width: 80px;
+    height: 7px;
+    background: #15222E;
+    border-bottom-left-radius: 100% !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-left-radius: 100% !important;
+    border-top-right-radius: 5px !important;
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+    transform-origin: 100% 4px;
+    transform: rotate(65deg);
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38);
+    display: none;
+    z-index: 9;
+}
+
 .four.rischio1 .needle {
     animation: fourspeed1 2s 1 both;
     animation-delay: 1s;
@@ -657,6 +675,30 @@ body {
     display: block;
 }
 
+.four.rischio1 .needle-danger {
+    animation: fourspeed1 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
+.four.rischio2 .needle-danger {
+    animation: fourspeed2 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
+.four.rischio3 .needle-danger {
+    animation: fourspeed3 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
+.four.rischio4 .needle-danger {
+    animation: fourspeed4 2s 1 both;
+    animation-delay: 1s;
+    display: block;
+}
+
 .slice-colors {
     height: 100%;
 }
@@ -668,7 +710,6 @@ body {
     height: 0;
     border: 50px solid transparent;
 }
-
 
 .four .slice-colors .st.slice-item:nth-child(2) {
     border-top: 50px #f1c40f solid;
@@ -730,6 +771,12 @@ body {
 
 .gauge-legend-good {
     color: #1eaa59;
+    ;
+    font-weight: bold;
+}
+
+.gauge-legend-risk {
+    color: #f1c40f;
     ;
     font-weight: bold;
 }
@@ -888,6 +935,8 @@ body {
 
 /* progress 2 */
 
+/* progress tracker */
+
 .progress-meter {
     padding: 0;
 }
@@ -962,3 +1011,5 @@ ol.progress-meter li.todo {
 ol.progress-meter li.todo:before {
     color: silver;
 }
+
+/* progress tracker */
