@@ -186,7 +186,6 @@ function Formula() {
         <div class="progress-bar">
           <h3 class="raised">$250,000&nbsp;</h3>
         </div>
-
         <h3 class="goal">Goal: $500,000</h3>
       </div>
       <p><span class='stat-good'>450</span> # SoLo loans funded</p>
@@ -201,8 +200,14 @@ function Formula() {
 
         <h3 class="goal">Goal: 3,000</h3>
       </div>
-      <h2>social 📱</h2>
-      <p><span class='stat-bad'>12</span> Youtube subscribers</p>
+      <h1>social 📱</h1>
+      <h3>Youtube subscribers</h3>
+      <div class="progress-bg">
+        <div class="progress-bar">
+          <h3 class="raised">12&nbsp;</h3>
+        </div>
+        <h3 class="goal">Goal: 100</h3>
+      </div>
 
       <h3>Youtube play button</h3>
       <div class="container">
