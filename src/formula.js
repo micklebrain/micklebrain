@@ -223,43 +223,53 @@ function Formula() {
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> lung cancer | 🫀 | 6.7% chance
+          <strong>scary!</strong> burning lips | 👄
         </div>
         <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> swollen knee | 🦵
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> right foot muscle tear | 🦶
+        </div>
+        <div class="alert alert-danger-avoided alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> lung cancer | 🫀 | 6.7% chance
+        </div>
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> liver cancer | 🫀 | 1.2% chance
         </div>
-        <div class="alert alert-danger alert-white rounded">
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> Huntington’s disease | 🫀 |  0.01%
         </div>
-        <div class="alert alert-danger alert-white rounded">
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> contracted incurable Hepatitis B | STI | 🫀
         </div>
-        <div class="alert alert-danger alert-white rounded">
-
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> contracted incurable Herpes | STI | 🫀
         </div>
-        <div class="alert alert-danger alert-white rounded">
-
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> contracted incurable HIV | STI | 🫀
         </div>
-        <div class="alert alert-danger alert-white rounded">
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> contracted incurable HPV | STI | 🫀
         </div>
-        <div class="alert alert-danger alert-white rounded">
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> Alzheimer's disease | 🫀
         </div>
-        <div class="alert alert-danger alert-white rounded">
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> crippling debt | 💵
         </div>
-        <div class="alert alert-danger alert-white rounded">
+        <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> divorced | 🫂
         </div>

@@ -531,12 +531,20 @@ body {
     top: 50%;
 }
 
-.alert-white.alert-danger .icon,
-.alert-white.alert-danger .icon:after {
+.alert-white.alert-danger-avoided .icon,
+.alert-white.alert-danger-avoided .icon:after {
     /* border-color: #ca452e;
     background: #da4932; */
     border-color: grey;
     background: grey;
+}
+
+.alert-white.alert-danger .icon,
+.alert-white.alert-danger .icon:after {
+    border-color: #ca452e;
+    background: #da4932;
+    /* border-color: grey;
+    background: grey; */
 }
 
 .alert-white.alert-info .icon,
