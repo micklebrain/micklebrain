@@ -45,10 +45,10 @@ function Formula() {
 
   return (
     <div>
-      <button onClick={() => {
+      {/* <button onClick={() => {
         test()
       }}>test</button>
-      <p>{toDo}</p>
+      <p>{toDo}</p> */}
       <ol class="toc" role="list">
         <li>
           <a href="#health">
@@ -58,6 +58,16 @@ function Formula() {
         <li>
           <a href="#finance">
             <span class="tag tag-python tag-lg">finance</span>
+          </a>
+        </li>
+        <li>
+          <a href="#dangers">
+            <span class="tag tag-python tag-lg">dangers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#vanity">
+            <span class="tag tag-python tag-lg">vanity</span>
           </a>
         </li>
       </ol>
@@ -144,41 +154,41 @@ function Formula() {
                   <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
                 </div>
               </span>
-              <span class="tag tag-python tag-lg">sugar</span>
-              <span class="tag tag-python tag-lg">carbohydrate</span>
               <span class="tag tag-python tag-lg">blood</span>
+              <span class="tag tag-python tag-lg">carbohydrate</span>
               <span class="tag tag-python tag-lg">insulin</span>
+              <span class="tag tag-python tag-lg">sugar</span>
             </summary>
           </details>
         </li>
       </ul>
 
       <div class='container'>
-      <div class='stat'>
-        <div class="tooltip">hemoglobin
-          <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-        </div>
-        <span class="tag tag-python tag-lg">iron</span>
-        <span class="tag tag-python tag-lg">red blood cell</span>
-        <br></br>
-      </div>
-      <div class="gauge-wrapper">
-        <div class="gauge four rischio3">
-          <div class="slice-colors">
-            <div class="st slice-item"></div>
-            <div class="st slice-item"></div>
-            <div class="st slice-item"></div>
-            <div class="st slice-item"></div>
+        <div class='stat'>
+          <div class="tooltip">hemoglobin
+            <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
           </div>
-          <div class="needle"></div>
-          <div class="gauge-center">
-            <div class="label">g/dL</div>
-            <div class="number">14.8</div>
+          <span class="tag tag-python tag-lg">iron</span>
+          <span class="tag tag-python tag-lg">red blood cell</span>
+          <br></br>
+        </div>
+        <div class="gauge-wrapper">
+          <div class="gauge four rischio3">
+            <div class="slice-colors">
+              <div class="st slice-item"></div>
+              <div class="st slice-item"></div>
+              <div class="st slice-item"></div>
+              <div class="st slice-item"></div>
+            </div>
+            <div class="needle"></div>
+            <div class="gauge-center">
+              <div class="label">g/dL</div>
+              <div class="number">14.8</div>
+            </div>
           </div>
         </div>
-      </div>
-      <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
-      <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
+        <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
+        <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
       </div>
 
       <h4>red blood cell count
@@ -209,8 +219,20 @@ function Formula() {
 
       <p><span class='stat-neutral'>20</span> pound curl</p>
 
-      <h2>Dangers ⚠️</h2>
+      <h2 id='dangers'>Dangers ⚠️</h2>
       <div class='content'>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> lung cancer | 🫀 | 6.7% chance
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> liver cancer | 🫀 | 1.2% chance
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> Huntington’s disease | 🫀 |  0.01%
+        </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> contracted incurable Hepatitis B | STI | 🫀
@@ -231,19 +253,7 @@ function Formula() {
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> lung cancer | 🫀
-        </div>
-        <div class="alert alert-danger alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> liver cancer | 🫀
-        </div>
-        <div class="alert alert-danger alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> Alzheimer's disease | 🫀
-        </div>
-        <div class="alert alert-danger alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> Huntington’s disease | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
@@ -281,7 +291,9 @@ function Formula() {
         <h3 class="goal">Goal: 500</h3>
       </div>
 
-      <h1>social 📱</h1>
+      <h1 id='vanity'>vanity</h1>
+
+      <h2>social 📱</h2>
       <h3>Youtube subscribers</h3>
       <div class="progress-bg">
         <div class="progress-bar">
@@ -309,7 +321,7 @@ function Formula() {
       </div>
       <p><span class='stat-bad'>4</span> Twitch followers</p>
       <p><span class='stat-bad'>162</span> TikTok followers <img class="icon" src={tiktok} alt="tikTok" /> | next goal: 1,000</p>
-      <h2>vanity</h2>
+
       <p><span class='stat-neutral'>21st</span> floor home</p>
 
       <h3>N JLPT level</h3>
