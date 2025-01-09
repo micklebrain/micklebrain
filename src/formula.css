@@ -541,8 +541,8 @@ body {
 
 .alert-white.alert-info .icon,
 .alert-white.alert-info .icon:after {
-    border-color: #3a8ace;
-    background: #4d90fd;
+    border-color: grey;
+    background: rgb(190, 183, 183);
 }
 
 .alert-white.alert-warning .icon,
@@ -645,7 +645,7 @@ body {
     bottom: -2px;
     left: 20px;
     transform-origin: 100% 4px;
-    transform: rotate(64deg);
+    transform: rotate(65deg);
     box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38);
     display: none;
     z-index: 9;

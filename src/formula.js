@@ -6,10 +6,62 @@ import { Link } from "react-router-dom";
 
 import tiktok from './images/tiktok.png';
 
+import React, { useState, useEffect } from "react";
+
+function test() {
+  fetch("https://lostmindsbackend.vercel.app/", {
+    method: "GET",
+  })
+    .then((res) => {
+      var output = res.json()
+      console.log(output)
+      return output
+    }).then((res) => {
+      var msg = res.message
+      // window.alert(msg)
+      console.log(msg)
+      return msg
+    })
+}
+
 function Formula() {
+  const [toDo, settoDo] = useState(null);
+  useEffect(() => {
+    fetch("https://lostmindsbackend.vercel.app/", {
+      method: "GET",
+    })
+      .then((res) => {
+        var output = res.json()
+        console.log(output)
+        return output
+      }).then((res) => {
+        var msg = res.message
+        // window.alert(msg)
+        console.log(msg)
+        settoDo(msg)
+        return msg
+      })
+  }, []);
+
   return (
     <div>
-      <h2>health biomarkers ❤️</h2>
+      <button onClick={() => {
+        test()
+      }}>test</button>
+      <p>{toDo}</p>
+      <ol class="toc" role="list">
+        <li>
+          <a href="#health">
+            <span class="tag tag-python tag-lg">health</span>
+          </a>
+        </li>
+        <li>
+          <a href="#finance">
+            <span class="tag tag-python tag-lg">finance</span>
+          </a>
+        </li>
+      </ol>
+      <h2 id='health'>health biomarkers ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
       <p><span class='stat-neutral'>5'7“</span> height</p>
@@ -101,6 +153,7 @@ function Formula() {
         </li>
       </ul>
 
+      <div class='container'>
       <div class='stat'>
         <div class="tooltip">hemoglobin
           <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
@@ -126,6 +179,7 @@ function Formula() {
       </div>
       <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
       <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
+      </div>
 
       <h4>red blood cell count
         <span class="tag tag-python tag-lg">blood</span>
@@ -153,46 +207,55 @@ function Formula() {
         </div>
       </div>
 
+      <p><span class='stat-neutral'>20</span> pound curl</p>
+
       <h2>Dangers ⚠️</h2>
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable Hepatitis B | STI
+          <strong>scary!</strong> contracted incurable Hepatitis B | STI | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
 
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable Herpes | STI
+          <strong>scary!</strong> contracted incurable Herpes | STI | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
 
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable HIV | STI
+          <strong>scary!</strong> contracted incurable HIV | STI | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> contracted incurable HPV | STI
+          <strong>scary!</strong> contracted incurable HPV | STI | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> lung cancer
+          <strong>scary!</strong> lung cancer | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> liver cancer
+          <strong>scary!</strong> liver cancer | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> Alzheimer's disease
+          <strong>scary!</strong> Alzheimer's disease | 🫀
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> Huntington’s disease
+          <strong>scary!</strong> Huntington’s disease | 🫀
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> crippling debt | 💵
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> divorced | 🫂
         </div>
       </div>
 
-      <p><span class='stat-neutral'>20</span> pound curl</p>
-      <h2>finance 🏦</h2>
+      <h2 id='finance'>finance 🏦</h2>
       <h2>net worth</h2>
       <div class="progress-bg">
         <div class="progress-bar">
@@ -203,20 +266,26 @@ function Formula() {
       <p><span class='stat-good'>450</span> # SoLo loans funded</p>
       <p><span class='stat-good'>$200,000 - $210,000</span> $ SoLo loans funded</p>
       <p><span class='stat-good'>$25,000</span> SoLo tips</p>
-      {/* <p><span class='stat-bad'>341</span> <span class='small'>/ 3000</span> stocks owned</p> */}
+
+      <div class="alert alert-info alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+        <strong>locked</strong> Amex black card
+      </div>
+
       <h2>stocks owned</h2>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">341&nbsp;</h3>
         </div>
 
-        <h3 class="goal">Goal: 3,000</h3>
+        <h3 class="goal">Goal: 500</h3>
       </div>
+
       <h1>social 📱</h1>
       <h3>Youtube subscribers</h3>
       <div class="progress-bg">
         <div class="progress-bar">
-          <h3 class="raised">12&nbsp;</h3>
+          <h3 class="raised">13&nbsp;</h3>
         </div>
         <h3 class="goal">Goal: 100</h3>
       </div>
@@ -234,6 +303,10 @@ function Formula() {
       {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
       <p><span class='stat-bad'>17,500</span> Instagram followers | next goal: 50,000</p>
+      <div class="alert alert-success alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
+        <strong>congrats!</strong> Meta verified
+      </div>
       <p><span class='stat-bad'>4</span> Twitch followers</p>
       <p><span class='stat-bad'>162</span> TikTok followers <img class="icon" src={tiktok} alt="tikTok" /> | next goal: 1,000</p>
       <h2>vanity</h2>
@@ -268,7 +341,9 @@ function Formula() {
           <li class="progress-point todo">5</li>
         </ol>
       </div>
-
+      <h2>Team</h2>
+      <p>PR manager - </p>
+      <p>photographer - </p>
     </div>
   );
 }
