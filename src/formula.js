@@ -292,7 +292,7 @@ function Formula() {
         <div class="progress-bar">
           <h3 class="raised">$250,000&nbsp;</h3>
         </div>
-        <h3 class="goal">Goal: $500,000</h3>
+        <h3 class="goal">Goal: $300,000</h3>
       </div>
       <p><span class='stat-good'>450</span> # SoLo loans funded</p>
       <p><span class='stat-good'>$200,000 - $210,000</span> $ SoLo loans funded</p>
