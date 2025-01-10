@@ -8,47 +8,43 @@ import tiktok from './images/tiktok.png';
 
 import React, { useState, useEffect } from "react";
 
-function test() {
-  fetch("https://lostmindsbackend.vercel.app/", {
-    method: "GET",
+function completeTask() {
+  console.log('task completed');
+
+  fetch("https://lostmindsbackend.vercel.app/completeTask/pushups", {
+    method: "POST",
   })
     .then((res) => {
       var output = res.json()
-      console.log(output)
       return output
     }).then((res) => {
-      var msg = res.message
-      // window.alert(msg)
-      console.log(msg)
-      return msg
+
     })
 }
 
 function Formula() {
   const [toDo, settoDo] = useState(null);
   useEffect(() => {
-    fetch("https://lostmindsbackend.vercel.app/", {
+    fetch("https://lostmindsbackend.vercel.app/demo", {
       method: "GET",
     })
       .then((res) => {
         var output = res.json()
-        console.log(output)
         return output
       }).then((res) => {
-        var msg = res.message
-        // window.alert(msg)
-        console.log(msg)
-        settoDo(msg)
-        return msg
+        var msg = res.doc
+        const listItems = res.doc
+        .filter((myData) => myData['isCompleted'] == false)
+        .map((myData) =>        
+            <button type="button" onClick={completeTask}>{myData['task']}</button>          
+          // <li>{myData['task']}</li>        
+        );        
+        settoDo(listItems)
       })
-  }, []);
+  }, [toDo]);
 
   return (
     <div>
-      {/* <button onClick={() => {
-        test()
-      }}>test</button>
-      <p>{toDo}</p> */}
       <ol class="toc" role="list">
         <li>
           <a href="#health">
@@ -71,6 +67,8 @@ function Formula() {
           </a>
         </li>
       </ol>
+      <h2>daily tasks</h2>
+      <div>{toDo}</div>
       <h2 id='health'>health biomarkers ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
@@ -224,14 +222,14 @@ function Formula() {
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> burning lips | 👄
-        </div>
-        <div class="alert alert-danger alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> swollen knee | 🦵
-        </div>
+        </div>        
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> right foot muscle tear | 🦶
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> swollen right knee | 🦵
         </div>
         <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
@@ -290,6 +288,10 @@ function Formula() {
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
         <strong>locked</strong> Amex black card
+      </div>
+      <div class="alert alert-info alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+        <strong>locked</strong> bought mom house 🏡
       </div>
 
       <h2>stocks owned</h2>
