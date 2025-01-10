@@ -36,7 +36,7 @@ function Formula() {
         const listItems = res.doc
         .filter((myData) => myData['isCompleted'] == false)
         .map((myData) =>        
-            <button type="button" onClick={
+            <button type="button" class="tag tag-todo tag-lg" onClick={
                 () => {
                   fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
                     method: "POST",
