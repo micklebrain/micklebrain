@@ -8,11 +8,11 @@ import tiktok from './images/tiktok.png';
 
 import React, { useState, useEffect } from "react";
 
-function completeTask() {
+function restartTasks() {
   console.log('task completed');
 
-  fetch("https://lostmindsbackend.vercel.app/completeTask/pushups", {
-    method: "POST",
+  fetch("https://lostmindsbackend.vercel.app/restartTasks", {
+    method: "GET",
   })
     .then((res) => {
       var output = res.json()
@@ -36,7 +36,19 @@ function Formula() {
         const listItems = res.doc
         .filter((myData) => myData['isCompleted'] == false)
         .map((myData) =>        
-            <button type="button" onClick={completeTask}>{myData['task']}</button>          
+            <button type="button" onClick={
+                () => {
+                  fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
+                    method: "POST",
+                  })
+                    .then((res) => {
+                      var output = res.json()
+                      return output
+                    }).then((res) => {
+                
+                    })
+                }
+            }>{myData['task']}</button>          
           // <li>{myData['task']}</li>        
         );        
         settoDo(listItems)
@@ -68,6 +80,7 @@ function Formula() {
         </li>
       </ol>
       <h2>daily tasks</h2>
+      <button onClick={restartTasks}>restartTasks</button>
       <div>{toDo}</div>
       <h2 id='health'>health biomarkers ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
