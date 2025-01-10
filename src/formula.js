@@ -34,23 +34,23 @@ function Formula() {
       }).then((res) => {
         var msg = res.doc
         const listItems = res.doc
-        .filter((myData) => myData['isCompleted'] == false)
-        .map((myData) =>        
+          .filter((myData) => myData['isCompleted'] == false)
+          .map((myData) =>
             <button type="button" class="tag tag-todo tag-lg" onClick={
-                () => {
-                  fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
-                    method: "POST",
+              () => {
+                fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
+                  method: "POST",
+                })
+                  .then((res) => {
+                    var output = res.json()
+                    return output
+                  }).then((res) => {
+
                   })
-                    .then((res) => {
-                      var output = res.json()
-                      return output
-                    }).then((res) => {
-                
-                    })
-                }
-            }>{myData['task']}</button>          
-          // <li>{myData['task']}</li>        
-        );        
+              }
+            }>{myData['task']}</button>
+            // <li>{myData['task']}</li>        
+          );
         settoDo(listItems)
       })
   }, [toDo]);
@@ -58,6 +58,11 @@ function Formula() {
   return (
     <div>
       <ol class="toc" role="list">
+        <li>
+          <a href="#tasks">
+            <span class="tag tag-python tag-lg">tasks</span>
+          </a>
+        </li>
         <li>
           <a href="#health">
             <span class="tag tag-python tag-lg">health</span>
@@ -79,7 +84,7 @@ function Formula() {
           </a>
         </li>
       </ol>
-      <h2>daily tasks</h2>
+      <h2 id='dailyTasks'>tasks</h2>
       <button onClick={restartTasks}>restartTasks</button>
       <div>{toDo}</div>
       <h2 id='health'>health biomarkers ❤️</h2>
@@ -235,7 +240,7 @@ function Formula() {
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> burning lips | 👄
-        </div>        
+        </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> right foot muscle tear | 🦶
