@@ -50,39 +50,39 @@ function Formula() {
 
                   })
               }
-            }>🎯 {myData['task']}</button>         
+            }>🎯 {myData['task']}</button>
           );
         settoDo(listItems)
       })
 
-      fetch("https://lostmindsbackend.vercel.app/demo", {
-        method: "GET",
-      })
-        .then((res) => {
-          var output = res.json()
-          return output
-        }).then((res) => {
-          var msg = res.doc
-          const listItems = res.doc
-            .filter((myData) => myData['isCompleted'] == false)
-            .filter((myData) => myData['isDaily'] == false)
-            .map((myData) =>
-              <button type="button" class="tag tag-todo tag-lg" onClick={
-                () => {
-                  fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
-                    method: "POST",
+    fetch("https://lostmindsbackend.vercel.app/demo", {
+      method: "GET",
+    })
+      .then((res) => {
+        var output = res.json()
+        return output
+      }).then((res) => {
+        var msg = res.doc
+        const listItems = res.doc
+          .filter((myData) => myData['isCompleted'] == false)
+          .filter((myData) => myData['isDaily'] == false)
+          .map((myData) =>
+            <button type="button" class="tag tag-todo tag-lg" onClick={
+              () => {
+                fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
+                  method: "POST",
+                })
+                  .then((res) => {
+                    var output = res.json()
+                    return output
+                  }).then((res) => {
+
                   })
-                    .then((res) => {
-                      var output = res.json()
-                      return output
-                    }).then((res) => {
-  
-                    })
-                }
-              }>{myData['task']}</button>         
-            );
-          settoDo2(listItems)
-        })
+              }
+            }>{myData['task']}</button>
+          );
+        settoDo2(listItems)
+      })
 
   }, [toDo]);
 
@@ -274,6 +274,18 @@ function Formula() {
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> overdue thread eyebrows | 🤨
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> overdue thread pedicure | 🦶
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> overdue teeth clean | 🦷
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> burning lips | 👄
         </div>
         <div class="alert alert-danger alert-white rounded">
@@ -283,10 +295,6 @@ function Formula() {
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> swollen right knee | 🦵
-        </div>
-        <div class="alert alert-danger alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> overdue teeth clean | 🦷
         </div>
         <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
@@ -332,11 +340,11 @@ function Formula() {
 
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> 10 day no fap streak
+        <strong>congrats!</strong> 11 day no fap streak (last 1/1/25)
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> 10 day no alcohol streak
+        <strong>congrats!</strong> 1 day no alcohol streak (last 1/11/25)
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
