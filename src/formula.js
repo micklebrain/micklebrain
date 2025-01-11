@@ -24,6 +24,7 @@ function restartTasks() {
 
 function Formula() {
   const [toDo, settoDo] = useState(null);
+  const [toDo2, settoDo2] = useState(null);
   useEffect(() => {
     fetch("https://lostmindsbackend.vercel.app/demo", {
       method: "GET",
@@ -35,6 +36,7 @@ function Formula() {
         var msg = res.doc
         const listItems = res.doc
           .filter((myData) => myData['isCompleted'] == false)
+          .filter((myData) => myData['isDaily'] == true)
           .map((myData) =>
             <button type="button" class="tag tag-todo tag-lg" onClick={
               () => {
@@ -48,11 +50,40 @@ function Formula() {
 
                   })
               }
-            }>{myData['task']}</button>
-            // <li>{myData['task']}</li>        
+            }>🎯 {myData['task']}</button>         
           );
         settoDo(listItems)
       })
+
+      fetch("https://lostmindsbackend.vercel.app/demo", {
+        method: "GET",
+      })
+        .then((res) => {
+          var output = res.json()
+          return output
+        }).then((res) => {
+          var msg = res.doc
+          const listItems = res.doc
+            .filter((myData) => myData['isCompleted'] == false)
+            .filter((myData) => myData['isDaily'] == false)
+            .map((myData) =>
+              <button type="button" class="tag tag-todo tag-lg" onClick={
+                () => {
+                  fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
+                    method: "POST",
+                  })
+                    .then((res) => {
+                      var output = res.json()
+                      return output
+                    }).then((res) => {
+  
+                    })
+                }
+              }>{myData['task']}</button>         
+            );
+          settoDo2(listItems)
+        })
+
   }, [toDo]);
 
   return (
@@ -84,9 +115,13 @@ function Formula() {
           </a>
         </li>
       </ol>
-      <h2 id='dailyTasks'>tasks</h2>
-      <button onClick={restartTasks}>restartTasks</button>
+      <h2 id='tasks'>daily tasks</h2>
+      <div class='container'>
+        <button onClick={restartTasks}>restartTasks</button>
+      </div>
       <div>{toDo}</div>
+      {/* <h2 id='tasks'>tasks</h2>
+      <div>{toDo2}</div> */}
       <h2 id='health'>health biomarkers ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
@@ -249,6 +284,10 @@ function Formula() {
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> swollen right knee | 🦵
         </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
+          <strong>scary!</strong> overdue teeth clean | 🦷
+        </div>
         <div class="alert alert-danger-avoided alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> lung cancer | 🫀 | 6.7% chance
@@ -289,6 +328,15 @@ function Formula() {
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
           <strong>scary!</strong> divorced | 🫂
         </div>
+      </div>
+
+      <div class="alert alert-success alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
+        <strong>congrats!</strong> 10 day no fap streak
+      </div>
+      <div class="alert alert-success alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
+        <strong>congrats!</strong> 10 day no alcohol streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>

@@ -535,8 +535,8 @@ body {
 .alert-white.alert-danger-avoided .icon:after {
     /* border-color: #ca452e;
     background: #da4932; */
-    border-color: grey;
-    background: grey;
+    border-color: red;
+    background: black;
 }
 
 .alert-white.alert-danger .icon,
@@ -549,8 +549,8 @@ body {
 
 .alert-white.alert-info .icon,
 .alert-white.alert-info .icon:after {
-    border-color: grey;
-    background: rgb(190, 183, 183);
+    border-color: rgb(18, 186, 18);
+    background: rgb(214, 208, 208);
 }
 
 .alert-white.alert-warning .icon,
@@ -802,13 +802,13 @@ body {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted rgb(58, 57, 57);
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: black;
+    background-color: rgb(49, 47, 47);
     color: #fff;
     text-align: center;
     border-radius: 6px;
