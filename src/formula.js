@@ -8,6 +8,23 @@ import tiktok from './images/tiktok.png';
 
 import React, { useState, useEffect } from "react";
 
+function daysSince(beginningDate) {
+  let date1 = beginningDate;
+  let date2 = new Date();
+
+  // Calculating the time difference
+  // of two dates
+  let Difference_In_Time =
+    date2.getTime() - date1.getTime();
+
+  // Calculating the no. of days between
+  // two dates
+  let Difference_In_Days =
+    Math.round
+      (Difference_In_Time / (1000 * 3600 * 24));
+  return Difference_In_Days
+}
+
 function restartTasks() {
   console.log('task completed');
 
@@ -278,7 +295,7 @@ function Formula() {
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
-          <strong>scary!</strong> overdue thread pedicure | 🦶
+          <strong>scary!</strong> overdue pedicure | 🦶
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">ⓧ</i></div>
@@ -340,11 +357,11 @@ function Formula() {
 
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> 11 day no fap streak (last 1/1/25)
+        <strong>congrats!</strong> {daysSince(new Date("01/1/2025"))} day no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> 1 day no alcohol streak (last 1/11/25)
+        <strong>congrats!</strong> {daysSince(new Date("01/11/2025"))} day no alcohol streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
