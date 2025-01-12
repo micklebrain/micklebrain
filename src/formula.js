@@ -41,7 +41,7 @@ function restartTasks() {
 
 function Formula() {
   const [toDo, settoDo] = useState(null);
-  const [toDo2, settoDo2] = useState(null);
+  // const [toDo2, settoDo2] = useState(null);
   useEffect(() => {
     fetch("https://lostmindsbackend.vercel.app/demo", {
       method: "GET",
@@ -71,36 +71,6 @@ function Formula() {
           );
         settoDo(listItems)
       })
-
-    fetch("https://lostmindsbackend.vercel.app/demo", {
-      method: "GET",
-    })
-      .then((res) => {
-        var output = res.json()
-        return output
-      }).then((res) => {
-        var msg = res.doc
-        const listItems = res.doc
-          .filter((myData) => myData['isCompleted'] == false)
-          .filter((myData) => myData['isDaily'] == false)
-          .map((myData) =>
-            <button type="button" class="tag tag-todo tag-lg" onClick={
-              () => {
-                fetch("https://lostmindsbackend.vercel.app/completeTask/" + myData['task'], {
-                  method: "POST",
-                })
-                  .then((res) => {
-                    var output = res.json()
-                    return output
-                  }).then((res) => {
-
-                  })
-              }
-            }>{myData['task']}</button>
-          );
-        settoDo2(listItems)
-      })
-
   }, [toDo]);
 
   return (
@@ -137,12 +107,13 @@ function Formula() {
         <button onClick={restartTasks}>restartTasks</button>
       </div>
       <div>{toDo}</div>
-      {/* <h2 id='tasks'>tasks</h2>
-      <div>{toDo2}</div> */}
       <h2 id='health'>health biomarkers ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
       <p><span class='stat-neutral'>5'7“</span> height</p>
+      <div class="container-heart">
+        <img src="http://robozzle.com/igoro/211px-CoeurHumain_svg.gif" class="human-heart" alt="human heart" />
+      </div>
       <ul class="tree">
         <li>
           <details open>
@@ -257,7 +228,7 @@ function Formula() {
         </div>
         <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
         <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
-      </div>
+      </div> 
 
       <h4>red blood cell count
         <span class="tag tag-python tag-lg">blood</span>
@@ -285,6 +256,31 @@ function Formula() {
         </div>
       </div>
 
+      {/* <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'></link>
+      <div class='gauge-container'>
+        <div class="gauge">
+          <ul class="meter">
+            <li class="low"></li>
+            <li class="normal"></li>
+            <li class="high"></li>
+          </ul>
+
+          <div class="dial">
+            <div class="inner">
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+
+          <div class="value">
+            179 mg/dL
+          </div>
+
+        </div>
+      </div>
+      <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
+      <span class='gauge-legend-bad'>≤11.6 mg/dL</span> */}
+
       <p><span class='stat-neutral'>20</span> pound curl</p>
 
       <h2 id='dangers'>Dangers ⚠️</h2>
@@ -310,7 +306,7 @@ function Formula() {
       <section class="accordion">
         <input type="checkbox" name="collapse" id="handle1" ></input>
         <h2 class="handle">
-          <label for="handle1">potential dangers</label>
+          <label for="handle1">potential dangers 🚨</label>
         </h2>
         <div class="content">
           <div class="alert alert-danger-avoided alert-white rounded">
@@ -356,14 +352,13 @@ function Formula() {
         </div>
       </section>
 
-
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> {daysSince(new Date("01/1/2025"))} day no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/11/2025"))} day no alcohol streak
+        <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} day no alcohol streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
