@@ -291,10 +291,6 @@ function Formula() {
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>scary!</strong> overdue thread eyebrows | 🤨
-        </div>
-        <div class="alert alert-danger alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
           <strong>scary!</strong> overdue pedicure | 🦶
         </div>
         <div class="alert alert-danger alert-white rounded">
