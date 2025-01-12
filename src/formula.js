@@ -228,7 +228,7 @@ function Formula() {
         </div>
         <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
         <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
-      </div> 
+      </div>
 
       <h4>red blood cell count
         <span class="tag tag-python tag-lg">blood</span>
@@ -292,6 +292,10 @@ function Formula() {
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
           <strong>scary!</strong> overdue teeth clean | 🦷
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+          <strong>scary!</strong> broken left toenail | 🦶
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
