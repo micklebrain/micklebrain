@@ -514,15 +514,15 @@ function Formula() {
 
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} days no alcohol streak
+        <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} days of no alcohol streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/1/2025"))} days no fap streak
+        <strong>congrats!</strong> {daysSince(new Date("01/1/2025"))} days of no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/13/2025"))} days no League of Legends streak
+        <strong>congrats!</strong> {daysSince(new Date("01/13/2025"))} days of no League of Legends streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
