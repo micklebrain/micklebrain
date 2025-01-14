@@ -339,6 +339,8 @@ function Formula() {
           <details open>
             <summary><div class='container'>
               <div class="tooltip"> cholesterol (total)
+                <span class="tag tag-python tag-lg">blood</span>
+                <span class="tag tag-python tag-lg">cell</span>
                 <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
               </div>
             </div></summary>
@@ -346,8 +348,6 @@ function Formula() {
               <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
             </div>
             <div class='container'> mg/dL <br></br>
-              <span class="tag tag-python tag-lg">blood</span>
-              <span class="tag tag-python tag-lg">cell</span>
             </div>
             <ul>
               <li>
@@ -356,7 +356,7 @@ function Formula() {
                   <div class="gui-container">
                     <xgui-bar id="HDL" max-value="80" name="HDL (good cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="43"></xgui-bar>
                   </div>
-                  <div class='container'> mg/dL <br></br>
+                  <div class='container'> mg/dl <br></br>
                   </div>
                 </details>
               </li>
@@ -366,7 +366,7 @@ function Formula() {
                   <div class="gui-container">
                     <xgui-bar id="LDL" max-value="200" name="LDL (bad cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="117"></xgui-bar>
                   </div>
-                  <div class='container'> mg/dL <br></br>
+                  <div class='container'> mg/dl <br></br>
                   </div>
                 </details>
               </li>
@@ -386,6 +386,19 @@ function Formula() {
       </ul>
 
       <div class='container'>
+        <div class="tooltip"> creatinine
+          <span class="tooltiptext">waste product that comes from the digestion of protein in your food and the normal breakdown of muscle tissue</span>
+        </div>
+        <span class="tag tag-python tag-lg">kidney</span>
+      </div>
+      <div class="gui-container">
+        <xgui-bar id="creatinine" max-value="1" name="creatinine" origin="left" value="0.83"></xgui-bar>
+      </div>
+      <div class='container'>
+        mg/dL
+      </div>
+
+      <div class='container'>
         <div class="tooltip"> hemoglobin
           <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
         </div>
@@ -395,7 +408,7 @@ function Formula() {
       <div class="gui-container">
         <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
       </div>
-      <div class='container'>mg/dL</div>
+      <div class='container'>g/dL</div>
 
       <div class='container'>
         <div class="tooltip"> glucose (fasting)
@@ -407,13 +420,14 @@ function Formula() {
         <span class="tag tag-python tag-lg">sugar</span>
       </div>
       <div class="gui-container">
-        <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="97"></xgui-bar>
+        <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="87"></xgui-bar>
       </div>
       <div class='container'>
         mg/dL
       </div>
 
-      <h3>white blood cell count       <span class="tag tag-python tag-lg">blood</span></h3>
+      <h3>white blood cell count
+        <span class="tag tag-python tag-lg">blood</span></h3>
       <div class="gui-container">
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
       </div>
@@ -422,11 +436,24 @@ function Formula() {
 
       <h3>red blood cell count
         <span class="tag tag-python tag-lg">blood</span>
-        <span class="tag tag-python tag-lg">iron</span></h3>
+        <span class="tag tag-python tag-lg">iron</span>
+      </h3>
       <div class="gui-container">
         <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
       </div>
       <div class='container'> mm3
+      </div>
+
+      <div class='container'>
+        <div class="tooltip"> hematocrit
+          <span class="tooltiptext">percentage of red blood cells in your blood</span>
+        </div>
+        <span class="tag tag-python tag-lg">red blood cells</span>
+      </div>
+      <div class="gui-container">
+        <xgui-bar id="hct" max-value="100" name="hematocrit" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="42.2"></xgui-bar>
+      </div>
+      <div class='container'> %
       </div>
 
       <p><span class='stat-neutral'>20</span> pound curl</p>
@@ -578,7 +605,7 @@ function Formula() {
 
       {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
-      
+
       <h3>Instagram followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
       <div class="progress-bg">
         <div class="progress-bar">

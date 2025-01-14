@@ -1083,6 +1083,8 @@ h1 {
 
 /* heart */
 
+/* biomarkers */
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -1117,3 +1119,5 @@ body {
     padding: 1rem;
     width: 50rem;
 }
+
+/* biomarkers */
