@@ -384,8 +384,10 @@ function Formula() {
         </li>
       </ul>
 
+      <div class='container'>
       <div class="tooltip"> hemoglobin
         <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+      </div>
       </div>
       <div class="gui-container">
         <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
