@@ -578,13 +578,28 @@ function Formula() {
 
       {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
-      <p><span class='stat-bad'>17,500</span> Instagram followers | next goal: 50,000</p>
+      
+      <h3>Instagram followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
+      <div class="progress-bg">
+        <div class="progress-bar">
+          <h3 class="raised">17,500&nbsp;</h3>
+        </div>
+        <h3 class="goal">Goal: 50,000</h3>
+      </div>
+
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> Meta verified
       </div>
       <p><span class='stat-bad'>4</span> Twitch followers</p>
-      <p><span class='stat-bad'>162</span> TikTok followers <img class="icon" src={tiktok} alt="tikTok" /> | next goal: 1,000</p>
+
+      <h3>TikTok followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
+      <div class="progress-bg">
+        <div class="progress-bar">
+          <h3 class="raised">162&nbsp;</h3>
+        </div>
+        <h3 class="goal">Goal: 500</h3>
+      </div>
 
       <p><span class='stat-neutral'>21st</span> floor home</p>
 
