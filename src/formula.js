@@ -337,14 +337,15 @@ function Formula() {
       <ul class="tree">
         <li>
           <details open>
-            <summary>cholesterol</summary>
+            <summary><div class='container'>
+              <div class="tooltip"> cholesterol (total)
+                <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+              </div>
+            </div></summary>
             <div class="gui-container">
               <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
             </div>
             <div class='container'> mg/dL <br></br>
-              <div class="tooltip"> about
-                <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
-              </div>
               <span class="tag tag-python tag-lg">blood</span>
               <span class="tag tag-python tag-lg">cell</span>
             </div>
@@ -385,49 +386,47 @@ function Formula() {
       </ul>
 
       <div class='container'>
-      <div class="tooltip"> hemoglobin
-        <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-      </div>
+        <div class="tooltip"> hemoglobin
+          <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+        </div>
+        <span class="tag tag-python tag-lg">iron</span>
+        <span class="tag tag-python tag-lg">red blood cell</span>
       </div>
       <div class="gui-container">
         <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
       </div>
-      <div class='container'>mg/dL
-        <span class="tag tag-python tag-lg">iron</span>
-        <span class="tag tag-python tag-lg">red blood cell</span>
-      </div>
+      <div class='container'>mg/dL</div>
 
       <div class='container'>
-      <div class="tooltip"> glucose (fasting)
-        <span class="tooltiptext">sugar found in your blood</span>
-      </div>
+        <div class="tooltip"> glucose (fasting)
+          <span class="tooltiptext">sugar found in blood</span>
+        </div>
+        <span class="tag tag-python tag-lg">blood</span>
+        <span class="tag tag-python tag-lg">carbohydrate</span>
+        <span class="tag tag-python tag-lg">insulin</span>
+        <span class="tag tag-python tag-lg">sugar</span>
       </div>
       <div class="gui-container">
         <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="97"></xgui-bar>
       </div>
       <div class='container'>
         mg/dL
-        <span class="tag tag-python tag-lg">blood</span>
-        <span class="tag tag-python tag-lg">carbohydrate</span>
-        <span class="tag tag-python tag-lg">insulin</span>
-        <span class="tag tag-python tag-lg">sugar</span>
       </div>
 
-      <h3>white blood cell count</h3>
+      <h3>white blood cell count       <span class="tag tag-python tag-lg">blood</span></h3>
       <div class="gui-container">
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
       </div>
       <div class='container'> mm3
-        <span class="tag tag-python tag-lg">blood</span>
       </div>
 
-      <h3>red blood cell count</h3>
+      <h3>red blood cell count
+        <span class="tag tag-python tag-lg">blood</span>
+        <span class="tag tag-python tag-lg">iron</span></h3>
       <div class="gui-container">
         <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
       </div>
       <div class='container'> mm3
-        <span class="tag tag-python tag-lg">blood</span>
-        <span class="tag tag-python tag-lg">iron</span>
       </div>
 
       <p><span class='stat-neutral'>20</span> pound curl</p>
