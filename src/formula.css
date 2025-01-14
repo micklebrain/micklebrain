@@ -1106,12 +1106,6 @@ body {
     width: 100%;
 }
 
-.description {
-    color: white;
-    padding: 3rem;
-    text-align: center;
-}
-
 .gui-container {
     background-color: #2e2e2e;
     display: grid;
@@ -1121,11 +1115,4 @@ body {
     margin: 0 auto;
     padding: 1rem;
     width: 50rem;
-}
-
-.demo-controls {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem;
 }

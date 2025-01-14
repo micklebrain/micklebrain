@@ -69,7 +69,6 @@ XguiBarTemplate.innerHTML = `
   .name {
     font-size: 0.75rem;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
   }
 
   .bar {
@@ -385,6 +384,7 @@ function Formula() {
         </li>
       </ul>
 
+      <div>hemoglobin</div>
       <div class="gui-container">
         <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
       </div>
@@ -393,6 +393,7 @@ function Formula() {
         <span class="tag tag-python tag-lg">red blood cell</span>
       </div>
 
+      <div>glucose (fasting)</div>
       <div class="gui-container">
         <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="97"></xgui-bar>
       </div>
@@ -404,12 +405,14 @@ function Formula() {
         <span class="tag tag-python tag-lg">sugar</span>
       </div>
 
+      <div>white blood cell count</div>
       <div class="gui-container">
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
       </div>
       <div class='container'> mm3
       </div>
 
+      <div>red blood cell count</div>
       <div class="gui-container">
         <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
       </div>
