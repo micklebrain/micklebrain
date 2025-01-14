@@ -397,7 +397,11 @@ function Formula() {
         <span class="tag tag-python tag-lg">red blood cell</span>
       </div>
 
-      <h3>glucose (fasting)</h3>
+      <div class='container'>
+      <div class="tooltip"> glucose (fasting)
+        <span class="tooltiptext">sugar found in your blood</span>
+      </div>
+      </div>
       <div class="gui-container">
         <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="97"></xgui-bar>
       </div>
