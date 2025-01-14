@@ -8,6 +8,226 @@ import tiktok from './images/tiktok.png';
 
 import React, { useState, useEffect } from "react";
 
+function toCamelCase(string) {
+  return string.replace(/-([a-z])/g, (string) => string[1].toUpperCase());
+}
+
+// -----------------------------------------------------------------------------
+
+const XguiBarTemplate = document.createElement("template");
+XguiBarTemplate.innerHTML = `
+<style>
+  :host {
+
+    /* CONFIGURATION - BEGIN ------------------------------------------------ */
+    --skew-left: skew( 30deg, 0deg );
+    --skew-right: scaleX(-1) skew( 30deg, 0deg );
+    --bar-color: var( --hud-color );
+    --border-radius: var( --default-border-radius, 0.4rem );
+    --border-width: 0.075rem;
+    --border-radius-inner: calc( var( --border-radius ) - var( --border-width ) );
+    --drop-shadow-size: 0.15rem;
+    --element-gap: 1rem;
+    --transition-duration: 0.3s;
+    /* CONFIGURATION - END -------------------------------------------------- */
+
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    grid-gap: var( --element-gap );
+    font-family: sans-serif;
+    user-select: none;
+  }
+
+  :host([origin=left]) {
+    --origin: var( --skew-left );
+  }
+  :host([origin=left]) .name {
+    margin-right: var( --element-gap );
+  }
+  :host([origin=left]) .value {
+    margin-left: var( --element-gap );
+  }
+
+  :host([origin=right]) {
+    --origin: var( --skew-right );
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  :host([origin=right]) .name {
+    margin-left: var( --element-gap );
+  }
+  :host([origin=right]) .value {
+    margin-right: var( --element-gap );
+  }
+
+  .host {
+    color: rgb( var( --bar-color ) );
+    display: contents;
+  }
+
+  .name {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .bar {
+    border: var( --border-width ) solid rgba( var( --bar-color ), var( --hud-opacity-primary ) );
+    border-radius: var( --border-radius );
+    display: flex;
+    filter: drop-shadow( 0 0 var( --drop-shadow-size ) rgba( var( --bar-color ), var( --hud-opacity-primary ) ) );
+    flex-grow: 1;
+    height: 1rem;
+    overflow: hidden;
+    transform: var( --origin );
+    transition: border var( --transition-duration ) linear,
+                filter var( --transition-duration ) linear;
+  }
+  .bar::after,
+  .bar::before {
+    content: '';
+  }
+  .bar::after {
+    background-color: rgba( var( --bar-color ), var( --hud-opacity-secondary ) );
+    border-radius: var( --border-radius-inner );
+    box-shadow: calc( var( --border-radius ) * -1 ) 0 0 rgba( var( --bar-color ), var( --hud-opacity-primary ) );
+    flex-grow: 1;
+    transition: box-shadow var( --transition-duration ) linear;
+  }
+  .bar::before {
+    background-color: rgba( var( --bar-color ), var( --hud-opacity-primary ) );
+    border-radius: var( --border-radius-inner ) 0 0 var( --border-radius-inner );
+    max-width: 100%;
+    transition: background-color var( --transition-duration ) linear,
+                width var( --transition-duration ) linear;
+    width: calc( 100% / var( --max-value, 100 ) * var( --value, 0 ) );
+  }
+  .value {
+    transition: color var( --transition-duration ) linear;
+    width: calc( var( --value-width-in-ch ) * 1ch );
+  }
+
+  @media screen and ( max-width: 600px ) {
+    .name {
+      display: none;
+    }
+  }
+</style>
+
+<span class="host">
+  <div class="name"></div>
+  <div class="bar"></div>
+  <div class="value"></div>
+</span>
+`;
+
+class XguiBar extends HTMLElement {
+  constructor() {
+    super();
+    this._shadowRoot = this.attachShadow({ mode: "open" });
+    this._shadowRoot.appendChild(XguiBarTemplate.content.cloneNode(true));
+
+    this.$ = (selector) => this._shadowRoot.querySelector(selector);
+    this.$host = this.$(".host");
+    this.$name = this.$(".name");
+    this.$value = this.$(".value");
+
+    this.default = {
+      maxValue: 100,
+      thresholdAbsoluteValues: false,
+      value: 0
+    };
+    this.thresholdContainer = new Map();
+    this.$host.style.setProperty(
+      "--value-width-in-ch",
+      this.default.maxValue.length
+    );
+  }
+
+  static get observedAttributes() {
+    return [
+      "name",
+      "max-value",
+      "thresholds",
+      "threshold-absolute-values",
+      "value"
+    ];
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    this[toCamelCase(name)] = newValue;
+    this.$host.style.setProperty(`--${name}`, newValue);
+
+    if (this.value && this.parseThresholds(this.thresholds)) {
+      this.setBarColorWithThresholds();
+    }
+
+    if (name == "max-value") {
+      this.$host.style.setProperty("--value-width-in-ch", this.maxValue.length);
+    }
+
+    if (name == "name") {
+      this.$name.innerText = newValue;
+    }
+
+    if (name == "value") {
+      this.$value.innerText = newValue;
+    }
+  }
+
+  parseThresholds(thresholdsString) {
+    this.thresholdContainer.clear();
+    if (!thresholdsString) {
+      return false;
+    }
+    let steps = thresholdsString.split("|");
+
+    steps.forEach((step, index) => {
+      let [threshold, color] = step.split(":");
+      if (Number.isInteger(Number.parseFloat(threshold || 0))) {
+        this.thresholdContainer.set(threshold, color);
+      }
+    });
+
+    return true;
+  }
+
+  setBarColorWithThresholds() {
+    let maxValue = this.maxValue || this.default.maxValue,
+      value = this.value || this.default.value,
+      thresholdAbsoluteValues =
+        this.hasAttribute("threshold-absolute-values") ||
+        this.default.thresholdAbsoluteValues,
+      highestMatchingThreshold;
+
+    this.thresholdContainer.forEach((color, threshold) => {
+      let t = Number.parseFloat(threshold),
+        v = Number.parseFloat(value);
+      if (v >= (thresholdAbsoluteValues ? t : (maxValue / 100) * t)) {
+        highestMatchingThreshold = threshold;
+      }
+    });
+    highestMatchingThreshold &&
+      this.$host.style.setProperty(
+        `--bar-color`,
+        this.thresholdContainer.get(highestMatchingThreshold)
+      );
+  }
+
+  setValue(value) {
+    let calculatedNewValue =
+      Number.parseFloat(this.value) + Number.parseFloat(value);
+    let newValue = Math.max(0, Math.min(calculatedNewValue, this.maxValue));
+    this.setAttribute("value", newValue);
+    return newValue == calculatedNewValue;
+  }
+}
+
+// -----------------------------------------------------------------------------
+
+window.customElements.define("xgui-bar", XguiBar);
+
 function daysSince(beginningDate) {
   let date1 = beginningDate;
   let date2 = new Date();
@@ -41,7 +261,7 @@ function restartTasks() {
 
 function Formula() {
   const [toDo, settoDo] = useState(null);
-  // const [toDo2, settoDo2] = useState(null);
+
   useEffect(() => {
     fetch("https://lostmindsbackend.vercel.app/demo", {
       method: "GET",
@@ -102,6 +322,7 @@ function Formula() {
           </a>
         </li>
       </ol>
+
       <h2 id='tasks'>daily tasks</h2>
       <div class='container'>
         <button onClick={restartTasks}>restartTasks</button>
@@ -179,107 +400,44 @@ function Formula() {
             </ul>
           </details>
         </li>
-        <li>
-          <details>
-            <summary>4.78 * 10^3/mm3 <span class='stat'>white blood cell count</span></summary>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              97 mg/dL
-              <span class='stat'>
-                <div class="tooltip">glucose (fasting)
-                  <span class="tooltiptext">blood sugar after you fast for at least eight hours</span>
-                </div>
-              </span>
-              <span class="tag tag-python tag-lg">blood</span>
-              <span class="tag tag-python tag-lg">carbohydrate</span>
-              <span class="tag tag-python tag-lg">insulin</span>
-              <span class="tag tag-python tag-lg">sugar</span>
-            </summary>
-          </details>
-        </li>
       </ul>
 
-      <div class='container'>
-        <div class='stat'>
-          <div class="tooltip">hemoglobin
-            <span class="tooltiptext">a <u>protein</u> in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-          </div>
-          <span class="tag tag-python tag-lg">iron</span>
-          <span class="tag tag-python tag-lg">red blood cell</span>
-          <br></br>
-        </div>
-        <div class="gauge-wrapper">
-          <div class="gauge four rischio3">
-            <div class="slice-colors">
-              <div class="st slice-item"></div>
-              <div class="st slice-item"></div>
-              <div class="st slice-item"></div>
-              <div class="st slice-item"></div>
-            </div>
-            <div class="needle"></div>
-            <div class="gauge-center">
-              <div class="label">g/dL</div>
-              <div class="number">14.8</div>
-            </div>
-          </div>
-        </div>
-        <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
-        <span class='gauge-legend-bad'>≤11.6 mg/dL</span>
+      <div class="gui-container">
+        <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
       </div>
 
-      <h4>red blood cell count
+      <div class="gui-container">
+        <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
+      </div>
+      <div class='container'>mg/dL
+        <span class="tag tag-python tag-lg">iron</span>
+        <span class="tag tag-python tag-lg">red blood cell</span>
+      </div>
+
+      <div class="gui-container">
+        <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="97"></xgui-bar>
+      </div>
+      <div class='container'>
+        mg/dL
+        <span class="tag tag-python tag-lg">blood</span>
+        <span class="tag tag-python tag-lg">carbohydrate</span>
+        <span class="tag tag-python tag-lg">insulin</span>
+        <span class="tag tag-python tag-lg">sugar</span>
+      </div>
+
+      <div class="gui-container">
+        <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
+      </div>
+      <div class='container'> mm3
+      </div>
+
+      <div class="gui-container">
+        <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
+      </div>
+      <div class='container'> mm3
         <span class="tag tag-python tag-lg">blood</span>
         <span class="tag tag-python tag-lg">iron</span>
-      </h4>
-      <h4>per microliter</h4>
-      <div class="container">
-        <input type="radio" class="radio" name="progress2" value="five" id="five"></input>
-        <label for="five" class="label">2,000,000</label>
-
-        <input type="radio" class="radio" name="progress2" value="twentyfive" id="twentyfive" ></input>
-        <label for="twentyfive" class="label">3,000,000</label>
-
-        <input type="radio" class="radio" name="progress2" value="fifty" id="fifty" ></input>
-        <label for="fifty" class="label">4,000,000</label>
-
-        <input type="radio" class="radio" name="progress2" value="seventyfive" id="seventyfive" checked></input>
-        <label for="seventyfive" class="label">5,070,000</label>
-
-        <input type="radio" class="radio" name="progress2" value="onehundred" id="onehundred" ></input>
-        <label for="onehundred" class="label">6,000,000</label>
-
-        <div class="progress2">
-          <div class="progress-bar-2"></div>
-        </div>
       </div>
-
-      {/* <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'></link>
-      <div class='gauge-container'>
-        <div class="gauge">
-          <ul class="meter">
-            <li class="low"></li>
-            <li class="normal"></li>
-            <li class="high"></li>
-          </ul>
-
-          <div class="dial">
-            <div class="inner">
-              <div class="arrow">
-              </div>
-            </div>
-          </div>
-
-          <div class="value">
-            179 mg/dL
-          </div>
-
-        </div>
-      </div>
-      <span class='gauge-legend-good'><br></br>11.6 - 15 mg/dL</span>
-      <span class='gauge-legend-bad'>≤11.6 mg/dL</span> */}
 
       <p><span class='stat-neutral'>20</span> pound curl</p>
 
@@ -347,6 +505,14 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>scary!</strong> diabetes | 🫀
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>scary!</strong> leukemia | 🫀
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>scary!</strong> crippling debt | 💵
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
@@ -358,11 +524,15 @@ function Formula() {
 
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/1/2025"))} day no fap streak
+        <strong>congrats!</strong> {daysSince(new Date("01/1/2025"))} days no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} day no alcohol streak
+        <strong>congrats!</strong> {daysSince(new Date("01/13/2025"))} days no League of Legends streak
+      </div>
+      <div class="alert alert-success alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
+        <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} days no alcohol streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
