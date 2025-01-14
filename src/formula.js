@@ -410,6 +410,7 @@ function Formula() {
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
       </div>
       <div class='container'> mm3
+        <span class="tag tag-python tag-lg">blood</span> 
       </div>
 
       <div>red blood cell count</div>
@@ -427,23 +428,23 @@ function Formula() {
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>scary!</strong> overdue pedicure | 🦶
+          <strong>critical!</strong> overdue pedicure | 🦶
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>scary!</strong> overdue teeth clean | 🦷
+          <strong>critical!</strong> overdue teeth clean | 🦷
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>scary!</strong> broken left toenail | 🦶
+          <strong>critical!</strong> broken left toenail | 🦶
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>scary!</strong> burning lips | 👄
+          <strong>critical!</strong> burning lips | 👄
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>scary!</strong> right foot muscle tear | 🦶
+          <strong>critical!</strong> right foot muscle tear | 🦶
         </div>
       </div>
 
@@ -455,51 +456,51 @@ function Formula() {
         <div class="content">
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> lung cancer | 🫀 | 6.7% chance
+            <strong>critical!</strong> lung cancer | 🫀 | 6.7% chance
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> liver cancer | 🫀 | 1.2% chance
+            <strong>critical!</strong> liver cancer | 🫀 | 1.2% chance
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> Huntington’s disease | 🫀 |  0.01%
+            <strong>critical!</strong> Huntington’s disease | 🫀 |  0.01%
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> contracted incurable Hepatitis B | STI | 🫀
+            <strong>critical!</strong> contracted incurable Hepatitis B | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> contracted incurable Herpes | STI | 🫀
+            <strong>critical!</strong> contracted incurable Herpes | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> contracted incurable HIV | STI | 🫀
+            <strong>critical!</strong> contracted incurable HIV | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> contracted incurable HPV | STI | 🫀
+            <strong>critical!</strong> contracted incurable HPV | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> Alzheimer's disease | 🫀
+            <strong>critical!</strong> Alzheimer's disease | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> diabetes | 🫀
+            <strong>critical!</strong> diabetes | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> leukemia | 🫀
+            <strong>critical!</strong> leukemia | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> crippling debt | 💵
+            <strong>critical!</strong> crippling debt | 💵
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>scary!</strong> divorced | 🫂
+            <strong>critical!</strong> divorced | 🫂
           </div>
         </div>
       </section>
