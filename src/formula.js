@@ -338,32 +338,17 @@ function Formula() {
       <ul class="tree">
         <li>
           <details open>
-            <summary>
-              <span class='stat'>
-                <div class="tooltip">cholesterol (total)
-                  <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
-                </div>
-                <span class="tag tag-python tag-lg">blood</span>
-                <span class="tag tag-python tag-lg">cell</span>
-              </span>
-            </summary>
-            <div class="gauge-wrapper">
-              <div class="gauge four rischio3">
-                <div class="slice-colors">
-                  <div class="st slice-item"></div>
-                  <div class="st slice-item"></div>
-                  <div class="st slice-item"></div>
-                  <div class="st slice-item"></div>
-                </div>
-                <div class="needle"></div>
-                <div class="gauge-center">
-                  <div class="label">mg/dL</div>
-                  <div class="number">179</div>
-                </div>
-              </div>
+            <summary>test</summary>
+            <div class="gui-container">
+              <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
             </div>
-            <span class='gauge-legend-good'><br></br>≤200 mg/dL</span>
-            <span class='gauge-legend-bad'>≥200 mg/dL</span>
+            <div class='container'> mg/dL <br></br>
+              <div class="tooltip"> about
+                <span class="tooltiptext">a waxy, fat-like substance that's found in the blood and cells of the body, needed to make cell walls, tissues, hormones, vitamin D, and bile acid</span>
+              </div>
+              <span class="tag tag-python tag-lg">blood</span>
+              <span class="tag tag-python tag-lg">cell</span>
+            </div>
             <ul>
               <li>
                 <details>
@@ -383,8 +368,6 @@ function Formula() {
                       </div>
                     </div>
                   </div>
-                  <span class='gauge-legend-risk'><br></br>40-59 mg/dL</span>
-                  <span class='gauge-legend-good'>≥60 mg/dL</span>
                 </details>
               </li>
               <li>
@@ -401,10 +384,6 @@ function Formula() {
           </details>
         </li>
       </ul>
-
-      <div class="gui-container">
-        <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
-      </div>
 
       <div class="gui-container">
         <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
