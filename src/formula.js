@@ -338,7 +338,7 @@ function Formula() {
       <ul class="tree">
         <li>
           <details open>
-            <summary>test</summary>
+            <summary>cholesterol</summary>
             <div class="gui-container">
               <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
             </div>
@@ -352,32 +352,32 @@ function Formula() {
             <ul>
               <li>
                 <details>
-                  <summary><span class='stat'>HDL</span> (good cholesterol)</summary>
-                  <div class="gauge-wrapper">
-                    <div class="gauge four rischio3">
-                      <div class="slice-colors">
-                        <div class="st slice-item"></div>
-                        <div class="st slice-item"></div>
-                        <div class="st slice-item"></div>
-                        <div class="st slice-item"></div>
-                      </div>
-                      <div class="needle-danger"></div>
-                      <div class="gauge-center">
-                        <div class="label">mg/dL</div>
-                        <div class="number">43</div>
-                      </div>
-                    </div>
+                  <summary>HDL (good cholesterol)</summary>
+                  <div class="gui-container">
+                    <xgui-bar id="HDL" max-value="80" name="HDL (good cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="43"></xgui-bar>
+                  </div>
+                  <div class='container'> mg/dL <br></br>
                   </div>
                 </details>
               </li>
               <li>
                 <details>
-                  <summary>117 mg/dl <span class='stat'>LDL</span> (bad cholesterol)</summary>
+                  <summary>LDL (bad cholesterol)</summary>
+                  <div class="gui-container">
+                    <xgui-bar id="LDL" max-value="200" name="LDL (bad cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="117"></xgui-bar>
+                  </div>
+                  <div class='container'> mg/dL <br></br>
+                  </div>
                 </details>
               </li>
               <li>
                 <details>
-                  <summary>98 mg/dl <span class='stat'>triglycerides</span></summary>
+                  <summary>triglycerides</summary>
+                  <div class="gui-container">
+                    <xgui-bar id="triglycerides" max-value="600" name="triglycerides" origin="left" thresholds="0:var(--hud-color)|10:var(--hud-color)|20:var(--hud-color)" value="98"></xgui-bar>
+                  </div>
+                  <div class='container'> mg/dl <br></br>
+                  </div>
                 </details>
               </li>
             </ul>
