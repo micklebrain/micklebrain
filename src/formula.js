@@ -340,9 +340,10 @@ function Formula() {
           <details open>
             <summary><div class='container'>
               <div class="tooltip"> cholesterol (total)
+                <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
+                <span class="tag tag-python tag-lg">lungs</span>
                 <span class="tag tag-python tag-lg">blood</span>
                 <span class="tag tag-python tag-lg">cell</span>
-                <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
               </div>
             </div></summary>
             <div class="gui-container">
@@ -427,18 +428,26 @@ function Formula() {
         mg/dL
       </div>
 
-      <h3>white blood cell count
-        <span class="tag tag-python tag-lg">blood</span></h3>
+      <div class='container'>
+        <div class="tooltip"> white blood cell count
+          <span class="tooltiptext">cells in the body's immune system that help fight infections and disease</span>
+        </div>
+        <span class="tag tag-python tag-lg">blood</span>
+        <span class="tag tag-python tag-lg">immunity</span>
+      </div>
       <div class="gui-container">
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
       </div>
       <div class='container'> mm3
       </div>
 
-      <h3>red blood cell count
+      <div class='container'>
+        <div class="tooltip"> red blood cell count
+          <span class="tooltiptext">cells in the blood that carry oxygen from the lungs to the body's tissues</span>
+        </div>
         <span class="tag tag-python tag-lg">blood</span>
         <span class="tag tag-python tag-lg">iron</span>
-      </h3>
+      </div>
       <div class="gui-container">
         <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
       </div>
@@ -546,7 +555,7 @@ function Formula() {
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/15/2025"))} days of no fap streak
+        <strong>congrats!</strong> {daysSince(new Date("01/16/2025"))} days of no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
@@ -589,7 +598,7 @@ function Formula() {
       <h3>Youtube subscribers</h3>
       <div class="progress-bg">
         <div class="progress-bar">
-          <h3 class="raised">13&nbsp;</h3>
+          <h3 class="raised">14&nbsp;</h3>
         </div>
         <h3 class="goal">Goal: 100</h3>
       </div>
@@ -662,6 +671,7 @@ function Formula() {
       </div>
       <h1>Team</h1>
       <p>PR manager - unfilled</p>
+      <p>dating coach - unfilled</p>
       <p>photographer - unfilled</p>
     </div>
   );
