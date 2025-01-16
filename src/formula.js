@@ -327,10 +327,11 @@ function Formula() {
         <button onClick={restartTasks}>restartTasks</button>
       </div>
       <div>{toDo}</div>
-      <h2 id='health'>health biomarkers ❤️</h2>
+      <h2 id='health'>health ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
       <p><span class='stat-neutral'>5'7“</span> height</p>
+      <h2 id='health'>biomarkers</h2>
       <div class="container-heart">
         <img src="http://robozzle.com/igoro/211px-CoeurHumain_svg.gif" class="human-heart" alt="human heart" />
       </div>
@@ -462,7 +463,7 @@ function Formula() {
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>critical!</strong> overdue teeth clean | 🦷
+          <strong>critical!</strong> overdue teeth clean | $249 min | 🦷
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -474,7 +475,7 @@ function Formula() {
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>critical!</strong> right foot muscle tear | 🦶
+          <strong>critical!</strong> right foot muscle tear | plantarfascia muscle? | 🦶
         </div>
       </div>
 
@@ -553,7 +554,7 @@ function Formula() {
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
-      <h2>net worth</h2>
+      <h3>net worth</h3>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">$250,000&nbsp;</h3>
@@ -566,14 +567,14 @@ function Formula() {
 
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-        <strong>locked</strong> purchased mom house 🏡 | $400,000
+        <strong>locked</strong> purchased mom house 🏡 | $400,000 | $100,000 down payment
       </div>
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
         <strong>locked</strong> Amex black card
       </div>
 
-      <h2>stocks owned</h2>
+      <h3>stocks owned</h3>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">341&nbsp;</h3>
@@ -659,9 +660,9 @@ function Formula() {
           <li class="progress-point todo">5</li>
         </ol>
       </div>
-      <h2>Team</h2>
-      <p>PR manager - </p>
-      <p>photographer - </p>
+      <h1>Team</h1>
+      <p>PR manager - unfilled</p>
+      <p>photographer - unfilled</p>
     </div>
   );
 }
