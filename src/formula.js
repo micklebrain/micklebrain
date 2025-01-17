@@ -416,10 +416,10 @@ function Formula() {
         <div class="tooltip"> glucose (fasting)
           <span class="tooltiptext">sugar found in blood</span>
         </div>
-        <span class="tag tag-python tag-lg">blood</span>
-        <span class="tag tag-python tag-lg">carbohydrate</span>
-        <span class="tag tag-python tag-lg">insulin</span>
         <span class="tag tag-python tag-lg">sugar</span>
+        <span class="tag tag-python tag-lg">insulin</span>   
+        <span class="tag tag-python tag-lg">carbohydrate</span>
+        <span class="tag tag-python tag-lg">blood</span>        
       </div>
       <div class="gui-container">
         <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="87"></xgui-bar>
@@ -432,8 +432,8 @@ function Formula() {
         <div class="tooltip"> white blood cell count
           <span class="tooltiptext">cells in the body's immune system that help fight infections and disease</span>
         </div>
-        <span class="tag tag-python tag-lg">blood</span>
         <span class="tag tag-python tag-lg">immunity</span>
+        <span class="tag tag-python tag-lg">blood</span>        
       </div>
       <div class="gui-container">
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
@@ -494,6 +494,10 @@ function Formula() {
           <label for="handle1">potential dangers 🚨</label>
         </h2>
         <div class="content">
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> overdue ear clean | 👂
+          </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> lung cancer | 🫀 | 6.7% chance
@@ -628,7 +632,14 @@ function Formula() {
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> Meta verified
       </div>
-      <p><span class='stat-bad'>4</span> Twitch followers</p>
+
+      <h3>Twitch followers <img class="icon" src={tiktok} alt="Twitch" /></h3>
+      <div class="progress-bg">
+        <div class="progress-bar">
+          <h3 class="raised">4&nbsp;</h3>
+        </div>
+        <h3 class="goal">Goal: 100</h3>
+      </div>
 
       <h3>TikTok followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
       <div class="progress-bg">
