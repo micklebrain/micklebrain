@@ -476,6 +476,10 @@ function Formula() {
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+          <strong>critical!</strong> overdue blood test | $385 min | 🩸
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
           <strong>critical!</strong> broken left toenail | 🦶
         </div>
         <div class="alert alert-danger alert-white rounded">
@@ -574,9 +578,10 @@ function Formula() {
         </div>
         <h3 class="goal">Goal: $300,000</h3>
       </div>
-      <p><span class='stat-good'>450</span> # SoLo loans funded</p>
+
+      <p><span class='stat-good'>450 - 500</span> # SoLo loans funded</p>
       <p><span class='stat-good'>$200,000 - $210,000</span> $ SoLo loans funded</p>
-      <p><span class='stat-good'>$25,000</span> SoLo tips</p>
+      <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span> SoLo tips</p>
 
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
