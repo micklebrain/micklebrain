@@ -476,7 +476,7 @@ function Formula() {
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>critical!</strong> overdue blood test | $385 min | 🩸
+          <strong>critical!</strong> overdue blood test | $150 min | 🩸
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -571,7 +571,7 @@ function Formula() {
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/13/2025"))} days of no League of Legends streak
+        <strong>congrats!</strong> {daysSince(new Date("01/17/2025"))} days of no League of Legends streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
