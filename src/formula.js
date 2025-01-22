@@ -417,9 +417,9 @@ function Formula() {
           <span class="tooltiptext">sugar found in blood</span>
         </div>
         <span class="tag tag-python tag-lg">sugar</span>
-        <span class="tag tag-python tag-lg">insulin</span>   
+        <span class="tag tag-python tag-lg">insulin</span>
         <span class="tag tag-python tag-lg">carbohydrate</span>
-        <span class="tag tag-python tag-lg">blood</span>        
+        <span class="tag tag-python tag-lg">blood</span>
       </div>
       <div class="gui-container">
         <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="87"></xgui-bar>
@@ -433,7 +433,7 @@ function Formula() {
           <span class="tooltiptext">cells in the body's immune system that help fight infections and disease</span>
         </div>
         <span class="tag tag-python tag-lg">immunity</span>
-        <span class="tag tag-python tag-lg">blood</span>        
+        <span class="tag tag-python tag-lg">blood</span>
       </div>
       <div class="gui-container">
         <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
@@ -472,7 +472,7 @@ function Formula() {
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-          <strong>critical!</strong> overdue teeth clean | $249 min | 🦷
+          <strong>critical!</strong> overdue teeth clean | $205 min (cleaning + examination) | 🦷
         </div>
         <div class="alert alert-danger alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -502,10 +502,6 @@ function Formula() {
           <label for="handle1">potential dangers 🚨</label>
         </h2>
         <div class="content">
-          <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> overdue ear clean | 👂
-          </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> lung cancer | 🫀 | 6.7% chance
@@ -571,7 +567,7 @@ function Formula() {
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/17/2025"))} days of no League of Legends streak
+        <strong>congrats!</strong> {daysSince(new Date("01/19/2025"))} days of no League of Legends streak
       </div>
 
       <h2 id='finance'>finance 🏦</h2>
@@ -690,9 +686,49 @@ function Formula() {
         </ol>
       </div>
       <h1>Team</h1>
-      <p>PR manager - unfilled</p>
-      <p>dating coach - unfilled</p>
-      <p>photographer - unfilled</p>
+      <p>PR manager - vacant</p>
+      <p>dating coach - vacant</p>
+      <p>photographer - vacant</p>
+
+      
+        {/* <div class="stats-content">
+          <main>
+            <div class="grid-area-3">
+              <div class="personal-bests">
+                <section class="personal-bests__best personal-bests__best--lift">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>Haviest Deadlift</h2>
+                  <p>250 lbs</p>
+                </section>
+                <section class="personal-bests__best personal-bests__best--plank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>Longest plank</h2>
+                  <p>3 min</p>
+                </section>
+                <section class="personal-bests__best personal-bests__best--plank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>Longest plank</h2>
+                  <p>3 min</p>
+                </section>
+              </div>
+            </div>
+          </main>
+        </div>
+
+        <div class="stats-content">
+          <main>
+            <div class="grid-area-3">
+              <div class="personal-bests">
+                <section class="personal-bests__best personal-bests__best--run">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>Meta</h2>
+                  <p>verified</p>
+                </section>
+              </div>
+            </div>
+          </main>
+        </div> */}
+    
     </div>
   );
 }
