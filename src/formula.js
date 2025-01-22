@@ -496,7 +496,7 @@ function Formula() {
         </div>
       </div>
 
-      <section class="accordion">
+      <div class="accordion">
         <input type="checkbox" name="collapse" id="handle1" ></input>
         <h2 class="handle">
           <label for="handle1">potential dangers 🚨</label>
@@ -555,20 +555,44 @@ function Formula() {
             <strong>critical!</strong> overdue pedicure | 🦶
           </div>
         </div>
-      </section>
+      </div>
 
-      <div class="alert alert-success alert-white rounded">
+      {/* <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} days of no alcohol streak
-      </div>
-      <div class="alert alert-success alert-white rounded">
+      </div> */}
+      {/* <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> {daysSince(new Date("01/22/2025"))} days of no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> {daysSince(new Date("01/19/2025"))} days of no League of Legends streak
-      </div>
+      </div> */}
+
+      {/* <div class="stats-content">
+          <main> */}
+            <div class="grid-area-3">
+              <div class="personal-bests">
+                <section class="personal-bests__best personal-bests__best--lift">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>sober</h2>
+                  <p>{daysSince(new Date("01/12/2025"))} days</p>
+                </section>
+                <section class="personal-bests__best personal-bests__best--plank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>no fap</h2>
+                  <p>{daysSince(new Date("01/22/2025"))} days</p>
+                </section>
+                <section class="personal-bests__best personal-bests__best--plank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                  <h2>League of Legends free</h2>
+                  <p>{daysSince(new Date("01/19/2025"))} days</p>
+                </section>
+              </div>
+            </div>
+          {/* </main>
+        </div> */}
 
       <h2 id='finance'>finance 🏦</h2>
       <h3>net worth</h3>
@@ -690,45 +714,20 @@ function Formula() {
       <p>dating coach - vacant</p>
       <p>photographer - vacant</p>
 
-      
-        <div class="stats-content">
-          <main>
-            <div class="grid-area-3">
-              <div class="personal-bests">
-                <section class="personal-bests__best personal-bests__best--lift">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-                  <h2>Haviest Deadlift</h2>
-                  <p>250 lbs</p>
-                </section>
-                <section class="personal-bests__best personal-bests__best--plank">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-                  <h2>Longest plank</h2>
-                  <p>3 min</p>
-                </section>
-                <section class="personal-bests__best personal-bests__best--plank">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-                  <h2>Longest plank</h2>
-                  <p>3 min</p>
-                </section>
-              </div>
+      <div class="stats-content">
+        <main>
+          <div class="grid-area-3">
+            <div class="personal-bests">
+              <section class="personal-bests__best personal-bests__best--run">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+                <h2>Meta</h2>
+                <p>verified</p>
+              </section>
             </div>
-          </main>
-        </div>
+          </div>
+        </main>
+      </div>
 
-        <div class="stats-content">
-          <main>
-            <div class="grid-area-3">
-              <div class="personal-bests">
-                <section class="personal-bests__best personal-bests__best--run">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-                  <h2>Meta</h2>
-                  <p>verified</p>
-                </section>
-              </div>
-            </div>
-          </main>
-        </div> 
-    
     </div>
   );
 }
