@@ -563,7 +563,7 @@ function Formula() {
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/16/2025"))} days of no fap streak
+        <strong>congrats!</strong> {daysSince(new Date("01/22/2025"))} days of no fap streak
       </div>
       <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
@@ -691,7 +691,7 @@ function Formula() {
       <p>photographer - vacant</p>
 
       
-        {/* <div class="stats-content">
+        <div class="stats-content">
           <main>
             <div class="grid-area-3">
               <div class="personal-bests">
@@ -727,7 +727,7 @@ function Formula() {
               </div>
             </div>
           </main>
-        </div> */}
+        </div> 
     
     </div>
   );
