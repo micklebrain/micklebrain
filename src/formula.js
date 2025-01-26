@@ -617,6 +617,14 @@ function Formula() {
       </div>
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+        <strong>locked</strong> purchased LA home 🏡 | $1,000,000 | $200,000 down payment
+      </div>
+      <div class="alert alert-info alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+        <strong>locked</strong> purchased Tokyo home 🏡 | $1,000,000 | $200,000 down payment
+      </div>
+      <div class="alert alert-info alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
         <strong>locked</strong> Amex black card
       </div>
 
