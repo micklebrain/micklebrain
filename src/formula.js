@@ -691,7 +691,7 @@ function Formula() {
       <h3>TikTok followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
       <div class="progress-bg">
         <div class="progress-bar">
-          <h3 class="raised">162&nbsp;</h3>
+          <h3 class="raised">167&nbsp;</h3>
         </div>
         <h3 class="goal">Goal: 500</h3>
       </div>
@@ -712,7 +712,7 @@ function Formula() {
       <div class="container">
         <ol class="progress-meter">
           <li class="progress-point done">3 month tourist</li>
-          <li class="progress-point todo">6 month digital nomad</li>
+          <li class="progress-point todo">1 year designated activities</li>
           <li class="progress-point todo">2 years student</li>
           <li class="progress-point todo">permanant residency</li>
         </ol>
