@@ -712,7 +712,7 @@ function Formula() {
       <div class="container">
         <ol class="progress-meter">
           <li class="progress-point done">3 month tourist</li>
-          <li class="progress-point todo">1 year designated activities</li>
+          <li class="progress-point todo">1 yr designated activities</li>
           <li class="progress-point todo">2 years student</li>
           <li class="progress-point todo">permanant residency</li>
         </ol>
