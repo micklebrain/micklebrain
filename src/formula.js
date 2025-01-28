@@ -516,6 +516,10 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> tumor found | 🫀
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> Huntington’s disease | 🫀 |  0.01%
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
@@ -545,14 +549,6 @@ function Formula() {
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> leukemia | 🫀
-          </div>
-          <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> crippling debt | 💵
-          </div>
-          <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> divorced | 🫂
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -656,6 +652,19 @@ function Formula() {
         </div>
 
         <h3 class="goal">Goal: 100</h3>
+      </div>
+
+      <div class="accordion">
+        <input type="checkbox" name="collapse" id="handle1" ></input>
+        <h2 class="handle">
+          <label for="handle1">potential dangers 🚨</label>
+        </h2>
+        <div class="content">        
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> crippling debt | 💵
+          </div>         
+        </div>
       </div>
 
       </div>
@@ -763,6 +772,19 @@ function Formula() {
         </ol>
       </div>
       <p><span class='stat-neutral'>21st</span> floor home</p>
+      </div>
+
+      <div class="accordion">
+        <input type="checkbox" name="collapse" id="handle1" ></input>
+        <h2 class="handle">
+          <label for="handle1">potential dangers 🚨</label>
+        </h2>
+        <div class="content">
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> divorced | 🫂
+          </div>
+        </div>
       </div>
 
       <h1>Team</h1>
