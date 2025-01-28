@@ -651,15 +651,15 @@ function Formula() {
       </div>
 
       <div class='vanity-container'>
-      <h1 id='vanity'>vanity</h1>
+      <h2 id='vanity'>vanity</h2>
 
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
         <strong>locked</strong> obtained hot girlfriend 👯‍♀️
       </div>
 
-      <h2>social 📱</h2>
-      <h3>Youtube subscribers</h3>
+      <h3>social 📱</h3>
+      <h4>Youtube subscribers</h4>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">14&nbsp;</h3>
@@ -667,7 +667,7 @@ function Formula() {
         <h3 class="goal">Goal: 100</h3>
       </div>
 
-      <h3>Youtube play button</h3>
+      <h4>Youtube play button</h4>
       <div class="container">
         <ol class="progress-meter">
           <li class="progress-point todo">silver (100,000)</li>
@@ -680,7 +680,7 @@ function Formula() {
       {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
 
-      <h3>Instagram followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
+      <h4>Instagram followers <img class="icon" src={tiktok} alt="tikTok" /></h4>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">17,500&nbsp;</h3>
@@ -707,7 +707,7 @@ function Formula() {
       {/* </main>
       </div> */}
 
-      <h3>Twitch followers <img class="icon" src={tiktok} alt="Twitch" /></h3>
+      <h4>Twitch followers <img class="icon" src={tiktok} alt="Twitch" /></h4>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">4&nbsp;</h3>
@@ -715,7 +715,7 @@ function Formula() {
         <h3 class="goal">Goal: 100</h3>
       </div>
 
-      <h3>TikTok followers <img class="icon" src={tiktok} alt="tikTok" /></h3>
+      <h4>TikTok followers <img class="icon" src={tiktok} alt="tikTok" /></h4>
       <div class="progress-bg">
         <div class="progress-bar">
           <h3 class="raised">167&nbsp;</h3>
@@ -723,7 +723,7 @@ function Formula() {
         <h3 class="goal">Goal: 500</h3>
       </div>
 
-      <h3>N JLPT level</h3>
+      <h4>N JLPT level</h4>
       <div class="container">
         <ol class="progress-meter">
           <li class="progress-point done">5</li>
@@ -733,7 +733,7 @@ function Formula() {
         </ol>
       </div>
 
-      <h3>Japan visa</h3>
+      <h4>Japan visa</h4>
       <div class="container">
         <ol class="progress-meter">
           <li class="progress-point done">3 month tourist</li>
@@ -743,7 +743,7 @@ function Formula() {
         </ol>
       </div>
 
-      <h3>TOPIK level</h3>
+      <h4>TOPIK level</h4>
       <div class="container">
         <ol class="progress-meter">
           <li class="progress-point done">1</li>
