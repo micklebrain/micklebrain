@@ -327,6 +327,8 @@ function Formula() {
         <button onClick={restartTasks}>restartTasks</button>
       </div>
       <div>{toDo}</div>
+
+      <div class='health-container'>
       <h2 id='health'>health ❤️</h2>
       <p><span class='stat-neutral'>29</span> years old</p>
       <progress class='ageProgress' value="29" max="120"> 32% </progress>
@@ -466,8 +468,6 @@ function Formula() {
       <div class='container'> %
       </div>
 
-      <p><span class='stat-neutral'>20</span> pound curl</p>
-
       <h2 id='dangers'>Dangers ⚠️</h2>
       <div class='content'>
         <div class="alert alert-danger alert-white rounded">
@@ -590,14 +590,26 @@ function Formula() {
           </section>
           <section class="personal-bests__best personal-bests__best--plank">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+            <h2>fast food free 🍟</h2>
+            <p>{daysSince(new Date("01/27/2025"))} days</p>
+          </section>
+          <section class="personal-bests__best personal-bests__best--plank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+            <h2>sugar free 🧁</h2>
+            <p>{daysSince(new Date("01/27/2025"))} days</p>
+          </section>
+          <section class="personal-bests__best personal-bests__best--plank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
             <h2>League of Legends free</h2>
             <p>{daysSince(new Date("01/26/2025"))} days</p>
           </section>
         </div>
       </div>
-      {/* </main>
-        </div> */}
 
+      <p><span class='stat-neutral'>20</span> pound curl</p>
+      </div>
+
+      <div class='finance-container'>
       <h2 id='finance'>finance 🏦</h2>
       <h3>net worth</h3>
       <div class="progress-bg">
@@ -638,9 +650,11 @@ function Formula() {
           <h3 class="raised">345&nbsp;</h3>
         </div>
 
-        <h3 class="goal">Goal: 500</h3>
+        <h3 class="goal">Goal: 6,837</h3>
+      </div>
       </div>
 
+      <div class='vanity-container'>
       <h1 id='vanity'>vanity</h1>
 
       <h2>social 📱</h2>
@@ -738,6 +752,8 @@ function Formula() {
         </ol>
       </div>
       <p><span class='stat-neutral'>21st</span> floor home</p>
+      </div>
+
       <h1>Team</h1>
       <p>PR manager - vacant</p>
       <p>dating coach - vacant</p>

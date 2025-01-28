@@ -3,6 +3,18 @@ h4 {
     text-align: center;
 }
 
+.health-container {
+    background-color: #f1ae9d;
+}
+
+.finance-container {
+    background-color: #c5f4c1;
+}
+
+.vanity-container {
+    background-color: #b3eaf7;
+}
+
 .stat {
     font-weight: bold;
 }
