@@ -625,10 +625,6 @@ function Formula() {
 
       <div class="alert alert-info alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-        <strong>locked</strong> obtained hot girlfriend 👯‍♀️
-      </div>
-      <div class="alert alert-info alert-white rounded">
-        <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
         <strong>locked</strong> purchased mom house 🏡 | $400,000 | $100,000 down payment
       </div>
       <div class="alert alert-info alert-white rounded">
@@ -656,6 +652,11 @@ function Formula() {
 
       <div class='vanity-container'>
       <h1 id='vanity'>vanity</h1>
+
+      <div class="alert alert-info alert-white rounded">
+        <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+        <strong>locked</strong> obtained hot girlfriend 👯‍♀️
+      </div>
 
       <h2>social 📱</h2>
       <h3>Youtube subscribers</h3>
