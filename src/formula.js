@@ -500,75 +500,6 @@ function Formula() {
           </div>
         </div>
 
-        <div class="accordion">
-          <input type="checkbox" name="collapse" id="handle1" ></input>
-          <h2 class="handle">
-            <label for="handle1">potential dangers 🚨</label>
-          </h2>
-          <div class="content">
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> lung cancer | 🫀 | 6.7% chance
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> liver cancer | 🫀 | 1.2% chance
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> tumor found | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> Huntington’s disease | 🫀 |  0.01%
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> contracted incurable Hepatitis B | STI | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> contracted incurable Herpes | STI | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> contracted incurable HIV | STI | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> contracted incurable HPV | STI | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> Alzheimer's disease | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> diabetes | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> leukemia | 🫀
-            </div>
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> overdue pedicure | 🦶
-            </div>
-
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> crippling debt | 💵
-            </div>
-
-
-            <div class="alert alert-danger-avoided alert-white rounded">
-              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-              <strong>critical!</strong> divorced | 🫂
-            </div>
-            
-          </div>
-        </div>
-
         {/* <div class="alert alert-success alert-white rounded">
         <div class="icon"><i class="fa fa-times-circle">✅</i></div>
         <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} days of no alcohol streak
@@ -651,7 +582,7 @@ function Formula() {
         <h3>stocks owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">345&nbsp;</h3>
+            <h3 class="raised">346&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
@@ -673,7 +604,7 @@ function Formula() {
 
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> obtained hot girlfriend 👯‍♀️
+          <strong>locked</strong> obtained hot abg girlfriend 👯‍♀️
         </div>
 
         <h3>social 📱</h3>
@@ -772,6 +703,75 @@ function Formula() {
         </div>
         <p><span class='stat-neutral'>21st</span> floor home</p>
       </div>
+
+      <div class="accordion">
+          <input type="checkbox" name="collapse" id="handle1" ></input>
+          <h2 class="handle">
+            <label for="handle1">potential dangers 🚨</label>
+          </h2>
+          <div class="content">
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> lung cancer | 🫀 | 6.7% chance
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> liver cancer | 🫀 | 1.2% chance
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> tumor found | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> Huntington’s disease | 🫀 |  0.01%
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> contracted incurable Hepatitis B | STI | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> contracted incurable Herpes | STI | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> contracted incurable HIV | STI | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> contracted incurable HPV | STI | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> Alzheimer's disease | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> diabetes | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> leukemia | 🫀
+            </div>
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> overdue pedicure | 🦶
+            </div>
+
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> crippling debt | 💵
+            </div>
+
+
+            <div class="alert alert-danger-avoided alert-white rounded">
+              <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+              <strong>critical!</strong> divorced | 🫂
+            </div>
+            
+          </div>
+        </div>
 
       <h1>Team</h1>
       <p>PR manager - vacant</p>
