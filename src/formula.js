@@ -770,6 +770,16 @@ function Formula() {
             <strong>critical!</strong> divorced | 🫂
           </div>
 
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> incarcerated
+          </div>
+
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> amputee
+          </div>
+
         </div>
       </div>
 
