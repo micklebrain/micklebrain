@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="App">   
-      <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank">Foot Model</a> </h1> </div>
+      {/* <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank">Foot Model</a> </h1> </div> */}
       <div class='link'> <h1 class='button-49'> <a href="https://www.tiktok.com/@micklebrain" target="_blank">TikTok</a> </h1> </div>
       <h3>music</h3>
       <div class='link'> <h1 class='button-49'> <a href="https://open.spotify.com/artist/4sJ4RFTpgrpxmN0u3aTcUU" target="_blank">ᯤSpotify</a> </h1> </div>
