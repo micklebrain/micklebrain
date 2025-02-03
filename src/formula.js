@@ -301,8 +301,8 @@ function Formula() {
       }).then((res) => {
         var msg = res.doc
         const streaks = res.doc
+          .sort((firstStreak, secondStreak) => firstStreak.lastFailed > secondStreak.lastFailed ? 1 : -1)
           .map((myData) =>
-
             <section class="personal-bests__best personal-bests__best--plank">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
               <h2>{myData['name']}</h2>
@@ -316,12 +316,10 @@ function Formula() {
                       var output = res.json()
                       return output
                     }).then((res) => {
-
                     })
                 }
-              }>🔁</button>         
+              }>🔁</button>
             </section>
-
           );
         setstreaks(streaks)
       })
@@ -349,6 +347,11 @@ function Formula() {
         <li>
           <a href="#vanity">
             <span class="tag tag-python tag-lg">vanity</span>
+          </a>
+        </li>
+        <li>
+          <a href="#streaks">
+            <span class="tag tag-python tag-lg">streaks</span>
           </a>
         </li>
         <li>
@@ -549,12 +552,6 @@ function Formula() {
         <strong>congrats!</strong> {daysSince(new Date("01/19/2025"))} days of no League of Legends streak
       </div> */}
 
-        <div class="grid-area-3">
-          <div class="personal-bests">
-            {streaks}
-          </div>
-        </div>
-
         <p><span class='stat-neutral'>20</span> pound curl</p>
       </div>
 
@@ -711,6 +708,14 @@ function Formula() {
         <p><span class='stat-neutral'>21st</span> floor home</p>
       </div>
 
+      <h2 id='streaks'>streaks 🔥</h2>
+      <div class="grid-area-3">
+        <div class="personal-bests">
+          {streaks}
+        </div>
+      </div>
+
+      <h2 id='dangers'>dangers 🚨</h2>
       <div class="accordion">
         <input type="checkbox" name="collapse" id="handle1" ></input>
         <h2 class="handle">
