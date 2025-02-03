@@ -260,6 +260,7 @@ function restartTasks() {
 
 function Formula() {
   const [toDo, settoDo] = useState(null);
+  const [streaks, setstreaks] = useState(null);
 
   useEffect(() => {
     fetch("https://lostmindsbackend.vercel.app/demo", {
@@ -290,7 +291,42 @@ function Formula() {
           );
         settoDo(listItems)
       })
-  }, [toDo]);
+
+    fetch("https://lostmindsbackend.vercel.app/streaks", {
+      method: "GET",
+    })
+      .then((res) => {
+        var output = res.json()
+        return output
+      }).then((res) => {
+        var msg = res.doc
+        const streaks = res.doc
+          .map((myData) =>
+
+            <section class="personal-bests__best personal-bests__best--plank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
+              <h2>{myData['name']}</h2>
+              <p>{daysSince(new Date(myData['lastFailed']))} days</p>
+              <button type="button" onClick={
+                () => {
+                  fetch("https://lostmindsbackend.vercel.app/restartStreak/" + myData['name'], {
+                    method: "POST",
+                  })
+                    .then((res) => {
+                      var output = res.json()
+                      return output
+                    }).then((res) => {
+
+                    })
+                }
+              }>🔁</button>         
+            </section>
+
+          );
+        setstreaks(streaks)
+      })
+
+  }, [toDo, streaks]);
 
   return (
     <div>
@@ -513,37 +549,9 @@ function Formula() {
         <strong>congrats!</strong> {daysSince(new Date("01/19/2025"))} days of no League of Legends streak
       </div> */}
 
-        {/* <div class="stats-content">
-          <main> */}
         <div class="grid-area-3">
           <div class="personal-bests">
-            <section class="personal-bests__best personal-bests__best--lift">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-              <h2>sober</h2>
-              <p>{daysSince(new Date("01/12/2025"))} days</p>
-            </section>
-            <section class="personal-bests__best personal-bests__best--plank">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-              <h2>nut retained</h2>
-              <p>{daysSince(new Date("01/22/2025"))} days</p>
-            </section>
-            <section class="personal-bests__best personal-bests__best--plank">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-              <h2>fast food free 🍟</h2>
-              <h2>last - Mcdonalds</h2>
-              <p>{daysSince(new Date("02/1/2025"))} days</p>
-            </section>
-            <section class="personal-bests__best personal-bests__best--plank">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-              <h2>sugar free 🧁</h2>
-              <button>restart</button>
-              <p>{daysSince(new Date("02/1/2025"))} days</p>
-            </section>
-            <section class="personal-bests__best personal-bests__best--plank">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
-              <h2>League of Legends offline</h2>
-              <p>{daysSince(new Date("02/1/2025"))} days</p>
-            </section>
+            {streaks}
           </div>
         </div>
 
@@ -584,7 +592,7 @@ function Formula() {
         <h3>stocks owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">350&nbsp;</h3>
+            <h3 class="raised">351&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
@@ -644,8 +652,6 @@ function Formula() {
         <strong>congrats!</strong> Meta verified
       </div> */}
 
-        {/* <div class="stats-content">
-        <main> */}
         <div class="grid-area-3">
           <div class="personal-bests">
             <section class="personal-bests__best personal-bests__best--run">
@@ -655,8 +661,7 @@ function Formula() {
             </section>
           </div>
         </div>
-        {/* </main>
-      </div> */}
+
 
         <h4>Twitch followers <img class="icon" src={tiktok} alt="Twitch" /></h4>
         <div class="progress-bg">
