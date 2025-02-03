@@ -550,8 +550,8 @@ body {
 .alert-white.alert-danger-avoided .icon:after {
     /* border-color: #ca452e;
     background: #da4932; */
-    border-color: red;
-    background: black;
+    border-color: black;
+    background: green;
 }
 
 .alert-white.alert-danger .icon,

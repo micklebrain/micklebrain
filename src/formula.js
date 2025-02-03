@@ -227,6 +227,35 @@ class XguiBar extends HTMLElement {
 
 window.customElements.define("xgui-bar", XguiBar);
 
+// Set the date we're counting down to
+var countDownDate = new Date("Jul 4, 2025 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
 function daysSince(beginningDate) {
   let date1 = beginningDate;
   let date2 = new Date();
@@ -355,8 +384,8 @@ function Formula() {
           </a>
         </li>
         <li>
-          <a href="#dangers">
-            <span class="tag tag-python tag-lg">dangers</span>
+          <a href="#blessings">
+            <span class="tag tag-python tag-lg">blessings</span>
           </a>
         </li>
       </ol>
@@ -715,84 +744,95 @@ function Formula() {
         </div>
       </div>
 
-      <h2 id='dangers'>dangers 🚨</h2>
+      <h2 id='blessings'>blessings 🙏🏻</h2>
       <div class="accordion">
         <input type="checkbox" name="collapse" id="handle1" ></input>
         <h2 class="handle">
-          <label for="handle1">potential dangers 🚨</label>
+          <label for="handle1">blessings 🙏🏻</label>
         </h2>
         <div class="content">
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> lung cancer | 🫀 | 6.7% chance
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !lung cancer | 🫀 | 6.7% chance
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> liver cancer | 🫀 | 1.2% chance
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !liver cancer | 🫀 | 1.2% chance
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> tumor found | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !tumor found | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> Huntington’s disease | 🫀 |  0.01%
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !Huntington’s disease | 🫀 |  0.01%
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> contracted incurable Hepatitis B | STI | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !incurable Hepatitis B | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> contracted incurable Herpes | STI | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !incurable Herpes | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> contracted incurable HIV | STI | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !incurable HIV | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> contracted incurable HPV | STI | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !incurable HPV | STI | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> Alzheimer's disease | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !Alzheimer's disease | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> diabetes | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !diabetes | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> leukemia | 🫀
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !leukemia | 🫀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> overdue pedicure | 🦶
-          </div>
-
-          <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> crippling debt | 💵
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !overdue pedicure | 🦶
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> divorced | 🫂
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !paying child support | 💵
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !crippling debt | 💵
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !homeless | 🏡
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> incarcerated
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !divorced | 🫂
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> amputee
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !incarcerated
+          </div>
+
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !amputee
           </div>
 
         </div>
       </div>
+
+      <h2>until 30</h2>
+      <h3 id="demo"></h3>
 
       <h1>Team</h1>
       <p>PR manager - vacant</p>
