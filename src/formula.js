@@ -589,9 +589,9 @@ function Formula() {
         <h3>net worth</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">$250,000&nbsp;</h3>
+            <h3 class="raised">$300,000&nbsp;</h3>
           </div>
-          <h3 class="goal">Goal: $300,000</h3>
+          <h3 class="goal">Goal: $350,000</h3>
         </div>
 
         <p><span class='stat-good'>450 - 500</span> # SoLo loans funded</p>
@@ -799,10 +799,18 @@ function Formula() {
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !overdue pedicure | 🦶
           </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !bald | 👱‍♂️
+          </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !paying child support | 💵
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !loans | 💵
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
@@ -817,15 +825,38 @@ function Formula() {
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !divorced | 🫂
           </div>
-
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !incarcerated
+            <strong>blessed!</strong> !lawsuits | 👮
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !incarcerated | 👮
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !amputee
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> can walk
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> can see
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> can hear
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> can talk
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> American | 🇺🇸
           </div>
 
         </div>
