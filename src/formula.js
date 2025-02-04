@@ -5,6 +5,7 @@ import goldPlay from './images/youtube gold play button.png';
 import { Link } from "react-router-dom";
 
 import tiktok from './images/tiktok.png';
+import Instagram from './images/Instagram.png';
 
 import React, { useState, useEffect } from "react";
 
@@ -336,6 +337,7 @@ function Formula() {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
               <h2>{myData['name']}</h2>
               <p>{daysSince(new Date(myData['lastFailed']))} days</p>
+              <p>{myData['lastIndulged']}</p>
               <button type="button" onClick={
                 () => {
                   fetch("https://lostmindsbackend.vercel.app/restartStreak/" + myData['name'], {
@@ -552,15 +554,15 @@ function Formula() {
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> burning lips | 👄
+          </div>
+          <div class="alert alert-danger alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> rash under left armpit | 🦠
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> runners right knee | 🦵
-          </div>
-          <div class="alert alert-danger alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> burning lips | 👄
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -665,7 +667,7 @@ function Formula() {
         {/* <img class="icon" src={silverPlay} alt="silverPlay"/>
       <img class="icon" src={goldPlay} alt="goldPlay"/> */}
 
-        <h4>Instagram followers <img class="icon" src={tiktok} alt="tikTok" /></h4>
+        <h4>Instagram followers <img class="icon" src={Instagram} alt="Instagram" /></h4>
         <div class="progress-bg">
           <div class="progress-bar">
             <h3 class="raised">17,500&nbsp;</h3>
@@ -797,6 +799,10 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !obese | 🫀
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !overdue pedicure | 🦶
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
@@ -833,26 +839,30 @@ function Formula() {
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !incarcerated | 👮
           </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !banned from countries | 🌎
+          </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !amputee
+            <strong>blessed!</strong> !amputee 🦿
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> can walk
+            <strong>blessed!</strong> can walk 🦵
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> can see
+            <strong>blessed!</strong> can see 👀
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> can hear
+            <strong>blessed!</strong> can hear 👂
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> can talk
+            <strong>blessed!</strong> can talk 🗣️
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
