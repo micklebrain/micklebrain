@@ -542,10 +542,6 @@ function Formula() {
         <div class='content'>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> overdue teeth clean | $205 min (cleaning + examination) | 🦷
-          </div>
-          <div class="alert alert-danger alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> overdue blood test | $150 min | 🩸
           </div>
           <div class="alert alert-danger alert-white rounded">
@@ -804,6 +800,10 @@ function Formula() {
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !overdue pedicure | 🦶
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !overdue teeth clean | 🦷
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
