@@ -542,8 +542,12 @@ function Formula() {
         <div class='content'>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> overdue blood test | $150 min | 🩸
+            <strong>critical!</strong> overdue blood test | $150 min | 🩸 | last - June 14, 2024
           </div>
+          <div class="alert alert-danger alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> !overdue pedicure | 🦶
+          </div>          
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> broken left toenail | 🦶
@@ -796,14 +800,10 @@ function Formula() {
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !obese | 🫀
-          </div>
+          </div>          
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue pedicure | 🦶
-          </div>
-          <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue teeth clean | 🦷
+            <strong>blessed!</strong> !overdue teeth clean | 🦷 | last - Febuary 7, 2025
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
