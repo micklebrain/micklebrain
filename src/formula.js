@@ -538,7 +538,7 @@ function Formula() {
         <div class='container'> %
         </div>
 
-        <h2 id='dangers'>Dangers ⚠️</h2>
+        <h2 id='routines'>Routines 🔁</h2>
         <div class='content'>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -546,8 +546,16 @@ function Formula() {
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> !overdue pedicure | 🦶
-          </div>          
+            <strong>critical!</strong> !overdue pedicure | 🦶 | last - January 2025
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !overdue teeth clean | 🦷 | last - Febuary 7, 2025
+          </div>
+        </div>
+
+        <h2 id='dangers'>Dangers ⚠️</h2>
+        <div class='content'>       
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> broken left toenail | 🦶
@@ -736,6 +744,17 @@ function Formula() {
             <li class="progress-point todo">5</li>
           </ol>
         </div>
+
+        <h4>Korea visa</h4>
+        <div class="container">
+          <ol class="progress-meter">
+            <li class="progress-point done">3 month tourist</li>
+            <li class="progress-point todo">F-2 resident visa</li>
+            <li class="progress-point todo">F-5 permanant resident visa</li>
+            <li class="progress-point todo">F-6 marriage</li>
+          </ol>
+        </div>
+
         <p><span class='stat-neutral'>21st</span> floor home</p>
       </div>
 
@@ -800,10 +819,6 @@ function Formula() {
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !obese | 🫀
-          </div>          
-          <div class="alert alert-danger-avoided alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue teeth clean | 🦷 | last - Febuary 7, 2025
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
