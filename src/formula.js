@@ -749,8 +749,8 @@ function Formula() {
         <div class="container">
           <ol class="progress-meter">
             <li class="progress-point done">3 month tourist</li>
-            <li class="progress-point todo">F-2 resident visa</li>
-            <li class="progress-point todo">F-5 permanant resident visa</li>
+            <li class="progress-point todo">F-2 resident</li>
+            <li class="progress-point todo">F-5 permanant resident</li>
             <li class="progress-point todo">F-6 marriage</li>
           </ol>
         </div>
