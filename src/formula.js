@@ -546,6 +546,10 @@ function Formula() {
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
+            <strong>critical!</strong> overdue urine test | last - June 14, 2024
+          </div>
+          <div class="alert alert-danger alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> !overdue pedicure | 🦶 | last - January 2025
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
