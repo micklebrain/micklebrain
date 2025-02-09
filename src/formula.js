@@ -289,8 +289,8 @@ function restartTasks() {
 }
 
 function Formula() {
-  const [toDo, settoDo] = useState(null);
-  const [streaks, setstreaks] = useState(null);
+  const [toDo, settoDo] = useState(true);
+  const [streaks, setstreaks] = useState(true);
 
   useEffect(() => {
     fetch("https://lostmindsbackend.vercel.app/demo", {
@@ -355,7 +355,7 @@ function Formula() {
         setstreaks(streaks)
       })
 
-  }, [toDo, streaks]);
+  }, []);
 
   return (
     <div>
