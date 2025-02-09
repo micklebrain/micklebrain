@@ -554,7 +554,7 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue teeth clean | 🦷 | last - Febuary 7, 2025
+            <strong>blessed!</strong> teeth cleaned | 🦷 | last - Febuary 7, 2025
           </div>
         </div>
 
