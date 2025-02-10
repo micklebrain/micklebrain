@@ -566,11 +566,11 @@ function Formula() {
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> burning lips | 👄
+            <strong>critical!</strong> rash under left armpit | 🦠
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> rash under left armpit | 🦠
+            <strong>critical!</strong> burning lips | 👄
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -608,7 +608,7 @@ function Formula() {
         </div>
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased Tokyo home 🏡 | $1,000,000 | $200,000 down payment
+          <strong>locked</strong> purchased Tokyo home 🏡 | $500,000 | $100,000 down payment
         </div>
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
@@ -816,7 +816,7 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue eyebrows wax | 🤨
+            <strong>blessed!</strong> !overdue eyebrows wax | last - Febuary 9, 2024 🤨
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
