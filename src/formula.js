@@ -618,7 +618,7 @@ function Formula() {
         <h3>stocks owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">351&nbsp;</h3>
+            <h3 class="raised">352&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
@@ -813,6 +813,10 @@ function Formula() {
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !bald | 👱‍♂️
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !overdue eyebrows wax | 🤨
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
