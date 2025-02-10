@@ -338,7 +338,7 @@ function Formula() {
               <h2>{myData['name']}</h2>
               <p>{daysSince(new Date(myData['lastFailed']))} days</p>
               <p>{myData['lastIndulged']}</p>
-              <button type="button" onClick={
+              {/* <button type="button" onClick={
                 () => {
                   fetch("https://lostmindsbackend.vercel.app/restartStreak/" + myData['name'], {
                     method: "POST",
@@ -349,7 +349,7 @@ function Formula() {
                     }).then((res) => {
                     })
                 }
-              }>🔁</button>
+              }>🔁</button> */}
             </section>
           );
         setstreaks(streaks)
@@ -581,20 +581,6 @@ function Formula() {
             <strong>critical!</strong> right foot muscle tear | plantarfascia muscle? | 🦶
           </div>
         </div>
-
-        {/* <div class="alert alert-success alert-white rounded">
-        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/12/2025"))} days of no alcohol streak
-      </div> */}
-        {/* <div class="alert alert-success alert-white rounded">
-        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/22/2025"))} days of no fap streak
-      </div>
-      <div class="alert alert-success alert-white rounded">
-        <div class="icon"><i class="fa fa-times-circle">✅</i></div>
-        <strong>congrats!</strong> {daysSince(new Date("01/19/2025"))} days of no League of Legends streak
-      </div> */}
-
         <p><span class='stat-neutral'>20</span> pound curl</p>
       </div>
 
