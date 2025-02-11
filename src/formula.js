@@ -594,26 +594,10 @@ function Formula() {
           <h3 class="goal">Goal: $350,000</h3>
         </div>
 
-        <p><span class='stat-good'>450 - 500</span> # SoLo loans funded</p>
-        <p><span class='stat-good'>$200,000 - $210,000</span> $ SoLo loans funded</p>
-        <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span> SoLo tips</p>
-
-        <div class="alert alert-info alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased mom house 🏡 | $400,000 | $100,000 down payment
-        </div>
-        <div class="alert alert-info alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased LA home 🏡 | $1,000,000 | $200,000 down payment
-        </div>
-        <div class="alert alert-info alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased Tokyo home 🏡 | $500,000 | $100,000 down payment
-        </div>
-        <div class="alert alert-info alert-white rounded">
-          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> Amex black card
-        </div>
+        <h3>SoLo Funds</h3>        
+        <p><span class='stat-good'>$200,000 - $210,000</span> $ amount loans funded</p>
+        <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span>tips</p>
+        <p><span class='stat-good'>450 - 500</span> # loans funded</p>
 
         <h3>stocks owned</h3>
         <div class="progress-bg">
@@ -631,6 +615,23 @@ function Formula() {
           </div>
 
           <h3 class="goal">Goal: 100</h3>
+        </div>
+
+        <div class="alert alert-info alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+          <strong>locked</strong> purchased mom house 🏡 | $400,000 | $100,000 down payment
+        </div>
+        <div class="alert alert-info alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+          <strong>locked</strong> purchased LA home 🏡 | $1,000,000 | $200,000 down payment
+        </div>
+        <div class="alert alert-info alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+          <strong>locked</strong> purchased Tokyo home 🏡 | $500,000 | $100,000 down payment
+        </div>
+        <div class="alert alert-info alert-white rounded">
+          <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
+          <strong>locked</strong> Amex black card
         </div>
 
       </div>
@@ -876,6 +877,10 @@ function Formula() {
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> American | 🇺🇸
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> living Los Angeles | 🇺🇸
           </div>
 
         </div>
