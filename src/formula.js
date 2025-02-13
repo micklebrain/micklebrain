@@ -232,7 +232,7 @@ window.customElements.define("xgui-bar", XguiBar);
 var countDownDate = new Date("Jul 4, 2025 12:00:00").getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function() {
+var x = setInterval(function () {
 
   // Get today's date and time
   var now = new Date().getTime();
@@ -248,7 +248,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+    + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -559,7 +559,7 @@ function Formula() {
         </div>
 
         <h2 id='dangers'>Dangers ⚠️</h2>
-        <div class='content'>       
+        <div class='content'>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> broken left toenail | 🦶
@@ -594,15 +594,15 @@ function Formula() {
           <h3 class="goal">Goal: $350,000</h3>
         </div>
 
-        <h3>SoLo Funds</h3>        
+        <h3>SoLo Funds</h3>
         <p><span class='stat-good'>$200,000 - $210,000</span> $ amount loans funded</p>
         <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span>tips</p>
         <p><span class='stat-good'>450 - 500</span> # loans funded</p>
 
-        <h3>stocks owned</h3>
+        <h3>stocks positions owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">354&nbsp;</h3>
+            <h3 class="raised">355&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
@@ -763,6 +763,10 @@ function Formula() {
           <label for="handle1">blessings 🙏🏻</label>
         </h2>
         <div class="content">
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> alive
+          </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !lung cancer | 🫀 | 6.7% chance
