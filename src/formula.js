@@ -602,7 +602,7 @@ function Formula() {
         <h3>stocks positions owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">355&nbsp;</h3>
+            <h3 class="raised">354&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
@@ -619,15 +619,15 @@ function Formula() {
 
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased mom house 🏡 | $400,000 | $100,000 down payment
+          <strong>locked</strong> purchased mom house 🏡 | $400,000 | $60,000 down payment
         </div>
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased LA home 🏡 | $1,000,000 | $200,000 down payment
+          <strong>locked</strong> purchased LA home 🏡 | $1,000,000 | $150,000 down payment
         </div>
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
-          <strong>locked</strong> purchased Tokyo home 🏡 | $500,000 | $100,000 down payment
+          <strong>locked</strong> purchased Tokyo home 🏡 | $500,000 | $75,000 down payment
         </div>
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
