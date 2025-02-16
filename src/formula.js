@@ -594,6 +594,32 @@ function Formula() {
           <h3 class="goal">Goal: $350,000</h3>
         </div>
 
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <p> net worth <span class="free-space">277k of 300k</span></p>
+        <meter value="277" min="0" max="300" title="GB">
+          {/* <div class="meter-gauge">
+            <span style="width: 46.42%;">Disk Usage - 55.93GB out of 120GB</span>
+          </div> */}
+        </meter> 
+
+        <ul class="swatch">
+          <li class="swatch__elem">loans <span class="used-space">200 k</span></li>
+          <li class="swatch__elem">stocks <span class="used-space">50 k</span></li>
+          <li class="swatch__elem">crypto <span class="used-space">5 k</span></li>
+          <li class="swatch__elem">real estate <span class="used-space">20 k</span></li>
+          <li class="swatch__elem">currencies <span class="used-space">2 k</span></li>
+        </ul>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+
         <h3>SoLo Funds</h3>
         <p><span class='stat-good'>$200,000 - $210,000</span> $ amount loans funded</p>
         <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span>tips</p>

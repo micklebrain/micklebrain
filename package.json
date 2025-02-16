@@ -8,6 +8,8 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "axios": "0.21.1",
+    "chart.js": "^4.4.7",
+    "d3": "^7.9.0",
     "mongodb": "^3.6.9",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.2",
