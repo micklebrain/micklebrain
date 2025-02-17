@@ -593,7 +593,7 @@ function Formula() {
           {/* <div class="meter-gauge">
             <span style="width: 46.42%;">Disk Usage - 55.93GB out of 120GB</span>
           </div> */}
-        </meter> 
+        </meter>
 
         <ul class="swatch">
           <li class="swatch__elem">loans <span class="used-space">200 k</span></li>
@@ -608,9 +608,26 @@ function Formula() {
         <br></br>
         <br></br>
 
-        <h3>SoLo Funds</h3>
-        <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span>tips</p>
-        <p><span class='stat-good'>450 - 500</span> # loans funded</p>
+        <div class="box">
+          <div class="box__header">
+            <h3 class="box__header-title">SoLo Funds</h3>
+          </div>
+          <div class="box__body">
+            <div class="stats stats--main">
+              <div class="stats__amount">$25,000</div>
+              <div class="stats__caption">tips</div>
+              <div class="stats__change">
+                <div class="stats__value stats__value--positive">+10%</div>
+                <div class="stats__period">biweekly</div>
+              </div>
+            </div>
+
+            <div class="stats">
+              <div class="stats__amount">450</div>
+              <div class="stats__caption">funded</div>
+            </div>
+          </div>
+        </div>
 
         <h3>stocks positions owned</h3>
         <div class="progress-bg">
