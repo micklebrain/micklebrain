@@ -587,17 +587,6 @@ function Formula() {
       <div class='finance-container'>
         <h2 id='finance'>finance 🏦</h2>
         <h3>net worth</h3>
-        <div class="progress-bg">
-          <div class="progress-bar">
-            <h3 class="raised">$300,000&nbsp;</h3>
-          </div>
-          <h3 class="goal">Goal: $350,000</h3>
-        </div>
-
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
 
         <p> net worth <span class="free-space">277k of 300k</span></p>
         <meter value="277" min="0" max="300" title="GB">
@@ -619,9 +608,7 @@ function Formula() {
         <br></br>
         <br></br>
 
-
         <h3>SoLo Funds</h3>
-        <p><span class='stat-good'>$200,000 - $210,000</span> $ amount loans funded</p>
         <p><span class='stat-good'>$24,000 - $26,000 / biweekly</span>tips</p>
         <p><span class='stat-good'>450 - 500</span> # loans funded</p>
 
