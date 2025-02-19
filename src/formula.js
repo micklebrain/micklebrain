@@ -617,7 +617,7 @@ function Formula() {
               <div class="stats__amount">$25,000</div>
               <div class="stats__caption">tips</div>
               <div class="stats__change">
-                <div class="stats__value stats__value--positive">+10%</div>
+                <div class="stats__value stats__value--positive">+11%</div>
                 <div class="stats__period">biweekly</div>
               </div>
             </div>
@@ -632,7 +632,7 @@ function Formula() {
         <h3>stocks positions owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">355&nbsp;</h3>
+            <h3 class="raised">357&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
