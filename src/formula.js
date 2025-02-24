@@ -632,7 +632,7 @@ function Formula() {
         <h3>stocks positions owned</h3>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">364&nbsp;</h3>
+            <h3 class="raised">365&nbsp;</h3>
           </div>
 
           <h3 class="goal">Goal: 6,837</h3>
