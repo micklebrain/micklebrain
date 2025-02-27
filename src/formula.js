@@ -566,11 +566,11 @@ function Formula() {
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> rash under left armpit | 🦠
+            <strong>critical!</strong> burning lips | 👄
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> burning lips | 👄
+            <strong>critical!</strong> rash under left armpit | 🦠
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -600,7 +600,7 @@ function Formula() {
           <li class="swatch__elem">stocks <span class="used-space">50 k</span></li>
           <li class="swatch__elem">crypto <span class="used-space">5 k</span></li>
           <li class="swatch__elem">real estate <span class="used-space">20 k</span></li>
-          <li class="swatch__elem">currencies <span class="used-space">2 k</span></li>
+          <li class="swatch__elem">forex <span class="used-space">2 k</span></li>
         </ul>
 
         <br></br>
@@ -629,13 +629,21 @@ function Formula() {
           </div>
         </div>
 
-        <h3>stocks positions owned</h3>
-        <div class="progress-bg">
-          <div class="progress-bar">
-            <h3 class="raised">365&nbsp;</h3>
+        <div class="box">
+          <div class="box__header">
+            <h3 class="box__header-title">Stocks</h3>
           </div>
+          <div class="box__body">
+            <div class="stats stats--main">
+              <div class="stats__amount">$4,428.78</div>
+              <div class="stats__caption">realized P&L</div>
+            </div>
 
-          <h3 class="goal">Goal: 6,837</h3>
+            <div class="stats">
+              <div class="stats__amount">365</div>
+              <div class="stats__caption">positions</div>
+            </div>
+          </div>
         </div>
 
         <h3>crypto coins owned</h3>
