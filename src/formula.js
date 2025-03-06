@@ -404,9 +404,9 @@ function Formula() {
         <progress class='ageProgress' value="29" max="120"> 32% </progress>
         <p><span class='stat-neutral'>5'7“</span> height</p>
         <h2 id='health'>biomarkers</h2>
-        <div class="container-heart">
+        {/* <div class="container-heart">
           <img src="http://robozzle.com/igoro/211px-CoeurHumain_svg.gif" class="human-heart" alt="human heart" />
-        </div>
+        </div> */}
         <ul class="tree">
           <li>
             <details open>
