@@ -657,6 +657,8 @@ function Formula() {
           <h3 class="goal">Goal: 100</h3>
         </div>
 
+        <br></br>
+
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
           <strong>locked</strong> purchased mom house 🏡 | $400,000 | $60,000 down payment
@@ -709,7 +711,7 @@ function Formula() {
         <h4>Instagram followers <img class="icon" src={Instagram} alt="Instagram" /></h4>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">17,500&nbsp;</h3>
+            <h3 class="raised">20,500&nbsp;</h3>
           </div>
           <h3 class="goal">Goal: 50,000</h3>
         </div>
@@ -719,7 +721,7 @@ function Formula() {
         <strong>congrats!</strong> Meta verified
       </div> */}
 
-        <div class="grid-area-3">
+        {/* <div class="grid-area-3">
           <div class="personal-bests">
             <section class="personal-bests__best personal-bests__best--run">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 4h-3V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v1H3a1 1 0 0 0-1 1v3c0 4.31 1.8 6.91 4.82 7A6 6 0 0 0 11 17.91V20H9v2h6v-2h-2v-2.09A6 6 0 0 0 17.18 15c3-.1 4.82-2.7 4.82-7V5a1 1 0 0 0-1-1zM4 8V6h2v6.83C4.22 12.08 4 9.3 4 8zm14 4.83V6h2v2c0 1.3-.22 4.08-2 4.83z" /></svg>
@@ -727,7 +729,7 @@ function Formula() {
               <p>verified</p>
             </section>
           </div>
-        </div>
+        </div> */}
 
 
         <h4>Twitch followers <img class="icon" src={tiktok} alt="Twitch" /></h4>
@@ -741,7 +743,7 @@ function Formula() {
         <h4>TikTok followers <img class="icon" src={tiktok} alt="tikTok" /></h4>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">167&nbsp;</h3>
+            <h3 class="raised">162&nbsp;</h3>
           </div>
           <h3 class="goal">Goal: 500</h3>
         </div>
