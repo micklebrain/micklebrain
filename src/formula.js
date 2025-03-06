@@ -623,7 +623,7 @@ function Formula() {
             </div>
 
             <div class="stats">
-              <div class="stats__amount">450</div>
+              <div class="stats__amount">500</div>
               <div class="stats__caption">funded</div>
             </div>
           </div>
@@ -640,7 +640,7 @@ function Formula() {
             </div>
 
             <div class="stats">
-              <div class="stats__amount">365</div>
+              <div class="stats__amount">366</div>
               <div class="stats__caption">positions</div>
             </div>
           </div>
