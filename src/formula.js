@@ -621,7 +621,6 @@ function Formula() {
                 <div class="stats__period">biweekly</div>
               </div>
             </div>
-
             <div class="stats">
               <div class="stats__amount">500</div>
               <div class="stats__caption">funded</div>
@@ -635,12 +634,15 @@ function Formula() {
           </div>
           <div class="box__body">
             <div class="stats stats--main">
-              <div class="stats__amount">$4,450.44</div>
+              <div class="stats__amount">$4,477.93</div>
               <div class="stats__caption">realized P&L</div>
             </div>
-
             <div class="stats">
-              <div class="stats__amount">366</div>
+              <div class="stats__amount">-$769.35</div>
+              <div class="stats__caption">open P&L</div>
+            </div>
+            <div class="stats">
+              <div class="stats__amount">367</div>
               <div class="stats__caption">positions</div>
             </div>
           </div>
