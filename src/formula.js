@@ -548,9 +548,9 @@ function Formula() {
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> overdue urine test | last - June 14, 2024
           </div>
-          <div class="alert alert-danger alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> overdue pedicure | 🦶 | last - January 2025
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> overdue pedicure | 🦶 | last - March 10, 2025 
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
@@ -562,15 +562,11 @@ function Formula() {
         <div class='content'>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> broken left toenail | 🦶
+            <strong>critical!</strong> broken left & right toenail | 🦶
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
             <strong>critical!</strong> burning lips | 👄
-          </div>
-          <div class="alert alert-danger alert-white rounded">
-            <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
-            <strong>critical!</strong> rash under left armpit | 🦠
           </div>
           <div class="alert alert-danger alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🚨</i></div>
@@ -634,7 +630,7 @@ function Formula() {
           </div>
           <div class="box__body">
             <div class="stats stats--main">
-              <div class="stats__amount">$4,477.93</div>
+              <div class="stats__amount">$4,489.06</div>
               <div class="stats__caption">realized P&L</div>
             </div>
             <div class="stats">
