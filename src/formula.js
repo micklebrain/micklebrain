@@ -679,7 +679,7 @@ function Formula() {
                 <div class="stats__caption">realized P&L</div>
               </div>
               <div class="stats">
-                <div class="stats__amount">-$769.35</div>
+                <div class="stats__amount">-$1,942.35</div>
                 <div class="stats__caption">open P&L</div>
               </div>
               <div class="stats">
