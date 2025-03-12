@@ -349,15 +349,18 @@ function Formula() {
         res.doc.forEach((myData) => {
           if (myData['hearts'] < 3) {
             if (daysSince(new Date(myData['lastFailed'])) > 15) {
-              heartsGained += 3
+              console.log('15 days since');
+              heartsGained += 3;
             } else if (daysSince(new Date(myData['lastFailed'])) > 10) {
-              heartsGained += 2
+              console.log('10 days since');
+              heartsGained += 2;
             } else if (daysSince(new Date(myData['lastFailed'])) > 5) {
-              heartsGained += 1          
+              console.log('5 days since');
+              heartsGained += 1;         
             }
             const totalHearts = myData['hearts'] + heartsGained
             if (totalHearts > 3) {
-              totalHearts == 3
+              totalHearts = 3;
             }
             fetch("https://lostmindsbackend.vercel.app/refillHearts/" + myData['name'] + '/' + totalHearts, {
               method: "POST",
