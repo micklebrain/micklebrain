@@ -356,6 +356,9 @@ function Formula() {
               heartsGained += 1          
             }
             const totalHearts = myData['hearts'] + heartsGained
+            if (totalHearts > 3) {
+              totalHearts == 3
+            }
             fetch("https://lostmindsbackend.vercel.app/refillHearts/" + myData['name'] + '/' + totalHearts, {
               method: "POST",
             })
