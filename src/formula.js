@@ -473,7 +473,7 @@ function Formula() {
                 </div>
               </div></summary>
               <div class="gui-container">
-                <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="179"></xgui-bar>
+                <xgui-bar id="health" max-value="250" name="cholesterol (total)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="180"></xgui-bar>
               </div>
               <div class='container'> mg/dL <br></br>
               </div>
@@ -482,9 +482,9 @@ function Formula() {
                   <details>
                     <summary>HDL (good cholesterol)</summary>
                     <div class="gui-container">
-                      <xgui-bar id="HDL" max-value="80" name="HDL (good cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="43"></xgui-bar>
+                      <xgui-bar id="HDL" max-value="80" name="HDL (good cholesterol)" origin="left" value="50"></xgui-bar>
                     </div>
-                    <div class='container'> mg/dl <br></br>
+                    <div class='container'> mg/dL <br></br>
                     </div>
                   </details>
                 </li>
@@ -492,9 +492,9 @@ function Formula() {
                   <details>
                     <summary>LDL (bad cholesterol)</summary>
                     <div class="gui-container">
-                      <xgui-bar id="LDL" max-value="200" name="LDL (bad cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="117"></xgui-bar>
+                      <xgui-bar id="LDL" max-value="200" name="LDL (bad cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="110"></xgui-bar>
                     </div>
-                    <div class='container'> mg/dl <br></br>
+                    <div class='container'> mg/dL <br></br>                    
                     </div>
                   </details>
                 </li>
@@ -502,9 +502,9 @@ function Formula() {
                   <details>
                     <summary>triglycerides</summary>
                     <div class="gui-container">
-                      <xgui-bar id="triglycerides" max-value="600" name="triglycerides" origin="left" thresholds="0:var(--hud-color)|10:var(--hud-color)|20:var(--hud-color)" value="98"></xgui-bar>
+                      <xgui-bar id="triglycerides" max-value="600" name="triglycerides" origin="left" thresholds="0:var(--hud-color)|10:var(--hud-color)|20:var(--hud-color)" value="101"></xgui-bar>
                     </div>
-                    <div class='container'> mg/dl <br></br>
+                    <div class='container'> mg/dL <br></br>
                     </div>
                   </details>
                 </li>
@@ -562,9 +562,9 @@ function Formula() {
           <span class="tag tag-python tag-lg">blood</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="4780"></xgui-bar>
+          <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="3,300"></xgui-bar>
         </div>
-        <div class='container'> mm3
+        <div class='container'> uL
         </div>
 
         <div class='container'>
