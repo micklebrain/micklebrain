@@ -562,7 +562,7 @@ function Formula() {
           <span class="tag tag-python tag-lg">blood</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="3,300"></xgui-bar>
+          <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="3300"></xgui-bar>
         </div>
         <div class='container'> uL
         </div>
