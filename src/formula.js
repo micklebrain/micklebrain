@@ -5,7 +5,7 @@ import goldPlay from './images/youtube gold play button.png';
 import { Link } from "react-router-dom";
 
 import tiktok from './images/tiktok.png';
-import Instagram from './images/instagram.png';
+import Instagram from './images/Instagram.png';
 
 import React, { useState, useEffect } from "react";
 
