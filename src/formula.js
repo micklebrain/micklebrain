@@ -344,6 +344,7 @@ function Formula() {
       }).then((res) => {
         var msg = res.doc
         var heartsGained = 0
+        var totalHearts =
         res.doc.forEach((myData) => {
           if (myData['hearts'] < 3) {
             if (daysSince(new Date(myData['lastFailed'])) > 15) {
@@ -356,10 +357,11 @@ function Formula() {
               console.log('5 days since');
               heartsGained += 1;
             }
-            const totalHearts = myData['hearts'] + heartsGained
+            totalHearts = myData['hearts'] + heartsGained
             if (totalHearts > 3) {
               totalHearts = 3;
             }
+            // console.log("total hearts: " + totalHearts);
             fetch("https://lostmindsbackend.vercel.app/refillHearts/" + myData['name'] + '/' + totalHearts, {
               method: "POST",
             })
