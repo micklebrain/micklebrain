@@ -463,6 +463,19 @@ function Formula() {
         {/* <div class="container-heart">
           <img src="http://robozzle.com/igoro/211px-CoeurHumain_svg.gif" class="human-heart" alt="human heart" />
         </div> */}
+
+        <div class='container'>
+          <div class="tooltip"> bilirubin
+            <span class="tooltiptext">main pigment in bile and a major product of normal red cell breakdown</span>
+          </div>
+          <span class="tag tag-python tag-lg">liver</span>          
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="bilirubin" max-value="1.5" name="bilirubin" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="1.3"></xgui-bar>
+        </div>
+        <div class='container'> uL
+        </div>
+
         <ul class="tree">
           <li>
             <details open>
@@ -529,18 +542,6 @@ function Formula() {
         </div>
 
         <div class='container'>
-          <div class="tooltip"> hemoglobin
-            <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-          </div>
-          <span class="tag tag-python tag-lg">iron</span>
-          <span class="tag tag-python tag-lg">red blood cell</span>
-        </div>
-        <div class="gui-container">
-          <xgui-bar id="hemoglobin" max-value="18" name="hemoglobin" origin="left" value="14.8"></xgui-bar>
-        </div>
-        <div class='container'>g/dL</div>
-
-        <div class='container'>
           <div class="tooltip"> glucose (fasting)
             <span class="tooltiptext">sugar found in blood</span>
           </div>
@@ -550,36 +551,10 @@ function Formula() {
           <span class="tag tag-python tag-lg">blood</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="105"></xgui-bar>
+          <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="81"></xgui-bar>
         </div>
         <div class='container'>
           mg/dL
-        </div>
-
-        <div class='container'>
-          <div class="tooltip"> white blood cell count
-            <span class="tooltiptext">cells in the body's immune system that help fight infections and disease</span>
-          </div>
-          <span class="tag tag-python tag-lg">immunity</span>
-          <span class="tag tag-python tag-lg">blood</span>
-        </div>
-        <div class="gui-container">
-          <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="3300"></xgui-bar>
-        </div>
-        <div class='container'> uL
-        </div>
-
-        <div class='container'>
-          <div class="tooltip"> red blood cell count
-            <span class="tooltiptext">cells in the blood that carry oxygen from the lungs to the body's tissues</span>
-          </div>
-          <span class="tag tag-python tag-lg">blood</span>
-          <span class="tag tag-python tag-lg">iron</span>
-        </div>
-        <div class="gui-container">
-          <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
-        </div>
-        <div class='container'> mm3
         </div>
 
         <div class='container'>
@@ -595,6 +570,43 @@ function Formula() {
         </div>
 
         <div class='container'>
+          <div class="tooltip"> hemoglobin A1c
+            <span class="tooltiptext">measures the average amount of blood sugar (glucose) level</span>
+          </div>
+          <span class="tag tag-python tag-lg">iron</span>
+          <span class="tag tag-python tag-lg">red blood cell</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="hemoglobin" max-value="8" name="hemoglobin" origin="left" value="5.3"></xgui-bar>
+        </div>
+        <div class='container'>%</div>
+
+        <div class='container'>
+          <div class="tooltip"> hs-CRP
+            <span class="tooltiptext">C-reactive protein is made by the liver in response to infection, tissue injury or inflammation.</span>
+          </div>
+          <span class="tag tag-python tag-lg">liver</span>
+          <span class="tag tag-python tag-lg">inflammation</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="hs-CRP" max-value="1" name="hs-CRP" origin="left" value="0.2"></xgui-bar>
+        </div>
+        <div class='container'>mg/L</div>
+
+        <div class='container'>
+          <div class="tooltip"> red blood cell count
+            <span class="tooltiptext">cells in the blood that carry oxygen from the lungs to the body's tissues</span>
+          </div>
+          <span class="tag tag-python tag-lg">blood</span>
+          <span class="tag tag-python tag-lg">iron</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="rbc" max-value="7000000" name="red blood cell count" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5070000"></xgui-bar>
+        </div>
+        <div class='container'> mm3
+        </div>
+
+        <div class='container'>
           <div class="tooltip"> specific gravity
             <span class="tooltiptext">amount of substances in the urine.</span>
           </div>
@@ -602,7 +614,20 @@ function Formula() {
           <span class="tag tag-python tag-lg">kidney</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="hct" max-value="100" name="hematocrit" origin="left" value="1.015"></xgui-bar>
+          <xgui-bar id="hspecificgravity" max-value="5" name="specific gravity" origin="left" value="1.015"></xgui-bar>
+        </div>
+
+        <div class='container'>
+          <div class="tooltip"> white blood cell count
+            <span class="tooltiptext">cells in the body's immune system that help fight infections and disease</span>
+          </div>
+          <span class="tag tag-python tag-lg">immunity</span>
+          <span class="tag tag-python tag-lg">blood</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="wbc" max-value="12000" name="white blood cell count" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="3300"></xgui-bar>
+        </div>
+        <div class='container'> uL
         </div>
 
         <h2 id='routines'>Routines 🔁</h2>
