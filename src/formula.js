@@ -5,7 +5,7 @@ import goldPlay from './images/youtube gold play button.png';
 import { Link } from "react-router-dom";
 
 import tiktok from './images/tiktok.png';
-import Instagram from './images/Instagram.png';
+import Instagram from './images/instagram.png';
 
 import React, { useState, useEffect } from "react";
 
@@ -520,7 +520,7 @@ function Formula() {
           <span class="tag tag-python tag-lg">kidney</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="creatinine" max-value="1" name="creatinine" origin="left" value="0.83"></xgui-bar>
+          <xgui-bar id="creatinine" max-value="1" name="creatinine" origin="left" value="0.79"></xgui-bar>
         </div>
         <div class='container'>
           mg/dL
@@ -548,7 +548,7 @@ function Formula() {
           <span class="tag tag-python tag-lg">blood</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="87"></xgui-bar>
+          <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="105"></xgui-bar>
         </div>
         <div class='container'>
           mg/dL
@@ -590,6 +590,17 @@ function Formula() {
           <xgui-bar id="hct" max-value="100" name="hematocrit" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="42.2"></xgui-bar>
         </div>
         <div class='container'> %
+        </div>
+
+        <div class='container'>
+          <div class="tooltip"> specific gravity
+            <span class="tooltiptext">amount of substances in the urine.</span>
+          </div>
+          <span class="tag tag-python tag-lg">hydration</span>
+          <span class="tag tag-python tag-lg">kidney</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="hct" max-value="100" name="hematocrit" origin="left" value="1.015"></xgui-bar>
         </div>
 
         <h2 id='routines'>Routines 🔁</h2>
