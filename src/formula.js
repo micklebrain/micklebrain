@@ -344,24 +344,28 @@ function Formula() {
       }).then((res) => {
         var msg = res.doc
         var heartsGained = 0
-        var totalHearts =
-        res.doc.forEach((myData) => {
-          if (myData['hearts'] < 3) {
-            if (daysSince(new Date(myData['lastFailed'])) > 15) {
+        var totalHearts = 0
+        var hearts = 0
+        lastFailed = new Date(myData['lastFailed'])
+        res.doc.forEach((myData) => {        
+          if (hearts < 3) {
+            if (daysSince(lastFailed) > 15) {
               console.log('15 days since');
               heartsGained += 3;
-            } else if (daysSince(new Date(myData['lastFailed'])) > 10) {
+            } else if (daysSince(lastFailed) > 10) {
               console.log('10 days since');
               heartsGained += 2;
-            } else if (daysSince(new Date(myData['lastFailed'])) > 5) {
+            } else if (daysSince(lastFailed) > 5) {
               console.log('5 days since');
               heartsGained += 1;
             }
-            totalHearts = myData['hearts'] + heartsGained
+            console.log("hearts gained: " + heartsGained);
+            totalHearts = hearts + heartsGained
+            console.log("total hearts: " + totalHearts);
             if (totalHearts > 3) {
               totalHearts = 3;
             }
-            // console.log("total hearts: " + totalHearts);
+            console.log("total hearts: " + totalHearts);
             fetch("https://lostmindsbackend.vercel.app/refillHearts/" + myData['name'] + '/' + totalHearts, {
               method: "POST",
             })
