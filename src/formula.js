@@ -617,6 +617,10 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
+            <strong>blessed!</strong> !overdue STI / STD test | last - April 17, 2024
+          </div>
+          <div class="alert alert-danger-avoided alert-white rounded">
+            <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
             <strong>blessed!</strong> !overdue pedicure | 🦶 | last - March 10, 2025
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
