@@ -486,7 +486,7 @@ function Formula() {
               <summary><div class='container'>
                 <div class="tooltip"> cholesterol (total)
                   <span class="tooltiptext">protein in red blood cells that carries oxygen from the lungs to the body's tissues and organs, and returns carbon dioxide to the lungs</span>
-                  <span class="tag tag-python tag-lg">lungs</span>
+                  <span class="tag tag-python tag-lg">liver</span>
                   <span class="tag tag-python tag-lg">blood</span>
                   <span class="tag tag-python tag-lg">cell</span>
                 </div>
@@ -614,8 +614,8 @@ function Formula() {
           <div class="tooltip"> specific gravity
             <span class="tooltiptext">amount of substances in the urine.</span>
           </div>
-          <span class="tag tag-python tag-lg">hydration</span>
           <span class="tag tag-python tag-lg">kidney</span>
+          <span class="tag tag-python tag-lg">hydration</span>
         </div>
         <div class="gui-container">
           <xgui-bar id="hspecificgravity" max-value="5" name="specific gravity" origin="left" value="1.015"></xgui-bar>
@@ -648,7 +648,7 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue STI / STD test | last - April 17, 2024
+            <strong>blessed!</strong> !overdue STI / STD test | 🦠 | last - April 17, 2024
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
