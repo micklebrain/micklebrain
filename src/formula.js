@@ -686,15 +686,15 @@ function Formula() {
         <h2 id='finance'>finance 🏦</h2>
         <h3>net worth</h3>
 
-        <p> net worth <span class="free-space">277k of 300k</span></p>
-        <meter value="277" min="0" max="300" title="GB">
+        <p> net worth <span class="free-space">287k of 300k</span></p>
+        <meter value="287" min="0" max="300" title="DOLLAR">
           {/* <div class="meter-gauge">
             <span style="width: 46.42%;">Disk Usage - 55.93GB out of 120GB</span>
           </div> */}
         </meter>
 
         <ul class="swatch">
-          <li class="swatch__elem">loans <span class="used-space">200 k</span></li>
+          <li class="swatch__elem">loans <span class="used-space">210 k</span></li>
           <li class="swatch__elem">stocks <span class="used-space">50 k</span></li>
           <li class="swatch__elem">crypto <span class="used-space">5 k</span></li>
           <li class="swatch__elem">real estate <span class="used-space">20 k</span></li>
