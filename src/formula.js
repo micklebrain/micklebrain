@@ -477,8 +477,6 @@ function Formula() {
         <div class="gui-container">
           <xgui-bar id="AlbuminGlobulin" max-value="4" name="Albumin/Globulin" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="1.8"></xgui-bar>
         </div>
-        <div class='container'>g/dL
-        </div>
 
         <div class='container'>
           <div class="tooltip">Albumin
