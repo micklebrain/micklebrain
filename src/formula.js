@@ -343,11 +343,11 @@ function Formula() {
         return output
       }).then((res) => {
         var msg = res.doc;
-        var heartsGained = 0;            
+        var heartsGained = 0;
         res.doc.forEach((myData) => {
           var hearts = Number(myData['hearts']);
           var totalHearts = 0;
-          const lastFailed = new Date(myData['lastFailed']);   
+          const lastFailed = new Date(myData['lastFailed']);
           console.log('name: ' + myData['name'])
           if (hearts < 3) {
             if (daysSince(lastFailed) > 15) {
@@ -359,13 +359,13 @@ function Formula() {
             } else if (daysSince(lastFailed) > 5) {
               console.log('5 days since');
               heartsGained += 1;
-            }            
-            console.log("hearts gained: " + heartsGained);            
-            totalHearts = heartsGained + hearts             
+            }
+            console.log("hearts gained: " + heartsGained);
+            totalHearts = heartsGained + hearts
             if (totalHearts > 3) {
               totalHearts = 3;
             }
-            console.log("total hearts: " + totalHearts);            
+            console.log("total hearts: " + totalHearts);
             fetch("https://lostmindsbackend.vercel.app/refillHearts/" + myData['name'] + '/' + totalHearts, {
               method: "POST",
             })
@@ -469,10 +469,77 @@ function Formula() {
         </div> */}
 
         <div class='container'>
+          <div class="tooltip">Albumin/Globulin Ratio
+            <span class="tooltiptext">Albumin/Globulin Ratio</span>
+          </div>
+          <span class="tag tag-python tag-lg">protein</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="AlbuminGlobulin" max-value="4" name="Albumin/Globulin" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="1.8"></xgui-bar>
+        </div>
+        <div class='container'>g/dL
+        </div>
+
+        <div class='container'>
+          <div class="tooltip">Albumin
+            <span class="tooltiptext">the largest portion of total blood protein. It transports various metals, drugs, and metabolites throughout the body, including hormones.</span>
+          </div>
+          <span class="tag tag-python tag-lg">enzyme</span>
+          <span class="tag tag-python tag-lg">heart</span>
+          <span class="tag tag-python tag-lg">liver</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="Albumin" max-value="7" name="Albumin" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="4.6"></xgui-bar>
+        </div>
+        <div class='container'>g/dL
+        </div>
+
+        <div class='container'>
+          <div class="tooltip"> Alkaline Phosphatase
+            <span class="tooltiptext">enzyme found primarily in bone and the liver</span>
+          </div>
+          <span class="tag tag-python tag-lg">enzyme</span>
+          <span class="tag tag-python tag-lg">heart</span>
+          <span class="tag tag-python tag-lg">liver</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="AlkalinePhosphatase" max-value="5" name="Alkaline Phosphatase" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="2.6"></xgui-bar>
+        </div>
+        <div class='container'>g/dL
+        </div>
+
+        <div class='container'>
+          <div class="tooltip"> Aspartate Aminotransferase
+            <span class="tooltiptext">enzyme found in the liver and in cardiac and skeletal muscle</span>
+          </div>
+          <span class="tag tag-python tag-lg">enzyme</span>
+          <span class="tag tag-python tag-lg">liver</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="AspartateAminotransferase" max-value="50" name="Aspartate Aminotransferase" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="21"></xgui-bar>
+        </div>
+        <div class='container'> U/L
+        </div>
+
+        <div class='container'>
+          <div class="tooltip"> Aspartate Aminotransferase
+            <span class="tooltiptext"> enzyme produced primarily in the liver, skeletal and heart muscle</span>
+          </div>
+          <span class="tag tag-python tag-lg">enzyme</span>
+          <span class="tag tag-python tag-lg">heart</span>
+          <span class="tag tag-python tag-lg">liver</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="AspartateAminotransferase" max-value="50" name="Aspartate Aminotransferase" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="18"></xgui-bar>
+        </div>
+        <div class='container'> U/L
+        </div>
+
+        <div class='container'>
           <div class="tooltip"> bilirubin
             <span class="tooltiptext">main pigment in bile and a major product of normal red cell breakdown</span>
           </div>
-          <span class="tag tag-python tag-lg">liver</span>          
+          <span class="tag tag-python tag-lg">liver</span>
         </div>
         <div class="gui-container">
           <xgui-bar id="bilirubin" max-value="1.5" name="bilirubin" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="1.3"></xgui-bar>
@@ -501,7 +568,7 @@ function Formula() {
                   <details>
                     <summary>HDL (good cholesterol)</summary>
                     <div class="gui-container">
-                      <xgui-bar id="HDL" max-value="80" name="HDL (good cholesterol)" origin="left" value="50"></xgui-bar>
+                      <xgui-bar id="HDL" max-value="80" name="HDL (good cholesterol)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="50"></xgui-bar>
                     </div>
                     <div class='container'> mg/dL <br></br>
                     </div>
@@ -513,7 +580,7 @@ function Formula() {
                     <div class="gui-container">
                       <xgui-bar id="LDL" max-value="200" name="LDL (bad cholesterol)" origin="left" thresholds="0:255,165,0|10:255,165,0|20:255,165,0" value="110"></xgui-bar>
                     </div>
-                    <div class='container'> mg/dL <br></br>                    
+                    <div class='container'> mg/dL <br></br>
                     </div>
                   </details>
                 </li>
@@ -539,7 +606,20 @@ function Formula() {
           <span class="tag tag-python tag-lg">kidney</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="creatinine" max-value="1" name="creatinine" origin="left" value="0.79"></xgui-bar>
+          <xgui-bar id="creatinine" max-value="1" name="creatinine" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="0.79"></xgui-bar>
+        </div>
+        <div class='container'>
+          mg/dL
+        </div>
+
+        <div class='container'>
+          <div class="tooltip">globulin
+            <span class="tooltiptext">The globulins are a group of about 60 different proteins that are part of the immune system, which helps to fight and prevent infections</span>
+          </div>
+          <span class="tag tag-python tag-lg">immune system</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="globulin" max-value="5" name="globulin" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="2.6"></xgui-bar>
         </div>
         <div class='container'>
           mg/dL
@@ -555,7 +635,7 @@ function Formula() {
           <span class="tag tag-python tag-lg">blood</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" value="81"></xgui-bar>
+          <xgui-bar id="glucose" max-value="130" name="glucose (fasting)" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="81"></xgui-bar>
         </div>
         <div class='container'>
           mg/dL
@@ -581,7 +661,7 @@ function Formula() {
           <span class="tag tag-python tag-lg">red blood cell</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="hemoglobin" max-value="8" name="hemoglobin" origin="left" value="5.3"></xgui-bar>
+          <xgui-bar id="hemoglobin" max-value="8" name="hemoglobin" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="5.3"></xgui-bar>
         </div>
         <div class='container'>%</div>
 
@@ -593,9 +673,21 @@ function Formula() {
           <span class="tag tag-python tag-lg">inflammation</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="hs-CRP" max-value="1" name="hs-CRP" origin="left" value="0.2"></xgui-bar>
+          <xgui-bar id="hs-CRP" max-value="1" name="hs-CRP" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="0.2"></xgui-bar>
         </div>
         <div class='container'>mg/L</div>
+
+        <div class='container'>
+          <div class="tooltip"> protein (Total)
+            <span class="tooltiptext">has two main components—albumin and globulin</span>
+          </div>
+          <span class="tag tag-python tag-lg">liver</span>
+          <span class="tag tag-python tag-lg">kidney</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="protein" max-value="10" name="protein" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="7.2"></xgui-bar>
+        </div>
+        <div class='container'>g/dL</div>
 
         <div class='container'>
           <div class="tooltip"> red blood cell count
@@ -618,8 +710,19 @@ function Formula() {
           <span class="tag tag-python tag-lg">hydration</span>
         </div>
         <div class="gui-container">
-          <xgui-bar id="hspecificgravity" max-value="5" name="specific gravity" origin="left" value="1.015"></xgui-bar>
+          <xgui-bar id="hspecificgravity" max-value="5" name="specific gravity" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="1.015"></xgui-bar>
         </div>
+
+        <div class='container'>
+          <div class="tooltip"> urine pH
+            <span class="tooltiptext">acidity or alkalinity of urine</span>
+          </div>
+          <span class="tag tag-python tag-lg">kidney</span>
+        </div>
+        <div class="gui-container">
+          <xgui-bar id="protein" max-value="10" name="protein" origin="left" thresholds="0:255,0,0|10:255,165,0|20:var(--hud-color)" value="6"></xgui-bar>
+        </div>
+        <div class='container'>pH</div>
 
         <div class='container'>
           <div class="tooltip"> white blood cell count
