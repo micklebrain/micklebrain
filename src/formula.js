@@ -460,9 +460,10 @@ function Formula() {
 
       <div class='health-container'>
         <h2 id='health'>health ❤️</h2>
+        <h2>score: 79%</h2>
         <p><span class='stat-neutral'>29</span> years old</p>
         <progress class='ageProgress' value="29" max="120"> 32% </progress>
-        <p><span class='stat-neutral'>5'7“</span> height</p>
+        <p><span class='stat-neutral'>5'7“</span> height</p>        
         <h2 id='health'>biomarkers</h2>
         {/* <div class="container-heart">
           <img src="http://robozzle.com/igoro/211px-CoeurHumain_svg.gif" class="human-heart" alt="human heart" />
