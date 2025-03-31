@@ -782,8 +782,8 @@ function Formula() {
 
       <div class='finance-container'>
         <h2 id='finance'>finance 🏦</h2>
-        <h3>net worth</h3>
-
+        <h2>score: 42%</h2>
+        
         <p> net worth <span class="free-space">287k of 300k</span></p>
         <meter value="287" min="0" max="300" title="DOLLAR">
           {/* <div class="meter-gauge">
