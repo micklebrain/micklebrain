@@ -876,6 +876,8 @@ function Formula() {
 
       <div class='reputation-container'>
         <h2 id='reputation'>reputation</h2>
+          
+        <h2>score: 0%</h2>
 
         <h3>social 📱</h3>
         <h4>Youtube subscribers</h4>
@@ -942,6 +944,8 @@ function Formula() {
 
       <div class='vanity-container'>
         <h2 id='vanity'>vanity</h2>
+
+        <h2>score: 0%</h2>
 
         <div class="alert alert-info alert-white rounded">
           <div class="icon"><i class="fa fa-times-circle">🔘</i></div>
