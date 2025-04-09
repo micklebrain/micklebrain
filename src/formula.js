@@ -830,11 +830,11 @@ function Formula() {
           </div>
           <div class="box__body">
             <div class="stats stats--main">
-              <div class="stats__amount">$4,641.73</div>
+              <div class="stats__amount">$4,713.68</div>
               <div class="stats__caption">realized P&L</div>
             </div>
             <div class="stats">
-              <div class="stats__amount">-$2,266.38</div>
+              <div class="stats__amount">-$3,259.13</div>
               <div class="stats__caption">open P&L</div>
             </div>
             <div class="stats">
@@ -928,7 +928,7 @@ function Formula() {
         <h4>Twitch followers <img class="icon" src={tiktok} alt="Twitch" /></h4>
         <div class="progress-bg">
           <div class="progress-bar">
-            <h3 class="raised">4&nbsp;</h3>
+            <h3 class="raised">3&nbsp;</h3>
           </div>
           <h3 class="goal">Goal: 100</h3>
         </div>
