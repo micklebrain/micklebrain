@@ -1071,7 +1071,7 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue haircut | last - Febuary 12, 2024 💈
+            <strong>blessed!</strong> !overdue haircut | last - April 10, 2024 💈
           </div>
 
           <div class="alert alert-danger-avoided alert-white rounded">
