@@ -838,7 +838,7 @@ function Formula() {
               <div class="stats__caption">open P&L</div>
             </div>
             <div class="stats">
-              <div class="stats__amount">383</div>
+              <div class="stats__amount">386</div>
               <div class="stats__caption">positions</div>
             </div>
           </div>
