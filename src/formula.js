@@ -754,7 +754,7 @@ function Formula() {
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
-            <strong>blessed!</strong> !overdue pedicure | 🦶 | last - March 10, 2025
+            <strong>blessed!</strong> !overdue pedicure | 🦶 | last - May 2, 2025
           </div>
           <div class="alert alert-danger-avoided alert-white rounded">
             <div class="icon"><i class="fa fa-times-circle">🙏🏻</i></div>
@@ -830,15 +830,15 @@ function Formula() {
           </div>
           <div class="box__body">
             <div class="stats stats--main">
-              <div class="stats__amount">$4,889.59</div>
+              <div class="stats__amount">$5,055.48</div>
               <div class="stats__caption">realized P&L</div>
             </div>
             <div class="stats">
-              <div class="stats__amount">-$2,024.74</div>
+              <div class="stats__amount">$1,137.61</div>
               <div class="stats__caption">open P&L</div>
             </div>
             <div class="stats">
-              <div class="stats__amount">397</div>
+              <div class="stats__amount">402</div>
               <div class="stats__caption">positions</div>
             </div>
           </div>
