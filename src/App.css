@@ -517,12 +517,30 @@ a {
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .button-49,
   .button-49:after {
     width: 200px;
     height: 86px;
     line-height: 88px;
+  }
+} */
+
+.button-49,
+.button-49:after {
+  min-width: 150px;       /* keep a base size */
+  max-width: 100%;        /* allow shrinking on small screens */
+  height: auto;           /* let height adjust if wrapping happens */
+  line-height: normal;    /* avoid locking line height to the box height */
+  white-space: normal;    /* allow wrapping */
+  text-align: center;     /* keep text centered */
+  padding: 10px 5px;      /* add some breathing room */
+  box-sizing: border-box; /* padding stays inside width */
+}
+
+@media (max-width: 480px) {
+  .button-49 {
+    font-size: 16px; /* smaller text for mobile */
   }
 }
 

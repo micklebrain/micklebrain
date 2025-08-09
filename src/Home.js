@@ -15,11 +15,11 @@ function Home() {
   return (
     <div className="App">   
       {/* <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank">Foot Model</a> </h1> </div> */}
-      <div class='link'> <h1 class='button-49'> <a href="https://www.tiktok.com/@micklebrain" target="_blank">TikTok</a> </h1> </div>
+      <div class='link'> <h1 className='button-49'> <a href="https://www.tiktok.com/@micklebrain" target="_blank">TikTok</a> </h1> </div>
       <h3>music</h3>
-      <div class='link'> <h1 class='button-49'> <a href="https://open.spotify.com/artist/4sJ4RFTpgrpxmN0u3aTcUU" target="_blank">ᯤSpotify</a> </h1> </div>
-      <div class='link'> <h1 class='button-49'> <a href="https://music.apple.com/us/artist/micklebrain/1709188087" target="_blank">AppleMusic</a> </h1> </div>      
-      <div class='link'> <h1 class='button-49'> <a href="https://soundcloud.com/micklebrain" target="_blank">☁︎SoundCloud</a> </h1> </div>
+      <div class='link'> <h1 className='button-49'> <a href="https://open.spotify.com/artist/4sJ4RFTpgrpxmN0u3aTcUU" target="_blank">ᯤSpotify</a> </h1> </div>
+      <div class='link'> <h1 className='button-49'> <a href="https://music.apple.com/us/artist/micklebrain/1709188087" target="_blank">AppleMusic</a> </h1> </div>      
+      <div class='link'> <h1 className='button-49'> <a href="https://soundcloud.com/micklebrain" target="_blank">☁︎SoundCloud</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://onlyfans.com/micklebrain" target="_blank"><img class="icon" src={onlyfans} alt="twitter"/>OnlyFans</a> </h1> </div> */}
       <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank">Gallery</a> </h1> </div>
       {/* <div class='link'> <h1> <a href="https://www.instagram.com/micklebrain" target="_blank"><img class="icon" src={instagram} alt="instagram"/>Instagram</a> </h1> </div> */}      
