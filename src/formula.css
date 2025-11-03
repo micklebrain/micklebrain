@@ -1773,12 +1773,12 @@ meter::-moz-meter-bar {
   box-shadow: 0 5px 5px -5px #999 inset;
   
   background-image: linear-gradient( 90deg, 
-                                     #8bcf69 73%, 
-                                     #e6d450 73%,
-                                     #e6d450 91%,
-                                     #f28f68 91%,
-                                     #f28f68 93%,
-                                     #cf82bf 93%,
+                                     #8bcf69 75%, 
+                                     #e6d450 75%,
+                                     #e6d450 96%,
+                                     #f28f68 96%,
+                                     #f28f68 98%,
+                                     #cf82bf 98%,
                                      #cf82bf 99%,
                                      #719fd1 99%,
                                      #719fd1 100%);
