@@ -2,16 +2,33 @@ import { useEffect, useState } from "react";
 import "./timehack.css";
 
 function TimeHack() {
-  const [currentHour, setCurrentHour] = useState(new Date().getHours());
+  const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentHour(new Date().getHours());
-    }, 30000); // update every 30s
+      setCurrentTime(new Date());
+    }, 30000); // updates every 30 seconds
+
     return () => clearInterval(interval);
   }, []);
 
-  // DAILY TASKS (replaces tasks + tomorrowTasks)
+  const currentHour = currentTime.getHours();
+
+  // Local date formatter (no UTC issues)
+  const formatDateKey = (date) => {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, "0");
+    const d = String(date.getDate()).padStart(2, "0");
+    return `${y}-${m}-${d}`;
+  };
+
+  // Date keys for today + tomorrow
+  const todayKey = formatDateKey(currentTime);
+  const tomorrow = new Date(currentTime);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const tomorrowKey = formatDateKey(tomorrow);
+
+  // DAILY TASKS (your updated tasks)
   const dailyTasks = {
     0: "sleep",
     1: "sleep",
@@ -39,96 +56,62 @@ function TimeHack() {
     23: "do backflip",
   };
 
-  // DATED TASKS WITH LOCAL DATE KEYS
+  // DATED TASKS (your updated overrides)
   const datedTasks = {
     "2025-11-28": {
-      11: "go Black Friday shopping at Citadel Outlets"      
+      11: "go Black Friday shopping at Citadel Outlets"
     }
   };
 
-  // Helper: format local date as YYYY-MM-DD
-  const formatDateKey = (date) => {
-    const y = date.getFullYear();
-    const m = String(date.getMonth() + 1).padStart(2, "0");
-    const d = String(date.getDate()).padStart(2, "0");
-    return `${y}-${m}-${d}`;
-  };
+  // Build 24 hours, sorted to start from current hour
+  const hours = [...Array(24).keys()];
+  const sortedHours = [...hours.slice(currentHour), ...hours.slice(0, currentHour)];
 
-  const todayKey = formatDateKey(new Date());
-  const tomorrowKey = formatDateKey(new Date(Date.now() + 86400000));
-
-  const getRowClass = (hour) => {
-    if (currentHour === hour) return "active-task";
-    if (currentHour > hour) return "past-task";
-    return "";
-  };
-
-  const getFormattedDate = () => {
-    const today = new Date();
-    const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-    const dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-    return `${monthNames[today.getMonth()]} ${today.getDate()} - ${dayNames[today.getDay()]}`;
-  };
-
-  // Build base 24-hour array
-  const allHours = [...Array(24)].map((_, hour) => ({
-    hour,
-    task: dailyTasks[hour] || "To be determined",
-  }));
-
-  // Build 24-hour schedule starting from current hour
-  const sortedHours = [...Array(24)].map((_, index) => {
-    const hourIndex = (currentHour + index) % 24;
-    const rolledPastMidnight = hourIndex < currentHour;
-
-    const dateKey = rolledPastMidnight ? tomorrowKey : todayKey;
-
-    // Check for dated override
-    const datedOverride =
-      datedTasks[dateKey] && datedTasks[dateKey][hourIndex]
-        ? datedTasks[dateKey][hourIndex]
-        : null;
-
-    return {
-      hour: hourIndex,
-      task: datedOverride || allHours[hourIndex].task,
-    };
-  });
+  // Hour progress bar (% of current hour passed)
+  const minuteProgress = (currentTime.getMinutes() / 60) * 100;
 
   return (
-    <div style={{ display: 'flex' }}>
-      <div style={{ flex: 1 }}>
-        <h1>{getFormattedDate()}</h1>
-        <table className="schedule">
-          <thead>
-            <tr>
-              <th className="time">Time</th>
-              <th>Task</th>
-            </tr>
-          </thead>
-          <tbody>
-            {sortedHours.map(({ hour, task }, i) => {
-              const displayHour = hour % 12 === 0 ? 12 : hour % 12;
-              const ampm = hour < 12 ? "AM" : "PM";
-              return (
-                <tr key={`${hour}-${i}`} className={getRowClass(hour)}>
-                  <td>{displayHour}:00 {ampm}</td>
-                  <td style={{ whiteSpace: "pre-line" }}>{task}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+    <div className="timehack">
+      <h1>TimeHack</h1>
 
-      <div style={{ width: '250px', marginLeft: '20px' }}>
-        <div className="motivation" style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-          <p>"No time left"</p>
-          <p>"Not enough urgency"</p>
-          <p>"Take advantage of AI"</p>
-          <p>"Live in the moment"</p>
-        </div>
-      </div>
+      {sortedHours.map((hour, index) => {
+        const isCurrentHour = hour === currentHour;
+
+        // Determine if this row belongs to today or tomorrow
+        const dateKey =
+          index === 0 || hour >= currentHour ? todayKey : tomorrowKey;
+
+        // Override if available
+        const overrideTask =
+          datedTasks[dateKey] && datedTasks[dateKey][hour]
+            ? datedTasks[dateKey][hour]
+            : null;
+
+        const task = overrideTask || dailyTasks[hour] || "No task assigned";
+
+        return (
+          <div
+            key={hour}
+            className={`hour-block ${isCurrentHour ? "current-hour" : ""}`}
+          >
+            <div className="hour-label">{hour}:00</div>
+
+            <div className="task" style={{ whiteSpace: "pre-line" }}>
+              {task}
+            </div>
+
+            {/* Hour progress bar */}
+            {isCurrentHour && (
+              <div className="hour-progress">
+                <div
+                  className="hour-progress-fill"
+                  style={{ width: `${minuteProgress}%` }}
+                ></div>
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
