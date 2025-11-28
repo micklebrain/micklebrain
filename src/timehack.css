@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule td, .schedule th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.active-task {
+    border: 2px solid #ffb400 !important; 
+    background-color: transparent !important;
+  }
+  

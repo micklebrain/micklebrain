@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Home from './Home';
 import Formula from './formula';
+import TimeHack from './TimeHack';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +20,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/"> <Home /> </Route>
             <Route exact path="/formula"> <Formula /> </Route>
+            <Route exact path="/timehack"> <TimeHack /> </Route>
           </Switch>
         </Router>
       </div>)
