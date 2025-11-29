@@ -247,13 +247,19 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  // Only update if element exists to avoid errors when Formula component isn't rendered
+  var demoElement = document.getElementById("demo");
+  if (!demoElement) {
+    return; // Element doesn't exist, skip update
+  }
+
+  demoElement.innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    demoElement.innerHTML = "EXPIRED";
   }
 }, 1000);
 

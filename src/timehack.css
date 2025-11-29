@@ -2,69 +2,110 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     padding: 20px;
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
-}
-
-.schedule {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.schedule td, .schedule th {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.active-task {
-    border: 2px solid #ffb400 !important; 
-    background-color: transparent !important;
-}
-
-.timehack {
-    width: 90%;
-    max-width: 500px;
-    margin: auto;
-    font-family: sans-serif;
+  }
+  
+  .timehack {
+    width: 95%;
+    max-width: 720px;
+    margin: 20px auto;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #111;
+  }
+  
+  .hours-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   
   .hour-block {
-    padding: 14px;
-    margin: 8px 0;
-    border-radius: 8px;
-    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 10px;
+    background: #f6f8fb;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
   }
   
   .current-hour {
-    background: #dff4ff;
-    border-left: 6px solid #0aa5ff;
+    background: #e8f8ff;
+    border-left: 5px solid #0aa5ff;
+  }
+
+  .sleep-task {
+    background: #e8e8e8 !important;
+  }
+
+  .sleep-task.current-hour {
+    background: #d0d0d0 !important;
+    border-left: 5px solid #888;
+  }
+  
+  .hour-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hour-left {
+    display: flex;
+    gap: 12px;
+    align-items: center;
   }
   
   .hour-label {
-    font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
+    min-width: 56px;
   }
   
   .task {
-    margin-top: 6px;
+    color: #222;
   }
   
-  /* Progress Bar */
+  .details-btn {
+    padding: 8px 12px;
+    background: #0aa5ff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .details-btn:hover {
+    opacity: 0.95;
+  }
+  
   .hour-progress {
     width: 100%;
     height: 6px;
-    background: #d0d0d0;
-    margin-top: 10px;
-    border-radius: 4px;
+    background: #e0e6ea;
+    margin-top: 8px;
+    border-radius: 6px;
     overflow: hidden;
   }
   
   .hour-progress-fill {
     height: 100%;
-    background: #00b34a;
+    background: #14b866;
     transition: width 30s linear;
   }
-  
+
+  .higher-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .mission-image {
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 6px;
+    object-fit: contain;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 8px;
+    display: block;
+  }
   
