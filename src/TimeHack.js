@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./timehack.css";
 import glassSkin from './images/glassskin.png';
+import milliondollars from './images/milliondollars.png';
 
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -35,9 +36,10 @@ function TimeHack() {
     6: "sleep",
     7: "sleep",
     8: `selfcare
-        skincare`,
+        skincare
+        red & blue light therapy`,
     9: "stretch, try to perform split",
-    10: "call mom",
+    10: "obtain date with girl",
     11: "trade/learn stocks",
     12: `cook/eat lunch
          consume protein`,
@@ -57,7 +59,7 @@ function TimeHack() {
     22: `selfcare
          skincare
          scrap tongue`,
-    23: "learn to do backflip",
+    23: "read book",
   };
 
   const higherMissions = {
@@ -71,8 +73,8 @@ function TimeHack() {
     7: "Restore energy for tomorrow",
     8: { text: "achieve glass skin", image: glassSkin, alt: "Glass skin example" },
     9: "Increase flexibility and body control",
-    10: "Build an optimized life schedule",
-    11: "Become knowledgeable about stocks",
+    10: "develop roster",
+    11: { text: "become millionaire", image: milliondollars, alt: "million dollars" },
     12: "Fuel body for peak performance",
     13: "Become trilingual + improve memory",
     14: "Create long-term music skills & portfolio",
@@ -84,11 +86,12 @@ function TimeHack() {
     20: "polish social media",
     21: "Build online presence + personal branding",
     22: "Maintain healthy, clean appearance",
-    23: "Achieve a standing backflip",
+    23: "gain knowledge",
   };
   
   const datedTasks = {
-    "2025-11-28": { 11: "go Black Friday shopping at Citadel Outlets" },
+    "2026-1-4": { 11: "propose to girlfriend" },
+    "2026-1-5": { 11: "dine at Chase OpenTable resturant for credit" },
   };
 
   const hours = [...Array(24).keys()];
