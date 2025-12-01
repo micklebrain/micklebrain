@@ -21,6 +21,172 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+
+  .daily-todo {
+    margin: 16px 0 24px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  .daily-todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+  }
+
+  .daily-todo-title {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .daily-todo-date {
+    font-size: 12px;
+    color: #6b7280;
+  }
+
+  .daily-todo-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .daily-todo-input {
+    flex: 1;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+  }
+
+  .daily-todo-input:focus {
+    outline: none;
+    border-color: #0aa5ff;
+    box-shadow: 0 0 0 1px rgba(14, 165, 233, 0.3);
+  }
+
+  .daily-todo-add-btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    background: #0aa5ff;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .daily-todo-add-btn:hover {
+    opacity: 0.95;
+  }
+
+  .daily-todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .daily-todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .daily-todo-item:last-child {
+    border-bottom: none;
+  }
+
+  .daily-todo-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .daily-todo-text {
+    word-break: break-word;
+  }
+
+  .daily-todo-item.done .daily-todo-text {
+    text-decoration: line-through;
+    color: #9ca3af;
+  }
+
+  .daily-todo-remove-btn {
+    border: none;
+    background: transparent;
+    color: #9ca3af;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .daily-todo-remove-btn:hover {
+    color: #ef4444;
+  }
+
+  .daily-todo-empty {
+    font-size: 13px;
+    color: #6b7280;
+  }
+
+  .dated-tasks {
+    margin: 8px 0 20px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #f9fafb;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+
+  .dated-tasks-title {
+    margin: 0 0 6px;
+    font-size: 16px;
+  }
+
+  .dated-tasks-empty {
+    font-size: 13px;
+    color: #6b7280;
+  }
+
+  .dated-tasks-date-block {
+    margin-top: 6px;
+  }
+
+  .dated-tasks-date {
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 2px;
+  }
+
+  .dated-tasks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dated-tasks-item {
+    display: flex;
+    gap: 8px;
+    font-size: 13px;
+    padding: 2px 0;
+  }
+
+  .dated-tasks-hour {
+    font-weight: 600;
+    color: #4b5563;
+    min-width: 52px;
+  }
+
+  .dated-tasks-text {
+    color: #111827;
+  }
   
   .hour-block {
     padding: 12px;

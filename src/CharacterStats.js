@@ -5,8 +5,8 @@ function CharacterStats() {
   // Character stats - you can customize these
   const [stats] = useState({
     level: 30,
-    health: 85,
-    maxHealth: 100,
+    health: 140,
+    maxHealth: 160,
     strength: 72,
     intelligence: 88,
     charisma: 65,
@@ -32,7 +32,6 @@ function CharacterStats() {
   };
 
   const healthPercentage = (stats.health / stats.maxHealth) * 100;
-  const agePercentage = (stats.age / stats.maxAge) * 100;
 
   return (
     <div className="character-stats">
@@ -43,108 +42,11 @@ function CharacterStats() {
           </div>
           <div className="level-badge">Lv.{stats.level}</div>
         </div>
-        <div className="character-info">
-          <h3 className="character-name">Character</h3>
-          <div className="xp-bar-container">
-            <div className="xp-bar-label">Age: {stats.age} / {stats.maxAge}</div>
-            <div className="xp-bar">
-              <div 
-                className="xp-bar-fill" 
-                style={{ width: `${agePercentage}%` }}
-              ></div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className="stats-grid">
-        {/* Health Bar */}
-        <div className="stat-item">
-          <div className="stat-label">
-            <span className="stat-icon">❤️</span> Health
-          </div>
-          <div className="stat-bar-container">
-            <div 
-              className="stat-bar" 
-              style={{ 
-                width: `${healthPercentage}%`,
-                backgroundColor: getHealthColor(stats.health, stats.maxHealth)
-              }}
-            ></div>
-          </div>
-          <div className="stat-value">{stats.health} / {stats.maxHealth}</div>
-        </div>
-
-        {/* Strength */}
-        <div className="stat-item">
-          <div className="stat-label">
-            <span className="stat-icon">💪</span> Strength
-          </div>
-          <div className="stat-bar-container">
-            <div 
-              className="stat-bar" 
-              style={{ 
-                width: `${stats.strength}%`,
-                backgroundColor: getStatColor(stats.strength)
-              }}
-            ></div>
-          </div>
-          <div className="stat-value">{stats.strength}/100</div>
-        </div>
-
-        {/* Intelligence */}
-        <div className="stat-item">
-          <div className="stat-label">
-            <span className="stat-icon">🧠</span> Intelligence
-          </div>
-          <div className="stat-bar-container">
-            <div 
-              className="stat-bar" 
-              style={{ 
-                width: `${stats.intelligence}%`,
-                backgroundColor: getStatColor(stats.intelligence)
-              }}
-            ></div>
-          </div>
-          <div className="stat-value">{stats.intelligence}/100</div>
-        </div>
-
-        {/* Charisma */}
-        <div className="stat-item">
-          <div className="stat-label">
-            <span className="stat-icon">✨</span> Charisma
-          </div>
-          <div className="stat-bar-container">
-            <div 
-              className="stat-bar" 
-              style={{ 
-                width: `${stats.charisma}%`,
-                backgroundColor: getStatColor(stats.charisma)
-              }}
-            ></div>
-          </div>
-          <div className="stat-value">{stats.charisma}/100</div>
-        </div>
-
-        {/* Fitness */}
-        <div className="stat-item">
-          <div className="stat-label">
-            <span className="stat-icon">🏃</span> Fitness
-          </div>
-          <div className="stat-bar-container">
-            <div 
-              className="stat-bar" 
-              style={{ 
-                width: `${stats.fitness}%`,
-                backgroundColor: getStatColor(stats.fitness)
-              }}
-            ></div>
-          </div>
-          <div className="stat-value">{stats.fitness}/100</div>
-        </div>
-
-        {/* Wealth */}
-        <div className="stat-item">
+              {/* Wealth */}
+              <div className="stat-item">
           <div className="stat-label">
             <span className="stat-icon">💰</span> Wealth
           </div>
@@ -160,26 +62,26 @@ function CharacterStats() {
           <div className="stat-value">${stats.wealth.toLocaleString()}</div>
         </div>
 
-        {/* Skills */}
+        {/* Health Bar */}
         <div className="stat-item">
           <div className="stat-label">
-            <span className="stat-icon">🎯</span> Skills
+            <span className="stat-icon">❤️</span> Weight
           </div>
           <div className="stat-bar-container">
             <div 
               className="stat-bar" 
               style={{ 
-                width: `${stats.skills}%`,
-                backgroundColor: getStatColor(stats.skills)
+                width: `${healthPercentage}%`,
+                backgroundColor: getHealthColor(stats.health, stats.maxHealth)
               }}
             ></div>
           </div>
-          <div className="stat-value">{stats.skills}/100</div>
+          <div className="stat-value">{stats.health} / {stats.maxHealth}</div>
         </div>
+
       </div>
     </div>
   );
 }
 
 export default CharacterStats;
-

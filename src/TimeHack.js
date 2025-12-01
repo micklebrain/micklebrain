@@ -11,6 +11,8 @@ import CharacterStats from './CharacterStats';
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [expandedHour, setExpandedHour] = useState(null);
+  const [todos, setTodos] = useState([]);
+  const [newTodo, setNewTodo] = useState("");
 
   useEffect(() => {
     const interval = setInterval(() => setCurrentTime(new Date()), 30000);
@@ -30,6 +32,45 @@ function TimeHack() {
   const tomorrow = new Date(currentTime);
   tomorrow.setDate(tomorrow.getDate() + 1);
   const tomorrowKey = formatDateKey(tomorrow);
+
+  const defaultDailyTodos = [
+    "do 20 pushups",
+    "eat 10 grapes",    
+  ];
+
+  const buildDefaultTodos = () =>
+    defaultDailyTodos.map((text, index) => ({
+      id: Date.now() + index,
+      text,
+      done: false,
+    }));
+
+  // Daily to-do list that refreshes each day
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem(`timehack-todos-${todayKey}`);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setTodos(parsed);
+        } else {
+          setTodos(buildDefaultTodos());
+        }
+      } else {
+        setTodos(buildDefaultTodos());
+      }
+    } catch {
+      setTodos(buildDefaultTodos());
+    }
+  }, [todayKey]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(`timehack-todos-${todayKey}`, JSON.stringify(todos));
+    } catch {
+      // ignore write errors
+    }
+  }, [todos, todayKey]);
 
   const dailyTasks = {
     0: "sleep",
@@ -99,12 +140,12 @@ function TimeHack() {
   };
   
   const datedTasks = {    
-    "2026-1-5": { 11: "dine at Chase OpenTable resturant for $150 credit" },
-    "2027-1-4": { 11: "propose to girlfriend" },
-    "2028-1-5": { 2: "penis enlargement" },
-    "2029-1-5": { 2: "height surgery" }
-  }
-;
+    "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 credit" },
+    "2027-01-04": { 11: "propose to girlfriend" },
+    "2028-01-05": { 2: "penis enlargement" },
+    "2029-01-05": { 2: "height surgery" },
+    "2030-01-05": { 2: "perform at EDC biggest stage" }
+  };
 
   const hours = [...Array(24).keys()];
   const sortedHours = [...hours.slice(currentHour), ...hours.slice(0, currentHour)];
@@ -114,10 +155,83 @@ function TimeHack() {
     setExpandedHour(prev => prev === hour ? null : hour);
   };
 
+  const handleAddTodo = (e) => {
+    e.preventDefault();
+    const trimmed = newTodo.trim();
+    if (!trimmed) return;
+    setTodos(prev => [
+      ...prev,
+      { id: Date.now(), text: trimmed, done: false }
+    ]);
+    setNewTodo("");
+  };
+
+  const toggleTodo = (id) => {
+    setTodos(prev =>
+      prev.map((todo) =>
+        todo.id === id ? { ...todo, done: !todo.done } : todo
+      )
+    );
+  };
+
+  const removeTodo = (id) => {
+    setTodos(prev => prev.filter((todo) => todo.id !== id));
+  };
+
+  const upcomingDatedTasks = Object.entries(datedTasks)
+    .filter(([date]) => date >= todayKey)
+    .sort(([a], [b]) => a.localeCompare(b));
+
   return (
     <div className="timehack">
       <h1>TimeHack</h1>
       <CharacterStats />
+      <div className="daily-todo">
+        <div className="daily-todo-header">
+          <h2 className="daily-todo-title">Today's To-Do</h2>
+          <div className="daily-todo-date">{todayKey}</div>
+        </div>
+        <form className="daily-todo-form" onSubmit={handleAddTodo}>
+          <input
+            type="text"
+            className="daily-todo-input"
+            placeholder="Add a task for today..."
+            value={newTodo}
+            onChange={(e) => setNewTodo(e.target.value)}
+          />
+          <button type="submit" className="daily-todo-add-btn">
+            Add
+          </button>
+        </form>
+        <ul className="daily-todo-list">
+          {todos.length === 0 ? (
+            <li className="daily-todo-empty">No tasks yet. Add one above.</li>
+          ) : (
+            todos.map((todo) => (
+              <li
+                key={todo.id}
+                className={`daily-todo-item ${todo.done ? "done" : ""}`}
+              >
+                <label className="daily-todo-label">
+                  <input
+                    type="checkbox"
+                    checked={todo.done}
+                    onChange={() => toggleTodo(todo.id)}
+                  />
+                  <span className="daily-todo-text">{todo.text}</span>
+                </label>
+                <button
+                  type="button"
+                  className="daily-todo-remove-btn"
+                  onClick={() => removeTodo(todo.id)}
+                >
+                  ✕
+                </button>
+              </li>
+            ))
+          )}
+        </ul>
+      </div>
       <div className="hours-list">
         {sortedHours.map((hour) => {
           const isCurrentHour = hour === currentHour;
@@ -264,6 +378,32 @@ function TimeHack() {
             </div>
           );
         })}
+      </div>
+      <div className="dated-tasks">
+        <h3 className="dated-tasks-title">Upcoming Dated Tasks</h3>
+        {upcomingDatedTasks.length === 0 ? (
+          <div className="dated-tasks-empty">
+            No scheduled dated tasks.
+          </div>
+        ) : (
+          upcomingDatedTasks.map(([date, tasksForDate]) => (
+            <div key={date} className="dated-tasks-date-block">
+              <div className="dated-tasks-date">{date}</div>
+              <ul className="dated-tasks-list">
+                {Object.entries(tasksForDate)
+                  .sort(([h1], [h2]) => Number(h1) - Number(h2))
+                  .map(([hour, text]) => (
+                    <li key={`${date}-${hour}`} className="dated-tasks-item">
+                      <span className="dated-tasks-hour">
+                        {String(hour).padStart(2, "0")}:00
+                      </span>
+                      <span className="dated-tasks-text">{text}</span>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );
