@@ -35,7 +35,9 @@ function TimeHack() {
 
   const defaultDailyTodos = [
     "do 20 pushups",
-    "eat 10 grapes",    
+    "eat 10 tomatoes",
+    "drink bottle of water",
+    "stop and talk to hot girl",
   ];
 
   const buildDefaultTodos = () =>
@@ -139,12 +141,25 @@ function TimeHack() {
     23: "gain knowledge",
   };
   
-  const datedTasks = {    
-    "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 credit" },
+  const datedTasks = {
+    "2025-12-08": { 11: "take ISI placement test" },
+    "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
     "2027-01-04": { 11: "propose to girlfriend" },
     "2028-01-05": { 2: "penis enlargement" },
     "2029-01-05": { 2: "height surgery" },
-    "2030-01-05": { 2: "perform at EDC biggest stage" }
+    "2030-01-05": { 2: "perform at EDC biggest stage" },
+    "2031-01-05": { 2: "join Chase private banking" },
+    "2032-01-05": { 2: "buy mom a house" },
+    "2033-01-05": { 2: "solve aging" },
+    "2034-01-05": { 2: "obtain Japan pernament residency" },
+    "2035-01-05": { 2: "obtain Korea pernament residency" },
+    "2036-01-05": { 2: "own all stocks on market" },
+    "2036-01-05": { 2: "pass JLPT N5 test" },
+    "2037-01-05": { 2: "pass JLPT N4 test" },
+    "2038-01-05": { 2: "pass JLPT N3 test" },
+    "2039-01-05": { 2: "pass JLPT N2 test" },
+    "2040-01-05": { 2: "pass JLPT N1 test" },
+    "2041-01-05": { 2: "pass TOPIK test" },
   };
 
   const hours = [...Array(24).keys()];
@@ -188,7 +203,7 @@ function TimeHack() {
       <CharacterStats />
       <div className="daily-todo">
         <div className="daily-todo-header">
-          <h2 className="daily-todo-title">Today's To-Do</h2>
+          <h2 className="daily-todo-title">resolute To-Do</h2>
           <div className="daily-todo-date">{todayKey}</div>
         </div>
         <form className="daily-todo-form" onSubmit={handleAddTodo}>
@@ -380,7 +395,7 @@ function TimeHack() {
         })}
       </div>
       <div className="dated-tasks">
-        <h3 className="dated-tasks-title">Upcoming Dated Tasks</h3>
+        <h3 className="dated-tasks-title">Upcoming Tasks</h3>
         {upcomingDatedTasks.length === 0 ? (
           <div className="dated-tasks-empty">
             No scheduled dated tasks.
