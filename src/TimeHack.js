@@ -28,6 +28,26 @@ function TimeHack() {
     return `${y}-${m}-${d}`;
   };
 
+  const BIRTHDATE = new Date(1995, 6, 4); // July 4, 1995 (month is 0-based)
+
+  const getAgeOnDate = (date) => {
+    const yearDiff = date.getFullYear() - BIRTHDATE.getFullYear();
+    const hasHadBirthdayThisYear =
+      date.getMonth() > BIRTHDATE.getMonth() ||
+      (date.getMonth() === BIRTHDATE.getMonth() && date.getDate() >= BIRTHDATE.getDate());
+    return hasHadBirthdayThisYear ? yearDiff : yearDiff - 1;
+  };
+
+  const getAgeOnDateKey = (dateKey) => {
+    const [yearStr, monthStr, dayStr] = dateKey.split("-");
+    const year = Number(yearStr);
+    const month = Number(monthStr);
+    const day = Number(dayStr);
+    if (Number.isNaN(year) || Number.isNaN(month) || Number.isNaN(day)) return null;
+    const date = new Date(year, month - 1, day);
+    return getAgeOnDate(date);
+  };
+
   const todayKey = formatDateKey(currentTime);
   const tomorrow = new Date(currentTime);
   tomorrow.setDate(tomorrow.getDate() + 1);
@@ -86,6 +106,7 @@ function TimeHack() {
     8: `selfcare
         skincare
         red & blue light therapy
+        ice face
         scrap tongue
         water floss`,
     9: "stretch, try to perform split",
@@ -95,8 +116,8 @@ function TimeHack() {
     12: `cook/eat lunch
          consume protein`,
     13: `learn a language
-        answer 10 sample questions on Chat GPT
-        learn 10 kanji: 天 石 天 生 入 出 高 安 新 古`,
+         answer 10 sample questions on Chat GPT
+         learn 10 kanji: 天 石 論 生 入 出 高 安 新 古`,
     14: "work on music - piano track",
     15: "film/edit video for YouTube",
     16: [
@@ -105,25 +126,27 @@ function TimeHack() {
     ],
     17: "clear photos on Macbook (46 GB) and SSD drive (300 GB)",
     18: "cook/eat dinner",
-    19: "learn to shoot guns",
-    20: "find reference photos from Instagram or Tiktok",
-    21: `work on personal site`,
+    19: "learn to dance",
+    20: `find reference photos from Instagram or Tiktok
+         learn fashion
+         learn hair`,
+    21: "practice public speaking",    
     22: `selfcare
          skincare
          scrap tongue`,
-    23: "read book",
+    23: `work on personal site`,
   };
 
   const higherMissions = {
-    0: "Restore energy for tomorrow",
-    1: "Restore energy for tomorrow",
-    2: "Restore energy for tomorrow",
-    3: "Restore energy for tomorrow",
-    4: "Restore energy for tomorrow",
-    5: "Restore energy for tomorrow",
-    6: "Restore energy for tomorrow",
-    7: "Restore energy for tomorrow",
-    8: { text: "achieve glass skin", image: glassSkin, alt: "Glass skin example" },
+    0: "replenish energy",
+    1: "replenish energy",
+    2: "replenish energy",
+    3: "replenish energy",
+    4: "replenish energy",
+    5: "replenish energy",
+    6: "replenish energy",
+    7: "replenish energy",
+    8: { text: "achieve glass skin", image: glassSkin, alt: "glass skin example" },
     9: "Increase flexibility and body control",
     10: { text: "become millionaire", image: milliondollars, alt: "million dollars" },
     11: { text: "develop roster", image: girls, alt: "girls" },
@@ -142,6 +165,7 @@ function TimeHack() {
   };
   
   const datedTasks = {
+    "2025-12-07": { 14: "decide on Bangkok hotel" },
     "2025-12-08": { 11: "take ISI placement test" },
     "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
     "2027-01-04": { 11: "propose to girlfriend" },
@@ -160,6 +184,81 @@ function TimeHack() {
     "2039-01-05": { 2: "pass JLPT N2 test" },
     "2040-01-05": { 2: "pass JLPT N1 test" },
     "2041-01-05": { 2: "pass TOPIK test" },
+    "2042-01-05": { 2: "pass TOPIK test" },
+    "2043-01-05": { 2: "pass TOPIK test" },
+    "2044-01-05": { 2: "pass TOPIK test" },
+    "2045-01-05": { 2: "pass TOPIK test" },
+    "2046-01-05": { 2: "pass TOPIK test" },
+    "2047-01-05": { 2: "pass TOPIK test" },
+    "2048-01-05": { 2: "pass TOPIK test" },
+    "2049-01-05": { 2: "pass TOPIK test" },
+    "2050-01-05": { 2: "pass TOPIK test" },
+    "2051-01-05": { 2: "pass TOPIK test" },
+    "2052-01-05": { 2: "pass TOPIK test" },
+    "2053-01-05": { 2: "pass TOPIK test" },
+    "2054-01-05": { 2: "pass TOPIK test" },
+    "2055-01-05": { 2: "pass TOPIK test" },
+    "2056-01-05": { 2: "pass TOPIK test" },
+    "2057-01-05": { 2: "pass TOPIK test" },
+    "2058-01-05": { 2: "pass TOPIK test" },
+    "2059-01-05": { 2: "pass TOPIK test" },
+    "2060-01-05": { 2: "pass TOPIK test" },
+    "2061-01-05": { 2: "pass TOPIK test" },
+    "2062-01-05": { 2: "pass TOPIK test" },
+    "2063-01-05": { 2: "pass TOPIK test" },
+    "2064-01-05": { 2: "pass TOPIK test" },
+    "2065-01-05": { 2: "pass TOPIK test" },
+    "2066-01-05": { 2: "pass TOPIK test" },
+    "2067-01-05": { 2: "pass TOPIK test" },
+    "2068-01-05": { 2: "pass TOPIK test" },
+    "2069-01-05": { 2: "pass TOPIK test" },
+    "2070-01-05": { 2: "pass TOPIK test" },
+    "2071-01-05": { 2: "pass TOPIK test" },
+    "2072-01-05": { 2: "pass TOPIK test" },
+    "2073-01-05": { 2: "pass TOPIK test" },
+    "2074-01-05": { 2: "pass TOPIK test" },
+    "2075-01-05": { 2: "pass TOPIK test" },
+    "2076-01-05": { 2: "pass TOPIK test" },
+    "2077-01-05": { 2: "pass TOPIK test" },
+    "2078-01-05": { 2: "pass TOPIK test" },
+    "2079-01-05": { 2: "pass TOPIK test" },
+    "2080-01-05": { 2: "pass TOPIK test" },
+    "2081-01-05": { 2: "pass TOPIK test" },
+    "2082-01-05": { 2: "pass TOPIK test" },
+    "2083-01-05": { 2: "pass TOPIK test" },
+    "2084-01-05": { 2: "pass TOPIK test" },
+    "2085-01-05": { 2: "pass TOPIK test" },
+    "2086-01-05": { 2: "pass TOPIK test" },
+    "2087-01-05": { 2: "pass TOPIK test" },
+    "2088-01-05": { 2: "pass TOPIK test" },
+    "2089-01-05": { 2: "pass TOPIK test" },
+    "2090-01-05": { 2: "pass TOPIK test" },
+    "2091-01-05": { 2: "pass TOPIK test" },
+    "2092-01-05": { 2: "pass TOPIK test" },
+    "2093-01-05": { 2: "pass TOPIK test" },
+    "2094-01-05": { 2: "pass TOPIK test" },
+    "2095-01-05": { 2: "pass TOPIK test" },
+    "2096-01-05": { 2: "pass TOPIK test" },
+    "2097-01-05": { 2: "pass TOPIK test" },
+    "2098-01-05": { 2: "pass TOPIK test" },
+    "2099-01-05": { 2: "pass TOPIK test" },
+    "2100-01-05": { 2: "pass TOPIK test" },
+    "2101-01-05": { 2: "pass TOPIK test" },
+    "2102-01-05": { 2: "pass TOPIK test" },
+    "2103-01-05": { 2: "pass TOPIK test" },
+    "2104-01-05": { 2: "pass TOPIK test" },
+    "2105-01-05": { 2: "pass TOPIK test" },
+    "2106-01-05": { 2: "pass TOPIK test" },
+    "2107-01-05": { 2: "pass TOPIK test" },
+    "2108-01-05": { 2: "pass TOPIK test" },
+    "2109-01-05": { 2: "pass TOPIK test" },
+    "2110-01-05": { 2: "pass TOPIK test" },
+    "2111-01-05": { 2: "pass TOPIK test" },
+    "2112-01-05": { 2: "pass TOPIK test" },
+    "2113-01-05": { 2: "pass TOPIK test" },
+    "2114-01-05": { 2: "pass TOPIK test" },
+    "2115-01-05": { 2: "pass TOPIK test" },
+    "2116-01-05": { 2: "pass TOPIK test" },  
   };
 
   const hours = [...Array(24).keys()];
@@ -403,7 +502,13 @@ function TimeHack() {
         ) : (
           upcomingDatedTasks.map(([date, tasksForDate]) => (
             <div key={date} className="dated-tasks-date-block">
-              <div className="dated-tasks-date">{date}</div>
+              <div className="dated-tasks-date">
+                {date}
+                {(() => {
+                  const age = getAgeOnDateKey(date);
+                  return age != null ? `  (age ${age})` : "";
+                })()}
+              </div>
               <ul className="dated-tasks-list">
                 {Object.entries(tasksForDate)
                   .sort(([h1], [h2]) => Number(h1) - Number(h2))

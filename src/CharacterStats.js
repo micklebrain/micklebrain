@@ -6,7 +6,9 @@ function CharacterStats() {
   const [stats] = useState({
     level: 30,
     health: 140,
-    maxHealth: 160,
+    maxHealth: 150,
+    righthandcurl: 20,
+    maxrighthandcurl: 30,
     strength: 72,
     intelligence: 88,
     charisma: 65,
@@ -32,6 +34,7 @@ function CharacterStats() {
   };
 
   const healthPercentage = (stats.health / stats.maxHealth) * 100;
+  const righthandcurlPercentage = (stats.righthandcurl / stats.maxrighthandcurl) * 100;
 
   return (
     <div className="character-stats">
@@ -65,7 +68,7 @@ function CharacterStats() {
         {/* Health Bar */}
         <div className="stat-item">
           <div className="stat-label">
-            <span className="stat-icon">❤️</span> Weight
+            <span className="stat-icon">🫃</span> Weight
           </div>
           <div className="stat-bar-container">
             <div 
@@ -73,6 +76,23 @@ function CharacterStats() {
               style={{ 
                 width: `${healthPercentage}%`,
                 backgroundColor: getHealthColor(stats.health, stats.maxHealth)
+              }}
+            ></div>
+          </div>
+          <div className="stat-value">{stats.health} / {stats.maxHealth}</div>
+        </div>
+
+        {/* Health Bar */}
+        <div className="stat-item">
+          <div className="stat-label">
+            <span className="stat-icon">💪</span> right hand curl
+          </div>
+          <div className="stat-bar-container">
+            <div 
+              className="stat-bar" 
+              style={{ 
+                width: `${righthandcurlPercentage}%`,
+                backgroundColor: getHealthColor(stats.righthandcurl, stats.maxrighthandcurl)
               }}
             ></div>
           </div>
