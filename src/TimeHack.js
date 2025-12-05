@@ -1,18 +1,43 @@
 import { useEffect, useState, Fragment } from "react";
 import "./timehack.css";
 
-import glassSkin from './images/glassskin.png';
-import milliondollars from './images/milliondollars.png';
-import girls from './images/girls.png';
-import perfectphysique from './images/perfectphysique.png';
-import dj from './images/dj.png';
-import CharacterStats from './CharacterStats';
+import glassSkin from "./images/glassskin.png";
+import milliondollars from "./images/milliondollars.png";
+import girls from "./images/girls.png";
+import perfectphysique from "./images/perfectphysique.png";
+import dj from "./images/dj.png";
+import CharacterStats from "./CharacterStats";
+
+const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [expandedHour, setExpandedHour] = useState(null);
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
+  const [jlptProgress, setJlptProgress] = useState(() => {
+    try {
+      const stored = localStorage.getItem("timehack-jlpt-progress");
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (
+          Array.isArray(parsed) &&
+          parsed.length === JLPT_LEVELS.length &&
+          parsed.every(
+            (item) =>
+              item &&
+              typeof item.level === "string" &&
+              typeof item.completed === "boolean"
+          )
+        ) {
+          return parsed;
+        }
+      }
+    } catch {
+      // ignore read errors
+    }
+    return JLPT_LEVELS.map((level) => ({ level, completed: false }));
+  });
 
   useEffect(() => {
     const interval = setInterval(() => setCurrentTime(new Date()), 30000);
@@ -56,7 +81,7 @@ function TimeHack() {
   const defaultDailyTodos = [
     "do 20 pushups",
     "eat 10 tomatoes",
-    "drink bottle of water",
+    "drink 3.7 liters ( 125 oz) of water",
     "stop and talk to hot girl",
   ];
 
@@ -93,6 +118,27 @@ function TimeHack() {
       // ignore write errors
     }
   }, [todos, todayKey]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        "timehack-jlpt-progress",
+        JSON.stringify(jlptProgress)
+      );
+    } catch {
+      // ignore write errors
+    }
+  }, [jlptProgress]);
+
+  const toggleJlptLevel = (level) => {
+    setJlptProgress((prev) =>
+      prev.map((item) =>
+        item.level === level
+          ? { ...item, completed: !item.completed }
+          : item
+      )
+    );
+  };
 
   const dailyTasks = {
     0: "sleep",
@@ -147,10 +193,10 @@ function TimeHack() {
     6: "replenish energy",
     7: "replenish energy",
     8: { text: "achieve glass skin", image: glassSkin, alt: "glass skin example" },
-    9: "Increase flexibility and body control",
+    9: "increase flexibility and body control",
     10: { text: "become millionaire", image: milliondollars, alt: "million dollars" },
     11: { text: "develop roster", image: girls, alt: "girls" },
-    12: "Fuel body for peak performance",
+    12: "fuel body for peak performance",
     13: "Become trilingual + improve memory",
     14: { text: "become world class DJ", image: dj, alt: "dj" },
     15: "Grow YouTube channel + digital presence",
@@ -169,9 +215,9 @@ function TimeHack() {
     "2025-12-08": { 11: "take ISI placement test" },
     "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
     "2027-01-04": { 11: "propose to girlfriend" },
-    "2028-01-05": { 2: "penis enlargement" },
-    "2029-01-05": { 2: "height surgery" },
-    "2030-01-05": { 2: "perform at EDC biggest stage" },
+    "2028-01-05": { 2: "penis enlargement to 6 inches" },
+    "2029-01-05": { 2: "height surgery to 6ft" },
+    "2030-01-05": { 2: "perform on EDC biggest stage" },
     "2031-01-05": { 2: "join Chase private banking" },
     "2032-01-05": { 2: "buy mom a house" },
     "2033-01-05": { 2: "solve aging" },
@@ -184,81 +230,81 @@ function TimeHack() {
     "2039-01-05": { 2: "pass JLPT N2 test" },
     "2040-01-05": { 2: "pass JLPT N1 test" },
     "2041-01-05": { 2: "pass TOPIK test" },
-    "2042-01-05": { 2: "pass TOPIK test" },
-    "2043-01-05": { 2: "pass TOPIK test" },
-    "2044-01-05": { 2: "pass TOPIK test" },
-    "2045-01-05": { 2: "pass TOPIK test" },
-    "2046-01-05": { 2: "pass TOPIK test" },
-    "2047-01-05": { 2: "pass TOPIK test" },
-    "2048-01-05": { 2: "pass TOPIK test" },
-    "2049-01-05": { 2: "pass TOPIK test" },
-    "2050-01-05": { 2: "pass TOPIK test" },
-    "2051-01-05": { 2: "pass TOPIK test" },
-    "2052-01-05": { 2: "pass TOPIK test" },
-    "2053-01-05": { 2: "pass TOPIK test" },
-    "2054-01-05": { 2: "pass TOPIK test" },
-    "2055-01-05": { 2: "pass TOPIK test" },
-    "2056-01-05": { 2: "pass TOPIK test" },
-    "2057-01-05": { 2: "pass TOPIK test" },
-    "2058-01-05": { 2: "pass TOPIK test" },
-    "2059-01-05": { 2: "pass TOPIK test" },
-    "2060-01-05": { 2: "pass TOPIK test" },
-    "2061-01-05": { 2: "pass TOPIK test" },
-    "2062-01-05": { 2: "pass TOPIK test" },
-    "2063-01-05": { 2: "pass TOPIK test" },
-    "2064-01-05": { 2: "pass TOPIK test" },
-    "2065-01-05": { 2: "pass TOPIK test" },
-    "2066-01-05": { 2: "pass TOPIK test" },
-    "2067-01-05": { 2: "pass TOPIK test" },
-    "2068-01-05": { 2: "pass TOPIK test" },
-    "2069-01-05": { 2: "pass TOPIK test" },
-    "2070-01-05": { 2: "pass TOPIK test" },
-    "2071-01-05": { 2: "pass TOPIK test" },
-    "2072-01-05": { 2: "pass TOPIK test" },
-    "2073-01-05": { 2: "pass TOPIK test" },
-    "2074-01-05": { 2: "pass TOPIK test" },
-    "2075-01-05": { 2: "pass TOPIK test" },
-    "2076-01-05": { 2: "pass TOPIK test" },
-    "2077-01-05": { 2: "pass TOPIK test" },
-    "2078-01-05": { 2: "pass TOPIK test" },
-    "2079-01-05": { 2: "pass TOPIK test" },
-    "2080-01-05": { 2: "pass TOPIK test" },
-    "2081-01-05": { 2: "pass TOPIK test" },
-    "2082-01-05": { 2: "pass TOPIK test" },
-    "2083-01-05": { 2: "pass TOPIK test" },
-    "2084-01-05": { 2: "pass TOPIK test" },
-    "2085-01-05": { 2: "pass TOPIK test" },
-    "2086-01-05": { 2: "pass TOPIK test" },
-    "2087-01-05": { 2: "pass TOPIK test" },
-    "2088-01-05": { 2: "pass TOPIK test" },
-    "2089-01-05": { 2: "pass TOPIK test" },
-    "2090-01-05": { 2: "pass TOPIK test" },
-    "2091-01-05": { 2: "pass TOPIK test" },
-    "2092-01-05": { 2: "pass TOPIK test" },
-    "2093-01-05": { 2: "pass TOPIK test" },
-    "2094-01-05": { 2: "pass TOPIK test" },
-    "2095-01-05": { 2: "pass TOPIK test" },
-    "2096-01-05": { 2: "pass TOPIK test" },
-    "2097-01-05": { 2: "pass TOPIK test" },
-    "2098-01-05": { 2: "pass TOPIK test" },
-    "2099-01-05": { 2: "pass TOPIK test" },
-    "2100-01-05": { 2: "pass TOPIK test" },
-    "2101-01-05": { 2: "pass TOPIK test" },
-    "2102-01-05": { 2: "pass TOPIK test" },
-    "2103-01-05": { 2: "pass TOPIK test" },
-    "2104-01-05": { 2: "pass TOPIK test" },
-    "2105-01-05": { 2: "pass TOPIK test" },
-    "2106-01-05": { 2: "pass TOPIK test" },
-    "2107-01-05": { 2: "pass TOPIK test" },
-    "2108-01-05": { 2: "pass TOPIK test" },
-    "2109-01-05": { 2: "pass TOPIK test" },
-    "2110-01-05": { 2: "pass TOPIK test" },
-    "2111-01-05": { 2: "pass TOPIK test" },
-    "2112-01-05": { 2: "pass TOPIK test" },
-    "2113-01-05": { 2: "pass TOPIK test" },
-    "2114-01-05": { 2: "pass TOPIK test" },
-    "2115-01-05": { 2: "pass TOPIK test" },
-    "2116-01-05": { 2: "pass TOPIK test" },  
+    "2042-01-05": { 2: "achieve 500k net worth" },
+    "2043-01-05": { 2: "achieve 1 million net worth" },
+    "2044-01-05": { 2: "achieve 10 million net worth" },
+    "2045-01-05": { 2: "achieve 100 million net worth" },
+    "2046-01-05": { 2: "achieve 1 billion net worth" },
+    "2047-01-05": { 2: "obtain 1 million Instagram followers" },
+    "2048-01-05": { 2: "obtain 1 million TikTok followers" },
+    "2049-01-05": { 2: "obtain 1 million Youtube subscribers" },
+    "2050-01-05": { 2: "obtain 1 million Twitch subscribers" },
+    "2051-01-05": { 2: "perform split" },
+    "2052-01-05": { 2: "buy property in Singapore (South beach residences)" },
+    "2053-01-05": { 2: "fight in MMA match" },
+    "2054-01-05": { 2: "fly airplane" },
+    "2055-01-05": { 2: "become ambidextrous" },
+    "2056-01-05": { 2: "buy place in Ginza Tokyo Japan" },
+    "2057-01-05": { 2: "drive super-car" },
+    "2058-01-05": { 2: "100k invested in real estate" },
+    "2059-01-05": { 2: "achieve Marriott Lifetime Silver Elite Status" },
+    "2060-01-05": { 2: "watch NBA all star game live" },
+    "2061-01-05": { 2: "bury mom" },
+    "2062-01-05": { 2: "bury dad" },
+    "2063-01-05": { 2: "go sky diving" },
+    "2064-01-05": { 2: "shoot sniper rifle" },
+    "2065-01-05": { 2: "drive F1 car" },
+    "2066-01-05": { 2: "watch F1 race live" },
+    "2067-01-05": { 2: "drive speedboat" },
+    "2068-01-05": { 2: "become president of USA" },
+    "2069-01-05": { 2: "meet Jesus" },
+    "2070-01-05": { 2: "run Triathalon" },
+    "2071-01-05": { 2: "go hunting with guns" },
+    "2072-01-05": { 2: "go camping" },
+    "2073-01-05": { 2: "be in a Redbull video" },
+    "2074-01-05": { 2: "do a kickflip" },
+    "2075-01-05": { 2: "become streamer of the year" },
+    "2076-01-05": { 2: "have threesome" },
+    "2077-01-05": { 2: "shake hands with the president" },
+    "2078-01-05": { 2: "go to bottom of the ocean" },
+    "2079-01-05": { 2: "go to space" },
+    "2080-01-05": { 2: "visit every continent" },
+    "2081-01-05": { 2: "win a Grammy" },
+    "2082-01-05": { 2: "win a Oscar" },
+    "2083-01-05": { 2: "fly a fighter jet" },
+    "2084-01-05": { 2: "become a Navy Seal" },
+    "2085-01-05": { 2: "speak on Joe Rogan podcast" },
+    "2086-01-05": { 2: "win body building competition" },
+    "2087-01-05": { 2: "drive military tank" },
+    "2088-01-05": { 2: "kill animal with bow and arrow" },
+    "2089-01-05": { 2: "shoot a bazooka" },
+    "2090-01-05": { 2: "give a speach to 100,000" },
+    "2091-01-05": { 2: "take a company IPO" },
+    "2092-01-05": { 2: "retire mom" },
+    "2093-01-05": { 2: "retire dad" },
+    "2094-01-05": { 2: "retire sister" },
+    "2095-01-05": { 2: "give a actor in box office movie" },
+    "2096-01-05": { 2: "walk on red carpet" },
+    "2097-01-05": { 2: "donate 100,000 to charity" },
+    "2098-01-05": { 2: "ride and horse and shoot arrow" },
+    "2099-01-05": { 2: "see the Northern lights" },
+    "2100-01-05": { 2: "ride snowboard in Dubai sands" },
+    "2101-01-05": { 2: "swim in the Great Reefs" },
+    "2102-01-05": { 2: "go surfing" },
+    "2103-01-05": { 2: "do a split" },
+    "2104-01-05": { 2: "do a backflip" },
+    "2105-01-05": { 2: "cosplay at convention" },
+    "2106-01-05": { 2: "win MMA match" },
+    "2107-01-05": { 2: "swim with dolphins" },
+    "2108-01-05": { 2: "win hacker competition" },
+    "2109-01-05": { 2: "give shoulder rides to 2 girls at rave" },
+    "2110-01-05": { 2: "see a volcano" },
+    "2111-01-05": { 2: "explore a rainforest" },
+    "2112-01-05": { 2: "enter art into musuem" },
+    "2113-01-05": { 2: "fly first class" },
+    "2114-01-05": { 2: "jump through ring of fire" },
+    "2115-01-05": { 2: "go base jumping" },
+    "2116-01-05": { 2: "enter my body into cryosleep" },  
   };
 
   const hours = [...Array(24).keys()];
@@ -296,10 +342,40 @@ function TimeHack() {
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
 
+  const jlptCompletedCount = jlptProgress.filter((l) => l.completed).length;
+
   return (
     <div className="timehack">
       <h1>TimeHack</h1>
       <CharacterStats />
+      <div className="jlpt-card">
+        <div className="jlpt-header">
+          <h2 className="jlpt-title">JLPT Progress</h2>
+          <div className="jlpt-subtitle">
+            {jlptCompletedCount}/{JLPT_LEVELS.length} levels cleared
+          </div>
+        </div>
+        <div className="jlpt-levels">
+          {jlptProgress.map(({ level, completed }) => (
+            <button
+              key={level}
+              type="button"
+              className={`jlpt-level ${
+                completed ? "jlpt-level-completed" : ""
+              }`}
+              onClick={() => toggleJlptLevel(level)}
+            >
+              <span className="jlpt-level-label">{level}</span>
+              <span className="jlpt-level-status">
+                {completed ? "Cleared" : "Locked"}
+              </span>
+            </button>
+          ))}
+        </div>
+        <div className="jlpt-note">
+          Tap a level when you pass the official JLPT exam.
+        </div>
+      </div>
       <div className="daily-todo">
         <div className="daily-todo-header">
           <h2 className="daily-todo-title">resolute To-Do</h2>
