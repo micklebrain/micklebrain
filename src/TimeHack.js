@@ -117,10 +117,7 @@ function TimeHack() {
   const tomorrowKey = formatDateKey(tomorrow);
 
   const defaultDailyTodos = [
-    "do 20 pushups",
-    "eat 10 tomatoes",
-    "drink 3.7 liters (125 oz) of water",
-    "stop and talk to hot girl",
+    // "stop and talk to hot girl",
   ];
 
   const buildDefaultTodos = () =>
@@ -130,24 +127,88 @@ function TimeHack() {
       done: false,
     }));
 
+  const fetchTodosFromBackend = async () => {
+    const response = await fetch("https://lostmindsbackend.vercel.app/todos");
+    if (!response.ok) {
+      throw new Error("Failed to fetch todos");
+    }
+    const data = await response.json();
+
+    const items = Array.isArray(data?.doc)
+      ? data.doc
+      : Array.isArray(data)
+      ? data
+      : data && typeof data === "object"
+      ? [data]
+      : [];
+
+    const fetchedTodos = items
+      .map((item, index) => {
+        const text = (item.name || "").trim();
+        if (!text) return null;
+        const rawId =
+          (item._id && (item._id.$oid || item._id)) ?? Date.now() + index;
+        return {
+          id: rawId,
+          text,
+          done: false,
+        };
+      })
+      .filter(Boolean);
+
+    return fetchedTodos;
+  };
+
   // Daily to-do list that refreshes each day
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(`timehack-todos-${todayKey}`);
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setTodos(parsed);
-        } else {
-          setTodos(buildDefaultTodos());
+    let cancelled = false;
+
+    const loadTodos = async () => {
+      try {
+        const stored = localStorage.getItem(`timehack-todos-${todayKey}`);
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            if (!cancelled) setTodos(parsed);
+            return;
+          }
         }
-      } else {
-        setTodos(buildDefaultTodos());
+
+        // If no stored todos for today, fetch from backend
+        try {
+          const fetchedTodos = await fetchTodosFromBackend();
+          if (fetchedTodos.length > 0) {
+            if (!cancelled) setTodos(fetchedTodos);
+            return;
+          }
+        } catch {
+          // If fetch fails, fall back to local defaults below
+        }
+
+        if (!cancelled) setTodos(buildDefaultTodos());
+      } catch {
+        if (!cancelled) setTodos(buildDefaultTodos());
       }
-    } catch {
-      setTodos(buildDefaultTodos());
-    }
+    };
+
+    loadTodos();
+
+    return () => {
+      cancelled = true;
+    };
   }, [todayKey]);
+  
+  const handleRefreshTodos = async () => {
+    try {
+      const fetchedTodos = await fetchTodosFromBackend();
+      if (fetchedTodos.length > 0) {
+        setTodos(fetchedTodos);
+      }
+    } catch (e) {
+      // optional: could show an error state; for now, ignore
+      console.error("Failed to refresh todos", e);
+    }
+  };
 
   useEffect(() => {
     try {
@@ -411,7 +472,16 @@ function TimeHack() {
       <div className="daily-todo">
         <div className="daily-todo-header">
           <h2 className="daily-todo-title">resolute To-Do</h2>
-          <div className="daily-todo-date">{todayKey}</div>
+          <div className="daily-todo-header-right">
+            <div className="daily-todo-date">{todayKey}</div>
+            <button
+              type="button"
+              className="daily-todo-refresh-btn"
+              onClick={handleRefreshTodos}
+            >
+              Refresh
+            </button>
+          </div>
         </div>
         <form className="daily-todo-form" onSubmit={handleAddTodo}>
           <input
