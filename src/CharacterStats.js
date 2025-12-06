@@ -8,7 +8,9 @@ function CharacterStats() {
     health: 140,
     maxHealth: 150,
     righthandcurl: 20,
-    maxrighthandcurl: 30,
+    maxrighthandcurl: 50,
+    lefthandcurl: 20,
+    maxlefthandcurl: 50,
     strength: 72,
     intelligence: 88,
     charisma: 65,
@@ -35,6 +37,7 @@ function CharacterStats() {
 
   const healthPercentage = (stats.health / stats.maxHealth) * 100;
   const righthandcurlPercentage = (stats.righthandcurl / stats.maxrighthandcurl) * 100;
+  const lefthandcurlPercentage = (stats.lefthandcurl / stats.maxlefthandcurl) * 100;
 
   return (
     <div className="character-stats">
@@ -96,7 +99,24 @@ function CharacterStats() {
               }}
             ></div>
           </div>
-          <div className="stat-value">{stats.health} / {stats.maxHealth}</div>
+          <div className="stat-value">{stats.righthandcurl} / {stats.maxrighthandcurl}</div>
+        </div>
+
+        {/* Left hand curl */}
+        <div className="stat-item">
+          <div className="stat-label">
+            <span className="stat-icon">💪</span> left hand curl
+          </div>
+          <div className="stat-bar-container">
+            <div 
+              className="stat-bar" 
+              style={{ 
+                width: `${lefthandcurlPercentage}%`,
+                backgroundColor: getHealthColor(stats.lefthandcurl, stats.maxlefthandcurl)
+              }}
+            ></div>
+          </div>
+          <div className="stat-value">{stats.lefthandcurl} / {stats.maxlefthandcurl}</div>
         </div>
 
       </div>

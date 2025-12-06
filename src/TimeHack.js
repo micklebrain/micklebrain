@@ -9,6 +9,21 @@ import dj from "./images/dj.png";
 import CharacterStats from "./CharacterStats";
 
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
+const TOPIK_LEVELS = ["I", "II", "III", "IV", "V", "VI"];
+const MONTH_NAMES = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -37,6 +52,29 @@ function TimeHack() {
       // ignore read errors
     }
     return JLPT_LEVELS.map((level) => ({ level, completed: false }));
+  });
+  const [topikProgress, setTopikProgress] = useState(() => {
+    try {
+      const stored = localStorage.getItem("timehack-topik-progress");
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (
+          Array.isArray(parsed) &&
+          parsed.length === TOPIK_LEVELS.length &&
+          parsed.every(
+            (item) =>
+              item &&
+              typeof item.level === "string" &&
+              typeof item.completed === "boolean"
+          )
+        ) {
+          return parsed;
+        }
+      }
+    } catch {
+      // ignore read errors
+    }
+    return TOPIK_LEVELS.map((level) => ({ level, completed: false }));
   });
 
   useEffect(() => {
@@ -81,7 +119,7 @@ function TimeHack() {
   const defaultDailyTodos = [
     "do 20 pushups",
     "eat 10 tomatoes",
-    "drink 3.7 liters ( 125 oz) of water",
+    "drink 3.7 liters (125 oz) of water",
     "stop and talk to hot girl",
   ];
 
@@ -132,6 +170,27 @@ function TimeHack() {
 
   const toggleJlptLevel = (level) => {
     setJlptProgress((prev) =>
+      prev.map((item) =>
+        item.level === level
+          ? { ...item, completed: !item.completed }
+          : item
+      )
+    );
+  };
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        "timehack-topik-progress",
+        JSON.stringify(topikProgress)
+      );
+    } catch {
+      // ignore write errors
+    }
+  }, [topikProgress]);
+
+  const toggleTopikLevel = (level) => {
+    setTopikProgress((prev) =>
       prev.map((item) =>
         item.level === level
           ? { ...item, completed: !item.completed }
@@ -211,12 +270,12 @@ function TimeHack() {
   };
   
   const datedTasks = {
-    "2025-12-07": { 14: "decide on Bangkok hotel" },
+    "2025-12-07": { 14: "pay for Bangkok hotel" },
     "2025-12-08": { 11: "take ISI placement test" },
     "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
     "2027-01-04": { 11: "propose to girlfriend" },
-    "2028-01-05": { 2: "penis enlargement to 6 inches" },
-    "2029-01-05": { 2: "height surgery to 6ft" },
+    "2028-01-05": { 2: "achieve 500k net worth " },
+    "2029-01-05": { 2: "surgery to increase height to 6ft" },
     "2030-01-05": { 2: "perform on EDC biggest stage" },
     "2031-01-05": { 2: "join Chase private banking" },
     "2032-01-05": { 2: "buy mom a house" },
@@ -230,7 +289,7 @@ function TimeHack() {
     "2039-01-05": { 2: "pass JLPT N2 test" },
     "2040-01-05": { 2: "pass JLPT N1 test" },
     "2041-01-05": { 2: "pass TOPIK test" },
-    "2042-01-05": { 2: "achieve 500k net worth" },
+    "2042-01-05": { 2: "penis enlargement to 6 inches" },
     "2043-01-05": { 2: "achieve 1 million net worth" },
     "2044-01-05": { 2: "achieve 10 million net worth" },
     "2045-01-05": { 2: "achieve 100 million net worth" },
@@ -241,16 +300,16 @@ function TimeHack() {
     "2050-01-05": { 2: "obtain 1 million Twitch subscribers" },
     "2051-01-05": { 2: "perform split" },
     "2052-01-05": { 2: "buy property in Singapore (South beach residences)" },
-    "2053-01-05": { 2: "fight in MMA match" },
-    "2054-01-05": { 2: "fly airplane" },
+    "2053-01-05": { 2: "be on cover of Vogue magazine" },
+    "2054-01-05": { 2: "be guest on talk show" },
     "2055-01-05": { 2: "become ambidextrous" },
     "2056-01-05": { 2: "buy place in Ginza Tokyo Japan" },
     "2057-01-05": { 2: "drive super-car" },
     "2058-01-05": { 2: "100k invested in real estate" },
     "2059-01-05": { 2: "achieve Marriott Lifetime Silver Elite Status" },
     "2060-01-05": { 2: "watch NBA all star game live" },
-    "2061-01-05": { 2: "bury mom" },
-    "2062-01-05": { 2: "bury dad" },
+    "2061-01-05": { 2: "walk on red carpet " },
+    "2062-01-05": { 2: "see a volcano" },
     "2063-01-05": { 2: "go sky diving" },
     "2064-01-05": { 2: "shoot sniper rifle" },
     "2065-01-05": { 2: "drive F1 car" },
@@ -260,17 +319,17 @@ function TimeHack() {
     "2069-01-05": { 2: "meet Jesus" },
     "2070-01-05": { 2: "run Triathalon" },
     "2071-01-05": { 2: "go hunting with guns" },
-    "2072-01-05": { 2: "go camping" },
+    "2072-01-05": { 2: "obtain degree from Harvard" },
     "2073-01-05": { 2: "be in a Redbull video" },
-    "2074-01-05": { 2: "do a kickflip" },
+    "2074-01-05": { 2: "do a kickflip on skateboard" },
     "2075-01-05": { 2: "become streamer of the year" },
-    "2076-01-05": { 2: "have threesome" },
-    "2077-01-05": { 2: "shake hands with the president" },
-    "2078-01-05": { 2: "go to bottom of the ocean" },
+    "2076-01-05": { 2: "win a UFC belt" },
+    "2077-01-05": { 2: "win a gold medal" },
+    "2078-01-05": { 2: "explore bottom of the ocean" },
     "2079-01-05": { 2: "go to space" },
     "2080-01-05": { 2: "visit every continent" },
     "2081-01-05": { 2: "win a Grammy" },
-    "2082-01-05": { 2: "win a Oscar" },
+    "2082-01-05": { 2: "win an Oscar" },
     "2083-01-05": { 2: "fly a fighter jet" },
     "2084-01-05": { 2: "become a Navy Seal" },
     "2085-01-05": { 2: "speak on Joe Rogan podcast" },
@@ -278,13 +337,13 @@ function TimeHack() {
     "2087-01-05": { 2: "drive military tank" },
     "2088-01-05": { 2: "kill animal with bow and arrow" },
     "2089-01-05": { 2: "shoot a bazooka" },
-    "2090-01-05": { 2: "give a speach to 100,000" },
+    "2090-01-05": { 2: "give a speech to 100,000 people" },
     "2091-01-05": { 2: "take a company IPO" },
     "2092-01-05": { 2: "retire mom" },
     "2093-01-05": { 2: "retire dad" },
     "2094-01-05": { 2: "retire sister" },
-    "2095-01-05": { 2: "give a actor in box office movie" },
-    "2096-01-05": { 2: "walk on red carpet" },
+    "2095-01-05": { 2: "become an actor in a box office movie with 1 million earnings" },
+    "2096-01-05": { 2: "bury mom" },
     "2097-01-05": { 2: "donate 100,000 to charity" },
     "2098-01-05": { 2: "ride and horse and shoot arrow" },
     "2099-01-05": { 2: "see the Northern lights" },
@@ -294,11 +353,11 @@ function TimeHack() {
     "2103-01-05": { 2: "do a split" },
     "2104-01-05": { 2: "do a backflip" },
     "2105-01-05": { 2: "cosplay at convention" },
-    "2106-01-05": { 2: "win MMA match" },
+    "2106-01-05": { 2: "have first kid" },
     "2107-01-05": { 2: "swim with dolphins" },
     "2108-01-05": { 2: "win hacker competition" },
     "2109-01-05": { 2: "give shoulder rides to 2 girls at rave" },
-    "2110-01-05": { 2: "see a volcano" },
+    "2110-01-05": { 2: "bury dad" },
     "2111-01-05": { 2: "explore a rainforest" },
     "2112-01-05": { 2: "enter art into musuem" },
     "2113-01-05": { 2: "fly first class" },
@@ -343,39 +402,12 @@ function TimeHack() {
     .sort(([a], [b]) => a.localeCompare(b));
 
   const jlptCompletedCount = jlptProgress.filter((l) => l.completed).length;
+  const topikCompletedCount = topikProgress.filter((l) => l.completed).length;
 
   return (
     <div className="timehack">
       <h1>TimeHack</h1>
-      <CharacterStats />
-      <div className="jlpt-card">
-        <div className="jlpt-header">
-          <h2 className="jlpt-title">JLPT Progress</h2>
-          <div className="jlpt-subtitle">
-            {jlptCompletedCount}/{JLPT_LEVELS.length} levels cleared
-          </div>
-        </div>
-        <div className="jlpt-levels">
-          {jlptProgress.map(({ level, completed }) => (
-            <button
-              key={level}
-              type="button"
-              className={`jlpt-level ${
-                completed ? "jlpt-level-completed" : ""
-              }`}
-              onClick={() => toggleJlptLevel(level)}
-            >
-              <span className="jlpt-level-label">{level}</span>
-              <span className="jlpt-level-status">
-                {completed ? "Cleared" : "Locked"}
-              </span>
-            </button>
-          ))}
-        </div>
-        <div className="jlpt-note">
-          Tap a level when you pass the official JLPT exam.
-        </div>
-      </div>
+      <CharacterStats />      
       <div className="daily-todo">
         <div className="daily-todo-header">
           <h2 className="daily-todo-title">resolute To-Do</h2>
@@ -422,6 +454,7 @@ function TimeHack() {
           )}
         </ul>
       </div>
+      <h1>24 hours</h1>
       <div className="hours-list">
         {sortedHours.map((hour) => {
           const isCurrentHour = hour === currentHour;
@@ -568,37 +601,118 @@ function TimeHack() {
             </div>
           );
         })}
+      </div>    
+      <div className="jlpt-card">
+        <div className="jlpt-header">
+          <h2 className="jlpt-title">JLPT Progress</h2>
+          <div className="jlpt-subtitle">
+            {jlptCompletedCount}/{JLPT_LEVELS.length} levels cleared
+          </div>
+        </div>
+        <div className="jlpt-levels">
+          {jlptProgress.map(({ level, completed }) => (
+            <button
+              key={level}
+              type="button"
+              className={`jlpt-level ${
+                completed ? "jlpt-level-completed" : ""
+              }`}
+              onClick={() => toggleJlptLevel(level)}
+            >
+              <span className="jlpt-level-label">{level}</span>
+              <span className="jlpt-level-status">
+                {completed ? "Cleared" : "Locked"}
+              </span>
+            </button>
+          ))}
+        </div>
+        <div className="jlpt-note">
+          Tap a level when you pass the official JLPT exam.
+        </div>
+      </div>
+      <div className="jlpt-card">
+        <div className="jlpt-header">
+          <h2 className="jlpt-title">TOPIK Progress</h2>
+          <div className="jlpt-subtitle">
+            {topikCompletedCount}/{TOPIK_LEVELS.length} levels cleared
+          </div>
+        </div>
+        <div className="jlpt-levels">
+          {topikProgress.map(({ level, completed }) => (
+            <button
+              key={level}
+              type="button"
+              className={`jlpt-level ${
+                completed ? "jlpt-level-completed" : ""
+              }`}
+              onClick={() => toggleTopikLevel(level)}
+            >
+              <span className="jlpt-level-label">{level}</span>
+              <span className="jlpt-level-status">
+                {completed ? "Cleared" : "Locked"}
+              </span>
+            </button>
+          ))}
+        </div>
+        <div className="jlpt-note">
+          Tap a level when you pass the official TOPIK exam.
+        </div>
       </div>
       <div className="dated-tasks">
-        <h3 className="dated-tasks-title">Upcoming Tasks</h3>
+        <h3 className="dated-tasks-title">Upcoming</h3>
         {upcomingDatedTasks.length === 0 ? (
           <div className="dated-tasks-empty">
             No scheduled dated tasks.
           </div>
         ) : (
-          upcomingDatedTasks.map(([date, tasksForDate]) => (
-            <div key={date} className="dated-tasks-date-block">
-              <div className="dated-tasks-date">
-                {date}
-                {(() => {
-                  const age = getAgeOnDateKey(date);
-                  return age != null ? `  (age ${age})` : "";
-                })()}
-              </div>
-              <ul className="dated-tasks-list">
-                {Object.entries(tasksForDate)
-                  .sort(([h1], [h2]) => Number(h1) - Number(h2))
-                  .map(([hour, text]) => (
-                    <li key={`${date}-${hour}`} className="dated-tasks-item">
-                      <span className="dated-tasks-hour">
-                        {String(hour).padStart(2, "0")}:00
-                      </span>
-                      <span className="dated-tasks-text">{text}</span>
-                    </li>
-                  ))}
-              </ul>
-            </div>
-          ))
+          (() => {
+            let lastYear = null;
+            return upcomingDatedTasks.map(([date, tasksForDate]) => {
+              const year = date.slice(0, 4);
+              const monthNumber = date.slice(5, 7);
+              const dayNumber = String(Number(date.slice(8, 10)));
+              const monthIndex = Number(monthNumber) - 1;
+              const monthLabel =
+                monthIndex >= 0 && monthIndex < MONTH_NAMES.length
+                  ? MONTH_NAMES[monthIndex]
+                  : monthNumber;
+
+              const showYearHeader = year !== lastYear;
+              lastYear = year;
+
+              return (
+                <Fragment key={date}>
+                  {showYearHeader && (
+                    <div className="dated-tasks-year">{year}</div>
+                  )}
+                  <div className="dated-tasks-date-block">
+                    <div className="dated-tasks-date">
+                      {monthLabel} {dayNumber}
+                      {(() => {
+                        const age = getAgeOnDateKey(date);
+                        return age != null ? `  (age ${age})` : "";
+                      })()}
+                    </div>
+                    <ul className="dated-tasks-list">
+                      {Object.entries(tasksForDate)
+                        .sort(([h1], [h2]) => Number(h1) - Number(h2))
+                        .map(([hour, text]) => (
+                          <li
+                            key={`${date}-${hour}`}
+                            className="dated-tasks-item"
+                          >
+                            <span className="dated-tasks-hour">
+                              {String(hour).padStart(2, "0")}:00
+                            </span>
+                            <span className="dated-tasks-text">{text}</span>
+                          </li>
+                        ))}
+                    </ul>
+                  </div>
+                </Fragment>
+              );
+            });
+          })()
         )}
       </div>
     </div>
