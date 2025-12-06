@@ -24,6 +24,7 @@ const MONTH_NAMES = [
   "November",
   "December",
 ];
+const WEEKDAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -111,7 +112,19 @@ function TimeHack() {
     return getAgeOnDate(date);
   };
 
+  const getWeekdayLabel = (dateKey) => {
+    const [yearStr, monthStr, dayStr] = dateKey.split("-");
+    const year = Number(yearStr);
+    const month = Number(monthStr);
+    const day = Number(dayStr);
+    if (Number.isNaN(year) || Number.isNaN(month) || Number.isNaN(day)) return "";
+    const date = new Date(year, month - 1, day);
+    const index = date.getDay();
+    return WEEKDAY_NAMES[index] ?? "";
+  };
+
   const todayKey = formatDateKey(currentTime);
+  const todayWeekday = getWeekdayLabel(todayKey);
   const tomorrow = new Date(currentTime);
   tomorrow.setDate(tomorrow.getDate() + 1);
   const tomorrowKey = formatDateKey(tomorrow);
@@ -202,7 +215,17 @@ function TimeHack() {
     try {
       const fetchedTodos = await fetchTodosFromBackend();
       if (fetchedTodos.length > 0) {
-        setTodos(fetchedTodos);
+        setTodos((prev) => {
+          const prevById = new Map(
+            prev.map((todo) => [String(todo.id), todo])
+          );
+
+          return fetchedTodos.map((todo) => {
+            const key = String(todo.id);
+            const prevTodo = prevById.get(key);
+            return prevTodo ? { ...todo, done: prevTodo.done } : todo;
+          });
+        });
       }
     } catch (e) {
       // optional: could show an error state; for now, ignore
@@ -269,13 +292,14 @@ function TimeHack() {
     5: "sleep",
     6: "sleep",
     7: "sleep",
-    8: `selfcare
-        skincare
+    8: `selfcare        
         red & blue light therapy
         ice face
         scrap tongue
-        water floss`,
-    9: "stretch, try to perform split",
+        water floss
+        skincare`,
+    9: `stretch
+        try to perform split`,
     10: `learn stocks
          buy every stock`,
     11: "go on date with girl",
@@ -332,7 +356,7 @@ function TimeHack() {
   
   const datedTasks = {
     "2025-12-07": { 14: "pay for Bangkok hotel" },
-    "2025-12-08": { 11: "take ISI placement test" },
+    "2025-12-08": { 14: "take ISI placement test" },
     "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
     "2027-01-04": { 11: "propose to girlfriend" },
     "2028-01-05": { 2: "achieve 500k net worth " },
@@ -473,7 +497,9 @@ function TimeHack() {
         <div className="daily-todo-header">
           <h2 className="daily-todo-title">resolute To-Do</h2>
           <div className="daily-todo-header-right">
-            <div className="daily-todo-date">{todayKey}</div>
+            <div className="daily-todo-date">
+              {todayWeekday && `${todayWeekday} `}{todayKey}
+            </div>
             <button
               type="button"
               className="daily-todo-refresh-btn"
@@ -741,6 +767,7 @@ function TimeHack() {
               const year = date.slice(0, 4);
               const monthNumber = date.slice(5, 7);
               const dayNumber = String(Number(date.slice(8, 10)));
+              const weekdayLabel = getWeekdayLabel(date);
               const monthIndex = Number(monthNumber) - 1;
               const monthLabel =
                 monthIndex >= 0 && monthIndex < MONTH_NAMES.length
@@ -757,7 +784,7 @@ function TimeHack() {
                   )}
                   <div className="dated-tasks-date-block">
                     <div className="dated-tasks-date">
-                      {monthLabel} {dayNumber}
+                      {weekdayLabel && `${weekdayLabel} `}{monthLabel} {dayNumber}
                       {(() => {
                         const age = getAgeOnDateKey(date);
                         return age != null ? `  (age ${age})` : "";
