@@ -223,7 +223,10 @@ function TimeHack() {
           return fetchedTodos.map((todo) => {
             const key = String(todo.id);
             const prevTodo = prevById.get(key);
-            return prevTodo ? { ...todo, done: prevTodo.done } : todo;
+            // If either local or backend says "done", keep it done.
+            return prevTodo
+              ? { ...todo, done: !!(prevTodo.done || todo.done) }
+              : todo;
           });
         });
       }
