@@ -111,6 +111,139 @@ table, th, td {
   margin: 10px;
 }
 
+/* Stocks grid */
+.stocks-page {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 16px 32px;
+}
+
+.stocks-filters {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.stocks-filter-btn {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #4b5563;
+}
+
+.stocks-filter-btn.active {
+  border-color: #0ea5ff;
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.stocks-count {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.stocks-add-form {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.stocks-add-input {
+  width: 80px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.stocks-add-input:focus {
+  outline: none;
+  border-color: #0ea5ff;
+  box-shadow: 0 0 0 1px rgba(14, 165, 233, 0.3);
+}
+
+.stocks-add-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.stocks-add-btn {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #0ea5ff;
+  background: #0ea5ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.stocks-add-btn:hover {
+  opacity: 0.95;
+}
+
+.stocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.stocks-tile {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* square */
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.stocks-symbol {
+  z-index: 1;
+}
+
+.stocks-tile-owned {
+  border-color: #0ea5ff;
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.35);
+}
+
+.stocks-tile-webull-icon {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+}
+
+.stocks-tile-etrade-icon {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+}
+
 /**** Article links ******/
 
 /* Nav Bar ****************/

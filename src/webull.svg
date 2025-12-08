@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wb-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9bff"/>
+      <stop offset="100%" stop-color="#0068ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="96" ry="96" fill="url(#wb-grad)"/>
+  <path
+    d="M128 208c16 80 88 144 128 144s112-64 128-144c-40 24-88 40-128 40s-88-16-128-40z"
+    fill="#ffffff"
+  />
+</svg>
+

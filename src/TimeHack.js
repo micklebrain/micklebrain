@@ -164,7 +164,7 @@ function TimeHack() {
         return {
           id: rawId,
           text,
-          done: false,
+          done: !!item.isCompleted,
         };
       })
       .filter(Boolean);
@@ -283,48 +283,77 @@ function TimeHack() {
     );
   };
 
+  // Daily tasks per hour.
+  // Each entry can be a single config { text, days? }
+  // or an array of configs [{ text, days? }, ...].
+  // days: optional array of weekday indices (0=Sun..6=Sat); omit for "any day".
   const dailyTasks = {
-    0: "sleep",
-    1: "sleep",
-    2: "sleep",
-    3: "sleep",
-    4: "sleep",
-    5: "sleep",
-    6: "sleep",
-    7: "sleep",
-    8: `selfcare        
+    0: { text: "sleep" },
+    1: { text: "sleep" },
+    2: { text: "sleep" },
+    3: { text: "sleep" },
+    4: { text: "sleep" },
+    5: { text: "sleep" },
+    6: { text: "sleep" },
+    7: { text: "sleep" },
+    8: {
+      text: `selfcare        
         red & blue light therapy
         ice face
         scrap tongue
         water floss
         skincare`,
-    9: `stretch
+    },
+    9: {
+      text: `stretch
         try to perform split`,
-    10: `learn stocks
+    },
+    10: [
+      {
+        text: `learn stocks
          buy every stock`,
-    11: "go on date with girl",
-    12: `cook/eat lunch
+        days: [1, 2, 3, 4, 5], // Mon–Fri
+      },
+      {
+        text: "meditate",
+        days: [0, 6], // Sun & Sat
+      },
+    ],
+    11: { text: "go on date with girl" },
+    12: {
+      text: `cook/eat lunch
          consume protein`,
-    13: `learn a language
+    },
+    13: {
+      text: `learn a language
          answer 10 sample questions on Chat GPT
          learn 10 kanji: 天 石 論 生 入 出 高 安 新 古`,
-    14: "work on music - piano track",
-    15: "film/edit video for YouTube",
-    16: [
-      "lift dumbells",
-      "go running"
-    ],
-    17: "clear photos on Macbook (46 GB) and SSD drive (300 GB)",
-    18: "cook/eat dinner",
-    19: "learn to dance",
-    20: `find reference photos from Instagram or Tiktok
+    },
+    14: { text: "work on music - piano track" },
+    15: { text: "film/edit video for YouTube" },
+    16: {
+      text: [
+        "lift dumbells",
+        "go running",
+      ],
+    },
+    17: {
+      text: "clear photos on Macbook (46 GB) and SSD drive (300 GB)",
+    },
+    18: { text: "cook/eat dinner" },
+    19: { text: "learn to dance" },
+    20: {
+      text: `find reference photos from Instagram or Tiktok
          learn fashion
          learn hair`,
-    21: "practice public speaking",    
-    22: `selfcare
+    },
+    21: { text: "practice public speaking" },
+    22: {
+      text: `selfcare
          skincare
          scrap tongue`,
-    23: `work on personal site`,
+    },
+    23: { text: `work on personal site` },
   };
 
   const higherMissions = {
@@ -354,18 +383,20 @@ function TimeHack() {
     23: "gain knowledge",
   };
   
-  const datedTasks = {
-    "2025-12-07": { 14: "pay for Bangkok hotel" },
-    "2025-12-08": { 14: "take ISI placement test" },
-    "2026-01-05": { 11: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
-    "2027-01-04": { 11: "propose to girlfriend" },
-    "2028-01-05": { 2: "achieve 500k net worth " },
-    "2029-01-05": { 2: "surgery to increase height to 6ft" },
-    "2030-01-05": { 2: "perform on EDC biggest stage" },
-    "2031-01-05": { 2: "join Chase private banking" },
-    "2032-01-05": { 2: "buy mom a house" },
-    "2033-01-05": { 2: "solve aging" },
-    "2034-01-05": { 2: "obtain Japan pernament residency" },
+  const datedTasks = {    
+    "2025-12-08": { 17: "buy tickets through Stubhub & watch Chargers NFL game" },
+    "2025-12-09": { 17: "finish sunflower lecithin, protein powder, walnuts, macademia nuts" },
+    "2025-01-07": { 17: "attend ISI school orientation" },    
+    "2026-12-05": { 20: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
+    "2027-01-03": { 14: "achieve 500k net worth" },
+    "2027-01-04": { 14: "join Chase private banking" },
+    "2028-01-02": { 13: "perform DJ set in venue that holds 50 people" },
+    "2029-01-05": { 14: "surgery to increase height to 6ft" },
+    "2030-01-05": { 14: "perform on EDC biggest stage" },
+    "2031-01-05": { 14: "propose to girlfriend " },
+    "2032-01-05": { 14: "buy mom a house" },
+    "2033-01-05": { 14: "ride snowboard in Dubai desert dunes" },
+    "2034-01-05": { 14: "obtain Japan pernament residency" },
     "2035-01-05": { 2: "obtain Korea pernament residency" },
     "2036-01-05": { 2: "own all stocks on market" },
     "2036-01-05": { 2: "pass JLPT N5 test" },
@@ -374,7 +405,7 @@ function TimeHack() {
     "2039-01-05": { 2: "pass JLPT N2 test" },
     "2040-01-05": { 2: "pass JLPT N1 test" },
     "2041-01-05": { 2: "pass TOPIK test" },
-    "2042-01-05": { 2: "penis enlargement to 6 inches" },
+    "2042-01-05": { 2: "become ambidextrous" },
     "2043-01-05": { 2: "achieve 1 million net worth" },
     "2044-01-05": { 2: "achieve 10 million net worth" },
     "2045-01-05": { 2: "achieve 100 million net worth" },
@@ -387,7 +418,7 @@ function TimeHack() {
     "2052-01-05": { 2: "buy property in Singapore (South beach residences)" },
     "2053-01-05": { 2: "be on cover of Vogue magazine" },
     "2054-01-05": { 2: "be guest on talk show" },
-    "2055-01-05": { 2: "become ambidextrous" },
+    "2055-01-05": { 2: "penis enlargement to 6 inches" },
     "2056-01-05": { 2: "buy place in Ginza Tokyo Japan" },
     "2057-01-05": { 2: "drive super-car" },
     "2058-01-05": { 2: "100k invested in real estate" },
@@ -416,7 +447,7 @@ function TimeHack() {
     "2081-01-05": { 2: "win a Grammy" },
     "2082-01-05": { 2: "win an Oscar" },
     "2083-01-05": { 2: "fly a fighter jet" },
-    "2084-01-05": { 2: "become a Navy Seal" },
+    "2084-01-05": { 2: "perform at concert" },
     "2085-01-05": { 2: "speak on Joe Rogan podcast" },
     "2086-01-05": { 2: "win body building competition" },
     "2087-01-05": { 2: "drive military tank" },
@@ -429,16 +460,16 @@ function TimeHack() {
     "2094-01-05": { 2: "retire sister" },
     "2095-01-05": { 2: "become an actor in a box office movie with 1 million earnings" },
     "2096-01-05": { 2: "bury mom" },
-    "2097-01-05": { 2: "donate 100,000 to charity" },
+    "2097-01-05": { 2: "visit tomb of Jesus Christ" },
     "2098-01-05": { 2: "ride and horse and shoot arrow" },
     "2099-01-05": { 2: "see the Northern lights" },
-    "2100-01-05": { 2: "ride snowboard in Dubai sands" },
+    "2100-01-05": { 2: "solve aging" },
     "2101-01-05": { 2: "swim in the Great Reefs" },
     "2102-01-05": { 2: "go surfing" },
     "2103-01-05": { 2: "do a split" },
     "2104-01-05": { 2: "do a backflip" },
     "2105-01-05": { 2: "cosplay at convention" },
-    "2106-01-05": { 2: "have first kid" },
+    "2106-01-05": { 2: "win World Cup" },
     "2107-01-05": { 2: "swim with dolphins" },
     "2108-01-05": { 2: "win hacker competition" },
     "2109-01-05": { 2: "give shoulder rides to 2 girls at rave" },
@@ -446,7 +477,7 @@ function TimeHack() {
     "2111-01-05": { 2: "explore a rainforest" },
     "2112-01-05": { 2: "enter art into musuem" },
     "2113-01-05": { 2: "fly first class" },
-    "2114-01-05": { 2: "jump through ring of fire" },
+    "2114-01-05": { 2: "win nobel peace prize" },
     "2115-01-05": { 2: "go base jumping" },
     "2116-01-05": { 2: "enter my body into cryosleep" },  
   };
@@ -454,6 +485,7 @@ function TimeHack() {
   const hours = [...Array(24).keys()];
   const sortedHours = [...hours.slice(currentHour), ...hours.slice(0, currentHour)];
   const minuteProgress = (currentTime.getMinutes() / 60) * 100;
+  const weekdayIndex = currentTime.getDay(); // 0 (Sun) - 6 (Sat)
 
   const toggleExpand = (hour) => {
     setExpandedHour(prev => prev === hour ? null : hour);
@@ -471,11 +503,32 @@ function TimeHack() {
   };
 
   const toggleTodo = (id) => {
-    setTodos(prev =>
-      prev.map((todo) =>
+    const isLikelyMongoId = /^[0-9a-fA-F]{24}$/.test(String(id));
+
+    setTodos((prev) => {
+      const prevTodo = prev.find((todo) => todo.id === id);
+      const wasDone = prevTodo?.done;
+
+      const next = prev.map((todo) =>
         todo.id === id ? { ...todo, done: !todo.done } : todo
-      )
-    );
+      );
+
+      // If this looks like a Mongo ObjectId and is being marked complete now, send update
+      if (prevTodo && !wasDone && isLikelyMongoId) {
+        fetch(
+          `https://lostmindsbackend.vercel.app/todos/${encodeURIComponent(
+            String(id)
+          )}/complete`,
+          {
+            method: "POST",
+          }
+        ).catch((e) => {
+          console.error("Failed to mark todo complete in backend", e);
+        });
+      }
+
+      return next;
+    });
   };
 
   const removeTodo = (id) => {
@@ -555,8 +608,29 @@ function TimeHack() {
         {sortedHours.map((hour) => {
           const isCurrentHour = hour === currentHour;
           const dateKey = hour >= currentHour ? todayKey : tomorrowKey;
-          const task = datedTasks[dateKey]?.[hour] || dailyTasks[hour] || "No task assigned";
+          const taskConfig = dailyTasks[hour];
+
+          let task = "No task assigned";
+          if (Array.isArray(taskConfig)) {
+            const match = taskConfig.find(
+              (cfg) =>
+                cfg &&
+                (!Array.isArray(cfg.days) ||
+                  cfg.days.includes(weekdayIndex))
+            );
+            if (match) {
+              task = match.text;
+            }
+          } else if (taskConfig) {
+            const allowed =
+              !Array.isArray(taskConfig.days) ||
+              taskConfig.days.includes(weekdayIndex);
+            if (allowed) {
+              task = taskConfig.text;
+            }
+          }
           const mission = higherMissions[hour];
+          const isEveningHour = hour >= 17 || hour <= 7; // 5pm (17:00) to 7am
 
           // Check if task is an array (for split hours like 16 with two 30-min tasks)
           const isSplitHour = Array.isArray(task);
@@ -641,7 +715,7 @@ function TimeHack() {
           return (
             <div 
               key={`${hour}-${dateKey}`} 
-              className={`hour-block ${isCurrentHour ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""}`}
+              className={`hour-block ${isCurrentHour ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
             >
               {/* Clickable wrapper */}
               <div
