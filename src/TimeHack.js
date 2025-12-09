@@ -313,7 +313,8 @@ function TimeHack() {
     7: { text: "sleep" },
     8: {
       text: `selfcare        
-        red & blue light therapy
+        red & blue light therapy (face)
+        red & blue light therapy (body)
         ice face
         scrap tongue
         water floss
@@ -399,8 +400,8 @@ function TimeHack() {
   };
   
   const datedTasks = {    
-    "2025-12-08": { 17: "buy tickets through Stubhub & watch Chargers NFL game" },
     "2025-12-09": { 17: "finish sunflower lecithin, protein powder, walnuts, macademia nuts" },
+    "2025-12-20": { 17: "buy tickets through Stubhub & watch Chargers NFL game" },
     "2025-01-07": { 17: "attend ISI school orientation" },    
     "2026-12-05": { 20: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
     "2027-01-03": { 14: "achieve 500k net worth" },
