@@ -236,6 +236,18 @@ function TimeHack() {
     }
   };
 
+  const handleResetTodos = () => {
+    // Optimistically reset locally
+    setTodos((prev) => prev.map((todo) => ({ ...todo, done: false })));
+
+    // Also reset in backend so future refreshes stay in sync
+    fetch("https://lostmindsbackend.vercel.app/todos/reset", {
+      method: "POST",
+    }).catch((e) => {
+      console.error("Failed to reset todos in backend", e);
+    });
+  };
+
   useEffect(() => {
     try {
       localStorage.setItem(`timehack-todos-${todayKey}`, JSON.stringify(todos));
@@ -428,7 +440,7 @@ function TimeHack() {
     "2059-01-05": { 13: "be a model in a fashion show" },
     "2060-01-05": { 13: "swim with dolphins " },
     "2061-01-05": { 13: "walk on red carpet " },
-    "2062-01-05": { 13: "see a volcano" },
+    "2062-01-05": { 13: "have first kid" },
     "2063-01-05": { 13: "go sky diving" },
     "2064-01-05": { 13: "shoot sniper rifle" },
     "2065-01-05": { 13: "drive F1 car" },
@@ -475,7 +487,7 @@ function TimeHack() {
     "2106-01-05": { 2: "achieve Marriott Lifetime Silver Elite Status" },
     "2107-01-05": { 2: "watch NBA all star game live" },
     "2108-01-05": { 2: "win hacker competition" },
-    "2109-01-05": { 2: "" },
+    "2109-01-05": { 2: "see a volcano" },
     "2110-01-05": { 2: "bury dad" },
     "2111-01-05": { 2: "explore a rainforest" },
     "2112-01-05": { 2: "enter art into musuem" },
@@ -562,6 +574,13 @@ function TimeHack() {
               onClick={handleRefreshTodos}
             >
               Refresh
+            </button>
+            <button
+              type="button"
+              className="daily-todo-refresh-btn"
+              onClick={handleResetTodos}
+            >
+              Reset
             </button>
           </div>
         </div>
