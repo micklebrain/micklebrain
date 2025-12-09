@@ -1,4 +1,5 @@
 import { useEffect, useState, Fragment } from "react";
+import { useHistory } from "react-router-dom";
 import "./timehack.css";
 
 import glassSkin from "./images/glassskin.png";
@@ -7,6 +8,7 @@ import girls from "./images/girls.png";
 import perfectphysique from "./images/perfectphysique.png";
 import dj from "./images/dj.png";
 import CharacterStats from "./CharacterStats";
+import datedTasks from "./datedTasks";
 
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 const TOPIK_LEVELS = ["I", "II", "III", "IV", "V", "VI"];
@@ -77,6 +79,7 @@ function TimeHack() {
     }
     return TOPIK_LEVELS.map((level) => ({ level, completed: false }));
   });
+  const history = useHistory();
 
   useEffect(() => {
     const interval = setInterval(() => setCurrentTime(new Date()), 30000);
@@ -397,105 +400,6 @@ function TimeHack() {
     21: "Build online presence + personal branding",
     22: "Maintain healthy, clean appearance",
     23: "gain knowledge",
-  };
-  
-  const datedTasks = {    
-    "2025-12-09": { 17: "finish sunflower lecithin, protein powder, walnuts, macademia nuts" },
-    "2025-12-20": { 17: "buy tickets through Stubhub & watch Chargers NFL game" },
-    "2025-01-07": { 17: "attend ISI school orientation" },    
-    "2026-12-05": { 20: "dine at Chase OpenTable resturant for $150 Sapphire credit" },
-    "2027-01-03": { 14: "achieve 500k net worth" },
-    "2027-01-04": { 14: "join Chase private banking" },
-    "2028-01-02": { 13: "perform DJ set in venue that holds 50 people" },
-    "2029-01-05": { 14: "surgery to increase height to 6ft" },
-    "2030-01-05": { 14: "perform on EDC biggest stage" },
-    "2031-01-05": { 14: "propose to girlfriend " },
-    "2032-01-05": { 14: "buy mom a house" },
-    "2033-01-05": { 14: "ride snowboard in Dubai desert dunes" },
-    "2034-01-05": { 14: "obtain Japan pernament residency" },
-    "2035-01-05": { 2: "obtain Korea pernament residency" },
-    "2036-01-05": { 13: "own all stocks on market" },
-    "2036-01-05": { 13: "pass JLPT N5 test" },
-    "2037-01-05": { 13: "pass JLPT N4 test" },
-    "2038-01-05": { 13: "pass JLPT N3 test" },
-    "2039-01-05": { 13: "pass JLPT N2 test" },
-    "2040-01-05": { 13: "pass JLPT N1 test" },
-    "2041-01-05": { 13: "pass TOPIK test" },
-    "2042-01-05": { 13: "become ambidextrous" },
-    "2043-01-05": { 13: "achieve 1 million net worth" },
-    "2044-01-05": { 13: "give shoulder rides for 3 person totem at rave" },
-    "2045-01-05": { 13: "cosplay at convention" },
-    "2046-01-05": { 13: "horseback ride and shoot arrow " },
-    "2047-01-05": { 13: "reach 1 million Instagram followers" },
-    "2048-01-05": { 13: "reach 1 million TikTok followers" },
-    "2049-01-05": { 13: "reach 1 million Youtube subscribers" },
-    "2050-01-05": { 13: "reach 1 million Twitch subscribers" },
-    "2051-01-05": { 13: "perform a split" },
-    "2052-01-05": { 13: "do a backflip " },
-    "2053-01-05": { 13: "be on cover of Vogue magazine" },
-    "2054-01-05": { 13: "be guest on talk show" },
-    "2055-01-05": { 13: "penis enlargement to 6 inches" },
-    "2056-01-05": { 13: "buy place in Ginza Tokyo Japan" },
-    "2057-01-05": { 13: "drive super-car" },
-    "2058-01-05": { 13: "go surfing" },
-    "2059-01-05": { 13: "be a model in a fashion show" },
-    "2060-01-05": { 13: "swim with dolphins " },
-    "2061-01-05": { 13: "walk on red carpet " },
-    "2062-01-05": { 13: "have first kid" },
-    "2063-01-05": { 13: "go sky diving" },
-    "2064-01-05": { 13: "shoot sniper rifle" },
-    "2065-01-05": { 13: "drive F1 car" },
-    "2066-01-05": { 13: "watch F1 race live" },
-    "2067-01-05": { 13: "drive speedboat" },
-    "2068-01-05": { 13: "win a UFC belt" },
-    "2069-01-05": { 13: "meet Jesus" },
-    "2070-01-05": { 13: "run Triathalon" },
-    "2071-01-05": { 13: "go hunting with guns" },
-    "2072-01-05": { 13: "obtain degree from Harvard" },
-    "2073-01-05": { 13: "be in a Redbull video" },
-    "2074-01-05": { 13: "do a kickflip on skateboard" },
-    "2075-01-05": { 13: "become streamer of the year" },
-    "2076-01-05": { 13: "become president of USA" },
-    "2077-01-05": { 13: "win a gold medal" },
-    "2078-01-05": { 13: "explore bottom of the ocean" },
-    "2079-01-05": { 13: "go to space" },
-    "2080-01-05": { 13: "visit every continent" },
-    "2081-01-05": { 13: "win a Grammy" },
-    "2082-01-05": { 13: "win an Oscar" },
-    "2083-01-05": { 13: "fly a fighter jet" },
-    "2084-01-05": { 13: "perform at concert" },
-    "2085-01-05": { 13: "speak on Joe Rogan podcast" },
-    "2086-01-05": { 13: "win body building competition" },
-    "2087-01-05": { 13: "drive military tank" },
-    "2088-01-05": { 13: "kill animal with bow and arrow" },
-    "2089-01-05": { 13: "shoot a bazooka" },
-    "2090-01-05": { 13: "give a speech to 100,000 people" },
-    "2091-01-05": { 2: "take a company IPO" },
-    "2092-01-05": { 2: "retire mom" },
-    "2093-01-05": { 2: "retire dad" },
-    "2094-01-05": { 2: "retire sister" },
-    "2095-01-05": { 2: "become an actor in a box office movie with 1 million earnings" },
-    "2096-01-05": { 2: "bury mom" },
-    "2097-01-05": { 2: "visit tomb of Jesus Christ" },
-    "2098-01-05": { 2: "achieve 1 billion net worth" },
-    "2099-01-05": { 2: "see the Northern lights" },
-    "2100-01-05": { 2: "solve aging" },
-    "2101-01-05": { 2: "swim in the Great Reefs" },
-    "2102-01-05": { 2: "100k invested in real estate" },
-    "2103-01-05": { 2: "achieve 10 million net worth" },
-    "2104-01-05": { 2: "buy property in Singapore (South beach residences)" },
-    "2105-01-05": { 2: "achieve 100 million net worth" },
-    "2106-01-05": { 2: "achieve Marriott Lifetime Silver Elite Status" },
-    "2107-01-05": { 2: "watch NBA all star game live" },
-    "2108-01-05": { 2: "win hacker competition" },
-    "2109-01-05": { 2: "see a volcano" },
-    "2110-01-05": { 2: "bury dad" },
-    "2111-01-05": { 2: "explore a rainforest" },
-    "2112-01-05": { 2: "enter art into musuem" },
-    "2113-01-05": { 2: "fly first class" },
-    "2114-01-05": { 2: "win nobel peace prize" },
-    "2115-01-05": { 2: "go base jumping" },
-    "2116-01-05": { 2: "enter my body into cryosleep" },  
   };
 
   const hours = [...Array(24).keys()];
@@ -890,17 +794,48 @@ function TimeHack() {
                     <ul className="dated-tasks-list">
                       {Object.entries(tasksForDate)
                         .sort(([h1], [h2]) => Number(h1) - Number(h2))
-                        .map(([hour, text]) => (
-                          <li
-                            key={`${date}-${hour}`}
-                            className="dated-tasks-item"
-                          >
-                            <span className="dated-tasks-hour">
-                              {String(hour).padStart(2, "0")}:00
-                            </span>
-                            <span className="dated-tasks-text">{text}</span>
-                          </li>
-                        ))}
+                        .map(([hour, value]) => {
+                          let taskText = "";
+                          let tags = [];
+
+                          if (typeof value === "string") {
+                            taskText = value;
+                          } else if (value && typeof value === "object") {
+                            taskText = value.text || "";
+                            tags = Array.isArray(value.tags) ? value.tags : [];
+                          }
+
+                          const lowerText = taskText.toLowerCase();
+                          if (!tags.includes("jlpt") && lowerText.includes("pass jlpt")) {
+                            tags = [...tags, "jlpt"];
+                          }
+
+                          return (
+                            <li
+                              key={`${date}-${hour}`}
+                              className="dated-tasks-item"
+                            >
+                              <span className="dated-tasks-hour">
+                                {String(hour).padStart(2, "0")}:00
+                              </span>
+                              <span className="dated-tasks-text">
+                                {taskText}
+                              </span>
+                              {tags.map((tag) => (
+                                <button
+                                  key={tag}
+                                  type="button"
+                                  className="dated-tasks-tag"
+                                  onClick={() => {
+                                    history.push(`/tags/${tag}`);
+                                  }}
+                                >
+                                  {tag.toUpperCase()}
+                                </button>
+                              ))}
+                            </li>
+                          );
+                        })}
                     </ul>
                   </div>
                 </Fragment>

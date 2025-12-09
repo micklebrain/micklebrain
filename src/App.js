@@ -4,6 +4,7 @@ import Home from './Home';
 import Formula from './formula';
 import TimeHack from './TimeHack';
 import Stocks from './Stocks';
+import TagTasks from './TagTasks';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,7 @@ class App extends React.Component {
             <Route exact path="/formula"> <Formula /> </Route>
             <Route exact path="/timehack"> <TimeHack /> </Route>
             <Route exact path="/stocks"> <Stocks /> </Route>
+            <Route exact path="/tags/:tag"> <TagTasks /> </Route>
           </Switch>
         </Router>
       </div>)
