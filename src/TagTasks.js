@@ -17,7 +17,8 @@ function TagTasks() {
         text = value;
       } else if (value && typeof value === "object") {
         text = value.text || "";
-        tags = Array.isArray(value.tags) ? value.tags : [];
+        const rawTags = Array.isArray(value.tags) ? value.tags : [];
+        tags = rawTags.map((t) => String(t).toLowerCase());
       }
 
       const lowerText = text.toLowerCase();
@@ -71,4 +72,3 @@ function TagTasks() {
 }
 
 export default TagTasks;
-

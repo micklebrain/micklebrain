@@ -802,7 +802,8 @@ function TimeHack() {
                             taskText = value;
                           } else if (value && typeof value === "object") {
                             taskText = value.text || "";
-                            tags = Array.isArray(value.tags) ? value.tags : [];
+                            const rawTags = Array.isArray(value.tags) ? value.tags : [];
+                            tags = rawTags.map((t) => String(t).toLowerCase());
                           }
 
                           const lowerText = taskText.toLowerCase();
