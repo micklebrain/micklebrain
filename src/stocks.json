@@ -27407,6 +27407,11 @@
         "name": "Hoya Capital Housing ETF"
     },
     {
+        "Symbol": "HON",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "HOOD",
         "Name": "Robinhood Markets, Inc.",
         "ownWebull": true,
