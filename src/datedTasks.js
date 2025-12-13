@@ -4,7 +4,13 @@ const datedTasks = {
     "2026-02-20": { 13: { text: "check Japan COE result", tags: ["Japanese fluent"] } },
     "2026-03-01": { 13: { text: "release song that gets 1 million listens", tags: ["motion"] } },
     "2026-04-01": { 13: { text: "perform DJ set in venue that holds 50 people", tags: ["motion"] } },
+    "2026-05-01": { 13: { text: "", tags: [""] } },
+    "2026-06-01": { 13: { text: "", tags: [""] } },
     "2026-07-05": { 13: { text: "pass JLPT N5 test", tags: ["Japanese fluent"] } },
+    "2026-08-01": { 13: { text: "", tags: [""] } },
+    "2026-09-01": { 13: { text: "", tags: [""] } },
+    "2026-10-01": { 13: { text: "", tags: [""] } },
+    "2026-11-01": { 13: { text: "", tags: [""] } },    
     "2026-12-01": { 17: { text: "dine at Chase OpenTable resturant for $150 Sapphire credit", tags: ["wealthy"] } },
 
     "2027-01-02": { 13: { text: "achieve 500k net worth", tags: ["wealthy"] } ,

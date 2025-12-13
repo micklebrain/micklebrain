@@ -302,8 +302,8 @@ function TimeHack() {
   };
 
   // Daily tasks per hour.
-  // Each entry can be a single config { text, days? }
-  // or an array of configs [{ text, days? }, ...].
+  // Each entry can be a single config { text, days?, tags? }
+  // or an array of configs [{ text, days?, tags? }, ...].
   // days: optional array of weekday indices (0=Sun..6=Sat); omit for "any day".
   const dailyTasks = {
     0: { text: "sleep" },
@@ -348,8 +348,8 @@ function TimeHack() {
          answer 10 sample questions on Chat GPT
          learn 10 kanji: 天 石 論 生 入 出 高 安 新 古`,
     },
-    14: { text: "work on music - piano track" },
-    15: { text: "film/edit video for YouTube" },
+    14: { text: "work on music - piano track", tags: ["motion"] },
+    15: { text: "film/edit video for YouTube", tags: ["motion"] },
     16: {
       text: [
         "lift dumbells",
@@ -538,6 +538,7 @@ function TimeHack() {
           const taskConfig = dailyTasks[hour];
 
           let task = "No task assigned";
+          let taskTags = [];
           if (Array.isArray(taskConfig)) {
             const match = taskConfig.find(
               (cfg) =>
@@ -547,6 +548,8 @@ function TimeHack() {
             );
             if (match) {
               task = match.text;
+              const rawTags = Array.isArray(match.tags) ? match.tags : [];
+              taskTags = rawTags.map((t) => String(t).toLowerCase());
             }
           } else if (taskConfig) {
             const allowed =
@@ -554,6 +557,10 @@ function TimeHack() {
               taskConfig.days.includes(weekdayIndex);
             if (allowed) {
               task = taskConfig.text;
+              const rawTags = Array.isArray(taskConfig.tags)
+                ? taskConfig.tags
+                : [];
+              taskTags = rawTags.map((t) => String(t).toLowerCase());
             }
           }
           const mission = higherMissions[hour];
@@ -665,17 +672,18 @@ function TimeHack() {
               <div className="hour-left">
                 <div className="hour-label">{hour}:00</div>
                 <div className="task" style={{ whiteSpace: "pre-line" }}>{task}</div>
-                {hour === 14 && (
+                {taskTags.map((tag) => (
                   <button
+                    key={tag}
                     type="button"
                     className="dated-tasks-tag"
                     onClick={() => {
-                      history.push("/tags/motion");
+                      history.push(`/tags/${tag}`);
                     }}
                   >
-                    MOTION
+                    {tag.toUpperCase()}
                   </button>
-                )}
+                ))}
               </div>
               {expandedHour === hour ? "▼" : "▶"}
             </div>
