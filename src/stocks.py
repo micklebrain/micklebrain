@@ -122,7 +122,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 
 # upcoming splits - WAV, ENVB
 # upcoming delisting - BHILQ
-stocksToAdd = ["HON"]
+stocksToAdd = ["TYIDY"]
 
 for stock in stocksToAdd:
     addStock(stock, ownWebull=True)

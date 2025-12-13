@@ -557,7 +557,7 @@ function TimeHack() {
             }
           }
           const mission = higherMissions[hour];
-          const isEveningHour = hour >= 17 || hour <= 7; // 5pm (17:00) to 7am
+          const isEveningHour = hour >= 18 || hour <= 7; // 6pm (18:00) to 7am
 
           // Check if task is an array (for split hours like 16 with two 30-min tasks)
           const isSplitHour = Array.isArray(task);
@@ -776,20 +776,21 @@ function TimeHack() {
                   : monthNumber;
 
               const showYearHeader = year !== lastYear;
+              const ageForYear = getAgeOnDateKey(date);
               lastYear = year;
 
               return (
                 <Fragment key={date}>
                   {showYearHeader && (
-                    <div className="dated-tasks-year">{year}</div>
+                    <div className="dated-tasks-year">
+                      {year}
+                      {ageForYear != null ? `  (age ${ageForYear})` : ""}
+                    </div>
                   )}
                   <div className="dated-tasks-date-block">
                     <div className="dated-tasks-date">
-                      {weekdayLabel && `${weekdayLabel} `}{monthLabel} {dayNumber}
-                      {(() => {
-                        const age = getAgeOnDateKey(date);
-                        return age != null ? `  (age ${age})` : "";
-                      })()}
+                      {weekdayLabel && `${weekdayLabel} `}
+                      {monthLabel} {dayNumber}
                     </div>
                     <ul className="dated-tasks-list">
                       {Object.entries(tasksForDate)

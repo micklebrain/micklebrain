@@ -58538,6 +58538,11 @@
         "name": "Tortoise Energy Infrastructure Corporation Common Stock"
     },
     {
+        "Symbol": "TYIDY",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "TYL",
         "Name": "Tyler Technologies, Inc. Common Stock",
         "ownWebull": false,

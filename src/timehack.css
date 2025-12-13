@@ -181,11 +181,13 @@ body {
 
   .dated-tasks-year {
     margin-top: 10px;
-    padding-top: 8px;
-    border-top: 1px solid #e5e7eb;
+    padding: 6px 10px;
+    border-radius: 999px;
     font-size: 13px;
     font-weight: 700;
-    color: #111827;
+    color: #1d4ed8;
+    background-color: #e0f2fe;
+    display: inline-block;
   }
 
   .dated-tasks-month {
@@ -337,14 +339,15 @@ body {
   }
 
   .evening-hour.current-hour {
-    color: #0f172a;
+    background: #1f2937;
+    color: #e5e7eb;
     border-left-color: #fbbf24;
     box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.6);
   }
 
   .evening-hour.current-hour .hour-label,
   .evening-hour.current-hour .task {
-    color: #0f172a;
+    color: #e5e7eb;
   }
 
   .current-hour {
