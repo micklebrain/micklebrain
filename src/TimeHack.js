@@ -651,23 +651,34 @@ function TimeHack() {
                   e.preventDefault();
                   e.stopPropagation();
                   toggleExpand(hour);
-                }}
-                style={{ 
+              }}
+              style={{ 
                   cursor: "pointer", 
                   display: "flex", 
                   justifyContent: "space-between", 
                   alignItems: "center",
                   transition: "background-color 0.2s"
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
-                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
-              >
-                <div className="hour-left">
-                  <div className="hour-label">{hour}:00</div>
-                  <div className="task" style={{ whiteSpace: "pre-line" }}>{task}</div>
-                </div>
-                {expandedHour === hour ? "▼" : "▶"}
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
+            >
+              <div className="hour-left">
+                <div className="hour-label">{hour}:00</div>
+                <div className="task" style={{ whiteSpace: "pre-line" }}>{task}</div>
+                {hour === 14 && (
+                  <button
+                    type="button"
+                    className="dated-tasks-tag"
+                    onClick={() => {
+                      history.push("/tags/motion");
+                    }}
+                  >
+                    MOTION
+                  </button>
+                )}
               </div>
+              {expandedHour === hour ? "▼" : "▶"}
+            </div>
 
               {/* Higher mission only visible when clicked */}
               {expandedHour === hour && mission && (
@@ -776,21 +787,21 @@ function TimeHack() {
                   : monthNumber;
 
               const showYearHeader = year !== lastYear;
-              const ageForYear = getAgeOnDateKey(date);
               lastYear = year;
 
               return (
                 <Fragment key={date}>
                   {showYearHeader && (
-                    <div className="dated-tasks-year">
-                      {year}
-                      {ageForYear != null ? `  (age ${ageForYear})` : ""}
-                    </div>
+                    <div className="dated-tasks-year">{year}</div>
                   )}
                   <div className="dated-tasks-date-block">
                     <div className="dated-tasks-date">
                       {weekdayLabel && `${weekdayLabel} `}
-                      {monthLabel} {dayNumber}
+                      <span className="dated-tasks-month-label">{monthLabel}</span> {dayNumber}
+                      {(() => {
+                        const age = getAgeOnDateKey(date);
+                        return age != null ? `  (age ${age})` : "";
+                      })()}
                     </div>
                     <ul className="dated-tasks-list">
                       {Object.entries(tasksForDate)
@@ -805,11 +816,6 @@ function TimeHack() {
                             taskText = value.text || "";
                             const rawTags = Array.isArray(value.tags) ? value.tags : [];
                             tags = rawTags.map((t) => String(t).toLowerCase());
-                          }
-
-                          const lowerText = taskText.toLowerCase();
-                          if (!tags.includes("jlpt") && lowerText.includes("pass jlpt")) {
-                            tags = [...tags, "jlpt"];
                           }
 
                           return (
