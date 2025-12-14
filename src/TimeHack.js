@@ -218,20 +218,8 @@ function TimeHack() {
     try {
       const fetchedTodos = await fetchTodosFromBackend();
       if (fetchedTodos.length > 0) {
-        setTodos((prev) => {
-          const prevById = new Map(
-            prev.map((todo) => [String(todo.id), todo])
-          );
-
-          return fetchedTodos.map((todo) => {
-            const key = String(todo.id);
-            const prevTodo = prevById.get(key);
-            // If either local or backend says "done", keep it done.
-            return prevTodo
-              ? { ...todo, done: !!(prevTodo.done || todo.done) }
-              : todo;
-          });
-        });
+        // Trust backend as the source of truth for completion state
+        setTodos(fetchedTodos);
       }
     } catch (e) {
       // optional: could show an error state; for now, ignore
@@ -335,6 +323,7 @@ function TimeHack() {
       },
       {
         text: "meditate",
+        tags: ["peak physique"],
         days: [0, 6], // Sun & Sat
       },
     ],
