@@ -459,6 +459,20 @@ function TimeHack() {
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
 
+  const allDatedTaskTags = Array.from(
+    new Set(
+      Object.values(datedTasks).flatMap((tasksForDate) =>
+        Object.values(tasksForDate).flatMap((value) => {
+          if (typeof value === "string") return [];
+          const rawTags = Array.isArray(value.tags) ? value.tags : [];
+          return rawTags
+            .map((t) => String(t).toLowerCase())
+            .filter((t) => t.trim().length > 0);
+        })
+      )
+    )
+  );
+
   const jlptCompletedCount = jlptProgress.filter((l) => l.completed).length;
   const topikCompletedCount = topikProgress.filter((l) => l.completed).length;
 
@@ -775,6 +789,22 @@ function TimeHack() {
         </div>
       </div>
       <div className="dated-tasks">
+        {allDatedTaskTags.length > 0 && (
+          <div className="dated-tasks-tags-summary">
+            {allDatedTaskTags.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                className="dated-tasks-tag"
+                onClick={() => {
+                  history.push(`/tags/${tag}`);
+                }}
+              >
+                {tag.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        )}
         <h3 className="dated-tasks-title">Upcoming</h3>
         {upcomingDatedTasks.length === 0 ? (
           <div className="dated-tasks-empty">
