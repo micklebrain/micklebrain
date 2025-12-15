@@ -760,7 +760,7 @@ function TimeHack() {
               return (
                 <div 
                   key={`${hourKey}-${subIndex}-${dateKey}`} 
-                  className={`hour-block ${isCurrentHalf ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""}`}
+                  className={`hour-block ${isCurrentHalf ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
                   draggable
                   onDragStart={() => handleHourDragStart(hourKey)}
                   onDragOver={(e) => handleHourDragOver(e, hourKey)}
