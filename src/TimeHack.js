@@ -50,9 +50,9 @@ function TimeHack() {
     } catch {
       // ignore read errors
     }
-    return null;
-  });
-  const [draggingHour, setDraggingHour] = useState(null);
+	    return null;
+	  });
+	  const [draggingHour, setDraggingHour] = useState(null);
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -302,6 +302,50 @@ function TimeHack() {
   useEffect(() => {
     try {
       if (Array.isArray(hourOrder) && hourOrder.length === 24) {
+        localStorage.setItem("timehack-hour-order", JSON.stringify(hourOrder));
+      } else {
+        localStorage.removeItem("timehack-hour-order");
+      }
+    } catch {
+      // ignore write errors
+    }
+  }, [hourOrder]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadHourOrder = async () => {
+      try {
+        const response = await fetch(
+          "https://lostmindsbackend.vercel.app/hourOrder"
+        );
+        if (!response.ok) return;
+        const data = await response.json();
+        const order = data && Array.isArray(data.order) ? data.order : null;
+        if (
+          order &&
+          order.length === 24 &&
+          order.every((h) => Number.isInteger(h) && h >= 0 && h < 24)
+        ) {
+          if (!cancelled) {
+            setHourOrder(order);
+          }
+        }
+      } catch {
+        // ignore network errors; fall back to local/default order
+      }
+    };
+
+    loadHourOrder();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    try {
+      if (Array.isArray(hourOrder) && hourOrder.length === 24) {
         localStorage.setItem(
           "timehack-hour-order",
           JSON.stringify(hourOrder)
@@ -506,6 +550,26 @@ function TimeHack() {
     setDraggingTodoId(null);
   };
 
+  const persistHourOrderToBackend = (order) => {
+    if (
+      !Array.isArray(order) ||
+      order.length !== 24 ||
+      !order.every((h) => Number.isInteger(h) && h >= 0 && h < 24)
+    ) {
+      return;
+    }
+
+    fetch("https://lostmindsbackend.vercel.app/hourOrder", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ order }),
+    }).catch((e) => {
+      console.error("Failed to persist hour order", e);
+    });
+  };
+
   const handleHourDragStart = (hour) => {
     setDraggingHour(hour);
     setHourOrder((prev) => prev ?? defaultSortedHours);
@@ -529,6 +593,9 @@ function TimeHack() {
 
   const handleHourDragEnd = () => {
     setDraggingHour(null);
+    if (hourOrder) {
+      persistHourOrderToBackend(hourOrder);
+    }
   };
 
   const upcomingDatedTasks = Object.entries(datedTasks)
