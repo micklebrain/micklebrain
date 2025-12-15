@@ -412,6 +412,49 @@ body {
   .task {
     color: #222;
   }
+
+  .hour-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+  }
+
+  .hour-edit-input {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    resize: vertical;
+  }
+
+  .hour-edit-actions {
+    display: flex;
+    gap: 6px;
+  }
+
+  .hour-edit-save,
+  .hour-edit-cancel,
+  .hour-edit-toggle {
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    color: #374151;
+    cursor: pointer;
+    font-size: 11px;
+  }
+
+  .hour-edit-save {
+    background: #0aa5ff;
+    color: #ffffff;
+    border-color: #0aa5ff;
+  }
+
+  .hour-edit-save:hover {
+    opacity: 0.95;
+  }
   
   .details-btn {
     padding: 8px 12px;

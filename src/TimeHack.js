@@ -47,12 +47,15 @@ function TimeHack() {
           return parsed;
         }
       }
-    } catch {
-      // ignore read errors
-    }
+	    } catch {
+	      // ignore read errors
+	    }
 	    return null;
 	  });
 	  const [draggingHour, setDraggingHour] = useState(null);
+	  const [hourTaskOverrides, setHourTaskOverrides] = useState({});
+	  const [editingHourKey, setEditingHourKey] = useState(null);
+	  const [editingHourText, setEditingHourText] = useState("");
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -300,18 +303,6 @@ function TimeHack() {
   }, [topikProgress]);
 
   useEffect(() => {
-    try {
-      if (Array.isArray(hourOrder) && hourOrder.length === 24) {
-        localStorage.setItem("timehack-hour-order", JSON.stringify(hourOrder));
-      } else {
-        localStorage.removeItem("timehack-hour-order");
-      }
-    } catch {
-      // ignore write errors
-    }
-  }, [hourOrder]);
-
-  useEffect(() => {
     let cancelled = false;
 
     const loadHourOrder = async () => {
@@ -357,6 +348,48 @@ function TimeHack() {
       // ignore write errors
     }
   }, [hourOrder]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadHourTasks = async () => {
+      try {
+        const response = await fetch(
+          "https://lostmindsbackend.vercel.app/hourTasks"
+        );
+        if (!response.ok) return;
+        const data = await response.json();
+        const rawTasks = data && data.tasks;
+        if (!rawTasks || typeof rawTasks !== "object") return;
+
+        const mapped = {};
+        Object.keys(rawTasks).forEach((key) => {
+          const hour = Number(key);
+          const value = rawTasks[key];
+          if (
+            Number.isInteger(hour) &&
+            hour >= 0 &&
+            hour < 24 &&
+            typeof value === "string"
+          ) {
+            mapped[hour] = value;
+          }
+        });
+
+        if (!cancelled) {
+          setHourTaskOverrides(mapped);
+        }
+      } catch {
+        // ignore network errors; fall back to defaults
+      }
+    };
+
+    loadHourTasks();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const toggleTopikLevel = (level) => {
     setTopikProgress((prev) =>
@@ -598,6 +631,50 @@ function TimeHack() {
     }
   };
 
+  const startEditingHour = (hourKey, currentTask) => {
+    let text = "";
+    if (typeof currentTask === "string") {
+      text = currentTask;
+    } else if (Array.isArray(currentTask)) {
+      text = currentTask.join("\n");
+    }
+    setEditingHourKey(hourKey);
+    setEditingHourText(text);
+  };
+
+  const cancelEditingHour = () => {
+    setEditingHourKey(null);
+    setEditingHourText("");
+  };
+
+  const saveEditingHour = (hourKey) => {
+    const trimmed = editingHourText.trim();
+    const newText = trimmed;
+
+    setHourTaskOverrides((prev) => ({
+      ...prev,
+      [hourKey]: newText,
+    }));
+
+    setEditingHourKey(null);
+    setEditingHourText("");
+
+    fetch(
+      `https://lostmindsbackend.vercel.app/hourTasks/${encodeURIComponent(
+        String(hourKey)
+      )}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text: newText }),
+      }
+    ).catch((e) => {
+      console.error("Failed to save hour task", e);
+    });
+  };
+
   const upcomingDatedTasks = Object.entries(datedTasks)
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
@@ -728,10 +805,23 @@ function TimeHack() {
           const mission = higherMissions[hourKey];
           const isEveningHour = displayHour >= 18 || displayHour <= 7; // 6pm (18:00) to 7am
 
+          const overrideTask =
+            Object.prototype.hasOwnProperty.call(
+              hourTaskOverrides,
+              hourKey
+            ) && typeof hourTaskOverrides[hourKey] === "string"
+              ? hourTaskOverrides[hourKey]
+              : null;
+
+          if (overrideTask != null) {
+            task = overrideTask;
+          }
+
           // Check if task is an array (for split hours like 16 with two 30-min tasks)
           const isSplitHour = Array.isArray(task);
+          const isEditingThisHour = editingHourKey === hourKey;
           
-          if (isSplitHour && hourKey === 16) {
+          if (!isEditingThisHour && isSplitHour && hourKey === 16) {
             // Render two separate blocks for hour 16 (16:00-16:30 and 16:30-17:00)
             return (
               <Fragment key={`${hourKey}-split-${dateKey}`}>
@@ -856,20 +946,73 @@ function TimeHack() {
                     <div className="hour-label">
                       {String(displayHour).padStart(2, "0")}:00
                     </div>
-                <div className="task" style={{ whiteSpace: "pre-line" }}>{task}</div>
-                {taskTags.map((tag) => (
-                  <button
-                    key={tag}
-                    type="button"
-                    className="dated-tasks-tag"
-                    onClick={() => {
-                      history.push(`/tags/${tag}`);
-                    }}
-                  >
-                    {tag.toUpperCase()}
-                  </button>
-                ))}
-	              </div>
+                    {isEditingThisHour ? (
+                      <div className="hour-edit">
+                        <textarea
+                          className="hour-edit-input"
+                          value={editingHourText}
+                          onChange={(e) => setEditingHourText(e.target.value)}
+                          rows={3}
+                        />
+                        <div className="hour-edit-actions">
+                          <button
+                            type="button"
+                            className="hour-edit-save"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              saveEditingHour(hourKey);
+                            }}
+                          >
+                            Save
+                          </button>
+                          <button
+                            type="button"
+                            className="hour-edit-cancel"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              cancelEditingHour();
+                            }}
+                          >
+                            Cancel
+                          </button>
+                        </div>
+                      </div>
+                    ) : (
+                      <>
+                        <div
+                          className="task"
+                          style={{ whiteSpace: "pre-line" }}
+                        >
+                          {task}
+                        </div>
+                        {taskTags.map((tag) => (
+                          <button
+                            key={tag}
+                            type="button"
+                            className="dated-tasks-tag"
+                            onClick={() => {
+                              history.push(`/tags/${tag}`);
+                            }}
+                          >
+                            {tag.toUpperCase()}
+                          </button>
+                        ))}
+                      </>
+                    )}
+                  </div>
+                  {!isEditingThisHour && (
+                    <button
+                      type="button"
+                      className="hour-edit-toggle"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        startEditingHour(hourKey, task);
+                      }}
+                    >
+                      Edit
+                    </button>
+                  )}
 	              {expandedHour === hourKey ? "▼" : "▶"}
             </div>
 
