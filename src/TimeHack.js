@@ -693,10 +693,11 @@ function TimeHack() {
       </div>
       <h1>24 hours</h1>
       <div className="hours-list">
-        {effectiveHourOrder.map((hour) => {
-          const isCurrentHour = hour === currentHour;
-          const dateKey = hour >= currentHour ? todayKey : tomorrowKey;
-          const taskConfig = dailyTasks[hour];
+        {effectiveHourOrder.map((hourKey, index) => {
+          const displayHour = (currentHour + index) % 24;
+          const isCurrentHour = index === 0;
+          const dateKey = displayHour >= currentHour ? todayKey : tomorrowKey;
+          const taskConfig = dailyTasks[hourKey];
 
           let task = "No task assigned";
           let taskTags = [];
@@ -724,32 +725,45 @@ function TimeHack() {
               taskTags = rawTags.map((t) => String(t).toLowerCase());
             }
           }
-          const mission = higherMissions[hour];
-          const isEveningHour = hour >= 18 || hour <= 7; // 6pm (18:00) to 7am
+          const mission = higherMissions[hourKey];
+          const isEveningHour = displayHour >= 18 || displayHour <= 7; // 6pm (18:00) to 7am
 
           // Check if task is an array (for split hours like 16 with two 30-min tasks)
           const isSplitHour = Array.isArray(task);
           
-          if (isSplitHour && hour === 16) {
+          if (isSplitHour && hourKey === 16) {
             // Render two separate blocks for hour 16 (16:00-16:30 and 16:30-17:00)
             return (
-              <Fragment key={`${hour}-split-${dateKey}`}>
-                {task.map((subTask, index) => {
-              const timeLabel = index === 0 ? "16:00-16:30" : "16:30-17:00";
-              const isFirstHalf = index === 0;
+              <Fragment key={`${hourKey}-split-${dateKey}`}>
+                {task.map((subTask, subIndex) => {
+              const startMinutes = subIndex === 0 ? 0 : 30;
+              const endMinutes = subIndex === 0 ? 30 : 60;
+              const startHourLabel = String(displayHour).padStart(2, "0");
+              const endHourValue =
+                (displayHour + (subIndex === 0 && endMinutes === 60 ? 1 : 0)) % 24;
+              const endHourLabel =
+                endMinutes === 60
+                  ? String(endHourValue).padStart(2, "0")
+                  : startHourLabel;
+              const timeLabel = `${startHourLabel}:${startMinutes
+                .toString()
+                .padStart(2, "0")}-${endHourLabel}:${(endMinutes % 60)
+                .toString()
+                .padStart(2, "0")}`;
+              const isFirstHalf = subIndex === 0;
               const currentMinutes = currentTime.getMinutes();
               const isCurrentHalf = isCurrentHour && ((isFirstHalf && currentMinutes < 30) || (!isFirstHalf && currentMinutes >= 30));
               const isSleepTask = subTask === "sleep";
-              const expandedKey = `16-${index}`;
+              const expandedKey = `16-${subIndex}`;
               const isExpanded = expandedHour === expandedKey;
               
               return (
                 <div 
-                  key={`${hour}-${index}-${dateKey}`} 
+                  key={`${hourKey}-${subIndex}-${dateKey}`} 
                   className={`hour-block ${isCurrentHalf ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""}`}
                   draggable
-                  onDragStart={() => handleHourDragStart(hour)}
-                  onDragOver={(e) => handleHourDragOver(e, hour)}
+                  onDragStart={() => handleHourDragStart(hourKey)}
+                  onDragOver={(e) => handleHourDragOver(e, hourKey)}
                   onDragEnd={handleHourDragEnd}
                 >
                   <div
@@ -813,21 +827,21 @@ function TimeHack() {
           
           return (
             <div 
-              key={`${hour}-${dateKey}`} 
+              key={`${hourKey}-${dateKey}`} 
               className={`hour-block ${isCurrentHour ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
               draggable
-              onDragStart={() => handleHourDragStart(hour)}
-              onDragOver={(e) => handleHourDragOver(e, hour)}
+              onDragStart={() => handleHourDragStart(hourKey)}
+              onDragOver={(e) => handleHourDragOver(e, hourKey)}
               onDragEnd={handleHourDragEnd}
             >
               {/* Clickable wrapper */}
-              <div
-                className="hour-row"
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  toggleExpand(hour);
-              }}
+	              <div
+	                className="hour-row"
+	                onClick={(e) => {
+	                  e.preventDefault();
+	                  e.stopPropagation();
+	                  toggleExpand(hourKey);
+	              }}
               style={{ 
                   cursor: "pointer", 
                   display: "flex", 
@@ -838,8 +852,10 @@ function TimeHack() {
               onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
               onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
             >
-              <div className="hour-left">
-                <div className="hour-label">{hour}:00</div>
+                  <div className="hour-left">
+                    <div className="hour-label">
+                      {String(displayHour).padStart(2, "0")}:00
+                    </div>
                 <div className="task" style={{ whiteSpace: "pre-line" }}>{task}</div>
                 {taskTags.map((tag) => (
                   <button
@@ -853,12 +869,12 @@ function TimeHack() {
                     {tag.toUpperCase()}
                   </button>
                 ))}
-              </div>
-              {expandedHour === hour ? "▼" : "▶"}
+	              </div>
+	              {expandedHour === hourKey ? "▼" : "▶"}
             </div>
 
-              {/* Higher mission only visible when clicked */}
-              {expandedHour === hour && mission && (
+	              {/* Higher mission only visible when clicked */}
+	              {expandedHour === hourKey && mission && (
                 <div className="higher-mission" style={{ marginTop: "6px", padding: "6px 12px", background: "#eef9ff", borderRadius: "6px" }}>
                   <strong>Higher Mission:</strong>{" "}
                   {typeof mission === "string" ? (
