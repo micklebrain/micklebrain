@@ -33,6 +33,26 @@ function TimeHack() {
   const [expandedHour, setExpandedHour] = useState(null);
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
+  const [draggingTodoId, setDraggingTodoId] = useState(null);
+  const [hourOrder, setHourOrder] = useState(() => {
+    try {
+      const stored = localStorage.getItem("timehack-hour-order");
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (
+          Array.isArray(parsed) &&
+          parsed.length === 24 &&
+          parsed.every((h) => typeof h === "number")
+        ) {
+          return parsed;
+        }
+      }
+    } catch {
+      // ignore read errors
+    }
+    return null;
+  });
+  const [draggingHour, setDraggingHour] = useState(null);
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -279,6 +299,21 @@ function TimeHack() {
     }
   }, [topikProgress]);
 
+  useEffect(() => {
+    try {
+      if (Array.isArray(hourOrder) && hourOrder.length === 24) {
+        localStorage.setItem(
+          "timehack-hour-order",
+          JSON.stringify(hourOrder)
+        );
+      } else {
+        localStorage.removeItem("timehack-hour-order");
+      }
+    } catch {
+      // ignore write errors
+    }
+  }, [hourOrder]);
+
   const toggleTopikLevel = (level) => {
     setTopikProgress((prev) =>
       prev.map((item) =>
@@ -392,7 +427,11 @@ function TimeHack() {
   };
 
   const hours = [...Array(24).keys()];
-  const sortedHours = [...hours.slice(currentHour), ...hours.slice(0, currentHour)];
+  const defaultSortedHours = [
+    ...hours.slice(currentHour),
+    ...hours.slice(0, currentHour),
+  ];
+  const effectiveHourOrder = hourOrder ?? defaultSortedHours;
   const minuteProgress = (currentTime.getMinutes() / 60) * 100;
   const weekdayIndex = currentTime.getDay(); // 0 (Sun) - 6 (Sat)
 
@@ -442,6 +481,54 @@ function TimeHack() {
 
   const removeTodo = (id) => {
     setTodos(prev => prev.filter((todo) => todo.id !== id));
+  };
+
+  const handleDragStart = (id) => {
+    setDraggingTodoId(id);
+  };
+
+  const handleDragOver = (event, overId) => {
+    event.preventDefault();
+    if (draggingTodoId == null || draggingTodoId === overId) return;
+
+    setTodos((prev) => {
+      const currentIndex = prev.findIndex((t) => t.id === draggingTodoId);
+      const overIndex = prev.findIndex((t) => t.id === overId);
+      if (currentIndex === -1 || overIndex === -1) return prev;
+      const next = [...prev];
+      const [moved] = next.splice(currentIndex, 1);
+      next.splice(overIndex, 0, moved);
+      return next;
+    });
+  };
+
+  const handleDragEnd = () => {
+    setDraggingTodoId(null);
+  };
+
+  const handleHourDragStart = (hour) => {
+    setDraggingHour(hour);
+    setHourOrder((prev) => prev ?? defaultSortedHours);
+  };
+
+  const handleHourDragOver = (event, overHour) => {
+    event.preventDefault();
+    if (draggingHour == null || draggingHour === overHour) return;
+
+    setHourOrder((prev) => {
+      const base = prev ?? defaultSortedHours;
+      const currentIndex = base.indexOf(draggingHour);
+      const overIndex = base.indexOf(overHour);
+      if (currentIndex === -1 || overIndex === -1) return base;
+      const next = [...base];
+      const [moved] = next.splice(currentIndex, 1);
+      next.splice(overIndex, 0, moved);
+      return next;
+    });
+  };
+
+  const handleHourDragEnd = () => {
+    setDraggingHour(null);
   };
 
   const upcomingDatedTasks = Object.entries(datedTasks)
@@ -511,6 +598,10 @@ function TimeHack() {
             todos.map((todo) => (
               <li
                 key={todo.id}
+                draggable
+                onDragStart={() => handleDragStart(todo.id)}
+                onDragOver={(e) => handleDragOver(e, todo.id)}
+                onDragEnd={handleDragEnd}
                 className={`daily-todo-item ${todo.done ? "done" : ""}`}
               >
                 <label className="daily-todo-label">
@@ -535,7 +626,7 @@ function TimeHack() {
       </div>
       <h1>24 hours</h1>
       <div className="hours-list">
-        {sortedHours.map((hour) => {
+        {effectiveHourOrder.map((hour) => {
           const isCurrentHour = hour === currentHour;
           const dateKey = hour >= currentHour ? todayKey : tomorrowKey;
           const taskConfig = dailyTasks[hour];
@@ -589,6 +680,10 @@ function TimeHack() {
                 <div 
                   key={`${hour}-${index}-${dateKey}`} 
                   className={`hour-block ${isCurrentHalf ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""}`}
+                  draggable
+                  onDragStart={() => handleHourDragStart(hour)}
+                  onDragOver={(e) => handleHourDragOver(e, hour)}
+                  onDragEnd={handleHourDragEnd}
                 >
                   <div
                     className="hour-row"
@@ -653,6 +748,10 @@ function TimeHack() {
             <div 
               key={`${hour}-${dateKey}`} 
               className={`hour-block ${isCurrentHour ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
+              draggable
+              onDragStart={() => handleHourDragStart(hour)}
+              onDragOver={(e) => handleHourDragOver(e, hour)}
+              onDragEnd={handleHourDragEnd}
             >
               {/* Clickable wrapper */}
               <div
