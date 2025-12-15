@@ -1127,6 +1127,7 @@ function TimeHack() {
         ) : (
           (() => {
             let lastYear = null;
+            let lastMonth = null;
             return upcomingDatedTasks.map(([date, tasksForDate]) => {
               const year = date.slice(0, 4);
               const monthNumber = date.slice(5, 7);
@@ -1139,17 +1140,23 @@ function TimeHack() {
                   : monthNumber;
 
               const showYearHeader = year !== lastYear;
+              const showMonthHeader =
+                showYearHeader || monthNumber !== lastMonth;
               lastYear = year;
+              lastMonth = monthNumber;
 
               return (
                 <Fragment key={date}>
                   {showYearHeader && (
                     <div className="dated-tasks-year">{year}</div>
                   )}
+                  {showMonthHeader && (
+                    <div className="dated-tasks-month">{monthLabel}</div>
+                  )}
                   <div className="dated-tasks-date-block">
                     <div className="dated-tasks-date">
                       {weekdayLabel && `${weekdayLabel} `}
-                      <span className="dated-tasks-month-label">{monthLabel}</span> {dayNumber}
+                      {dayNumber}
                       {(() => {
                         const age = getAgeOnDateKey(date);
                         return age != null ? `  (age ${age})` : "";

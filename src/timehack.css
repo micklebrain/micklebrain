@@ -199,10 +199,15 @@ body {
   }
 
   .dated-tasks-month {
-    margin-top: 4px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding: 3px 8px;
+    border-radius: 999px;
     font-size: 12px;
-    font-weight: 600;
-    color: #4b5563;
+    font-weight: 700;
+    color: #b91c1c;
+    background-color: #fee2e2;
+    display: block;
   }
 
   .dated-tasks-date {
