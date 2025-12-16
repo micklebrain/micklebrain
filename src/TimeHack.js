@@ -323,13 +323,10 @@ function TimeHack() {
         if (isValidOrder) {
           if (!cancelled) {
             setHourOrder(order);
+            setInitialHourOrder(order);
           }
         } else {
-          const hours = [...Array(24).keys()];
-          const defaultOrder = [
-            ...hours.slice(currentHour),
-            ...hours.slice(0, currentHour),
-          ];
+          const defaultOrder = [...Array(24).keys()];
 
           if (!cancelled) {
             setHourOrder(defaultOrder);
@@ -528,11 +525,18 @@ function TimeHack() {
   };
 
   const hours = [...Array(24).keys()];
-  const defaultSortedHours = [
-    ...hours.slice(currentHour),
-    ...hours.slice(0, currentHour),
-  ];
-  const effectiveHourOrder = hourOrder ?? defaultSortedHours;
+  const defaultSortedHours = [...hours];
+  const baseHourOrder = Array.isArray(hourOrder) && hourOrder.length === 24
+    ? hourOrder
+    : defaultSortedHours;
+  const currentIndexInBase = baseHourOrder.indexOf(currentHour);
+  const effectiveHourOrder =
+    currentIndexInBase === -1
+      ? baseHourOrder
+      : [
+          ...baseHourOrder.slice(currentIndexInBase),
+          ...baseHourOrder.slice(0, currentIndexInBase),
+        ];
 
   useEffect(() => {
     if (
@@ -664,6 +668,42 @@ function TimeHack() {
     if (hourOrder) {
       persistHourOrderToBackend(hourOrder);
     }
+  };
+
+  const handleResetHours = async () => {
+    // Prefer the order implied by hourTasks in the backend
+    try {
+      const response = await fetch(
+        "https://lostmindsbackend.vercel.app/hourTasks"
+      );
+      if (response.ok) {
+        const data = await response.json();
+        const rawTasks = data && data.tasks;
+        if (rawTasks && typeof rawTasks === "object") {
+          const orderFromTasks = Object.keys(rawTasks)
+            .map((key) => Number(key))
+            .filter(
+              (h) => Number.isInteger(h) && h >= 0 && h < 24
+            )
+            .sort((a, b) => a - b);
+
+          if (orderFromTasks.length > 0) {
+            setHourOrder(orderFromTasks);
+            return;
+          }
+        }
+      }
+    } catch (e) {
+      console.error("Failed to reload hour order from hourTasks", e);
+    }
+
+    // Fallback to the initial/default order in memory
+    const base =
+      (Array.isArray(initialHourOrder) &&
+        initialHourOrder.length === 24 &&
+        initialHourOrder) ||
+      defaultSortedHours;
+    setHourOrder(base);
   };
 
   const startEditingHour = (hourKey, currentTask) => {
@@ -808,23 +848,15 @@ function TimeHack() {
         <button
           type="button"
           className="daily-todo-refresh-btn"
-          onClick={() => {
-            const base =
-              (Array.isArray(initialHourOrder) &&
-                initialHourOrder.length === 24 &&
-                initialHourOrder) ||
-              defaultSortedHours;
-            setHourOrder(base);
-            persistHourOrderToBackend(base);
-          }}
+          onClick={handleResetHours}
         >
           Reset
         </button>
       </div>
       <div className="hours-list">
         {effectiveHourOrder.map((hourKey, index) => {
-          const displayHour = (currentHour + index) % 24;
-          const isCurrentHour = index === 0;
+          const displayHour = hourKey;
+          const isCurrentHour = displayHour === currentHour;
           const dateKey = displayHour >= currentHour ? todayKey : tomorrowKey;
           const taskConfig = dailyTasks[hourKey];
 
@@ -1196,6 +1228,7 @@ function TimeHack() {
                 showYearHeader || monthNumber !== lastMonth;
               lastYear = year;
               lastMonth = monthNumber;
+              const isTodayDate = date === todayKey;
 
               return (
                 <Fragment key={date}>
@@ -1205,7 +1238,11 @@ function TimeHack() {
                   {showMonthHeader && (
                     <div className="dated-tasks-month">{monthLabel}</div>
                   )}
-                  <div className="dated-tasks-date-block">
+                  <div
+                    className={`dated-tasks-date-block ${
+                      isTodayDate ? "dated-tasks-date-block-today" : ""
+                    }`}
+                  >
                     <div className="dated-tasks-date">
                       {weekdayLabel && `${weekdayLabel} `}
                       {dayNumber}
