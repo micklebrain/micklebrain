@@ -388,12 +388,19 @@ function TimeHack() {
           const hour = Number(key);
           const value = rawTasks[key];
           if (
-            Number.isInteger(hour) &&
-            hour >= 0 &&
-            hour < 24 &&
-            typeof value === "string"
+            !Number.isInteger(hour) ||
+            hour < 0 ||
+            hour >= 24
           ) {
+            return;
+          }
+
+          if (typeof value === "string") {
             mapped[hour] = value;
+          } else if (Array.isArray(value)) {
+            mapped[hour] = value
+              .filter((v) => typeof v === "string")
+              .map((v) => v);
           }
         });
 
@@ -483,12 +490,17 @@ function TimeHack() {
     },
     18: { text: "cook/eat dinner" },
     19: { text: "learn to dance" },
-    20: {
-      text: `find reference photos from Instagram or Tiktok
-         learn fashion
-         learn hair`,
-    },
-    21: { text: "practice public speaking" },
+	    20: {
+	      text: `find reference photos from Instagram or Tiktok
+	         learn fashion
+	         learn hair`,
+	    },
+	    21: {
+	      text: [
+	        "practice public speaking",
+	        "practice public speaking",
+	      ],
+	    },
     22: {
       text: `selfcare
          skincare
@@ -893,27 +905,22 @@ function TimeHack() {
           const mission = higherMissions[hourKey];
           const isEveningHour = displayHour >= 18 || displayHour <= 7; // 6pm (18:00) to 7am
 
-          const overrideTask =
-            Object.prototype.hasOwnProperty.call(
-              hourTaskOverrides,
-              hourKey
-            ) && typeof hourTaskOverrides[hourKey] === "string"
-              ? hourTaskOverrides[hourKey]
-              : null;
-
-          if (overrideTask != null) {
-            task = overrideTask;
+          const overrideValue = hourTaskOverrides[hourKey];
+          if (Array.isArray(overrideValue)) {
+            task = overrideValue;
+          } else if (typeof overrideValue === "string") {
+            task = overrideValue;
           }
 
-          // Check if task is an array (for split hours like 16 with two 30-min tasks)
+          // Check if task is an array (for split hours with two 30-min tasks)
           const isSplitHour = Array.isArray(task);
           const isEditingThisHour = editingHourKey === hourKey;
           
-          if (!isEditingThisHour && isSplitHour && hourKey === 16) {
-            // Render two separate blocks for hour 16 (16:00-16:30 and 16:30-17:00)
-            return (
-              <Fragment key={`${hourKey}-split-${dateKey}`}>
-                {task.map((subTask, subIndex) => {
+          if (!isEditingThisHour && isSplitHour) {
+            // Render two separate 30-min blocks for split hours
+	            return (
+	              <Fragment key={`${hourKey}-split-${dateKey}`}>
+	                {task.map((subTask, subIndex) => {
               const startMinutes = subIndex === 0 ? 0 : 30;
               const endMinutes = subIndex === 0 ? 30 : 60;
               const startHourLabel = String(displayHour).padStart(2, "0");
@@ -930,9 +937,9 @@ function TimeHack() {
                 .padStart(2, "0")}`;
               const isFirstHalf = subIndex === 0;
               const currentMinutes = currentTime.getMinutes();
-              const isCurrentHalf = isCurrentHour && ((isFirstHalf && currentMinutes < 30) || (!isFirstHalf && currentMinutes >= 30));
-              const isSleepTask = subTask === "sleep";
-              const expandedKey = `16-${subIndex}`;
+	              const isCurrentHalf = isCurrentHour && ((isFirstHalf && currentMinutes < 30) || (!isFirstHalf && currentMinutes >= 30));
+	              const isSleepTask = subTask === "sleep";
+	              const expandedKey = `${hourKey}-${subIndex}`;
               const isExpanded = expandedHour === expandedKey;
               
               return (
