@@ -34,24 +34,7 @@ function TimeHack() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
   const [draggingTodoId, setDraggingTodoId] = useState(null);
-  const [hourOrder, setHourOrder] = useState(() => {
-    try {
-      const stored = localStorage.getItem("timehack-hour-order");
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        if (
-          Array.isArray(parsed) &&
-          parsed.length === 24 &&
-          parsed.every((h) => typeof h === "number")
-        ) {
-          return parsed;
-        }
-      }
-    } catch {
-      // ignore read errors
-    }
-    return null;
-  });
+  const [hourOrder, setHourOrder] = useState(null);
   const [initialHourOrder, setInitialHourOrder] = useState(null);
   const [draggingHour, setDraggingHour] = useState(null);
   const [hourTaskOverrides, setHourTaskOverrides] = useState({});
@@ -538,17 +521,17 @@ function TimeHack() {
 
   const hours = [...Array(24).keys()];
   const defaultSortedHours = [...hours];
-  const baseHourOrder = Array.isArray(hourOrder) && hourOrder.length === 24
-    ? hourOrder
-    : defaultSortedHours;
+  const hoursLoaded =
+    Array.isArray(hourOrder) && hourOrder.length === 24;
+  const baseHourOrder = hoursLoaded ? hourOrder : defaultSortedHours;
   const currentIndexInBase = baseHourOrder.indexOf(currentHour);
   const effectiveHourOrder =
-    currentIndexInBase === -1
-      ? baseHourOrder
-      : [
+    hoursLoaded && currentIndexInBase !== -1
+      ? [
           ...baseHourOrder.slice(currentIndexInBase),
           ...baseHourOrder.slice(0, currentIndexInBase),
-        ];
+        ]
+      : [];
 
   useEffect(() => {
     if (
