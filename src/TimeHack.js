@@ -962,7 +962,14 @@ function TimeHack() {
                     onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
                   >
                     <div className="hour-left">
-                      <div className="hour-label">{timeLabel}</div>
+                      <div className="hour-label">
+                        <div>{timeLabel}</div>
+                        <div
+                          className={`hour-icon ${
+                            isEveningHour ? "hour-icon-night" : "hour-icon-day"
+                          }`}
+                        />
+                      </div>
                       <div className="task" style={{ whiteSpace: "pre-line" }}>{subTask}</div>
                     </div>
                     {isExpanded ? "▼" : "▶"}
@@ -1032,7 +1039,12 @@ function TimeHack() {
             >
                   <div className="hour-left">
                     <div className="hour-label">
-                      {String(displayHour).padStart(2, "0")}:00
+                      <div>{String(displayHour).padStart(2, "0")}:00</div>
+                      <div
+                        className={`hour-icon ${
+                          isEveningHour ? "hour-icon-night" : "hour-icon-day"
+                        }`}
+                      />
                     </div>
                     {isEditingThisHour ? (
                       <div className="hour-edit">

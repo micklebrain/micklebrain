@@ -362,29 +362,12 @@ body {
   }
 
   .evening-hour {
-    background: #374151;
-    color: #e5e7eb;
-    border-left: 4px solid #4b5563;
-  }
-
-  .evening-hour .hour-label {
-    color: #f9fafb;
-  }
-
-  .evening-hour .task {
-    color: #e5e7eb;
+    border-left: 4px solid #d1d5db;
   }
 
   .evening-hour.current-hour {
-    background: #374151;
-    color: #e5e7eb;
     border-left-color: #fbbf24;
-    box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.6);
-  }
-
-  .evening-hour.current-hour .hour-label,
-  .evening-hour.current-hour .task {
-    color: #e5e7eb;
+    box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.4);
   }
 
   .current-hour {
@@ -401,17 +384,6 @@ body {
     border-left: 5px solid #888;
   }
 
-  /* Ensure sleeping hours that are in the night block (midnight–5am) still use the dark night theme */
-  .sleep-task.evening-hour {
-    background: #4b5563 !important;
-    color: #e5e7eb;
-    border-left: 4px solid #4b5563;
-  }
-
-  .sleep-task.evening-hour .hour-label,
-  .sleep-task.evening-hour .task {
-    color: #e5e7eb;
-  }
   
   .hour-row {
     display: flex;
@@ -428,10 +400,27 @@ body {
   .hour-label {
     font-weight: 700;
     min-width: 56px;
+    display: flex;
+    flex-direction: column;
   }
   
   .task {
     color: #222;
+  }
+
+  .hour-icon {
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 2px;
+    opacity: 0.85;
+  }
+
+  .hour-icon-day::before {
+    content: "☀️";
+  }
+
+  .hour-icon-night::before {
+    content: "🌑";
   }
 
   .hour-edit {
