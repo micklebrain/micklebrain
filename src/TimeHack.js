@@ -566,34 +566,38 @@ function TimeHack() {
     setNewTodo("");
   };
 
-  const toggleTodo = (id) => {
-    const isLikelyMongoId = /^[0-9a-fA-F]{24}$/.test(String(id));
-
-    setTodos((prev) => {
-      const prevTodo = prev.find((todo) => todo.id === id);
-      const wasDone = prevTodo?.done;
-
-      const next = prev.map((todo) =>
-        todo.id === id ? { ...todo, done: !todo.done } : todo
-      );
-
-      // If this looks like a Mongo ObjectId and is being marked complete now, send update
-      if (prevTodo && !wasDone && isLikelyMongoId) {
-        fetch(
-          `https://lostmindsbackend.vercel.app/todos/${encodeURIComponent(
-            String(id)
-          )}/complete`,
-          {
-            method: "POST",
-          }
-        ).catch((e) => {
-          console.error("Failed to mark todo complete in backend", e);
-        });
-      }
-
-      return next;
-    });
-  };
+	  const toggleTodo = (id) => {
+	    const isLikelyMongoId = /^[0-9a-fA-F]{24}$/.test(String(id));
+	
+	    setTodos((prev) => {
+	      const prevTodo = prev.find((todo) => todo.id === id);
+	      const wasDone = prevTodo?.done;
+	
+	      const next = prev.map((todo) =>
+	        todo.id === id ? { ...todo, done: !todo.done } : todo
+	      );
+	
+	      if (prevTodo && isLikelyMongoId) {
+	        const nowDone = !wasDone;
+	        const endpoint = nowDone ? "complete" : "incomplete";
+	        fetch(
+	          `https://lostmindsbackend.vercel.app/todos/${encodeURIComponent(
+	            String(id)
+	          )}/${endpoint}`,
+	          {
+	            method: "POST",
+	          }
+	        ).catch((e) => {
+	          console.error(
+	            `Failed to mark todo ${endpoint} in backend`,
+	            e
+	          );
+	        });
+	      }
+	
+	      return next;
+	    });
+	  };
 
   const removeTodo = (id) => {
     setTodos(prev => prev.filter((todo) => todo.id !== id));
