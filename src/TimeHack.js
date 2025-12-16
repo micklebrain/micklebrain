@@ -47,15 +47,16 @@ function TimeHack() {
           return parsed;
         }
       }
-	    } catch {
-	      // ignore read errors
-	    }
-	    return null;
-	  });
-	  const [draggingHour, setDraggingHour] = useState(null);
-	  const [hourTaskOverrides, setHourTaskOverrides] = useState({});
-	  const [editingHourKey, setEditingHourKey] = useState(null);
-	  const [editingHourText, setEditingHourText] = useState("");
+    } catch {
+      // ignore read errors
+    }
+    return null;
+  });
+  const [initialHourOrder, setInitialHourOrder] = useState(null);
+  const [draggingHour, setDraggingHour] = useState(null);
+  const [hourTaskOverrides, setHourTaskOverrides] = useState({});
+  const [editingHourKey, setEditingHourKey] = useState(null);
+  const [editingHourText, setEditingHourText] = useState("");
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -313,14 +314,37 @@ function TimeHack() {
         if (!response.ok) return;
         const data = await response.json();
         const order = data && Array.isArray(data.order) ? data.order : null;
-        if (
+
+        const isValidOrder =
           order &&
           order.length === 24 &&
-          order.every((h) => Number.isInteger(h) && h >= 0 && h < 24)
-        ) {
+          order.every((h) => Number.isInteger(h) && h >= 0 && h < 24);
+
+        if (isValidOrder) {
           if (!cancelled) {
             setHourOrder(order);
           }
+        } else {
+          const hours = [...Array(24).keys()];
+          const defaultOrder = [
+            ...hours.slice(currentHour),
+            ...hours.slice(0, currentHour),
+          ];
+
+          if (!cancelled) {
+            setHourOrder(defaultOrder);
+            setInitialHourOrder(defaultOrder);
+          }
+
+          fetch("https://lostmindsbackend.vercel.app/hourOrder", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ order: defaultOrder }),
+          }).catch((e) => {
+            console.error("Failed to save default hour order", e);
+          });
         }
       } catch {
         // ignore network errors; fall back to local/default order
@@ -509,6 +533,17 @@ function TimeHack() {
     ...hours.slice(0, currentHour),
   ];
   const effectiveHourOrder = hourOrder ?? defaultSortedHours;
+
+  useEffect(() => {
+    if (
+      !Array.isArray(initialHourOrder) ||
+      initialHourOrder.length !== 24
+    ) {
+      setInitialHourOrder(defaultSortedHours);
+    }
+    // We intentionally only run this once with the initial default
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const minuteProgress = (currentTime.getMinutes() / 60) * 100;
   const weekdayIndex = currentTime.getDay(); // 0 (Sun) - 6 (Sat)
 
@@ -768,7 +803,24 @@ function TimeHack() {
           )}
         </ul>
       </div>
-      <h1>24 hours</h1>
+      <div className="hours-header">
+        <h1>24 hours</h1>
+        <button
+          type="button"
+          className="daily-todo-refresh-btn"
+          onClick={() => {
+            const base =
+              (Array.isArray(initialHourOrder) &&
+                initialHourOrder.length === 24 &&
+                initialHourOrder) ||
+              defaultSortedHours;
+            setHourOrder(base);
+            persistHourOrderToBackend(base);
+          }}
+        >
+          Reset
+        </button>
+      </div>
       <div className="hours-list">
         {effectiveHourOrder.map((hourKey, index) => {
           const displayHour = (currentHour + index) % 24;

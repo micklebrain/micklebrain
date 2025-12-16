@@ -39026,7 +39026,7 @@
     {
         "Symbol": "MTX",
         "Name": "Minerals Technologies Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Minerals Technologies Inc. Common Stock",
         "ETF": "N",

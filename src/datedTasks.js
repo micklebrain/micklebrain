@@ -1,6 +1,7 @@
 const datedTasks = { 
     "2025-12-16": { 17: { text: "film stocks part 2 update for Youtube", tags: ["motion"] } },
     "2025-12-20": { 17: { text: "buy tickets through Stubhub for Chase Sapphire $150 credit", tags: ["wealthy"] } },
+    "2025-12-21": { 13: { text: "release song that gets 10,000 listens", tags: ["motion"] } },
     "2026-01-02": { 14: "move into Hmlet Shibuya ohashi" },
     "2026-01-07": { 14: { text: "attend ISI school orientation", tags: ["Japanese fluent"] } },
     "2026-02-01": { 14: { text: "move into Dash Living Yoyogi Uehara" } },

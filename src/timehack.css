@@ -22,6 +22,14 @@ body {
     gap: 10px;
   }
 
+  .hours-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
   .daily-todo {
     margin: 16px 0 24px;
     padding: 12px 14px;
