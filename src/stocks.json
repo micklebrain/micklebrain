@@ -25169,6 +25169,11 @@
         "name": "Guggenheim Strategic Opportunities Fund Common Shares of Beneficial Interest"
     },
     {
+        "Symbol": "GOLD",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "GOLF",
         "Name": "Acushnet Holdings Corp. Common Stock",
         "ownWebull": false,
@@ -26346,7 +26351,7 @@
     {
         "Symbol": "H",
         "Name": "Hyatt Hotels Corporation Class A Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Hyatt Hotels Corporation Class A Common Stock",
         "ETF": "N",
@@ -27582,7 +27587,7 @@
     {
         "Symbol": "HRB",
         "Name": "H&R Block, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "H&R Block, Inc. Common Stock",
         "ETF": "N",
