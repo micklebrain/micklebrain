@@ -1,8 +1,7 @@
-const datedTasks = { 
-    "2025-12-17": { 17: { text: "replenish sperm count", tags: ["peak physique"] },
+const datedTasks = {
+    "2025-12-18": { 
+                    13: { text: "replenish sperm count", tags: ["peak physique"] },
                     18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] } },
-    "2025-12-18": { 12: { text: "dine at Pepper Lunch", tags: ["peak physique"] },
-                    13: { text: "replenish sperm count", tags: ["peak physique"] } },
     "2025-12-19": { 12: { text: "replenish sperm count", tags: ["peak physique"] } },
     "2025-12-20": { 17: { text: "buy tickets through Stubhub for Chase Sapphire $150 credit for Sumo wrestling @ Ryogoku Kokugikan, Tokyo, Japan", tags: ["dumb rich"] } },
     "2025-12-21": { 13: { text: "release song that gets 10,000 listens", tags: ["motion"] } },

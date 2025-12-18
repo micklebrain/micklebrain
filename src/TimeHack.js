@@ -469,7 +469,7 @@ function TimeHack() {
       ],
     },
     17: {
-      text: "clear photos on Macbook (46 GB) and SSD drive (300 GB)",
+      text: "clear photos on Macbook (54 GB) and SSD drive (373 GB)",
     },
     18: { text: "cook/eat dinner" },
     19: { text: "learn to dance" },
