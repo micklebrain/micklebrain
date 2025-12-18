@@ -495,22 +495,6 @@ body {
     transition: width 30s linear;
   }
 
-  .higher-mission {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .mission-image {
-    max-width: 200px;
-    max-height: 150px;
-    border-radius: 6px;
-    object-fit: contain;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-top: 8px;
-    display: block;
-  }
-
   .character-stats {
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     border: 2px solid #0ea5e9;

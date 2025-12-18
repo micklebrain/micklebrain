@@ -2,11 +2,6 @@ import { useEffect, useState, Fragment } from "react";
 import { useHistory } from "react-router-dom";
 import "./timehack.css";
 
-import glassSkin from "./images/glassskin.png";
-import milliondollars from "./images/milliondollars.png";
-import girls from "./images/girls.png";
-import perfectphysique from "./images/perfectphysique.png";
-import dj from "./images/dj.png";
 import CharacterStats from "./CharacterStats";
 import datedTasks from "./datedTasks";
 
@@ -30,7 +25,6 @@ const WEEKDAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [expandedHour, setExpandedHour] = useState(null);
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
   const [draggingTodoId, setDraggingTodoId] = useState(null);
@@ -492,33 +486,6 @@ function TimeHack() {
     23: { text: `work on personal site` },
   };
 
-  const higherMissions = {
-    0: "replenish energy",
-    1: "replenish energy",
-    2: "replenish energy",
-    3: "replenish energy",
-    4: "replenish energy",
-    5: "replenish energy",
-    6: "replenish energy",
-    7: "replenish energy",
-    8: { text: "achieve glass skin", image: glassSkin, alt: "glass skin example" },
-    9: "increase flexibility and body control",
-    10: { text: "become millionaire", image: milliondollars, alt: "million dollars" },
-    11: { text: "develop roster", image: girls, alt: "girls" },
-    12: "fuel body for peak performance",
-    13: "Become trilingual + improve memory",
-    14: { text: "become world class DJ", image: dj, alt: "dj" },
-    15: "Grow YouTube channel + digital presence",
-    16: { text: "Build elite-level fitness", image: perfectphysique, alt: "perfect physique" },
-    17: "Organize digital life",
-    18: "Maintain strong evening nutrition habits",
-    19: "Become fluent in Korean",
-    20: "6 solid photos",
-    21: "Build online presence + personal branding",
-    22: "Maintain healthy, clean appearance",
-    23: "gain knowledge",
-  };
-
   const hours = [...Array(24).keys()];
   const defaultSortedHours = [...hours];
   const hoursLoaded =
@@ -545,10 +512,6 @@ function TimeHack() {
   }, []);
   const minuteProgress = (currentTime.getMinutes() / 60) * 100;
   const weekdayIndex = currentTime.getDay(); // 0 (Sun) - 6 (Sat)
-
-  const toggleExpand = (hour) => {
-    setExpandedHour(prev => prev === hour ? null : hour);
-  };
 
   const handleAddTodo = (e) => {
     e.preventDefault();
@@ -885,7 +848,6 @@ function TimeHack() {
               taskTags = rawTags.map((t) => String(t).toLowerCase());
             }
           }
-          const mission = higherMissions[hourKey];
           const isEveningHour = displayHour >= 18 || displayHour <= 7; // 6pm (18:00) to 7am
 
           const overrideValue = hourTaskOverrides[hourKey];
@@ -922,68 +884,39 @@ function TimeHack() {
               const currentMinutes = currentTime.getMinutes();
 	              const isCurrentHalf = isCurrentHour && ((isFirstHalf && currentMinutes < 30) || (!isFirstHalf && currentMinutes >= 30));
 	              const isSleepTask = subTask === "sleep";
-	              const expandedKey = `${hourKey}-${subIndex}`;
-              const isExpanded = expandedHour === expandedKey;
-              
-              return (
-                <div 
-                  key={`${hourKey}-${subIndex}-${dateKey}`} 
-                  className={`hour-block ${isCurrentHalf ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
-                  draggable
-                  onDragStart={() => handleHourDragStart(hourKey)}
-                  onDragOver={(e) => handleHourDragOver(e, hourKey)}
-                  onDragEnd={handleHourDragEnd}
-                >
-                  <div
-                    className="hour-row"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      toggleExpand(expandedKey);
-                    }}
-                    style={{ 
-                      cursor: "pointer", 
-                      display: "flex", 
-                      justifyContent: "space-between", 
-                      alignItems: "center",
-                      transition: "background-color 0.2s"
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
-                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
-                  >
-                    <div className="hour-left">
-                      <div className="hour-label">
-                        <div>{timeLabel}</div>
-                        <div
-                          className={`hour-icon ${
-                            isEveningHour ? "hour-icon-night" : "hour-icon-day"
-                          }`}
-                        />
-                      </div>
-                      <div className="task" style={{ whiteSpace: "pre-line" }}>{subTask}</div>
-                    </div>
-                    {isExpanded ? "▼" : "▶"}
-                  </div>
-
-                  {isExpanded && mission && (
-                    <div className="higher-mission" style={{ marginTop: "6px", padding: "6px 12px", background: "#eef9ff", borderRadius: "6px" }}>
-                      <strong>Goal:</strong>{" "}
-                      {typeof mission === "string" ? (
-                        <span>{mission}</span>
-                      ) : (
-                        <>
-                          <span>{mission.text}</span>
-                          {mission.image && (
-                            <img 
-                              src={mission.image} 
-                              alt={mission.alt || "Mission visual"} 
-                              className="mission-image"
-                            />
-                          )}
-                        </>
-                      )}
-                    </div>
-                  )}
+	              
+	              return (
+	                <div 
+	                  key={`${hourKey}-${subIndex}-${dateKey}`} 
+	                  className={`hour-block ${isCurrentHalf ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
+	                  draggable
+	                  onDragStart={() => handleHourDragStart(hourKey)}
+	                  onDragOver={(e) => handleHourDragOver(e, hourKey)}
+	                  onDragEnd={handleHourDragEnd}
+	                >
+	                  <div
+	                    className="hour-row"
+	                    style={{ 
+	                      display: "flex", 
+	                      justifyContent: "space-between", 
+	                      alignItems: "center",
+	                      transition: "background-color 0.2s"
+	                    }}
+	                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
+	                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
+	                  >
+	                    <div className="hour-left">
+	                      <div className="hour-label">
+	                        <div>{timeLabel}</div>
+	                        <div
+	                          className={`hour-icon ${
+	                            isEveningHour ? "hour-icon-night" : "hour-icon-day"
+	                          }`}
+	                        />
+	                      </div>
+	                      <div className="task" style={{ whiteSpace: "pre-line" }}>{subTask}</div>
+	                    </div>
+	                  </div>
 
                   {isCurrentHalf && (
                     <div className="hour-progress">
@@ -1000,33 +933,26 @@ function TimeHack() {
           // Regular single-hour block
           const isSleepTask = task === "sleep";
           
-          return (
-            <div 
-              key={`${hourKey}-${dateKey}`} 
-              className={`hour-block ${isCurrentHour ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
-              draggable
-              onDragStart={() => handleHourDragStart(hourKey)}
-              onDragOver={(e) => handleHourDragOver(e, hourKey)}
-              onDragEnd={handleHourDragEnd}
-            >
-              {/* Clickable wrapper */}
+	          return (
+	            <div 
+	              key={`${hourKey}-${dateKey}`} 
+	              className={`hour-block ${isCurrentHour ? "current-hour" : ""} ${isSleepTask ? "sleep-task" : ""} ${isEveningHour ? "evening-hour" : ""}`}
+	              draggable
+	              onDragStart={() => handleHourDragStart(hourKey)}
+	              onDragOver={(e) => handleHourDragOver(e, hourKey)}
+	              onDragEnd={handleHourDragEnd}
+	            >
 	              <div
 	                className="hour-row"
-	                onClick={(e) => {
-	                  e.preventDefault();
-	                  e.stopPropagation();
-	                  toggleExpand(hourKey);
-	              }}
-              style={{ 
-                  cursor: "pointer", 
-                  display: "flex", 
-                  justifyContent: "space-between", 
-                  alignItems: "center",
-                  transition: "background-color 0.2s"
-              }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
-            >
+	                style={{ 
+	                  display: "flex", 
+	                  justifyContent: "space-between", 
+	                  alignItems: "center",
+	                  transition: "background-color 0.2s"
+	                }}
+	                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
+	                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
+	              >
                   <div className="hour-left">
                     <div className="hour-label">
                       <div>{String(displayHour).padStart(2, "0")}:00</div>
@@ -1090,43 +1016,21 @@ function TimeHack() {
                       </>
                     )}
                   </div>
-                  {!isEditingThisHour && (
-                    <button
-                      type="button"
-                      className="hour-edit-toggle"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        startEditingHour(hourKey, task);
-                      }}
-                    >
-                      Edit
-                    </button>
-                  )}
-	              {expandedHour === hourKey ? "▼" : "▶"}
-            </div>
-
-	              {/* Higher mission only visible when clicked */}
-	              {expandedHour === hourKey && mission && (
-                <div className="higher-mission" style={{ marginTop: "6px", padding: "6px 12px", background: "#eef9ff", borderRadius: "6px" }}>
-                  <strong>Higher Mission:</strong>{" "}
-                  {typeof mission === "string" ? (
-                    <span>{mission}</span>
-                  ) : (
-                    <>
-                      <span>{mission.text}</span>
-                      {mission.image && (
-                        <img 
-                          src={mission.image} 
-                          alt={mission.alt || "Mission visual"} 
-                          className="mission-image"
-                        />
-                      )}
-                    </>
-                  )}
-                </div>
-              )}
-
+	                  {!isEditingThisHour && (
+	                    <button
+	                      type="button"
+	                      className="hour-edit-toggle"
+	                      onClick={(e) => {
+	                        e.preventDefault();
+	                        e.stopPropagation();
+	                        startEditingHour(hourKey, task);
+	                      }}
+	                    >
+	                      Edit
+	                    </button>
+	                  )}
+	              </div>
+	              
               {isCurrentHour && (
                 <div className="hour-progress">
                   <div className="hour-progress-fill" style={{ width: `${minuteProgress}%` }}></div>

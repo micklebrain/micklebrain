@@ -21249,6 +21249,11 @@
         "name": "SPDR SSGA Fixed Income Sector Rotation ETF"
     },
     {
+        "Symbol": "FISV",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "FITE",
         "Name": "SPDR S&P Kensho Future Security ETF",
         "ownWebull": false,
@@ -58193,6 +58198,11 @@
         "Security Name": "Titan America SA Common Shares",
         "ETF": "N",
         "name": "Titan America SA Common Shares"
+    },
+    {
+        "Symbol": "TTAN",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "TTC",
