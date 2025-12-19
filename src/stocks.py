@@ -121,7 +121,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # print("number of symbols starting with A:", count)
 
 # upcoming splits - WAV, ENVB
-# upcoming delisting - BHILQ
+# upcoming delisting - BHILQ, PGRE
 stocksToAdd = []
 
 for stock in stocksToAdd:

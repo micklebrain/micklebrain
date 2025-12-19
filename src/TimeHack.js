@@ -582,6 +582,22 @@ function TimeHack() {
 
   const handleDragEnd = () => {
     setDraggingTodoId(null);
+
+    const mongoOrderedIds = todos
+      .map((todo) => String(todo.id))
+      .filter((id) => /^[0-9a-fA-F]{24}$/.test(id));
+
+    if (mongoOrderedIds.length > 0) {
+      fetch("https://lostmindsbackend.vercel.app/todos/reorder", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ ids: mongoOrderedIds }),
+      }).catch((e) => {
+        console.error("Failed to persist todos order", e);
+      });
+    }
   };
 
   const persistHourOrderToBackend = (order) => {
