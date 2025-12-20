@@ -475,7 +475,6 @@ function TimeHack() {
 	    21: {
 	      text: [
 	        "practice public speaking",
-	        "practice public speaking",
 	      ],
 	    },
     22: {

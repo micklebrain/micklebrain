@@ -1928,7 +1928,7 @@
     {
         "Symbol": "ALL",
         "Name": "Allstate Corporation (The) Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Allstate Corporation (The) Common Stock",
         "ETF": "N",
@@ -61191,7 +61191,7 @@
     {
         "Symbol": "VSCO",
         "Name": "Victorias Secret & Co. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": true,
         "Security Name": "Victorias Secret & Co. Common Stock",
         "ETF": "N",
