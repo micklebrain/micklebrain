@@ -823,7 +823,7 @@ function TimeHack() {
       </div>
       <div className="daily-todo">
         <div className="daily-todo-header">
-          <h2 className="daily-todo-title">resolute To-Do</h2>
+          <h2 className="daily-todo-title">daily To-Do's</h2>
           <div className="daily-todo-header-right">
             <div className="daily-todo-date">
               {todayWeekday && `${todayWeekday} `}{todayKey}
