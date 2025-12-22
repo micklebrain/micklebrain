@@ -54,14 +54,6 @@
         "name": "Ares Acquisition Corporation II Class A Ordinary Shares"
     },
     {
-        "Symbol": "AACT+",
-        "Name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ETF": "N"
-    },
-    {
         "Symbol": "AACT.U",
         "Name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one",
         "ownWebull": false,
@@ -74,14 +66,6 @@
         "ownWebull": false,
         "ownEtrade": false,
         "name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
-    },
-    {
-        "Symbol": "AACT=",
-        "Name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "AAL",

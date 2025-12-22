@@ -137,15 +137,35 @@ function TimeHack() {
   const getTimeUntilLongevity = (now) => {
     const diffMs = LONGEVITY_DEADLINE - now;
     if (diffMs <= 0) {
-      return { years: 0, days: 0, hours: 0 };
+      return { years: 0, months: 0, days: 0, hours: 0 };
     }
+
     const yearsLeft = Math.max(0, LONGEVITY_TARGET_AGE - getAgeOnDate(now));
+
+    // Total months difference (approx. by calendar months, adjusting for day-of-month)
+    let yearDiff = LONGEVITY_DEADLINE.getFullYear() - now.getFullYear();
+    let monthDiff = LONGEVITY_DEADLINE.getMonth() - now.getMonth();
+    let totalMonths = yearDiff * 12 + monthDiff;
+    if (LONGEVITY_DEADLINE.getDate() < now.getDate()) {
+      totalMonths -= 1;
+    }
+    if (totalMonths < 0) totalMonths = 0;
+
     const totalHours = Math.floor(diffMs / (1000 * 60 * 60));
     const totalDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-    return { years: yearsLeft, days: totalDays, hours: totalHours };
+
+    return {
+      years: yearsLeft,
+      months: totalMonths,
+      days: totalDays,
+      hours: totalHours,
+    };
   };
 
   const longevityLeft = getTimeUntilLongevity(currentTime);
+
+  const formatNumber = (value) =>
+    typeof value === "number" ? value.toLocaleString() : value;
 
   const todayKey = formatDateKey(currentTime);
   const todayWeekday = getWeekdayLabel(todayKey);
@@ -773,18 +793,30 @@ function TimeHack() {
       <h1>TimeHack</h1>
       <CharacterStats />      
       <div className="longevity-card">
-        <div className="longevity-title">Time left until age 120</div>
+        <div className="longevity-title">Time left</div>
         <div className="longevity-metrics">
           <div className="longevity-metric">
-            <span className="longevity-number">{longevityLeft.years}</span>
+            <span className="longevity-number">
+              {formatNumber(longevityLeft.years)}
+            </span>
             <span className="longevity-label">years</span>
           </div>
           <div className="longevity-metric">
-            <span className="longevity-number">{longevityLeft.days}</span>
+            <span className="longevity-number">
+              {formatNumber(longevityLeft.months)}
+            </span>
+            <span className="longevity-label">months</span>
+          </div>
+          <div className="longevity-metric">
+            <span className="longevity-number">
+              {formatNumber(longevityLeft.days)}
+            </span>
             <span className="longevity-label">days</span>
           </div>
           <div className="longevity-metric">
-            <span className="longevity-number">{longevityLeft.hours}</span>
+            <span className="longevity-number">
+              {formatNumber(longevityLeft.hours)}
+            </span>
             <span className="longevity-label">hours</span>
           </div>
         </div>
