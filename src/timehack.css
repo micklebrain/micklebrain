@@ -38,6 +38,48 @@ body {
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   }
 
+  .longevity-card {
+    margin: 12px 0 20px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #f0f9ff;
+    border: 1px solid #bae6fd;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .longevity-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0369a1;
+  }
+
+  .longevity-metrics {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .longevity-metric {
+    display: flex;
+    flex-direction: column;
+    min-width: 80px;
+  }
+
+  .longevity-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .longevity-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+  }
+
   .daily-todo-header {
     display: flex;
     justify-content: space-between;

@@ -127,6 +127,26 @@ function TimeHack() {
     return WEEKDAY_NAMES[index] ?? "";
   };
 
+  const LONGEVITY_TARGET_AGE = 120;
+  const LONGEVITY_DEADLINE = new Date(
+    BIRTHDATE.getFullYear() + LONGEVITY_TARGET_AGE,
+    BIRTHDATE.getMonth(),
+    BIRTHDATE.getDate()
+  );
+
+  const getTimeUntilLongevity = (now) => {
+    const diffMs = LONGEVITY_DEADLINE - now;
+    if (diffMs <= 0) {
+      return { years: 0, days: 0, hours: 0 };
+    }
+    const yearsLeft = Math.max(0, LONGEVITY_TARGET_AGE - getAgeOnDate(now));
+    const totalHours = Math.floor(diffMs / (1000 * 60 * 60));
+    const totalDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    return { years: yearsLeft, days: totalDays, hours: totalHours };
+  };
+
+  const longevityLeft = getTimeUntilLongevity(currentTime);
+
   const todayKey = formatDateKey(currentTime);
   const todayWeekday = getWeekdayLabel(todayKey);
   const tomorrow = new Date(currentTime);
@@ -752,6 +772,23 @@ function TimeHack() {
     <div className="timehack">
       <h1>TimeHack</h1>
       <CharacterStats />      
+      <div className="longevity-card">
+        <div className="longevity-title">Time left until age 120</div>
+        <div className="longevity-metrics">
+          <div className="longevity-metric">
+            <span className="longevity-number">{longevityLeft.years}</span>
+            <span className="longevity-label">years</span>
+          </div>
+          <div className="longevity-metric">
+            <span className="longevity-number">{longevityLeft.days}</span>
+            <span className="longevity-label">days</span>
+          </div>
+          <div className="longevity-metric">
+            <span className="longevity-number">{longevityLeft.hours}</span>
+            <span className="longevity-label">hours</span>
+          </div>
+        </div>
+      </div>
       <div className="daily-todo">
         <div className="daily-todo-header">
           <h2 className="daily-todo-title">resolute To-Do</h2>
