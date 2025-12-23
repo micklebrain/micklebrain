@@ -757,17 +757,51 @@ function TimeHack() {
   const minuteProgress = (currentTime.getMinutes() / 60) * 100;
   const weekdayIndex = currentTime.getDay(); // 0 (Sun) - 6 (Sat)
 
-  const handleAddTodo = (e) => {
+  const handleAddTodo = async (e) => {
     e.preventDefault();
     const trimmed = newTodo.trim();
     if (!trimmed) return;
     const tags = parseTags(newTodoTags);
-    setTodos(prev => [
+    const tempId = Date.now();
+    setTodos((prev) => [
       ...prev,
-      { id: Date.now(), text: trimmed, done: false, tags }
+      { id: tempId, text: trimmed, done: false, tags },
     ]);
     setNewTodo("");
     setNewTodoTags("");
+
+    try {
+      const response = await fetch(
+        "https://lostmindsbackend.vercel.app/todos",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name: trimmed, tags }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to create todo");
+      }
+
+      const data = await response.json();
+      const backendId =
+        data?.id ||
+        data?.todo?._id ||
+        data?.todo?.id;
+
+      if (backendId) {
+        setTodos((prev) =>
+          prev.map((todo) =>
+            todo.id === tempId ? { ...todo, id: backendId } : todo
+          )
+        );
+      }
+    } catch (e) {
+      console.error("Failed to save todo to backend", e);
+    }
   };
 
   const startEditingTodoTags = (todo) => {
