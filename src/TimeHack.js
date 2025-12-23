@@ -27,6 +27,10 @@ function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
+  const [newTodoTags, setNewTodoTags] = useState("");
+  const [dailyTodoTagFilter, setDailyTodoTagFilter] = useState("");
+  const [editingTodoTagsId, setEditingTodoTagsId] = useState(null);
+  const [editingTodoTagsText, setEditingTodoTagsText] = useState("");
   const [draggingTodoId, setDraggingTodoId] = useState(null);
   const [hourOrder, setHourOrder] = useState(null);
   const [initialHourOrder, setInitialHourOrder] = useState(null);
@@ -177,11 +181,40 @@ function TimeHack() {
     // "stop and talk to hot girl",
   ];
 
+  const parseTags = (value) => {
+    if (!value) return [];
+    const tags = value
+      .split(",")
+      .map((tag) => tag.trim().toLowerCase())
+      .filter((tag) => tag.length > 0);
+    return Array.from(new Set(tags));
+  };
+
+  const formatTagsInput = (tags) =>
+    Array.isArray(tags) ? tags.join(", ") : "";
+
+  const normalizeTodo = (todo) => {
+    if (!todo || typeof todo !== "object") return null;
+    const rawTags = Array.isArray(todo.tags)
+      ? todo.tags.join(",")
+      : typeof todo.tags === "string"
+      ? todo.tags
+      : "";
+    const tags = parseTags(rawTags);
+    return {
+      id: todo.id,
+      text: typeof todo.text === "string" ? todo.text : "",
+      done: !!todo.done,
+      tags,
+    };
+  };
+
   const buildDefaultTodos = () =>
     defaultDailyTodos.map((text, index) => ({
       id: Date.now() + index,
       text,
       done: false,
+      tags: [],
     }));
 
   const fetchTodosFromBackend = async () => {
@@ -205,11 +238,12 @@ function TimeHack() {
         if (!text) return null;
         const rawId =
           (item._id && (item._id.$oid || item._id)) ?? Date.now() + index;
-        return {
+        return normalizeTodo({
           id: rawId,
           text,
           done: !!item.isCompleted,
-        };
+          tags: [],
+        });
       })
       .filter(Boolean);
 
@@ -226,7 +260,10 @@ function TimeHack() {
         if (stored) {
           const parsed = JSON.parse(stored);
           if (Array.isArray(parsed) && parsed.length > 0) {
-            if (!cancelled) setTodos(parsed);
+            const normalized = parsed
+              .map(normalizeTodo)
+              .filter((todo) => todo && todo.text);
+            if (!cancelled) setTodos(normalized);
             return;
           }
         }
@@ -556,11 +593,32 @@ function TimeHack() {
     e.preventDefault();
     const trimmed = newTodo.trim();
     if (!trimmed) return;
+    const tags = parseTags(newTodoTags);
     setTodos(prev => [
       ...prev,
-      { id: Date.now(), text: trimmed, done: false }
+      { id: Date.now(), text: trimmed, done: false, tags }
     ]);
     setNewTodo("");
+    setNewTodoTags("");
+  };
+
+  const startEditingTodoTags = (todo) => {
+    setEditingTodoTagsId(todo.id);
+    setEditingTodoTagsText(formatTagsInput(todo.tags));
+  };
+
+  const cancelEditingTodoTags = () => {
+    setEditingTodoTagsId(null);
+    setEditingTodoTagsText("");
+  };
+
+  const saveEditingTodoTags = (id) => {
+    const tags = parseTags(editingTodoTagsText);
+    setTodos((prev) =>
+      prev.map((todo) => (todo.id === id ? { ...todo, tags } : todo))
+    );
+    setEditingTodoTagsId(null);
+    setEditingTodoTagsText("");
   };
 
 	  const toggleTodo = (id) => {
@@ -788,6 +846,27 @@ function TimeHack() {
   const jlptCompletedCount = jlptProgress.filter((l) => l.completed).length;
   const topikCompletedCount = topikProgress.filter((l) => l.completed).length;
 
+  const dailyTodoTags = Array.from(
+    new Set(
+      todos.flatMap((todo) =>
+        Array.isArray(todo.tags) ? todo.tags : []
+      )
+    )
+  );
+
+  const filteredTodos = dailyTodoTagFilter
+    ? todos.filter((todo) =>
+        Array.isArray(todo.tags) &&
+        todo.tags.includes(dailyTodoTagFilter)
+      )
+    : todos;
+
+  useEffect(() => {
+    if (dailyTodoTagFilter && !dailyTodoTags.includes(dailyTodoTagFilter)) {
+      setDailyTodoTagFilter("");
+    }
+  }, [dailyTodoTagFilter, dailyTodoTags]);
+
   return (
     <div className="timehack">
       <h1>TimeHack</h1>
@@ -852,15 +931,48 @@ function TimeHack() {
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
           />
+          <input
+            type="text"
+            className="daily-todo-input daily-todo-tags-input"
+            placeholder="Tags (comma separated)"
+            value={newTodoTags}
+            onChange={(e) => setNewTodoTags(e.target.value)}
+          />
           <button type="submit" className="daily-todo-add-btn">
             Add
           </button>
         </form>
+        {dailyTodoTags.length > 0 && (
+          <div className="daily-todo-tags-filter">
+            <span className="daily-todo-tags-label">Filter:</span>
+            <button
+              type="button"
+              className={`daily-todo-tag ${
+                dailyTodoTagFilter ? "" : "daily-todo-tag-active"
+              }`}
+              onClick={() => setDailyTodoTagFilter("")}
+            >
+              All
+            </button>
+            {dailyTodoTags.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                className={`daily-todo-tag ${
+                  dailyTodoTagFilter === tag ? "daily-todo-tag-active" : ""
+                }`}
+                onClick={() => setDailyTodoTagFilter(tag)}
+              >
+                {tag.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        )}
         <ul className="daily-todo-list">
-          {todos.length === 0 ? (
+          {filteredTodos.length === 0 ? (
             <li className="daily-todo-empty">No tasks yet. Add one above.</li>
           ) : (
-            todos.map((todo) => (
+            filteredTodos.map((todo) => (
               <li
                 key={todo.id}
                 draggable
@@ -869,21 +981,73 @@ function TimeHack() {
                 onDragEnd={handleDragEnd}
                 className={`daily-todo-item ${todo.done ? "done" : ""}`}
               >
-                <label className="daily-todo-label">
-                  <input
-                    type="checkbox"
-                    checked={todo.done}
-                    onChange={() => toggleTodo(todo.id)}
-                  />
-                  <span className="daily-todo-text">{todo.text}</span>
-                </label>
-                <button
-                  type="button"
-                  className="daily-todo-remove-btn"
-                  onClick={() => removeTodo(todo.id)}
-                >
-                  ✕
-                </button>
+                <div className="daily-todo-content">
+                  <label className="daily-todo-label">
+                    <input
+                      type="checkbox"
+                      checked={todo.done}
+                      onChange={() => toggleTodo(todo.id)}
+                    />
+                    <span className="daily-todo-text">{todo.text}</span>
+                  </label>
+                  {Array.isArray(todo.tags) && todo.tags.length > 0 && (
+                    <div className="daily-todo-tags">
+                      {todo.tags.map((tag) => (
+                        <button
+                          key={`${todo.id}-${tag}`}
+                          type="button"
+                          className="daily-todo-tag"
+                          onClick={() => setDailyTodoTagFilter(tag)}
+                        >
+                          {tag.toUpperCase()}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  {editingTodoTagsId === todo.id && (
+                    <div className="daily-todo-tag-editor">
+                      <input
+                        type="text"
+                        className="daily-todo-input daily-todo-tag-editor-input"
+                        value={editingTodoTagsText}
+                        onChange={(e) => setEditingTodoTagsText(e.target.value)}
+                        placeholder="Tags (comma separated)"
+                      />
+                      <div className="daily-todo-tag-editor-actions">
+                        <button
+                          type="button"
+                          className="daily-todo-tag-edit-save"
+                          onClick={() => saveEditingTodoTags(todo.id)}
+                        >
+                          Save
+                        </button>
+                        <button
+                          type="button"
+                          className="daily-todo-tag-edit-cancel"
+                          onClick={cancelEditingTodoTags}
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+                <div className="daily-todo-actions">
+                  <button
+                    type="button"
+                    className="daily-todo-tag-edit-btn"
+                    onClick={() => startEditingTodoTags(todo)}
+                  >
+                    Tags
+                  </button>
+                  <button
+                    type="button"
+                    className="daily-todo-remove-btn"
+                    onClick={() => removeTodo(todo.id)}
+                  >
+                    ✕
+                  </button>
+                </div>
               </li>
             ))
           )}

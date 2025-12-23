@@ -1,8 +1,7 @@
 const datedTasks = {    
-    "2025-12-22": { 18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] },
+    "2025-12-23": { 18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] },
                     19: { text: "use Stubhub Chase Sapphire $150 credit for Sumo wrestling @ Ryogoku Kokugikan or Black Pink, Tokyo, Japan", tags: ["dumb rich"] },
-                    20: { text: "use $250 credit for The Edit Chase Sapphire Reserve", tags: ["dumb rich"] } },
-    "2025-12-23": { 18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] } },
+                    20: { text: "use $250 credit for The Edit Chase Sapphire Reserve", tags: ["dumb rich"] }, },
     "2025-12-24": { 18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] } },
     "2025-12-25": { 18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] } },
     "2025-12-26": { 18: { text: "film stocks part 2 update for Youtube", tags: ["motion"] } },
