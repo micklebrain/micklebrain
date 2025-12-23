@@ -65,11 +65,7 @@ function TagTasks() {
         if (!response.ok) return;
         const data = await response.json();
         const normalized = normalizeDatedTasks(data && data.tasks);
-        if (
-          normalized &&
-          Object.keys(normalized).length > 0 &&
-          !cancelled
-        ) {
+        if (normalized && Object.keys(normalized).length > 0 && !cancelled) {
           setDatedTasksState(normalized);
           try {
             localStorage.setItem(
@@ -79,6 +75,20 @@ function TagTasks() {
           } catch {
             // ignore write errors
           }
+          return;
+        }
+
+        if (!cancelled) {
+          const seedTasks = datedTasksState;
+          fetch("https://lostmindsbackend.vercel.app/datedTasks", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ tasks: seedTasks }),
+          }).catch((e) => {
+            console.error("Failed to seed dated tasks", e);
+          });
         }
       } catch {
         // ignore network errors

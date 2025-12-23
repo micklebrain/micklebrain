@@ -1,5 +1,4 @@
 import { useEffect, useState, Fragment } from "react";
-import { useHistory } from "react-router-dom";
 import "./timehack.css";
 
 import CharacterStats from "./CharacterStats";
@@ -159,7 +158,6 @@ function TimeHack() {
     }
     return TOPIK_LEVELS.map((level) => ({ level, completed: false }));
   });
-  const history = useHistory();
 
   useEffect(() => {
     const interval = setInterval(() => setCurrentTime(new Date()), 30000);
@@ -606,12 +604,30 @@ function TimeHack() {
         if (!response.ok) return;
         const data = await response.json();
         const normalized = normalizeDatedTasks(data && data.tasks);
-        if (
-          normalized &&
-          Object.keys(normalized).length > 0 &&
-          !cancelled
-        ) {
+        if (normalized && Object.keys(normalized).length > 0 && !cancelled) {
           setDatedTasksState(normalized);
+          try {
+            localStorage.setItem(
+              "timehack-dated-tasks",
+              JSON.stringify(normalized)
+            );
+          } catch {
+            // ignore write errors
+          }
+          return;
+        }
+
+        if (!cancelled) {
+          const seedTasks = datedTasksState;
+          fetch("https://lostmindsbackend.vercel.app/datedTasks", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ tasks: seedTasks }),
+          }).catch((e) => {
+            console.error("Failed to seed dated tasks", e);
+          });
         }
       } catch {
         // ignore network errors; fall back to local/default tasks
@@ -1410,16 +1426,9 @@ function TimeHack() {
                           {subIndex === 0 && (
                             <>
                               {effectiveTaskTags.map((tag) => (
-                                <button
-                                  key={tag}
-                                  type="button"
-                                  className="dated-tasks-tag"
-                                  onClick={() => {
-                                    history.push(`/tags/${tag}`);
-                                  }}
-                                >
+                                <span key={tag} className="dated-tasks-tag">
                                   {tag.toUpperCase()}
-                                </button>
+                                </span>
                               ))}
                               {isEditingThisHourTags && (
                                 <div className="hour-tags-editor">
@@ -1555,16 +1564,9 @@ function TimeHack() {
                           {task}
                         </div>
                         {effectiveTaskTags.map((tag) => (
-                          <button
-                            key={tag}
-                            type="button"
-                            className="dated-tasks-tag"
-                            onClick={() => {
-                              history.push(`/tags/${tag}`);
-                            }}
-                          >
+                          <span key={tag} className="dated-tasks-tag">
                             {tag.toUpperCase()}
-                          </button>
+                          </span>
                         ))}
                         {isEditingThisHourTags && (
                           <div className="hour-tags-editor">
@@ -1698,16 +1700,9 @@ function TimeHack() {
         {allDatedTaskTags.length > 0 && (
           <div className="dated-tasks-tags-summary">
             {allDatedTaskTags.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                className="dated-tasks-tag"
-                onClick={() => {
-                  history.push(`/tags/${tag}`);
-                }}
-              >
+              <span key={tag} className="dated-tasks-tag">
                 {tag.toUpperCase()}
-              </button>
+              </span>
             ))}
           </div>
         )}
@@ -1788,16 +1783,9 @@ function TimeHack() {
                                 {taskText}
                               </span>
                               {tags.map((tag) => (
-                                <button
-                                  key={tag}
-                                  type="button"
-                                  className="dated-tasks-tag"
-                                  onClick={() => {
-                                    history.push(`/tags/${tag}`);
-                                  }}
-                                >
+                                <span key={tag} className="dated-tasks-tag">
                                   {tag.toUpperCase()}
-                                </button>
+                                </span>
                               ))}
                               {isEditingDatedTags && (
                                 <div className="dated-tags-editor">
