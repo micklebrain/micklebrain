@@ -303,7 +303,7 @@ function TimeHack() {
           id: rawId,
           text,
           done: !!item.isCompleted,
-          tags: [],
+          tags: item.tags || [],
         });
       })
       .filter(Boolean);
@@ -787,6 +787,24 @@ function TimeHack() {
     );
     setEditingTodoTagsId(null);
     setEditingTodoTagsText("");
+
+    const isLikelyMongoId = /^[0-9a-fA-F]{24}$/.test(String(id));
+    if (isLikelyMongoId) {
+      fetch(
+        `https://lostmindsbackend.vercel.app/todos/${encodeURIComponent(
+          String(id)
+        )}/tags`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ tags }),
+        }
+      ).catch((e) => {
+        console.error("Failed to save todo tags", e);
+      });
+    }
   };
 
 	  const toggleTodo = (id) => {
