@@ -1,4 +1,5 @@
 import { useEffect, useState, Fragment } from "react";
+import { useHistory } from "react-router-dom";
 import "./timehack.css";
 
 import CharacterStats from "./CharacterStats";
@@ -61,6 +62,7 @@ const normalizeDatedTasks = (input) => {
 };
 
 function TimeHack() {
+  const history = useHistory();
   const [currentTime, setCurrentTime] = useState(new Date());
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
@@ -804,6 +806,20 @@ function TimeHack() {
     }
   };
 
+  const navigateToTagPage = (tag) => {
+    const tagValue = String(tag || "").trim().toLowerCase();
+    if (!tagValue) return;
+    history.push(`/tags/${encodeURIComponent(tagValue)}`);
+  };
+
+  const handleTagClick = (event, tag) => {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    navigateToTagPage(tag);
+  };
+
   const startEditingTodoTags = (todo) => {
     setEditingTodoTagsId(todo.id);
     setEditingTodoTagsText(formatTagsInput(todo.tags));
@@ -1478,9 +1494,14 @@ function TimeHack() {
                           {subIndex === 0 && (
                             <>
                               {effectiveTaskTags.map((tag) => (
-                                <span key={tag} className="dated-tasks-tag">
+                                <button
+                                  key={tag}
+                                  type="button"
+                                  className="dated-tasks-tag"
+                                  onClick={(e) => handleTagClick(e, tag)}
+                                >
                                   {tag.toUpperCase()}
-                                </span>
+                                </button>
                               ))}
                               {isEditingThisHourTags && (
                                 <div className="hour-tags-editor">
@@ -1616,9 +1637,14 @@ function TimeHack() {
                           {task}
                         </div>
                         {effectiveTaskTags.map((tag) => (
-                          <span key={tag} className="dated-tasks-tag">
+                          <button
+                            key={tag}
+                            type="button"
+                            className="dated-tasks-tag"
+                            onClick={(e) => handleTagClick(e, tag)}
+                          >
                             {tag.toUpperCase()}
-                          </span>
+                          </button>
                         ))}
                         {isEditingThisHourTags && (
                           <div className="hour-tags-editor">
@@ -1752,9 +1778,14 @@ function TimeHack() {
         {allDatedTaskTags.length > 0 && (
           <div className="dated-tasks-tags-summary">
             {allDatedTaskTags.map((tag) => (
-              <span key={tag} className="dated-tasks-tag">
+              <button
+                key={tag}
+                type="button"
+                className="dated-tasks-tag"
+                onClick={(e) => handleTagClick(e, tag)}
+              >
                 {tag.toUpperCase()}
-              </span>
+              </button>
             ))}
           </div>
         )}
@@ -1835,9 +1866,14 @@ function TimeHack() {
                                 {taskText}
                               </span>
                               {tags.map((tag) => (
-                                <span key={tag} className="dated-tasks-tag">
+                                <button
+                                  key={tag}
+                                  type="button"
+                                  className="dated-tasks-tag"
+                                  onClick={(e) => handleTagClick(e, tag)}
+                                >
                                   {tag.toUpperCase()}
-                                </span>
+                                </button>
                               ))}
                               {isEditingDatedTags && (
                                 <div className="dated-tags-editor">
