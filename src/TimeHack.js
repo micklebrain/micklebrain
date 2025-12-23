@@ -23,6 +23,44 @@ const MONTH_NAMES = [
 ];
 const WEEKDAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+const parseTags = (value) => {
+  if (!value) return [];
+  const tags = value
+    .split(",")
+    .map((tag) => tag.trim().toLowerCase())
+    .filter((tag) => tag.length > 0);
+  return Array.from(new Set(tags));
+};
+
+const formatTagsInput = (tags) =>
+  Array.isArray(tags) ? tags.join(", ") : "";
+
+const normalizeDatedTasks = (input) => {
+  if (!input || typeof input !== "object") return null;
+  const normalized = {};
+  Object.entries(input).forEach(([date, tasksForDate]) => {
+    if (!tasksForDate || typeof tasksForDate !== "object") return;
+    const dayTasks = {};
+    Object.entries(tasksForDate).forEach(([hour, value]) => {
+      if (typeof value === "string") {
+        dayTasks[hour] = value;
+      } else if (value && typeof value === "object") {
+        const rawTags = Array.isArray(value.tags)
+          ? value.tags.join(",")
+          : typeof value.tags === "string"
+          ? value.tags
+          : "";
+        dayTasks[hour] = {
+          text: value.text || "",
+          tags: parseTags(rawTags),
+        };
+      }
+    });
+    normalized[date] = dayTasks;
+  });
+  return normalized;
+};
+
 function TimeHack() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [todos, setTodos] = useState([]);
@@ -38,6 +76,43 @@ function TimeHack() {
   const [hourTaskOverrides, setHourTaskOverrides] = useState({});
   const [editingHourKey, setEditingHourKey] = useState(null);
   const [editingHourText, setEditingHourText] = useState("");
+  const [hourTagOverrides, setHourTagOverrides] = useState(() => {
+    try {
+      const stored = localStorage.getItem("timehack-hour-tags");
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed && typeof parsed === "object") {
+          const mapped = {};
+          Object.entries(parsed).forEach(([key, value]) => {
+            const hour = Number(key);
+            if (!Number.isInteger(hour) || hour < 0 || hour >= 24) return;
+            mapped[hour] = Array.isArray(value) ? value : [];
+          });
+          return mapped;
+        }
+      }
+    } catch {
+      // ignore read errors
+    }
+    return {};
+  });
+  const [editingHourTagsKey, setEditingHourTagsKey] = useState(null);
+  const [editingHourTagsText, setEditingHourTagsText] = useState("");
+  const [datedTasksState, setDatedTasksState] = useState(() => {
+    try {
+      const stored = localStorage.getItem("timehack-dated-tasks");
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        const normalized = normalizeDatedTasks(parsed);
+        if (normalized) return normalized;
+      }
+    } catch {
+      // ignore read errors
+    }
+    return normalizeDatedTasks(datedTasks);
+  });
+  const [editingDatedTagsKey, setEditingDatedTagsKey] = useState(null);
+  const [editingDatedTagsText, setEditingDatedTagsText] = useState("");
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -181,18 +256,6 @@ function TimeHack() {
     // "stop and talk to hot girl",
   ];
 
-  const parseTags = (value) => {
-    if (!value) return [];
-    const tags = value
-      .split(",")
-      .map((tag) => tag.trim().toLowerCase())
-      .filter((tag) => tag.length > 0);
-    return Array.from(new Set(tags));
-  };
-
-  const formatTagsInput = (tags) =>
-    Array.isArray(tags) ? tags.join(", ") : "";
-
   const normalizeTodo = (todo) => {
     if (!todo || typeof todo !== "object") return null;
     const rawTags = Array.isArray(todo.tags)
@@ -324,6 +387,28 @@ function TimeHack() {
       // ignore write errors
     }
   }, [todos, todayKey]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        "timehack-hour-tags",
+        JSON.stringify(hourTagOverrides)
+      );
+    } catch {
+      // ignore write errors
+    }
+  }, [hourTagOverrides]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        "timehack-dated-tasks",
+        JSON.stringify(datedTasksState)
+      );
+    } catch {
+      // ignore write errors
+    }
+  }, [datedTasksState]);
 
   useEffect(() => {
     try {
@@ -467,6 +552,73 @@ function TimeHack() {
     };
 
     loadHourTasks();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadHourTags = async () => {
+      try {
+        const response = await fetch(
+          "https://lostmindsbackend.vercel.app/hourTags"
+        );
+        if (!response.ok) return;
+        const data = await response.json();
+        const rawTags = data && data.tags;
+        if (!rawTags || typeof rawTags !== "object") return;
+
+        const mapped = {};
+        Object.entries(rawTags).forEach(([key, value]) => {
+          const hour = Number(key);
+          if (!Number.isInteger(hour) || hour < 0 || hour >= 24) return;
+          if (Array.isArray(value)) {
+            mapped[hour] = parseTags(value.join(","));
+          }
+        });
+
+        if (!cancelled) {
+          setHourTagOverrides(mapped);
+        }
+      } catch {
+        // ignore network errors; fall back to defaults
+      }
+    };
+
+    loadHourTags();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadDatedTasks = async () => {
+      try {
+        const response = await fetch(
+          "https://lostmindsbackend.vercel.app/datedTasks"
+        );
+        if (!response.ok) return;
+        const data = await response.json();
+        const normalized = normalizeDatedTasks(data && data.tasks);
+        if (
+          normalized &&
+          Object.keys(normalized).length > 0 &&
+          !cancelled
+        ) {
+          setDatedTasksState(normalized);
+        }
+      } catch {
+        // ignore network errors; fall back to local/default tasks
+      }
+    };
+
+    loadDatedTasks();
 
     return () => {
       cancelled = true;
@@ -825,13 +977,100 @@ function TimeHack() {
     });
   };
 
-  const upcomingDatedTasks = Object.entries(datedTasks)
+  const startEditingHourTags = (hourKey, tags) => {
+    setEditingHourTagsKey(hourKey);
+    setEditingHourTagsText(formatTagsInput(tags));
+  };
+
+  const cancelEditingHourTags = () => {
+    setEditingHourTagsKey(null);
+    setEditingHourTagsText("");
+  };
+
+  const saveEditingHourTags = (hourKey) => {
+    const tags = parseTags(editingHourTagsText);
+    setHourTagOverrides((prev) => ({
+      ...prev,
+      [hourKey]: tags,
+    }));
+    setEditingHourTagsKey(null);
+    setEditingHourTagsText("");
+
+    fetch(
+      `https://lostmindsbackend.vercel.app/hourTags/${encodeURIComponent(
+        String(hourKey)
+      )}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ tags }),
+      }
+    ).catch((e) => {
+      console.error("Failed to save hour tags", e);
+    });
+  };
+
+  const startEditingDatedTags = (date, hour, tags) => {
+    setEditingDatedTagsKey(`${date}-${hour}`);
+    setEditingDatedTagsText(formatTagsInput(tags));
+  };
+
+  const cancelEditingDatedTags = () => {
+    setEditingDatedTagsKey(null);
+    setEditingDatedTagsText("");
+  };
+
+  const saveEditingDatedTags = (date, hour) => {
+    const tags = parseTags(editingDatedTagsText);
+    const currentValue = datedTasksState?.[date]?.[hour];
+    const taskText =
+      typeof currentValue === "string"
+        ? currentValue
+        : currentValue && typeof currentValue === "object"
+        ? currentValue.text || ""
+        : "";
+    setDatedTasksState((prev) => {
+      const next = { ...prev };
+      const dayTasks = { ...(next[date] || {}) };
+      const current = dayTasks[hour];
+      if (typeof current === "string") {
+        dayTasks[hour] = { text: current, tags };
+      } else if (current && typeof current === "object") {
+        dayTasks[hour] = { ...current, tags };
+      } else {
+        dayTasks[hour] = { text: "", tags };
+      }
+      next[date] = dayTasks;
+      return next;
+    });
+    setEditingDatedTagsKey(null);
+    setEditingDatedTagsText("");
+
+    fetch(
+      `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
+        String(date)
+      )}/${encodeURIComponent(String(hour))}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text: taskText, tags }),
+      }
+    ).catch((e) => {
+      console.error("Failed to save dated task tags", e);
+    });
+  };
+
+  const upcomingDatedTasks = Object.entries(datedTasksState)
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
 
   const allDatedTaskTags = Array.from(
     new Set(
-      Object.values(datedTasks).flatMap((tasksForDate) =>
+      Object.values(datedTasksState).flatMap((tasksForDate) =>
         Object.values(tasksForDate).flatMap((value) => {
           if (typeof value === "string") return [];
           const rawTags = Array.isArray(value.tags) ? value.tags : [];
@@ -1096,6 +1335,10 @@ function TimeHack() {
               taskTags = rawTags.map((t) => String(t).toLowerCase());
             }
           }
+          const overrideTags = hourTagOverrides[hourKey];
+          const effectiveTaskTags = Array.isArray(overrideTags)
+            ? overrideTags
+            : taskTags;
           const isEveningHour = displayHour >= 18 || displayHour <= 7; // 6pm (18:00) to 7am
 
           const overrideValue = hourTaskOverrides[hourKey];
@@ -1108,6 +1351,7 @@ function TimeHack() {
           // Check if task is an array (for split hours with two 30-min tasks)
           const isSplitHour = Array.isArray(task);
           const isEditingThisHour = editingHourKey === hourKey;
+          const isEditingThisHourTags = editingHourTagsKey === hourKey;
           
           if (!isEditingThisHour && isSplitHour) {
             // Render two separate 30-min blocks for split hours
@@ -1153,18 +1397,79 @@ function TimeHack() {
 	                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = isSleepTask ? "rgba(0, 0, 0, 0.05)" : "rgba(10, 165, 255, 0.05)"}
 	                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
 	                  >
-	                    <div className="hour-left">
-	                      <div className="hour-label">
-	                        <div>{timeLabel}</div>
-	                        <div
-	                          className={`hour-icon ${
-	                            isEveningHour ? "hour-icon-night" : "hour-icon-day"
-	                          }`}
-	                        />
+	                      <div className="hour-left">
+	                        <div className="hour-label">
+	                          <div>{timeLabel}</div>
+	                          <div
+	                            className={`hour-icon ${
+	                              isEveningHour ? "hour-icon-night" : "hour-icon-day"
+	                            }`}
+	                          />
+	                        </div>
+	                        <div className="task" style={{ whiteSpace: "pre-line" }}>{subTask}</div>
+                          {subIndex === 0 && (
+                            <>
+                              {effectiveTaskTags.map((tag) => (
+                                <button
+                                  key={tag}
+                                  type="button"
+                                  className="dated-tasks-tag"
+                                  onClick={() => {
+                                    history.push(`/tags/${tag}`);
+                                  }}
+                                >
+                                  {tag.toUpperCase()}
+                                </button>
+                              ))}
+                              {isEditingThisHourTags && (
+                                <div className="hour-tags-editor">
+                                  <input
+                                    type="text"
+                                    className="hour-tags-input"
+                                    value={editingHourTagsText}
+                                    onChange={(e) =>
+                                      setEditingHourTagsText(e.target.value)
+                                    }
+                                    placeholder="Tags (comma separated)"
+                                  />
+                                  <div className="hour-tags-actions">
+                                    <button
+                                      type="button"
+                                      className="hour-tags-save"
+                                      onClick={() =>
+                                        saveEditingHourTags(hourKey)
+                                      }
+                                    >
+                                      Save
+                                    </button>
+                                    <button
+                                      type="button"
+                                      className="hour-tags-cancel"
+                                      onClick={cancelEditingHourTags}
+                                    >
+                                      Cancel
+                                    </button>
+                                  </div>
+                                </div>
+                              )}
+                              {!isEditingThisHourTags && (
+                                <button
+                                  type="button"
+                                  className="hour-tags-toggle"
+                                  onClick={() =>
+                                    startEditingHourTags(
+                                      hourKey,
+                                      effectiveTaskTags
+                                    )
+                                  }
+                                >
+                                  Tags
+                                </button>
+                              )}
+                            </>
+                          )}
 	                      </div>
-	                      <div className="task" style={{ whiteSpace: "pre-line" }}>{subTask}</div>
 	                    </div>
-	                  </div>
 
                   {isCurrentHalf && (
                     <div className="hour-progress">
@@ -1249,7 +1554,7 @@ function TimeHack() {
                         >
                           {task}
                         </div>
-                        {taskTags.map((tag) => (
+                        {effectiveTaskTags.map((tag) => (
                           <button
                             key={tag}
                             type="button"
@@ -1261,21 +1566,66 @@ function TimeHack() {
                             {tag.toUpperCase()}
                           </button>
                         ))}
+                        {isEditingThisHourTags && (
+                          <div className="hour-tags-editor">
+                            <input
+                              type="text"
+                              className="hour-tags-input"
+                              value={editingHourTagsText}
+                              onChange={(e) =>
+                                setEditingHourTagsText(e.target.value)
+                              }
+                              placeholder="Tags (comma separated)"
+                            />
+                            <div className="hour-tags-actions">
+                              <button
+                                type="button"
+                                className="hour-tags-save"
+                                onClick={() => saveEditingHourTags(hourKey)}
+                              >
+                                Save
+                              </button>
+                              <button
+                                type="button"
+                                className="hour-tags-cancel"
+                                onClick={cancelEditingHourTags}
+                              >
+                                Cancel
+                              </button>
+                            </div>
+                          </div>
+                        )}
                       </>
                     )}
                   </div>
 	                  {!isEditingThisHour && (
-	                    <button
-	                      type="button"
-	                      className="hour-edit-toggle"
-	                      onClick={(e) => {
-	                        e.preventDefault();
-	                        e.stopPropagation();
-	                        startEditingHour(hourKey, task);
-	                      }}
-	                    >
-	                      Edit
-	                    </button>
+                      <div className="hour-actions">
+                        {!isEditingThisHourTags && (
+                          <button
+                            type="button"
+                            className="hour-tags-toggle"
+                            onClick={() =>
+                              startEditingHourTags(
+                                hourKey,
+                                effectiveTaskTags
+                              )
+                            }
+                          >
+                            Tags
+                          </button>
+                        )}
+                        <button
+                          type="button"
+                          className="hour-edit-toggle"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            startEditingHour(hourKey, task);
+                          }}
+                        >
+                          Edit
+                        </button>
+                      </div>
 	                  )}
 	              </div>
 	              
@@ -1423,6 +1773,8 @@ function TimeHack() {
                             const rawTags = Array.isArray(value.tags) ? value.tags : [];
                             tags = rawTags.map((t) => String(t).toLowerCase());
                           }
+                          const isEditingDatedTags =
+                            editingDatedTagsKey === `${date}-${hour}`;
 
                           return (
                             <li
@@ -1447,6 +1799,48 @@ function TimeHack() {
                                   {tag.toUpperCase()}
                                 </button>
                               ))}
+                              {isEditingDatedTags && (
+                                <div className="dated-tags-editor">
+                                  <input
+                                    type="text"
+                                    className="dated-tags-input"
+                                    value={editingDatedTagsText}
+                                    onChange={(e) =>
+                                      setEditingDatedTagsText(e.target.value)
+                                    }
+                                    placeholder="Tags (comma separated)"
+                                  />
+                                  <div className="dated-tags-actions">
+                                    <button
+                                      type="button"
+                                      className="dated-tags-save"
+                                      onClick={() =>
+                                        saveEditingDatedTags(date, hour)
+                                      }
+                                    >
+                                      Save
+                                    </button>
+                                    <button
+                                      type="button"
+                                      className="dated-tags-cancel"
+                                      onClick={cancelEditingDatedTags}
+                                    >
+                                      Cancel
+                                    </button>
+                                  </div>
+                                </div>
+                              )}
+                              {!isEditingDatedTags && (
+                                <button
+                                  type="button"
+                                  className="dated-tags-toggle"
+                                  onClick={() =>
+                                    startEditingDatedTags(date, hour, tags)
+                                  }
+                                >
+                                  Tags
+                                </button>
+                              )}
                             </li>
                           );
                         })}

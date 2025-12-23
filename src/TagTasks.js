@@ -1,14 +1,100 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import datedTasks from "./datedTasks";
+
+const parseTags = (value) => {
+  if (!value) return [];
+  const tags = value
+    .split(",")
+    .map((tag) => tag.trim().toLowerCase())
+    .filter((tag) => tag.length > 0);
+  return Array.from(new Set(tags));
+};
+
+const normalizeDatedTasks = (input) => {
+  if (!input || typeof input !== "object") return null;
+  const normalized = {};
+  Object.entries(input).forEach(([date, tasksForDate]) => {
+    if (!tasksForDate || typeof tasksForDate !== "object") return;
+    const dayTasks = {};
+    Object.entries(tasksForDate).forEach(([hour, value]) => {
+      if (typeof value === "string") {
+        dayTasks[hour] = value;
+      } else if (value && typeof value === "object") {
+        const rawTags = Array.isArray(value.tags)
+          ? value.tags.join(",")
+          : typeof value.tags === "string"
+          ? value.tags
+          : "";
+        dayTasks[hour] = {
+          text: value.text || "",
+          tags: parseTags(rawTags),
+        };
+      }
+    });
+    normalized[date] = dayTasks;
+  });
+  return normalized;
+};
 
 function TagTasks() {
   const { tag } = useParams();
   const tagKey = (tag || "").toLowerCase();
+  const [datedTasksState, setDatedTasksState] = useState(() => {
+    try {
+      const stored = localStorage.getItem("timehack-dated-tasks");
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        const normalized = normalizeDatedTasks(parsed);
+        if (normalized) return normalized;
+      }
+    } catch {
+      // ignore read errors
+    }
+    return normalizeDatedTasks(datedTasks) || {};
+  });
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadDatedTasks = async () => {
+      try {
+        const response = await fetch(
+          "https://lostmindsbackend.vercel.app/datedTasks"
+        );
+        if (!response.ok) return;
+        const data = await response.json();
+        const normalized = normalizeDatedTasks(data && data.tasks);
+        if (
+          normalized &&
+          Object.keys(normalized).length > 0 &&
+          !cancelled
+        ) {
+          setDatedTasksState(normalized);
+          try {
+            localStorage.setItem(
+              "timehack-dated-tasks",
+              JSON.stringify(normalized)
+            );
+          } catch {
+            // ignore write errors
+          }
+        }
+      } catch {
+        // ignore network errors
+      }
+    };
+
+    loadDatedTasks();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const entries = [];
 
-  Object.entries(datedTasks).forEach(([date, tasksForDate]) => {
+  Object.entries(datedTasksState).forEach(([date, tasksForDate]) => {
     Object.entries(tasksForDate).forEach(([hour, value]) => {
       let text = "";
       let tags = [];
