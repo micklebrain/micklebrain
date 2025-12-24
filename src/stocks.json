@@ -10744,12 +10744,6 @@
         "name": "CompX International Inc. Common Stock"
     },
     {
-        "Symbol": "CJET",
-        "Name": "Chijet Motor Company",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "CKX",
         "Name": "CKX Lands, Inc. Common Stock",
         "ownWebull": false,
