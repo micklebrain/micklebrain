@@ -788,6 +788,11 @@
         "name": "Adient plc Ordinary Shares"
     },
     {
+        "Symbol": "ADP",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ADPV",
         "Name": "Series Portfolios Trust Adaptiv Select ETF",
         "ownWebull": false,
