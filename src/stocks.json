@@ -13901,6 +13901,11 @@
         "name": "DoubleLine ETF Trust DoubleLine Commercial Real Estate ETF"
     },
     {
+        "Symbol": "DCX",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "DD",
         "Name": "DuPont de Nemours, Inc. Common Stock",
         "ownWebull": false,
@@ -34426,7 +34431,7 @@
         "name": "Lazard, Inc. Common Stock"
     },
     {
-        "Symbol": "LAZR",
+        "Symbol": "LAZRQ",
         "Name": "Luminar Technologies Inc",
         "ownWebull": true,
         "ownEtrade": false
@@ -36840,8 +36845,8 @@
         "name": "NYLI CBRE Global Infrastructure Megatrends Term Fund Common Shares"
     },
     {
-        "Symbol": "MEHCQ",
-        "Name": "Chrome Holding Co",
+        "Symbol": "MEHCQWB",
+        "Name": "Chrome Holdings",
         "ownWebull": true,
         "ownEtrade": false
     },
@@ -44561,7 +44566,7 @@
     {
         "Symbol": "PGRE",
         "Name": "Paramount Group, Inc. Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "Security Name": "Paramount Group, Inc. Common Stock",
         "ETF": "N",
@@ -58221,7 +58226,7 @@
         "name": "Tetra Technologies, Inc. Common Stock"
     },
     {
-        "Symbol": "TTSH",
+        "Symbol": "TTSHWB",
         "Name": "Tile Shop Hldgs",
         "ownWebull": true,
         "ownEtrade": false
@@ -64876,7 +64881,7 @@
         "name": "Zurn Elkay Water Solutions Corporation Common Stock"
     },
     {
-        "Symbol": "ZYXI",
+        "Symbol": "ZYXIQ",
         "Name": "Zynex Inc",
         "ownWebull": true,
         "ownEtrade": false

@@ -35,6 +35,13 @@ const parseTags = (value) => {
 const formatTagsInput = (tags) =>
   Array.isArray(tags) ? tags.join(", ") : "";
 
+const formatDateKey = (date) => {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+};
+
 const normalizeDatedTasks = (input) => {
   if (!input || typeof input !== "object") return null;
   const normalized = {};
@@ -114,6 +121,16 @@ function TimeHack() {
   });
   const [editingDatedTagsKey, setEditingDatedTagsKey] = useState(null);
   const [editingDatedTagsText, setEditingDatedTagsText] = useState("");
+  const [editingDatedTaskKey, setEditingDatedTaskKey] = useState(null);
+  const [editingDatedTaskText, setEditingDatedTaskText] = useState("");
+  const [newDatedDate, setNewDatedDate] = useState(() =>
+    formatDateKey(new Date())
+  );
+  const [newDatedHour, setNewDatedHour] = useState(() =>
+    String(new Date().getHours())
+  );
+  const [newDatedText, setNewDatedText] = useState("");
+  const [newDatedTags, setNewDatedTags] = useState("");
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -167,13 +184,6 @@ function TimeHack() {
   }, []);
 
   const currentHour = currentTime.getHours();
-
-  const formatDateKey = (date) => {
-    const y = date.getFullYear();
-    const m = String(date.getMonth() + 1).padStart(2, "0");
-    const d = String(date.getDate()).padStart(2, "0");
-    return `${y}-${m}-${d}`;
-  };
 
   const BIRTHDATE = new Date(1995, 6, 4); // July 4, 1995 (month is 0-based)
 
@@ -1148,6 +1158,90 @@ function TimeHack() {
     });
   };
 
+  const startEditingDatedTask = (date, hour, text) => {
+    setEditingDatedTaskKey(`${date}-${hour}`);
+    setEditingDatedTaskText(text);
+  };
+
+  const cancelEditingDatedTask = () => {
+    setEditingDatedTaskKey(null);
+    setEditingDatedTaskText("");
+  };
+
+  const saveEditingDatedTask = (date, hour) => {
+    const text = editingDatedTaskText.trim();
+    const currentValue = datedTasksState?.[date]?.[hour];
+    const tags =
+      currentValue && typeof currentValue === "object"
+        ? Array.isArray(currentValue.tags)
+          ? currentValue.tags
+          : []
+        : [];
+
+    setDatedTasksState((prev) => {
+      const next = { ...prev };
+      const dayTasks = { ...(next[date] || {}) };
+      dayTasks[hour] = { text, tags };
+      next[date] = dayTasks;
+      return next;
+    });
+    setEditingDatedTaskKey(null);
+    setEditingDatedTaskText("");
+
+    fetch(
+      `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
+        String(date)
+      )}/${encodeURIComponent(String(hour))}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text, tags }),
+      }
+    ).catch((e) => {
+      console.error("Failed to save dated task text", e);
+    });
+  };
+
+  const handleAddDatedTask = (event) => {
+    event.preventDefault();
+    const dateKey = (newDatedDate || "").trim();
+    const hourValue = Number(newDatedHour);
+    const text = newDatedText.trim();
+    if (!dateKey || Number.isNaN(hourValue) || hourValue < 0 || hourValue > 23) {
+      return;
+    }
+    if (!text) return;
+    const tags = parseTags(newDatedTags);
+
+    setDatedTasksState((prev) => {
+      const next = { ...prev };
+      const dayTasks = { ...(next[dateKey] || {}) };
+      dayTasks[hourValue] = { text, tags };
+      next[dateKey] = dayTasks;
+      return next;
+    });
+
+    setNewDatedText("");
+    setNewDatedTags("");
+
+    fetch(
+      `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
+        String(dateKey)
+      )}/${encodeURIComponent(String(hourValue))}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text, tags }),
+      }
+    ).catch((e) => {
+      console.error("Failed to add dated task", e);
+    });
+  };
+
   const upcomingDatedTasks = Object.entries(datedTasksState)
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
@@ -1789,6 +1883,42 @@ function TimeHack() {
             ))}
           </div>
         )}
+        <form className="dated-tasks-form" onSubmit={handleAddDatedTask}>
+          <div className="dated-tasks-form-row">
+            <input
+              type="date"
+              className="dated-tasks-input"
+              value={newDatedDate}
+              onChange={(e) => setNewDatedDate(e.target.value)}
+            />
+            <input
+              type="number"
+              min="0"
+              max="23"
+              className="dated-tasks-input dated-tasks-hour-input"
+              value={newDatedHour}
+              onChange={(e) => setNewDatedHour(e.target.value)}
+              placeholder="Hour"
+            />
+          </div>
+          <input
+            type="text"
+            className="dated-tasks-input"
+            placeholder="Add upcoming dated event..."
+            value={newDatedText}
+            onChange={(e) => setNewDatedText(e.target.value)}
+          />
+          <input
+            type="text"
+            className="dated-tasks-input"
+            placeholder="Tags (comma separated)"
+            value={newDatedTags}
+            onChange={(e) => setNewDatedTags(e.target.value)}
+          />
+          <button type="submit" className="dated-tasks-add-btn">
+            Add
+          </button>
+        </form>
         <h3 className="dated-tasks-title">Upcoming</h3>
         {upcomingDatedTasks.length === 0 ? (
           <div className="dated-tasks-empty">
@@ -1853,6 +1983,8 @@ function TimeHack() {
                           }
                           const isEditingDatedTags =
                             editingDatedTagsKey === `${date}-${hour}`;
+                          const isEditingDatedTask =
+                            editingDatedTaskKey === `${date}-${hour}`;
 
                           return (
                             <li
@@ -1862,19 +1994,52 @@ function TimeHack() {
                               <span className="dated-tasks-hour">
                                 {String(hour).padStart(2, "0")}:00
                               </span>
-                              <span className="dated-tasks-text">
-                                {taskText}
-                              </span>
-                              {tags.map((tag) => (
-                                <button
-                                  key={tag}
-                                  type="button"
-                                  className="dated-tasks-tag"
-                                  onClick={(e) => handleTagClick(e, tag)}
-                                >
-                                  {tag.toUpperCase()}
-                                </button>
-                              ))}
+                              {isEditingDatedTask ? (
+                                <div className="dated-task-editor">
+                                  <input
+                                    type="text"
+                                    className="dated-task-input"
+                                    value={editingDatedTaskText}
+                                    onChange={(e) =>
+                                      setEditingDatedTaskText(e.target.value)
+                                    }
+                                  />
+                                  <div className="dated-task-actions">
+                                    <button
+                                      type="button"
+                                      className="dated-task-save"
+                                      onClick={() =>
+                                        saveEditingDatedTask(date, hour)
+                                      }
+                                    >
+                                      Save
+                                    </button>
+                                    <button
+                                      type="button"
+                                      className="dated-task-cancel"
+                                      onClick={cancelEditingDatedTask}
+                                    >
+                                      Cancel
+                                    </button>
+                                  </div>
+                                </div>
+                              ) : (
+                                <>
+                                  <span className="dated-tasks-text">
+                                    {taskText}
+                                  </span>
+                                  {tags.map((tag) => (
+                                    <button
+                                      key={tag}
+                                      type="button"
+                                      className="dated-tasks-tag"
+                                      onClick={(e) => handleTagClick(e, tag)}
+                                    >
+                                      {tag.toUpperCase()}
+                                    </button>
+                                  ))}
+                                </>
+                              )}
                               {isEditingDatedTags && (
                                 <div className="dated-tags-editor">
                                   <input
@@ -1915,6 +2080,21 @@ function TimeHack() {
                                   }
                                 >
                                   Tags
+                                </button>
+                              )}
+                              {!isEditingDatedTask && (
+                                <button
+                                  type="button"
+                                  className="dated-task-edit-toggle"
+                                  onClick={() =>
+                                    startEditingDatedTask(
+                                      date,
+                                      hour,
+                                      taskText
+                                    )
+                                  }
+                                >
+                                  Edit
                                 </button>
                               )}
                             </li>

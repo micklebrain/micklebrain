@@ -120,8 +120,8 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # count = sum(1 for stock in stocksOwned if stock.get("Symbol", "").startswith("B"))
 # print("number of symbols starting with A:", count)
 
-# upcoming splits - WAV, ENVB
-# upcoming delisting - BHILQ, PGRE
+# upcoming splits - ENVB
+# upcoming delisting - BHILQ, PGRE, LAZRQ, WBD
 stocksToAdd = []
 
 for stock in stocksToAdd:
