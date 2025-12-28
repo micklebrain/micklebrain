@@ -390,6 +390,10 @@ function TimeHack() {
     });
   };
 
+  const handleClearCompletedTodos = () => {
+    setTodos((prev) => prev.filter((todo) => !todo.done));
+  };
+
   useEffect(() => {
     try {
       localStorage.setItem(`timehack-todos-${todayKey}`, JSON.stringify(todos));
@@ -1337,6 +1341,13 @@ function TimeHack() {
               onClick={handleResetTodos}
             >
               Reset
+            </button>
+            <button
+              type="button"
+              className="daily-todo-refresh-btn"
+              onClick={handleClearCompletedTodos}
+            >
+              Clear completed
             </button>
           </div>
         </div>

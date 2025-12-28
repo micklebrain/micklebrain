@@ -319,6 +319,7 @@ body {
   }
 
   .dated-tasks-form {
+    margin-top: 30px;
     margin-bottom: 12px;
     display: flex;
     flex-direction: column;
