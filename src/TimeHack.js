@@ -88,6 +88,37 @@ const sortDatedEntries = (a, b) => {
   return a.hour - b.hour;
 };
 
+const buildDatedDayTasksFromEntries = (entries) => {
+  const nextDayTasks = {};
+  entries.forEach((entry, index) => {
+    nextDayTasks[entry.hour] = {
+      text: entry.text,
+      tags: entry.tags,
+      order: index,
+    };
+  });
+  return nextDayTasks;
+};
+
+const getSortedHours = (entries) =>
+  entries
+    .map((entry) => entry.hour)
+    .filter((hour) => Number.isInteger(hour) && hour >= 0 && hour < 24)
+    .sort((a, b) => a - b);
+
+const getFirstAvailableHour = (usedHours) => {
+  for (let hour = 0; hour < 24; hour += 1) {
+    if (!usedHours.has(hour)) return hour;
+  }
+  return null;
+};
+
+const assignHoursInOrder = (entries, hours) =>
+  entries.map((entry, index) => ({
+    ...entry,
+    hour: hours[index],
+  }));
+
 const buildDatedDragKey = (date, hour) => `${date}::${hour}`;
 
 const parseDatedDragKey = (key) => {
@@ -1328,32 +1359,96 @@ function TimeHack() {
   };
 
   const reorderDatedTasks = (date, sourceHour, targetHour) => {
-    setDatedTasksState((prev) => {
-      const dayTasks = prev[date];
-      if (!dayTasks) return prev;
-      const entries = getDatedEntriesForDate(dayTasks).sort(sortDatedEntries);
-      const fromIndex = entries.findIndex(
-        (entry) => entry.hour === sourceHour
-      );
-      const toIndex = entries.findIndex(
-        (entry) => entry.hour === targetHour
-      );
-      if (fromIndex < 0 || toIndex < 0 || fromIndex === toIndex) {
-        return prev;
-      }
-      const nextEntries = [...entries];
-      const [moved] = nextEntries.splice(fromIndex, 1);
-      nextEntries.splice(toIndex, 0, moved);
-      const nextDayTasks = { ...dayTasks };
-      nextEntries.forEach((entry, index) => {
-        nextDayTasks[entry.hour] = {
-          text: entry.text,
-          tags: entry.tags,
-          order: index,
-        };
-      });
-      return { ...prev, [date]: nextDayTasks };
-    });
+    const prev = datedTasksStateRef.current;
+    if (!prev) return null;
+    const dayTasks = prev[date];
+    if (!dayTasks) return null;
+    const entries = getDatedEntriesForDate(dayTasks).sort(sortDatedEntries);
+    const fromIndex = entries.findIndex(
+      (entry) => entry.hour === sourceHour
+    );
+    const toIndex = entries.findIndex(
+      (entry) => entry.hour === targetHour
+    );
+    if (fromIndex < 0 || toIndex < 0 || fromIndex === toIndex) {
+      return null;
+    }
+    const nextEntries = [...entries];
+    const [moved] = nextEntries.splice(fromIndex, 1);
+    nextEntries.splice(toIndex, 0, moved);
+    const sortedHours = getSortedHours(entries);
+    const reassigned = assignHoursInOrder(nextEntries, sortedHours);
+    const nextState = {
+      ...prev,
+      [date]: buildDatedDayTasksFromEntries(reassigned),
+    };
+    setDatedTasksState(nextState);
+    datedTasksStateRef.current = nextState;
+    return reassigned[toIndex]?.hour ?? null;
+  };
+
+  const moveDatedTaskAcrossDates = (
+    sourceDate,
+    sourceHour,
+    targetDate,
+    targetHour
+  ) => {
+    const prev = datedTasksStateRef.current;
+    if (!prev) return null;
+    const sourceDayTasks = prev[sourceDate];
+    const targetDayTasks = prev[targetDate];
+    if (!sourceDayTasks || !targetDayTasks) return null;
+
+    const sourceEntries = getDatedEntriesForDate(sourceDayTasks).sort(
+      sortDatedEntries
+    );
+    const targetEntries = getDatedEntriesForDate(targetDayTasks).sort(
+      sortDatedEntries
+    );
+    const sourceIndex = sourceEntries.findIndex(
+      (entry) => entry.hour === sourceHour
+    );
+    const targetIndex = targetEntries.findIndex(
+      (entry) => entry.hour === targetHour
+    );
+    if (sourceIndex < 0 || targetIndex < 0) return null;
+
+    const nextSourceEntries = [...sourceEntries];
+    const [movedEntry] = nextSourceEntries.splice(sourceIndex, 1);
+    const nextTargetEntries = [...targetEntries];
+    const entryToInsert = { ...movedEntry };
+    nextTargetEntries.splice(targetIndex, 0, entryToInsert);
+
+    const sourceHours = getSortedHours(sourceEntries).filter(
+      (hour) => hour !== sourceHour
+    );
+    const reassignedSource = assignHoursInOrder(
+      nextSourceEntries,
+      sourceHours
+    );
+
+    const targetHours = getSortedHours(targetEntries);
+    const nextHour = getFirstAvailableHour(new Set(targetHours));
+    if (nextHour == null) return null;
+    const assignedTargetHours = [...targetHours, nextHour].sort(
+      (a, b) => a - b
+    );
+    const reassignedTarget = assignHoursInOrder(
+      nextTargetEntries,
+      assignedTargetHours
+    );
+
+    const nextState = {
+      ...prev,
+      [sourceDate]: buildDatedDayTasksFromEntries(reassignedSource),
+      [targetDate]: buildDatedDayTasksFromEntries(reassignedTarget),
+    };
+    if (reassignedSource.length === 0) {
+      delete nextState[sourceDate];
+    }
+    setDatedTasksState(nextState);
+    datedTasksStateRef.current = nextState;
+    return reassignedTarget[targetIndex]?.hour ?? null;
   };
 
   const handleDatedTaskDragStart = (date, hour) => {
@@ -1364,9 +1459,24 @@ function TimeHack() {
     event.preventDefault();
     if (!draggingDatedTaskKey) return;
     const parsed = parseDatedDragKey(draggingDatedTaskKey);
-    if (!parsed || parsed.date !== date) return;
-    if (parsed.hour === hour) return;
-    reorderDatedTasks(date, parsed.hour, hour);
+    if (!parsed) return;
+    if (parsed.date === date) {
+      if (parsed.hour === hour) return;
+      const nextHour = reorderDatedTasks(date, parsed.hour, hour);
+      if (nextHour != null) {
+        setDraggingDatedTaskKey(buildDatedDragKey(date, nextHour));
+      }
+      return;
+    }
+    const nextHour = moveDatedTaskAcrossDates(
+      parsed.date,
+      parsed.hour,
+      date,
+      hour
+    );
+    if (nextHour != null) {
+      setDraggingDatedTaskKey(buildDatedDragKey(date, nextHour));
+    }
   };
 
   const handleDatedTaskDragEnd = () => {
