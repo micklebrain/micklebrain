@@ -431,6 +431,11 @@ body {
     padding: 2px 0;
     align-items: center;
     flex-wrap: wrap;
+    cursor: grab;
+  }
+
+  .dated-tasks-item-dragging {
+    opacity: 0.6;
   }
 
   .dated-tasks-hour {

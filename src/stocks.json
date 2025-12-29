@@ -83,14 +83,6 @@
         "name": "AA Mission Acquisition Corp. Class A Ordinary Shares"
     },
     {
-        "Symbol": "AAM+",
-        "Name": "AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "AAM.U",
         "Name": "AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one",
         "ownWebull": false,
@@ -459,14 +451,6 @@
         "Security Name": "Archer Aviation Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Archer Aviation Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "ACHR+",
-        "Name": "Archer Aviation Inc. Redeemable Warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Archer Aviation Inc. Redeemable Warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50",
-        "ETF": "N"
     },
     {
         "Symbol": "ACHR.W",
@@ -2068,14 +2052,6 @@
         "name": "Allurion Technologies, Inc. Common Stock"
     },
     {
-        "Symbol": "ALUR+",
-        "Name": "Allurion Technologies, Inc. Warrants, each whole warrant exercisable to purchase 1.420455 shares of common stock at an exercise price of $8.10 per share of common stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Allurion Technologies, Inc. Warrants, each whole warrant exercisable to purchase 1.420455 shares of common stock at an exercise price of $8.10 per share of common stock",
-        "ETF": "N"
-    },
-    {
         "Symbol": "ALUR.W",
         "Name": "Allurion Technologies, Inc. Warrants, each whole warrant exercisable to purchase 1.420455 shares of common stock at an exercise price of $8.10 per share of common stock",
         "ownWebull": false,
@@ -2137,14 +2113,6 @@
         "name": "Ambipar Emergency Response Class A Ordinary Shares"
     },
     {
-        "Symbol": "AMBI+",
-        "Name": "Ambipar Emergency Response Warrants to purchase Class A ordinary shares, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Ambipar Emergency Response Warrants to purchase Class A ordinary shares, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "AMBO",
         "Name": "Ambow Education Holding Ltd. American Depository Shares (each representing twenty (20) Class A Ordinary Shares)",
         "ownWebull": false,
@@ -2161,14 +2129,6 @@
         "Security Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
         "ETF": "N",
         "name": "Ardagh Metal Packaging S.A. Ordinary Shares"
-    },
-    {
-        "Symbol": "AMBP+",
-        "Name": "Ardagh Metal Packaging S.A. Warrants, each exercisable for one Share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Ardagh Metal Packaging S.A. Warrants, each exercisable for one Share at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "AMBP.W",
@@ -2350,14 +2310,6 @@
         "Security Name": "Amprius Technologies, Inc. Common Stock",
         "ETF": "N",
         "name": "Amprius Technologies, Inc. Common Stock"
-    },
-    {
-        "Symbol": "AMPX+",
-        "Name": "Amprius Technologies, Inc. Warrants to purchase one share of Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Amprius Technologies, Inc. Warrants to purchase one share of Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "AMPX.W",
@@ -5091,14 +5043,6 @@
         "name": "BARK, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "BARK+",
-        "Name": "BARK, Inc. Redeemable Warrants, each whole warrant exercisable for shares of Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "BARK, Inc. Redeemable Warrants, each whole warrant exercisable for shares of Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "BARK.W",
         "Name": "BARK, Inc. Redeemable Warrants, each whole warrant exercisable for shares of Common Stock at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -5173,14 +5117,6 @@
         "Security Name": "BigBear.ai, Inc. Common Stock",
         "ETF": "N",
         "name": "BigBear.ai, Inc. Common Stock"
-    },
-    {
-        "Symbol": "BBAI+",
-        "Name": "BigBear.ai, Inc. Redeemable Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "BigBear.ai, Inc. Redeemable Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "BBAI.W",
@@ -6113,14 +6049,6 @@
         "name": "Butterfly Network, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "BFLY+",
-        "Name": "Butterfly Network, Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Butterfly Network, Inc. Warrants",
-        "ETF": "N"
-    },
-    {
         "Symbol": "BFLY.W",
         "Name": "Butterfly Network, Inc. Warrants",
         "ownWebull": false,
@@ -7009,14 +6937,6 @@
         "name": "Bakkt Holdings, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "BKKT+",
-        "Name": "Bakkt Holdings, Inc. Warrant",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Bakkt Holdings, Inc. Warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "BKKT.W",
         "Name": "Bakkt Holdings, Inc. Warrant",
         "ownWebull": false,
@@ -7082,14 +7002,6 @@
         "Security Name": "BlackSky Technology Inc. Class A Common Stock",
         "ETF": "N",
         "name": "BlackSky Technology Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "BKSY+",
-        "Name": "BlackSky Technology Inc. Redeemable Warrants, each whole Warrant exercisable for one share of Class A Common Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "BlackSky Technology Inc. Redeemable Warrants, each whole Warrant exercisable for one share of Class A Common Stock",
-        "ETF": "N"
     },
     {
         "Symbol": "BKSY.W",
@@ -10611,34 +10523,6 @@
         "name": "Chimera Investment Corporation Common Stock"
     },
     {
-        "Symbol": "CIM$A",
-        "Name": "Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock"
-    },
-    {
-        "Symbol": "CIM$B",
-        "Name": "Chimera Investment Corporation 8.00% Series B Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Chimera Investment Corporation 8.00% Series B Fixed"
-    },
-    {
-        "Symbol": "CIM$C",
-        "Name": "Chimera Investment Corporation 7.75% Series C Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Chimera Investment Corporation 7.75% Series C Fixed"
-    },
-    {
-        "Symbol": "CIM$D",
-        "Name": "Chimera Investment Corporation 8.00% Series D Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Chimera Investment Corporation 8.00% Series D Fixed"
-    },
-    {
         "Symbol": "CIM-A",
         "Name": "Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock",
         "ownWebull": false,
@@ -10705,13 +10589,6 @@
         "Security Name": "City Office REIT, Inc. Common Stock",
         "ETF": "N",
         "name": "City Office REIT, Inc. Common Stock"
-    },
-    {
-        "Symbol": "CIO$A",
-        "Name": "City Office REIT, Inc. 6.625% Series A Cumulative Redeemable Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "City Office REIT, Inc. 6.625% Series A Cumulative Redeemable Preferred Stock"
     },
     {
         "Symbol": "CIO-A",
@@ -10819,13 +10696,6 @@
         "Security Name": "Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest",
         "ETF": "N",
         "name": "Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest"
-    },
-    {
-        "Symbol": "CLDT$A",
-        "Name": "Chatham Lodging Trust (REIT) 6.625% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Chatham Lodging Trust (REIT) 6.625% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest"
     },
     {
         "Symbol": "CLDT-A",
@@ -11544,27 +11414,6 @@
         "name": "D/B/A Compass Diversified Holdings Shares of Beneficial Interest"
     },
     {
-        "Symbol": "CODI$A",
-        "Name": "Compass Diversified Holdings 7.250% Series A Preferred Shares representing beneficial interest in Compass Diversified Holdings",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Compass Diversified Holdings 7.250% Series A Preferred Shares representing beneficial interest in Compass Diversified Holdings"
-    },
-    {
-        "Symbol": "CODI$B",
-        "Name": "Compass Diversified Holdings 7.875% Series B Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Compass Diversified Holdings 7.875% Series B Fixed"
-    },
-    {
-        "Symbol": "CODI$C",
-        "Name": "Compass Diversified Holdings 7.875% Series C Cumulative Preferred Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Compass Diversified Holdings 7.875% Series C Cumulative Preferred Shares"
-    },
-    {
         "Symbol": "CODI-A",
         "Name": "Compass Diversified Holdings 7.250% Series A Preferred Shares representing beneficial interest in Compass Diversified Holdings",
         "ownWebull": false,
@@ -11851,14 +11700,6 @@
         "Security Name": "Copley Acquisition Corp Ordinary Shares",
         "ETF": "N",
         "name": "Copley Acquisition Corp Ordinary Shares"
-    },
-    {
-        "Symbol": "COPL+",
-        "Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ETF": "N"
     },
     {
         "Symbol": "COPL.U",
@@ -13093,14 +12934,6 @@
         "name": "Cenovus Energy Inc Common Stock"
     },
     {
-        "Symbol": "CVE+",
-        "Name": "Cenovus Energy Inc Warrants (each warrant entitles the holder to purchase one common share at an exercise price of C$6.54 per share)",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Cenovus Energy Inc Warrants (each warrant entitles the holder to purchase one common share at an exercise price of C$6.54 per share)",
-        "ETF": "N"
-    },
-    {
         "Symbol": "CVE.W",
         "Name": "Cenovus Energy Inc Warrants (each warrant entitles the holder to purchase one common share at an exercise price of C$6.54 per share)",
         "ownWebull": false,
@@ -13795,20 +13628,6 @@
         "name": "DigitalBridge Group, Inc. 7.125% Series H"
     },
     {
-        "Symbol": "DBRG$I",
-        "Name": "DigitalBridge Group, Inc. 7.15% Series I ",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "DigitalBridge Group, Inc. 7.15% Series I"
-    },
-    {
-        "Symbol": "DBRG$J",
-        "Name": "DigitalBridge Group, Inc. 7.125% Series J ",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "DigitalBridge Group, Inc. 7.125% Series J"
-    },
-    {
         "Symbol": "DBRG-H",
         "Name": "DigitalBridge Group, Inc. 7.125% Series H",
         "ownWebull": false,
@@ -13846,14 +13665,6 @@
         "Security Name": "Dakota Gold Corp. Common Stock",
         "ETF": "N",
         "name": "Dakota Gold Corp. Common Stock"
-    },
-    {
-        "Symbol": "DC+",
-        "Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
-        "ETF": "N"
     },
     {
         "Symbol": "DCI",
@@ -15379,14 +15190,6 @@
         "name": "dMY Squared Technology Group, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "DMYY+",
-        "Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "DMYY=",
         "Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one",
         "ownWebull": false,
@@ -15850,14 +15653,6 @@
         "ownWebull": false,
         "ownEtrade": false,
         "name": "Diana Shipping Inc. Perpetual Preferred Shares Series B (Marshall Islands)"
-    },
-    {
-        "Symbol": "DSX+",
-        "Name": "Diana Shipping inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Diana Shipping inc. Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "DSX-B",
@@ -18199,14 +17994,6 @@
         "name": "EON Resources Inc. Class A Common Stock"
     },
     {
-        "Symbol": "EONR+",
-        "Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "EOS",
         "Name": "Eaton Vance Enhance Equity Income Fund II Common Stock",
         "ownWebull": false,
@@ -18619,14 +18406,6 @@
         "Security Name": "EQV Ventures Acquisition Corp. Class A Ordinary Shares",
         "ETF": "N",
         "name": "EQV Ventures Acquisition Corp. Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "EQV+",
-        "Name": "EQV Ventures Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "EQV Ventures Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "EQV.U",
@@ -19206,14 +18985,6 @@
         "name": "EQV Ventures Acquisition Corp. II Class A Ordinary Shares"
     },
     {
-        "Symbol": "EVAC+",
-        "Name": "EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "EVAC.U",
         "Name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one",
         "ownWebull": false,
@@ -19261,14 +19032,6 @@
         "Security Name": "Eve Holding, Inc. Common Stock",
         "ETF": "N",
         "name": "Eve Holding, Inc. Common Stock"
-    },
-    {
-        "Symbol": "EVEX+",
-        "Name": "Eve Holding, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Eve Holding, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "EVEX.W",
@@ -21914,14 +21677,6 @@
         "name": "flyExclusive, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "FLYX+",
-        "Name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "FMAG",
         "Name": "Fidelity Magellan ETF",
         "ownWebull": false,
@@ -23662,14 +23417,6 @@
         "Security Name": "GCT Semiconductor Holding, Inc. Common Stock",
         "ETF": "N",
         "name": "GCT Semiconductor Holding, Inc. Common Stock"
-    },
-    {
-        "Symbol": "GCTS+",
-        "Name": "GCT Semiconductor Holding, Inc. Warrants, each whole warrant exercisable for one share of Common Stock at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "GCT Semiconductor Holding, Inc. Warrants, each whole warrant exercisable for one share of Common Stock at an exercise price of $11.50",
-        "ETF": "N"
     },
     {
         "Symbol": "GCTS.W",
@@ -25457,14 +25204,6 @@
         "name": "Graf Global Corp. Class A ordinary shares"
     },
     {
-        "Symbol": "GRAF+",
-        "Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "GRAF=",
         "Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one",
         "ownWebull": false,
@@ -25612,14 +25351,6 @@
         "Security Name": "Gold Royalty Corp. Common Shares",
         "ETF": "N",
         "name": "Gold Royalty Corp. Common Shares"
-    },
-    {
-        "Symbol": "GROY+",
-        "Name": "Gold Royalty Corp. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Gold Royalty Corp. Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "GROZ",
@@ -26208,14 +25939,6 @@
         "Security Name": "ESS Tech, Inc. Common Stock",
         "ETF": "N",
         "name": "ESS Tech, Inc. Common Stock"
-    },
-    {
-        "Symbol": "GWH+",
-        "Name": "ESS Tech, Inc. Warrant",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "ESS Tech, Inc. Warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "GWH.W",
@@ -27237,14 +26960,6 @@
         "name": "Holley Inc. Common Stock"
     },
     {
-        "Symbol": "HLLY+",
-        "Name": "Holley Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Holley Inc. Warrants",
-        "ETF": "N"
-    },
-    {
         "Symbol": "HLLY.W",
         "Name": "Holley Inc. Warrants",
         "ownWebull": false,
@@ -27946,14 +27661,6 @@
         "name": "Haymaker Acquisition Corp. 4 Class A Ordinary Shares"
     },
     {
-        "Symbol": "HYAC+",
-        "Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "HYAC.U",
         "Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one",
         "ownWebull": false,
@@ -28358,14 +28065,6 @@
         "Security Name": "i-80 Gold Corp. Common Shares",
         "ETF": "N",
         "name": "i"
-    },
-    {
-        "Symbol": "IAUX+",
-        "Name": "i",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "i-80 Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $0.70",
-        "ETF": "N"
     },
     {
         "Symbol": "IBCA",
@@ -30246,14 +29945,6 @@
         "name": "IonQ, Inc. Common Stock"
     },
     {
-        "Symbol": "IONQ+",
-        "Name": "IonQ, Inc. Redeemable warrants, each whole warrant exercisable for one share of Common Stock, each at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "IonQ, Inc. Redeemable warrants, each whole warrant exercisable for one share of Common Stock, each at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "IONQ.W",
         "Name": "IonQ, Inc. Redeemable warrants, each whole warrant exercisable for one share of Common Stock, each at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -30544,14 +30235,6 @@
         "Security Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
         "ETF": "N",
         "name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)"
-    },
-    {
-        "Symbol": "IRS+",
-        "Name": "IRSA Inversiones Y Representaciones S.A. Warrants to purchase Common Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "IRSA Inversiones Y Representaciones S.A. Warrants to purchase Common Shares",
-        "ETF": "N"
     },
     {
         "Symbol": "IRS.W",
@@ -32404,14 +32087,6 @@
         "Security Name": "Joby Aviation, Inc. Common Stock",
         "ETF": "N",
         "name": "Joby Aviation, Inc. Common Stock"
-    },
-    {
-        "Symbol": "JOBY+",
-        "Name": "Joby Aviation, Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Joby Aviation, Inc. Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "JOBY.W",
@@ -34374,14 +34049,6 @@
         "name": "Lanvin Group Holdings Limited Ordinary Shares"
     },
     {
-        "Symbol": "LANV+",
-        "Name": "Lanvin Group Holdings Limited Redeemable Warrants, each whole warrant exercisable for one Ordinary Share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Lanvin Group Holdings Limited Redeemable Warrants, each whole warrant exercisable for one Ordinary Share at an exercise price of $11.50",
-        "ETF": "N"
-    },
-    {
         "Symbol": "LANV.W",
         "Name": "Lanvin Group Holdings Limited Redeemable Warrants, each whole warrant exercisable for one Ordinary Share at an exercise price of $11.50",
         "ownWebull": false,
@@ -34701,14 +34368,6 @@
         "name": "Legato Merger Corp. III Ordinary Shares"
     },
     {
-        "Symbol": "LEGT+",
-        "Name": "Legato Merger Corp. III Redeemable Warrants, each whole warrant exercisable for one ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Legato Merger Corp. III Redeemable Warrants, each whole warrant exercisable for one ordinary share at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "LEGT=",
         "Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one",
         "ownWebull": false,
@@ -34991,14 +34650,6 @@
         "Security Name": "LGL Group, Inc. (The) Common Stock",
         "ETF": "N",
         "name": "LGL Group, Inc. (The) Common Stock"
-    },
-    {
-        "Symbol": "LGL+",
-        "Name": "LGL Group, Inc. (The) Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "LGL Group, Inc. (The) Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "LGLV",
@@ -35290,14 +34941,6 @@
         "Security Name": "Lemonade, Inc. Common Stock",
         "ETF": "N",
         "name": "Lemonade, Inc. Common Stock"
-    },
-    {
-        "Symbol": "LMND+",
-        "Name": "Lemonade, Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Lemonade, Inc. Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "LMT",
@@ -35930,14 +35573,6 @@
         "name": "LiveWire Group, Inc. Common Stock"
     },
     {
-        "Symbol": "LVWR+",
-        "Name": "LiveWire Group, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "LiveWire Group, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "LVWR.W",
         "Name": "LiveWire Group, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -36054,14 +35689,6 @@
         "Security Name": "Lifezone Metals Limited Ordinary Shares",
         "ETF": "N",
         "name": "Lifezone Metals Limited Ordinary Shares"
-    },
-    {
-        "Symbol": "LZM+",
-        "Name": "Lifezone Metals Limited Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Lifezone Metals Limited Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "LZM.W",
@@ -38234,14 +37861,6 @@
         "name": "M"
     },
     {
-        "Symbol": "MPTI+",
-        "Name": "M",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "M-tron Industries, Inc. Warrants to Purchase Shares of Common Stock, Expiring on or before April 25, 2028",
-        "ETF": "N"
-    },
-    {
         "Symbol": "MPU",
         "Name": "Mega Matrix Inc. Class A Ordinary Shares",
         "ownWebull": false,
@@ -39910,22 +39529,6 @@
         "name": "Noble Corporation plc A Ordinary Shares"
     },
     {
-        "Symbol": "NE+",
-        "Name": "Noble Corporation plc Tranche 1 Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Noble Corporation plc Tranche 1 Warrants",
-        "ETF": "N"
-    },
-    {
-        "Symbol": "NE+A",
-        "Name": "Noble Corporation plc Tranche 2 Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Noble Corporation plc Tranche 2 Warrants",
-        "ETF": "N"
-    },
-    {
         "Symbol": "NE.A",
         "Name": "Noble Corporation plc Tranche 2 Warrants",
         "ownWebull": false,
@@ -40889,14 +40492,6 @@
         "name": "FiscalNote Holdings, Inc. Class A common stock"
     },
     {
-        "Symbol": "NOTE+",
-        "Name": "FiscalNote Holdings, Inc. Warrants to purchase one share of Class A common stock, each at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "FiscalNote Holdings, Inc. Warrants to purchase one share of Class A common stock, each at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "NOTE.W",
         "Name": "FiscalNote Holdings, Inc. Warrants to purchase one share of Class A common stock, each at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -41025,14 +40620,6 @@
         "Security Name": "NET Power Inc. Class A Common Stock",
         "ETF": "N",
         "name": "NET Power Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "NPWR+",
-        "Name": "NET Power Inc. Redeemable warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "NET Power Inc. Redeemable warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50",
-        "ETF": "N"
     },
     {
         "Symbol": "NPWR.W",
@@ -41583,14 +41170,6 @@
         "Security Name": "Nuvation Bio Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Nuvation Bio Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "NUVB+",
-        "Name": "Nuvation Bio Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Nuvation Bio Inc. Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "NUVB.W",
@@ -42755,14 +42334,6 @@
         "name": "OppFi Inc. Class A Common Stock"
     },
     {
-        "Symbol": "OPFI+",
-        "Name": "OppFi Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "OppFi Inc. Warrants",
-        "ETF": "N"
-    },
-    {
         "Symbol": "OPFI.W",
         "Name": "OppFi Inc. Warrants",
         "ownWebull": false,
@@ -43171,14 +42742,6 @@
         "name": "Occidental Petroleum Corporation Common Stock"
     },
     {
-        "Symbol": "OXY+",
-        "Name": "Occidental Petroleum Corporation Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Occidental Petroleum Corporation Warrants",
-        "ETF": "N"
-    },
-    {
         "Symbol": "OXY.W",
         "Name": "Occidental Petroleum Corporation Warrants ",
         "ownWebull": false,
@@ -43283,14 +42846,6 @@
         "Security Name": "Pyrophyte Acquisition Corp. II Class A Ordinary Shares",
         "ETF": "N",
         "name": "Pyrophyte Acquisition Corp. II Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "PAII+",
-        "Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "PAII.U",
@@ -44255,14 +43810,6 @@
         "name": "Perfect Corp. Class A Ordinary Share"
     },
     {
-        "Symbol": "PERF+",
-        "Name": "Perfect Corp. Warrants, each exercisable for one Class A Ordinary Share at a price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Perfect Corp. Warrants, each exercisable for one Class A Ordinary Share at a price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "PERF.W",
         "Name": "Perfect Corp. Warrants, each exercisable for one Class A Ordinary Share at a price of $11.50 per share",
         "ownWebull": false,
@@ -44286,14 +43833,6 @@
         "Security Name": "GrabAGun Digital Holdings Inc. Common Stock",
         "ETF": "N",
         "name": "GrabAGun Digital Holdings Inc. Common Stock"
-    },
-    {
-        "Symbol": "PEW+",
-        "Name": "GrabAGun Digital Holdings Inc. Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "GrabAGun Digital Holdings Inc. Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "PEW.W",
@@ -45021,14 +44560,6 @@
         "Security Name": "Planet Labs PBC Class A Common Stock",
         "ETF": "N",
         "name": "Planet Labs PBC Class A Common Stock"
-    },
-    {
-        "Symbol": "PL+",
-        "Name": "Planet Labs PBC Redeemable warrants, each whole warrant exercisable for one share of Class A common stock, each at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Planet Labs PBC Redeemable warrants, each whole warrant exercisable for one share of Class A common stock, each at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "PL.W",
@@ -46303,14 +45834,6 @@
         "name": "Paysafe Limited Common Shares"
     },
     {
-        "Symbol": "PSFE+",
-        "Name": "Paysafe Limited Warrants, exercisable for one Common Share of Paysafe Limited at a price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Paysafe Limited Warrants, exercisable for one Common Share of Paysafe Limited at a price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "PSFE.W",
         "Name": "Paysafe Limited Warrants, exercisable for one Common Share of Paysafe Limited at a price of $11.50 per share",
         "ownWebull": false,
@@ -46493,14 +46016,6 @@
         "Security Name": "PSQ Holdings, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "PSQ Holdings, Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "PSQH+",
-        "Name": "PSQ Holdings, Inc. Warrants, each exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "PSQ Holdings, Inc. Warrants, each exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "PSQH.W",
@@ -47008,14 +46523,6 @@
         "Security Name": "D-Wave Quantum Inc. Common Shares",
         "ETF": "N",
         "name": "D"
-    },
-    {
-        "Symbol": "QBTS+",
-        "Name": "D",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "D-Wave Quantum Inc. Warrants, each whole warrant exercisable for 1.4541326 Common Shares at an exercise price of $11.50",
-        "ETF": "N"
     },
     {
         "Symbol": "QBTS.W",
@@ -47769,14 +47276,6 @@
         "name": "Rithm Acquisition Corp. Class A Ordinary Shares"
     },
     {
-        "Symbol": "RAC+",
-        "Name": "Rithm Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Rithm Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ETF": "N"
-    },
-    {
         "Symbol": "RAC.U",
         "Name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one",
         "ownWebull": false,
@@ -47950,14 +47449,6 @@
         "Security Name": "Vicarious Surgical Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Vicarious Surgical Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "RBOT+",
-        "Name": "Vicarious Surgical Inc. Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Vicarious Surgical Inc. Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
     },
     {
         "Symbol": "RBOT.W",
@@ -48532,14 +48023,6 @@
         "Security Name": "Rafael Holdings, Inc. Class B Common Stock",
         "ETF": "N",
         "name": "Rafael Holdings, Inc. Class B Common Stock"
-    },
-    {
-        "Symbol": "RFL+",
-        "Name": "Rafael Holdings, Inc. Warrants to Purchase Shares of Class B Common Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Rafael Holdings, Inc. Warrants to Purchase Shares of Class B Common Stock",
-        "ETF": "N"
     },
     {
         "Symbol": "RFL.W",
@@ -50651,14 +50134,6 @@
         "name": "SilverBox Corp IV Class A Ordinary Shares"
     },
     {
-        "Symbol": "SBXD+",
-        "Name": "SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50",
-        "ETF": "N"
-    },
-    {
         "Symbol": "SBXD.U",
         "Name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one",
         "ownWebull": false,
@@ -51659,14 +51134,6 @@
         "name": "SES AI Corporation Class A Common Stock"
     },
     {
-        "Symbol": "SES+",
-        "Name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "SES.W",
         "Name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -52550,14 +52017,6 @@
         "name": "Sky Harbour Group Corporation Class A Common Stock"
     },
     {
-        "Symbol": "SKYH+",
-        "Name": "Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "SKYH.W",
         "Name": "Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -52650,14 +52109,6 @@
         "Security Name": "Southland Holdings, Inc. Common Stock",
         "ETF": "N",
         "name": "Southland Holdings, Inc. Common Stock"
-    },
-    {
-        "Symbol": "SLND+",
-        "Name": "Southland Holdings, Inc. Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Southland Holdings, Inc. Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "SLNZ",
@@ -56041,14 +55492,6 @@
         "name": "T1 Energy Inc. Common Stock"
     },
     {
-        "Symbol": "TE+",
-        "Name": "T1 Energy Inc. Warrants, each whole warrant exercisable to purchase one Common Stock at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "T1 Energy Inc. Warrants, each whole warrant exercisable to purchase one Common Stock at an exercise price of $11.50 per share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "TE.W",
         "Name": "T1 Energy Inc. Warrants, each whole warrant exercisable to purchase one Common Stock at an exercise price of $11.50 per share",
         "ownWebull": false,
@@ -56462,14 +55905,6 @@
         "Security Name": "The Generation Essentials Group Class A Ordinary Shares",
         "ETF": "N",
         "name": "The Generation Essentials Group Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "TGE+",
-        "Name": "The Generation Essentials Group Warrants, each whole warrant exercisable for one Class A Ordinary Share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "The Generation Essentials Group Warrants, each whole warrant exercisable for one Class A Ordinary Share",
-        "ETF": "N"
     },
     {
         "Symbol": "TGEN",
@@ -59911,14 +59346,6 @@
         "name": "UWM Holdings Corporation Class A Common Stock"
     },
     {
-        "Symbol": "UWMC+",
-        "Name": "UWM Holdings Corporation Warrant",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "UWM Holdings Corporation Warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "UWMC.W",
         "Name": "UWM Holdings Corporation Warrant",
         "ownWebull": false,
@@ -60068,14 +59495,6 @@
         "Security Name": "Valaris Limited Common Shares",
         "ETF": "N",
         "name": "Valaris Limited Common Shares"
-    },
-    {
-        "Symbol": "VAL+",
-        "Name": "Valaris Limited Warrants",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Valaris Limited Warrants",
-        "ETF": "N"
     },
     {
         "Symbol": "VAL.W",
@@ -60701,14 +60120,6 @@
         "Security Name": "Valens Semiconductor Ltd. Ordinary Shares",
         "ETF": "N",
         "name": "Valens Semiconductor Ltd. Ordinary Shares"
-    },
-    {
-        "Symbol": "VLN+",
-        "Name": "Valens Semiconductor Ltd. Warrants, each warrant to purchase one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Valens Semiconductor Ltd. Warrants, each warrant to purchase one-half of one Ordinary Share",
-        "ETF": "N"
     },
     {
         "Symbol": "VLN.W",

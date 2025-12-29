@@ -1,4 +1,4 @@
-import { useEffect, useState, Fragment } from "react";
+import { useEffect, useRef, useState, Fragment } from "react";
 import { useHistory } from "react-router-dom";
 import "./timehack.css";
 
@@ -42,6 +42,62 @@ const formatDateKey = (date) => {
   return `${y}-${m}-${d}`;
 };
 
+const normalizeDatedTaskValue = (value) => {
+  if (typeof value === "string") {
+    return { text: value, tags: [] };
+  }
+  if (value && typeof value === "object") {
+    const rawTags = Array.isArray(value.tags)
+      ? value.tags.join(",")
+      : typeof value.tags === "string"
+      ? value.tags
+      : "";
+    const tags = parseTags(rawTags);
+    const order = Number.isFinite(value.order) ? value.order : undefined;
+    return order == null
+      ? { text: value.text || "", tags }
+      : { text: value.text || "", tags, order };
+  }
+  return null;
+};
+
+const getDatedEntriesForDate = (tasksForDate) => {
+  if (!tasksForDate || typeof tasksForDate !== "object") return [];
+  return Object.entries(tasksForDate)
+    .map(([hour, value]) => {
+      const hourNumber = Number(hour);
+      if (!Number.isInteger(hourNumber) || hourNumber < 0 || hourNumber > 23) {
+        return null;
+      }
+      const normalized = normalizeDatedTaskValue(value);
+      if (!normalized) return null;
+      return {
+        hour: hourNumber,
+        text: normalized.text || "",
+        tags: Array.isArray(normalized.tags) ? normalized.tags : [],
+        order: Number.isFinite(normalized.order) ? normalized.order : null,
+      };
+    })
+    .filter(Boolean);
+};
+
+const sortDatedEntries = (a, b) => {
+  const aOrder = Number.isFinite(a.order) ? a.order : a.hour;
+  const bOrder = Number.isFinite(b.order) ? b.order : b.hour;
+  if (aOrder !== bOrder) return aOrder - bOrder;
+  return a.hour - b.hour;
+};
+
+const buildDatedDragKey = (date, hour) => `${date}::${hour}`;
+
+const parseDatedDragKey = (key) => {
+  if (!key) return null;
+  const [date, hourStr] = key.split("::");
+  const hour = Number(hourStr);
+  if (!date || !Number.isInteger(hour)) return null;
+  return { date, hour };
+};
+
 const normalizeDatedTasks = (input) => {
   if (!input || typeof input !== "object") return null;
   const normalized = {};
@@ -49,18 +105,9 @@ const normalizeDatedTasks = (input) => {
     if (!tasksForDate || typeof tasksForDate !== "object") return;
     const dayTasks = {};
     Object.entries(tasksForDate).forEach(([hour, value]) => {
-      if (typeof value === "string") {
-        dayTasks[hour] = value;
-      } else if (value && typeof value === "object") {
-        const rawTags = Array.isArray(value.tags)
-          ? value.tags.join(",")
-          : typeof value.tags === "string"
-          ? value.tags
-          : "";
-        dayTasks[hour] = {
-          text: value.text || "",
-          tags: parseTags(rawTags),
-        };
+      const normalizedValue = normalizeDatedTaskValue(value);
+      if (normalizedValue) {
+        dayTasks[hour] = normalizedValue;
       }
     });
     normalized[date] = dayTasks;
@@ -123,6 +170,7 @@ function TimeHack() {
   const [editingDatedTagsText, setEditingDatedTagsText] = useState("");
   const [editingDatedTaskKey, setEditingDatedTaskKey] = useState(null);
   const [editingDatedTaskText, setEditingDatedTaskText] = useState("");
+  const [draggingDatedTaskKey, setDraggingDatedTaskKey] = useState(null);
   const [newDatedDate, setNewDatedDate] = useState(() =>
     formatDateKey(new Date())
   );
@@ -131,6 +179,7 @@ function TimeHack() {
   );
   const [newDatedText, setNewDatedText] = useState("");
   const [newDatedTags, setNewDatedTags] = useState("");
+  const datedTasksStateRef = useRef(datedTasksState);
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -182,6 +231,10 @@ function TimeHack() {
     const interval = setInterval(() => setCurrentTime(new Date()), 30000);
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    datedTasksStateRef.current = datedTasksState;
+  }, [datedTasksState]);
 
   const currentHour = currentTime.getHours();
 
@@ -1124,28 +1177,32 @@ function TimeHack() {
     const tags = parseTags(editingDatedTagsText);
     const currentValue = datedTasksState?.[date]?.[hour];
     const taskText =
-      typeof currentValue === "string"
-        ? currentValue
-        : currentValue && typeof currentValue === "object"
+      currentValue && typeof currentValue === "object"
         ? currentValue.text || ""
         : "";
+    const order =
+      currentValue && typeof currentValue === "object"
+        ? Number.isFinite(currentValue.order)
+          ? currentValue.order
+          : null
+        : null;
     setDatedTasksState((prev) => {
       const next = { ...prev };
       const dayTasks = { ...(next[date] || {}) };
-      const current = dayTasks[hour];
-      if (typeof current === "string") {
-        dayTasks[hour] = { text: current, tags };
-      } else if (current && typeof current === "object") {
-        dayTasks[hour] = { ...current, tags };
-      } else {
-        dayTasks[hour] = { text: "", tags };
-      }
+      dayTasks[hour] =
+        order == null
+          ? { text: taskText, tags }
+          : { text: taskText, tags, order };
       next[date] = dayTasks;
       return next;
     });
     setEditingDatedTagsKey(null);
     setEditingDatedTagsText("");
 
+    const payload = { text: taskText, tags };
+    if (Number.isFinite(order)) {
+      payload.order = order;
+    }
     fetch(
       `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
         String(date)
@@ -1155,7 +1212,7 @@ function TimeHack() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text: taskText, tags }),
+        body: JSON.stringify(payload),
       }
     ).catch((e) => {
       console.error("Failed to save dated task tags", e);
@@ -1181,17 +1238,28 @@ function TimeHack() {
           ? currentValue.tags
           : []
         : [];
+    const order =
+      currentValue && typeof currentValue === "object"
+        ? Number.isFinite(currentValue.order)
+          ? currentValue.order
+          : null
+        : null;
 
     setDatedTasksState((prev) => {
       const next = { ...prev };
       const dayTasks = { ...(next[date] || {}) };
-      dayTasks[hour] = { text, tags };
+      dayTasks[hour] =
+        order == null ? { text, tags } : { text, tags, order };
       next[date] = dayTasks;
       return next;
     });
     setEditingDatedTaskKey(null);
     setEditingDatedTaskText("");
 
+    const payload = { text, tags };
+    if (Number.isFinite(order)) {
+      payload.order = order;
+    }
     fetch(
       `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
         String(date)
@@ -1201,7 +1269,7 @@ function TimeHack() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text, tags }),
+        body: JSON.stringify(payload),
       }
     ).catch((e) => {
       console.error("Failed to save dated task text", e);
@@ -1218,11 +1286,23 @@ function TimeHack() {
     }
     if (!text) return;
     const tags = parseTags(newDatedTags);
+    const existingDayTasks =
+      datedTasksStateRef.current?.[dateKey] || {};
+    const entries = getDatedEntriesForDate(existingDayTasks).sort(
+      sortDatedEntries
+    );
+    const existing = entries.find((entry) => entry.hour === hourValue);
+    const nextOrder = existing
+      ? Number.isFinite(existing.order)
+        ? existing.order
+        : entries.findIndex((entry) => entry.hour === hourValue)
+      : entries.length;
 
     setDatedTasksState((prev) => {
       const next = { ...prev };
       const dayTasks = { ...(next[dateKey] || {}) };
-      dayTasks[hourValue] = { text, tags };
+      dayTasks[hourValue] =
+        nextOrder == null ? { text, tags } : { text, tags, order: nextOrder };
       next[dateKey] = dayTasks;
       return next;
     });
@@ -1230,6 +1310,7 @@ function TimeHack() {
     setNewDatedText("");
     setNewDatedTags("");
 
+    const payload = { text, tags, order: nextOrder };
     fetch(
       `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
         String(dateKey)
@@ -1239,10 +1320,67 @@ function TimeHack() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text, tags }),
+        body: JSON.stringify(payload),
       }
     ).catch((e) => {
       console.error("Failed to add dated task", e);
+    });
+  };
+
+  const reorderDatedTasks = (date, sourceHour, targetHour) => {
+    setDatedTasksState((prev) => {
+      const dayTasks = prev[date];
+      if (!dayTasks) return prev;
+      const entries = getDatedEntriesForDate(dayTasks).sort(sortDatedEntries);
+      const fromIndex = entries.findIndex(
+        (entry) => entry.hour === sourceHour
+      );
+      const toIndex = entries.findIndex(
+        (entry) => entry.hour === targetHour
+      );
+      if (fromIndex < 0 || toIndex < 0 || fromIndex === toIndex) {
+        return prev;
+      }
+      const nextEntries = [...entries];
+      const [moved] = nextEntries.splice(fromIndex, 1);
+      nextEntries.splice(toIndex, 0, moved);
+      const nextDayTasks = { ...dayTasks };
+      nextEntries.forEach((entry, index) => {
+        nextDayTasks[entry.hour] = {
+          text: entry.text,
+          tags: entry.tags,
+          order: index,
+        };
+      });
+      return { ...prev, [date]: nextDayTasks };
+    });
+  };
+
+  const handleDatedTaskDragStart = (date, hour) => {
+    setDraggingDatedTaskKey(buildDatedDragKey(date, hour));
+  };
+
+  const handleDatedTaskDragOver = (event, date, hour) => {
+    event.preventDefault();
+    if (!draggingDatedTaskKey) return;
+    const parsed = parseDatedDragKey(draggingDatedTaskKey);
+    if (!parsed || parsed.date !== date) return;
+    if (parsed.hour === hour) return;
+    reorderDatedTasks(date, parsed.hour, hour);
+  };
+
+  const handleDatedTaskDragEnd = () => {
+    if (!draggingDatedTaskKey) return;
+    setDraggingDatedTaskKey(null);
+    const tasks = datedTasksStateRef.current;
+    fetch("https://lostmindsbackend.vercel.app/datedTasks", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ tasks }),
+    }).catch((e) => {
+      console.error("Failed to persist dated tasks order", e);
     });
   };
 
@@ -1254,8 +1392,10 @@ function TimeHack() {
     new Set(
       Object.values(datedTasksState).flatMap((tasksForDate) =>
         Object.values(tasksForDate).flatMap((value) => {
-          if (typeof value === "string") return [];
-          const rawTags = Array.isArray(value.tags) ? value.tags : [];
+          const rawTags =
+            value && typeof value === "object" && Array.isArray(value.tags)
+              ? value.tags
+              : [];
           return rawTags
             .map((t) => String(t).toLowerCase())
             .filter((t) => t.trim().length > 0);
@@ -1979,28 +2119,37 @@ function TimeHack() {
                       })()}
                     </div>
                     <ul className="dated-tasks-list">
-                      {Object.entries(tasksForDate)
-                        .sort(([h1], [h2]) => Number(h1) - Number(h2))
-                        .map(([hour, value]) => {
-                          let taskText = "";
-                          let tags = [];
-
-                          if (typeof value === "string") {
-                            taskText = value;
-                          } else if (value && typeof value === "object") {
-                            taskText = value.text || "";
-                            const rawTags = Array.isArray(value.tags) ? value.tags : [];
-                            tags = rawTags.map((t) => String(t).toLowerCase());
-                          }
+                      {getDatedEntriesForDate(tasksForDate)
+                        .sort(sortDatedEntries)
+                        .map(({ hour, text, tags }) => {
+                          const taskText = text;
+                          const normalizedTags = tags.map((tag) =>
+                            String(tag).toLowerCase()
+                          );
                           const isEditingDatedTags =
                             editingDatedTagsKey === `${date}-${hour}`;
                           const isEditingDatedTask =
                             editingDatedTaskKey === `${date}-${hour}`;
+                          const isDraggingDatedTask =
+                            draggingDatedTaskKey ===
+                            buildDatedDragKey(date, hour);
 
                           return (
                             <li
                               key={`${date}-${hour}`}
-                              className="dated-tasks-item"
+                              className={`dated-tasks-item ${
+                                isDraggingDatedTask
+                                  ? "dated-tasks-item-dragging"
+                                  : ""
+                              }`}
+                              draggable
+                              onDragStart={() =>
+                                handleDatedTaskDragStart(date, hour)
+                              }
+                              onDragOver={(event) =>
+                                handleDatedTaskDragOver(event, date, hour)
+                              }
+                              onDragEnd={handleDatedTaskDragEnd}
                             >
                               <span className="dated-tasks-hour">
                                 {String(hour).padStart(2, "0")}:00
@@ -2039,7 +2188,7 @@ function TimeHack() {
                                   <span className="dated-tasks-text">
                                     {taskText}
                                   </span>
-                                  {tags.map((tag) => (
+                                  {normalizedTags.map((tag) => (
                                     <button
                                       key={tag}
                                       type="button"
@@ -2087,7 +2236,11 @@ function TimeHack() {
                                   type="button"
                                   className="dated-tags-toggle"
                                   onClick={() =>
-                                    startEditingDatedTags(date, hour, tags)
+                                    startEditingDatedTags(
+                                      date,
+                                      hour,
+                                      normalizedTags
+                                    )
                                   }
                                 >
                                   Tags
