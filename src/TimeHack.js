@@ -1494,6 +1494,11 @@ function TimeHack() {
     });
   };
 
+  const handleDatedTaskDrop = (event) => {
+    event.preventDefault();
+    handleDatedTaskDragEnd();
+  };
+
   const upcomingDatedTasks = Object.entries(datedTasksState)
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
@@ -2259,6 +2264,7 @@ function TimeHack() {
                               onDragOver={(event) =>
                                 handleDatedTaskDragOver(event, date, hour)
                               }
+                              onDrop={handleDatedTaskDrop}
                               onDragEnd={handleDatedTaskDragEnd}
                             >
                               <span className="dated-tasks-hour">
