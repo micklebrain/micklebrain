@@ -1319,29 +1319,30 @@ function TimeHack() {
     const tags = parseTags(newDatedTags);
     const existingDayTasks =
       datedTasksStateRef.current?.[dateKey] || {};
-    const entries = getDatedEntriesForDate(existingDayTasks).sort(
-      sortDatedEntries
+    const entries = getDatedEntriesForDate(existingDayTasks);
+    const filteredEntries = entries.filter(
+      (entry) => entry.hour !== hourValue
     );
-    const existing = entries.find((entry) => entry.hour === hourValue);
-    const nextOrder = existing
-      ? Number.isFinite(existing.order)
-        ? existing.order
-        : entries.findIndex((entry) => entry.hour === hourValue)
-      : entries.length;
-
-    setDatedTasksState((prev) => {
-      const next = { ...prev };
-      const dayTasks = { ...(next[dateKey] || {}) };
-      dayTasks[hourValue] =
-        nextOrder == null ? { text, tags } : { text, tags, order: nextOrder };
-      next[dateKey] = dayTasks;
-      return next;
-    });
+    const nextEntries = [
+      ...filteredEntries,
+      { hour: hourValue, text, tags },
+    ].sort((a, b) => a.hour - b.hour);
+    const dayTasks = buildDatedDayTasksFromEntries(nextEntries);
+    const nextState = {
+      ...datedTasksStateRef.current,
+      [dateKey]: dayTasks,
+    };
+    setDatedTasksState(nextState);
+    datedTasksStateRef.current = nextState;
 
     setNewDatedText("");
     setNewDatedTags("");
 
-    const payload = { text, tags, order: nextOrder };
+    const payload = {
+      text,
+      tags,
+      order: nextEntries.findIndex((entry) => entry.hour === hourValue),
+    };
     fetch(
       `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
         String(dateKey)
@@ -1355,6 +1356,15 @@ function TimeHack() {
       }
     ).catch((e) => {
       console.error("Failed to add dated task", e);
+    });
+    fetch("https://lostmindsbackend.vercel.app/datedTasks", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ tasks: nextState }),
+    }).catch((e) => {
+      console.error("Failed to persist dated task order", e);
     });
   };
 
@@ -1521,6 +1531,7 @@ function TimeHack() {
 
   const jlptCompletedCount = jlptProgress.filter((l) => l.completed).length;
   const topikCompletedCount = topikProgress.filter((l) => l.completed).length;
+  const uncompletedTodosCount = todos.filter((todo) => !todo.done).length;
 
   const dailyTodoTags = Array.from(
     new Set(
@@ -1578,7 +1589,9 @@ function TimeHack() {
       </div>
       <div className="daily-todo">
         <div className="daily-todo-header">
-          <h2 className="daily-todo-title">daily To-Do's</h2>
+          <h2 className="daily-todo-title">
+            daily To-Do's ({uncompletedTodosCount})
+          </h2>
           <div className="daily-todo-header-right">
             <div className="daily-todo-date">
               {todayWeekday && `${todayWeekday} `}{todayKey}
