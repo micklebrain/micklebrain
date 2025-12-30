@@ -100,17 +100,28 @@ const buildDatedDayTasksFromEntries = (entries) => {
   return nextDayTasks;
 };
 
-const getSortedHours = (entries) =>
-  entries
-    .map((entry) => entry.hour)
-    .filter((hour) => Number.isInteger(hour) && hour >= 0 && hour < 24)
-    .sort((a, b) => a - b);
-
-const getFirstAvailableHour = (usedHours) => {
-  for (let hour = 0; hour < 24; hour += 1) {
-    if (!usedHours.has(hour)) return hour;
+const buildChronologicalHours = (entries) => {
+  const used = new Set();
+  const hours = [];
+  entries.forEach((entry) => {
+    const hour = entry.hour;
+    if (!Number.isInteger(hour) || hour < 0 || hour >= 24) return;
+    if (used.has(hour)) return;
+    used.add(hour);
+    hours.push(hour);
+  });
+  hours.sort((a, b) => a - b);
+  if (hours.length < entries.length) {
+    for (let hour = 0; hour < 24 && hours.length < entries.length; hour += 1) {
+      if (!used.has(hour)) {
+        used.add(hour);
+        hours.push(hour);
+      }
+    }
+    hours.sort((a, b) => a - b);
   }
-  return null;
+  if (hours.length < entries.length) return null;
+  return hours;
 };
 
 const assignHoursInOrder = (entries, hours) =>
@@ -1386,7 +1397,8 @@ function TimeHack() {
     const nextEntries = [...entries];
     const [moved] = nextEntries.splice(fromIndex, 1);
     nextEntries.splice(toIndex, 0, moved);
-    const sortedHours = getSortedHours(entries);
+    const sortedHours = buildChronologicalHours(entries);
+    if (!sortedHours) return null;
     const reassigned = assignHoursInOrder(nextEntries, sortedHours);
     const nextState = {
       ...prev,
@@ -1429,23 +1441,18 @@ function TimeHack() {
     const entryToInsert = { ...movedEntry };
     nextTargetEntries.splice(targetIndex, 0, entryToInsert);
 
-    const sourceHours = getSortedHours(sourceEntries).filter(
-      (hour) => hour !== sourceHour
-    );
+    const sourceHours = buildChronologicalHours(nextSourceEntries);
+    if (!sourceHours) return null;
     const reassignedSource = assignHoursInOrder(
       nextSourceEntries,
       sourceHours
     );
 
-    const targetHours = getSortedHours(targetEntries);
-    const nextHour = getFirstAvailableHour(new Set(targetHours));
-    if (nextHour == null) return null;
-    const assignedTargetHours = [...targetHours, nextHour].sort(
-      (a, b) => a - b
-    );
+    const targetHours = buildChronologicalHours(nextTargetEntries);
+    if (!targetHours) return null;
     const reassignedTarget = assignHoursInOrder(
       nextTargetEntries,
-      assignedTargetHours
+      targetHours
     );
 
     const nextState = {
