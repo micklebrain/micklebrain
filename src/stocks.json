@@ -42475,12 +42475,6 @@
         "name": "Old Republic International Corporation Common Stock"
     },
     {
-        "Symbol": "ORIS",
-        "Name": "Oriental Rise",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "ORLA",
         "Name": "Orla Mining Ltd. Common Shares",
         "ownWebull": false,
@@ -57666,12 +57660,6 @@
         "name": "Tetra Technologies, Inc. Common Stock"
     },
     {
-        "Symbol": "TTSHWB",
-        "Name": "Tile Shop Hldgs",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "TTT",
         "Name": "ProShares UltraPro Short 20 Year Treasury",
         "ownWebull": false,
@@ -61836,12 +61824,6 @@
         "Security Name": "Tidal Trust II YieldMax  MSTR Short Option Income Strategy ETF",
         "ETF": "Y",
         "name": "Tidal Trust II YieldMax  MSTR Short Option Income Strategy ETF"
-    },
-    {
-        "Symbol": "WOK",
-        "Name": "WORK Medical Technology Group LTD",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "WOLF",

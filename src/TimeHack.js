@@ -1606,6 +1606,13 @@ function TimeHack() {
             <button
               type="button"
               className="daily-todo-refresh-btn"
+              onClick={handleClearCompletedTodos}
+            >
+              Clear completed
+            </button>
+            <button
+              type="button"
+              className="daily-todo-refresh-btn"
               onClick={handleRefreshTodos}
             >
               Refresh
@@ -1616,13 +1623,6 @@ function TimeHack() {
               onClick={handleResetTodos}
             >
               Reset
-            </button>
-            <button
-              type="button"
-              className="daily-todo-refresh-btn"
-              onClick={handleClearCompletedTodos}
-            >
-              Clear completed
             </button>
           </div>
         </div>
