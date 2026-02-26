@@ -11059,7 +11059,7 @@
         "Symbol": "CMG",
         "Name": "Chipotle Mexican Grill, Inc. Common Stock",
         "ownWebull": true,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Chipotle Mexican Grill, Inc. Common Stock",
         "ETF": "N",
         "name": "Chipotle Mexican Grill, Inc. Common Stock"
@@ -16395,7 +16395,7 @@
         "Symbol": "EAT",
         "Name": "Brinker International, Inc. Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Brinker International, Inc. Common Stock",
         "ETF": "N",
         "name": "Brinker International, Inc. Common Stock"
@@ -19806,7 +19806,7 @@
         "name": "Direxion Financial Bull 3X Shares"
     },
     {
-        "Symbol": "FAT",
+        "Symbol": "FATAQ",
         "Name": "Fat Brands",
         "ownWebull": true,
         "ownEtrade": true
@@ -55518,7 +55518,7 @@
         "Symbol": "TD",
         "Name": "Toronto Dominion Bank (The) Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Toronto Dominion Bank (The) Common Stock",
         "ETF": "N",
         "name": "Toronto Dominion Bank (The) Common Stock"
