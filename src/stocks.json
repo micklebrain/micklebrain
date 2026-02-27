@@ -23857,7 +23857,7 @@
     {
         "Symbol": "GES",
         "Name": "Guess?, Inc. Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "Security Name": "Guess?, Inc. Common Stock",
         "ETF": "N",
@@ -30331,7 +30331,7 @@
     {
         "Symbol": "IRBT",
         "Name": "Irobot",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -30736,11 +30736,6 @@
         "Security Name": "ProShares Trust ProShares Russell 2000 High Income ETF",
         "ETF": "Y",
         "name": "ProShares Trust ProShares Russell 2000 High Income ETF"
-    },
-    {
-        "Symbol": "IVC",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "IVE",
@@ -38779,6 +38774,11 @@
         "name": "Materion Corporation"
     },
     {
+        "Symbol": "MTUAY",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "MTUL",
         "Name": "ETRACS 2x Leveraged MSCI US Momentum Factor TR ETN",
         "ownWebull": false,
@@ -41873,7 +41873,7 @@
     {
         "Symbol": "OBK",
         "Name": "Origin Bancorp, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Origin Bancorp, Inc. Common Stock",
         "ETF": "N",
@@ -42283,6 +42283,11 @@
         "Security Name": "Olin Corporation Common Stock",
         "ETF": "N",
         "name": "Olin Corporation Common Stock"
+    },
+    {
+        "Symbol": "OLOX",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "OLP",
@@ -51496,7 +51501,7 @@
     {
         "Symbol": "SGBX",
         "Name": "Safe & Green Holdings Corp",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -51628,7 +51633,7 @@
     {
         "Symbol": "SHCO",
         "Name": "Soho House & Co Inc. Class A Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "Security Name": "Soho House & Co Inc. Class A Common Stock",
         "ETF": "N",
