@@ -2781,7 +2781,7 @@
     {
         "Symbol": "APLT",
         "Name": "Applied Therapeutics",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -6902,7 +6902,7 @@
     {
         "Symbol": "BKE",
         "Name": "Buckle, Inc. (The) Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Buckle, Inc. (The) Common Stock",
         "ETF": "N",
@@ -26057,7 +26057,7 @@
     {
         "Symbol": "GWW",
         "Name": "W.W. Grainger, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "W.W. Grainger, Inc. Common Stock",
         "ETF": "N",
@@ -51790,7 +51790,7 @@
     {
         "Symbol": "SHW",
         "Name": "Sherwin",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Sherwin-Williams Company (The) Common Stock",
         "ETF": "N",
@@ -56193,7 +56193,7 @@
     {
         "Symbol": "THAR",
         "Name": "Tharimmune Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -57611,6 +57611,11 @@
     {
         "Symbol": "TSCDY",
         "Name": "Tesco Plc",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
+        "Symbol": "TSCO",
         "ownWebull": true,
         "ownEtrade": false
     },
@@ -61827,7 +61832,7 @@
     {
         "Symbol": "WHLR",
         "Name": "Wheeler Real Estate Invt Tr",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
