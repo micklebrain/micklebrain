@@ -213,6 +213,7 @@ function TimeHack() {
   const [editingDatedTaskKey, setEditingDatedTaskKey] = useState(null);
   const [editingDatedTaskText, setEditingDatedTaskText] = useState("");
   const [draggingDatedTaskKey, setDraggingDatedTaskKey] = useState(null);
+  const [deletingDatedKey, setDeletingDatedKey] = useState(null);
   const [newDatedDate, setNewDatedDate] = useState(() =>
     formatDateKey(new Date())
   );
@@ -1319,6 +1320,44 @@ function TimeHack() {
     });
   };
 
+  const removeDatedTask = async (date, hour) => {
+    const key = `${date}-${hour}`;
+    if (deletingDatedKey === key) return;
+    setDeletingDatedKey(key);
+    try {
+      const resp = await fetch(
+        `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
+          String(date)
+        )}/${encodeURIComponent(String(hour))}`,
+        { method: "DELETE" }
+      );
+
+      if (!resp.ok) {
+        const txt = await resp.text().catch(() => "");
+        throw new Error(`Server responded ${resp.status} ${txt}`);
+      }
+
+      // Update local state only after server confirms deletion
+      setDatedTasksState((prev) => {
+        const next = { ...(prev || {}) };
+        if (!next[date]) return next;
+        const day = { ...next[date] };
+        delete day[String(hour)];
+        if (Object.keys(day).length === 0) {
+          delete next[date];
+        } else {
+          next[date] = day;
+        }
+        datedTasksStateRef.current = next;
+        return next;
+      });
+    } catch (e) {
+      console.error("Failed to delete dated task", e);
+    } finally {
+      setDeletingDatedKey(null);
+    }
+  };
+
   const handleAddDatedTask = (event) => {
     event.preventDefault();
     const dateKey = (newDatedDate || "").trim();
@@ -2265,7 +2304,7 @@ function TimeHack() {
             title="Move all dated tasks before today to today"
             disabled={isTransitioning}
           >
-            {isTransitioning ? "Syncing..." : "Bring past tasks to today"}
+            {isTransitioning ? "Syncing..." : "transition"}
           </button>
         </div>
         {upcomingDatedTasks.length === 0 ? (
@@ -2459,6 +2498,15 @@ function TimeHack() {
                                   Edit
                                 </button>
                               )}
+                              <button
+                                type="button"
+                                className="dated-task-delete-btn"
+                                onClick={() => removeDatedTask(date, hour)}
+                                disabled={deletingDatedKey === `${date}-${hour}`}
+                                title="Delete this dated task"
+                              >
+                                {deletingDatedKey === `${date}-${hour}` ? "Deleting..." : "🗑️"}
+                              </button>
                             </li>
                           );
                         })}
