@@ -222,6 +222,7 @@ function TimeHack() {
   const [newDatedText, setNewDatedText] = useState("");
   const [newDatedTags, setNewDatedTags] = useState("");
   const datedTasksStateRef = useRef(datedTasksState);
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const [jlptProgress, setJlptProgress] = useState(() => {
     try {
       const stored = localStorage.getItem("timehack-jlpt-progress");
@@ -1516,6 +1517,56 @@ function TimeHack() {
     handleDatedTaskDragEnd();
   };
 
+  const transitionPastDatedTasksToToday = async () => {
+    const prev = datedTasksStateRef.current || {};
+    const next = { ...prev };
+    const movedEntries = [];
+
+    Object.entries(prev).forEach(([date, tasksForDate]) => {
+      if (date < todayKey) {
+        const entries = getDatedEntriesForDate(tasksForDate).sort(
+          sortDatedEntries
+        );
+        entries.forEach((e) => movedEntries.push({ ...e }));
+        delete next[date];
+      }
+    });
+
+    if (movedEntries.length === 0) return;
+
+    const todayEntries = getDatedEntriesForDate(next[todayKey] || {}).sort(
+      sortDatedEntries
+    );
+    const combined = [...todayEntries, ...movedEntries];
+    const hours = buildChronologicalHours(combined);
+    if (!hours) return;
+    const reassigned = assignHoursInOrder(combined, hours);
+    next[todayKey] = buildDatedDayTasksFromEntries(reassigned);
+
+    setIsTransitioning(true);
+    try {
+      const resp = await fetch("https://lostmindsbackend.vercel.app/datedTasks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ tasks: next }),
+      });
+
+      if (!resp.ok) {
+        const text = await resp.text().catch(() => "");
+        throw new Error(`Server responded ${resp.status} ${text}`);
+      }
+
+      // Only commit local state after successful server persist
+      setDatedTasksState(next);
+      datedTasksStateRef.current = next;
+    } catch (e) {
+      console.error("Failed to persist transitioned dated tasks", e);
+      // Optionally: show user feedback — for now, keep console and leave local state untouched
+    } finally {
+      setIsTransitioning(false);
+    }
+  };
+
   const upcomingDatedTasks = Object.entries(datedTasksState)
     .filter(([date]) => date >= todayKey)
     .sort(([a], [b]) => a.localeCompare(b));
@@ -2205,7 +2256,18 @@ function TimeHack() {
             Add
           </button>
         </form>
-        <h3 className="dated-tasks-title">Upcoming</h3>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <h3 className="dated-tasks-title">Upcoming</h3>
+          <button
+            type="button"
+            className="dated-tasks-transition-btn"
+            onClick={transitionPastDatedTasksToToday}
+            title="Move all dated tasks before today to today"
+            disabled={isTransitioning}
+          >
+            {isTransitioning ? "Syncing..." : "Bring past tasks to today"}
+          </button>
+        </div>
         {upcomingDatedTasks.length === 0 ? (
           <div className="dated-tasks-empty">
             No scheduled dated tasks.
