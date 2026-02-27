@@ -14,6 +14,11 @@
         "name": "Agilent Technologies, Inc. Common Stock"
     },
     {
+        "Symbol": "A067849",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "AA",
         "Name": "Alcoa Corporation Common Stock",
         "ownWebull": false,
@@ -13722,6 +13727,11 @@
         "ETF": "N"
     },
     {
+        "Symbol": "DBSDY",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "DBX",
         "Name": "Dropbox",
         "ownWebull": true,
@@ -13783,7 +13793,7 @@
     },
     {
         "Symbol": "DCX",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
@@ -19814,6 +19824,11 @@
     {
         "Symbol": "FATBB",
         "Name": "Fat Brands",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
+        "Symbol": "FATTQ",
         "ownWebull": true,
         "ownEtrade": false
     },
