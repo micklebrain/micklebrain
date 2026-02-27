@@ -1324,6 +1324,22 @@ function TimeHack() {
     const key = `${date}-${hour}`;
     if (deletingDatedKey === key) return;
     setDeletingDatedKey(key);
+
+    // Optimistically remove locally first for snappy UI.
+    const prevState = datedTasksStateRef.current || {};
+    const optimisticNext = { ...prevState };
+    if (optimisticNext[date]) {
+      const day = { ...optimisticNext[date] };
+      delete day[String(hour)];
+      if (Object.keys(day).length === 0) {
+        delete optimisticNext[date];
+      } else {
+        optimisticNext[date] = day;
+      }
+    }
+    setDatedTasksState(optimisticNext);
+    datedTasksStateRef.current = optimisticNext;
+
     try {
       const resp = await fetch(
         `https://lostmindsbackend.vercel.app/datedTasks/${encodeURIComponent(
@@ -1332,27 +1348,29 @@ function TimeHack() {
         { method: "DELETE" }
       );
 
-      if (!resp.ok) {
-        const txt = await resp.text().catch(() => "");
-        throw new Error(`Server responded ${resp.status} ${txt}`);
+      if (resp.ok) {
+        // Deleted successfully on server
+        return;
       }
 
-      // Update local state only after server confirms deletion
-      setDatedTasksState((prev) => {
-        const next = { ...(prev || {}) };
-        if (!next[date]) return next;
-        const day = { ...next[date] };
-        delete day[String(hour)];
-        if (Object.keys(day).length === 0) {
-          delete next[date];
-        } else {
-          next[date] = day;
-        }
-        datedTasksStateRef.current = next;
-        return next;
+      // If DELETE isn't supported or failed, try replacing whole tasks map (fallback)
+      const postResp = await fetch("https://lostmindsbackend.vercel.app/datedTasks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ tasks: optimisticNext }),
       });
+
+      if (postResp.ok) {
+        return;
+      }
+
+      const txt = await resp.text().catch(() => "");
+      throw new Error(`Server responded ${resp.status} ${txt}`);
     } catch (e) {
       console.error("Failed to delete dated task", e);
+      // Revert to previous state on failure
+      setDatedTasksState(prevState);
+      datedTasksStateRef.current = prevState;
     } finally {
       setDeletingDatedKey(null);
     }
