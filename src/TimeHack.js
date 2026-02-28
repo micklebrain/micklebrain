@@ -2322,7 +2322,7 @@ function TimeHack() {
             title="Move all dated tasks before today to today"
             disabled={isTransitioning}
           >
-            {isTransitioning ? "Syncing..." : "transition"}
+            {isTransitioning ? "Syncing..." : "bring forth"}
           </button>
         </div>
         {upcomingDatedTasks.length === 0 ? (
