@@ -19842,6 +19842,11 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FABTQ",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "FAF",
         "Name": "First American Corporation (New) Common Stock",
         "ownWebull": false,
