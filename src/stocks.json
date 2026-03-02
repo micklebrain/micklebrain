@@ -11493,6 +11493,11 @@
         "name": "Cohen & Steers Inc Common Stock"
     },
     {
+        "Symbol": "CNTN",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "CNTY",
         "Name": "Century Casinos",
         "ownWebull": true,
@@ -11771,7 +11776,7 @@
     {
         "Symbol": "COMP",
         "Name": "Compass, Inc. Class A Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Compass, Inc. Class A Common Stock",
         "ETF": "N",
