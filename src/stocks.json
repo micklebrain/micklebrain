@@ -1,10 +1,5 @@
 [
     {
-        "Symbol": "",
-        "ownWebull": true,
-        "ownEtrade": true
-    },
-    {
         "Symbol": "A",
         "Name": "Agilent Technologies, Inc. Common Stock",
         "ownWebull": false,
@@ -43267,6 +43262,11 @@
         "name": "Blue Owl Capital Inc. Class A Common Stock"
     },
     {
+        "Symbol": "OWLS",
+        "ownWebull": false,
+        "ownEtrade": true
+    },
+    {
         "Symbol": "OWLT",
         "Name": "Owlet, Inc. Class A Common Stock",
         "ownWebull": false,
@@ -47534,6 +47534,11 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "QPUX",
+        "ownWebull": false,
+        "ownEtrade": true
+    },
+    {
         "Symbol": "QPX",
         "Name": "AdvisorShares Q Dynamic Growth ETF",
         "ownWebull": false,
@@ -47855,7 +47860,7 @@
         "Symbol": "RA",
         "Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
         "ETF": "N",
         "name": "Brookfield Real Assets Income Fund Inc. Common Stock"
@@ -64252,6 +64257,11 @@
         "name": "iShares ESG Select Screened S&P 500 ETF"
     },
     {
+        "Symbol": "XWIN",
+        "ownWebull": false,
+        "ownEtrade": true
+    },
+    {
         "Symbol": "XXCH",
         "Name": "Direxion Shares ETF Trust Direxion Daily MSCI Emerging Markets ex China Bull 2X Shares",
         "ownWebull": false,
@@ -64495,6 +64505,11 @@
         "Security Name": "Direxion Daily FTSE China Bull 3x Shares",
         "ETF": "Y",
         "name": "Direxion Daily FTSE China Bull 3x Shares"
+    },
+    {
+        "Symbol": "YJ",
+        "ownWebull": false,
+        "ownEtrade": true
     },
     {
         "Symbol": "YJUN",
@@ -64988,7 +65003,7 @@
         "Symbol": "ZTR",
         "Name": "Virtus Total Return Fund Inc.",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Virtus Total Return Fund Inc.",
         "ETF": "N",
         "name": "Virtus Total Return Fund Inc."

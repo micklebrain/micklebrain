@@ -323,6 +323,7 @@ function Formula() {
         const listItems = res.doc
           .filter((myData) => myData['isCompleted'] == false)
           .filter((myData) => myData['isDaily'] == true)
+          .filter((myData) => typeof myData['task'] === 'string' && myData['task'].trim().length > 0)
           .map((myData) =>
             <button type="button" class="tag tag-todo tag-lg" onClick={
               () => {

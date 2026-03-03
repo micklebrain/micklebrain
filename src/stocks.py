@@ -18,6 +18,9 @@ def remove_keys(obj, keys_to_remove):
         return obj
     
 def addStock(symbol, ownWebull=False, ownEtrade=False):
+    if symbol=="":
+        return
+    
     with open("stocks.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -122,7 +125,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 
 # upcoming splits - ENVB
 # upcoming delisting - BHILQ, PGRE, LAZRQ, WBD
-stocksToAdd = ["BEBE", "BEBE-U", "RNW", "EDAP", "CIB"]
+stocksToAdd = ["SG", "RA", "OWLS"]
 
 for stock in stocksToAdd:
-    addStock(stock, ownWebull=True)
+    addStock(stock, ownEtrade=True)
