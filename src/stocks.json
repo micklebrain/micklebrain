@@ -55,6 +55,11 @@
         "name": "Goldman Sachs Physical Gold ETF Shares"
     },
     {
+        "Symbol": "AACG",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "AACT",
         "Name": "Ares Acquisition Corporation II Class A Ordinary Shares",
         "ownWebull": false,
@@ -836,6 +841,11 @@
         "name": "Series Portfolios Trust Adaptiv Select ETF"
     },
     {
+        "Symbol": "ADSE",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ADSK",
         "Name": "Autodesk",
         "ownWebull": true,
@@ -849,6 +859,11 @@
         "Security Name": "ADT Inc. Common Stock",
         "ETF": "N",
         "name": "ADT Inc. Common Stock"
+    },
+    {
+        "Symbol": "ADUR",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "ADVE",
@@ -948,6 +963,11 @@
         "Security Name": "AerCap Holdings N.V. Ordinary Shares",
         "ETF": "N",
         "name": "AerCap Holdings N.V. Ordinary Shares"
+    },
+    {
+        "Symbol": "AERO",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "AES",
@@ -1115,6 +1135,11 @@
         "Security Name": "First Trust Active Factor Small Cap ETF",
         "ETF": "Y",
         "name": "First Trust Active Factor Small Cap ETF"
+    },
+    {
+        "Symbol": "AFYA",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "AG",
@@ -1364,7 +1389,7 @@
     {
         "Symbol": "AGRO",
         "Name": "Adecoagro S.A. Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Adecoagro S.A. Common Shares",
         "ETF": "N",
@@ -1875,6 +1900,11 @@
         "name": "The Alger ETF Trust Alger AI Enablers & Adopters ETF"
     },
     {
+        "Symbol": "ALAR",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ALB",
         "Name": "Albemarle Corporation Common Stock",
         "ownWebull": false,
@@ -2037,6 +2067,11 @@
         "name": "Allegion plc Ordinary Shares"
     },
     {
+        "Symbol": "ALLT",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ALLY",
         "Name": "Ally Financial Inc. Common Stock",
         "ownWebull": true,
@@ -2128,6 +2163,11 @@
         "name": "Autoliv, Inc. Common Stock"
     },
     {
+        "Symbol": "ALVO",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ALX",
         "Name": "Alexander's, Inc. Common Stock",
         "ownWebull": false,
@@ -2184,7 +2224,7 @@
     {
         "Symbol": "AMBP",
         "Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
         "ETF": "N",
@@ -2406,6 +2446,11 @@
         "name": "Ameresco, Inc. Class A Common Stock"
     },
     {
+        "Symbol": "AMRN",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "AMRZ",
         "Name": "Amrize Ltd Ordinary Shares",
         "ownWebull": false,
@@ -2623,6 +2668,11 @@
         "Security Name": "Angel Studios, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Angel Studios, Inc. Class A Common Stock"
+    },
+    {
+        "Symbol": "ANPA",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "ANRO",
@@ -3672,6 +3722,11 @@
         "name": "Aspen Aerogels, Inc. Common Stock"
     },
     {
+        "Symbol": "ASPS",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ASR",
         "Name": "Grupo Aeroportuario del Sureste, S.A. de C.V. Common Stock",
         "ownWebull": false,
@@ -3756,6 +3811,11 @@
         "ownEtrade": false,
         "Security Name": "Atlas Corp. 7.875% Series H",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ATCX",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "ATEN",
@@ -4060,7 +4120,7 @@
     {
         "Symbol": "AUNA",
         "Name": "Auna SA Class A Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Auna SA Class A Ordinary Shares",
         "ETF": "N",
@@ -4105,7 +4165,7 @@
     {
         "Symbol": "AVAL",
         "Name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
         "ETF": "N",
@@ -4540,6 +4600,11 @@
         "name": "Axos Financial, Inc. Common Stock"
     },
     {
+        "Symbol": "AXIA",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "AXIL",
         "Name": "AXIL Brands, Inc. Common Stock",
         "ownWebull": false,
@@ -4949,7 +5014,7 @@
     {
         "Symbol": "BAK",
         "Name": "Braskem SA ADR",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Braskem SA ADR",
         "ETF": "N",
@@ -5299,7 +5364,7 @@
     {
         "Symbol": "BBD",
         "Name": "Banco Bradesco Sa American Depositary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Banco Bradesco Sa American Depositary Shares",
         "ETF": "N",
@@ -6278,6 +6343,11 @@
         "Security Name": "ETF Series Solutions Bahl & Gaynor Income Growth ETF",
         "ETF": "Y",
         "name": "ETF Series Solutions Bahl & Gaynor Income Growth ETF"
+    },
+    {
+        "Symbol": "BGLC",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "BGLD",
@@ -7274,6 +7344,11 @@
         "name": "Tidal Trust II Nicholas Crypto Income ETF"
     },
     {
+        "Symbol": "BLRX",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "BLSH",
         "Name": "Bullish Ordinary Shares",
         "ownWebull": true,
@@ -7514,6 +7589,11 @@
         "Security Name": "Bank Of Montreal Common Stock",
         "ETF": "N",
         "name": "Bank Of Montreal Common Stock"
+    },
+    {
+        "Symbol": "BMR",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "BMVP",
@@ -7820,6 +7900,11 @@
         "Security Name": "Borr Drilling Limited Common Shares",
         "ETF": "N",
         "name": "Borr Drilling Limited Common Shares"
+    },
+    {
+        "Symbol": "BOSC",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "BOUT",
@@ -9199,7 +9284,7 @@
     {
         "Symbol": "CANF",
         "Name": "Can",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Can-Fite Biopharma Ltd Sponsored ADR (Israel)",
         "ETF": "N",
@@ -9701,7 +9786,7 @@
     {
         "Symbol": "CCU",
         "Name": "Compania Cervecerias Unidas, S.A. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Compania Cervecerias Unidas, S.A. Common Stock",
         "ETF": "N",
@@ -9746,7 +9831,7 @@
     {
         "Symbol": "CDLR",
         "Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
         "ETF": "N",
@@ -9799,6 +9884,11 @@
         "Security Name": "Cadre Holdings, Inc. Common Stock",
         "ETF": "N",
         "name": "Cadre Holdings, Inc. Common Stock"
+    },
+    {
+        "Symbol": "CDRO",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "CDT",
@@ -10146,6 +10236,11 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "CGEN",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "CGGE",
         "Name": "Capital Group Global Equity ETF",
         "ownWebull": false,
@@ -10261,6 +10356,11 @@
         "Security Name": "Capital Group New Geography Equity ETF",
         "ETF": "Y",
         "name": "Capital Group New Geography Equity ETF"
+    },
+    {
+        "Symbol": "CGNT",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "CGRO",
@@ -10600,7 +10700,7 @@
     {
         "Symbol": "CIG",
         "Name": "Comp En De Mn Cemig ADS American Depositary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Comp En De Mn Cemig ADS American Depositary Shares",
         "ETF": "N",
@@ -10695,7 +10795,7 @@
     {
         "Symbol": "CINT",
         "Name": "CI&T Inc Class A Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "CI&T Inc Class A Common Shares",
         "ETF": "N",
@@ -10776,6 +10876,11 @@
         "Security Name": "Core Laboratories Inc. Common Stock",
         "ETF": "N",
         "name": "Core Laboratories Inc. Common Stock"
+    },
+    {
+        "Symbol": "CLBT",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "CLCG",
@@ -10865,6 +10970,11 @@
         "Security Name": "ProShares Long Online/Short Stores ETF",
         "ETF": "Y",
         "name": "ProShares Long Online/Short Stores ETF"
+    },
+    {
+        "Symbol": "CLLS",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "CLM",
@@ -12435,6 +12545,11 @@
         "name": "Columbia ETF Trust I Columbia Research Enhanced Real Estate ETF"
     },
     {
+        "Symbol": "CRESY",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "CRF",
         "Name": "Cornerstone Total Return Fund, Inc. (The) Common Stock",
         "ownWebull": false,
@@ -12601,7 +12716,7 @@
     {
         "Symbol": "CSAN",
         "Name": "Cosan S.A. ADS",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Cosan S.A. ADS",
         "ETF": "N",
@@ -15134,7 +15249,7 @@
     {
         "Symbol": "DLNG",
         "Name": "Dynagas LNG Partners LP Common Units",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Dynagas LNG Partners LP Common Units",
         "ETF": "N",
@@ -17378,6 +17493,11 @@
         "name": "Western Asset Global High Income Fund Inc Common Stock"
     },
     {
+        "Symbol": "EHLD",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "EIC",
         "Name": "Eagle Point Income Company Inc. Common Stock",
         "ownWebull": false,
@@ -17653,7 +17773,7 @@
     {
         "Symbol": "ELPC",
         "Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
         "ETF": "N",
@@ -20878,6 +20998,11 @@
         "name": "Franklin Templeton Holdings Trust Franklin Responsibly Sourced Gold ETF"
     },
     {
+        "Symbol": "FGL",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "FGN",
         "Name": "F&G Annuities & Life, Inc. 7.950% Senior Notes due 2053",
         "ownWebull": false,
@@ -23371,6 +23496,11 @@
         "name": "iShares MSCI USA Quality GARP ETF"
     },
     {
+        "Symbol": "GASS",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "GAST",
         "Name": "Gabelli Automation ETF",
         "ownWebull": false,
@@ -24052,7 +24182,7 @@
     {
         "Symbol": "GGB",
         "Name": "Gerdau S.A. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Gerdau S.A. Common Stock",
         "ETF": "N",
@@ -24485,6 +24615,11 @@
         "Security Name": "Pacer Funds Trust Pacer MSCI World Industry Advantage ETF",
         "ETF": "Y",
         "name": "Pacer Funds Trust Pacer MSCI World Industry Advantage ETF"
+    },
+    {
+        "Symbol": "GLBS",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "GLD",
@@ -25312,7 +25447,7 @@
     {
         "Symbol": "GPRK",
         "Name": "Geopark Ltd Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Geopark Ltd Common Shares",
         "ETF": "N",
@@ -25509,6 +25644,11 @@
         "Security Name": "Grindr Inc. Common Stock",
         "ETF": "N",
         "name": "Grindr Inc. Common Stock"
+    },
+    {
+        "Symbol": "GRNQ",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "GRNT",
@@ -25899,6 +26039,11 @@
         "Security Name": "Goldman Sachs Future Tech Leaders Equity ETF",
         "ETF": "Y",
         "name": "Goldman Sachs Future Tech Leaders Equity ETF"
+    },
+    {
+        "Symbol": "GTERA",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "GTES",
@@ -27102,7 +27247,7 @@
     {
         "Symbol": "HKD",
         "Name": "AMTD Digital Inc. American Depositary Shares (every five of which represent two Class A Ordinary Shares)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "AMTD Digital Inc. American Depositary Shares (every five of which represent two Class A Ordinary Shares)",
         "ETF": "N",
@@ -27237,6 +27382,11 @@
         "Security Name": "Hartford Municipal Opportunities ETF",
         "ETF": "Y",
         "name": "Hartford Municipal Opportunities ETF"
+    },
+    {
+        "Symbol": "HMR",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "HMY",
@@ -27687,6 +27837,11 @@
     {
         "Symbol": "HTHT",
         "Name": "H World Group",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
+        "Symbol": "HTOO",
         "ownWebull": true,
         "ownEtrade": false
     },
@@ -29752,6 +29907,11 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "IMPP",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "IMRA",
         "Name": "Bitwise Funds Trust Bitwise MARA Option Income Strategy ETF",
         "ownWebull": false,
@@ -29786,6 +29946,11 @@
         "Security Name": "iShares MSCI Intl Momentum Factor ETF",
         "ETF": "Y",
         "name": "iShares MSCI Intl Momentum Factor ETF"
+    },
+    {
+        "Symbol": "IMTX",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "IMVT",
@@ -29850,7 +30015,7 @@
     {
         "Symbol": "INDO",
         "Name": "Indonesia Energy Corporation Limited Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Indonesia Energy Corporation Limited Ordinary Shares",
         "ETF": "N",
@@ -30103,6 +30268,11 @@
         "name": "Invesco Intermediate Municipal ETF"
     },
     {
+        "Symbol": "INTR",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "INTT",
         "Name": "inTest Corporation Common Stock",
         "ownWebull": false,
@@ -30284,6 +30454,11 @@
         "Security Name": "Interpublic Group of Companies, Inc. (The) Common Stock",
         "ETF": "N",
         "name": "Interpublic Group of Companies, Inc. (The) Common Stock"
+    },
+    {
+        "Symbol": "IPHA",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "IPI",
@@ -30823,7 +30998,7 @@
     {
         "Symbol": "ITUB",
         "Name": "Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)",
         "ETF": "N",
@@ -30846,6 +31021,11 @@
         "Security Name": "ProShares Trust ProShares Russell 2000 High Income ETF",
         "ETF": "Y",
         "name": "ProShares Trust ProShares Russell 2000 High Income ETF"
+    },
+    {
+        "Symbol": "IVA",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "IVE",
@@ -33507,7 +33687,7 @@
     {
         "Symbol": "KLAR",
         "Name": "Klarna Group plc Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Klarna Group plc Ordinary Shares",
         "ETF": "N",
@@ -34305,6 +34485,11 @@
         "name": "Ladder Capital Corp Class A Common Stock"
     },
     {
+        "Symbol": "LAFA",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "LALT",
         "Name": "First Trust Exchange",
         "ownWebull": false,
@@ -34853,6 +35038,11 @@
         "name": "Tidal Trust II YieldMax Crypto Industry & Tech Portfolio Option Income ETF"
     },
     {
+        "Symbol": "LFS",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "LFT",
         "Name": "Lument Finance Trust, Inc. Common Stock",
         "ownWebull": true,
@@ -34875,6 +35065,11 @@
         "ownEtrade": false,
         "Security Name": "Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LGCB",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "LGCY",
@@ -35266,7 +35461,7 @@
     {
         "Symbol": "LND",
         "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
         "ETF": "N",
@@ -35280,6 +35475,11 @@
         "Security Name": "Cheniere Energy, Inc. Common Stock",
         "ETF": "N",
         "name": "Cheniere Energy, Inc. Common Stock"
+    },
+    {
+        "Symbol": "LNKS",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "LNN",
@@ -36685,6 +36885,11 @@
         "ETF": "N"
     },
     {
+        "Symbol": "MDXH",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "MDY",
         "Name": "SPDR S&P MidCap 400 ETF Trust",
         "ownWebull": false,
@@ -36998,7 +37203,7 @@
     {
         "Symbol": "MFG",
         "Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
         "ETF": "N",
@@ -38260,6 +38465,11 @@
         "name": "Merck & Company, Inc. Common Stock (new)"
     },
     {
+        "Symbol": "MRM",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "MRNA",
         "Name": "Moderna",
         "ownWebull": true,
@@ -38867,6 +39077,11 @@
         "Security Name": "Meritage Homes Corporation Common Stock",
         "ETF": "N",
         "name": "Meritage Homes Corporation Common Stock"
+    },
+    {
+        "Symbol": "MTLS",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "MTN",
@@ -40038,7 +40253,7 @@
     {
         "Symbol": "NEXA",
         "Name": "Nexa Resources S.A. Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Nexa Resources S.A. Common Shares",
         "ETF": "N",
@@ -40414,6 +40629,11 @@
         "name": "Nike, Inc. Common Stock"
     },
     {
+        "Symbol": "NKLR",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "NKX",
         "Name": "Nuveen California AMT",
         "ownWebull": false,
@@ -40611,7 +40831,7 @@
     {
         "Symbol": "NMR",
         "Name": "Nomura Holdings Inc ADR American Depositary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Nomura Holdings Inc ADR American Depositary Shares",
         "ETF": "N",
@@ -40762,7 +40982,7 @@
     {
         "Symbol": "NOK",
         "Name": "Nokia Corporation Sponsored American Depositary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Nokia Corporation Sponsored American Depositary Shares",
         "ETF": "N",
@@ -41264,7 +41484,7 @@
     {
         "Symbol": "NTZ",
         "Name": "Natuzzi, S.p.A.",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Natuzzi, S.p.A.",
         "ETF": "N",
@@ -41629,6 +41849,11 @@
         "name": "Listed Funds Trust Horizon Kinetics Energy and Remediation ETF"
     },
     {
+        "Symbol": "NVNI",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "NVO",
         "Name": "Novo Nordisk A/S Common Stock",
         "ownWebull": true,
@@ -41885,6 +42110,11 @@
         "Security Name": "New York Times Company (The) Common Stock",
         "ETF": "N",
         "name": "New York Times Company (The) Common Stock"
+    },
+    {
+        "Symbol": "NYXH",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "NZF",
@@ -42189,6 +42419,11 @@
         "name": "Oil"
     },
     {
+        "Symbol": "ODD",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "ODHY",
         "Name": "Spinnaker ETF Series Obra Defensive High Yield ETF",
         "ownWebull": false,
@@ -42209,7 +42444,7 @@
     {
         "Symbol": "OEC",
         "Name": "Orion S.A. Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Orion S.A. Common Shares",
         "ETF": "N",
@@ -43155,7 +43390,7 @@
     {
         "Symbol": "PAGS",
         "Name": "PagSeguro Digital Ltd. Class A Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "PagSeguro Digital Ltd. Class A Common Shares",
         "ETF": "N",
@@ -43821,6 +44056,11 @@
         "name": "PGIM ETF Trust PGIM Corporate Bond 10+ Year ETF"
     },
     {
+        "Symbol": "PCLA",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "PCLO",
         "Name": "Virtus ETF Trust II VIRTUS SEIX AAA Private Credit CLO ETF",
         "ownWebull": false,
@@ -43900,6 +44140,11 @@
         "Security Name": "PagerDuty, Inc. Common Stock",
         "ETF": "N",
         "name": "PagerDuty, Inc. Common Stock"
+    },
+    {
+        "Symbol": "PDC",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "PDCC",
@@ -45330,7 +45575,7 @@
     {
         "Symbol": "PNNT",
         "Name": "PennantPark Investment Corporation Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "PennantPark Investment Corporation Common Stock",
         "ETF": "N",
@@ -45597,7 +45842,7 @@
     {
         "Symbol": "PRGO",
         "Name": "Perrigo Company plc Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Perrigo Company plc Ordinary Shares",
         "ETF": "N",
@@ -45803,6 +46048,11 @@
         "Security Name": "PermRock Royalty Trust Trust Units",
         "ETF": "N",
         "name": "PermRock Royalty Trust Trust Units"
+    },
+    {
+        "Symbol": "PRTA",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "PRU",
@@ -46221,6 +46471,11 @@
         "Security Name": "PGIM ETF Trust PGIM Short Duration High Yield ETF",
         "ETF": "Y",
         "name": "PGIM ETF Trust PGIM Short Duration High Yield ETF"
+    },
+    {
+        "Symbol": "PSHG",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "PSI",
@@ -46740,6 +46995,11 @@
         "Security Name": "Invesco Oil & Gas Services ETF",
         "ETF": "Y",
         "name": "Invesco Oil & Gas Services ETF"
+    },
+    {
+        "Symbol": "PXS",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "PYLD",
@@ -48013,7 +48273,7 @@
     {
         "Symbol": "RDY",
         "Name": "Dr. Reddy's Laboratories Ltd Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Dr. Reddy's Laboratories Ltd Common Stock",
         "ETF": "N",
@@ -48510,6 +48770,11 @@
         "Security Name": "RH Tactical Outlook ETF",
         "ETF": "Y",
         "name": "RH Tactical Outlook ETF"
+    },
+    {
+        "Symbol": "RIBB",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "RIET",
@@ -50127,6 +50392,11 @@
         "name": "The Advisors' Inner Circle Fund III Strategas Global Policy Opportunities ETF"
     },
     {
+        "Symbol": "SAGT",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "SAH",
         "Name": "Sonic Automotive, Inc. Common Stock",
         "ownWebull": false,
@@ -51710,6 +51980,11 @@
         "name": "The RBB Fund, Inc. SGI U.S. Large Cap Core ETF"
     },
     {
+        "Symbol": "SGML",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "SGN",
         "Name": "Signing Day Sports, Inc. Common Stock",
         "ownWebull": false,
@@ -51861,6 +52136,11 @@
         "Security Name": "SPDR Nuveen ICE Short Term Municipal Bond ETF",
         "ETF": "Y",
         "name": "SPDR Nuveen ICE Short Term Municipal Bond ETF"
+    },
+    {
+        "Symbol": "SHMD",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "SHNY",
@@ -52032,6 +52312,11 @@
         "Security Name": "Harbor Scientific Alpha Income ETF",
         "ETF": "Y",
         "name": "Harbor Scientific Alpha Income ETF"
+    },
+    {
+        "Symbol": "SIFY",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "SIG",
@@ -52449,6 +52734,11 @@
         "name": "Amplify ETF Trust Amplify SILJ Covered Call ETF"
     },
     {
+        "Symbol": "SLMT",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "SLND",
         "Name": "Southland Holdings, Inc. Common Stock",
         "ownWebull": false,
@@ -52682,7 +52972,7 @@
     {
         "Symbol": "SMFG",
         "Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
         "ETF": "N",
@@ -54206,7 +54496,7 @@
     {
         "Symbol": "SQNS",
         "Name": "Sequans Communications S.A. American Depositary Shares (each representing ten (10) Ordinary Shares)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Sequans Communications S.A. American Depositary Shares (each representing ten (10) Ordinary Shares)",
         "ETF": "N",
@@ -54457,6 +54747,11 @@
         "Security Name": "Sasol Ltd. American Depositary Shares",
         "ETF": "N",
         "name": "Sasol Ltd. American Depositary Shares"
+    },
+    {
+        "Symbol": "SSM",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "SSO",
@@ -55000,7 +55295,7 @@
     {
         "Symbol": "SUZ",
         "Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
         "ETF": "N",
@@ -55386,7 +55681,7 @@
     {
         "Symbol": "TAK",
         "Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
         "ETF": "N",
@@ -55485,7 +55780,7 @@
     {
         "Symbol": "TBBB",
         "Name": "BBB Foods Inc. Class A Common Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "BBB Foods Inc. Class A Common Shares",
         "ETF": "N",
@@ -56262,7 +56557,7 @@
     {
         "Symbol": "TGE",
         "Name": "The Generation Essentials Group Class A Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "The Generation Essentials Group Class A Ordinary Shares",
         "ETF": "N",
@@ -57191,7 +57486,7 @@
     {
         "Symbol": "TOPS",
         "Name": "TOP Ships, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "TOP Ships, Inc. Common Stock",
         "ETF": "N",
@@ -57268,6 +57563,11 @@
         "Security Name": "Theriva Biologics, Inc. Common Stock",
         "ETF": "N",
         "name": "Theriva Biologics, Inc. Common Stock"
+    },
+    {
+        "Symbol": "TOYO",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "TPB",
@@ -58693,7 +58993,7 @@
     {
         "Symbol": "UGP",
         "Name": "Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)",
         "ETF": "N",
@@ -59894,6 +60194,11 @@
         "name": "VALE S.A.  American Depositary Shares Each Representing one common share"
     },
     {
+        "Symbol": "VALN",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "VALQ",
         "Name": "American Century U.S. Quality Value ETF",
         "ownWebull": false,
@@ -59982,6 +60287,11 @@
         "Security Name": "Vanguard World Funds ETF",
         "ETF": "Y",
         "name": "Vanguard World Funds ETF"
+    },
+    {
+        "Symbol": "VCIG",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "VCLN",
@@ -60385,6 +60695,11 @@
         "Security Name": "Viking Holdings Ltd Ordinary Shares",
         "ETF": "N",
         "name": "Viking Holdings Ltd Ordinary Shares"
+    },
+    {
+        "Symbol": "VINP",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "VIOG",
@@ -62791,6 +63106,11 @@
         "name": "Columbia EM Core ex"
     },
     {
+        "Symbol": "XCH",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "XCLR",
         "Name": "Global X Funds Global X S&P 500 Collar 95",
         "ownWebull": false,
@@ -64429,7 +64749,7 @@
     {
         "Symbol": "ZGN",
         "Name": "Ermenegildo Zegna N.V. Ordinary Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Ermenegildo Zegna N.V. Ordinary Shares",
         "ETF": "N",
