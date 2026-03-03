@@ -14004,7 +14004,7 @@
         "Symbol": "DDC",
         "Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "ETF": "N",
         "name": "DDC Enterprise Limited Class A Ordinary Shares"
