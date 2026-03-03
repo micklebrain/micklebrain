@@ -5940,6 +5940,16 @@
         "name": "Bloom Energy Corporation Class A Common Stock"
     },
     {
+        "Symbol": "BEBE",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
+        "Symbol": "BEBE-U",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "BEDU",
         "Name": "Bright Scholar Education Holdings Limited American Depositary Shares, each  representing four Class A Ordinary Share",
         "ownWebull": false,
@@ -10658,7 +10668,7 @@
     {
         "Symbol": "CIB",
         "Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
         "ETF": "N",
@@ -16885,6 +16895,11 @@
         "Security Name": "Consolidated Edison, Inc. Common Stock",
         "ETF": "N",
         "name": "Consolidated Edison, Inc. Common Stock"
+    },
+    {
+        "Symbol": "EDAP",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "EDC",
@@ -49323,6 +49338,11 @@
         "Security Name": "Tidal Trust II YieldMax  Target 12  Real Estate Option Income ETF",
         "ETF": "Y",
         "name": "Tidal Trust II YieldMax  Target 12  Real Estate Option Income ETF"
+    },
+    {
+        "Symbol": "RNW",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "RNWZ",
