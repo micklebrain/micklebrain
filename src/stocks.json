@@ -4811,7 +4811,7 @@
     {
         "Symbol": "BAC",
         "Name": "Bank of America Corporation Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "Bank of America Corporation Common Stock",
         "ETF": "N",
@@ -11246,7 +11246,7 @@
         "Symbol": "CMG",
         "Name": "Chipotle Mexican Grill, Inc. Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Chipotle Mexican Grill, Inc. Common Stock",
         "ETF": "N",
         "name": "Chipotle Mexican Grill, Inc. Common Stock"
@@ -13120,8 +13120,8 @@
     {
         "Symbol": "CUK",
         "Name": "Carnival Plc ADS ADS",
-        "ownWebull": false,
-        "ownEtrade": true,
+        "ownWebull": true,
+        "ownEtrade": false,
         "Security Name": "Carnival Plc ADS ADS",
         "ETF": "N",
         "name": "Carnival Plc ADS ADS"
@@ -19929,7 +19929,7 @@
     {
         "Symbol": "F",
         "Name": "Ford Motor Company Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "Ford Motor Company Common Stock",
         "ETF": "N",
@@ -30252,7 +30252,7 @@
     {
         "Symbol": "INTC",
         "Name": "Intel Corp",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true
     },
     {
@@ -38496,7 +38496,7 @@
         "Symbol": "MRNA",
         "Name": "Moderna",
         "ownWebull": true,
-        "ownEtrade": true
+        "ownEtrade": false
     },
     {
         "Symbol": "MRNY",
@@ -58834,7 +58834,7 @@
         "Name": "Uber Technologies, Inc. Common Stock",
         "ownWebull": true,
         "ownEtrade": false,
-        "ownChase": true,
+        "ownChase": false,
         "Security Name": "Uber Technologies, Inc. Common Stock",
         "ETF": "N",
         "name": "Uber Technologies, Inc. Common Stock"
@@ -59257,13 +59257,6 @@
         "name": "UMH Properties, Inc. Common Stock"
     },
     {
-        "Symbol": "UMH$D",
-        "Name": "UMH Properties, Inc. 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "UMH Properties, Inc. 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25 per share"
-    },
-    {
         "Symbol": "UMH-D",
         "Name": "UMH Properties, Inc. 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25 per share",
         "ownWebull": false,
@@ -59617,41 +59610,6 @@
         "Security Name": "U.S. Bancorp Common Stock",
         "ETF": "N",
         "name": "U.S. Bancorp Common Stock"
-    },
-    {
-        "Symbol": "USB$A",
-        "Name": "U.S. Bancorp Depositary Shares, Each representing a 1/100th interest in a share of Series A Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "U.S. Bancorp Depositary Shares, Each representing a 1/100th interest in a share of Series A Non"
-    },
-    {
-        "Symbol": "USB$H",
-        "Name": "U.S. Bancorp Depositary Shares repstg 1/1000th Pfd Ser B",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "U.S. Bancorp Depositary Shares repstg 1/1000th Pfd Ser B"
-    },
-    {
-        "Symbol": "USB$P",
-        "Name": "U.S. Bancorp Depositary Shares each representing a 1/1,000th interest in a share of Series K Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "U.S. Bancorp Depositary Shares each representing a 1/1,000th interest in a share of Series K Non"
-    },
-    {
-        "Symbol": "USB$Q",
-        "Name": "U.S. Bancorp Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Series L Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "U.S. Bancorp Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Series L Non"
-    },
-    {
-        "Symbol": "USB$R",
-        "Name": "U.S. Bancorp Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Series M Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "U.S. Bancorp Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Series M Non"
     },
     {
         "Symbol": "USB$S",
@@ -61353,7 +61311,7 @@
         "Symbol": "VSCO",
         "Name": "Victorias Secret & Co. Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Victorias Secret & Co. Common Stock",
         "ETF": "N",
         "name": "Victorias Secret & Co. Common Stock"
@@ -61883,6 +61841,7 @@
         "Name": "Webster Financial Corporation Common Stock",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownChase": true,
         "Security Name": "Webster Financial Corporation Common Stock",
         "ETF": "N",
         "name": "Webster Financial Corporation Common Stock"
