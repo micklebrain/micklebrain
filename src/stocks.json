@@ -20048,7 +20048,7 @@
     {
         "Symbol": "FATBB",
         "Name": "Fat Brands",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -22048,7 +22048,7 @@
     {
         "Symbol": "FMC",
         "Name": "FMC Corporation Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "FMC Corporation Common Stock",
         "ETF": "N",
@@ -23931,7 +23931,7 @@
         "Name": "VanEck Gold Miners ETF",
         "ownWebull": true,
         "ownEtrade": false,
-        "ownRobinhood": true,
+        "ownRobinhood": false,
         "Security Name": "VanEck Gold Miners ETF",
         "ETF": "Y",
         "name": "VanEck Gold Miners ETF"
@@ -31210,7 +31210,7 @@
     {
         "Symbol": "IVZ",
         "Name": "Invesco Ltd Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Invesco Ltd Common Stock",
         "ETF": "N",
@@ -36008,7 +36008,7 @@
         "Symbol": "LULU",
         "Name": "Lululemon",
         "ownWebull": true,
-        "ownEtrade": true
+        "ownEtrade": false
     },
     {
         "Symbol": "LUMN",
@@ -52667,7 +52667,7 @@
     {
         "Symbol": "SKM",
         "Name": "SK Telecom Co., Ltd. Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "SK Telecom Co., Ltd. Common Stock",
         "ETF": "N",
@@ -59418,7 +59418,7 @@
         "Symbol": "UPS",
         "Name": "United Parcel Service, Inc. Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "United Parcel Service, Inc. Common Stock",
         "ETF": "N",
         "name": "United Parcel Service, Inc. Common Stock"
