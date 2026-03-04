@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Chase">
+  <rect width="256" height="256" fill="#1464aa" />
+  <path
+    fill="#e8e8e8"
+    d="M87 61h77l37 37h-77zm-58 53l53-53v77H29zm145 3h53v76h-53zm-92 29v53l-53-53zm5 54h77l37-37h-77z"
+  />
+</svg>

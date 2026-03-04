@@ -7628,6 +7628,12 @@
         "name": "Brookfield Corporation Class A Limited Voting Shares"
     },
     {
+        "Symbol": "BND",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": true
+    },
+    {
         "Symbol": "BNDC",
         "Name": "FlexShares Core Select Bond Fund",
         "ownWebull": false,
@@ -8104,6 +8110,16 @@
         "name": "NEOS ETF Trust FIS Bright Portfolios Focused Equity ETF"
     },
     {
+        "Symbol": "BRK-A",
+        "Name": "Berkshire Hathaway Inc. Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": true,
+        "Security Name": "Berkshire Hathaway Inc. Common Stock",
+        "ETF": "N",
+        "name": "Berkshire Hathaway Inc. Common Stock"
+    },
+    {
         "Symbol": "BRK-B",
         "Name": "Berkshire Hathaway Inc. New Common Stock",
         "ownWebull": true,
@@ -8111,15 +8127,6 @@
         "Security Name": "Berkshire Hathaway Inc. New Common Stock",
         "ETF": "N",
         "name": "Berkshire Hathaway Inc. New Common Stock"
-    },
-    {
-        "Symbol": "BRK.A",
-        "Name": "Berkshire Hathaway Inc. Common Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Berkshire Hathaway Inc. Common Stock",
-        "ETF": "N",
-        "name": "Berkshire Hathaway Inc. Common Stock"
     },
     {
         "Symbol": "BRKC",
@@ -14353,6 +14360,7 @@
         "Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
         "ETF": "Y",
         "name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF"
@@ -14746,6 +14754,7 @@
         "Name": "iShares Core Dividend Growth ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "iShares Core Dividend Growth ETF",
         "ETF": "Y",
         "name": "iShares Core Dividend Growth ETF"
@@ -23309,6 +23318,7 @@
         "Name": "Invesco CurrencyShares Japanese Yen Trust",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "Invesco CurrencyShares Japanese Yen Trust",
         "ETF": "Y",
         "name": "Invesco CurrencyShares Japanese Yen Trust"
@@ -23921,6 +23931,7 @@
         "Name": "VanEck Gold Miners ETF",
         "ownWebull": true,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "VanEck Gold Miners ETF",
         "ETF": "Y",
         "name": "VanEck Gold Miners ETF"
@@ -31291,6 +31302,7 @@
         "Name": "iShares Russell 2000 ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "iShares Russell 2000 ETF",
         "ETF": "Y",
         "name": "iShares Russell 2000 ETF"
@@ -35422,6 +35434,7 @@
         "Name": "Lemonade, Inc. Common Stock",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "Lemonade, Inc. Common Stock",
         "ETF": "N",
         "name": "Lemonade, Inc. Common Stock"
@@ -41181,6 +41194,12 @@
         "name": "Nuveen Pennsylvania Quality Municipal Income Fund Common Stock"
     },
     {
+        "Symbol": "NRDS",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": true
+    },
+    {
         "Symbol": "NRDY",
         "Name": "Nerdy Inc. Class A Common Stock",
         "ownWebull": false,
@@ -44157,6 +44176,12 @@
         "name": "PagerDuty, Inc. Common Stock"
     },
     {
+        "Symbol": "PDBC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": true
+    },
+    {
         "Symbol": "PDC",
         "ownWebull": true,
         "ownEtrade": false
@@ -46770,7 +46795,8 @@
         "Symbol": "PTON",
         "Name": "Peloton Interactive, Inc.",
         "ownWebull": true,
-        "ownEtrade": false
+        "ownEtrade": false,
+        "ownRobinhood": true
     },
     {
         "Symbol": "PTRB",
@@ -51072,6 +51098,7 @@
         "Name": "Schwab U.S. REIT ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "Schwab U.S. REIT ETF",
         "ETF": "Y",
         "name": "Schwab U.S. REIT ETF"
@@ -52822,6 +52849,7 @@
         "Name": "iShares Silver Trust",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "iShares Silver Trust",
         "ETF": "Y",
         "name": "iShares Silver Trust"
@@ -55948,8 +55976,10 @@
     },
     {
         "Symbol": "TCEHY",
+        "Name": "Tencent",
         "ownWebull": true,
-        "ownEtrade": false
+        "ownEtrade": false,
+        "ownRobinhood": true
     },
     {
         "Symbol": "TCHP",
@@ -58804,6 +58834,7 @@
         "Name": "Uber Technologies, Inc. Common Stock",
         "ownWebull": true,
         "ownEtrade": false,
+        "ownChase": true,
         "Security Name": "Uber Technologies, Inc. Common Stock",
         "ETF": "N",
         "name": "Uber Technologies, Inc. Common Stock"
@@ -61653,6 +61684,7 @@
         "Name": "Vanguard FTSE Emerging Markets ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownRobinhood": true,
         "Security Name": "Vanguard FTSE Emerging Markets ETF",
         "ETF": "Y",
         "name": "Vanguard FTSE Emerging Markets ETF"

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import stocksData from "./stocks.json";
 import webullLogo from "./webull.svg";
 import etradeLogo from "./etrade.svg";
+import robinhoodLogo from "./robinhood.svg";
+import chaseLogo from "./chase.svg";
 
 function Stocks() {
   const items = React.useMemo(() => {
@@ -18,34 +20,72 @@ function Stocks() {
         Symbol: symbol,
         ownWebull: false,
         ownEtrade: false,
+        ownRobinhood: false,
+        ownChase: false,
       };
 
       bySymbol.set(symbol, {
         Symbol: symbol,
         ownWebull: existing.ownWebull || !!item.ownWebull,
         ownEtrade: existing.ownEtrade || !!item.ownEtrade,
+        ownRobinhood: existing.ownRobinhood || !!item.ownRobinhood,
+        ownChase: existing.ownChase || !!item.ownChase,
       });
     });
 
     return Array.from(bySymbol.values());
   }, []);
 
-  const [filter, setFilter] = useState("all"); // all | webull | etrade
+  const [selectedBrokers, setSelectedBrokers] = useState({
+    webull: false,
+    etrade: false,
+    robinhood: false,
+    chase: false,
+  });
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
   const [newOwnWebull, setNewOwnWebull] = useState(false);
   const [newOwnEtrade, setNewOwnEtrade] = useState(false);
+  const [newOwnRobinhood, setNewOwnRobinhood] = useState(false);
+  const [newOwnChase, setNewOwnChase] = useState(false);
 
   const effectiveItems = React.useMemo(
     () => [...items, ...extraStocks],
     [items, extraStocks]
   );
 
+  const brokerToOwnershipField = {
+    webull: "ownWebull",
+    etrade: "ownEtrade",
+    robinhood: "ownRobinhood",
+    chase: "ownChase",
+  };
+
+  const activeBrokers = Object.keys(selectedBrokers).filter(
+    (broker) => selectedBrokers[broker]
+  );
+  const hasAnyBrokerFilter = activeBrokers.length > 0;
+
   const filteredItems = effectiveItems.filter((item) => {
-    if (filter === "webull") return !!item.ownWebull;
-    if (filter === "etrade") return !!item.ownEtrade;
-    return true;
+    if (!hasAnyBrokerFilter) return true;
+    return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
   });
+
+  const clearBrokerFilters = () => {
+    setSelectedBrokers({
+      webull: false,
+      etrade: false,
+      robinhood: false,
+      chase: false,
+    });
+  };
+
+  const toggleBrokerFilter = (broker) => {
+    setSelectedBrokers((prev) => ({
+      ...prev,
+      [broker]: !prev[broker],
+    }));
+  };
 
   const handleAddStock = (e) => {
     e.preventDefault();
@@ -57,6 +97,8 @@ function Stocks() {
       setNewSymbol("");
       setNewOwnWebull(false);
       setNewOwnEtrade(false);
+      setNewOwnRobinhood(false);
+      setNewOwnChase(false);
       return;
     }
 
@@ -66,12 +108,16 @@ function Stocks() {
         Symbol: trimmed,
         ownWebull: newOwnWebull,
         ownEtrade: newOwnEtrade,
+        ownRobinhood: newOwnRobinhood,
+        ownChase: newOwnChase,
       },
     ]);
 
     setNewSymbol("");
     setNewOwnWebull(false);
     setNewOwnEtrade(false);
+    setNewOwnRobinhood(false);
+    setNewOwnChase(false);
   };
 
   return (
@@ -80,24 +126,38 @@ function Stocks() {
       <div className="stocks-filters">
         <button
           type="button"
-          className={`stocks-filter-btn ${filter === "all" ? "active" : ""}`}
-          onClick={() => setFilter("all")}
+          className={`stocks-filter-btn ${!hasAnyBrokerFilter ? "active" : ""}`}
+          onClick={clearBrokerFilters}
         >
           All
         </button>
         <button
           type="button"
-          className={`stocks-filter-btn ${filter === "webull" ? "active" : ""}`}
-          onClick={() => setFilter("webull")}
+          className={`stocks-filter-btn ${selectedBrokers.webull ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("webull")}
         >
           Webull
         </button>
         <button
           type="button"
-          className={`stocks-filter-btn ${filter === "etrade" ? "active" : ""}`}
-          onClick={() => setFilter("etrade")}
+          className={`stocks-filter-btn ${selectedBrokers.etrade ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("etrade")}
         >
           E*TRADE
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.robinhood ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("robinhood")}
+        >
+          Robinhood
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.chase ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("chase")}
+        >
+          Chase
         </button>
       </div>
       <div className="stocks-count">
@@ -127,6 +187,22 @@ function Stocks() {
           />
           E*TRADE
         </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
+            checked={newOwnRobinhood}
+            onChange={(e) => setNewOwnRobinhood(e.target.checked)}
+          />
+          Robinhood
+        </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
+            checked={newOwnChase}
+            onChange={(e) => setNewOwnChase(e.target.checked)}
+          />
+          Chase
+        </label>
         <button type="submit" className="stocks-add-btn">
           Add
         </button>
@@ -135,7 +211,9 @@ function Stocks() {
         {filteredItems.map((item) => {
           const hasWebull = !!item.ownWebull;
           const hasEtrade = !!item.ownEtrade;
-          const isOwned = hasWebull || hasEtrade;
+          const hasRobinhood = !!item.ownRobinhood;
+          const hasChase = !!item.ownChase;
+          const isOwned = hasWebull || hasEtrade || hasRobinhood || hasChase;
 
           return (
             <div
@@ -155,6 +233,20 @@ function Stocks() {
                   src={etradeLogo}
                   alt="Owned in E*TRADE"
                   className="stocks-tile-etrade-icon"
+                />
+              )}
+              {hasRobinhood && (
+                <img
+                  src={robinhoodLogo}
+                  alt="Owned in Robinhood"
+                  className="stocks-tile-robinhood-icon"
+                />
+              )}
+              {hasChase && (
+                <img
+                  src={chaseLogo}
+                  alt="Owned in Chase"
+                  className="stocks-tile-chase-icon"
                 />
               )}
             </div>
