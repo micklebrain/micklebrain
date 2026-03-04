@@ -42,6 +42,7 @@ function Stocks() {
     robinhood: false,
     chase: false,
   });
+  const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
   const [newOwnWebull, setNewOwnWebull] = useState(false);
@@ -67,6 +68,10 @@ function Stocks() {
   const hasAnyBrokerFilter = activeBrokers.length > 0;
 
   const filteredItems = effectiveItems.filter((item) => {
+    const isOwnedInAnyBroker =
+      !!item.ownWebull || !!item.ownEtrade || !!item.ownRobinhood || !!item.ownChase;
+
+    if (showAllOwnedOnly) return isOwnedInAnyBroker;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
   });
@@ -78,13 +83,25 @@ function Stocks() {
       robinhood: false,
       chase: false,
     });
+    setShowAllOwnedOnly(false);
   };
 
   const toggleBrokerFilter = (broker) => {
+    setShowAllOwnedOnly(false);
     setSelectedBrokers((prev) => ({
       ...prev,
       [broker]: !prev[broker],
     }));
+  };
+
+  const toggleAllOwnedFilter = () => {
+    setSelectedBrokers({
+      webull: false,
+      etrade: false,
+      robinhood: false,
+      chase: false,
+    });
+    setShowAllOwnedOnly((prev) => !prev);
   };
 
   const handleAddStock = (e) => {
@@ -126,7 +143,7 @@ function Stocks() {
       <div className="stocks-filters">
         <button
           type="button"
-          className={`stocks-filter-btn ${!hasAnyBrokerFilter ? "active" : ""}`}
+          className={`stocks-filter-btn ${!hasAnyBrokerFilter && !showAllOwnedOnly ? "active" : ""}`}
           onClick={clearBrokerFilters}
         >
           All
@@ -158,6 +175,13 @@ function Stocks() {
           onClick={() => toggleBrokerFilter("chase")}
         >
           Chase
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showAllOwnedOnly ? "active" : ""}`}
+          onClick={toggleAllOwnedFilter}
+        >
+          All Owned
         </button>
       </div>
       <div className="stocks-count">

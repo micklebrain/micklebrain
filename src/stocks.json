@@ -27565,7 +27565,7 @@
         "Symbol": "HPE",
         "Name": "Hewlett Packard Enterprise Company Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Hewlett Packard Enterprise Company Common Stock",
         "ETF": "N",
         "name": "Hewlett Packard Enterprise Company Common Stock"
@@ -56700,7 +56700,7 @@
         "Symbol": "TGT",
         "Name": "Target Corporation Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Target Corporation Common Stock",
         "ETF": "N",
         "name": "Target Corporation Common Stock"
