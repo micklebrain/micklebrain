@@ -55993,7 +55993,7 @@
         "Name": "Tencent",
         "ownWebull": true,
         "ownEtrade": false,
-        "ownRobinhood": true
+        "ownRobinhood": false
     },
     {
         "Symbol": "TCHP",
