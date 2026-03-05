@@ -335,27 +335,6 @@
         "name": "Arbor Realty Trust Common Stock"
     },
     {
-        "Symbol": "ABR$D",
-        "Name": "Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share"
-    },
-    {
-        "Symbol": "ABR$E",
-        "Name": "Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock"
-    },
-    {
-        "Symbol": "ABR$F",
-        "Name": "Arbor Realty Trust 6.25% Series F Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Arbor Realty Trust 6.25% Series F Fixed"
-    },
-    {
         "Symbol": "ABR-D",
         "Name": "Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share",
         "ownWebull": false,
@@ -599,20 +578,6 @@
         "Security Name": "ACRES Commercial Realty Corp. Common Stock",
         "ETF": "N",
         "name": "ACRES Commercial Realty Corp. Common Stock"
-    },
-    {
-        "Symbol": "ACR$C",
-        "Name": "ACRES Commercial Realty Corp. 8.625% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "ACRES Commercial Realty Corp. 8.625% Fixed"
-    },
-    {
-        "Symbol": "ACR$D",
-        "Name": "ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock"
     },
     {
         "Symbol": "ACR-C",
@@ -53727,6 +53692,7 @@
     },
     {
         "Symbol": "SPAXX",
+        "Name": "Fidelity Government Money Market Fund",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
@@ -53853,13 +53819,6 @@
         "name": "Special Opportunities Fund, Inc Common Stock"
     },
     {
-        "Symbol": "SPE$C",
-        "Name": "Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C"
-    },
-    {
         "Symbol": "SPE-C",
         "Name": "Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C",
         "ownWebull": false,
@@ -53902,13 +53861,6 @@
         "Security Name": "Simon Property Group, Inc. Common Stock",
         "ETF": "N",
         "name": "Simon Property Group, Inc. Common Stock"
-    },
-    {
-        "Symbol": "SPG$J",
-        "Name": "Simon Property Group, Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Simon Property Group, Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock"
     },
     {
         "Symbol": "SPG-J",
@@ -54139,13 +54091,6 @@
         "Security Name": "SiriusPoint Ltd. Common Shares",
         "ETF": "N",
         "name": "SiriusPoint Ltd. Common Shares"
-    },
-    {
-        "Symbol": "SPNT$B",
-        "Name": "SiriusPoint Ltd. 8.00% Resettable Fixed Rate Preference Shares, Series B, $25.00 liquidation preference per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "SiriusPoint Ltd. 8.00% Resettable Fixed Rate Preference Shares, Series B, $25.00 liquidation preference per share"
     },
     {
         "Symbol": "SPNT-B",
@@ -54579,13 +54524,6 @@
         "name": "Spire Inc. Common Stock"
     },
     {
-        "Symbol": "SR$A",
-        "Name": "Spire Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Spire Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock"
-    },
-    {
         "Symbol": "SR-A",
         "Name": "Spire Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock",
         "ownWebull": false,
@@ -54628,13 +54566,6 @@
         "Security Name": "Seritage Growth Properties Class A Common Stock",
         "ETF": "N",
         "name": "Seritage Growth Properties Class A Common Stock"
-    },
-    {
-        "Symbol": "SRG$A",
-        "Name": "Seritage Growth Properties 7.00% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Seritage Growth Properties 7.00% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest"
     },
     {
         "Symbol": "SRG-A",
@@ -55138,13 +55069,6 @@
         "name": "State Street Corporation Common Stock"
     },
     {
-        "Symbol": "STT$G",
-        "Name": "State Street Corporation Depositary shares, each representing a 1/4,000th ownership interest in a share of Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "State Street Corporation Depositary shares, each representing a 1/4,000th ownership interest in a share of Fixed"
-    },
-    {
         "Symbol": "STT-G",
         "Name": "State Street Corporation Depositary shares, each representing a 1/4,000th ownership interest in a share of Fixed",
         "ownWebull": false,
@@ -55518,20 +55442,6 @@
         "name": "Synchrony Financial Common Stock"
     },
     {
-        "Symbol": "SYF$A",
-        "Name": "Synchrony Financial Depositary Shares, each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Synchrony Financial Depositary Shares, each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non"
-    },
-    {
-        "Symbol": "SYF$B",
-        "Name": "Synchrony Financial Depositary Shares Each Representing a 1/40th Interest in a Share of 8.250% Fixed Rate Reset Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Synchrony Financial Depositary Shares Each Representing a 1/40th Interest in a Share of 8.250% Fixed Rate Reset Non"
-    },
-    {
         "Symbol": "SYF-A",
         "Name": "Synchrony Financial Depositary Shares, each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non",
         "ownWebull": false,
@@ -55642,20 +55552,6 @@
         "Security Name": "AT&T Inc.",
         "ETF": "N",
         "name": "AT&T Inc."
-    },
-    {
-        "Symbol": "T$A",
-        "Name": "AT&T Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 5.000% Perpetual Preferred Stock, Series A",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "AT&T Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 5.000% Perpetual Preferred Stock, Series A"
-    },
-    {
-        "Symbol": "T$C",
-        "Name": "AT&T Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 4.750% Perpetual Preferred Stock, Series C",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "AT&T Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 4.750% Perpetual Preferred Stock, Series C"
     },
     {
         "Symbol": "T-A",
@@ -56116,20 +56012,6 @@
         "name": "Telephone and Data Systems, Inc. Common Shares"
     },
     {
-        "Symbol": "TDS$U",
-        "Name": "Telephone and Data Systems, Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.625% Series UU Cumulative Redeemable Perpetual Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Telephone and Data Systems, Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.625% Series UU Cumulative Redeemable Perpetual Preferred Stock"
-    },
-    {
-        "Symbol": "TDS$V",
-        "Name": "Telephone and Data Systems, Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.000% Series VV Cumulative Redeemable Perpetual Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Telephone and Data Systems, Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.000% Series VV Cumulative Redeemable Perpetual Preferred Stock"
-    },
-    {
         "Symbol": "TDS-U",
         "Name": "Telephone and Data Systems, Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.625% Series UU Cumulative Redeemable Perpetual Preferred Stock",
         "ownWebull": false,
@@ -56363,20 +56245,6 @@
         "name": "Tsakos Energy Navigation Ltd Common Shares"
     },
     {
-        "Symbol": "TEN$E",
-        "Name": "Tsakos Energy Navigation Ltd Series E Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Tsakos Energy Navigation Ltd Series E Fixed"
-    },
-    {
-        "Symbol": "TEN$F",
-        "Name": "Tsakos Energy Navigation Ltd Series F Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Tsakos Energy Navigation Ltd Series F Fixed"
-    },
-    {
         "Symbol": "TEN-E",
         "Name": "Tsakos Energy Navigation Ltd Series E Fixed",
         "ownWebull": false,
@@ -56456,27 +56324,6 @@
         "name": "Truist Financial Corporation Common Stock"
     },
     {
-        "Symbol": "TFC$I",
-        "Name": "Truist Financial Corporation Depositary Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Truist Financial Corporation Depositary Shares"
-    },
-    {
-        "Symbol": "TFC$O",
-        "Name": "Truist Financial Corporation Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Series O Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Truist Financial Corporation Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Series O Non"
-    },
-    {
-        "Symbol": "TFC$R",
-        "Name": "Truist Financial Corporation Depositary Shares, each representing 1/1,000th interest in a share of Series R Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Truist Financial Corporation Depositary Shares, each representing 1/1,000th interest in a share of Series R Non"
-    },
-    {
         "Symbol": "TFC-I",
         "Name": "Truist Financial Corporation Depositary Shares",
         "ownWebull": false,
@@ -56526,13 +56373,6 @@
         "Security Name": "Triumph Financial, Inc. Common Stock",
         "ETF": "N",
         "name": "Triumph Financial, Inc. Common Stock"
-    },
-    {
-        "Symbol": "TFIN$",
-        "Name": "Triumph Financial, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of 7.125% Series C Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triumph Financial, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of 7.125% Series C Fixed"
     },
     {
         "Symbol": "TFIN-",
@@ -57966,48 +57806,6 @@
         "name": "Trio"
     },
     {
-        "Symbol": "TRTN$A",
-        "Name": "Triton International Limited 8.50% Series A Cumulative Redeemable Perpetual  Preference Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triton International Limited 8.50% Series A Cumulative Redeemable Perpetual  Preference Shares"
-    },
-    {
-        "Symbol": "TRTN$B",
-        "Name": "Triton International Limited 8.00% Series B Cumulative Redeemable Perpetual Preference Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triton International Limited 8.00% Series B Cumulative Redeemable Perpetual Preference Shares"
-    },
-    {
-        "Symbol": "TRTN$C",
-        "Name": "Triton International Limited 7.375% Series C Cumulative Redeemable Perpetual Preference Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triton International Limited 7.375% Series C Cumulative Redeemable Perpetual Preference Shares"
-    },
-    {
-        "Symbol": "TRTN$D",
-        "Name": "Triton International Limited 6.875% Series D Cumulative Redeemable Perpetual Preference Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triton International Limited 6.875% Series D Cumulative Redeemable Perpetual Preference Shares"
-    },
-    {
-        "Symbol": "TRTN$E",
-        "Name": "Triton International Limited 5.75% Series E Cumulative Redeemable Perpetual Preference Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triton International Limited 5.75% Series E Cumulative Redeemable Perpetual Preference Shares"
-    },
-    {
-        "Symbol": "TRTN$F",
-        "Name": "Triton International Limited 7.625% Series F Cumulative Redeemable Perpetual Preference Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Triton International Limited 7.625% Series F Cumulative Redeemable Perpetual Preference Shares"
-    },
-    {
         "Symbol": "TRTN-A",
         "Name": "Triton International Limited 8.50% Series A Cumulative Redeemable Perpetual  Preference Shares",
         "ownWebull": false,
@@ -58063,13 +57861,6 @@
         "Security Name": "TPG RE Finance Trust, Inc. Common Stock",
         "ETF": "N",
         "name": "TPG RE Finance Trust, Inc. Common Stock"
-    },
-    {
-        "Symbol": "TRTX$C",
-        "Name": "TPG RE Finance Trust, Inc. 6.25% Series C Cumulative Redeemable Preferred Stock, $0.001 par value per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "TPG RE Finance Trust, Inc. 6.25% Series C Cumulative Redeemable Preferred Stock, $0.001 par value per share"
     },
     {
         "Symbol": "TRTX-C",
@@ -58548,27 +58339,6 @@
         "name": "Two Harbors Investment Corp"
     },
     {
-        "Symbol": "TWO$A",
-        "Name": "Two Harbors Investments Corp 8.125% Series A Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Two Harbors Investments Corp 8.125% Series A Fixed"
-    },
-    {
-        "Symbol": "TWO$B",
-        "Name": "Two Harbors Investments Corp 7.625% Series B Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Two Harbors Investments Corp 7.625% Series B Fixed"
-    },
-    {
-        "Symbol": "TWO$C",
-        "Name": "Two Harbors Investments Corp 7.25% Series C Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Two Harbors Investments Corp 7.25% Series C Fixed"
-    },
-    {
         "Symbol": "TWO-A",
         "Name": "Two Harbors Investments Corp 8.125% Series A Fixed",
         "ownWebull": false,
@@ -58672,13 +58442,6 @@
         "Security Name": "Tri Continental Corporation Common Stock",
         "ETF": "N",
         "name": "Tri Continental Corporation Common Stock"
-    },
-    {
-        "Symbol": "TY$",
-        "Name": "Tri Continental Corporation Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Tri Continental Corporation Preferred Stock"
     },
     {
         "Symbol": "TY-",
@@ -59624,13 +59387,6 @@
         "Security Name": "U.S. Bancorp Common Stock",
         "ETF": "N",
         "name": "U.S. Bancorp Common Stock"
-    },
-    {
-        "Symbol": "USB$S",
-        "Name": "U.S. Bancorp Depositary Shares, each representing a 1/1,000th interest in a share of Series O Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "U.S. Bancorp Depositary Shares, each representing a 1/1,000th interest in a share of Series O Non"
     },
     {
         "Symbol": "USB-A",
@@ -61007,34 +60763,6 @@
         "name": "Vornado Realty Trust Common Stock"
     },
     {
-        "Symbol": "VNO$L",
-        "Name": "Vornado Realty Trust Pfd Ser L %",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Vornado Realty Trust Pfd Ser L %"
-    },
-    {
-        "Symbol": "VNO$M",
-        "Name": "Vornado Realty Trust 5.25% Series M Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share, no par value per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Vornado Realty Trust 5.25% Series M Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share, no par value per share"
-    },
-    {
-        "Symbol": "VNO$N",
-        "Name": "Vornado Realty Trust 5.25% Series N Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Vornado Realty Trust 5.25% Series N Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share"
-    },
-    {
-        "Symbol": "VNO$O",
-        "Name": "Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares, Liquidation Preference $25.00 Per Share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares, Liquidation Preference $25.00 Per Share"
-    },
-    {
         "Symbol": "VNO-L",
         "Name": "Vornado Realty Trust Pfd Ser L %",
         "ownWebull": false,
@@ -61198,13 +60926,6 @@
         "Security Name": "Voya Financial, Inc. Common Stock",
         "ETF": "N",
         "name": "Voya Financial, Inc. Common Stock"
-    },
-    {
-        "Symbol": "VOYA$B",
-        "Name": "Voya Financial, Inc. Depositary Shares, each representing a 1/40th interest in a share of 5.35% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Voya Financial, Inc. Depositary Shares, each representing a 1/40th interest in a share of 5.35% Fixed"
     },
     {
         "Symbol": "VOYA-B",
@@ -61760,13 +61481,6 @@
         "Security Name": "Western Alliance Bancorporation Common Stock (DE)",
         "ETF": "N",
         "name": "Western Alliance Bancorporation Common Stock (DE)"
-    },
-    {
-        "Symbol": "WAL$A",
-        "Name": "Western Alliance Bancorporation Depositary Shares, Each Representing a 1/400th Interest in a Share of 4.250% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Western Alliance Bancorporation Depositary Shares, Each Representing a 1/400th Interest in a Share of 4.250% Fixed"
     },
     {
         "Symbol": "WAL-A",
