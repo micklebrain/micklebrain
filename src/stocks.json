@@ -712,13 +712,6 @@
         "name": "Agree Realty Corporation Common Stock"
     },
     {
-        "Symbol": "ADC$A",
-        "Name": "Agree Realty Corporation Depositary Shares, each representing 1/1,000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Agree Realty Corporation Depositary Shares, each representing 1/1,000th of a 4.250% Series A Cumulative Redeemable Preferred Stock"
-    },
-    {
         "Symbol": "ADC-A",
         "Name": "Agree Realty Corporation Depositary Shares, each representing 1/1,000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",
         "ownWebull": false,
@@ -1212,41 +1205,6 @@
         "name": "Federal Agricultural Mortgage Corporation Common Stock"
     },
     {
-        "Symbol": "AGM$D",
-        "Name": "Federal Agricultural Mortgage Corporation 5.700% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Federal Agricultural Mortgage Corporation 5.700% Non"
-    },
-    {
-        "Symbol": "AGM$E",
-        "Name": "Federal Agricultural Mortgage Corporation 5.750% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Federal Agricultural Mortgage Corporation 5.750% Non"
-    },
-    {
-        "Symbol": "AGM$F",
-        "Name": "Federal Agricultural Mortgage Corporation 5.250% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Federal Agricultural Mortgage Corporation 5.250% Non"
-    },
-    {
-        "Symbol": "AGM$G",
-        "Name": "Federal Agricultural Mortgage Corporation 4.875% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Federal Agricultural Mortgage Corporation 4.875% Non"
-    },
-    {
-        "Symbol": "AGM$H",
-        "Name": "Federal Agricultural Mortgage Corporation 6.500% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Federal Agricultural Mortgage Corporation 6.500% Non"
-    },
-    {
         "Symbol": "AGM-D",
         "Name": "Federal Agricultural Mortgage Corporation 5.700% Non",
         "ownWebull": false,
@@ -1392,13 +1350,6 @@
         "name": "Armada Hoffler Properties, Inc. Common Stock"
     },
     {
-        "Symbol": "AHH$A",
-        "Name": "Armada Hoffler Properties, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Armada Hoffler Properties, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock"
-    },
-    {
         "Symbol": "AHH-A",
         "Name": "Armada Hoffler Properties, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
         "ownWebull": false,
@@ -1414,27 +1365,6 @@
         "Security Name": "Aspen Insurance Holdings Limited Class A Ordinary Shares",
         "ETF": "N",
         "name": "Aspen Insurance Holdings Limited Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "AHL$D",
-        "Name": "Aspen Insurance Holdings Limited 5.625% Perpetual Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Aspen Insurance Holdings Limited 5.625% Perpetual Non"
-    },
-    {
-        "Symbol": "AHL$E",
-        "Name": "Aspen Insurance Holdings Limited Depositary Shares, each representing a 1/1000th interest in a share of 5.625% Perpetual Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Aspen Insurance Holdings Limited Depositary Shares, each representing a 1/1000th interest in a share of 5.625% Perpetual Non"
-    },
-    {
-        "Symbol": "AHL$F",
-        "Name": "Aspen Insurance Holdings Limited Depositary Shares, each representing a 1/1,000th Interest in a 7.00% Perpetual Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Aspen Insurance Holdings Limited Depositary Shares, each representing a 1/1,000th Interest in a 7.00% Perpetual Non"
     },
     {
         "Symbol": "AHL-D",
@@ -1486,41 +1416,6 @@
         "Security Name": "Ashford Hospitality Trust Inc Common Stock",
         "ETF": "N",
         "name": "Ashford Hospitality Trust Inc Common Stock"
-    },
-    {
-        "Symbol": "AHT$D",
-        "Name": "Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock"
-    },
-    {
-        "Symbol": "AHT$F",
-        "Name": "Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock"
-    },
-    {
-        "Symbol": "AHT$G",
-        "Name": "Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock"
-    },
-    {
-        "Symbol": "AHT$H",
-        "Name": "Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock"
-    },
-    {
-        "Symbol": "AHT$I",
-        "Name": "Ashford Hospitality Trust Inc 7.50% Series I Cumulative Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Ashford Hospitality Trust Inc 7.50% Series I Cumulative Preferred Stock"
     },
     {
         "Symbol": "AHT-D",
@@ -1874,13 +1769,6 @@
         "name": "Albemarle Corporation Common Stock"
     },
     {
-        "Symbol": "ALB$A",
-        "Name": "Albemarle Corporation Depositary Shares each representing a 1/20th of 7.25% Series A Mandatory Convertible Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Albemarle Corporation Depositary Shares each representing a 1/20th of 7.25% Series A Mandatory Convertible Preferred Stock"
-    },
-    {
         "Symbol": "ALB-A",
         "Name": "Albemarle Corporation Depositary Shares each representing a 1/20th of 7.25% Series A Mandatory Convertible Preferred Stock",
         "ownWebull": false,
@@ -1956,34 +1844,6 @@
         "Security Name": "Allstate Corporation (The) Common Stock",
         "ETF": "N",
         "name": "Allstate Corporation (The) Common Stock"
-    },
-    {
-        "Symbol": "ALL$B",
-        "Name": "Allstate Corporation (The) 5.100% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Allstate Corporation (The) 5.100% Fixed"
-    },
-    {
-        "Symbol": "ALL$H",
-        "Name": "Allstate Corporation (The) Depositary Shares each representing a 1/1,000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock, Series H",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Allstate Corporation (The) Depositary Shares each representing a 1/1,000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock, Series H"
-    },
-    {
-        "Symbol": "ALL$I",
-        "Name": "Allstate Corporation (The) Depositary Shares each representing a 1/1,000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock, Series I",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Allstate Corporation (The) Depositary Shares each representing a 1/1,000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock, Series I"
-    },
-    {
-        "Symbol": "ALL$J",
-        "Name": "Allstate Corporation (The) Depositary Shares each representing a 1/1,000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock, Series J",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Allstate Corporation (The) Depositary Shares each representing a 1/1,000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock, Series J"
     },
     {
         "Symbol": "ALL-B",
@@ -2072,13 +1932,6 @@
         "Security Name": "Alta Equipment Group Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Alta Equipment Group Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "ALTG$A",
-        "Name": "Alta Equipment Group Inc. Depositary Shares (each representing 1/1000th in a share of 10% Series A Cumulative Perpetual Preferred Stock)",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Alta Equipment Group Inc. Depositary Shares (each representing 1/1000th in a share of 10% Series A Cumulative Perpetual Preferred Stock)"
     },
     {
         "Symbol": "ALTG-A",
@@ -2274,20 +2127,6 @@
         "Security Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
         "ETF": "N",
         "name": "American Homes 4 Rent Common Shares of Beneficial Interest"
-    },
-    {
-        "Symbol": "AMH$G",
-        "Name": "American Homes 4 Rent Series G cumulative redeemable perpetual preferred shares of beneficial interest",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "American Homes 4 Rent Series G cumulative redeemable perpetual preferred shares of beneficial interest"
-    },
-    {
-        "Symbol": "AMH$H",
-        "Name": "American Homes 4 Rent Series H cumulative redeemable perpetual Preferred Shares of Beneficial Interest",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "American Homes 4 Rent Series H cumulative redeemable perpetual Preferred Shares of Beneficial Interest"
     },
     {
         "Symbol": "AMH-G",
@@ -2583,20 +2422,6 @@
         "Security Name": "Abercrombie & Fitch Company Common Stock",
         "ETF": "N",
         "name": "Abercrombie & Fitch Company Common Stock"
-    },
-    {
-        "Symbol": "ANG$B",
-        "Name": "American National Group Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 6.625% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "American National Group Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 6.625% Fixed"
-    },
-    {
-        "Symbol": "ANG$D",
-        "Name": "American National Group Inc. Depositary Shares, each representing a 1/1000th interest in a share of 7.375% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "American National Group Inc. Depositary Shares, each representing a 1/1000th interest in a share of 7.375% Fixed"
     },
     {
         "Symbol": "ANG-B",
