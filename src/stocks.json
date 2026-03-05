@@ -20292,6 +20292,7 @@
         "Name": "Fidelity MSCI Communication Services Index ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownAlly": true,
         "Security Name": "Fidelity MSCI Communication Services Index ETF",
         "ETF": "Y",
         "name": "Fidelity MSCI Communication Services Index ETF"
@@ -20760,6 +20761,7 @@
         "Name": "Fidelity MSCI Energy Index ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownSchwab": true,
         "Security Name": "Fidelity MSCI Energy Index ETF",
         "ETF": "Y",
         "name": "Fidelity MSCI Energy Index ETF"
@@ -22846,6 +22848,7 @@
         "Name": "Fidelity MSCI COnsumer Staples Index ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownAlly": true,
         "Security Name": "Fidelity MSCI COnsumer Staples Index ETF",
         "ETF": "Y",
         "name": "Fidelity MSCI COnsumer Staples Index ETF"
@@ -23115,6 +23118,7 @@
         "Name": "Fidelity MSCI Utilities Index ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownFidelity": true,
         "Security Name": "Fidelity MSCI Utilities Index ETF",
         "ETF": "Y",
         "name": "Fidelity MSCI Utilities Index ETF"
@@ -38714,7 +38718,7 @@
     {
         "Symbol": "MSCI",
         "Name": "MSCI Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "MSCI Inc. Common Stock",
         "ETF": "N",
@@ -39109,7 +39113,7 @@
     {
         "Symbol": "MTN",
         "Name": "Vail Resorts, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Vail Resorts, Inc. Common Stock",
         "ETF": "N",
@@ -53722,6 +53726,16 @@
         "name": "SPDR Portfolio Aggregate Bond ETF"
     },
     {
+        "Symbol": "SPAXX",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": true
+    },
+    {
         "Symbol": "SPB",
         "Name": "Spectrum Brands Holdings, Inc. Common Stock",
         "ownWebull": false,
@@ -61171,6 +61185,7 @@
         "Name": "Vanguard Communication Services  ETF",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownSchwab": true,
         "Security Name": "Vanguard Communication Services  ETF",
         "ETF": "Y",
         "name": "Vanguard Communication Services  ETF"

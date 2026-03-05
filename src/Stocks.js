@@ -4,6 +4,9 @@ import webullLogo from "./webull.svg";
 import etradeLogo from "./etrade.svg";
 import robinhoodLogo from "./robinhood.svg";
 import chaseLogo from "./chase.svg";
+import schwabLogo from "./schwab.svg";
+import allyLogo from "./ally.svg";
+import fidelityLogo from "./fidelity.svg";
 
 function Stocks() {
   const items = React.useMemo(() => {
@@ -22,6 +25,9 @@ function Stocks() {
         ownEtrade: false,
         ownRobinhood: false,
         ownChase: false,
+        ownSchwab: false,
+        ownAlly: false,
+        ownFidelity: false,
       };
 
       bySymbol.set(symbol, {
@@ -30,6 +36,9 @@ function Stocks() {
         ownEtrade: existing.ownEtrade || !!item.ownEtrade,
         ownRobinhood: existing.ownRobinhood || !!item.ownRobinhood,
         ownChase: existing.ownChase || !!item.ownChase,
+        ownSchwab: existing.ownSchwab || !!item.ownSchwab,
+        ownAlly: existing.ownAlly || !!item.ownAlly,
+        ownFidelity: existing.ownFidelity || !!item.ownFidelity,
       });
     });
 
@@ -41,6 +50,9 @@ function Stocks() {
     etrade: false,
     robinhood: false,
     chase: false,
+    schwab: false,
+    ally: false,
+    fidelity: false,
   });
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
@@ -49,6 +61,9 @@ function Stocks() {
   const [newOwnEtrade, setNewOwnEtrade] = useState(false);
   const [newOwnRobinhood, setNewOwnRobinhood] = useState(false);
   const [newOwnChase, setNewOwnChase] = useState(false);
+  const [newOwnSchwab, setNewOwnSchwab] = useState(false);
+  const [newOwnAlly, setNewOwnAlly] = useState(false);
+  const [newOwnFidelity, setNewOwnFidelity] = useState(false);
 
   const effectiveItems = React.useMemo(
     () => [...items, ...extraStocks],
@@ -60,6 +75,9 @@ function Stocks() {
     etrade: "ownEtrade",
     robinhood: "ownRobinhood",
     chase: "ownChase",
+    schwab: "ownSchwab",
+    ally: "ownAlly",
+    fidelity: "ownFidelity",
   };
 
   const activeBrokers = Object.keys(selectedBrokers).filter(
@@ -69,7 +87,13 @@ function Stocks() {
 
   const filteredItems = effectiveItems.filter((item) => {
     const isOwnedInAnyBroker =
-      !!item.ownWebull || !!item.ownEtrade || !!item.ownRobinhood || !!item.ownChase;
+      !!item.ownWebull ||
+      !!item.ownEtrade ||
+      !!item.ownRobinhood ||
+      !!item.ownChase ||
+      !!item.ownSchwab ||
+      !!item.ownAlly ||
+      !!item.ownFidelity;
 
     if (showAllOwnedOnly) return isOwnedInAnyBroker;
     if (!hasAnyBrokerFilter) return true;
@@ -82,6 +106,9 @@ function Stocks() {
       etrade: false,
       robinhood: false,
       chase: false,
+      schwab: false,
+      ally: false,
+      fidelity: false,
     });
     setShowAllOwnedOnly(false);
   };
@@ -100,6 +127,9 @@ function Stocks() {
       etrade: false,
       robinhood: false,
       chase: false,
+      schwab: false,
+      ally: false,
+      fidelity: false,
     });
     setShowAllOwnedOnly((prev) => !prev);
   };
@@ -116,6 +146,9 @@ function Stocks() {
       setNewOwnEtrade(false);
       setNewOwnRobinhood(false);
       setNewOwnChase(false);
+      setNewOwnSchwab(false);
+      setNewOwnAlly(false);
+      setNewOwnFidelity(false);
       return;
     }
 
@@ -127,6 +160,9 @@ function Stocks() {
         ownEtrade: newOwnEtrade,
         ownRobinhood: newOwnRobinhood,
         ownChase: newOwnChase,
+        ownSchwab: newOwnSchwab,
+        ownAlly: newOwnAlly,
+        ownFidelity: newOwnFidelity,
       },
     ]);
 
@@ -135,6 +171,9 @@ function Stocks() {
     setNewOwnEtrade(false);
     setNewOwnRobinhood(false);
     setNewOwnChase(false);
+    setNewOwnSchwab(false);
+    setNewOwnAlly(false);
+    setNewOwnFidelity(false);
   };
 
   return (
@@ -175,6 +214,27 @@ function Stocks() {
           onClick={() => toggleBrokerFilter("chase")}
         >
           Chase
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.schwab ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("schwab")}
+        >
+          Schwab
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.ally ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("ally")}
+        >
+          Ally
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.fidelity ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("fidelity")}
+        >
+          Fidelity
         </button>
         <button
           type="button"
@@ -227,6 +287,30 @@ function Stocks() {
           />
           Chase
         </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
+            checked={newOwnSchwab}
+            onChange={(e) => setNewOwnSchwab(e.target.checked)}
+          />
+          Schwab
+        </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
+            checked={newOwnAlly}
+            onChange={(e) => setNewOwnAlly(e.target.checked)}
+          />
+          Ally
+        </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
+            checked={newOwnFidelity}
+            onChange={(e) => setNewOwnFidelity(e.target.checked)}
+          />
+          Fidelity
+        </label>
         <button type="submit" className="stocks-add-btn">
           Add
         </button>
@@ -237,7 +321,17 @@ function Stocks() {
           const hasEtrade = !!item.ownEtrade;
           const hasRobinhood = !!item.ownRobinhood;
           const hasChase = !!item.ownChase;
-          const isOwned = hasWebull || hasEtrade || hasRobinhood || hasChase;
+          const hasSchwab = !!item.ownSchwab;
+          const hasAlly = !!item.ownAlly;
+          const hasFidelity = !!item.ownFidelity;
+          const isOwned =
+            hasWebull ||
+            hasEtrade ||
+            hasRobinhood ||
+            hasChase ||
+            hasSchwab ||
+            hasAlly ||
+            hasFidelity;
 
           return (
             <div
@@ -271,6 +365,27 @@ function Stocks() {
                   src={chaseLogo}
                   alt="Owned in Chase"
                   className="stocks-tile-chase-icon"
+                />
+              )}
+              {hasSchwab && (
+                <img
+                  src={schwabLogo}
+                  alt="Owned in Charles Schwab"
+                  className="stocks-tile-schwab-icon"
+                />
+              )}
+              {hasAlly && (
+                <img
+                  src={allyLogo}
+                  alt="Owned in Ally"
+                  className="stocks-tile-ally-icon"
+                />
+              )}
+              {hasFidelity && (
+                <img
+                  src={fidelityLogo}
+                  alt="Owned in Fidelity"
+                  className="stocks-tile-fidelity-icon"
                 />
               )}
             </div>

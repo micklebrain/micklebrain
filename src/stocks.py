@@ -17,7 +17,7 @@ def remove_keys(obj, keys_to_remove):
     else:
         return obj
     
-def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False):
+def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False):
     if symbol=="":
         return
     
@@ -29,7 +29,10 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
         "ownWebull": ownWebull,
         "ownEtrade": ownEtrade,
         "ownRobinhood": ownRobinhood,
-        "ownChase": ownChase
+        "ownChase": ownChase,
+        "ownSchwab": ownSchwab,
+        "ownAlly": ownAlly,
+        "ownFidelity": ownFidelity
     }
 
     found = False
@@ -43,6 +46,12 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
                 item["ownRobinhood"] = True
             if ownChase:
                 item["ownChase"] = True
+            if ownSchwab:
+                item["ownSchwab"] = True
+            if ownAlly:
+                item["ownAlly"] = True
+            if ownFidelity:
+                item["ownFidelity"] = True
             found = True
             print("stock updated")
             break
@@ -131,7 +140,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 
 # upcoming splits - ENVB
 # upcoming delisting - BHILQ, PGRE, LAZRQ, WBD
-stocksToAdd = ["BND"]
+stocksToAdd = ["SPAXX"]
 
 for stock in stocksToAdd:
-    addStock(stock, ownRobinhood=True)
+    addStock(stock, ownFidelity=True)
