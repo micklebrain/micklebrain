@@ -19652,11 +19652,6 @@
         "ownEtrade": false
     },
     {
-        "Symbol": "FATTQ",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "FAUG",
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "ownWebull": false,
