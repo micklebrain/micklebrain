@@ -107,14 +107,6 @@
         "name": "AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share"
     },
     {
-        "Symbol": "AAM=",
-        "Name": "AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one-half of one redeemable warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "AAME",
         "ownWebull": true,
         "ownEtrade": false
@@ -554,13 +546,6 @@
         "Security Name": "abrdn Income Credit Strategies Fund Common Shares",
         "ETF": "N",
         "name": "abrdn Income Credit Strategies Fund Common Shares"
-    },
-    {
-        "Symbol": "ACP$A",
-        "Name": "abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock"
     },
     {
         "Symbol": "ACP-A",
@@ -2715,13 +2700,6 @@
         "name": "Apollo Global Management, Inc. (New) Common Stock"
     },
     {
-        "Symbol": "APO$A",
-        "Name": "Apollo Global Management, Inc. 6.75% Series A Mandatory Convertible Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Apollo Global Management, Inc. 6.75% Series A Mandatory Convertible Preferred Stock"
-    },
-    {
         "Symbol": "APO-A",
         "Name": "Apollo Global Management, Inc. 6.75% Series A Mandatory Convertible Preferred Stock",
         "ownWebull": false,
@@ -2991,13 +2969,6 @@
         "name": "Ares Management Corporation Class A Common Stock"
     },
     {
-        "Symbol": "ARES$B",
-        "Name": "Ares Management Corporation 6.75% Series B Mandatory Convertible Preferred Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Ares Management Corporation 6.75% Series B Mandatory Convertible Preferred Stock"
-    },
-    {
         "Symbol": "ARES-B",
         "Name": "Ares Management Corporation 6.75% Series B Mandatory Convertible Preferred Stock",
         "ownWebull": false,
@@ -3228,13 +3199,6 @@
         "name": "ARMOUR Residential REIT, Inc."
     },
     {
-        "Symbol": "ARR$C",
-        "Name": "ARMOUR Residential REIT, Inc. 7% Series C Cumulative Redeemable Preferred Stock (liquidation preference $25.00 per share)",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "ARMOUR Residential REIT, Inc. 7% Series C Cumulative Redeemable Preferred Stock (liquidation preference $25.00 per share)"
-    },
-    {
         "Symbol": "ARR-C",
         "Name": "ARMOUR Residential REIT, Inc. 7% Series C Cumulative Redeemable Preferred Stock (liquidation preference $25.00 per share)",
         "ownWebull": false,
@@ -3303,20 +3267,6 @@
         "ownEtrade": false,
         "Security Name": "Associated Banc-Corp Common Stock",
         "ETF": "N",
-        "name": "Associated Banc"
-    },
-    {
-        "Symbol": "ASB$E",
-        "Name": "Associated Banc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Associated Banc"
-    },
-    {
-        "Symbol": "ASB$F",
-        "Name": "Associated Banc",
-        "ownWebull": false,
-        "ownEtrade": false,
         "name": "Associated Banc"
     },
     {
@@ -3583,13 +3533,6 @@
         "name": "AtlasClear Holdings, Inc. Common Stock"
     },
     {
-        "Symbol": "ATCO$H",
-        "Name": "Atlas Corp. 7.875% Series H",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Atlas Corp. 7.875% Series H"
-    },
-    {
         "Symbol": "ATCO-H",
         "Name": "Atlas Corp. 7.875% Series H",
         "ownWebull": false,
@@ -3640,27 +3583,6 @@
         "ownWebull": false,
         "ownEtrade": false,
         "name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.35% Fixed"
-    },
-    {
-        "Symbol": "ATH$B",
-        "Name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 5.625% Fixed Rate Perpetual Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 5.625% Fixed Rate Perpetual Non"
-    },
-    {
-        "Symbol": "ATH$D",
-        "Name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 4.875% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 4.875% Fixed"
-    },
-    {
-        "Symbol": "ATH$E",
-        "Name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 7.750% Fixed",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 7.750% Fixed"
     },
     {
         "Symbol": "ATH-A",
@@ -3827,13 +3749,6 @@
         "Security Name": "Atlantic Union Bankshares Corporation Common Stock",
         "ETF": "N",
         "name": "Atlantic Union Bankshares Corporation Common Stock"
-    },
-    {
-        "Symbol": "AUB$A",
-        "Name": "Atlantic Union Bankshares Corporation Depositary Shares each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Atlantic Union Bankshares Corporation Depositary Shares each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non"
     },
     {
         "Symbol": "AUB-A",
@@ -4435,13 +4350,6 @@
         "name": "Axis Capital Holdings Limited Common Stock"
     },
     {
-        "Symbol": "AXS$E",
-        "Name": "Axis Capital Holdings Limited Depositary Shares, each representing 1/100th interest in a share of a 5.50% Series E Preferred Shares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Axis Capital Holdings Limited Depositary Shares, each representing 1/100th interest in a share of a 5.50% Series E Preferred Shares"
-    },
-    {
         "Symbol": "AXS-E",
         "Name": "Axis Capital Holdings Limited Depositary Shares, each representing 1/100th interest in a share of a 5.50% Series E Preferred Shares",
         "ownWebull": false,
@@ -4557,13 +4465,6 @@
         "name": "Boeing Company (The) Common Stock"
     },
     {
-        "Symbol": "BA$A",
-        "Name": "Boeing Company (The) Depositary Shares, each representing a 1/20th interest in a share of 6.00% Series A Mandatory Convertible Preferred Stock, par value $1.00",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Boeing Company (The) Depositary Shares, each representing a 1/20th interest in a share of 6.00% Series A Mandatory Convertible Preferred Stock, par value $1.00"
-    },
-    {
         "Symbol": "BA-A",
         "Name": "Boeing Company (The) Depositary Shares, each representing a 1/20th interest in a share of 6.00% Series A Mandatory Convertible Preferred Stock, par value $1.00",
         "ownWebull": false,
@@ -4606,76 +4507,6 @@
         "Security Name": "Bank of America Corporation Common Stock",
         "ETF": "N",
         "name": "Bank of America Corporation Common Stock"
-    },
-    {
-        "Symbol": "BAC$B",
-        "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non"
-    },
-    {
-        "Symbol": "BAC$E",
-        "Name": "Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E"
-    },
-    {
-        "Symbol": "BAC$K",
-        "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 5.875% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 5.875% Non"
-    },
-    {
-        "Symbol": "BAC$L",
-        "Name": "Bank of America Corporation Non Cumulative Perpetual Conv Pfd Ser L",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Non Cumulative Perpetual Conv Pfd Ser L"
-    },
-    {
-        "Symbol": "BAC$M",
-        "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 5.375% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 5.375% Non"
-    },
-    {
-        "Symbol": "BAC$N",
-        "Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 5.000% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 5.000% Non"
-    },
-    {
-        "Symbol": "BAC$O",
-        "Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.375% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.375% Non"
-    },
-    {
-        "Symbol": "BAC$P",
-        "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 4.125% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 4.125% Non"
-    },
-    {
-        "Symbol": "BAC$Q",
-        "Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.250% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.250% Non"
-    },
-    {
-        "Symbol": "BAC$S",
-        "Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.750% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.750% Non"
     },
     {
         "Symbol": "BAC-B",
@@ -4930,13 +4761,6 @@
         "Security Name": "Banc of California, Inc. Common Stock",
         "ETF": "N",
         "name": "Banc of California, Inc. Common Stock"
-    },
-    {
-        "Symbol": "BANC$F",
-        "Name": "Banc of California, Inc. Depositary Shares, each representing a 1/40th interest in a share of 7.75% non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Banc of California, Inc. Depositary Shares, each representing a 1/40th interest in a share of 7.75% non"
     },
     {
         "Symbol": "BANC-F",
@@ -5379,20 +5203,6 @@
         "Security Name": "Brunswick Corporation Common Stock",
         "ETF": "N",
         "name": "Brunswick Corporation Common Stock"
-    },
-    {
-        "Symbol": "BC$A",
-        "Name": "Brunswick Corporation 6.500% Senior Notes due 2048",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Brunswick Corporation 6.500% Senior Notes due 2048"
-    },
-    {
-        "Symbol": "BC$C",
-        "Name": "Brunswick Corporation 6.375% Notes due 2049",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Brunswick Corporation 6.375% Notes due 2049"
     },
     {
         "Symbol": "BC-A",
@@ -61401,20 +61211,6 @@
         "name": "Webster Financial Corporation Common Stock"
     },
     {
-        "Symbol": "WBS$F",
-        "Name": "Webster Financial Corporation Depositary Shares, Each Representing 1/1,000th Interest in a Share of 5.25% Series F Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Webster Financial Corporation Depositary Shares, Each Representing 1/1,000th Interest in a Share of 5.25% Series F Non"
-    },
-    {
-        "Symbol": "WBS$G",
-        "Name": "Webster Financial Corporation Depositary Shares, each representing a 1/40th interest in a share of 6.50% Series G non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Webster Financial Corporation Depositary Shares, each representing a 1/40th interest in a share of 6.50% Series G non"
-    },
-    {
         "Symbol": "WBS-F",
         "Name": "Webster Financial Corporation Depositary Shares, Each Representing 1/1,000th Interest in a Share of 5.25% Series F Non",
         "ownWebull": false,
@@ -61728,48 +61524,6 @@
         "Security Name": "Wells Fargo & Company Common Stock",
         "ETF": "N",
         "name": "Wells Fargo & Company Common Stock"
-    },
-    {
-        "Symbol": "WFC$A",
-        "Name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non"
-    },
-    {
-        "Symbol": "WFC$C",
-        "Name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non"
-    },
-    {
-        "Symbol": "WFC$D",
-        "Name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in  a share of Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in  a share of Non"
-    },
-    {
-        "Symbol": "WFC$L",
-        "Name": "Wells Fargo & Company 7.50% Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Wells Fargo & Company 7.50% Non"
-    },
-    {
-        "Symbol": "WFC$Y",
-        "Name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non"
-    },
-    {
-        "Symbol": "WFC$Z",
-        "Name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Wells Fargo & Company Depositary Shares, each representing a 1/1,000th interest in a share of Non"
     },
     {
         "Symbol": "WFC-A",
@@ -62209,34 +61963,6 @@
         "Security Name": "W.R. Berkley Corporation Common Stock",
         "ETF": "N",
         "name": "W.R. Berkley Corporation Common Stock"
-    },
-    {
-        "Symbol": "WRB$E",
-        "Name": "W.R. Berkley Corporation 5.70% Subordinated Debentures due 2058",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "W.R. Berkley Corporation 5.70% Subordinated Debentures due 2058"
-    },
-    {
-        "Symbol": "WRB$F",
-        "Name": "W.R. Berkley Corporation 5.10% Subordinated Debentures due 2059",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "W.R. Berkley Corporation 5.10% Subordinated Debentures due 2059"
-    },
-    {
-        "Symbol": "WRB$G",
-        "Name": "W.R. Berkley Corporation 4.25% Subordinated Debentures due 2060",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "W.R. Berkley Corporation 4.25% Subordinated Debentures due 2060"
-    },
-    {
-        "Symbol": "WRB$H",
-        "Name": "W.R. Berkley Corporation 4.125% Subordinated Debentures due 2061",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "W.R. Berkley Corporation 4.125% Subordinated Debentures due 2061"
     },
     {
         "Symbol": "WRB-E",
@@ -62805,13 +62531,6 @@
         "Security Name": "XAI Octagon Floating Rate & Alternative Income Trust Common Shares of Beneficial Interest",
         "ETF": "N",
         "name": "XAI Octagon Floating Rate & Alternative Income Trust Common Shares of Beneficial Interest"
-    },
-    {
-        "Symbol": "XFLT$A",
-        "Name": "XAI Octagon Floating Rate & Alternative Income Trust 6.50% Series 2026 Term Preferred Shares, (Liquidation Preference $25.00)",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "XAI Octagon Floating Rate & Alternative Income Trust 6.50% Series 2026 Term Preferred Shares, (Liquidation Preference $25.00)"
     },
     {
         "Symbol": "XFLT-A",
