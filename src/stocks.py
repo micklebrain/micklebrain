@@ -140,7 +140,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 
 # upcoming splits - ENVB
 # upcoming delisting - BHILQ, PGRE, LAZRQ, WBD
-stocksToAdd = ["SPAXX"]
+stocksToAdd = []
 
 for stock in stocksToAdd:
     addStock(stock, ownFidelity=True)

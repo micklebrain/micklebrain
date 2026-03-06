@@ -36354,7 +36354,7 @@
         "Symbol": "MCO",
         "Name": "Moody's Corporation Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Moody's Corporation Common Stock",
         "ETF": "N",
         "name": "Moody's Corporation Common Stock"
@@ -55178,7 +55178,7 @@
         "Symbol": "T",
         "Name": "AT&T Inc.",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "AT&T Inc.",
         "ETF": "N",
         "name": "AT&T Inc."
