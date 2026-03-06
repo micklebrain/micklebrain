@@ -27492,7 +27492,7 @@
     {
         "Symbol": "HUBB",
         "Name": "Hubbell Inc Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Hubbell Inc Common Stock",
         "ETF": "N",
