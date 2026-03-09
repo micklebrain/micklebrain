@@ -36726,12 +36726,12 @@
     {
         "Symbol": "MNRO",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "ownRobinhood": false,
         "ownChase": false,
         "ownSchwab": false,
         "ownAlly": false,
-        "ownFidelity": true
+        "ownFidelity": false
     },
     {
         "Symbol": "MNRS",
