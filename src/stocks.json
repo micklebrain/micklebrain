@@ -36724,6 +36724,16 @@
         "name": "Mach Natural Resources LP Common Units representing Limited Partner Interests"
     },
     {
+        "Symbol": "MNRO",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": true
+    },
+    {
         "Symbol": "MNRS",
         "Name": "Grayscale Funds Trust Grayscale Bitcoin Miners ETF",
         "ownWebull": false,
@@ -40369,7 +40379,7 @@
         "Symbol": "NX",
         "Name": "Quanex Building Products Corporation Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Quanex Building Products Corporation Common Stock",
         "ETF": "N",
         "name": "Quanex Building Products Corporation Common Stock"

@@ -218,7 +218,8 @@ table, th, td {
 }
 
 .stocks-symbol {
-  z-index: 1;
+  position: relative;
+  z-index: 10;
 }
 
 .stocks-tile-owned {
@@ -287,11 +288,12 @@ table, th, td {
 .stocks-tile-fidelity-icon {
   position: absolute;
   top: 50%;
-  right: 6px;
+  right: 4px;
   transform: translateY(-50%);
-  width: 24px;
-  height: 24px;
+  width: 34px;
+  height: 34px;
   border-radius: 6px;
+  z-index: 2;
 }
 
 /**** Article links ******/
