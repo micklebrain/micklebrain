@@ -6230,7 +6230,7 @@
     {
         "Symbol": "BINI",
         "Name": "Bollinger Innovations Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -55815,7 +55815,7 @@
     {
         "Symbol": "TRV",
         "Name": "The Travelers Companies, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "The Travelers Companies, Inc. Common Stock",
         "ETF": "N",
