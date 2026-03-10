@@ -17507,6 +17507,16 @@
         "name": "Eaton Vance Enhance Equity Income Fund II Common Stock"
     },
     {
+        "Symbol": "EOSE",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "EOT",
         "Name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
         "ownWebull": false,
@@ -45710,7 +45720,7 @@
     {
         "Symbol": "QNCX",
         "Name": "Quince",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -57064,7 +57074,7 @@
     {
         "Symbol": "UOKA",
         "Name": "MDJM LTD",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
