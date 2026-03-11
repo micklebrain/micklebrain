@@ -20844,6 +20844,16 @@
         "name": "Franklin FTSE Mexico ETF"
     },
     {
+        "Symbol": "FLNA",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "FLNC",
         "Name": "Fluence Energy, Inc.",
         "ownWebull": true,
@@ -33107,7 +33117,7 @@
     {
         "Symbol": "KXIN",
         "Name": "Kaixin Holdings",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -38347,6 +38357,16 @@
         "name": "National Bank Holdings Corporation Common Stock"
     },
     {
+        "Symbol": "NBIS",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "NBJP",
         "Name": "Neuberger Berman ETF Trust Neuberger Berman Japan Equity ETF",
         "ownWebull": false,
@@ -41920,7 +41940,7 @@
     {
         "Symbol": "PASW",
         "Name": "Ping An Biomedical",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -48603,12 +48623,6 @@
         "Security Name": "FT Vest U.S. Small Cap Moderate Buffer ETF - August",
         "ETF": "Y",
         "name": "FT Vest U.S. Small Cap Moderate Buffer ETF"
-    },
-    {
-        "Symbol": "SAVA",
-        "Name": "Cassava Sciences",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "SAWG",

@@ -143,4 +143,4 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 stocksToAdd = []
 
 for stock in stocksToAdd:
-    addStock(stock, ownFidelity=True)
+    addStock(stock, ownWebull=True)
