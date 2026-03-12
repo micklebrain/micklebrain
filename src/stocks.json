@@ -20280,7 +20280,7 @@
     {
         "Symbol": "FICO",
         "Name": "Fair Isaac Corporation Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Fair Isaac Corporation Common Stock",
         "ETF": "N",
