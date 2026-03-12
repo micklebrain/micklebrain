@@ -23935,6 +23935,16 @@
         "name": "ETF Opp Tr T"
     },
     {
+        "Symbol": "GMEX",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "GMEY",
         "Name": "Tidal Trust II YieldMax GME Option Income Strategy ETF",
         "ownWebull": false,
