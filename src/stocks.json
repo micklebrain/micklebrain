@@ -22000,11 +22000,6 @@
         "name": "Fidelity MSCI Information Technology Index ETF"
     },
     {
-        "Symbol": "FTEL",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "FTF",
         "Name": "Franklin Limited Duration Income Trust Common Shares of Beneficial Interest",
         "ownWebull": false,
