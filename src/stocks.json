@@ -2947,7 +2947,7 @@
     {
         "Symbol": "AREB",
         "Name": "American Rebel H",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -6864,7 +6864,7 @@
     {
         "Symbol": "BLNK",
         "Name": "Blink Charging Co",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -14498,7 +14498,7 @@
     {
         "Symbol": "DKI",
         "Name": "DARKIRIS INC.",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -51577,7 +51577,7 @@
     {
         "Symbol": "SOWG",
         "Name": "Sow Good Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -62138,7 +62138,7 @@
     {
         "Symbol": "YMT",
         "Name": "Yimutian Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
