@@ -37577,7 +37577,7 @@
     {
         "Symbol": "MTD",
         "Name": "Mettler",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Mettler-Toledo International, Inc. Common Stock",
         "ETF": "N",
