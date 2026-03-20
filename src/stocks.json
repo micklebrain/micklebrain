@@ -35657,6 +35657,16 @@
         "name": "Methode Electronics, Inc. Common Stock"
     },
     {
+        "Symbol": "MELI",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "MEM",
         "Name": "Matthews International Funds Matthews Emerging Markets Equity Active ETF",
         "ownWebull": false,
