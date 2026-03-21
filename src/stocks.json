@@ -37343,7 +37343,7 @@
     {
         "Symbol": "MSGY",
         "Name": "MASONGLORY LTD",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -43998,7 +43998,7 @@
     {
         "Symbol": "POM",
         "Name": "POMDOCTOR LTD",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -58057,6 +58057,16 @@
         "Security Name": "Invesco California Value Municipal Income Trust Common Stock",
         "ETF": "N",
         "name": "Invesco California Value Municipal Income Trust Common Stock"
+    },
+    {
+        "Symbol": "VCX",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "VDC",
