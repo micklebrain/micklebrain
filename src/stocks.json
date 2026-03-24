@@ -40336,7 +40336,7 @@
     {
         "Symbol": "NVR",
         "Name": "NVR, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "NVR, Inc. Common Stock",
         "ETF": "N",
