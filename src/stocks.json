@@ -3448,6 +3448,16 @@
         "name": "Precidian ETFs Trust ASML Holding NV ADRhedged"
     },
     {
+        "Symbol": "ASO",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "ASPN",
         "Name": "Aspen Aerogels, Inc. Common Stock",
         "ownWebull": true,
@@ -36408,6 +36418,16 @@
         "Security Name": "McCormick & Company, Incorporated Common Stock",
         "ETF": "N",
         "name": "McCormick & Company, Incorporated Common Stock"
+    },
+    {
+        "Symbol": "MKC-V",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "MKC.V",

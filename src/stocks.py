@@ -140,7 +140,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 
 # upcoming splits - 
 # upcoming delisting - 
-stocksToAdd = ["HMY"]
+stocksToAdd = [""]
 
 for stock in stocksToAdd:
     addStock(stock, ownWebull=True)
