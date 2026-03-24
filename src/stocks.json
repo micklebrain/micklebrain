@@ -4307,6 +4307,16 @@
         "name": "AXIL Brands, Inc. Common Stock"
     },
     {
+        "Symbol": "AXINU",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "AXL",
         "Name": "American Axle & Manufacturing Holdings, Inc. Common Stock",
         "ownWebull": false,
@@ -26269,7 +26279,7 @@
     {
         "Symbol": "HMY",
         "Name": "Harmony Gold Mining Company Limited",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Harmony Gold Mining Company Limited",
         "ETF": "N",
@@ -43270,6 +43280,16 @@
         "name": "iShares MSCI Global Select Metals & Mining Producers Fund"
     },
     {
+        "Symbol": "PICS",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "PIEQ",
         "Name": "Principal Exchange",
         "ownWebull": false,
@@ -50119,6 +50139,16 @@
         "Security Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
         "ETF": "N",
         "name": "Shinhan Financial Group Co Ltd American Depositary Shares"
+    },
+    {
+        "Symbol": "SHIP",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "SHLD",
