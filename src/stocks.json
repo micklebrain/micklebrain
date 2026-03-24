@@ -12912,6 +12912,16 @@
         "name": "Invesco Zacks Mid"
     },
     {
+        "Symbol": "CZFS",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "CZR",
         "Name": "Caesars Entertainment Inc",
         "ownWebull": true,
