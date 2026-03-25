@@ -36496,6 +36496,16 @@
         "name": "Mueller Industries, Inc. Common Stock"
     },
     {
+        "Symbol": "MLKN",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "MLM",
         "Name": "Martin Marietta Materials, Inc. Common Stock",
         "ownWebull": false,
