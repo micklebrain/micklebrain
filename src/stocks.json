@@ -30701,6 +30701,16 @@
         "name": "JBT Marel Corporation Common Stock"
     },
     {
+        "Symbol": "JCAP",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "JCE",
         "Name": "Nuveen Core Equity Alpha Fund Common Shares of Beneficial Interest",
         "ownWebull": false,
