@@ -2108,7 +2108,7 @@
         "Symbol": "AMH",
         "Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
         "ETF": "N",
         "name": "American Homes 4 Rent Common Shares of Beneficial Interest"
@@ -10900,7 +10900,7 @@
         "Symbol": "CNK",
         "Name": "Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock",
         "ETF": "N",
         "name": "Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock"
@@ -26181,7 +26181,7 @@
         "Symbol": "HL",
         "Name": "Hecla Mining Company Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Hecla Mining Company Common Stock",
         "ETF": "N",
         "name": "Hecla Mining Company Common Stock"
@@ -34876,6 +34876,16 @@
         "Security Name": "Cambria ETF Trust Cambria Large Cap Shareholder Yield ETF",
         "ETF": "Y",
         "name": "Cambria ETF Trust Cambria Large Cap Shareholder Yield ETF"
+    },
+    {
+        "Symbol": "LYTS",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "LYV",
@@ -46782,7 +46792,7 @@
         "Symbol": "RF",
         "Name": "Regions Financial Corporation Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Regions Financial Corporation Common Stock",
         "ETF": "N",
         "name": "Regions Financial Corporation Common Stock"
@@ -60428,6 +60438,16 @@
         "Security Name": "Worthington Steel, Inc. Common Shares",
         "ETF": "N",
         "name": "Worthington Steel, Inc. Common Shares"
+    },
+    {
+        "Symbol": "WSC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "WSM",
