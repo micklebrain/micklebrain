@@ -7538,7 +7538,7 @@
         "Symbol": "BR",
         "Name": "Broadridge Financial Solutions, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Broadridge Financial Solutions, Inc. Common Stock",
         "ETF": "N",
         "name": "Broadridge Financial Solutions, Inc. Common Stock"
@@ -10634,7 +10634,7 @@
     },
     {
         "Symbol": "CMCT",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -43130,7 +43130,7 @@
     {
         "Symbol": "PGR",
         "Name": "Progressive Corporation (The) Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Progressive Corporation (The) Common Stock",
         "ETF": "N",
