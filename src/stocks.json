@@ -14148,7 +14148,7 @@
         "Symbol": "DHR",
         "Name": "Danaher Corporation Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Danaher Corporation Common Stock",
         "ETF": "N",
         "name": "Danaher Corporation Common Stock"
@@ -36945,6 +36945,16 @@
         "Security Name": "VanEck Agribusiness ETF",
         "ETF": "Y",
         "name": "VanEck Agribusiness ETF"
+    },
+    {
+        "Symbol": "MORN",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "MORT",
