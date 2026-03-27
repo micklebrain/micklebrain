@@ -9385,7 +9385,7 @@
     {
         "Symbol": "CDT",
         "Name": "CDT Equity",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -9962,6 +9962,16 @@
         "Symbol": "CHECU",
         "ownWebull": true,
         "ownEtrade": false
+    },
+    {
+        "Symbol": "CHEOY",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "CHGG",
