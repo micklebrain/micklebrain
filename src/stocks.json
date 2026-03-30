@@ -12010,6 +12010,16 @@
         "name": "First Trust SkyBridge Crypto Industry and Digital Economy ETF"
     },
     {
+        "Symbol": "CRRFY",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "CRS",
         "Name": "Carpenter Technology Corporation Common Stock",
         "ownWebull": false,
@@ -59089,6 +59099,16 @@
         "Security Name": "Invesco Variable Rate Preferred ETF",
         "ETF": "Y",
         "name": "Invesco Variable Rate Preferred ETF"
+    },
+    {
+        "Symbol": "VRSK",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "VRT",
