@@ -62783,7 +62783,7 @@
     {
         "Symbol": "ZYXIQ",
         "Name": "Zynex Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     }
 ]

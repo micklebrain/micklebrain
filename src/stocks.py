@@ -139,8 +139,9 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # print("number of symbols starting with A:", count)
 
 # upcoming splits -
-# upcoming delisting - 
-stocksToAdd = ["VRSK"]
+# upcoming delisting -
+# upcoming spin offs - APTV to VGNT WI
+stocksToAdd = []
 
 for stock in stocksToAdd:
     addStock(stock, ownEtrade=True)
