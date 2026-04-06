@@ -8240,6 +8240,16 @@
         "name": "Burford Capital Limited Ordinary Shares"
     },
     {
+        "Symbol": "BURBY",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "BURL",
         "Name": "Burlington Stores, Inc. Common Stock",
         "ownWebull": false,
