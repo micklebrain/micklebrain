@@ -234,7 +234,7 @@
         "Symbol": "ABEV",
         "Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
         "ETF": "N",
         "name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)"
