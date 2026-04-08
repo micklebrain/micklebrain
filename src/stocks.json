@@ -4426,7 +4426,7 @@
     {
         "Symbol": "AZO",
         "Name": "AutoZone, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "AutoZone, Inc. Common Stock",
         "ETF": "N",
