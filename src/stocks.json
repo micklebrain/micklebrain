@@ -17078,7 +17078,7 @@
         "Symbol": "ELV",
         "Name": "Elevance Health, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Elevance Health, Inc. Common Stock",
         "ETF": "N",
         "name": "Elevance Health, Inc. Common Stock"
