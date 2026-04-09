@@ -8280,7 +8280,7 @@
         "Symbol": "BUXX",
         "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "ETF": "Y",
         "name": "EA Series Trust Strive Enhanced Income Short Maturity ETF"
