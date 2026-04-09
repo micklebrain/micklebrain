@@ -1804,6 +1804,16 @@
         "name": "Alamo Group, Inc. Common Stock"
     },
     {
+        "Symbol": "ALHC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "ALIT",
         "Name": "Alight, Inc. Class A Common Stock",
         "ownWebull": false,
@@ -43157,6 +43167,16 @@
         "Security Name": "Invesco Global ex-US High Yield Corporate Bond ETF",
         "ETF": "Y",
         "name": "Invesco Global ex"
+    },
+    {
+        "Symbol": "PGNY",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "PGP",
