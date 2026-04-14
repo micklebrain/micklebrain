@@ -51115,7 +51115,7 @@
     {
         "Symbol": "SMSGY",
         "Name": "Samsonite Grp",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
