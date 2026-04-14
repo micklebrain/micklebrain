@@ -6415,7 +6415,7 @@
         "name": "Bitwise Trendwise Bitcoin and Treasuries Rotation Strategy ETF"
     },
     {
-        "Symbol": "BITF",
+        "Symbol": "KEEL",
         "Name": "Bitfarms",
         "ownWebull": true,
         "ownEtrade": false
@@ -51272,9 +51272,9 @@
         "name": "SmartRent, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "SMSEY",
+        "Symbol": "SMSGY",
         "Name": "Samsonite Grp",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -62530,7 +62530,7 @@
         "ownEtrade": false
     },
     {
-        "Symbol": "ZGM",
+        "Symbol": "ZTG",
         "Name": "ZENTA GROUP CO LTD",
         "ownWebull": true,
         "ownEtrade": false
