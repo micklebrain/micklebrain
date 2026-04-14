@@ -6415,12 +6415,6 @@
         "name": "Bitwise Trendwise Bitcoin and Treasuries Rotation Strategy ETF"
     },
     {
-        "Symbol": "KEEL",
-        "Name": "Bitfarms",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "BITI",
         "Name": "ProShares Short Bitcoin ETF",
         "ownWebull": false,
@@ -32166,6 +32160,12 @@
         "Security Name": "ETF Opportunities Trust Kingsbarn Tactical Bond ETF",
         "ETF": "Y",
         "name": "ETF Opportunities Trust Kingsbarn Tactical Bond ETF"
+    },
+    {
+        "Symbol": "KEEL",
+        "Name": "Bitfarms",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "KEMQ",
