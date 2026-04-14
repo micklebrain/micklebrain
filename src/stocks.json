@@ -51113,6 +51113,12 @@
         "name": "Scotts Miracle"
     },
     {
+        "Symbol": "SMSGY",
+        "Name": "Samsonite Grp",
+        "ownWebull": false,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "SMHB",
         "Name": "ETRACS Monthly Pay 2x Leveraged Small Cap High Dividend ETN Series B",
         "ownWebull": false,
@@ -51264,12 +51270,6 @@
         "Security Name": "SmartRent, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "SmartRent, Inc. Class A Common Stock"
-    },
-    {
-        "Symbol": "SMSGY",
-        "Name": "Samsonite Grp",
-        "ownWebull": false,
-        "ownEtrade": false
     },
     {
         "Symbol": "SMTH",
