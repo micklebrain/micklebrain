@@ -33355,12 +33355,6 @@
         "name": "Lazard, Inc. Common Stock"
     },
     {
-        "Symbol": "LAZRQ",
-        "Name": "Luminar Technologies Inc",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "LB",
         "Name": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests",
         "ownWebull": false,
