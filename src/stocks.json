@@ -62524,12 +62524,6 @@
         "ownEtrade": false
     },
     {
-        "Symbol": "ZTG",
-        "Name": "ZENTA GROUP CO LTD",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "ZGN",
         "Name": "Ermenegildo Zegna N.V. Ordinary Shares",
         "ownWebull": true,
@@ -62737,6 +62731,12 @@
         "Security Name": "X-Square Municipal Income ETF",
         "ETF": "Y",
         "name": "X"
+    },
+    {
+        "Symbol": "ZTG",
+        "Name": "ZENTA GROUP CO LTD",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "ZTO",
