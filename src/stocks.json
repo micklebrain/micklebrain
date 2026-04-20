@@ -1239,6 +1239,16 @@
         "name": "Federal Agricultural Mortgage Corporation Common Stock"
     },
     {
+        "Symbol": "AGMB",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "AGNC",
         "Name": "Agnc Invt Corp",
         "ownWebull": true,
@@ -2590,6 +2600,16 @@
         "name": "Ampco"
     },
     {
+        "Symbol": "APADU",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "APAM",
         "Name": "Artisan Partners Asset Management Inc. Class A Common Stock",
         "ownWebull": false,
@@ -3308,7 +3328,7 @@
         "Symbol": "ASC",
         "Name": "Ardmore Shipping Corporation Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Ardmore Shipping Corporation Common Stock",
         "ETF": "N",
         "name": "Ardmore Shipping Corporation Common Stock"
@@ -3838,6 +3858,16 @@
         "Security Name": "Auna SA Class A Ordinary Shares",
         "ETF": "N",
         "name": "Auna SA Class A Ordinary Shares"
+    },
+    {
+        "Symbol": "AUPH",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "AUSF",
@@ -4916,7 +4946,7 @@
         "Symbol": "BBAR",
         "Name": "Banco BBVA Argentina S.A. ADS",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Banco BBVA Argentina S.A. ADS",
         "ETF": "N",
         "name": "Banco BBVA Argentina S.A. ADS"
@@ -7557,6 +7587,16 @@
         "name": "Global X Funds Global X Brazil Active ETF"
     },
     {
+        "Symbol": "BRBI",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "BRBR",
         "Name": "BellRing Brands, Inc. Common Stock",
         "ownWebull": false,
@@ -8302,7 +8342,7 @@
         "Symbol": "BUYW",
         "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "ETF": "Y",
         "name": "Northern Lights Fund Trust IV Main BuyWrite ETF"
@@ -8405,7 +8445,7 @@
         "Symbol": "BWG",
         "Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
         "ETF": "N",
         "name": "BrandywineGLOBAL Global Income Opportunities Fund Inc."
@@ -8612,7 +8652,7 @@
         "Symbol": "BZQ",
         "Name": "ProShares UltraShort MSCI Brazil Capped",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "ProShares UltraShort MSCI Brazil Capped",
         "ETF": "Y",
         "name": "ProShares UltraShort MSCI Brazil Capped"
@@ -8751,7 +8791,7 @@
         "Symbol": "CAL",
         "Name": "Caleres, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Caleres, Inc. Common Stock",
         "ETF": "N",
         "name": "Caleres, Inc. Common Stock"
@@ -9514,7 +9554,7 @@
         "Symbol": "CEPU",
         "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "ETF": "N",
         "name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)"
@@ -14945,7 +14985,7 @@
         "Symbol": "DOLE",
         "Name": "Dole plc Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Dole plc Ordinary Shares",
         "ETF": "N",
         "name": "Dole plc Ordinary Shares"
@@ -15942,6 +15982,16 @@
         "Name": "Ebay Inc.",
         "ownWebull": true,
         "ownEtrade": false
+    },
+    {
+        "Symbol": "EBC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "EBF",
@@ -53185,7 +53235,7 @@
         "Symbol": "STVN",
         "Name": "Stevanato Group S.p.A. Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Stevanato Group S.p.A. Ordinary Shares",
         "ETF": "N",
         "name": "Stevanato Group S.p.A. Ordinary Shares"
