@@ -8238,7 +8238,7 @@
         "Symbol": "BUR",
         "Name": "Burford Capital Limited Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Burford Capital Limited Ordinary Shares",
         "ETF": "N",
         "name": "Burford Capital Limited Ordinary Shares"
@@ -21999,6 +21999,16 @@
         "Security Name": "Fidelity MSCI COnsumer Staples Index ETF",
         "ETF": "Y",
         "name": "Fidelity MSCI COnsumer Staples Index ETF"
+    },
+    {
+        "Symbol": "FSV",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "FSYD",
@@ -49669,7 +49679,7 @@
     {
         "Symbol": "SEB",
         "Name": "Seaboard Corporation Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Seaboard Corporation Common Stock",
         "ETF": "N",
@@ -51113,12 +51123,6 @@
         "name": "Scotts Miracle"
     },
     {
-        "Symbol": "SMSGY",
-        "Name": "Samsonite Grp",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "SMHB",
         "Name": "ETRACS Monthly Pay 2x Leveraged Small Cap High Dividend ETN Series B",
         "ownWebull": false,
@@ -51270,6 +51274,12 @@
         "Security Name": "SmartRent, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "SmartRent, Inc. Class A Common Stock"
+    },
+    {
+        "Symbol": "SMSGY",
+        "Name": "Samsonite Grp",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "SMTH",
@@ -58470,6 +58480,16 @@
         "Security Name": "Vanguard Malvern Funds Vanguard Multi-Sector Income Bond ETF",
         "ETF": "Y",
         "name": "Vanguard Malvern Funds Vanguard Multi"
+    },
+    {
+        "Symbol": "VGNT",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "VGT",
