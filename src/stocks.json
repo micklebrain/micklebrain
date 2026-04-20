@@ -888,7 +888,7 @@
         "Symbol": "AEON",
         "Name": "AEON Biopharma, Inc. Class A Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "AEON Biopharma, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "AEON Biopharma, Inc. Class A Common Stock"
@@ -1600,7 +1600,7 @@
         "Symbol": "AIV",
         "Name": "Apartment Investment and Management Company Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Apartment Investment and Management Company Common Stock",
         "ETF": "N",
         "name": "Apartment Investment and Management Company Common Stock"
@@ -5540,7 +5540,7 @@
         "Symbol": "BDN",
         "Name": "Brandywine Realty Trust Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Brandywine Realty Trust Common Stock",
         "ETF": "N",
         "name": "Brandywine Realty Trust Common Stock"
@@ -7609,7 +7609,7 @@
         "Symbol": "BRBS",
         "Name": "Blue Ridge Bankshares, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Blue Ridge Bankshares, Inc. Common Stock",
         "ETF": "N",
         "name": "Blue Ridge Bankshares, Inc. Common Stock"
@@ -8454,7 +8454,7 @@
         "Symbol": "BWLP",
         "Name": "BW LPG Limited Common Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "BW LPG Limited Common Shares",
         "ETF": "N",
         "name": "BW LPG Limited Common Shares"
@@ -8463,7 +8463,7 @@
         "Symbol": "BWMX",
         "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "ETF": "N",
         "name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares"
@@ -8544,7 +8544,7 @@
         "Symbol": "BXMT",
         "Name": "Blackstone Mortgage Trust, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Blackstone Mortgage Trust, Inc. Common Stock",
         "ETF": "N",
         "name": "Blackstone Mortgage Trust, Inc. Common Stock"
@@ -8746,7 +8746,7 @@
         "Symbol": "CAF",
         "Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
         "ETF": "N",
         "name": "Morgan Stanley China A Share Fund Inc. Common Stock"
@@ -9199,6 +9199,16 @@
         "Symbol": "CCC",
         "ownWebull": true,
         "ownEtrade": false
+    },
+    {
+        "Symbol": "CCEC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "CCEF",
@@ -12120,6 +12130,16 @@
         "Security Name": "DBX ETF Trust Xtrackers US National Critical Technologies ETF",
         "ETF": "Y",
         "name": "DBX ETF Trust Xtrackers US National Critical Technologies ETF"
+    },
+    {
+        "Symbol": "CRTO",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "CRVO",
@@ -23197,6 +23217,16 @@
         "name": "Goldman Sachs ETF Trust Goldman Sachs Access Emerging Markets USD Bond ETF"
     },
     {
+        "Symbol": "GEN",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "GENC",
         "Name": "Gencor Industries, Inc. Common Stock",
         "ownWebull": false,
@@ -24469,6 +24499,16 @@
         "Security Name": "Genuine Parts Company Common Stock",
         "ETF": "N",
         "name": "Genuine Parts Company Common Stock"
+    },
+    {
+        "Symbol": "GPGI",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "GPI",
@@ -42417,7 +42457,7 @@
         "Symbol": "PBR.A",
         "Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares",
         "ETF": "N",
         "name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares"
@@ -43389,6 +43429,16 @@
         "Security Name": "PulteGroup, Inc. Common Stock",
         "ETF": "N",
         "name": "PulteGroup, Inc. Common Stock"
+    },
+    {
+        "Symbol": "PHOE",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "PHR",
@@ -56298,7 +56348,7 @@
         "Symbol": "TTAM",
         "Name": "Titan America SA Common Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Titan America SA Common Shares",
         "ETF": "N",
         "name": "Titan America SA Common Shares"
@@ -58721,7 +58771,7 @@
         "Symbol": "VIV",
         "Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
         "ETF": "N",
         "name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)"
