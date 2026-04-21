@@ -30804,7 +30804,7 @@
     {
         "Symbol": "JBLU",
         "Name": "Jetblue Awys Corp",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true
     },
     {
