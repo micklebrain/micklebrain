@@ -19311,7 +19311,7 @@
         "Symbol": "FATAQ",
         "Name": "Fat Brands",
         "ownWebull": true,
-        "ownEtrade": true
+        "ownEtrade": false
     },
     {
         "Symbol": "FATBB",
