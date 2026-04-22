@@ -6059,9 +6059,9 @@
         "name": "Biglari Holdings Inc. Class B Common Stock"
     },
     {
-        "Symbol": "BH.A",
+        "Symbol": "BH-A",
         "Name": "Biglari Holdings Inc. Class A Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Biglari Holdings Inc. Class A Common Stock",
         "ETF": "N",
