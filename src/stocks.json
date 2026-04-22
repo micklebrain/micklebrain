@@ -23160,7 +23160,7 @@
         "Symbol": "GE",
         "Name": "GE Aerospace Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "GE Aerospace Common Stock",
         "ETF": "N",
         "name": "GE Aerospace Common Stock"
