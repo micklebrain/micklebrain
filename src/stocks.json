@@ -2152,7 +2152,7 @@
     {
         "Symbol": "AMIX",
         "Name": "Autonomix Medical Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -17292,7 +17292,7 @@
     {
         "Symbol": "EMISR",
         "Name": "EMMIS ACQUISITION CORP.",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -24085,7 +24085,7 @@
     },
     {
         "Symbol": "GMEX",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
         "ownChase": false,
@@ -36194,7 +36194,7 @@
     {
         "Symbol": "MGN",
         "Name": "MEGAN HLDGS LTD",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -54683,7 +54683,7 @@
     {
         "Symbol": "TGHL",
         "Name": "The GrowHub Limited",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -62418,7 +62418,7 @@
     {
         "Symbol": "YMAT",
         "Name": "J-Star Holding",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
