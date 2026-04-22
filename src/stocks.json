@@ -10017,7 +10017,7 @@
         "Symbol": "CHE",
         "Name": "Chemed Corp",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Chemed Corp",
         "ETF": "N",
         "name": "Chemed Corp"
@@ -47806,6 +47806,16 @@
         "Security Name": "Strategy Shares Newfound/ReSolve Robust Momentum ETF",
         "ETF": "Y",
         "name": "Strategy Shares Newfound/ReSolve Robust Momentum ETF"
+    },
+    {
+        "Symbol": "ROP",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "ROPE",
