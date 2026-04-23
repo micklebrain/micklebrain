@@ -54216,7 +54216,7 @@
     {
         "Symbol": "TDG",
         "Name": "Transdigm Group Incorporated Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Transdigm Group Incorporated Common Stock",
         "ETF": "N",
