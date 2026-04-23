@@ -10065,6 +10065,16 @@
         "name": "Global X MSCI China Consumer Discretionary ETF"
     },
     {
+        "Symbol": "CHKP",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "CHMI",
         "Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
         "ownWebull": true,
@@ -18075,6 +18085,16 @@
         "Symbol": "ERIC",
         "ownWebull": true,
         "ownEtrade": false
+    },
+    {
+        "Symbol": "ERIE",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "ERJ",
