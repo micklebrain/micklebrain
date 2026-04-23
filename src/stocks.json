@@ -10708,7 +10708,7 @@
     },
     {
         "Symbol": "CMCT",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
@@ -45993,7 +45993,7 @@
     {
         "Symbol": "QNCX",
         "Name": "Quince",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
@@ -60736,7 +60736,7 @@
     {
         "Symbol": "WTM",
         "Name": "White Mountains Insurance Group, Ltd. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "White Mountains Insurance Group, Ltd. Common Stock",
         "ETF": "N",
