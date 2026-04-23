@@ -13360,6 +13360,16 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "DBVT",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "DBX",
         "Name": "Dropbox",
         "ownWebull": true,
@@ -23581,6 +23591,16 @@
         "Security Name": "Collaborative Investment Series Trust Goose Hollow Multi-Strategy Income ETF",
         "ETF": "Y",
         "name": "Collaborative Investment Series Trust Goose Hollow Multi"
+    },
+    {
+        "Symbol": "GHRS",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "GHTA",
