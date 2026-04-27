@@ -57120,7 +57120,7 @@
     {
         "Symbol": "UI",
         "Name": "Ubiquiti Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Ubiquiti Inc. Common Stock",
         "ETF": "N",
