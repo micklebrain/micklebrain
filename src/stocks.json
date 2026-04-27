@@ -1083,7 +1083,7 @@
         "Symbol": "AG",
         "Name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
         "ETF": "N",
         "name": "First Majestic Silver Corp. Ordinary Shares (Canada)"
@@ -5546,6 +5546,16 @@
         "name": "Brandywine Realty Trust Common Stock"
     },
     {
+        "Symbol": "BDOUY",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "BDRFY",
         "Name": "Beiersdorf",
         "ownWebull": true,
@@ -8319,6 +8329,16 @@
         "Security Name": "Brandes U.S. Value ETF",
         "ETF": "Y",
         "name": "Brandes U.S. Value ETF"
+    },
+    {
+        "Symbol": "BUUU",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "BUXX",
@@ -16404,6 +16424,16 @@
         "Security Name": "First Trust Dow 30 Equal Weight ETF",
         "ETF": "Y",
         "name": "First Trust Dow 30 Equal Weight ETF"
+    },
+    {
+        "Symbol": "EDRY",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "EDU",
@@ -30860,7 +30890,7 @@
         "Symbol": "JBS",
         "Name": "JBS N.V. Class A Common Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "JBS N.V. Class A Common Shares",
         "ETF": "N",
         "name": "JBS N.V. Class A Common Shares"
@@ -61799,6 +61829,16 @@
         "Security Name": "SPDR S&P Oil & Gas Explor & Product",
         "ETF": "Y",
         "name": "SPDR S&P Oil & Gas Explor & Product"
+    },
+    {
+        "Symbol": "XP",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "XPAY",
