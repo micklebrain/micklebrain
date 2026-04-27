@@ -10164,7 +10164,7 @@
     {
         "Symbol": "CHSN",
         "Name": "CHANSON INTL HLDG",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -14193,7 +14193,7 @@
     {
         "Symbol": "DGNX",
         "Name": "Diginex Limited",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -41746,7 +41746,7 @@
     },
     {
         "Symbol": "ORIS",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
