@@ -33205,8 +33205,8 @@
     {
         "Symbol": "KT",
         "Name": "KT Corporation Common Stock",
-        "ownWebull": true,
-        "ownEtrade": false,
+        "ownWebull": false,
+        "ownEtrade": true,
         "Security Name": "KT Corporation Common Stock",
         "ETF": "N",
         "name": "KT Corporation Common Stock"
