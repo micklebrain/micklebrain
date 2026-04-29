@@ -6107,7 +6107,7 @@
     {
         "Symbol": "BHILQ",
         "Name": "Benson Hill Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -51834,7 +51834,7 @@
     {
         "Symbol": "SONDQ",
         "Name": "SONDER HOLDINGS INC",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
