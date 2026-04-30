@@ -7039,7 +7039,7 @@
         "Symbol": "BMA",
         "Name": "Banco Macro S.A.  ADR (representing Ten Class B Common Shares)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Banco Macro S.A.  ADR (representing Ten Class B Common Shares)",
         "ETF": "N",
         "name": "Banco Macro S.A.  ADR (representing Ten Class B Common Shares)"
@@ -16402,7 +16402,7 @@
         "Symbol": "EDN",
         "Name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares",
         "ETF": "N",
         "name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares"
@@ -23453,6 +23453,16 @@
         "Security Name": "Greenfire Resources Ltd. Common Shares",
         "ETF": "N",
         "name": "Greenfire Resources Ltd. Common Shares"
+    },
+    {
+        "Symbol": "GGAL",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "GGB",
