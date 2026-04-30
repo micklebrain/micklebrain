@@ -42175,7 +42175,7 @@
         "Symbol": "PAM",
         "Name": "Pampa Energia S.A.",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Pampa Energia S.A.",
         "ETF": "N",
         "name": "Pampa Energia S.A."
@@ -53540,7 +53540,7 @@
         "Symbol": "SUPV",
         "Name": "Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares",
         "ETF": "N",
         "name": "Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares"
@@ -54834,7 +54834,7 @@
         "Symbol": "TGS",
         "Name": "Transportadora de Gas del Sur SA TGS Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Transportadora de Gas del Sur SA TGS Common Stock",
         "ETF": "N",
         "name": "Transportadora de Gas del Sur SA TGS Common Stock"
@@ -62567,7 +62567,7 @@
         "Symbol": "YPF",
         "Name": "YPF Sociedad Anonima Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "YPF Sociedad Anonima Common Stock",
         "ETF": "N",
         "name": "YPF Sociedad Anonima Common Stock"
