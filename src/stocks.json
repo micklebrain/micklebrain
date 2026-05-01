@@ -9,11 +9,6 @@
         "name": "Agilent Technologies, Inc. Common Stock"
     },
     {
-        "Symbol": "A067849",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "AA",
         "Name": "Alcoa Corporation Common Stock",
         "ownWebull": false,
@@ -35906,12 +35901,6 @@
         "name": "NYLI CBRE Global Infrastructure Megatrends Term Fund Common Shares"
     },
     {
-        "Symbol": "MEHCQWB",
-        "Name": "Chrome Holdings",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "MEI",
         "Name": "Methode Electronics, Inc. Common Stock",
         "ownWebull": false,
@@ -59835,12 +59824,6 @@
         "Security Name": "Waters Corporation Common Stock",
         "ETF": "N",
         "name": "Waters Corporation Common Stock"
-    },
-    {
-        "Symbol": "WBACVR12WB",
-        "Name": "WALGREENS BOOTS ALLIANCE INCCVR",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "WBD",
