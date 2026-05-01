@@ -2847,6 +2847,16 @@
         "name": "Apimeds Pharmaceuticals US, Inc. Common Stock"
     },
     {
+        "Symbol": "APWC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "APXM",
         "Name": "First Trust Exchange",
         "ownWebull": false,
@@ -29441,6 +29451,16 @@
         "name": "IonQ, Inc. Redeemable warrants, each whole warrant exercisable for one share of Common Stock, each at an exercise price of $11.50 per share"
     },
     {
+        "Symbol": "IONR",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "IOO",
         "Name": "iShares Global 100 ETF",
         "ownWebull": false,
@@ -34866,7 +34886,7 @@
         "Symbol": "LTM",
         "Name": "LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",
         "ETF": "N",
         "name": "LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)"
