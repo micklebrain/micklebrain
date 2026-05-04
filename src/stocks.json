@@ -3483,6 +3483,16 @@
         "name": "Precidian ETFs Trust ASML Holding NV ADRhedged"
     },
     {
+        "Symbol": "ASML",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "ASO",
         "ownWebull": true,
         "ownEtrade": false,
