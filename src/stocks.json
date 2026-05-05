@@ -3906,7 +3906,7 @@
         "Symbol": "AUST",
         "Name": "Austin Gold Corp. Common Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Austin Gold Corp. Common Shares",
         "ETF": "N",
         "name": "Austin Gold Corp. Common Shares"
@@ -9748,6 +9748,16 @@
         "name": "Capital Group Core Balanced ETF"
     },
     {
+        "Symbol": "CGC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "CGCB",
         "Name": "Capital Group Core Bond ETF",
         "ownWebull": false,
@@ -10011,6 +10021,16 @@
         "Name": "CHAGEE HLDGS LTD",
         "ownWebull": true,
         "ownEtrade": false
+    },
+    {
+        "Symbol": "CHAI",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "CHAT",
@@ -12001,6 +12021,16 @@
         "Security Name": "Crawford & Company Common Stock",
         "ETF": "N",
         "name": "Crawford & Company Common Stock"
+    },
+    {
+        "Symbol": "CRDL",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "CRDT",
