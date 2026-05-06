@@ -15912,7 +15912,7 @@
         "Symbol": "E",
         "Name": "ENI S.p.A. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "ENI S.p.A. Common Stock",
         "ETF": "N",
         "name": "ENI S.p.A. Common Stock"
