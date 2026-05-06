@@ -19354,6 +19354,16 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FABC",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "FABTQ",
         "ownWebull": true,
         "ownEtrade": false
@@ -49157,12 +49167,6 @@
         "Security Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",
         "ETF": "Y",
         "name": "ProShares Trust ProShares UltraShort Bitcoin ETF"
-    },
-    {
-        "Symbol": "SBLX",
-        "Name": "StableX Technologies Inc",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "SBND",
