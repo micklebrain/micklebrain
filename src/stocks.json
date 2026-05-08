@@ -41466,7 +41466,7 @@
     },
     {
         "Symbol": "OLOX",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
