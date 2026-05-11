@@ -32984,7 +32984,7 @@
         "Symbol": "KNSL",
         "Name": "Kinsale Capital Group, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Kinsale Capital Group, Inc. Common Stock",
         "ETF": "N",
         "name": "Kinsale Capital Group, Inc. Common Stock"
