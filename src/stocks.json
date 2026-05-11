@@ -12615,7 +12615,7 @@
     {
         "Symbol": "CUK",
         "Name": "Carnival Plc ADS ADS",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "Security Name": "Carnival Plc ADS ADS",
         "ETF": "N",
@@ -51573,7 +51573,7 @@
     {
         "Symbol": "SMX",
         "Name": "Security Matters PLC",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
