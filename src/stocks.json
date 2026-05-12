@@ -12389,7 +12389,7 @@
         "Symbol": "CSW",
         "Name": "CSW Industrials, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "CSW Industrials, Inc. Common Stock",
         "ETF": "N",
         "name": "CSW Industrials, Inc. Common Stock"
