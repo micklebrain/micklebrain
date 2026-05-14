@@ -18037,6 +18037,16 @@
         "name": "Columbia U.S. Equity Income ETF"
     },
     {
+        "Symbol": "EQIX",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "EQL",
         "Name": "ALPS Equal Sector Weight ETF",
         "ownWebull": false,
@@ -51122,7 +51132,7 @@
     },
     {
         "Symbol": "SLMT",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -51615,7 +51625,7 @@
     {
         "Symbol": "SNCY",
         "Name": "Sun Country Airlines Holdings Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
