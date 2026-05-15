@@ -7829,7 +7829,7 @@
         "Symbol": "BSAC",
         "Name": "Banco Santander",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Banco Santander - Chile ADS",
         "ETF": "N",
         "name": "Banco Santander"
@@ -20734,7 +20734,7 @@
     {
         "Symbol": "FIX",
         "Name": "Comfort Systems USA, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Comfort Systems USA, Inc. Common Stock",
         "ETF": "N",
@@ -27994,7 +27994,7 @@
         "Symbol": "IBN",
         "Name": "ICICI Bank Limited Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "ICICI Bank Limited Common Stock",
         "ETF": "N",
         "name": "ICICI Bank Limited Common Stock"
@@ -34399,6 +34399,16 @@
         "Security Name": "SHL Telemedicine Ltd Innovator Premium Income 15 Buffer ETF - July",
         "ETF": "Y",
         "name": "SHL Telemedicine Ltd Innovator Premium Income 15 Buffer ETF"
+    },
+    {
+        "Symbol": "LKFT",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "LKNCY",
@@ -49187,6 +49197,16 @@
         "Security Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",
         "ETF": "Y",
         "name": "ProShares Trust ProShares UltraShort Bitcoin ETF"
+    },
+    {
+        "Symbol": "SBLK",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "SBND",
