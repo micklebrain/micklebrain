@@ -51162,7 +51162,7 @@
     },
     {
         "Symbol": "SLMT",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
@@ -60981,6 +60981,16 @@
         "Security Name": "WisdomTree U.S. Value Fund",
         "ETF": "Y",
         "name": "WisdomTree U.S. Value Fund"
+    },
+    {
+        "Symbol": "WTW",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "WU",
