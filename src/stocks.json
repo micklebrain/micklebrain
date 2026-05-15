@@ -7838,7 +7838,7 @@
         "Symbol": "BSBR",
         "Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "ETF": "N",
         "name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit"
@@ -18917,7 +18917,7 @@
         "Symbol": "EVTC",
         "Name": "Evertec, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Evertec, Inc. Common Stock",
         "ETF": "N",
         "name": "Evertec, Inc. Common Stock"
@@ -19538,7 +19538,7 @@
         "Symbol": "FBP",
         "Name": "First BanCorp. New Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "First BanCorp. New Common Stock",
         "ETF": "N",
         "name": "First BanCorp. New Common Stock"
@@ -30556,7 +30556,7 @@
         "Symbol": "IX",
         "Name": "ORIX Corporation American Depositary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "ORIX Corporation American Depositary Shares",
         "ETF": "N",
         "name": "ORIX Corporation American Depositary Shares"
@@ -45426,7 +45426,7 @@
         "Symbol": "PUK",
         "Name": "Prudential Public Limited Company Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Prudential Public Limited Company Common Stock",
         "ETF": "N",
         "name": "Prudential Public Limited Company Common Stock"
