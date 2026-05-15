@@ -43960,6 +43960,16 @@
         "name": "Planet Green Holdings Corp. Common Stock"
     },
     {
+        "Symbol": "PLBL",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "PLCE",
         "Name": "Childrens PL Inc",
         "ownWebull": true,
