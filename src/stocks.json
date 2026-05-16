@@ -9567,14 +9567,6 @@
         "name": "Bristol"
     },
     {
-        "Symbol": "CELG^",
-        "Name": "Bristol",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Bristol-Myers Squibb Company Celegne Contingent Value Rights",
-        "ETF": "N"
-    },
-    {
         "Symbol": "CELH",
         "Name": "Celsius Hldgs Inc",
         "ownWebull": true,
@@ -11450,28 +11442,6 @@
         "Security Name": "Copley Acquisition Corp Ordinary Shares",
         "ETF": "N",
         "name": "Copley Acquisition Corp Ordinary Shares"
-    },
-    {
-        "Symbol": "COPL.U",
-        "Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one"
-    },
-    {
-        "Symbol": "COPL.W",
-        "Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
-    },
-    {
-        "Symbol": "COPL=",
-        "Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one-half warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "COPX",
@@ -14941,14 +14911,6 @@
         "name": "dMY Squared Technology Group, Inc. Class A Common Stock"
     },
     {
-        "Symbol": "DMYY=",
-        "Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one-half of one redeemable warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "DNA",
         "Name": "Ginkgo Bioworks Holdings, Inc. Class A Common Stock",
         "ownWebull": false,
@@ -17479,14 +17441,6 @@
         "name": "First Trust Exchange"
     },
     {
-        "Symbol": "EMO^#",
-        "Name": "ClearBridge Energy Midstream Opportunity Fund Inc. Rights (expiring October 10, 2025) Rights when issued",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "ClearBridge Energy Midstream Opportunity Fund Inc. Rights (expiring October 10, 2025) Rights when issued",
-        "ETF": "N"
-    },
-    {
         "Symbol": "EMP",
         "Name": "Entergy Mississippi, LLC First Mortgage Bonds, 4.90% Series Due October 1, 2066",
         "ownWebull": false,
@@ -18133,14 +18087,6 @@
         "name": "EQV Ventures Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share"
     },
     {
-        "Symbol": "EQV=",
-        "Name": "EQV Ventures Acquisition Corp. Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "EQV Ventures Acquisition Corp. Units, each consisting of one Class A ordinary share and one-third of one redeemable warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "EQWL",
         "Name": "Invesco S&P 100 Equal Weight ETF",
         "ownWebull": false,
@@ -18700,28 +18646,6 @@
         "Security Name": "EQV Ventures Acquisition Corp. II Class A Ordinary Shares",
         "ETF": "N",
         "name": "EQV Ventures Acquisition Corp. II Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "EVAC.U",
-        "Name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one"
-    },
-    {
-        "Symbol": "EVAC.W",
-        "Name": "EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share"
-    },
-    {
-        "Symbol": "EVAC=",
-        "Name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one-third of one redeemable warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "EVAV",
@@ -24820,14 +24744,6 @@
         "name": "Graf Global Corp. Class A ordinary shares"
     },
     {
-        "Symbol": "GRAF=",
-        "Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "GRBK",
         "Name": "Green Brick Partners, Inc. Common Stock",
         "ownWebull": false,
@@ -24986,14 +24902,6 @@
         "ownWebull": false,
         "ownEtrade": false,
         "name": "Granite Real Estate Inc. Units"
-    },
-    {
-        "Symbol": "GRP=",
-        "Name": "Granite Real Estate Inc. Units",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Granite Real Estate Inc. Units",
-        "ETF": "N"
     },
     {
         "Symbol": "GRPM",
@@ -27206,28 +27114,6 @@
         "Security Name": "Haymaker Acquisition Corp. 4 Class A Ordinary Shares",
         "ETF": "N",
         "name": "Haymaker Acquisition Corp. 4 Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "HYAC.U",
-        "Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one"
-    },
-    {
-        "Symbol": "HYAC.W",
-        "Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share"
-    },
-    {
-        "Symbol": "HYAC=",
-        "Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one-half of one redeemable Warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "HYBB",
@@ -30793,36 +30679,6 @@
         "name": "Jackson Acquisition Company II Class A Ordinary Shares"
     },
     {
-        "Symbol": "JACS.R",
-        "Name": "Jackson Acquisition Company II Rights, each right to acquire one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Jackson Acquisition Company II Rights, each right to acquire one"
-    },
-    {
-        "Symbol": "JACS.U",
-        "Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one"
-    },
-    {
-        "Symbol": "JACS=",
-        "Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one-tenth (1/10) of one Class A ordinary share",
-        "ETF": "N"
-    },
-    {
-        "Symbol": "JACS^",
-        "Name": "Jackson Acquisition Company II Rights, each right to acquire one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Jackson Acquisition Company II Rights, each right to acquire one-tenth (1/10) of one Class A ordinary share",
-        "ETF": "N"
-    },
-    {
         "Symbol": "JADE",
         "Name": "J.P. Morgan Exchange",
         "ownWebull": false,
@@ -31154,36 +31010,6 @@
         "Security Name": "Jena Acquisition Corporation II Class A Ordinary Shares",
         "ETF": "N",
         "name": "Jena Acquisition Corporation II Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "JENA.R",
-        "Name": "Jena Acquisition Corporation II Rights, each right to acquire one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Jena Acquisition Corporation II Rights, each right to acquire one"
-    },
-    {
-        "Symbol": "JENA.U",
-        "Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right"
-    },
-    {
-        "Symbol": "JENA=",
-        "Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
-        "ETF": "N"
-    },
-    {
-        "Symbol": "JENA^",
-        "Name": "Jena Acquisition Corporation II Rights, each right to acquire one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Jena Acquisition Corporation II Rights, each right to acquire one-twentieth (1/20) of one Class A ordinary share",
-        "ETF": "N"
     },
     {
         "Symbol": "JEPI",
@@ -33881,14 +33707,6 @@
         "Security Name": "Legato Merger Corp. III Ordinary Shares",
         "ETF": "N",
         "name": "Legato Merger Corp. III Ordinary Shares"
-    },
-    {
-        "Symbol": "LEGT=",
-        "Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one-half of one warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "LEMB",
@@ -42221,28 +42039,6 @@
         "name": "Pyrophyte Acquisition Corp. II Class A Ordinary Shares"
     },
     {
-        "Symbol": "PAII.U",
-        "Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one"
-    },
-    {
-        "Symbol": "PAII.W",
-        "Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share"
-    },
-    {
-        "Symbol": "PAII=",
-        "Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
-        "ETF": "N"
-    },
-    {
         "Symbol": "PALC",
         "Name": "Pacer Lunt Large Cap Multi",
         "ownWebull": false,
@@ -46528,28 +46324,6 @@
         "name": "Rithm Acquisition Corp. Class A Ordinary Shares"
     },
     {
-        "Symbol": "RAC.U",
-        "Name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one"
-    },
-    {
-        "Symbol": "RAC.W",
-        "Name": "Rithm Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Rithm Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
-    },
-    {
-        "Symbol": "RAC=",
-        "Name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one-third of one redeemable Warrant)",
-        "ETF": "N"
-    },
-    {
         "Symbol": "RACE",
         "Name": "Ferrari N.V. Common Shares",
         "ownWebull": true,
@@ -47563,14 +47337,6 @@
         "Name": "Rivian Automotive. Inc./ De",
         "ownWebull": true,
         "ownEtrade": false
-    },
-    {
-        "Symbol": "RIV^#",
-        "Name": "RiverNorth Opportunities Fund, Inc. Rights (expiring October 6, 2025) Rights when issued",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "RiverNorth Opportunities Fund, Inc. Rights (expiring October 6, 2025) Rights when issued",
-        "ETF": "N"
     },
     {
         "Symbol": "RJF",
@@ -49277,28 +49043,6 @@
         "Security Name": "SilverBox Corp IV Class A Ordinary Shares",
         "ETF": "N",
         "name": "SilverBox Corp IV Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "SBXD.U",
-        "Name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one"
-    },
-    {
-        "Symbol": "SBXD.W",
-        "Name": "SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50"
-    },
-    {
-        "Symbol": "SBXD=",
-        "Name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one-third of one redeemable warrant",
-        "ETF": "N"
     },
     {
         "Symbol": "SCAP",
@@ -51985,36 +51729,6 @@
         "Security Name": "Soulpower Acquisition Corporation Class A Ordinary Shares",
         "ETF": "N",
         "name": "Soulpower Acquisition Corporation Class A Ordinary Shares"
-    },
-    {
-        "Symbol": "SOUL.R",
-        "Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one"
-    },
-    {
-        "Symbol": "SOUL.U",
-        "Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right"
-    },
-    {
-        "Symbol": "SOUL=",
-        "Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
-        "ETF": "N"
-    },
-    {
-        "Symbol": "SOUL^",
-        "Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one-tenth (1/10) of one Class A Ordinary Share",
-        "ETF": "N"
     },
     {
         "Symbol": "SOUN",
