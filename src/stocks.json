@@ -49045,6 +49045,20 @@
         "name": "SilverBox Corp IV Class A Ordinary Shares"
     },
     {
+        "Symbol": "SBXD.U",
+        "Name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "name": "SilverBox Corp IV Units, each consisting of one Class A ordinary share and one"
+    },
+    {
+        "Symbol": "SBXD.W",
+        "Name": "SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "name": "SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50"
+    },
+    {
         "Symbol": "SCAP",
         "Name": "Infrastructure Capital Small Cap Income ETF",
         "ownWebull": false,
