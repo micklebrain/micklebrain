@@ -45241,7 +45241,7 @@
     {
         "Symbol": "PTON",
         "Name": "Peloton Interactive, Inc.",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": true
     },
@@ -55460,10 +55460,10 @@
     },
     {
         "Symbol": "TNL",
-        "Name": "Travel   Leisure Co. Common  Stock",
-        "ownWebull": false,
+        "Name": "Travel Leisure Co. Common Stock",
+        "ownWebull": true,
         "ownEtrade": false,
-        "Security Name": "Travel   Leisure Co. Common  Stock",
+        "Security Name": "Travel Leisure Co. Common Stock",
         "ETF": "N",
         "name": "Travel   Leisure Co. Common  Stock"
     },
