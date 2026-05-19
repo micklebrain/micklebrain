@@ -2904,7 +2904,7 @@
     {
         "Symbol": "ARAY",
         "Name": "Accuray Incorp",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -60420,11 +60420,6 @@
         "Security Name": "Tidal Trust II YieldMax  MSTR Short Option Income Strategy ETF",
         "ETF": "Y",
         "name": "Tidal Trust II YieldMax  MSTR Short Option Income Strategy ETF"
-    },
-    {
-        "Symbol": "WOK",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "WOLF",
