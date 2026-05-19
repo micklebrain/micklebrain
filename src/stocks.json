@@ -33949,11 +33949,6 @@
         "ETF": "N"
     },
     {
-        "Symbol": "LGCB",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "LGCY",
         "Name": "Legacy Education Inc. Common Stock",
         "ownWebull": false,
