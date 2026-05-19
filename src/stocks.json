@@ -46923,6 +46923,16 @@
         "ETF": "N"
     },
     {
+        "Symbol": "REYN",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "REZ",
         "Name": "iShares Residential and Multisector Real Estate ETF",
         "ownWebull": false,
