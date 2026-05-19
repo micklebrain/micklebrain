@@ -141,7 +141,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CHH"]
+stocksToAdd = ["MPWR"]
 
 for stock in stocksToAdd:
-    addStock(stock, ownEtrade=True)
+    addStock(stock, ownWebull=True)

@@ -37251,6 +37251,16 @@
         "name": "Medical Properties Trust, Inc. common stock"
     },
     {
+        "Symbol": "MPWR",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "MPX",
         "Name": "Marine Products Corporation Common Stock",
         "ownWebull": false,
