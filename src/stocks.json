@@ -31296,7 +31296,7 @@
         "Symbol": "JHX",
         "Name": "James Hardie Industries plc. Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "James Hardie Industries plc. Ordinary Shares",
         "ETF": "N",
         "name": "James Hardie Industries plc. Ordinary Shares"
