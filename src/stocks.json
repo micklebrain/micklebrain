@@ -4465,6 +4465,16 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "AZ",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "AZN",
         "ownWebull": true,
         "ownEtrade": false
@@ -17757,7 +17767,7 @@
         "Symbol": "EPC",
         "Name": "Edgewell Personal Care Company Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Edgewell Personal Care Company Common Stock",
         "ETF": "N",
         "name": "Edgewell Personal Care Company Common Stock"
@@ -27414,7 +27424,7 @@
         "Symbol": "IAG",
         "Name": "Iamgold Corporation Ordinary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Iamgold Corporation Ordinary Shares",
         "ETF": "N",
         "name": "Iamgold Corporation Ordinary Shares"
@@ -32184,6 +32194,16 @@
         "Security Name": "KraneShares 90% KWEB Defined Outcome January 2027 ETF",
         "ETF": "Y",
         "name": "KraneShares 90% KWEB Defined Outcome January 2027 ETF"
+    },
+    {
+        "Symbol": "KC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "KCAI",
