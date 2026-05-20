@@ -23394,7 +23394,7 @@
     {
         "Symbol": "GEV",
         "Name": "GE Vernova Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "GE Vernova Inc. Common Stock",
         "ETF": "N",
