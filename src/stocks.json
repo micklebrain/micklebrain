@@ -18505,7 +18505,7 @@
         "Symbol": "ETOR",
         "Name": "eToro Group Ltd.",
         "ownWebull": true,
-        "ownEtrade": true
+        "ownEtrade": false
     },
     {
         "Symbol": "ETQ",
@@ -19877,7 +19877,7 @@
     {
         "Symbol": "FDS",
         "Name": "FactSet Research Systems Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "FactSet Research Systems Inc. Common Stock",
         "ETF": "N",
@@ -46772,6 +46772,16 @@
         "name": "ProShares S&P MidCap 400 Dividend Aristocrats ETF"
     },
     {
+        "Symbol": "REGN",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "REI",
         "Name": "Ring Energy, Inc. Common Stock",
         "ownWebull": false,
@@ -50164,7 +50174,7 @@
         "Symbol": "SG",
         "Name": "Sweetgreen, Inc. Class A Common Stock",
         "ownWebull": true,
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "Sweetgreen, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Sweetgreen, Inc. Class A Common Stock"
