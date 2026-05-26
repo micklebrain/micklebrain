@@ -55,6 +55,7 @@ function Stocks() {
     fidelity: false,
   });
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
+  const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
   const [newOwnWebull, setNewOwnWebull] = useState(false);
@@ -96,6 +97,7 @@ function Stocks() {
       !!item.ownFidelity;
 
     if (showAllOwnedOnly) return isOwnedInAnyBroker;
+    if (showNotOwnedOnly) return !isOwnedInAnyBroker;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
   });
@@ -111,10 +113,12 @@ function Stocks() {
       fidelity: false,
     });
     setShowAllOwnedOnly(false);
+    setShowNotOwnedOnly(false);
   };
 
   const toggleBrokerFilter = (broker) => {
     setShowAllOwnedOnly(false);
+    setShowNotOwnedOnly(false);
     setSelectedBrokers((prev) => ({
       ...prev,
       [broker]: !prev[broker],
@@ -131,7 +135,22 @@ function Stocks() {
       ally: false,
       fidelity: false,
     });
+    setShowNotOwnedOnly(false);
     setShowAllOwnedOnly((prev) => !prev);
+  };
+
+  const toggleNotOwnedFilter = () => {
+    setSelectedBrokers({
+      webull: false,
+      etrade: false,
+      robinhood: false,
+      chase: false,
+      schwab: false,
+      ally: false,
+      fidelity: false,
+    });
+    setShowAllOwnedOnly(false);
+    setShowNotOwnedOnly((prev) => !prev);
   };
 
   const handleAddStock = (e) => {
@@ -242,6 +261,13 @@ function Stocks() {
           onClick={toggleAllOwnedFilter}
         >
           All Owned
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showNotOwnedOnly ? "active" : ""}`}
+          onClick={toggleNotOwnedFilter}
+        >
+          Not Owned
         </button>
       </div>
       <div className="stocks-count">
