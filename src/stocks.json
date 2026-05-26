@@ -9516,7 +9516,8 @@
         "ownEtrade": false,
         "Security Name": "Celanese Corporation Common Stock",
         "ETF": "N",
-        "name": "Celanese Corporation Common Stock"
+        "name": "Celanese Corporation Common Stock",
+        "ownChase": true
     },
     {
         "Symbol": "CEE",
