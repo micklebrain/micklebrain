@@ -2998,18 +2998,20 @@
         "Symbol": "ARES",
         "Name": "Ares Management Corporation Class A Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Ares Management Corporation Class A Common Stock",
         "ETF": "N",
         "name": "Ares Management Corporation Class A Common Stock"
     },
     {
-        "Symbol": "ARES-B",
-        "Name": "Ares Management Corporation 6.75% Series B Mandatory Convertible Preferred Stock",
+        "Symbol": "ARES.PR.B",
         "ownWebull": false,
-        "ownEtrade": false,
-        "Security Name": "Ares Management Corporation 6.75% Series B Mandatory Convertible Preferred Stock",
-        "ETF": "N"
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "ARGT",
@@ -4271,7 +4273,7 @@
         "Symbol": "AVY",
         "Name": "Avery Dennison Corporation Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Avery Dennison Corporation Common Stock",
         "ETF": "N",
         "name": "Avery Dennison Corporation Common Stock"
@@ -7132,7 +7134,8 @@
         "ownEtrade": false,
         "Security Name": "Badger Meter, Inc. Common Stock",
         "ETF": "N",
-        "name": "Badger Meter, Inc. Common Stock"
+        "name": "Badger Meter, Inc. Common Stock",
+        "ownChase": true
     },
     {
         "Symbol": "BML-G",
@@ -19385,12 +19388,6 @@
         "Security Name": "Direxion Financial Bull 3X Shares",
         "ETF": "Y",
         "name": "Direxion Financial Bull 3X Shares"
-    },
-    {
-        "Symbol": "FATAQ",
-        "Name": "Fat Brands",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "FATBB",
@@ -34235,6 +34232,16 @@
         "Security Name": "LightInTheBox Holding Co., Ltd. American Depositary Shares, each representing twelve ordinary shares",
         "ETF": "N",
         "name": "LightInTheBox Holding Co., Ltd. American Depositary Shares, each representing twelve ordinary shares"
+    },
+    {
+        "Symbol": "LITE",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "LITL",
