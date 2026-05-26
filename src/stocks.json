@@ -22422,6 +22422,16 @@
         "name": "American Century ETF Trust American Century Multisector Floating Income ETF"
     },
     {
+        "Symbol": "FUTU",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "FUTY",
         "Name": "Fidelity MSCI Utilities Index ETF",
         "ownWebull": false,
@@ -34235,8 +34245,8 @@
     },
     {
         "Symbol": "LITE",
-        "ownWebull": false,
-        "ownEtrade": true,
+        "ownWebull": true,
+        "ownEtrade": false,
         "ownRobinhood": false,
         "ownChase": false,
         "ownSchwab": false,
