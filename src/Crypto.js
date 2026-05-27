@@ -17,7 +17,7 @@ function Crypto() {
     e.preventDefault();
     const trimmed = newSymbol.trim().toUpperCase();
     if (!trimmed) return;
-    if (initialCryptoCoins.includes(trimmed) || extraCoins.includes(trimmed)) {
+    if (cryptoSymbols.includes(trimmed) || extraCoins.includes(trimmed)) {
       setNewSymbol("");
       return;
     }
