@@ -23314,6 +23314,16 @@
         "name": "Goldman Sachs ETF Trust Goldman Sachs Access Emerging Markets USD Bond ETF"
     },
     {
+        "Symbol": "GEMI",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "GEN",
         "ownWebull": false,
         "ownEtrade": true,
@@ -44741,6 +44751,16 @@
         "name": "Praxis Funds Praxis Impact Large Cap Value ETF"
     },
     {
+        "Symbol": "PS",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "PSA",
         "Name": "Public Storage Common Stock",
         "ownWebull": true,
@@ -45214,6 +45234,16 @@
         "Security Name": "Innovator ETFs Trust Innovator Power Buffer Step-Up Strategy ETF",
         "ETF": "Y",
         "name": "Innovator ETFs Trust Innovator Power Buffer Step"
+    },
+    {
+        "Symbol": "PSUS",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "PSX",
@@ -55185,7 +55215,7 @@
         "Symbol": "TKO",
         "Name": "TKO Group Holdings, Inc. Class A Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "TKO Group Holdings, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "TKO Group Holdings, Inc. Class A Common Stock"

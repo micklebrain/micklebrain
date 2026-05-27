@@ -4,6 +4,8 @@ import Home from './Home';
 import Formula from './formula';
 import TimeHack from './TimeHack';
 import Stocks from './Stocks';
+import Crypto from './Crypto';
+import CryptoJson from './CryptoJson';
 import TagTasks from './TagTasks';
 import {
   BrowserRouter as Router,
@@ -24,6 +26,8 @@ class App extends React.Component {
             <Route exact path="/formula"> <Formula /> </Route>
             <Route exact path="/timehack"> <TimeHack /> </Route>
             <Route exact path="/stocks"> <Stocks /> </Route>
+            <Route exact path="/crypto"> <Crypto /> </Route>
+            <Route exact path="/crypto-json"> <CryptoJson /> </Route>
             <Route exact path="/tags/:tag"> <TagTasks /> </Route>
           </Switch>
         </Router>
