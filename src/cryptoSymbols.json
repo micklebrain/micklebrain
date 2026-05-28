@@ -8,7 +8,7 @@
   {
     "Symbol": "BTC",
     "Name": "Bitcoin",
-        "ownGemini": false,
+    "ownGemini": false,
     "ownRobinhood": true
   },
    {
@@ -34,5 +34,5 @@
     "Name": "Zcash",
     "ownGemini": true,
     "ownRobinhood": false    
-  },
+  }
 ]
