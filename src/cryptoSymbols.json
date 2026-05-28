@@ -1,5 +1,38 @@
 [
-  "BTC",
-  "ETH",
-  "BCH"
+  {
+    "Symbol": "BCH",
+    "Name": "Bitcoin Cash",
+    "ownGemini": false,
+    "ownRobinhood": true
+  },
+  {
+    "Symbol": "BTC",
+    "Name": "Bitcoin",
+        "ownGemini": false,
+    "ownRobinhood": true
+  },
+   {
+    "Symbol": "DOGE",
+    "Name": "Dogecoin",
+    "ownGemini": false,
+    "ownRobinhood": true    
+  },
+  {
+    "Symbol": "ETH",
+    "Name": "Ethereum",
+    "ownGemini": false,
+    "ownRobinhood": true
+  },
+  {
+    "Symbol": "PAXG",
+    "Name": "PAX Gold",
+    "ownGemini": false,
+    "ownRobinhood": false
+  },
+  {
+    "Symbol": "ZEC",
+    "Name": "Zcash",
+    "ownGemini": true,
+    "ownRobinhood": false    
+  },
 ]
