@@ -1089,6 +1089,16 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "AGCC",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "AGCO",
         "Name": "AGCO Corporation Common Stock",
         "ownWebull": false,
@@ -8435,7 +8445,7 @@
         "Symbol": "BVN",
         "Name": "Buenaventura Mining Company Inc.",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Buenaventura Mining Company Inc.",
         "ETF": "N",
         "name": "Buenaventura Mining Company Inc."
@@ -18646,6 +18656,16 @@
         "name": "ProShares UltraShort Euro"
     },
     {
+        "Symbol": "EURK",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "EURL",
         "Name": "Direxion Daily FTSE Europe Bull 3x Shares",
         "ownWebull": false,
@@ -21450,7 +21470,7 @@
         "Symbol": "FMS",
         "Name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
         "ETF": "N",
         "name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)"
@@ -24308,6 +24328,16 @@
         "ownEtrade": false,
         "Security Name": "Global Medical REIT Inc. Series A Cumulative Redeemable Preferred Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GMTL",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "GMUB",
@@ -39644,6 +39674,16 @@
         "name": "NNN REIT, Inc. Common Stock"
     },
     {
+        "Symbol": "NNNN",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
+    },
+    {
         "Symbol": "NNOV",
         "Name": "Innovator ETFs Trust Innovator Growth",
         "ownWebull": false,
@@ -50720,7 +50760,7 @@
         "Symbol": "SIM",
         "Name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares",
         "ETF": "N",
         "name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares"
@@ -51587,7 +51627,7 @@
         "Symbol": "SNN",
         "Name": "Smith & Nephew SNATS, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Smith & Nephew SNATS, Inc. Common Stock",
         "ETF": "N",
         "name": "Smith & Nephew SNATS, Inc. Common Stock"
@@ -55039,7 +55079,7 @@
         "Symbol": "TIMB",
         "Name": "TIM S.A. American Depositary Shares (Each representing 5 Common Shares)",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "TIM S.A. American Depositary Shares (Each representing 5 Common Shares)",
         "ETF": "N",
         "name": "TIM S.A. American Depositary Shares (Each representing 5 Common Shares)"
