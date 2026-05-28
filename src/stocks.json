@@ -10182,7 +10182,7 @@
     {
         "Symbol": "CHOW",
         "Name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "Security Name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
         "ETF": "N",
@@ -57599,7 +57599,7 @@
     {
         "Symbol": "URI",
         "Name": "United Rentals, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "United Rentals, Inc. Common Stock",
         "ETF": "N",
