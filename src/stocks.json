@@ -2605,16 +2605,6 @@
         "name": "Ampco"
     },
     {
-        "Symbol": "APADU",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
-    },
-    {
         "Symbol": "APAM",
         "Name": "Artisan Partners Asset Management Inc. Class A Common Stock",
         "ownWebull": false,
@@ -7387,6 +7377,16 @@
         "Security Name": "Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares",
         "ETF": "N",
         "name": "Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares"
+    },
+    {
+        "Symbol": "BNTX",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "BNY",
