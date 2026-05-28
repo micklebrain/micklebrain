@@ -29,6 +29,18 @@
     "ownGemini": false,
     "ownRobinhood": false
   },
+{
+    "Symbol": "XAUt",
+    "Name": "Tether Gold",
+    "ownGemini": false,
+    "ownRobinhood": false    
+  },
+  {
+    "Symbol": "YFI",
+    "Name": "Yearn",
+    "ownGemini": false,
+    "ownRobinhood": false    
+  },
   {
     "Symbol": "ZEC",
     "Name": "Zcash",
