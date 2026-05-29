@@ -37838,7 +37838,8 @@
         "ownEtrade": false,
         "Security Name": "Arcelor Mittal NY Registry Shares NEW",
         "ETF": "N",
-        "name": "Arcelor Mittal NY Registry Shares NEW"
+        "name": "Arcelor Mittal NY Registry Shares NEW",
+        "ownRobinhood": true
     },
     {
         "Symbol": "MTA",
