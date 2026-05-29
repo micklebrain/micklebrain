@@ -1676,7 +1676,7 @@
     {
         "Symbol": "AJG",
         "Name": "Arthur J. Gallagher & Co. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Arthur J. Gallagher & Co. Common Stock",
         "ETF": "N",
@@ -33825,13 +33825,14 @@
         "name": "Lennar Corporation Class A Common Stock"
     },
     {
-        "Symbol": "LEN.B",
-        "Name": "Lennar Corporation Class B",
-        "ownWebull": false,
+        "Symbol": "LEN-B",
+        "ownWebull": true,
         "ownEtrade": false,
-        "Security Name": "Lennar Corporation Class B",
-        "ETF": "N",
-        "name": "Lennar Corporation Class B"
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false
     },
     {
         "Symbol": "LENS",
