@@ -27,7 +27,9 @@
     "Symbol": "PAXG",
     "Name": "PAX Gold",
     "ownGemini": false,
-    "ownRobinhood": false
+    "ownRobinhood": false,
+    "ownCoinbase": false,
+    "ownInteractiveBrokers": false
   },
 {
     "Symbol": "XAUt",

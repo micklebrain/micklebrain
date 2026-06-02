@@ -28,6 +28,7 @@ function Stocks() {
         ownSchwab: false,
         ownAlly: false,
         ownFidelity: false,
+        ownInteractiveBrokers: false,
       };
 
       bySymbol.set(symbol, {
@@ -39,6 +40,7 @@ function Stocks() {
         ownSchwab: existing.ownSchwab || !!item.ownSchwab,
         ownAlly: existing.ownAlly || !!item.ownAlly,
         ownFidelity: existing.ownFidelity || !!item.ownFidelity,
+        ownInteractiveBrokers: existing.ownInteractiveBrokers || !!item.ownInteractiveBrokers,
       });
     });
 
@@ -53,6 +55,7 @@ function Stocks() {
     schwab: false,
     ally: false,
     fidelity: false,
+    interactiveBrokers: false,
   });
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
@@ -65,6 +68,7 @@ function Stocks() {
   const [newOwnSchwab, setNewOwnSchwab] = useState(false);
   const [newOwnAlly, setNewOwnAlly] = useState(false);
   const [newOwnFidelity, setNewOwnFidelity] = useState(false);
+  const [newOwnInteractiveBrokers, setNewOwnInteractiveBrokers] = useState(false);
 
   const effectiveItems = React.useMemo(
     () => [...items, ...extraStocks],
@@ -79,6 +83,7 @@ function Stocks() {
     schwab: "ownSchwab",
     ally: "ownAlly",
     fidelity: "ownFidelity",
+    interactiveBrokers: "ownInteractiveBrokers",
   };
 
   const activeBrokers = Object.keys(selectedBrokers).filter(
@@ -94,7 +99,8 @@ function Stocks() {
       !!item.ownChase ||
       !!item.ownSchwab ||
       !!item.ownAlly ||
-      !!item.ownFidelity;
+      !!item.ownFidelity ||
+      !!item.ownInteractiveBrokers;
 
     if (showAllOwnedOnly) return isOwnedInAnyBroker;
     if (showNotOwnedOnly) return !isOwnedInAnyBroker;
@@ -111,6 +117,7 @@ function Stocks() {
       schwab: false,
       ally: false,
       fidelity: false,
+      interactiveBrokers: false,
     });
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly(false);
@@ -134,6 +141,7 @@ function Stocks() {
       schwab: false,
       ally: false,
       fidelity: false,
+      interactiveBrokers: false,
     });
     setShowNotOwnedOnly(false);
     setShowAllOwnedOnly((prev) => !prev);
@@ -148,6 +156,7 @@ function Stocks() {
       schwab: false,
       ally: false,
       fidelity: false,
+      interactiveBrokers: false,
     });
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly((prev) => !prev);
@@ -164,6 +173,7 @@ function Stocks() {
       setNewOwnWebull(false);
       setNewOwnEtrade(false);
       setNewOwnRobinhood(false);
+      setNewOwnInteractiveBrokers(false);
       setNewOwnChase(false);
       setNewOwnSchwab(false);
       setNewOwnAlly(false);
@@ -178,6 +188,7 @@ function Stocks() {
         ownWebull: newOwnWebull,
         ownEtrade: newOwnEtrade,
         ownRobinhood: newOwnRobinhood,
+        ownInteractiveBrokers: newOwnInteractiveBrokers,
         ownChase: newOwnChase,
         ownSchwab: newOwnSchwab,
         ownAlly: newOwnAlly,
@@ -189,6 +200,7 @@ function Stocks() {
     setNewOwnWebull(false);
     setNewOwnEtrade(false);
     setNewOwnRobinhood(false);
+    setNewOwnInteractiveBrokers(false);
     setNewOwnChase(false);
     setNewOwnSchwab(false);
     setNewOwnAlly(false);
@@ -226,6 +238,13 @@ function Stocks() {
           onClick={() => toggleBrokerFilter("robinhood")}
         >
           Robinhood
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.interactiveBrokers ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("interactiveBrokers")}
+        >
+          Interactive Brokers
         </button>
         <button
           type="button"
@@ -308,6 +327,14 @@ function Stocks() {
         <label className="stocks-add-checkbox">
           <input
             type="checkbox"
+            checked={newOwnInteractiveBrokers}
+            onChange={(e) => setNewOwnInteractiveBrokers(e.target.checked)}
+          />
+          Interactive Brokers
+        </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
             checked={newOwnChase}
             onChange={(e) => setNewOwnChase(e.target.checked)}
           />
@@ -350,10 +377,12 @@ function Stocks() {
           const hasSchwab = !!item.ownSchwab;
           const hasAlly = !!item.ownAlly;
           const hasFidelity = !!item.ownFidelity;
+          const hasInteractiveBrokers = !!item.ownInteractiveBrokers;
           const isOwned =
             hasWebull ||
             hasEtrade ||
             hasRobinhood ||
+            hasInteractiveBrokers ||
             hasChase ||
             hasSchwab ||
             hasAlly ||
@@ -385,6 +414,9 @@ function Stocks() {
                   alt="Owned in Robinhood"
                   className="stocks-tile-robinhood-icon"
                 />
+              )}
+              {hasInteractiveBrokers && (
+                <span className="stocks-tile-ibkr-badge">IBKR</span>
               )}
               {hasChase && (
                 <img

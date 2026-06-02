@@ -9,6 +9,7 @@ function Crypto() {
   const [showRobinhoodOnly, setShowRobinhoodOnly] = useState(false);
   const [showGeminiOnly, setShowGeminiOnly] = useState(false);
   const [showCoinbaseOnly, setShowCoinbaseOnly] = useState(false);
+  const [showInteractiveBrokersOnly, setShowInteractiveBrokersOnly] = useState(false);
 
   const coins = useMemo(
     () => [
@@ -31,15 +32,19 @@ function Crypto() {
       return coins.filter((coin) => coin.ownCoinbase);
     }
 
+    if (showInteractiveBrokersOnly) {
+      return coins.filter((coin) => coin.ownInteractiveBrokers);
+    }
+
     if (showAllOwnedOnly) {
       return coins.filter(
-        (coin) => coin.ownRobinhood || coin.ownGemini || coin.ownCoinbase
+        (coin) => coin.ownRobinhood || coin.ownGemini || coin.ownCoinbase || coin.ownInteractiveBrokers
       );
     }
 
     if (showNotOwnedOnly) {
       return coins.filter(
-        (coin) => !coin.ownRobinhood && !coin.ownGemini && !coin.ownCoinbase
+        (coin) => !coin.ownRobinhood && !coin.ownGemini && !coin.ownCoinbase && !coin.ownInteractiveBrokers
       );
     }
 
@@ -52,6 +57,7 @@ function Crypto() {
     setShowRobinhoodOnly(false);
     setShowGeminiOnly(false);
     setShowCoinbaseOnly(false);
+    setShowInteractiveBrokersOnly(false);
   };
 
   const toggleAllOwnedFilter = () => {
@@ -67,6 +73,7 @@ function Crypto() {
     setShowRobinhoodOnly(false);
     setShowGeminiOnly(false);
     setShowCoinbaseOnly(false);
+    setShowInteractiveBrokersOnly(false);
     setShowNotOwnedOnly((prev) => !prev);
   };
 
@@ -75,6 +82,7 @@ function Crypto() {
     setShowNotOwnedOnly(false);
     setShowGeminiOnly(false);
     setShowCoinbaseOnly(false);
+    setShowInteractiveBrokersOnly(false);
     setShowRobinhoodOnly((prev) => !prev);
   };
 
@@ -83,6 +91,7 @@ function Crypto() {
     setShowNotOwnedOnly(false);
     setShowRobinhoodOnly(false);
     setShowCoinbaseOnly(false);
+    setShowInteractiveBrokersOnly(false);
     setShowGeminiOnly((prev) => !prev);
   };
 
@@ -91,7 +100,17 @@ function Crypto() {
     setShowNotOwnedOnly(false);
     setShowRobinhoodOnly(false);
     setShowGeminiOnly(false);
+    setShowInteractiveBrokersOnly(false);
     setShowCoinbaseOnly((prev) => !prev);
+  };
+
+  const toggleInteractiveBrokersFilter = () => {
+    setShowAllOwnedOnly(false);
+    setShowNotOwnedOnly(false);
+    setShowRobinhoodOnly(false);
+    setShowGeminiOnly(false);
+    setShowCoinbaseOnly(false);
+    setShowInteractiveBrokersOnly((prev) => !prev);
   };
 
   const handleAddCoin = (e) => {
@@ -114,12 +133,13 @@ function Crypto() {
         ownRobinhood: false,
         ownGemini: false,
         ownCoinbase: false,
+        ownInteractiveBrokers: false,
       },
     ]);
     setNewSymbol("");
   };
 
-  const noFilterActive = !showAllOwnedOnly && !showNotOwnedOnly && !showRobinhoodOnly && !showGeminiOnly && !showCoinbaseOnly;
+  const noFilterActive = !showAllOwnedOnly && !showNotOwnedOnly && !showRobinhoodOnly && !showGeminiOnly && !showCoinbaseOnly && !showInteractiveBrokersOnly;
 
   return (
     <div className="stocks-page">
@@ -152,6 +172,13 @@ function Crypto() {
           onClick={toggleCoinbaseFilter}
         >
           Coinbase
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showInteractiveBrokersOnly ? "active" : ""}`}
+          onClick={toggleInteractiveBrokersFilter}
+        >
+          Interactive Brokers
         </button>
         <button
           type="button"
