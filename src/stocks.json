@@ -32900,7 +32900,7 @@
     {
         "Symbol": "KMX",
         "Name": "CarMax Inc",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "CarMax Inc",
         "ETF": "N",
@@ -37526,6 +37526,17 @@
         "Security Name": "Marti Technologies, Inc. Class A Ordinary Shares",
         "ETF": "N",
         "name": "Marti Technologies, Inc. Class A Ordinary Shares"
+    },
+    {
+        "Symbol": "MRVL",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "MS",
@@ -60253,7 +60264,7 @@
     {
         "Symbol": "WEN",
         "Name": "Wendys Co",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true
     },
     {
@@ -62522,6 +62533,7 @@
         "Name": "Yext, Inc. Common Stock",
         "ownWebull": true,
         "ownEtrade": false,
+        "ownInteractiveBrokers": true,
         "Security Name": "Yext, Inc. Common Stock",
         "ETF": "N",
         "name": "Yext, Inc. Common Stock"
