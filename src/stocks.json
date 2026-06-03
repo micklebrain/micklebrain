@@ -861,6 +861,7 @@
         "Name": "ADT Inc. Common Stock",
         "ownWebull": false,
         "ownEtrade": false,
+        "ownInteractiveBrokers": true,
         "Security Name": "ADT Inc. Common Stock",
         "ETF": "N",
         "name": "ADT Inc. Common Stock"
