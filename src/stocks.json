@@ -23899,7 +23899,7 @@
     {
         "Symbol": "GIS",
         "Name": "General Mills, Inc. Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "General Mills, Inc. Common Stock",
         "ETF": "N",
@@ -62531,7 +62531,7 @@
     {
         "Symbol": "YEXT",
         "Name": "Yext, Inc. Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false,
         "ownInteractiveBrokers": true,
         "Security Name": "Yext, Inc. Common Stock",
