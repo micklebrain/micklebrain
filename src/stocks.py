@@ -17,7 +17,7 @@ def remove_keys(obj, keys_to_remove):
     else:
         return obj
     
-def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False):
+def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False):
     if symbol=="":
         return
     
@@ -32,7 +32,8 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
         "ownChase": ownChase,
         "ownSchwab": ownSchwab,
         "ownAlly": ownAlly,
-        "ownFidelity": ownFidelity
+        "ownFidelity": ownFidelity,
+        "ownInteractiveBrokers": ownInteractiveBrokers
     }
 
     found = False
@@ -52,6 +53,8 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
                 item["ownAlly"] = True
             if ownFidelity:
                 item["ownFidelity"] = True
+            if ownInteractiveBrokers:
+                item["ownInteractiveBrokers"] = True
             found = True
             print("stock updated")
             break
@@ -114,10 +117,21 @@ totalNumberStocks = len(stocks)
 keys_to_remove = {"ACT Symbol", "CQS Symbol", "ETF", "Exchange", "Round Lot Size", "Security Name", "Test Issue"}
 allStocks = remove_keys(stocks, keys_to_remove)
 
-notOwned = [item for item in allStocks if item.get("ownWebull") is False and item.get("ownEtrade") is False]
+notOwned = [
+    item for item in allStocks
+    if item.get("ownWebull") is False
+    and item.get("ownEtrade") is False
+    and item.get("ownInteractiveBrokers") is False
+]
 ownWebullStocks = [item for item in allStocks if item.get("ownWebull") is True]
 ownEtradeStocks = [item for item in allStocks if item.get("ownEtrade") is True]
-stocksOwned = [item for item in allStocks if item.get("ownWebull") is True or item.get("ownEtrade") is True]
+ownInteractiveBrokersStocks = [item for item in allStocks if item.get("ownInteractiveBrokers") is True]
+stocksOwned = [
+    item for item in allStocks
+    if item.get("ownWebull") is True
+    or item.get("ownEtrade") is True
+    or item.get("ownInteractiveBrokers") is True
+]
 
 printedResults = ownWebullStocks
 # printedResults = [ # print stocks with missing names
@@ -141,7 +155,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LEN-B"]
+stocksToAdd = ["8729"]
 
 for stock in stocksToAdd:
-    addStock(stock, ownWebull=True)
+    addStock(stock, ownInteractiveBrokers=True)

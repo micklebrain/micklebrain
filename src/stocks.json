@@ -1,5 +1,77 @@
 [
     {
+        "Symbol": "005930",
+        "Name": "Samsung Electronics Co., Ltd. Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "005940",
+        "Name": "NH INVESTMENT & SECURITIES C",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "006800",
+        "Name": "MIRAE ASSET SECURITIES CO LT",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "055550",
+        "Name": "HINHAN FINANCIAL GROUP LTD",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "8729",
+        "Name": "SONY FINANCIAL GROUP INC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "9432",
+        "Name": "NTT,INC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "A",
         "Name": "Agilent Technologies, Inc. Common Stock",
         "ownWebull": false,
@@ -39865,7 +39937,7 @@
         "Symbol": "NOW",
         "Name": "ServiceNow, Inc. Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "ServiceNow, Inc. Common Stock",
         "ETF": "N",
         "name": "ServiceNow, Inc. Common Stock"
