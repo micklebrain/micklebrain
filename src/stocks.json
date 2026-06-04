@@ -31482,7 +31482,7 @@
     {
         "Symbol": "JJSF",
         "Name": "JJ Snack Foods",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true
     },
     {
@@ -39538,7 +39538,7 @@
     {
         "Symbol": "NKE",
         "Name": "Nike, Inc. Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "Nike, Inc. Common Stock",
         "ETF": "N",
@@ -51681,7 +51681,7 @@
     {
         "Symbol": "SNAP",
         "Name": "Snap Inc. Class A Common Stock",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "Snap Inc. Class A Common Stock",
         "ETF": "N",
