@@ -145,6 +145,17 @@
         "name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
     },
     {
+        "Symbol": "AADX",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
+    },
+    {
         "Symbol": "AAL",
         "Name": "American Ailine",
         "ownWebull": true,
@@ -433,7 +444,7 @@
     },
     {
         "Symbol": "ABVEF",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -14325,7 +14336,7 @@
     {
         "Symbol": "DGNX",
         "Name": "Diginex Limited",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
@@ -14794,7 +14805,7 @@
     {
         "Symbol": "DKI",
         "Name": "DARKIRIS INC.",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
@@ -16426,11 +16437,6 @@
         "Security Name": "Consolidated Edison, Inc. Common Stock",
         "ETF": "N",
         "name": "Consolidated Edison, Inc. Common Stock"
-    },
-    {
-        "Symbol": "FOCL",
-        "ownWebull": true,
-        "ownEtrade": false
     },
     {
         "Symbol": "EDC",
@@ -21742,6 +21748,11 @@
         "Security Name": "Finance of America Companies Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Finance of America Companies Inc. Class A Common Stock"
+    },
+    {
+        "Symbol": "FOCL",
+        "ownWebull": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "FOCT",
@@ -43512,8 +43523,8 @@
     },
     {
         "Symbol": "PH",
-        "Name": "Parker",
-        "ownWebull": false,
+        "Name": "Parker-Hannifin Corp",
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Parker-Hannifin Corporation Common Stock",
         "ETF": "N",
@@ -44795,8 +44806,8 @@
     },
     {
         "Symbol": "PRPL",
-        "Name": "Purple Innocatio",
-        "ownWebull": true,
+        "Name": "Purple Innovation Inc. Common Stock",
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -51101,6 +51112,12 @@
         "name": "Champion Homes, Inc. Common Stock"
     },
     {
+        "Symbol": "SKYA",
+        "Name": "Sharps Tech",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "SKYH",
         "Name": "Sky Harbour Group Corporation Class A Common Stock",
         "ownWebull": false,
@@ -53439,12 +53456,6 @@
     {
         "Symbol": "STRZ",
         "Name": "Starz Entertainment Corporation",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
-        "Symbol": "SKYA",
-        "Name": "Sharps Tech",
         "ownWebull": true,
         "ownEtrade": false
     },
@@ -59463,15 +59474,6 @@
         "name": "Virtus Investment Partners, Inc. Common Stock"
     },
     {
-        "Symbol": "VSXY",
-        "Name": "Victorias Secret & Co. Common Stock",
-        "ownWebull": true,
-        "ownEtrade": false,
-        "Security Name": "Victorias Secret & Co. Common Stock",
-        "ETF": "N",
-        "name": "Victorias Secret & Co. Common Stock"
-    },
-    {
         "Symbol": "VSDB",
         "Name": "Vanguard Malvern Funds Vanguard Short Duration Bond ETF",
         "ownWebull": false,
@@ -59551,6 +59553,15 @@
         "Security Name": "Vestis Corporation Common Stock",
         "ETF": "N",
         "name": "Vestis Corporation Common Stock"
+    },
+    {
+        "Symbol": "VSXY",
+        "Name": "Victorias Secret & Co. Common Stock",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "Security Name": "Victorias Secret & Co. Common Stock",
+        "ETF": "N",
+        "name": "Victorias Secret & Co. Common Stock"
     },
     {
         "Symbol": "VT",
@@ -62618,7 +62629,7 @@
     {
         "Symbol": "YMAT",
         "Name": "J-Star Holding",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false
     },
     {
