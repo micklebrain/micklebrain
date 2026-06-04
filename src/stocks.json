@@ -432,7 +432,7 @@
         "ownEtrade": false
     },
     {
-        "Symbol": "ABVE",
+        "Symbol": "ABVEF",
         "ownWebull": true,
         "ownEtrade": false
     },
@@ -16428,7 +16428,7 @@
         "name": "Consolidated Edison, Inc. Common Stock"
     },
     {
-        "Symbol": "EDAP",
+        "Symbol": "FOCL",
         "ownWebull": true,
         "ownEtrade": false
     },
@@ -53443,7 +53443,7 @@
         "ownEtrade": false
     },
     {
-        "Symbol": "STSS",
+        "Symbol": "SKYA",
         "Name": "Sharps Tech",
         "ownWebull": true,
         "ownEtrade": false
@@ -59463,7 +59463,7 @@
         "name": "Virtus Investment Partners, Inc. Common Stock"
     },
     {
-        "Symbol": "VSCO",
+        "Symbol": "VSXY",
         "Name": "Victorias Secret & Co. Common Stock",
         "ownWebull": true,
         "ownEtrade": false,
