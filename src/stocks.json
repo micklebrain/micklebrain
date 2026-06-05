@@ -84,6 +84,18 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "7201",
+        "Name": "NISSAN MOTOR CO LTD.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "8729",
         "Name": "SONY FINANCIAL GROUP INC",
         "ownWebull": false,
