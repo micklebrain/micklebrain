@@ -3167,6 +3167,17 @@
         "name": "Global X MSCI Argentina ETF"
     },
     {
+        "Symbol": "ARGX",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
+    },
+    {
         "Symbol": "ARHS",
         "Name": "Arhaus, Inc.",
         "ownWebull": true,
@@ -13747,7 +13758,7 @@
     {
         "Symbol": "DDS",
         "Name": "Dillard's, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Dillard's, Inc. Common Stock",
         "ETF": "N",
@@ -35816,7 +35827,7 @@
     {
         "Symbol": "MCK",
         "Name": "McKesson Corporation Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "McKesson Corporation Common Stock",
         "ETF": "N",
@@ -36757,6 +36768,17 @@
         "Security Name": "Moving iMage Technologies, Inc. Common Stock",
         "ETF": "N",
         "name": "Moving iMage Technologies, Inc. Common Stock"
+    },
+    {
+        "Symbol": "MITSY",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "MITT",
