@@ -1,5 +1,17 @@
 [
     {
+        "Symbol": "003490",
+        "Name": "Korean Air Lines Co.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "005930",
         "Name": "Samsung Electronics Co., Ltd. Common Stock",
         "ownWebull": false,
@@ -26,6 +38,18 @@
     {
         "Symbol": "006800",
         "Name": "MIRAE ASSET SECURITIES CO LT",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "035720",
+        "Name": "KAKAO CORP",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
