@@ -12,6 +12,18 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "003550",
+        "Name": "LG Corp.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "005930",
         "Name": "Samsung Electronics Co., Ltd. Common Stock",
         "ownWebull": false,
