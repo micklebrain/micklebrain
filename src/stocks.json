@@ -12723,6 +12723,17 @@
         "name": "CTS Corporation Common Stock"
     },
     {
+        "Symbol": "CTSH",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
+    },
+    {
         "Symbol": "CTVA",
         "Name": "Corteva, Inc. Common Stock",
         "ownWebull": false,
@@ -33974,7 +33985,7 @@
         "Symbol": "LEN",
         "Name": "Lennar Corporation Class A Common Stock",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Lennar Corporation Class A Common Stock",
         "ETF": "N",
         "name": "Lennar Corporation Class A Common Stock"
