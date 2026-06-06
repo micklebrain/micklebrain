@@ -11,7 +11,13 @@
     "ownGemini": false,
     "ownRobinhood": true
   },
-   {
+  {
+    "Symbol": "CBETH",
+    "Name": "Coinbase Wrapped Staked ETH",
+    "ownGemini": false,
+    "ownRobinhood": true    
+  },
+  {
     "Symbol": "DOGE",
     "Name": "Dogecoin",
     "ownGemini": false,
@@ -31,7 +37,15 @@
     "ownCoinbase": true,
     "ownInteractiveBrokers": false
   },
-{
+  {
+    "Symbol": "SOL",
+    "Name": "Solana",
+    "ownGemini": false,
+    "ownRobinhood": false,
+    "ownCoinbase": true,
+    "ownInteractiveBrokers": false
+  },
+  {
     "Symbol": "XAUt",
     "Name": "Tether Gold",
     "ownGemini": false,
@@ -41,7 +55,8 @@
     "Symbol": "YFI",
     "Name": "Yearn",
     "ownGemini": false,
-    "ownRobinhood": false    
+    "ownRobinhood": false,
+    "ownCoinbase": false 
   },
   {
     "Symbol": "ZEC",
