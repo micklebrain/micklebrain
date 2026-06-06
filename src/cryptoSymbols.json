@@ -28,7 +28,7 @@
     "Name": "PAX Gold",
     "ownGemini": false,
     "ownRobinhood": false,
-    "ownCoinbase": false,
+    "ownCoinbase": true,
     "ownInteractiveBrokers": false
   },
 {
