@@ -1,5 +1,11 @@
 [
   {
+    "Symbol": "Aave",
+    "Name": "Aave",
+    "ownRobinhood": true,
+    "ownGemini": false  
+  },
+  {
     "Symbol": "BCH",
     "Name": "Bitcoin Cash",
     "ownGemini": false,
@@ -18,6 +24,12 @@
     "ownRobinhood": true    
   },
   {
+    "Symbol": "COMP",
+    "Name": "Compound",
+    "ownRobinhood": true,
+    "ownGemini": false    
+  },
+  {
     "Symbol": "DOGE",
     "Name": "Dogecoin",
     "ownGemini": false,
@@ -30,26 +42,62 @@
     "ownRobinhood": true
   },
   {
+    "Symbol": "FET",
+    "Name": "Fetch.ai",
+    "ownGemini": false,
+    "ownRobinhood": true
+  },
+  {
+    "Symbol": "HYPE",
+    "Name": "Hyperliquid",
+    "ownRobinhood": true,
+    "ownGemini": false    
+  },
+  {
+    "Symbol": "INJ",
+    "Name": "Injective Protocol",
+    "ownGemini": true,
+    "ownRobinhood": false
+  },
+  {
+    "Symbol": "LTC",
+    "Name": "Litecoin",
+    "ownRobinhood": true,
+    "ownGemini": false    
+  },
+  {
     "Symbol": "PAXG",
     "Name": "PAX Gold",
     "ownGemini": false,
     "ownRobinhood": false,
-    "ownCoinbase": true,
-    "ownInteractiveBrokers": false
+    "ownCoinbase": true    
   },
   {
     "Symbol": "SOL",
     "Name": "Solana",
     "ownGemini": false,
     "ownRobinhood": false,
-    "ownCoinbase": true,
-    "ownInteractiveBrokers": false
+    "ownCoinbase": true    
+  },
+  {
+    "Symbol": "QNT",
+    "Name": "Quant",
+    "ownGemini": true,
+    "ownRobinhood": false,
+    "ownCoinbase": false    
   },
   {
     "Symbol": "XAUt",
     "Name": "Tether Gold",
     "ownGemini": false,
     "ownRobinhood": false    
+  },
+  {
+    "Symbol": "VVV",
+    "Name": "Venice Token",
+    "ownRobinhood": true,
+    "ownGemini": false,    
+    "ownCoinbase": false 
   },
   {
     "Symbol": "YFI",
