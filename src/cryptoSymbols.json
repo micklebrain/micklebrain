@@ -12,6 +12,13 @@
     "ownRobinhood": true
   },
   {
+    "Symbol": "BNB",
+    "Name": "BNB",
+    "ownBinance": false,
+    "ownGemini": false,
+    "ownRobinhood": false
+  },
+  {
     "Symbol": "BTC",
     "Name": "Bitcoin",
     "ownGemini": false,
@@ -89,6 +96,12 @@
   {
     "Symbol": "XAUt",
     "Name": "Tether Gold",
+    "ownGemini": false,
+    "ownRobinhood": false    
+  },
+  {
+    "Symbol": "XMR",
+    "Name": "Monero",
     "ownGemini": false,
     "ownRobinhood": false    
   },
