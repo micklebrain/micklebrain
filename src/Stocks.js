@@ -12,39 +12,9 @@ function Stocks() {
   const items = React.useMemo(() => {
     if (!Array.isArray(stocksData)) return [];
 
-    const bySymbol = new Map();
-
-    stocksData.forEach((item) => {
-      if (!item || typeof item.Symbol !== "string" || item.Symbol.length === 0) {
-        return;
-      }
-      const symbol = item.Symbol;
-      const existing = bySymbol.get(symbol) || {
-        Symbol: symbol,
-        ownWebull: false,
-        ownEtrade: false,
-        ownRobinhood: false,
-        ownChase: false,
-        ownSchwab: false,
-        ownAlly: false,
-        ownFidelity: false,
-        ownInteractiveBrokers: false,
-      };
-
-      bySymbol.set(symbol, {
-        Symbol: symbol,
-        ownWebull: existing.ownWebull || !!item.ownWebull,
-        ownEtrade: existing.ownEtrade || !!item.ownEtrade,
-        ownRobinhood: existing.ownRobinhood || !!item.ownRobinhood,
-        ownChase: existing.ownChase || !!item.ownChase,
-        ownSchwab: existing.ownSchwab || !!item.ownSchwab,
-        ownAlly: existing.ownAlly || !!item.ownAlly,
-        ownFidelity: existing.ownFidelity || !!item.ownFidelity,
-        ownInteractiveBrokers: existing.ownInteractiveBrokers || !!item.ownInteractiveBrokers,
-      });
-    });
-
-    return Array.from(bySymbol.values());
+    return stocksData.filter(
+      (item) => item && typeof item.Symbol === "string" && item.Symbol.length > 0
+    );
   }, []);
 
   const [selectedBrokers, setSelectedBrokers] = useState({

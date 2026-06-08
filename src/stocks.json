@@ -28564,8 +28564,8 @@
     {
         "Symbol": "IFF",
         "Name": "International Flavors & Fragrances, Inc. Common Stock",
-        "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
+        "ownWebull": false,        
         "Security Name": "International Flavors & Fragrances, Inc. Common Stock",
         "ETF": "N",
         "name": "International Flavors & Fragrances, Inc. Common Stock"
