@@ -49,6 +49,13 @@
     "ownRobinhood": true
   },
   {
+    "Symbol": "FARTCOIN",
+    "Name": "Fartcoin",
+    "ownKraken": true,
+    "ownGemini": false,
+    "ownRobinhood": true
+  },
+  {
     "Symbol": "FET",
     "Name": "Fetch.ai",
     "ownGemini": false,
@@ -85,6 +92,13 @@
     "ownGemini": false,
     "ownRobinhood": false,
     "ownCoinbase": true    
+  },
+  {
+    "Symbol": "Ton",
+    "Name": "Toncoin",
+    "ownKraken": true,
+    "ownRobinhood": false,
+    "ownCoinbase": false    
   },
   {
     "Symbol": "QNT",

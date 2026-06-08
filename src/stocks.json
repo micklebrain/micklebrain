@@ -124,6 +124,7 @@
     {
         "Symbol": "8729",
         "Name": "SONY FINANCIAL GROUP INC",
+        "Country": "Japan",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
@@ -1731,6 +1732,14 @@
         "Security Name": "AAR Corp. Common Stock",
         "ETF": "N",
         "name": "AAR Corp. Common Stock"
+    },
+    {
+        "Symbol": "AIR",
+        "Name": "AIRBUS",
+        "ownInteractiveBrokers": true,
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ETF": "N"
     },
     {
         "Symbol": "AIRI",
@@ -15645,12 +15654,13 @@
     },
     {
         "Symbol": "DTE",
-        "Name": "DTE Energy Company Common Stock",
+        "Name": "DEUTSCHE TELEKOM",
+        "ownInteractiveBrokers": true,
         "ownWebull": false,
         "ownEtrade": false,
         "Security Name": "DTE Energy Company Common Stock",
         "ETF": "N",
-        "name": "DTE Energy Company Common Stock"
+        "name": "DTE Energy Company Common Stock"        
     },
     {
         "Symbol": "DTEC",

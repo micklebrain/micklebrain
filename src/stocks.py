@@ -17,8 +17,8 @@ def remove_keys(obj, keys_to_remove):
     else:
         return obj
     
-def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False):
-    if symbol=="":
+def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False):
+    if symbol == "":
         return
     
     with open("stocks.json", "r", encoding="utf-8") as f:
@@ -26,6 +26,7 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
 
     new_item = {
         "Symbol": symbol.upper(),
+        "Name": name,
         "ownWebull": ownWebull,
         "ownEtrade": ownEtrade,
         "ownRobinhood": ownRobinhood,
@@ -38,7 +39,7 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
 
     found = False
     for item in data:
-        if item.get("Symbol") == symbol:
+        if item.get("Symbol") == symbol.upper():
             if ownWebull:
                 item["ownWebull"] = True
             if ownEtrade:
@@ -55,6 +56,8 @@ def addStock(symbol, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownCh
                 item["ownFidelity"] = True
             if ownInteractiveBrokers:
                 item["ownInteractiveBrokers"] = True
+            if name:
+                item["Name"] = name
             found = True
             print("stock updated")
             break
@@ -155,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["035420"]
+stocksToAdd = ["DTE"]
 
 for stock in stocksToAdd:
-    addStock(stock, ownInteractiveBrokers=True)
+    addStock(stock, name="DEUTSCHE TELEKOM", ownInteractiveBrokers=True)
