@@ -60,8 +60,20 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "035420",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "035720",
         "Name": "KAKAO CORP",
+        "Country": "South Korea",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
@@ -86,6 +98,7 @@
     {
         "Symbol": "352820",
         "Name": "HYBE CO LTD",
+        "Country": "South Korea",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
@@ -98,6 +111,7 @@
     {
         "Symbol": "7201",
         "Name": "NISSAN MOTOR CO LTD.",
+        "Country": "Japan",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,
