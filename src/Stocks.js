@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import stocksData from "./stocks.json";
 import webullLogo from "./webull.svg";
 import etradeLogo from "./etrade.svg";
@@ -78,6 +79,16 @@ function Stocks() {
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
   });
 
+  const symbolOccurrences = React.useMemo(() => {
+    const counts = {};
+    return filteredItems.map((item) => {
+      const symbol = item && item.Symbol;
+      const occurrence = counts[symbol] ?? 0;
+      counts[symbol] = occurrence + 1;
+      return occurrence;
+    });
+  }, [filteredItems]);
+
   const clearBrokerFilters = () => {
     setSelectedBrokers({
       webull: false,
@@ -136,20 +147,6 @@ function Stocks() {
     e.preventDefault();
     const trimmed = newSymbol.trim().toUpperCase();
     if (!trimmed) return;
-
-    // Avoid adding duplicates (by symbol) to the extra list
-    if (extraStocks.some((s) => s.Symbol === trimmed)) {
-      setNewSymbol("");
-      setNewOwnWebull(false);
-      setNewOwnEtrade(false);
-      setNewOwnRobinhood(false);
-      setNewOwnInteractiveBrokers(false);
-      setNewOwnChase(false);
-      setNewOwnSchwab(false);
-      setNewOwnAlly(false);
-      setNewOwnFidelity(false);
-      return;
-    }
 
     setExtraStocks((prev) => [
       ...prev,
@@ -339,7 +336,8 @@ function Stocks() {
         </button>
       </form>
       <div className="stocks-grid">
-        {filteredItems.map((item) => {
+        {filteredItems.map((item, index) => {
+          const occurrence = symbolOccurrences[index];
           const hasWebull = !!item.ownWebull;
           const hasEtrade = !!item.ownEtrade;
           const hasRobinhood = !!item.ownRobinhood;
@@ -360,10 +358,14 @@ function Stocks() {
 
           return (
             <div
-              key={item.Symbol}
+              key={`${item.Symbol}-${occurrence}`}
               className={`stocks-tile ${isOwned ? "stocks-tile-owned" : ""}`}
             >
-              <span className="stocks-symbol">{item.Symbol}</span>
+              <span className="stocks-symbol">
+                <Link to={`/stocks/${encodeURIComponent(item.Symbol)}/${occurrence}`}>
+                  {item.Symbol}
+                </Link>
+              </span>
               {hasWebull && (
                 <img
                   src={webullLogo}
