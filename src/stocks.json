@@ -57,7 +57,7 @@
         "Symbol": "7201",
         "Name": "NISSAN MOTOR CO LTD.",
         "Country": "Japan",
-        "ownInteractiveBrokers": true     
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "8729",
@@ -15583,7 +15583,7 @@
         "ownEtrade": false,
         "Security Name": "DTE Energy Company Common Stock",
         "ETF": "N",
-        "name": "DTE Energy Company Common Stock"        
+        "name": "DTE Energy Company Common Stock"
     },
     {
         "Symbol": "DTEC",
@@ -18419,6 +18419,18 @@
         "Symbol": "ESLOY",
         "ownWebull": true,
         "ownEtrade": false
+    },
+    {
+        "Symbol": "ESLT",
+        "Name": "Elbit Systems Ltd",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "ESML",
@@ -28560,7 +28572,7 @@
         "Symbol": "IFF",
         "Name": "International Flavors & Fragrances, Inc. Common Stock",
         "ownEtrade": true,
-        "ownWebull": false,        
+        "ownWebull": false,
         "Security Name": "International Flavors & Fragrances, Inc. Common Stock",
         "ETF": "N",
         "name": "International Flavors & Fragrances, Inc. Common Stock"
@@ -38585,6 +38597,18 @@
         "Security Name": "ProShares Short MidCap400",
         "ETF": "Y",
         "name": "ProShares Short MidCap400"
+    },
+    {
+        "Symbol": "MZTI",
+        "Name": "Marzetti Co",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "MZZ",
