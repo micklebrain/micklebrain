@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["MZTI"]
+stocksToAdd = ["SCL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Marzetti Co", ownEtrade=True)
+    addStock(stock, name="STEPAN CO COM", ownEtrade=True)

@@ -129,9 +129,9 @@
   {
     "Symbol": "YFI",
     "Name": "Yearn",
+    "ownCoinbase": true,
     "ownGemini": false,
-    "ownRobinhood": false,
-    "ownCoinbase": false 
+    "ownRobinhood": false     
   },
   {
     "Symbol": "ZEC",

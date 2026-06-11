@@ -52,11 +52,13 @@ function StockDetail() {
         <div className="stock-detail-list">
           <div className="stock-detail-card">
             <p>
-              <strong>Symbol:</strong> {selectedItem.Symbol}
-            </p>
-            <p>
               <strong>Name:</strong> {selectedItem.Name || selectedItem["Security Name"] || "Unnamed Stock"}
             </p>
+            {(selectedItem.Country || selectedItem.country) && (
+              <p>
+                <strong>Country:</strong> {selectedItem.Country || selectedItem.country}
+              </p>
+            )}
             {renderOwnedIn(selectedItem) && (
               <p>
                 <strong>Owned in:</strong> {renderOwnedIn(selectedItem)}

@@ -4855,9 +4855,9 @@
     },
     {
         "Symbol": "BAM",
-        "Name": "Brookfield Asset Management Inc Class A Limited Voting Shares",
+        "Name": "BROOKFIELD ASSET MANAGMT",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Brookfield Asset Management Inc Class A Limited Voting Shares",
         "ETF": "N",
         "name": "Brookfield Asset Management Inc Class A Limited Voting Shares"
@@ -6476,7 +6476,7 @@
     {
         "Symbol": "BIOX",
         "Name": "Bioceres Crop Solutions Corp",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
@@ -9104,6 +9104,18 @@
         "Security Name": "Simplify Exchange Traded Funds Simplify China A Shares PLUS Income ETF",
         "ETF": "Y",
         "name": "Simplify Exchange Traded Funds Simplify China A Shares PLUS Income ETF"
+    },
+    {
+        "Symbol": "CASY",
+        "Name": "Caseys",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "CAT",
@@ -13627,9 +13639,9 @@
     },
     {
         "Symbol": "DD",
-        "Name": "DuPont de Nemours, Inc. Common Stock",
+        "Name": "DUPONT DE NEMOURS INC",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "DuPont de Nemours, Inc. Common Stock",
         "ETF": "N",
         "name": "DuPont de Nemours, Inc. Common Stock"
@@ -27575,12 +27587,6 @@
         "name": "MarineMax, Inc.  (FL) Common Stock"
     },
     {
-        "Symbol": "IAC",
-        "Name": "Iac Interactivecorp",
-        "ownWebull": true,
-        "ownEtrade": false
-    },
-    {
         "Symbol": "IAE",
         "Name": "Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest",
         "ownWebull": false,
@@ -34357,7 +34363,7 @@
     {
         "Symbol": "LII",
         "Name": "Lennox International, Inc. Common Stock",
-        "ownWebull": false,
+        "ownWebull": true,
         "ownEtrade": false,
         "Security Name": "Lennox International, Inc. Common Stock",
         "ETF": "N",
@@ -44607,6 +44613,12 @@
         "name": "PPL Corporation Common Stock"
     },
     {
+        "Symbol": "PPLI",
+        "Name": "People Incorporated",
+        "ownWebull": true,
+        "ownEtrade": false
+    },
+    {
         "Symbol": "PPLT",
         "Name": "abrdn Physical Platinum Shares ETF",
         "ownWebull": false,
@@ -49797,9 +49809,9 @@
     },
     {
         "Symbol": "SCL",
-        "Name": "Stepan Company Common Stock",
+        "Name": "STEPAN CO COM",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "Security Name": "Stepan Company Common Stock",
         "ETF": "N",
         "name": "Stepan Company Common Stock"
@@ -62410,7 +62422,7 @@
     {
         "Symbol": "XXII",
         "Name": "22Nd Century",
-        "ownWebull": true,
+        "ownWebull": false,
         "ownEtrade": false
     },
     {
