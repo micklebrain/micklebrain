@@ -7637,7 +7637,7 @@
     {
         "Symbol": "BOSC",
         "Name": "BOS Better Online Solutions Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BOSS",
@@ -7665,7 +7665,7 @@
     {
         "Symbol": "BOX",
         "Name": "Box, Inc. Class A Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Box, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Box, Inc. Class A Common Stock"
@@ -7691,7 +7691,7 @@
     {
         "Symbol": "BP",
         "Name": "BP p.l.c. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "BP p.l.c. Common Stock",
         "ETF": "N",
         "name": "BP p.l.c. Common Stock"
@@ -7726,7 +7726,7 @@
     {
         "Symbol": "BPYPN",
         "Name": "Brokfld Prpty Pf",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BPYPO",
@@ -7744,7 +7744,7 @@
     },
     {
         "Symbol": "BR",
-        "Name": "Broadridge Financial Solutions, Inc. Common Stock",        
+        "Name": "Broadridge Financial Solutions, Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "Broadridge Financial Solutions, Inc. Common Stock",
         "ETF": "N",
@@ -7761,7 +7761,7 @@
     },
     {
         "Symbol": "BRBI",
-        "Name": "BRBI BR Partners S A American Depository Shares",    
+        "Name": "BRBI BR Partners S A American Depository Shares",
         "ownEtrade": true
     },
     {
@@ -7775,7 +7775,7 @@
     },
     {
         "Symbol": "BRBS",
-        "Name": "Blue Ridge Bankshares, Inc. Common Stock",        
+        "Name": "Blue Ridge Bankshares, Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "Blue Ridge Bankshares, Inc. Common Stock",
         "ETF": "N",
@@ -7820,7 +7820,7 @@
     {
         "Symbol": "BRIA",
         "Name": "BrilliA Inc Class A Ordinary Shares",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "BrilliA Inc Class A Ordinary Shares",
         "ETF": "N",
         "name": "BrilliA Inc Class A Ordinary Shares"
@@ -7836,7 +7836,7 @@
     },
     {
         "Symbol": "BRK-A",
-        "Name": "Berkshire Hathaway Inc. Common Stock",        
+        "Name": "Berkshire Hathaway Inc. Common Stock",
         "ownRobinhood": true,
         "Security Name": "Berkshire Hathaway Inc. Common Stock",
         "ETF": "N",
@@ -7845,7 +7845,7 @@
     {
         "Symbol": "BRK-B",
         "Name": "Berkshire Hathaway Inc. New Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Berkshire Hathaway Inc. New Common Stock",
         "ETF": "N",
         "name": "Berkshire Hathaway Inc. New Common Stock"
@@ -7880,7 +7880,7 @@
     {
         "Symbol": "BRLT",
         "Name": "Brilliant Earth Group Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BRN",
@@ -7903,7 +7903,7 @@
     {
         "Symbol": "BROS",
         "Name": "Dutch Bros Inc. Class A Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Dutch Bros Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Dutch Bros Inc. Class A Common Stock"
@@ -7911,7 +7911,7 @@
     {
         "Symbol": "BRSL",
         "Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
         "ETF": "N",
         "name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares"
@@ -7963,7 +7963,7 @@
     },
     {
         "Symbol": "BSAC",
-        "Name": "Banco Santander",        
+        "Name": "Banco Santander",
         "ownEtrade": true,
         "Security Name": "Banco Santander - Chile ADS",
         "ETF": "N",
@@ -7971,7 +7971,7 @@
     },
     {
         "Symbol": "BSBR",
-        "Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",        
+        "Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "ownEtrade": true,
         "Security Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "ETF": "N",
@@ -8494,7 +8494,7 @@
     },
     {
         "Symbol": "BUYW",
-        "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",        
+        "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "ownEtrade": true,
         "Security Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "ETF": "Y",
@@ -8538,7 +8538,7 @@
     },
     {
         "Symbol": "BVN",
-        "Name": "Buenaventura Mining Company Inc.",        
+        "Name": "Buenaventura Mining Company Inc.",
         "ownEtrade": true,
         "Security Name": "Buenaventura Mining Company Inc.",
         "ETF": "N",
@@ -8573,7 +8573,7 @@
     {
         "Symbol": "BWAY",
         "Name": "Brainsway Ltd - ADR",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BWEB",
@@ -8595,7 +8595,7 @@
     },
     {
         "Symbol": "BWG",
-        "Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",        
+        "Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
         "ownEtrade": true,
         "Security Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
         "ETF": "N",
@@ -8603,7 +8603,7 @@
     },
     {
         "Symbol": "BWLP",
-        "Name": "BW LPG Limited Common Shares",        
+        "Name": "BW LPG Limited Common Shares",
         "ownEtrade": true,
         "Security Name": "BW LPG Limited Common Shares",
         "ETF": "N",
@@ -8611,7 +8611,7 @@
     },
     {
         "Symbol": "BWMX",
-        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",        
+        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "ownEtrade": true,
         "Security Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "ETF": "N",
@@ -8674,7 +8674,7 @@
     {
         "Symbol": "BX",
         "Name": "Blackstone Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Blackstone Inc. Common Stock",
         "ETF": "N",
         "name": "Blackstone Inc. Common Stock"
@@ -8690,7 +8690,7 @@
     },
     {
         "Symbol": "BXMT",
-        "Name": "Blackstone Mortgage Trust, Inc. Common Stock",        
+        "Name": "Blackstone Mortgage Trust, Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "Blackstone Mortgage Trust, Inc. Common Stock",
         "ETF": "N",
@@ -8716,7 +8716,7 @@
     },
     {
         "Symbol": "BXSL",
-        "Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",        
+        "Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",
         "ownEtrade": true,
         "Security Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",
         "ETF": "N",
@@ -8743,7 +8743,7 @@
     {
         "Symbol": "BYDDY",
         "Name": "Byd Co Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BYLD",
@@ -8766,7 +8766,7 @@
     {
         "Symbol": "BYND",
         "Name": "Beyond Meat",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BYRE",
@@ -8780,7 +8780,7 @@
     {
         "Symbol": "BZFD",
         "Name": "BUZZFEED INC",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "BZH",
@@ -8793,7 +8793,7 @@
     },
     {
         "Symbol": "BZQ",
-        "Name": "ProShares UltraShort MSCI Brazil Capped",        
+        "Name": "ProShares UltraShort MSCI Brazil Capped",
         "ownEtrade": true,
         "Security Name": "ProShares UltraShort MSCI Brazil Capped",
         "ETF": "Y",
@@ -8802,7 +8802,7 @@
     {
         "Symbol": "C",
         "Name": "Citigroup, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Citigroup, Inc. Common Stock",
         "ETF": "N",
         "name": "Citigroup, Inc. Common Stock"
@@ -8935,7 +8935,7 @@
     },
     {
         "Symbol": "CAL",
-        "Name": "Caleres, Inc. Common Stock",        
+        "Name": "Caleres, Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "Caleres, Inc. Common Stock",
         "ETF": "N",
@@ -8989,7 +8989,7 @@
     {
         "Symbol": "CANF",
         "Name": "Can",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Can-Fite Biopharma Ltd Sponsored ADR (Israel)",
         "ETF": "N",
         "name": "Can"
@@ -9060,7 +9060,7 @@
     {
         "Symbol": "CARS",
         "Name": "Cars.com Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Cars.com Inc. Common Stock",
         "ETF": "N",
         "name": "Cars.com Inc. Common Stock"
@@ -9068,7 +9068,7 @@
     {
         "Symbol": "CART",
         "Name": "Instacart, Inc.(Maplebear Inc.)",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CARU",
@@ -9096,7 +9096,7 @@
     {
         "Symbol": "CAT",
         "Name": "Caterpillar, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Caterpillar, Inc. Common Stock",
         "ETF": "N",
         "name": "Caterpillar, Inc. Common Stock"
@@ -9239,7 +9239,7 @@
     {
         "Symbol": "CBRL",
         "Name": "Cracker Barrel Old Ctry Store",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CBSE",
@@ -9343,7 +9343,7 @@
     {
         "Symbol": "CCC",
         "Name": "CCC Intelligent Solutions Holdings Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CCEC",
@@ -9371,12 +9371,12 @@
     {
         "Symbol": "CCEP",
         "Name": "Coca-Cola Europacific partners Plc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CCHGY",
         "Name": "Coca-Cola Hbc Ag",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CCI",
@@ -9426,7 +9426,7 @@
     {
         "Symbol": "CCL",
         "Name": "Carnival Corporation Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Carnival Corporation Common Stock",
         "ETF": "N",
         "name": "Carnival Corporation Common Stock"
@@ -9461,7 +9461,7 @@
     {
         "Symbol": "CCOEY",
         "Name": "Capcom ADR",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CCOR",
@@ -9493,7 +9493,7 @@
     {
         "Symbol": "CCU",
         "Name": "Compania Cervecerias Unidas, S.A. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Compania Cervecerias Unidas, S.A. Common Stock",
         "ETF": "N",
         "name": "Compania Cervecerias Unidas, S.A. Common Stock"
@@ -9537,7 +9537,7 @@
     {
         "Symbol": "CDLR",
         "Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
         "ETF": "N",
         "name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)"
@@ -9670,7 +9670,7 @@
     {
         "Symbol": "CELH",
         "Name": "Celsius Hldgs Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CEMB",
@@ -9684,11 +9684,11 @@
     {
         "Symbol": "CENTA",
         "Name": "Central Garden & Pet Co",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CEPU",
-        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",        
+        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "ownEtrade": true,
         "Security Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "ETF": "N",
@@ -9816,7 +9816,7 @@
     {
         "Symbol": "CG",
         "Name": "The Carlyle Group Inc.",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CGAU",
@@ -9889,12 +9889,12 @@
     {
         "Symbol": "CGEMY",
         "Name": "Capgemini S E",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CGEN",
         "Name": "Compugen Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CGGE",
@@ -10102,7 +10102,7 @@
     {
         "Symbol": "CHA",
         "Name": "CHAGEE HLDGS LTD",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CHAI",
@@ -10147,7 +10147,7 @@
     },
     {
         "Symbol": "CHE",
-        "Name": "Chemed Corp",        
+        "Name": "Chemed Corp",
         "ownEtrade": true,
         "Security Name": "Chemed Corp",
         "ETF": "N",
@@ -10156,24 +10156,24 @@
     {
         "Symbol": "CHECU",
         "Name": "Chenghe Acquisition III Co.",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CHEOY",
         "Name": "Cochlear Ord ADR",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CHGG",
         "Name": "Chegg, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Chegg, Inc. Common Stock",
         "ETF": "N",
         "name": "Chegg, Inc. Common Stock"
     },
     {
         "Symbol": "CHH",
-        "Name": "Choice Hotels International, Inc. Common Stock",        
+        "Name": "Choice Hotels International, Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "Choice Hotels International, Inc. Common Stock",
         "ETF": "N",
@@ -10190,13 +10190,13 @@
     },
     {
         "Symbol": "CHKP",
-        "Name": "Check Point Software Technologies Ltd",        
+        "Name": "Check Point Software Technologies Ltd",
         "ownEtrade": true
     },
     {
         "Symbol": "CHMI",
         "Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
         "ETF": "N",
         "name": "Cherry Hill Mortgage Investment Corporation Common Stock"
@@ -10238,7 +10238,7 @@
     {
         "Symbol": "CHPT",
         "Name": "ChargePoint Holdings, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "ChargePoint Holdings, Inc. Common Stock",
         "ETF": "N",
         "name": "ChargePoint Holdings, Inc. Common Stock"
@@ -10255,7 +10255,7 @@
     {
         "Symbol": "CHRW",
         "Name": "C H Robinson Worldwide Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CHSN",
@@ -10275,7 +10275,7 @@
     {
         "Symbol": "CHTR",
         "Name": "Chartr Cmunictns",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "CHWY",
@@ -35456,6 +35456,18 @@
         "name": "Monarch Blue Chips Core Index ETF"
     },
     {
+        "Symbol": "MBG",
+        "Name": "Mercedes-Benz Group AG",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "MBGYY",
         "Name": "MERCEDES BENZ GROUP AG",
         "ownWebull": true,
@@ -59138,6 +59150,18 @@
         "Security Name": "Vanguard Mid-Cap Growth ETF",
         "ETF": "Y",
         "name": "Vanguard Mid"
+    },
+    {
+        "Symbol": "VOW",
+        "Name": "Volkswagen AG",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "VOX",
