@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["Boss"]
+stocksToAdd = ["CA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Hugo Boss", ownInteractiveBrokers=True)
+    addStock(stock, name="Carrefour SA", ownInteractiveBrokers=True)
