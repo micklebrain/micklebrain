@@ -30,6 +30,18 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "024110",
+        "Name": "Industrial Bank of Korea",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "035420",
         "Name": "NAVER Corporation",
         "Country": "South Korea",
@@ -39,6 +51,18 @@
         "Symbol": "035720",
         "Name": "KAKAO CORP",
         "Country": "South Korea",
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "047040",
+        "Name": "DAEWOO ENGINEERING & CONSTR",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
         "ownInteractiveBrokers": true
     },
     {
@@ -50983,6 +51007,18 @@
         "Security Name": "abrdn Physical Silver Shares ETF",
         "ETF": "Y",
         "name": "abrdn Physical Silver Shares ETF"
+    },
+    {
+        "Symbol": "SIX2",
+        "Name": "Sixt SE",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "SIXA",
