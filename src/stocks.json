@@ -6185,6 +6185,18 @@
         "name": "BGSF, Inc. Common Stock"
     },
     {
+        "Symbol": "BGSI",
+        "Name": "Boyd Group Services Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
+    },
+    {
         "Symbol": "BGT",
         "Name": "BlackRock Floating Rate Income Trust",
         "ownWebull": false,
@@ -35870,7 +35882,7 @@
     {
         "Symbol": "MENS",
         "Name": "Jyong Biotech Ltd.",
-        "ownWebull": true    
+        "ownWebull": true
     },
     {
         "Symbol": "MER-K",
@@ -36023,7 +36035,7 @@
     {
         "Symbol": "MFG",
         "Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
         "ETF": "N",
         "name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)"
@@ -36139,7 +36151,7 @@
     {
         "Symbol": "MGDDY",
         "Name": "Michelin Comp",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MGF",
@@ -36171,7 +36183,7 @@
     {
         "Symbol": "MGM",
         "Name": "MGM Resorts International Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "MGM Resorts International Common Stock",
         "ETF": "N",
         "name": "MGM Resorts International Common Stock"
@@ -36257,7 +36269,7 @@
     {
         "Symbol": "MGRT",
         "Name": "Mega Fortune Co Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MGV",
@@ -36487,7 +36499,7 @@
     {
         "Symbol": "MITEY",
         "Name": "Mitsubishi Estate Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MITN",
@@ -36575,7 +36587,7 @@
     {
         "Symbol": "MKC",
         "Name": "McCormick & Company, Incorporated Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "McCormick & Company, Incorporated Common Stock",
         "ETF": "N",
         "name": "McCormick & Company, Incorporated Common Stock"
@@ -36588,7 +36600,7 @@
     {
         "Symbol": "MKL",
         "Name": "Markel Group Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Markel Group Inc. Common Stock",
         "ETF": "N",
         "name": "Markel Group Inc. Common Stock"
@@ -36605,12 +36617,12 @@
     {
         "Symbol": "MKZR",
         "Name": "MacKenzie Realty Capital Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MLCO",
         "Name": "Melco Resorts And Entmnt Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MLDR",
@@ -36827,7 +36839,7 @@
     {
         "Symbol": "MMM",
         "Name": "3M Company Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "3M Company Common Stock",
         "ETF": "N",
         "name": "3M Company Common Stock"
@@ -36889,7 +36901,7 @@
     {
         "Symbol": "MMYT",
         "Name": "Makemytrip Limited Mauritius",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MNA",
@@ -36912,7 +36924,7 @@
     {
         "Symbol": "MNDO",
         "Name": "Mind Cti",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MNDY",
@@ -36922,7 +36934,7 @@
     {
         "Symbol": "MNR",
         "Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
         "ETF": "N",
         "name": "Mach Natural Resources LP Common Units representing Limited Partner Interests"
@@ -37031,7 +37043,7 @@
     {
         "Symbol": "MOH",
         "Name": "Molina Healthcare Inc Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Molina Healthcare Inc Common Stock",
         "ETF": "N",
         "name": "Molina Healthcare Inc Common Stock"
@@ -37047,7 +37059,7 @@
     },
     {
         "Symbol": "MORN",
-        "Name": "Morningstar Inc",        
+        "Name": "Morningstar Inc",
         "ownEtrade": true
     },
     {
@@ -37274,7 +37286,7 @@
     {
         "Symbol": "MRM",
         "Name": "Medirom Healthcare Technologies Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MRNA",
@@ -37325,7 +37337,7 @@
     {
         "Symbol": "MS",
         "Name": "Morgan Stanley Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Morgan Stanley Common Stock",
         "ETF": "N",
         "name": "Morgan Stanley Common Stock"
@@ -37423,7 +37435,7 @@
     {
         "Symbol": "MSBI",
         "Name": "Midland States",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "MSC",
@@ -37437,7 +37449,7 @@
     {
         "Symbol": "MSCI",
         "Name": "MSCI Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "MSCI Inc. Common Stock",
         "ETF": "N",
         "name": "MSCI Inc. Common Stock"
@@ -37965,7 +37977,7 @@
     {
         "Symbol": "MUFG",
         "Name": "Mitsubishi UFJ Financial Group, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Mitsubishi UFJ Financial Group, Inc. Common Stock",
         "ETF": "N",
         "name": "Mitsubishi UFJ Financial Group, Inc. Common Stock"
@@ -38036,7 +38048,7 @@
     {
         "Symbol": "MUR",
         "Name": "Murphy Oil Corporation Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Murphy Oil Corporation Common Stock",
         "ETF": "N",
         "name": "Murphy Oil Corporation Common Stock"
@@ -39648,7 +39660,7 @@
     {
         "Symbol": "NOK",
         "Name": "Nokia Corporation Sponsored American Depositary Shares",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Nokia Corporation Sponsored American Depositary Shares",
         "ETF": "N",
         "name": "Nokia Corporation Sponsored American Depositary Shares"
@@ -39734,7 +39746,7 @@
     },
     {
         "Symbol": "NOW",
-        "Name": "ServiceNow, Inc. Common Stock",        
+        "Name": "ServiceNow, Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "ServiceNow, Inc. Common Stock",
         "ETF": "N",
@@ -39797,7 +39809,7 @@
     {
         "Symbol": "NPSNY",
         "Name": "Naspers",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "NPV",
@@ -39811,7 +39823,7 @@
     {
         "Symbol": "NPWR",
         "Name": "NET Power Inc. Class A Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "NET Power Inc. Class A Common Stock",
         "ETF": "N",
         "name": "NET Power Inc. Class A Common Stock"
@@ -40030,7 +40042,7 @@
     {
         "Symbol": "NSRX",
         "Name": "Nasus Pharma Ltd. Ordinary Shares",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Nasus Pharma Ltd. Ordinary Shares",
         "ETF": "N",
         "name": "Nasus Pharma Ltd. Ordinary Shares"
@@ -40047,12 +40059,12 @@
     {
         "Symbol": "NTDOY",
         "Name": "Nintendo Co Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "NTES",
         "Name": "NetEase Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "NTGR",
@@ -40070,7 +40082,7 @@
     {
         "Symbol": "NTLA",
         "Name": "Intellia Therape",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "NTR",
@@ -44233,7 +44245,7 @@
     },
     {
         "Symbol": "POOL",
-        "Name": "Pool Corp",        
+        "Name": "Pool Corp",
         "ownEtrade": true
     },
     {
@@ -44662,7 +44674,7 @@
     {
         "Symbol": "PSA",
         "Name": "Public Storage Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Public Storage Common Stock",
         "ETF": "N",
         "name": "Public Storage Common Stock"
@@ -44836,7 +44848,7 @@
     {
         "Symbol": "PSEC",
         "Name": "Prospect Capital",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "PSEC-A",
@@ -45220,7 +45232,7 @@
     },
     {
         "Symbol": "PTON",
-        "Name": "Peloton Interactive, Inc.",        
+        "Name": "Peloton Interactive, Inc.",
         "ownRobinhood": true
     },
     {
@@ -45279,7 +45291,7 @@
     {
         "Symbol": "PUMSY",
         "Name": "Puma",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "PUSH",
@@ -45320,7 +45332,7 @@
     {
         "Symbol": "PVH",
         "Name": "PVH Corp. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "PVH Corp. Common Stock",
         "ETF": "N",
         "name": "PVH Corp. Common Stock"
@@ -45462,7 +45474,7 @@
     {
         "Symbol": "PXS",
         "Name": "Pyxis Tankers Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "PYLD",
@@ -45526,7 +45538,7 @@
     {
         "Symbol": "PZZA",
         "Name": "Papa Johns Intl Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "QAI",
@@ -45576,7 +45588,7 @@
     {
         "Symbol": "QBTS",
         "Name": "D",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "D-Wave Quantum Inc. Common Shares",
         "ETF": "N",
         "name": "D"
@@ -45645,7 +45657,7 @@
     {
         "Symbol": "QCOM",
         "Name": "Qualcomm Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "QD",
@@ -45974,7 +45986,7 @@
     {
         "Symbol": "QNCX",
         "Name": "Quince",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "QPUX",
@@ -46056,7 +46068,7 @@
     {
         "Symbol": "QSR",
         "Name": "Restaurant Brands International Inc. Common Shares",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Restaurant Brands International Inc. Common Shares",
         "ETF": "N",
         "name": "Restaurant Brands International Inc. Common Shares"
@@ -46136,7 +46148,7 @@
     {
         "Symbol": "QUBT",
         "Name": "Quantum Computing Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "QUBX",
@@ -46204,7 +46216,7 @@
     {
         "Symbol": "QVCC",
         "Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",
         "ETF": "N",
         "name": "QVC, Inc. 6.250% Senior Secured Notes due 2068"
@@ -46212,7 +46224,7 @@
     {
         "Symbol": "QVCD",
         "Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067",
         "ETF": "N",
         "name": "QVC, Inc. 6.375% Senior Secured Notes due 2067"
@@ -46265,7 +46277,7 @@
     {
         "Symbol": "QXO",
         "Name": "QXO, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "QXO, Inc. Common Stock",
         "ETF": "N",
         "name": "QXO, Inc. Common Stock"
@@ -46289,7 +46301,7 @@
     },
     {
         "Symbol": "RA",
-        "Name": "Brookfield Real Assets Income Fund Inc. Common Stock",        
+        "Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
         "ownEtrade": true,
         "Security Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
         "ETF": "N",
@@ -46325,7 +46337,7 @@
     {
         "Symbol": "RACE",
         "Name": "Ferrari N.V. Common Shares",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Ferrari N.V. Common Shares",
         "ETF": "N",
         "name": "Ferrari N.V. Common Shares"
@@ -46450,7 +46462,7 @@
     {
         "Symbol": "RBLX",
         "Name": "Roblox Corporation Class A Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Roblox Corporation Class A Common Stock",
         "ETF": "N",
         "name": "Roblox Corporation Class A Common Stock"
@@ -46501,7 +46513,7 @@
     {
         "Symbol": "RC",
         "Name": "Ready Capital Corporation Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Ready Capital Corporation Common Stock",
         "ETF": "N",
         "name": "Ready Capital Corporation Common Stock"
@@ -46605,7 +46617,7 @@
     {
         "Symbol": "RDDT",
         "Name": "Reddit, Inc. Class A Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Reddit, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Reddit, Inc. Class A Common Stock"
@@ -46622,7 +46634,7 @@
     {
         "Symbol": "RDIB",
         "Name": "Reading Intl",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RDIV",
@@ -46681,7 +46693,7 @@
     {
         "Symbol": "RDY",
         "Name": "Dr. Reddy's Laboratories Ltd Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Dr. Reddy's Laboratories Ltd Common Stock",
         "ETF": "N",
         "name": "Dr. Reddy's Laboratories Ltd Common Stock"
@@ -46698,7 +46710,7 @@
     {
         "Symbol": "REAL",
         "Name": "Therealreal",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RECS",
@@ -46900,14 +46912,14 @@
     {
         "Symbol": "REZI",
         "Name": "Resideo Technologies, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Resideo Technologies, Inc. Common Stock",
         "ETF": "N",
         "name": "Resideo Technologies, Inc. Common Stock"
     },
     {
         "Symbol": "RF",
-        "Name": "Regions Financial Corporation Common Stock",        
+        "Name": "Regions Financial Corporation Common Stock",
         "ownEtrade": true,
         "Security Name": "Regions Financial Corporation Common Stock",
         "ETF": "N",
@@ -47055,7 +47067,7 @@
     {
         "Symbol": "RGC",
         "Name": "Regencell Bioscience Holdings Ltd",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RGEF",
@@ -47068,7 +47080,7 @@
     },
     {
         "Symbol": "RGP",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RGR",
@@ -47091,7 +47103,7 @@
     {
         "Symbol": "RGTI",
         "Name": "Rigetti Computing Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RGTU",
@@ -47150,7 +47162,7 @@
     {
         "Symbol": "RIBB",
         "Name": "Ribbon Acquisition Corp",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RIET",
@@ -47191,7 +47203,7 @@
     {
         "Symbol": "RILY",
         "Name": "B. Riley Financial, Inc.",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RINC",
@@ -47223,7 +47235,7 @@
     {
         "Symbol": "RIOT",
         "Name": "Riot Platforms Ord Shs",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RIOX",
@@ -47264,7 +47276,7 @@
     {
         "Symbol": "RITM",
         "Name": "Rithm Capital Corp. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Rithm Capital Corp. Common Stock",
         "ETF": "N",
         "name": "Rithm Capital Corp. Common Stock"
@@ -47328,7 +47340,7 @@
     {
         "Symbol": "RIVN",
         "Name": "Rivian Automotive. Inc./ De",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RJF",
@@ -47359,7 +47371,7 @@
     {
         "Symbol": "RKT",
         "Name": "Rocket Companies, Inc. Class A Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Rocket Companies, Inc. Class A Common Stock",
         "ETF": "N",
         "name": "Rocket Companies, Inc. Class A Common Stock"
@@ -47367,12 +47379,12 @@
     {
         "Symbol": "RKUNY",
         "Name": "Rakuten Group Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RL",
         "Name": "Ralph Lauren Corporation Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Ralph Lauren Corporation Common Stock",
         "ETF": "N",
         "name": "Ralph Lauren Corporation Common Stock"
@@ -47424,7 +47436,7 @@
     {
         "Symbol": "RLX",
         "Name": "RLX Technology Inc. American Depositary Shares, each representing the right to receive one (1) Class A ordinary share",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "RLX Technology Inc. American Depositary Shares, each representing the right to receive one (1) Class A ordinary share",
         "ETF": "N",
         "name": "RLX Technology Inc. American Depositary Shares, each representing the right to receive one (1) Class A ordinary share"
@@ -47468,7 +47480,7 @@
     {
         "Symbol": "RMCO",
         "Name": "Royalty Management Holding Corp",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RMD",
@@ -47624,7 +47636,7 @@
     {
         "Symbol": "RNW",
         "Name": "Renew Energy Global PLC",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RNWZ",
@@ -47701,7 +47713,7 @@
     {
         "Symbol": "ROKU",
         "Name": "Roku",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "ROL",
@@ -47774,7 +47786,7 @@
     {
         "Symbol": "ROST",
         "Name": "Ross Stores",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "ROUS",
@@ -48231,7 +48243,7 @@
     {
         "Symbol": "RTX",
         "Name": "RTX Corporation Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "RTX Corporation Common Stock",
         "ETF": "N",
         "name": "RTX Corporation Common Stock"
@@ -48248,7 +48260,7 @@
     {
         "Symbol": "RUM",
         "Name": "Rumble Inc",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RVER",
@@ -48468,7 +48480,7 @@
     {
         "Symbol": "RXRX",
         "Name": "Recursion Pharmaceuticals, Inc.",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "RY",
@@ -48482,8 +48494,7 @@
     {
         "Symbol": "RYAAY",
         "Name": "Ryanair Holdings Plc",
-        "ownWebull": true,
-        "ownEtrade": false
+        "ownWebull": true
     },
     {
         "Symbol": "RYAM",
@@ -48551,8 +48562,7 @@
     {
         "Symbol": "RYOJ",
         "Name": "Ryojbaba Co. Ltd.",
-        "ownWebull": true,
-        "ownEtrade": false
+        "ownWebull": true
     },
     {
         "Symbol": "RYSE",
@@ -48639,7 +48649,6 @@
         "Symbol": "SACH",
         "Name": "Sachem Capital Corp. Common Shares",
         "ownWebull": true,
-        "ownEtrade": false,
         "Security Name": "Sachem Capital Corp. Common Shares",
         "ETF": "N",
         "name": "Sachem Capital Corp. Common Shares"
@@ -48681,8 +48690,8 @@
     },
     {
         "Symbol": "SAGT",
-        "ownWebull": true,
-        "ownEtrade": false
+        "Name": "SAGTEC GLOBAL Ltd",
+        "ownWebull": true
     },
     {
         "Symbol": "SAH",
@@ -48733,7 +48742,6 @@
         "Symbol": "SAN",
         "Name": "Banco Santander, S.A. Sponsored ADR (Spain)",
         "ownWebull": true,
-        "ownEtrade": false,
         "Security Name": "Banco Santander, S.A. Sponsored ADR (Spain)",
         "ETF": "N",
         "name": "Banco Santander, S.A. Sponsored ADR (Spain)"
@@ -48751,7 +48759,6 @@
         "Symbol": "SAP",
         "Name": "SAP  SE ADS",
         "ownWebull": true,
-        "ownEtrade": false,
         "Security Name": "SAP  SE ADS",
         "ETF": "N",
         "name": "SAP  SE ADS"
@@ -48911,7 +48918,6 @@
         "Symbol": "SBH",
         "Name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock",
         "ownWebull": true,
-        "ownEtrade": false,
         "Security Name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock",
         "ETF": "N",
         "name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock"
@@ -48954,13 +48960,8 @@
     },
     {
         "Symbol": "SBLK",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Star Bulk Carriers Corp",
+        "ownEtrade": true
     },
     {
         "Symbol": "SBND",
@@ -49010,8 +49011,7 @@
     {
         "Symbol": "SBUX",
         "Name": "Starbucks Corp",
-        "ownWebull": true,
-        "ownEtrade": false
+        "ownWebull": true
     },
     {
         "Symbol": "SBXD",
@@ -49267,8 +49267,6 @@
     {
         "Symbol": "SCHH",
         "Name": "Schwab U.S. REIT ETF",
-        "ownWebull": false,
-        "ownEtrade": false,
         "ownRobinhood": true,
         "Security Name": "Schwab U.S. REIT ETF",
         "ETF": "Y",
@@ -49359,7 +49357,6 @@
         "Symbol": "SCHW",
         "Name": "Charles Schwab Corporation (The) Common Stock",
         "ownWebull": true,
-        "ownEtrade": false,
         "Security Name": "Charles Schwab Corporation (The) Common Stock",
         "ETF": "N",
         "name": "Charles Schwab Corporation (The) Common Stock"
@@ -49437,7 +49434,6 @@
     {
         "Symbol": "SCL",
         "Name": "STEPAN CO COM",
-        "ownWebull": false,
         "ownEtrade": true,
         "Security Name": "Stepan Company Common Stock",
         "ETF": "N",
@@ -51824,6 +51820,15 @@
         "Security Name": "Virgin Galactic Holdings, Inc. Common Stock",
         "ETF": "N",
         "name": "Virgin Galactic Holdings, Inc. Common Stock"
+    },
+    {
+        "Symbol": "SPCX",
+        "Name": "Space Exploration Technologies Corp",
+        "ownWebull": true,
+        "ownEtrade": true,
+        "ownRobinhood": true,
+        "ownInteractiveBrokers": true,
+        "ownChase": true
     },
     {
         "Symbol": "SPCZ",

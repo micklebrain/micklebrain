@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["MBG"]
+stocksToAdd = ["SPCX"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Mercedes-Benz Group AG", ownInteractiveBrokers=True)
+    addStock(stock, name="Space Exploration Technologies Corp", ownEtrade=True)
