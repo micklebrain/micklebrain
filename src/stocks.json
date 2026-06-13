@@ -8806,7 +8806,7 @@
     {
         "Symbol": "BZQ",
         "Name": "ProShares UltraShort MSCI Brazil Capped",
-        "ownEtrade": true,
+        "ownEtrade": false,
         "Security Name": "ProShares UltraShort MSCI Brazil Capped",
         "ETF": "Y",
         "name": "ProShares UltraShort MSCI Brazil Capped"
