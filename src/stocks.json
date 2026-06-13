@@ -129,13 +129,11 @@
     },
     {
         "Symbol": "AACT.U",
-        "Name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one",
-        "name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one"
+        "Name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one"        
     },
     {
         "Symbol": "AACT.W",
-        "Name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
+        "Name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50"
     },
     {
         "Symbol": "AADX",
@@ -149,20 +147,17 @@
     },
     {
         "Symbol": "AAM",
-        "Name": "AA Mission Acquisition Corp. Class A Ordinary Shares",
+        "Name": "AA Mission Acquisition Corp.",
         "Security Name": "AA Mission Acquisition Corp. Class A Ordinary Shares",
-        "ETF": "N",
-        "name": "AA Mission Acquisition Corp. Class A Ordinary Shares"
+        "ETF": "N"        
     },
     {
         "Symbol": "AAM.U",
-        "Name": "AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one",
-        "name": "AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one"
+        "Name": "AA Mission Acquisition Corp. Units, each consisting of one Class A Ordinary Share and one"
     },
     {
         "Symbol": "AAM.W",
-        "Name": "AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share",
-        "name": "AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share"
+        "Name": "AA Mission Acquisition Corp. Warrants, each whole warrant entitles the holder to purchase one Class A ordinary share at a price of $11.50 per share"
     },
     {
         "Symbol": "AAME",
@@ -35194,22 +35189,19 @@
         "Symbol": "PRLB",
         "Name": "Proto Labs, Inc. Common stock",
         "Security Name": "Proto Labs, Inc. Common stock",
-        "ETF": "N",
-        "name": "Proto Labs, Inc. Common stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "PRM",
-        "Name": "Perimeter Solutions, SA Common Stock",
+        "Name": "Perimeter Solutions, SA",
         "Security Name": "Perimeter Solutions, SA Common Stock",
-        "ETF": "N",
-        "name": "Perimeter Solutions, SA Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "PRMB",
-        "Name": "Primo Brands Corporation Class A Common Stock",
+        "Name": "Primo Brands Corporation Class A",
         "Security Name": "Primo Brands Corporation Class A Common Stock",
-        "ETF": "N",
-        "name": "Primo Brands Corporation Class A Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "PRNT",
@@ -47582,10 +47574,9 @@
     },
     {
         "Symbol": "WLK",
-        "Name": "Westlake Corporation Common Stock",
+        "Name": "Westlake Corporation",
         "Security Name": "Westlake Corporation Common Stock",
-        "ETF": "N",
-        "name": "Westlake Corporation Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "WLKP",
@@ -48002,10 +47993,9 @@
     },
     {
         "Symbol": "WYY",
-        "Name": "WidePoint Corporation Common Stock",
+        "Name": "WidePoint Corporation",
         "Security Name": "WidePoint Corporation Common Stock",
-        "ETF": "N",
-        "name": "WidePoint Corporation Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "WZRD",
@@ -48085,13 +48075,6 @@
         "name": "Innovator U.S. Equity Accelerated 9 Buffer ETF"
     },
     {
-        "Symbol": "XC",
-        "Name": "WisdomTree True Emerging Markets Fund",
-        "Security Name": "WisdomTree True Emerging Markets Fund",
-        "ETF": "Y",
-        "name": "WisdomTree True Emerging Markets Fund"
-    },
-    {
         "Symbol": "XCCC",
         "Name": "BondBloxx ETF Trust BondBloxx CCC",
         "Security Name": "BondBloxx ETF Trust BondBloxx CCC-Rated USD High Yield Corporate Bond ETF",
@@ -48107,6 +48090,7 @@
     },
     {
         "Symbol": "XCH",
+        "Name": "XCHG Ltd",
         "ownWebull": true
     },
     {
