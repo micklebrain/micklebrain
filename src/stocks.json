@@ -28110,8 +28110,6 @@
     {
         "Symbol": "IGHG",
         "Name": "ProShares Investment Grade",
-        
-        
         "Security Name": "ProShares Investment Grade-Interest Rate Hedged",
         "ETF": "Y",
         "name": "ProShares Investment Grade"
@@ -28119,8 +28117,6 @@
     {
         "Symbol": "IGI",
         "Name": "Western Asset Investment Grade Opportunity Trust Inc. Common Stock",
-        
-        
         "Security Name": "Western Asset Investment Grade Opportunity Trust Inc. Common Stock",
         "ETF": "N",
         "name": "Western Asset Investment Grade Opportunity Trust Inc. Common Stock"
@@ -28132,8 +28128,6 @@
     {
         "Symbol": "IGLB",
         "Name": "iShares 10  Year Investment Grade Corporate Bond ETF",
-        
-        
         "Security Name": "iShares 10  Year Investment Grade Corporate Bond ETF",
         "ETF": "Y",
         "name": "iShares 10  Year Investment Grade Corporate Bond ETF"
@@ -28141,8 +28135,6 @@
     {
         "Symbol": "IGLD",
         "Name": "FT Vest Gold Strategy Target Income ETF",
-        
-        
         "Security Name": "FT Vest Gold Strategy Target Income ETF",
         "ETF": "Y",
         "name": "FT Vest Gold Strategy Target Income ETF"
@@ -28150,8 +28142,6 @@
     {
         "Symbol": "IGM",
         "Name": "iShares Expanded Tech Sector ETF",
-        
-        
         "Security Name": "iShares Expanded Tech Sector ETF",
         "ETF": "Y",
         "name": "iShares Expanded Tech Sector ETF"
@@ -28177,17 +28167,13 @@
     {
         "Symbol": "IGR",
         "Name": "CBRE Global Real Estate Income Fund Common Shares of Beneficial Interest",
-        
-        
         "Security Name": "CBRE Global Real Estate Income Fund Common Shares of Beneficial Interest",
         "ETF": "N",
         "name": "CBRE Global Real Estate Income Fund Common Shares of Beneficial Interest"
     },
     {
         "Symbol": "IGRO",
-        "Name": "iShares International Dividend Growth ETF",
-        
-        
+        "Name": "iShares International Dividend Growth ETF",    
         "Security Name": "iShares International Dividend Growth ETF",
         "ETF": "Y",
         "name": "iShares International Dividend Growth ETF"
@@ -28204,8 +28190,6 @@
     {
         "Symbol": "IGV",
         "Name": "iShares Expanded Tech",
-        
-        
         "Security Name": "iShares Expanded Tech-Software Sector ETF",
         "ETF": "Y",
         "name": "iShares Expanded Tech"
@@ -28213,8 +28197,6 @@
     {
         "Symbol": "IH",
         "Name": "iHuman Inc. American depositary shares, each representing five Class A ordinary shares",
-        
-        
         "Security Name": "iHuman Inc. American depositary shares, each representing five Class A ordinary shares",
         "ETF": "N",
         "name": "iHuman Inc. American depositary shares, each representing five Class A ordinary shares"
@@ -28339,26 +28321,18 @@
     {
         "Symbol": "IIM",
         "Name": "Invesco Value Municipal Income Trust Common Stock",
-        
-        
         "Security Name": "Invesco Value Municipal Income Trust Common Stock",
-        "ETF": "N",
-        "name": "Invesco Value Municipal Income Trust Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "IIPR",
         "Name": "Innovative Industrial Properties, Inc. Common Stock",
-        
-        
         "Security Name": "Innovative Industrial Properties, Inc. Common Stock",
-        "ETF": "N",
-        "name": "Innovative Industrial Properties, Inc. Common Stock"
+        "ETF": "N"
     },
     {
         "Symbol": "IIPR-A",
         "Name": "Innovative Industrial Properties, Inc. 9.00% Series A Cumulative Redeemable Preferred Stock",
-        
-        
         "Security Name": "Innovative Industrial Properties, Inc. 9.00% Series A Cumulative Redeemable Preferred Stock",
         "ETF": "N"
     },
@@ -61244,8 +61218,6 @@
     {
         "Symbol": "XV",
         "Name": "Simplify Exchange Traded Funds Simplify Target 15 Distribution ETF",
-        
-        
         "Security Name": "Simplify Exchange Traded Funds Simplify Target 15 Distribution ETF",
         "ETF": "Y",
         "name": "Simplify Exchange Traded Funds Simplify Target 15 Distribution ETF"
@@ -61399,8 +61371,6 @@
     {
         "Symbol": "YCBD",
         "Name": "cbdMD, Inc. Common Stock",
-        
-        
         "Security Name": "cbdMD, Inc. Common Stock",
         "ETF": "N",
         "name": "cbdMD, Inc. Common Stock"
@@ -61408,8 +61378,6 @@
     {
         "Symbol": "YCL",
         "Name": "ProShares Ultra Yen",
-        
-        
         "Security Name": "ProShares Ultra Yen",
         "ETF": "Y",
         "name": "ProShares Ultra Yen"
@@ -61417,21 +61385,18 @@
     {
         "Symbol": "YCS",
         "Name": "ProShares UltraShort Yen New",
-        
-        
         "Security Name": "ProShares UltraShort Yen New",
         "ETF": "Y",
         "name": "ProShares UltraShort Yen New"
     },
     {
         "Symbol": "YDDL",
+        "Name": "One and one Green Technologies.INC",
         "ownWebull": true
     },
     {
         "Symbol": "YDEC",
         "Name": "FT Vest International Equity Moderate Buffer ETF",
-        
-        
         "Security Name": "FT Vest International Equity Moderate Buffer ETF - December",
         "ETF": "Y",
         "name": "FT Vest International Equity Moderate Buffer ETF"
@@ -61439,20 +61404,16 @@
     {
         "Symbol": "YEAR",
         "Name": "AB Active ETFs, Inc. AB Ultra Short Income ETF",
-        
-        
         "Security Name": "AB Active ETFs, Inc. AB Ultra Short Income ETF",
         "ETF": "Y",
         "name": "AB Active ETFs, Inc. AB Ultra Short Income ETF"
     },
     {
         "Symbol": "YELP",
-        "Name": "Yelp Inc. Common Stock",
-        "ownWebull": true,
-        
+        "Name": "Yelp Inc.",
+        "ownWebull": true,        
         "Security Name": "Yelp Inc. Common Stock",
-        "ETF": "N",
-        "name": "Yelp Inc. Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "YETH",
@@ -61553,11 +61514,8 @@
     {
         "Symbol": "YMAR",
         "Name": "FT Vest International Equity Moderate Buffer ETF",
-        
-        
         "Security Name": "FT Vest International Equity Moderate Buffer ETF - March",
-        "ETF": "Y",
-        "name": "FT Vest International Equity Moderate Buffer ETF"
+        "ETF": "Y"        
     },
     {
         "Symbol": "YMAT",
@@ -61567,8 +61525,6 @@
     {
         "Symbol": "YMAX",
         "Name": "Tidal Trust II YieldMax Universe Fund of Option Income ETFs",
-        
-        
         "Security Name": "Tidal Trust II YieldMax Universe Fund of Option Income ETFs",
         "ETF": "Y",
         "name": "Tidal Trust II YieldMax Universe Fund of Option Income ETFs"
@@ -61651,28 +61607,21 @@
         "Symbol": "YUM",
         "Name": "Yum! Brands, Inc.",
         "ownWebull": true,
-        
         "Security Name": "Yum! Brands, Inc.",
-        "ETF": "N",
-        "name": "Yum! Brands, Inc."
+        "ETF": "N"
     },
     {
         "Symbol": "YUMC",
         "Name": "Yum China Holdings, Inc. Common Stock",
         "ownWebull": true,
-        
         "Security Name": "Yum China Holdings, Inc. Common Stock",
-        "ETF": "N",
-        "name": "Yum China Holdings, Inc. Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "YXI",
-        "Name": "ProShares Short FTSE China 50",
-        
-        
+        "Name": "ProShares Short FTSE China 50",        
         "Security Name": "ProShares Short FTSE China 50",
-        "ETF": "Y",
-        "name": "ProShares Short FTSE China 50"
+        "ETF": "Y"        
     },
     {
         "Symbol": "YYAI",
@@ -61682,47 +61631,32 @@
     {
         "Symbol": "YYY",
         "Name": "Amplify High Income ETF",
-        
-        
         "Security Name": "Amplify High Income ETF",
-        "ETF": "Y",
-        "name": "Amplify High Income ETF"
+        "ETF": "Y"        
     },
     {
         "Symbol": "ZALT",
         "Name": "Innovator ETFs Trust Innovator U.S. Equity 10 Buffer ETF",
-        
-        
         "Security Name": "Innovator ETFs Trust Innovator U.S. Equity 10 Buffer ETF - Quarterly",
-        "ETF": "Y",
-        "name": "Innovator ETFs Trust Innovator U.S. Equity 10 Buffer ETF"
+        "ETF": "Y"        
     },
     {
         "Symbol": "ZAPR",
         "Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF",
-        
-        
         "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 1 Yr April",
-        "ETF": "Y",
-        "name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF"
+        "ETF": "Y"        
     },
     {
         "Symbol": "ZAUG",
         "Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF",
-        
-        
         "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 1 Yr August",
-        "ETF": "Y",
-        "name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF"
+        "ETF": "Y"        
     },
     {
         "Symbol": "ZBH",
         "Name": "Zimmer Biomet Holdings, Inc. Common Stock",
-        
-        
         "Security Name": "Zimmer Biomet Holdings, Inc. Common Stock",
-        "ETF": "N",
-        "name": "Zimmer Biomet Holdings, Inc. Common Stock"
+        "ETF": "N"        
     },
     {
         "Symbol": "ZDEK",
