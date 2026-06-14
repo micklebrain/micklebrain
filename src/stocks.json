@@ -26951,6 +26951,7 @@
     {
         "Symbol": "NET",
         "Name": "Cloudflare, Inc. Class A Common Stock",
+        "Country": "USA",
         "ownWebull": true,
         "Security Name": "Cloudflare, Inc. Class A Common Stock",
         "ETF": "N"
@@ -27548,6 +27549,7 @@
     {
         "Symbol": "NPSNY",
         "Name": "Naspers",
+        "Country": "South Africa",
         "ownWebull": true
     },
     {
@@ -31504,6 +31506,7 @@
     {
         "Symbol": "PZZA",
         "Name": "Papa Johns Intl Inc",
+        "Country": "USA",
         "ownWebull": true
     },
     {
