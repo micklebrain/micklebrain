@@ -49,6 +49,7 @@
     {
         "Symbol": "047040",
         "Name": "DAEWOO ENGINEERING & CONSTR",
+        "Country": "South Korea",
         "ownInteractiveBrokers": true
     },
     {
@@ -113,6 +114,7 @@
     },
     {
         "Symbol": "AACG",
+        "Name": "ATA Creativity Global",
         "ownWebull": true
     },
     {
@@ -137,6 +139,7 @@
     {
         "Symbol": "AAL",
         "Name": "American Ailine",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -167,13 +170,15 @@
     {
         "Symbol": "AAP",
         "Name": "Advance Auto Parts Inc.",
-        "ownWebull": true,
+        "Country": "USA",
         "Security Name": "Advance Auto Parts Inc.",
+        "ownWebull": true,
         "ETF": "N"
     },
     {
         "Symbol": "AAPL",
         "Name": "Apple Inc",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -343,6 +348,7 @@
     },
     {
         "Symbol": "ABTS",
+        "Name": "Abits Group Inc",
         "ownWebull": true
     },
     {
