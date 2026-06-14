@@ -35077,7 +35077,7 @@
     },
     {
         "Symbol": "SJM",
-        "Name": "The J.M. Smucker Company Common Stock",
+        "Name": "The J.M. Smucker Company",
         "ownWebull": true,
         "Security Name": "The J.M. Smucker Company Common Stock",
         "ETF": "N"
@@ -35090,13 +35090,13 @@
     },
     {
         "Symbol": "SJT",
-        "Name": "San Juan Basin Royalty Trust Common Stock",
+        "Name": "San Juan Basin Royalty Trust",
         "Security Name": "San Juan Basin Royalty Trust Common Stock",
         "ETF": "N"
     },
     {
         "Symbol": "SKE",
-        "Name": "Skeena Resources Limited Common Shares",
+        "Name": "Skeena Resources Limited",
         "Security Name": "Skeena Resources Limited Common Shares",
         "ETF": "N"
     },
