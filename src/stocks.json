@@ -41491,10 +41491,10 @@
     },
     {
         "Symbol": "WF",
-        "Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
-        "ownWebull": true,
+        "Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",        
         "Security Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WFC",
@@ -41553,10 +41553,10 @@
     },
     {
         "Symbol": "WGO",
-        "Name": "Winnebago Industries, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Winnebago Industries, Inc. Common Stock",        
         "Security Name": "Winnebago Industries, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "WH",
@@ -41630,10 +41630,10 @@
     },
     {
         "Symbol": "WIT",
-        "Name": "Wipro Limited Common Stock",
-        "ownWebull": true,
+        "Name": "Wipro Limited Common Stock",        
         "Security Name": "Wipro Limited Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WIW",
