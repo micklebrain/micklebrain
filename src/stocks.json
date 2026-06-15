@@ -269,6 +269,11 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ABI",
+        "Name": "Anheuser-Busch InBev SA/NV",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "ABLD",
         "Name": "Abacus FCF Real Assets Leaders ETF",
         "Security Name": "Abacus FCF Real Assets Leaders ETF",
@@ -350,10 +355,6 @@
         "Symbol": "ABTS",
         "Name": "Abits Group Inc",
         "ownWebull": true
-    },
-    {
-        "Symbol": "ABVEF",
-        "ownEtrade": false
     },
     {
         "Symbol": "ABXB",
@@ -2546,7 +2547,7 @@
     },
     {
         "Symbol": "ASPN",
-        "Name": "Aspen Aerogels, Inc. Common Stock",        
+        "Name": "Aspen Aerogels, Inc. Common Stock",
         "Security Name": "Aspen Aerogels, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -2831,7 +2832,7 @@
     },
     {
         "Symbol": "AUST",
-        "Name": "Austin Gold Corp. Common Shares",        
+        "Name": "Austin Gold Corp. Common Shares",
         "Security Name": "Austin Gold Corp. Common Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -5789,7 +5790,7 @@
     },
     {
         "Symbol": "BUD",
-        "Name": "Anheuser",        
+        "Name": "Anheuser",
         "Security Name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
         "ETF": "N",
         "ownWebull": true
@@ -10498,6 +10499,12 @@
         "ETF": "N"
     },
     {
+        "Symbol": "DNB",
+        "Name": "DNB Bank ASA",
+        "Country": "Norway",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "DNL",
         "Name": "WisdomTree Global ex",
         "Security Name": "WisdomTree Global ex-US Quality Dividend Growth Fund",
@@ -12280,15 +12287,8 @@
     },
     {
         "Symbol": "ENHA",
-        "Name": "A Paradise Acquisition Corp",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false
+        "Name": "A Paradise Acquisition Corp",        
+        "ownEtrade": true
     },
     {
         "Symbol": "ENIC",
@@ -35880,7 +35880,7 @@
     {
         "Symbol": "SPCX",
         "Name": "Space Exploration Technologies Corp",
-        "ownWebull": true,        
+        "ownWebull": true,
         "ownRobinhood": true,
         "ownInteractiveBrokers": true,
         "ownChase": true,
@@ -35967,7 +35967,7 @@
     },
     {
         "Symbol": "SPGI",
-        "Name": "S&P Global Inc. Common Stock",        
+        "Name": "S&P Global Inc. Common Stock",
         "Security Name": "S&P Global Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -36010,7 +36010,7 @@
     },
     {
         "Symbol": "SPHR",
-        "Name": "Sphere Entertainment Co. Class A Common Stock",        
+        "Name": "Sphere Entertainment Co. Class A Common Stock",
         "Security Name": "Sphere Entertainment Co. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39492,6 +39492,18 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "UMB",
+        "Name": "Universal Music Group NV",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "UMBF",
         "Name": "Umb Financial",
         "ownWebull": true
@@ -40565,7 +40577,7 @@
     },
     {
         "Symbol": "VIV",
-        "Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",        
+        "Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
         "Security Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
         "ETF": "N",
         "ownEtrade": true
@@ -40702,7 +40714,7 @@
     },
     {
         "Symbol": "VNO",
-        "Name": "Vornado Realty Trust Common Stock",        
+        "Name": "Vornado Realty Trust Common Stock",
         "Security Name": "Vornado Realty Trust Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42940,6 +42952,11 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "YAR",
+        "Name": "Yara International ASA",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "YBIT",
         "Name": "Tidal Trust II YieldMax Bitcoin Option Income Strategy ETF",
         "Security Name": "Tidal Trust II YieldMax Bitcoin Option Income Strategy ETF",
@@ -43084,8 +43101,7 @@
     },
     {
         "Symbol": "YMT",
-        "Name": "Yimutian Inc",
-        "ownEtrade": false
+        "Name": "Yimutian Inc"        
     },
     {
         "Symbol": "YOLO",
@@ -43424,7 +43440,6 @@
     },
     {
         "Symbol": "ZYXIQ",
-        "Name": "Zynex Inc",
-        "ownEtrade": false
+        "Name": "Zynex Inc"        
     }
 ]

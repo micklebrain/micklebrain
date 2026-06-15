@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ENHA"]
+stocksToAdd = ["YAR"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="A Paradise Acquisition Corp", ownEtrade=True)
+    addStock(stock, name="Yara International ASA", ownInteractiveBrokers=True)
