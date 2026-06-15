@@ -3155,7 +3155,7 @@
     {
         "Symbol": "AXINU",
         "Name": "Axiom Intelligence Acquisition 1 Units",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "AXL",
@@ -6788,7 +6788,7 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "CELG.R",        
+        "Symbol": "CELG.R",
         "Name": "Bristol"
     },
     {
@@ -12277,6 +12277,18 @@
         "Name": "Enlightify Inc. Common Stock",
         "Security Name": "Enlightify Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ENHA",
+        "Name": "A Paradise Acquisition Corp",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "ENIC",
@@ -19367,7 +19379,7 @@
     },
     {
         "Symbol": "IBN",
-        "Name": "ICICI Bank Limited Common Stock",        
+        "Name": "ICICI Bank Limited Common Stock",
         "Security Name": "ICICI Bank Limited Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -34346,7 +34358,7 @@
     },
     {
         "Symbol": "SE",
-        "Name": "Sea Limited",        
+        "Name": "Sea Limited",
         "Security Name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
         "ETF": "N",
         "ownWebull": true
@@ -34769,7 +34781,7 @@
     },
     {
         "Symbol": "SHG",
-        "Name": "Shinhan Financial Group Co Ltd American Depositary Shares",        
+        "Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
         "Security Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -35869,11 +35881,11 @@
     {
         "Symbol": "SPCX",
         "Name": "Space Exploration Technologies Corp",
-        "ownWebull": true,
-        "ownEtrade": true,
+        "ownWebull": true,        
         "ownRobinhood": true,
         "ownInteractiveBrokers": true,
-        "ownChase": true
+        "ownChase": true,
+        "ownEtrade": false
     },
     {
         "Symbol": "SPCZ",
@@ -39214,7 +39226,7 @@
     {
         "Symbol": "UBER",
         "Name": "Uber Technologies, Inc. Common Stock",
-        "ownWebull": true,        
+        "ownWebull": true,
         "Security Name": "Uber Technologies, Inc. Common Stock",
         "ETF": "N"
     },
@@ -40246,7 +40258,7 @@
         "Symbol": "VCX",
         "Name": "Fundrise Innovation Fund, LLC",
         "Country": "USA",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "VDC",
@@ -42494,6 +42506,11 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "XMAX",
+        "Name": "XMax Inc",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "XMAY",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Enhance & Moderate Buffer ETF - May",
@@ -42850,11 +42867,6 @@
         "Name": "iShares ESG Select Screened S&P 500 ETF",
         "Security Name": "iShares ESG Select Screened S&P 500 ETF",
         "ETF": "Y"
-    },
-    {
-        "Symbol": "XMAX",
-        "Name": "XMax Inc",
-        "ownEtrade": true
     },
     {
         "Symbol": "XXCH",

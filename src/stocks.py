@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["SPCX"]
+stocksToAdd = ["ENHA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Space Exploration Technologies Corp", ownEtrade=True)
+    addStock(stock, name="A Paradise Acquisition Corp", ownEtrade=True)
