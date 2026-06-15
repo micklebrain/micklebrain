@@ -1690,6 +1690,7 @@
     },
     {
         "Symbol": "AMRN",
+        "name": "Amarin Corporation PLC",
         "ownWebull": true
     },
     {
@@ -3142,6 +3143,7 @@
     },
     {
         "Symbol": "AXIA",
+        "Name": "Axia Energia SA-ADR",
         "ownWebull": true
     },
     {
@@ -3152,12 +3154,8 @@
     },
     {
         "Symbol": "AXINU",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Axiom Intelligence Acquisition 1 Units",
+        "ownWebull": true        
     },
     {
         "Symbol": "AXL",
@@ -40239,12 +40237,9 @@
     },
     {
         "Symbol": "VCX",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Fundrise Innovation Fund, LLC",
+        "Country": "USA",
+        "ownWebull": true        
     },
     {
         "Symbol": "VDC",
