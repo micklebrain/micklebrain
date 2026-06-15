@@ -5508,6 +5508,11 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BRKRP",
+        "Name": "Bruker 6 375 Mandatory Convertible Preference Shares Ser A",
+        "ownMoomoo": true
+    },
+    {
         "Symbol": "BRKW",
         "Name": "Roundhill ETF Trust Roundhill BRKB WeeklyPay ETF",
         "Security Name": "Roundhill ETF Trust Roundhill BRKB WeeklyPay ETF",
@@ -6214,9 +6219,10 @@
     },
     {
         "Symbol": "CABO",
-        "Name": "Cable One, Inc. Common Stock",
+        "Name": "Cable One Inc",
         "Security Name": "Cable One, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CACI",
@@ -12119,7 +12125,8 @@
         "Symbol": "EME",
         "Name": "EMCOR Group, Inc. Common Stock",
         "Security Name": "EMCOR Group, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "EMES",
@@ -12287,7 +12294,7 @@
     },
     {
         "Symbol": "ENHA",
-        "Name": "A Paradise Acquisition Corp",        
+        "Name": "A Paradise Acquisition Corp",
         "ownEtrade": true
     },
     {
@@ -17155,9 +17162,10 @@
     },
     {
         "Symbol": "GPN",
-        "Name": "Global Payments Inc. Common Stock",
+        "Name": "Global Payments Inc",
         "Security Name": "Global Payments Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "GPOR",
@@ -25965,6 +25973,18 @@
         "Name": "Morgan Stanley Direct Lending Fund Common Stock",
         "Security Name": "Morgan Stanley Direct Lending Fund Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MSEX",
+        "Name": "Middlesex Water Co",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "MSFO",
@@ -35879,12 +35899,8 @@
     },
     {
         "Symbol": "SPCX",
-        "Name": "Space Exploration Technologies Corp",
-        "ownWebull": true,
-        "ownRobinhood": true,
-        "ownInteractiveBrokers": true,
-        "ownChase": true,
-        "ownEtrade": false
+        "Name": "Space Exploration Technologies Corp",        
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "SPCZ",
@@ -38452,6 +38468,18 @@
         "Name": "Trio Petroleum Corp. Common Stock",
         "Security Name": "Trio Petroleum Corp. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TPG",
+        "Name": "TPG Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "TPH",
@@ -41491,7 +41519,7 @@
     },
     {
         "Symbol": "WF",
-        "Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",        
+        "Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
         "Security Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
         "ETF": "N",
         "ownWebull": true
@@ -41553,7 +41581,7 @@
     },
     {
         "Symbol": "WGO",
-        "Name": "Winnebago Industries, Inc. Common Stock",        
+        "Name": "Winnebago Industries, Inc. Common Stock",
         "Security Name": "Winnebago Industries, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -41630,7 +41658,7 @@
     },
     {
         "Symbol": "WIT",
-        "Name": "Wipro Limited Common Stock",        
+        "Name": "Wipro Limited Common Stock",
         "Security Name": "Wipro Limited Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -43085,7 +43113,7 @@
     {
         "Symbol": "YMAT",
         "Name": "J-Star Holding",
-        "ownWebull": true
+        "ownWebull": false
     },
     {
         "Symbol": "YMAX",
@@ -43101,7 +43129,7 @@
     },
     {
         "Symbol": "YMT",
-        "Name": "Yimutian Inc"        
+        "Name": "Yimutian Inc"
     },
     {
         "Symbol": "YOLO",
@@ -43440,6 +43468,6 @@
     },
     {
         "Symbol": "ZYXIQ",
-        "Name": "Zynex Inc"        
+        "Name": "Zynex Inc"
     }
 ]
