@@ -2546,10 +2546,10 @@
     },
     {
         "Symbol": "ASPN",
-        "Name": "Aspen Aerogels, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Aspen Aerogels, Inc. Common Stock",        
         "Security Name": "Aspen Aerogels, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ASPS",
@@ -2831,10 +2831,10 @@
     },
     {
         "Symbol": "AUST",
-        "Name": "Austin Gold Corp. Common Shares",
-        "ownEtrade": true,
+        "Name": "Austin Gold Corp. Common Shares",        
         "Security Name": "Austin Gold Corp. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AVA",
@@ -35968,10 +35968,10 @@
     },
     {
         "Symbol": "SPGI",
-        "Name": "S&P Global Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "S&P Global Inc. Common Stock",        
         "Security Name": "S&P Global Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SPGM",
@@ -36011,10 +36011,10 @@
     },
     {
         "Symbol": "SPHR",
-        "Name": "Sphere Entertainment Co. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Sphere Entertainment Co. Class A Common Stock",        
         "Security Name": "Sphere Entertainment Co. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SPHY",
@@ -40566,10 +40566,10 @@
     },
     {
         "Symbol": "VIV",
-        "Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
-        "ownEtrade": true,
+        "Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",        
         "Security Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "VIXM",
@@ -40703,10 +40703,10 @@
     },
     {
         "Symbol": "VNO",
-        "Name": "Vornado Realty Trust Common Stock",
-        "ownWebull": true,
+        "Name": "Vornado Realty Trust Common Stock",        
         "Security Name": "Vornado Realty Trust Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VNO-L",
