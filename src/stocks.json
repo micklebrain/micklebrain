@@ -19367,10 +19367,10 @@
     },
     {
         "Symbol": "IBN",
-        "Name": "ICICI Bank Limited Common Stock",
-        "ownEtrade": true,
+        "Name": "ICICI Bank Limited Common Stock",        
         "Security Name": "ICICI Bank Limited Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "IBND",
@@ -34343,10 +34343,10 @@
     },
     {
         "Symbol": "SE",
-        "Name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
-        "ownWebull": true,
+        "Name": "Sea Limited",        
         "Security Name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SEA",
@@ -34582,6 +34582,7 @@
     {
         "Symbol": "SFIX",
         "Name": "Stitch Fix",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -34765,10 +34766,10 @@
     },
     {
         "Symbol": "SHG",
-        "Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Shinhan Financial Group Co Ltd American Depositary Shares",        
         "Security Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SHIP",
