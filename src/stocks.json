@@ -1437,7 +1437,8 @@
         "Symbol": "ALLE",
         "Name": "Allegion plc Ordinary Shares",
         "Security Name": "Allegion plc Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownChase": true
     },
     {
         "Symbol": "ALLT",
@@ -26662,6 +26663,11 @@
         "ETF": "N"
     },
     {
+        "Symbol": "NATH",
+        "Name": "Nathan's Famous Inc",
+        "ownChase": true
+    },
+    {
         "Symbol": "NATL",
         "Name": "NCR Atleos Corporation Common Stock",
         "Security Name": "NCR Atleos Corporation Common Stock",
@@ -35899,7 +35905,7 @@
     },
     {
         "Symbol": "SPCX",
-        "Name": "Space Exploration Technologies Corp",        
+        "Name": "Space Exploration Technologies Corp",
         "ownInteractiveBrokers": true
     },
     {
