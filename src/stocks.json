@@ -20112,10 +20112,12 @@
     },
     {
         "Symbol": "IMOS",
+        "Name": "ChipMOS Technologies Inc - ADR",
         "ownWebull": true
     },
     {
         "Symbol": "IMPP",
+        "Name": "Imperial Petroleum Inc",
         "ownWebull": true
     },
     {
@@ -20144,6 +20146,7 @@
     },
     {
         "Symbol": "IMTX",
+        "Name": "Immatics NV",
         "ownWebull": true
     },
     {
