@@ -6788,7 +6788,7 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "CELG.R",
+        "Symbol": "CELG.R",        
         "Name": "Bristol"
     },
     {
@@ -20346,6 +20346,7 @@
     },
     {
         "Symbol": "INTR",
+        "Name": "Inter & Co Inc",
         "ownWebull": true
     },
     {
@@ -20356,6 +20357,7 @@
     },
     {
         "Symbol": "INTU",
+        "Name": "Intuit Inc",
         "ownWebull": true
     },
     {
@@ -20484,6 +20486,7 @@
     },
     {
         "Symbol": "IPHA",
+        "Name": "Innate Pharma SA",
         "ownWebull": true
     },
     {
@@ -39735,6 +39738,7 @@
     },
     {
         "Symbol": "USAU",
+        "Name": "US Gold Corp",
         "ownWebull": true
     },
     {
@@ -39818,6 +39822,7 @@
     },
     {
         "Symbol": "USEA",
+        "Name": "United Maritime Corp",
         "ownWebull": true
     },
     {
@@ -42599,12 +42604,8 @@
     },
     {
         "Symbol": "XP",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "XP Inc",
+        "ownEtrade": true
     },
     {
         "Symbol": "XPAY",
