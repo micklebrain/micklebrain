@@ -39121,6 +39121,8 @@
     },
     {
         "Symbol": "TYIDY",
+        "Name": "Toyota Industries ADR Rep 1 Ord Shs",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -39212,8 +39214,7 @@
     {
         "Symbol": "UBER",
         "Name": "Uber Technologies, Inc. Common Stock",
-        "ownWebull": true,
-        "ownChase": false,
+        "ownWebull": true,        
         "Security Name": "Uber Technologies, Inc. Common Stock",
         "ETF": "N"
     },
@@ -41835,12 +41836,8 @@
     },
     {
         "Symbol": "WSC",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Willscot Holdings Corp",
+        "ownEtrade": true
     },
     {
         "Symbol": "WSM",
@@ -41954,12 +41951,8 @@
     },
     {
         "Symbol": "WTW",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Willis Towers Watson PLC",
+        "ownWebull": true
     },
     {
         "Symbol": "WU",
@@ -42693,6 +42686,7 @@
     },
     {
         "Symbol": "XRX",
+        "Name": "Xerox Holdings Corp",
         "ownWebull": true
     },
     {
@@ -42858,7 +42852,8 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "XWIN",
+        "Symbol": "XMAX",
+        "Name": "XMax Inc",
         "ownEtrade": true
     },
     {
