@@ -17383,9 +17383,9 @@
     {
         "Symbol": "GS",
         "Name": "Goldman Sachs Group, Inc. (The) Common Stock",
-        "ownWebull": true,
         "Security Name": "Goldman Sachs Group, Inc. (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GS-A",
@@ -40276,6 +40276,7 @@
     },
     {
         "Symbol": "VCIG",
+        "Name": "VCI Global Ltd",
         "ownWebull": true
     },
     {
@@ -40404,9 +40405,9 @@
     {
         "Symbol": "VFC",
         "Name": "V.F. Corporation Common Stock",
-        "ownWebull": true,
         "Security Name": "V.F. Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VFH",
