@@ -40712,9 +40712,10 @@
     },
     {
         "Symbol": "VLTO",
-        "Name": "Veralto Corp Common Stock",
+        "Name": "Veralto Corp",
         "Security Name": "Veralto Corp Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "VLU",
