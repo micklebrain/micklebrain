@@ -1810,10 +1810,10 @@
     },
     {
         "Symbol": "ANF",
-        "Name": "Abercrombie & Fitch Company Common Stock",
-        "ownWebull": true,
+        "Name": "Abercrombie & Fitch Company Common Stock",        
         "Security Name": "Abercrombie & Fitch Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ANG-B",
@@ -1840,6 +1840,7 @@
     },
     {
         "Symbol": "ANPA",
+        "Name": "Rich Sparkle Holdings Ltd",
         "ownWebull": true
     },
     {
@@ -17301,13 +17302,14 @@
     },
     {
         "Symbol": "GRND",
-        "Name": "Grindr Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Grindr Inc. Common Stock",        
         "Security Name": "Grindr Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GRNQ",
+        "Name": "Greenpro Capital Corp",
         "ownWebull": true
     },
     {
