@@ -40176,9 +40176,9 @@
     {
         "Symbol": "V",
         "Name": "Visa Inc.",
-        "ownWebull": true,
         "Security Name": "Visa Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VABS",
@@ -40188,10 +40188,10 @@
     },
     {
         "Symbol": "VAC",
-        "Name": "Marriott Vacations Worldwide Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Marriott Vacations Worldwide Corporation Common Stock",        
         "Security Name": "Marriott Vacations Worldwide Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VAL",
@@ -40205,13 +40205,14 @@
     },
     {
         "Symbol": "VALE",
-        "Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
-        "ownWebull": true,
+        "Name": "VALE S.A.  American Depositary Shares Each Representing one common share",        
         "Security Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VALN",
+        "Name": "Valneva SE",
         "ownWebull": true
     },
     {
