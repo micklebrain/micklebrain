@@ -1563,7 +1563,7 @@
     },
     {
         "Symbol": "AMC",
-        "Name": "AMC Entertainment Holdings, Inc.",        
+        "Name": "AMC Entertainment Holdings, Inc.",
         "Security Name": "AMC Entertainment Holdings, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -1810,7 +1810,7 @@
     },
     {
         "Symbol": "ANF",
-        "Name": "Abercrombie & Fitch Company Common Stock",        
+        "Name": "Abercrombie & Fitch Company Common Stock",
         "Security Name": "Abercrombie & Fitch Company Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -2030,6 +2030,18 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "APOG",
+        "Name": "Apogee Enterprises Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
+    },
+    {
         "Symbol": "APOS",
         "Name": "Apollo Global Management, Inc. 7.625% Fixed",
         "Security Name": "Apollo Global Management, Inc. 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053",
@@ -2176,7 +2188,8 @@
         "Symbol": "ARE",
         "Name": "Alexandria Real Estate Equities, Inc. Common Stock",
         "Security Name": "Alexandria Real Estate Equities, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AREA",
@@ -2479,9 +2492,9 @@
     {
         "Symbol": "ASH",
         "Name": "Ashland Inc. Common Stock",
-        "ownEtrade": true,
         "Security Name": "Ashland Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ASHR",
@@ -2773,6 +2786,18 @@
         "Name": "Atlantic Union Bankshares Corporation Depositary Shares each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non",
         "Security Name": "Atlantic Union Bankshares Corporation Depositary Shares each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non-Cumulative Preferred Stock, Series A",
         "ETF": "N"
+    },
+    {
+        "Symbol": "AUBN",
+        "Name": "Auburn National Bancorporation Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false
     },
     {
         "Symbol": "AUDC",
@@ -3289,9 +3314,9 @@
     {
         "Symbol": "BABA",
         "Name": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
-        "ownWebull": true,
         "Security Name": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BABO",
@@ -3302,9 +3327,9 @@
     {
         "Symbol": "BAC",
         "Name": "Bank of America Corporation Common Stock",
-        "ownEtrade": true,
         "Security Name": "Bank of America Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BAC-B",
@@ -17302,7 +17327,7 @@
     },
     {
         "Symbol": "GRND",
-        "Name": "Grindr Inc. Common Stock",        
+        "Name": "Grindr Inc. Common Stock",
         "Security Name": "Grindr Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -24219,10 +24244,12 @@
         "Symbol": "LW",
         "Name": "Lamb Weston Holdings, Inc. Common Stock",
         "Security Name": "Lamb Weston Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "LX",
+        "Name": "LexinFintech Holdings Ltd - ADR",
         "ownWebull": true
     },
     {
@@ -31448,7 +31475,8 @@
         "Symbol": "PWR",
         "Name": "Quanta Services, Inc. Common Stock",
         "Security Name": "Quanta Services, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PWS",
@@ -32043,9 +32071,9 @@
     {
         "Symbol": "QXO",
         "Name": "QXO, Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "QXO, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "QXO-B",
@@ -32062,9 +32090,9 @@
     {
         "Symbol": "RA",
         "Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
-        "ownEtrade": true,
         "Security Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "RAAA",
@@ -32087,9 +32115,9 @@
     {
         "Symbol": "RACE",
         "Name": "Ferrari N.V. Common Shares",
-        "ownWebull": true,
         "Security Name": "Ferrari N.V. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RAFE",
@@ -32207,9 +32235,9 @@
     {
         "Symbol": "RC",
         "Name": "Ready Capital Corporation Common Stock",
-        "ownWebull": true,
         "Security Name": "Ready Capital Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RC-C",
@@ -32335,9 +32363,9 @@
     {
         "Symbol": "RDY",
         "Name": "Dr. Reddy's Laboratories Ltd Common Stock",
-        "ownWebull": true,
         "Security Name": "Dr. Reddy's Laboratories Ltd Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RDYY",
@@ -33056,7 +33084,8 @@
         "Symbol": "ROL",
         "Name": "Rollins, Inc. Common Stock",
         "Security Name": "Rollins, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ROLR",
@@ -40188,7 +40217,7 @@
     },
     {
         "Symbol": "VAC",
-        "Name": "Marriott Vacations Worldwide Corporation Common Stock",        
+        "Name": "Marriott Vacations Worldwide Corporation Common Stock",
         "Security Name": "Marriott Vacations Worldwide Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -40205,7 +40234,7 @@
     },
     {
         "Symbol": "VALE",
-        "Name": "VALE S.A.  American Depositary Shares Each Representing one common share",        
+        "Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
         "Security Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
         "ETF": "N",
         "ownWebull": true
@@ -40571,6 +40600,7 @@
     },
     {
         "Symbol": "VINP",
+        "Name": "Vinci Compass Investments Ltd",
         "ownWebull": true
     },
     {
@@ -42277,9 +42307,9 @@
     {
         "Symbol": "XHR",
         "Name": "Xenia Hotels & Resorts, Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "Xenia Hotels & Resorts, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "XHS",

@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ALLE"]
+stocksToAdd = ["AUBN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Nathan's Famous Inc", ownWebull=True)
+    addStock(stock, name="Auburn National Bancorporation Inc", ownEtrade=True)
