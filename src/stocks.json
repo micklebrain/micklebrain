@@ -307,21 +307,21 @@
     },
     {
         "Symbol": "ABNY",
-        "Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",        
+        "Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
         "Security Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
         "ETF": "Y",
         "ownEtrade": true
     },
     {
         "Symbol": "ABOT",
-        "Name": "Abacus FCF Innovation Leaders ETF",        
+        "Name": "Abacus FCF Innovation Leaders ETF",
         "Security Name": "Abacus FCF Innovation Leaders ETF",
         "ETF": "Y",
         "ownEtrade": true
     },
     {
         "Symbol": "ABR",
-        "Name": "Arbor Realty Trust Common Stock",        
+        "Name": "Arbor Realty Trust Common Stock",
         "Security Name": "Arbor Realty Trust Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -662,7 +662,7 @@
     },
     {
         "Symbol": "ADT",
-        "Name": "ADT Inc. Common Stock",        
+        "Name": "ADT Inc. Common Stock",
         "Security Name": "ADT Inc. Common Stock",
         "ETF": "N",
         "ownInteractiveBrokers": true
@@ -6211,7 +6211,7 @@
     },
     {
         "Symbol": "C",
-        "Name": "Citigroup, Inc. Common Stock",        
+        "Name": "Citigroup, Inc. Common Stock",
         "Security Name": "Citigroup, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6235,7 +6235,7 @@
     },
     {
         "Symbol": "CAAP",
-        "Name": "Corporacion America Airports SA Common Shares",        
+        "Name": "Corporacion America Airports SA Common Shares",
         "Security Name": "Corporacion America Airports SA Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -6291,7 +6291,7 @@
     },
     {
         "Symbol": "CAG",
-        "Name": "ConAgra Brands, Inc. Common Stock",        
+        "Name": "ConAgra Brands, Inc. Common Stock",
         "Security Name": "ConAgra Brands, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6310,7 +6310,7 @@
     },
     {
         "Symbol": "CAL",
-        "Name": "Caleres, Inc. Common Stock",        
+        "Name": "Caleres, Inc. Common Stock",
         "Security Name": "Caleres, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -6425,7 +6425,7 @@
     },
     {
         "Symbol": "CAT",
-        "Name": "Caterpillar, Inc. Common Stock",        
+        "Name": "Caterpillar, Inc. Common Stock",
         "Security Name": "Caterpillar, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -9301,6 +9301,18 @@
         "Name": "Dana Incorporated Common Stock",
         "Security Name": "Dana Incorporated Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "DANSKE",
+        "Name": "Danske Bank A/S",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "DAO",
@@ -26007,15 +26019,8 @@
     },
     {
         "Symbol": "MSEX",
-        "Name": "Middlesex Water Co",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false
+        "Name": "Middlesex Water Co",        
+        "ownEtrade": true
     },
     {
         "Symbol": "MSFO",
@@ -27019,6 +27024,12 @@
         "Name": "New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership",
         "Security Name": "New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership",
         "ETF": "N"
+    },
+    {
+        "Symbol": "NESN",
+        "Name": "Nestle SA",
+        "ownInteractiveBrokers": true,
+        "Country": "Switzerland"
     },
     {
         "Symbol": "NET",
@@ -35316,7 +35327,7 @@
     },
     {
         "Symbol": "SLV",
-        "Name": "iShares Silver Trust",        
+        "Name": "iShares Silver Trust",
         "Security Name": "iShares Silver Trust",
         "ETF": "Y",
         "ownRobinhood": true
@@ -35592,14 +35603,14 @@
     },
     {
         "Symbol": "SNA",
-        "Name": "Snap",        
+        "Name": "Snap",
         "Security Name": "Snap-On Incorporated Common Stock",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "SNAP",
-        "Name": "Snap Inc. Class A Common Stock",        
+        "Name": "Snap Inc. Class A Common Stock",
         "Security Name": "Snap Inc. Class A Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -38431,7 +38442,7 @@
     },
     {
         "Symbol": "TOPS",
-        "Name": "TOP Ships, Inc. Common Stock",        
+        "Name": "TOP Ships, Inc. Common Stock",
         "Security Name": "TOP Ships, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38510,8 +38521,8 @@
     },
     {
         "Symbol": "TPG",
-        "Name": "TPG Inc",        
-        "ownEtrade": true        
+        "Name": "TPG Inc",
+        "ownEtrade": true
     },
     {
         "Symbol": "TPH",
@@ -38563,7 +38574,7 @@
     },
     {
         "Symbol": "TPR",
-        "Name": "Tapestry, Inc. Common Stock",        
+        "Name": "Tapestry, Inc. Common Stock",
         "Security Name": "Tapestry, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38582,7 +38593,7 @@
     },
     {
         "Symbol": "TPVG",
-        "Name": "TriplePoint Venture Growth BDC Corp. Common Stock",        
+        "Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
         "Security Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38623,7 +38634,7 @@
     },
     {
         "Symbol": "TRC",
-        "Name": "Tejon Ranch Co Common Stock",        
+        "Name": "Tejon Ranch Co Common Stock",
         "Security Name": "Tejon Ranch Co Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39042,7 +39053,7 @@
     },
     {
         "Symbol": "TV",
-        "Name": "Grupo Televisa S.A.B. Common Stock",        
+        "Name": "Grupo Televisa S.A.B. Common Stock",
         "Security Name": "Grupo Televisa S.A.B. Common Stock",
         "ETF": "N",
         "ownWebull": true

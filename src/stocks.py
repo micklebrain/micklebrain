@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = [""]
+stocksToAdd = ["DANSKE"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="", ownEtrade=True)
+    addStock(stock, name="Danske Bank A/S", ownInteractiveBrokers=True)
