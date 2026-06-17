@@ -6184,7 +6184,7 @@
     {
         "Symbol": "BYND",
         "Name": "Beyond Meat",
-        "ownWebull": true
+        "ownWebull": false
     },
     {
         "Symbol": "BYRE",
@@ -6211,10 +6211,10 @@
     },
     {
         "Symbol": "C",
-        "Name": "Citigroup, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Citigroup, Inc. Common Stock",        
         "Security Name": "Citigroup, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "C-N",
@@ -6235,10 +6235,10 @@
     },
     {
         "Symbol": "CAAP",
-        "Name": "Corporacion America Airports SA Common Shares",
-        "ownWebull": true,
+        "Name": "Corporacion America Airports SA Common Shares",        
         "Security Name": "Corporacion America Airports SA Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CAAS",
@@ -6279,9 +6279,9 @@
     {
         "Symbol": "CAF",
         "Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
-        "ownEtrade": true,
         "Security Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CAFX",
@@ -6291,10 +6291,10 @@
     },
     {
         "Symbol": "CAG",
-        "Name": "ConAgra Brands, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "ConAgra Brands, Inc. Common Stock",        
         "Security Name": "ConAgra Brands, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CAH",
@@ -6310,10 +6310,10 @@
     },
     {
         "Symbol": "CAL",
-        "Name": "Caleres, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Caleres, Inc. Common Stock",        
         "Security Name": "Caleres, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CALF",

@@ -158,7 +158,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["VLTO"]
+stocksToAdd = [""]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Veralto Corp", ownEtrade=True)
+    addStock(stock, name="", ownEtrade=True)
