@@ -9293,10 +9293,6 @@
         "ETF": "N"
     },
     {
-        "Symbol": "DALN",
-        "ownEtrade": false
-    },
-    {
         "Symbol": "DAN",
         "Name": "Dana Incorporated Common Stock",
         "Security Name": "Dana Incorporated Common Stock",
@@ -9305,14 +9301,8 @@
     {
         "Symbol": "DANSKE",
         "Name": "Danske Bank A/S",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "Country": "Denmark"
     },
     {
         "Symbol": "DAO",
