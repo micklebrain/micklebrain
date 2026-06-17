@@ -9101,10 +9101,10 @@
     },
     {
         "Symbol": "CVX",
-        "Name": "Chevron Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Chevron Corporation Common Stock",        
         "Security Name": "Chevron Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CVY",
@@ -9116,7 +9116,8 @@
         "Symbol": "CW",
         "Name": "Curtiss",
         "Security Name": "Curtiss-Wright Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CWAN",
