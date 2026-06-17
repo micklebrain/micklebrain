@@ -307,24 +307,24 @@
     },
     {
         "Symbol": "ABNY",
-        "Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
-        "ownEtrade": true,
+        "Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",        
         "Security Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABOT",
-        "Name": "Abacus FCF Innovation Leaders ETF",
-        "ownEtrade": true,
+        "Name": "Abacus FCF Innovation Leaders ETF",        
         "Security Name": "Abacus FCF Innovation Leaders ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABR",
-        "Name": "Arbor Realty Trust Common Stock",
-        "ownEtrade": true,
+        "Name": "Arbor Realty Trust Common Stock",        
         "Security Name": "Arbor Realty Trust Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABR-D",
@@ -387,9 +387,9 @@
     {
         "Symbol": "ACCO",
         "Name": "Acco Brands Corporation Common Stock",
-        "ownEtrade": true,
         "Security Name": "Acco Brands Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ACCS",
@@ -662,10 +662,10 @@
     },
     {
         "Symbol": "ADT",
-        "Name": "ADT Inc. Common Stock",
-        "ownInteractiveBrokers": true,
+        "Name": "ADT Inc. Common Stock",        
         "Security Name": "ADT Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "ADUR",
@@ -6425,10 +6425,10 @@
     },
     {
         "Symbol": "CAT",
-        "Name": "Caterpillar, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Caterpillar, Inc. Common Stock",        
         "Security Name": "Caterpillar, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CATF",
@@ -35316,10 +35316,10 @@
     },
     {
         "Symbol": "SLV",
-        "Name": "iShares Silver Trust",
-        "ownRobinhood": true,
+        "Name": "iShares Silver Trust",        
         "Security Name": "iShares Silver Trust",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownRobinhood": true
     },
     {
         "Symbol": "SLVM",
@@ -35592,17 +35592,17 @@
     },
     {
         "Symbol": "SNA",
-        "Name": "Snap",
-        "ownWebull": true,
+        "Name": "Snap",        
         "Security Name": "Snap-On Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SNAP",
-        "Name": "Snap Inc. Class A Common Stock",
-        "ownEtrade": true,
+        "Name": "Snap Inc. Class A Common Stock",        
         "Security Name": "Snap Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "SNAV",
@@ -38431,10 +38431,10 @@
     },
     {
         "Symbol": "TOPS",
-        "Name": "TOP Ships, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "TOP Ships, Inc. Common Stock",        
         "Security Name": "TOP Ships, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TOPT",
@@ -38445,9 +38445,9 @@
     {
         "Symbol": "TOST",
         "Name": "Toast, Inc. Class A Common Stock",
-        "ownWebull": true,
         "Security Name": "Toast, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TOT",
@@ -38487,6 +38487,7 @@
     },
     {
         "Symbol": "TOYO",
+        "Name": "TOYO Co., Ltd",
         "ownWebull": true
     },
     {
@@ -38509,15 +38510,8 @@
     },
     {
         "Symbol": "TPG",
-        "Name": "TPG Inc",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false
+        "Name": "TPG Inc",        
+        "ownEtrade": true        
     },
     {
         "Symbol": "TPH",
@@ -38569,10 +38563,10 @@
     },
     {
         "Symbol": "TPR",
-        "Name": "Tapestry, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Tapestry, Inc. Common Stock",        
         "Security Name": "Tapestry, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TPSC",
@@ -38588,10 +38582,10 @@
     },
     {
         "Symbol": "TPVG",
-        "Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
-        "ownWebull": true,
+        "Name": "TriplePoint Venture Growth BDC Corp. Common Stock",        
         "Security Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TPYP",
@@ -38629,10 +38623,10 @@
     },
     {
         "Symbol": "TRC",
-        "Name": "Tejon Ranch Co Common Stock",
-        "ownWebull": true,
+        "Name": "Tejon Ranch Co Common Stock",        
         "Security Name": "Tejon Ranch Co Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TREX",
@@ -38972,6 +38966,7 @@
     },
     {
         "Symbol": "TTAN",
+        "Name": "ServiceTitan Inc",
         "ownWebull": true
     },
     {
@@ -39023,6 +39018,7 @@
     },
     {
         "Symbol": "TUR",
+        "Name": "iShares MSCI Turkey ETF",
         "ownWebull": true
     },
     {
@@ -39046,10 +39042,10 @@
     },
     {
         "Symbol": "TV",
-        "Name": "Grupo Televisa S.A.B. Common Stock",
-        "ownWebull": true,
+        "Name": "Grupo Televisa S.A.B. Common Stock",        
         "Security Name": "Grupo Televisa S.A.B. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TVAL",
