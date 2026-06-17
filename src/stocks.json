@@ -5616,16 +5616,16 @@
     {
         "Symbol": "BSAC",
         "Name": "Banco Santander",
-        "ownEtrade": true,
         "Security Name": "Banco Santander - Chile ADS",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BSBR",
         "Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
-        "ownEtrade": true,
         "Security Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BSEP",
@@ -5750,16 +5750,16 @@
     {
         "Symbol": "BTE",
         "Name": "Baytex Energy Corp Common Shares",
-        "ownWebull": true,
         "Security Name": "Baytex Energy Corp Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BTG",
-        "Name": "B2Gold Corp Common shares (Canada)",
-        "ownWebull": true,
+        "Name": "B2Gold Corp Common shares (Canada)",        
         "Security Name": "B2Gold Corp Common shares (Canada)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BTI",
@@ -20231,10 +20231,10 @@
     },
     {
         "Symbol": "INDO",
-        "Name": "Indonesia Energy Corporation Limited Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Indonesia Energy Corporation Limited Ordinary Shares",        
         "Security Name": "Indonesia Energy Corporation Limited Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "INDS",
@@ -43367,17 +43367,17 @@
     },
     {
         "Symbol": "ZIM",
-        "Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",        
         "Security Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ZIP",
-        "Name": "ZipRecruiter, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "ZipRecruiter, Inc. Class A Common Stock",        
         "Security Name": "ZipRecruiter, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ZJAN",
