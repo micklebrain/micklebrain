@@ -9281,17 +9281,17 @@
     },
     {
         "Symbol": "DAC",
-        "Name": "Danaos Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Danaos Corporation Common Stock",        
         "Security Name": "Danaos Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DAL",
-        "Name": "Delta Air Lines, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Delta Air Lines, Inc. Common Stock",        
         "Security Name": "Delta Air Lines, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DAN",
@@ -9301,9 +9301,9 @@
     },
     {
         "Symbol": "DANSKE",
-        "Name": "Danske Bank A/S",
-        "ownInteractiveBrokers": true,
-        "Country": "Denmark"
+        "Name": "Danske Bank A/S",        
+        "Country": "Denmark",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "DAO",
@@ -9550,17 +9550,17 @@
     },
     {
         "Symbol": "DD",
-        "Name": "DUPONT DE NEMOURS INC",
-        "ownEtrade": true,
+        "Name": "DUPONT DE NEMOURS INC",        
         "Security Name": "DuPont de Nemours, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "DDC",
-        "Name": "DDC Enterprise Limited Class A Ordinary Shares",
-        "ownEtrade": true,
+        "Name": "DDC Enterprise Limited Class A Ordinary Shares",        
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "DDD",
@@ -12011,7 +12011,7 @@
     {
         "Symbol": "ELBM",
         "Name": "Electra Battery Materials Corp",
-        "ownWebull": true
+        "ownWebull": false
     },
     {
         "Symbol": "ELC",
