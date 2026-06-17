@@ -359,9 +359,9 @@
     {
         "Symbol": "ABXB",
         "Name": "Abacus Flexible Bond Leaders ETF",
-        "ownEtrade": true,
         "Security Name": "Abacus Flexible Bond Leaders ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ACA",

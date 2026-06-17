@@ -27,6 +27,7 @@ function Stocks() {
     ally: false,
     fidelity: false,
     interactiveBrokers: false,
+    moomoo: false,
   });
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
@@ -40,6 +41,7 @@ function Stocks() {
   const [newOwnAlly, setNewOwnAlly] = useState(false);
   const [newOwnFidelity, setNewOwnFidelity] = useState(false);
   const [newOwnInteractiveBrokers, setNewOwnInteractiveBrokers] = useState(false);
+  const [newOwnMoomoo, setNewOwnMoomoo] = useState(false);
 
   const effectiveItems = React.useMemo(
     () => [...items, ...extraStocks],
@@ -55,6 +57,7 @@ function Stocks() {
     ally: "ownAlly",
     fidelity: "ownFidelity",
     interactiveBrokers: "ownInteractiveBrokers",
+    moomoo: "ownMoomoo",
   };
 
   const activeBrokers = Object.keys(selectedBrokers).filter(
@@ -72,9 +75,14 @@ function Stocks() {
       !!item.ownAlly ||
       !!item.ownFidelity ||
       !!item.ownInteractiveBrokers;
+      // note: ownMoomoo intentionally not included here earlier; include now
+      // (will be added below)
 
-    if (showAllOwnedOnly) return isOwnedInAnyBroker;
-    if (showNotOwnedOnly) return !isOwnedInAnyBroker;
+    // include moomoo in overall owned check
+    const ownedInAny = isOwnedInAnyBroker || !!item.ownMoomoo;
+
+    if (showAllOwnedOnly) return ownedInAny;
+    if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
   });
@@ -99,6 +107,7 @@ function Stocks() {
       ally: false,
       fidelity: false,
       interactiveBrokers: false,
+      moomoo: false,
     });
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly(false);
@@ -123,6 +132,7 @@ function Stocks() {
       ally: false,
       fidelity: false,
       interactiveBrokers: false,
+      moomoo: false,
     });
     setShowNotOwnedOnly(false);
     setShowAllOwnedOnly((prev) => !prev);
@@ -138,6 +148,7 @@ function Stocks() {
       ally: false,
       fidelity: false,
       interactiveBrokers: false,
+      moomoo: false,
     });
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly((prev) => !prev);
@@ -160,6 +171,7 @@ function Stocks() {
         ownSchwab: newOwnSchwab,
         ownAlly: newOwnAlly,
         ownFidelity: newOwnFidelity,
+        ownMoomoo: newOwnMoomoo,
       },
     ]);
 
@@ -172,6 +184,7 @@ function Stocks() {
     setNewOwnSchwab(false);
     setNewOwnAlly(false);
     setNewOwnFidelity(false);
+    setNewOwnMoomoo(false);
   };
 
   return (
@@ -240,6 +253,13 @@ function Stocks() {
           onClick={() => toggleBrokerFilter("fidelity")}
         >
           Fidelity
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.moomoo ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("moomoo")}
+        >
+          Moomoo
         </button>
         <button
           type="button"
@@ -331,6 +351,14 @@ function Stocks() {
           />
           Fidelity
         </label>
+        <label className="stocks-add-checkbox">
+          <input
+            type="checkbox"
+            checked={newOwnMoomoo}
+            onChange={(e) => setNewOwnMoomoo(e.target.checked)}
+          />
+          Moomoo
+        </label>
         <button type="submit" className="stocks-add-btn">
           Add
         </button>
@@ -346,6 +374,7 @@ function Stocks() {
           const hasAlly = !!item.ownAlly;
           const hasFidelity = !!item.ownFidelity;
           const hasInteractiveBrokers = !!item.ownInteractiveBrokers;
+          const hasMoomoo = !!item.ownMoomoo;
           const isOwned =
             hasWebull ||
             hasEtrade ||
@@ -354,7 +383,8 @@ function Stocks() {
             hasChase ||
             hasSchwab ||
             hasAlly ||
-            hasFidelity;
+            hasFidelity ||
+            hasMoomoo;
 
           return (
             <div
@@ -418,6 +448,9 @@ function Stocks() {
                   className="stocks-tile-fidelity-icon"
                 />
               )}
+                  {hasMoomoo && (
+                    <span className="stocks-tile-moomoo-badge">MOO</span>
+                  )}
             </div>
           );
         })}
