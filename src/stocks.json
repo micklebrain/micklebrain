@@ -1398,16 +1398,16 @@
     {
         "Symbol": "ALK",
         "Name": "Alaska Air Group, Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "Alaska Air Group, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ALL",
         "Name": "Allstate Corporation (The) Common Stock",
-        "ownWebull": true,
         "Security Name": "Allstate Corporation (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ALL-B",
@@ -1448,9 +1448,9 @@
     {
         "Symbol": "ALLY",
         "Name": "Ally Financial Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "Ally Financial Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ALRG",
@@ -1547,9 +1547,9 @@
     {
         "Symbol": "AMBP",
         "Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
-        "ownWebull": true,
         "Security Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AMBP.W",
@@ -1607,9 +1607,9 @@
     {
         "Symbol": "AMH",
         "Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
-        "ownEtrade": true,
         "Security Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AMH-G",
@@ -23617,6 +23617,18 @@
         "ETF": "N"
     },
     {
+        "Symbol": "LHV1T",
+        "Name": "LHV Group AS",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "LHX",
         "Name": "L3Harris Technologies, Inc. Common Stock",
         "Security Name": "L3Harris Technologies, Inc. Common Stock",
@@ -25387,9 +25399,9 @@
     {
         "Symbol": "MKL",
         "Name": "Markel Group Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "Markel Group Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MKOR",
@@ -25553,9 +25565,9 @@
     {
         "Symbol": "MMM",
         "Name": "3M Company Common Stock",
-        "ownWebull": true,
         "Security Name": "3M Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MMS",
@@ -25704,6 +25716,18 @@
         "ownWebull": true,
         "Security Name": "Molina Healthcare Inc Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MOL",
+        "Name": "Mol Hungarian Oil And Gas Pl",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "MOO",
@@ -26009,7 +26033,7 @@
     },
     {
         "Symbol": "MSEX",
-        "Name": "Middlesex Water Co",        
+        "Name": "Middlesex Water Co",
         "ownEtrade": true
     },
     {
@@ -26062,9 +26086,9 @@
     {
         "Symbol": "MSI",
         "Name": "Motorola Solutions, Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "Motorola Solutions, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MSIF",
@@ -26606,13 +26630,7 @@
     {
         "Symbol": "MZTI",
         "Name": "Marzetti Co",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false
+        "ownEtrade": true
     },
     {
         "Symbol": "MZZ",
@@ -30315,6 +30333,18 @@
         "Name": "Packaging Corporation of America Common Stock",
         "Security Name": "Packaging Corporation of America Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "PKO",
+        "Name": "Powszechna Kasa Oszczednosci Bk Plski SA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "PKST",
@@ -43074,9 +43104,9 @@
     {
         "Symbol": "YELP",
         "Name": "Yelp Inc.",
-        "ownWebull": true,
         "Security Name": "Yelp Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "YETH",
@@ -43186,16 +43216,16 @@
     {
         "Symbol": "YPF",
         "Name": "YPF Sociedad Anonima Common Stock",
-        "ownEtrade": true,
         "Security Name": "YPF Sociedad Anonima Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "YRD",
         "Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
-        "ownWebull": true,
         "Security Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "YSEP",
@@ -43217,16 +43247,16 @@
     {
         "Symbol": "YUM",
         "Name": "Yum! Brands, Inc.",
-        "ownWebull": true,
         "Security Name": "Yum! Brands, Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "YUMC",
         "Name": "Yum China Holdings, Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "Yum China Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "YXI",
