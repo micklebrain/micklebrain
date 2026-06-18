@@ -12099,10 +12099,10 @@
     },
     {
         "Symbol": "ELV",
-        "Name": "Elevance Health, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Elevance Health, Inc. Common Stock",        
         "Security Name": "Elevance Health, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "EMA",
