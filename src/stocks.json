@@ -4343,10 +4343,10 @@
     },
     {
         "Symbol": "BGS",
-        "Name": "B&G Foods, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "B&G Foods, Inc. Common Stock",        
         "Security Name": "B&G Foods, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BGSF",
@@ -4385,10 +4385,10 @@
     },
     {
         "Symbol": "BH-A",
-        "Name": "Biglari Holdings Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Biglari Holdings Inc. Class A Common Stock",        
         "Security Name": "Biglari Holdings Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BHB",
@@ -4398,10 +4398,10 @@
     },
     {
         "Symbol": "BHC",
-        "Name": "Bausch Health Companies Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Bausch Health Companies Inc. Common Stock",        
         "Security Name": "Bausch Health Companies Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BHE",
@@ -4434,10 +4434,10 @@
     },
     {
         "Symbol": "BHR",
-        "Name": "Braemar Hotels & Resorts Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Braemar Hotels & Resorts Inc. Common Stock",        
         "Security Name": "Braemar Hotels & Resorts Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BHR-B",
@@ -4516,10 +4516,10 @@
     },
     {
         "Symbol": "BILL",
-        "Name": "BILL Holdings, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "BILL Holdings, Inc. Common Stock",        
         "Security Name": "BILL Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BILS",
@@ -15777,10 +15777,10 @@
     },
     {
         "Symbol": "FXY",
-        "Name": "Invesco CurrencyShares Japanese Yen Trust",
-        "ownRobinhood": true,
+        "Name": "Invesco CurrencyShares Japanese Yen Trust",        
         "Security Name": "Invesco CurrencyShares Japanese Yen Trust",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownRobinhood": true
     },
     {
         "Symbol": "FXZ",
@@ -15899,6 +15899,7 @@
     },
     {
         "Symbol": "GASS",
+        "Name": "StealthGas Inc",
         "ownWebull": true
     },
     {
@@ -16079,10 +16080,10 @@
     },
     {
         "Symbol": "GD",
-        "Name": "General Dynamics Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "General Dynamics Corporation Common Stock",        
         "Security Name": "General Dynamics Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GDDY",
@@ -16202,10 +16203,10 @@
     },
     {
         "Symbol": "GE",
-        "Name": "GE Aerospace Common Stock",
-        "ownEtrade": true,
+        "Name": "GE Aerospace Common Stock",        
         "Security Name": "GE Aerospace Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "GECC",
@@ -16319,10 +16320,10 @@
     },
     {
         "Symbol": "GEV",
-        "Name": "GE Vernova Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "GE Vernova Inc. Common Stock",        
         "Security Name": "GE Vernova Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GEVX",
@@ -16530,10 +16531,10 @@
     },
     {
         "Symbol": "GIB",
-        "Name": "CGI Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "CGI Inc. Common Stock",        
         "Security Name": "CGI Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GIBO",
@@ -16578,10 +16579,10 @@
     },
     {
         "Symbol": "GIS",
-        "Name": "General Mills, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "General Mills, Inc. Common Stock",        
         "Security Name": "General Mills, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "GJAN",
@@ -16673,10 +16674,10 @@
     },
     {
         "Symbol": "GLD",
-        "Name": "SPDR Gold Trust",
-        "ownWebull": true,
+        "Name": "SPDR Gold Trust",        
         "Security Name": "SPDR Gold Trust",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "GLDG",
@@ -16835,10 +16836,10 @@
     },
     {
         "Symbol": "GME",
-        "Name": "GameStop Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "GameStop Corporation Common Stock",        
         "Security Name": "GameStop Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GMED",
@@ -36397,10 +36398,10 @@
     },
     {
         "Symbol": "SPY",
-        "Name": "SPDR S&P 500",
-        "ownWebull": true,
+        "Name": "SPDR S&P 500",        
         "Security Name": "SPDR S&P 500",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "SPYA",
@@ -36549,10 +36550,10 @@
     },
     {
         "Symbol": "SRL",
-        "Name": "Scully Royalty Ltd.",
-        "ownWebull": true,
+        "Name": "Scully Royalty Ltd.",        
         "Security Name": "Scully Royalty Ltd.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SRLN",
