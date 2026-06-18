@@ -6781,10 +6781,10 @@
     },
     {
         "Symbol": "CE",
-        "Name": "Celanese Corporation Common Stock",
-        "ownChase": true,
+        "Name": "Celanese Corporation Common Stock",        
         "Security Name": "Celanese Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownChase": true
     },
     {
         "Symbol": "CEE",
@@ -23250,14 +23250,15 @@
     },
     {
         "Symbol": "LBTYK",
+        "Name": "Liberty Global Ltd Class C",
         "ownWebull": true
     },
     {
         "Symbol": "LC",
-        "Name": "LendingClub Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "LendingClub Corporation Common Stock",        
         "Security Name": "LendingClub Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LCAP",
@@ -23419,12 +23420,8 @@
     },
     {
         "Symbol": "LEN-B",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Lennar Corp Class B",
+        "ownWebull": true
     },
     {
         "Symbol": "LENS",
@@ -23773,12 +23770,8 @@
     },
     {
         "Symbol": "LKFT",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Lakefront Biotherapeutics NV - ADR",
+        "ownEtrade": true
     },
     {
         "Symbol": "LKNCY",
@@ -23850,10 +23843,10 @@
     },
     {
         "Symbol": "LND",
-        "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
-        "ownWebull": true,
+        "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",        
         "Security Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LNG",
@@ -23930,10 +23923,10 @@
     },
     {
         "Symbol": "LOMA",
-        "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
-        "ownWebull": true,
+        "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",        
         "Security Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LONZ",
@@ -23973,9 +23966,9 @@
     {
         "Symbol": "LPA",
         "Name": "Logistic Properties of the Americas Ordinary Shares",
-        "ownWebull": true,
         "Security Name": "Logistic Properties of the Americas Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LPG",
@@ -33472,10 +33465,10 @@
     },
     {
         "Symbol": "RTX",
-        "Name": "RTX Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "RTX Corporation Common Stock",        
         "Security Name": "RTX Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RULE",
@@ -34352,9 +34345,9 @@
     {
         "Symbol": "SD",
         "Name": "SandRidge Energy, Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "SandRidge Energy, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SDCI",
@@ -38148,13 +38141,14 @@
     },
     {
         "Symbol": "TKC",
-        "Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
-        "ownWebull": true,
+        "Name": "Turkcell Iletisim Hizmetleri AS Common Stock",        
         "Security Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TKLF",
+        "Name": "Tokyo Lifestyle Co Ltd",
         "ownWebull": true
     },
     {
@@ -38269,10 +38263,10 @@
     },
     {
         "Symbol": "TME",
-        "Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
-        "ownEtrade": true,
+        "Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",        
         "Security Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "TMF",
@@ -38330,10 +38324,10 @@
     },
     {
         "Symbol": "TMO",
-        "Name": "Thermo Fisher Scientific Inc Common Stock",
-        "ownEtrade": true,
+        "Name": "Thermo Fisher Scientific Inc Common Stock",        
         "Security Name": "Thermo Fisher Scientific Inc Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "TMP",
@@ -38397,10 +38391,10 @@
     },
     {
         "Symbol": "TNL",
-        "Name": "Travel Leisure Co. Common Stock",
-        "ownWebull": true,
+        "Name": "Travel Leisure Co. Common Stock",        
         "Security Name": "Travel Leisure Co. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TOAK",
