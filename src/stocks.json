@@ -1212,9 +1212,9 @@
     },
     {
         "Symbol": "AIR",
-        "Name": "AIRBUS",
-        "ownInteractiveBrokers": true,
-        "ETF": "N"
+        "Name": "AIRBUS",        
+        "ETF": "N",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "AIRI",
@@ -1285,10 +1285,10 @@
     },
     {
         "Symbol": "AJG",
-        "Name": "Arthur J. Gallagher & Co. Common Stock",
-        "ownWebull": true,
+        "Name": "Arthur J. Gallagher & Co. Common Stock",        
         "Security Name": "Arthur J. Gallagher & Co. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AJUL",
@@ -2706,10 +2706,10 @@
     },
     {
         "Symbol": "ATKR",
-        "Name": "Atkore Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Atkore Inc. Common Stock",        
         "Security Name": "Atkore Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ATLX",
@@ -4015,10 +4015,10 @@
     },
     {
         "Symbol": "BDN",
-        "Name": "Brandywine Realty Trust Common Stock",
-        "ownEtrade": true,
+        "Name": "Brandywine Realty Trust Common Stock",        
         "Security Name": "Brandywine Realty Trust Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BDOUY",
@@ -20110,10 +20110,10 @@
     },
     {
         "Symbol": "IMAX",
-        "Name": "Imax Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Imax Corporation Common Stock",        
         "Security Name": "Imax Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "IMAY",
@@ -40898,10 +40898,10 @@
     },
     {
         "Symbol": "VOO",
-        "Name": "Vanguard S&P 500 ETF",
-        "ownWebull": true,
+        "Name": "Vanguard S&P 500 ETF",        
         "Security Name": "Vanguard S&P 500 ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "VOOG",
@@ -41067,10 +41067,10 @@
     },
     {
         "Symbol": "VST",
-        "Name": "Vistra Corp. Common Stock",
-        "ownWebull": true,
+        "Name": "Vistra Corp. Common Stock",        
         "Security Name": "Vistra Corp. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VSTS",
@@ -41249,10 +41249,10 @@
     },
     {
         "Symbol": "VWO",
-        "Name": "Vanguard FTSE Emerging Markets ETF",
-        "ownRobinhood": true,
+        "Name": "Vanguard FTSE Emerging Markets ETF",        
         "Security Name": "Vanguard FTSE Emerging Markets ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownRobinhood": true
     },
     {
         "Symbol": "VXF",
@@ -41378,10 +41378,10 @@
     },
     {
         "Symbol": "WBS",
-        "Name": "Webster Financial Corporation Common Stock",
-        "ownChase": true,
+        "Name": "Webster Financial Corporation Common Stock",        
         "Security Name": "Webster Financial Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownChase": true
     },
     {
         "Symbol": "WBS-F",
@@ -41450,10 +41450,10 @@
     },
     {
         "Symbol": "WD",
-        "Name": "Walker & Dunlop, Inc Common Stock",
-        "ownEtrade": true,
+        "Name": "Walker & Dunlop, Inc Common Stock",        
         "Security Name": "Walker & Dunlop, Inc Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "WDAY",
@@ -41473,6 +41473,7 @@
     },
     {
         "Symbol": "WDFC",
+        "Name": "WD-40 Co",
         "ownWebull": true
     },
     {
@@ -41598,10 +41599,10 @@
     },
     {
         "Symbol": "WFC",
-        "Name": "Wells Fargo & Company Common Stock",
-        "ownWebull": true,
+        "Name": "Wells Fargo & Company Common Stock",        
         "Security Name": "Wells Fargo & Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WFC-A",
@@ -41689,10 +41690,10 @@
     },
     {
         "Symbol": "WHR",
-        "Name": "Whirlpool Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Whirlpool Corporation Common Stock",        
         "Security Name": "Whirlpool Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WHTX",
@@ -41714,6 +41715,7 @@
     },
     {
         "Symbol": "WING",
+        "Name": "Wingstop Inc",
         "ownWebull": true
     },
     {
@@ -41801,10 +41803,10 @@
     },
     {
         "Symbol": "WM",
-        "Name": "Waste Management, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Waste Management, Inc. Common Stock",        
         "Security Name": "Waste Management, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WMB",
@@ -41898,10 +41900,10 @@
     },
     {
         "Symbol": "WPP",
-        "Name": "WPP plc American Depositary Shares",
-        "ownWebull": true,
+        "Name": "WPP plc American Depositary Shares",        
         "Security Name": "WPP plc American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WRB",
@@ -42006,10 +42008,10 @@
     },
     {
         "Symbol": "WTI",
-        "Name": "W&T Offshore, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "W&T Offshore, Inc. Common Stock",        
         "Security Name": "W&T Offshore, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WTID",
@@ -42025,10 +42027,10 @@
     },
     {
         "Symbol": "WTM",
-        "Name": "White Mountains Insurance Group, Ltd. Common Stock",
-        "ownWebull": true,
+        "Name": "White Mountains Insurance Group, Ltd. Common Stock",        
         "Security Name": "White Mountains Insurance Group, Ltd. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WTMF",
