@@ -9221,7 +9221,8 @@
         "Symbol": "CXT",
         "Name": "Crane NXT, Co. Common Stock",
         "Security Name": "Crane NXT, Co. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CXW",
