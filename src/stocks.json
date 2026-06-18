@@ -1212,7 +1212,7 @@
     },
     {
         "Symbol": "AIR",
-        "Name": "AIRBUS",        
+        "Name": "AIRBUS",
         "ETF": "N",
         "ownInteractiveBrokers": true
     },
@@ -1285,7 +1285,7 @@
     },
     {
         "Symbol": "AJG",
-        "Name": "Arthur J. Gallagher & Co. Common Stock",        
+        "Name": "Arthur J. Gallagher & Co. Common Stock",
         "Security Name": "Arthur J. Gallagher & Co. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -2706,7 +2706,7 @@
     },
     {
         "Symbol": "ATKR",
-        "Name": "Atkore Inc. Common Stock",        
+        "Name": "Atkore Inc. Common Stock",
         "Security Name": "Atkore Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4015,7 +4015,7 @@
     },
     {
         "Symbol": "BDN",
-        "Name": "Brandywine Realty Trust Common Stock",        
+        "Name": "Brandywine Realty Trust Common Stock",
         "Security Name": "Brandywine Realty Trust Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -4343,7 +4343,7 @@
     },
     {
         "Symbol": "BGS",
-        "Name": "B&G Foods, Inc. Common Stock",        
+        "Name": "B&G Foods, Inc. Common Stock",
         "Security Name": "B&G Foods, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4385,7 +4385,7 @@
     },
     {
         "Symbol": "BH-A",
-        "Name": "Biglari Holdings Inc. Class A Common Stock",        
+        "Name": "Biglari Holdings Inc. Class A Common Stock",
         "Security Name": "Biglari Holdings Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4398,7 +4398,7 @@
     },
     {
         "Symbol": "BHC",
-        "Name": "Bausch Health Companies Inc. Common Stock",        
+        "Name": "Bausch Health Companies Inc. Common Stock",
         "Security Name": "Bausch Health Companies Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4434,7 +4434,7 @@
     },
     {
         "Symbol": "BHR",
-        "Name": "Braemar Hotels & Resorts Inc. Common Stock",        
+        "Name": "Braemar Hotels & Resorts Inc. Common Stock",
         "Security Name": "Braemar Hotels & Resorts Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4516,7 +4516,7 @@
     },
     {
         "Symbol": "BILL",
-        "Name": "BILL Holdings, Inc. Common Stock",        
+        "Name": "BILL Holdings, Inc. Common Stock",
         "Security Name": "BILL Holdings, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -5756,7 +5756,7 @@
     },
     {
         "Symbol": "BTG",
-        "Name": "B2Gold Corp Common shares (Canada)",        
+        "Name": "B2Gold Corp Common shares (Canada)",
         "Security Name": "B2Gold Corp Common shares (Canada)",
         "ETF": "N",
         "ownWebull": true
@@ -6781,7 +6781,7 @@
     },
     {
         "Symbol": "CE",
-        "Name": "Celanese Corporation Common Stock",        
+        "Name": "Celanese Corporation Common Stock",
         "Security Name": "Celanese Corporation Common Stock",
         "ETF": "N",
         "ownChase": true
@@ -7712,7 +7712,8 @@
         "Symbol": "CMI",
         "Name": "Cummins Inc. Common Stock",
         "Security Name": "Cummins Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CMMB",
@@ -9101,7 +9102,7 @@
     },
     {
         "Symbol": "CVX",
-        "Name": "Chevron Corporation Common Stock",        
+        "Name": "Chevron Corporation Common Stock",
         "Security Name": "Chevron Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -9281,14 +9282,14 @@
     },
     {
         "Symbol": "DAC",
-        "Name": "Danaos Corporation Common Stock",        
+        "Name": "Danaos Corporation Common Stock",
         "Security Name": "Danaos Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "DAL",
-        "Name": "Delta Air Lines, Inc. Common Stock",        
+        "Name": "Delta Air Lines, Inc. Common Stock",
         "Security Name": "Delta Air Lines, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -9301,7 +9302,7 @@
     },
     {
         "Symbol": "DANSKE",
-        "Name": "Danske Bank A/S",        
+        "Name": "Danske Bank A/S",
         "Country": "Denmark",
         "ownInteractiveBrokers": true
     },
@@ -9550,14 +9551,14 @@
     },
     {
         "Symbol": "DD",
-        "Name": "DUPONT DE NEMOURS INC",        
+        "Name": "DUPONT DE NEMOURS INC",
         "Security Name": "DuPont de Nemours, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
     },
     {
         "Symbol": "DDC",
-        "Name": "DDC Enterprise Limited Class A Ordinary Shares",        
+        "Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -12099,7 +12100,7 @@
     },
     {
         "Symbol": "ELV",
-        "Name": "Elevance Health, Inc. Common Stock",        
+        "Name": "Elevance Health, Inc. Common Stock",
         "Security Name": "Elevance Health, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -15777,7 +15778,7 @@
     },
     {
         "Symbol": "FXY",
-        "Name": "Invesco CurrencyShares Japanese Yen Trust",        
+        "Name": "Invesco CurrencyShares Japanese Yen Trust",
         "Security Name": "Invesco CurrencyShares Japanese Yen Trust",
         "ETF": "Y",
         "ownRobinhood": true
@@ -16080,7 +16081,7 @@
     },
     {
         "Symbol": "GD",
-        "Name": "General Dynamics Corporation Common Stock",        
+        "Name": "General Dynamics Corporation Common Stock",
         "Security Name": "General Dynamics Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -16203,7 +16204,7 @@
     },
     {
         "Symbol": "GE",
-        "Name": "GE Aerospace Common Stock",        
+        "Name": "GE Aerospace Common Stock",
         "Security Name": "GE Aerospace Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -16320,7 +16321,7 @@
     },
     {
         "Symbol": "GEV",
-        "Name": "GE Vernova Inc. Common Stock",        
+        "Name": "GE Vernova Inc. Common Stock",
         "Security Name": "GE Vernova Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -16531,7 +16532,7 @@
     },
     {
         "Symbol": "GIB",
-        "Name": "CGI Inc. Common Stock",        
+        "Name": "CGI Inc. Common Stock",
         "Security Name": "CGI Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -16579,7 +16580,7 @@
     },
     {
         "Symbol": "GIS",
-        "Name": "General Mills, Inc. Common Stock",        
+        "Name": "General Mills, Inc. Common Stock",
         "Security Name": "General Mills, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -16674,7 +16675,7 @@
     },
     {
         "Symbol": "GLD",
-        "Name": "SPDR Gold Trust",        
+        "Name": "SPDR Gold Trust",
         "Security Name": "SPDR Gold Trust",
         "ETF": "Y",
         "ownWebull": true
@@ -16836,7 +16837,7 @@
     },
     {
         "Symbol": "GME",
-        "Name": "GameStop Corporation Common Stock",        
+        "Name": "GameStop Corporation Common Stock",
         "Security Name": "GameStop Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -20110,7 +20111,7 @@
     },
     {
         "Symbol": "IMAX",
-        "Name": "Imax Corporation Common Stock",        
+        "Name": "Imax Corporation Common Stock",
         "Security Name": "Imax Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -20233,7 +20234,7 @@
     },
     {
         "Symbol": "INDO",
-        "Name": "Indonesia Energy Corporation Limited Ordinary Shares",        
+        "Name": "Indonesia Energy Corporation Limited Ordinary Shares",
         "Security Name": "Indonesia Energy Corporation Limited Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -23255,7 +23256,7 @@
     },
     {
         "Symbol": "LC",
-        "Name": "LendingClub Corporation Common Stock",        
+        "Name": "LendingClub Corporation Common Stock",
         "Security Name": "LendingClub Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -23843,7 +23844,7 @@
     },
     {
         "Symbol": "LND",
-        "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",        
+        "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
         "Security Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
         "ETF": "N",
         "ownWebull": true
@@ -23923,7 +23924,7 @@
     },
     {
         "Symbol": "LOMA",
-        "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",        
+        "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
         "Security Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
         "ETF": "N",
         "ownWebull": true
@@ -25568,7 +25569,8 @@
         "Symbol": "MMS",
         "Name": "Maximus, Inc. Common Stock",
         "Security Name": "Maximus, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MMSC",
@@ -33465,7 +33467,7 @@
     },
     {
         "Symbol": "RTX",
-        "Name": "RTX Corporation Common Stock",        
+        "Name": "RTX Corporation Common Stock",
         "Security Name": "RTX Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -36391,7 +36393,7 @@
     },
     {
         "Symbol": "SPY",
-        "Name": "SPDR S&P 500",        
+        "Name": "SPDR S&P 500",
         "Security Name": "SPDR S&P 500",
         "ETF": "Y",
         "ownWebull": true
@@ -36543,7 +36545,7 @@
     },
     {
         "Symbol": "SRL",
-        "Name": "Scully Royalty Ltd.",        
+        "Name": "Scully Royalty Ltd.",
         "Security Name": "Scully Royalty Ltd.",
         "ETF": "N",
         "ownWebull": true
@@ -38141,7 +38143,7 @@
     },
     {
         "Symbol": "TKC",
-        "Name": "Turkcell Iletisim Hizmetleri AS Common Stock",        
+        "Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
         "Security Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38263,7 +38265,7 @@
     },
     {
         "Symbol": "TME",
-        "Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",        
+        "Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
         "Security Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -38324,7 +38326,7 @@
     },
     {
         "Symbol": "TMO",
-        "Name": "Thermo Fisher Scientific Inc Common Stock",        
+        "Name": "Thermo Fisher Scientific Inc Common Stock",
         "Security Name": "Thermo Fisher Scientific Inc Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -38391,7 +38393,7 @@
     },
     {
         "Symbol": "TNL",
-        "Name": "Travel Leisure Co. Common Stock",        
+        "Name": "Travel Leisure Co. Common Stock",
         "Security Name": "Travel Leisure Co. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -40892,7 +40894,7 @@
     },
     {
         "Symbol": "VOO",
-        "Name": "Vanguard S&P 500 ETF",        
+        "Name": "Vanguard S&P 500 ETF",
         "Security Name": "Vanguard S&P 500 ETF",
         "ETF": "Y",
         "ownWebull": true
@@ -41061,7 +41063,7 @@
     },
     {
         "Symbol": "VST",
-        "Name": "Vistra Corp. Common Stock",        
+        "Name": "Vistra Corp. Common Stock",
         "Security Name": "Vistra Corp. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41243,7 +41245,7 @@
     },
     {
         "Symbol": "VWO",
-        "Name": "Vanguard FTSE Emerging Markets ETF",        
+        "Name": "Vanguard FTSE Emerging Markets ETF",
         "Security Name": "Vanguard FTSE Emerging Markets ETF",
         "ETF": "Y",
         "ownRobinhood": true
@@ -41372,7 +41374,7 @@
     },
     {
         "Symbol": "WBS",
-        "Name": "Webster Financial Corporation Common Stock",        
+        "Name": "Webster Financial Corporation Common Stock",
         "Security Name": "Webster Financial Corporation Common Stock",
         "ETF": "N",
         "ownChase": true
@@ -41444,7 +41446,7 @@
     },
     {
         "Symbol": "WD",
-        "Name": "Walker & Dunlop, Inc Common Stock",        
+        "Name": "Walker & Dunlop, Inc Common Stock",
         "Security Name": "Walker & Dunlop, Inc Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -41593,7 +41595,7 @@
     },
     {
         "Symbol": "WFC",
-        "Name": "Wells Fargo & Company Common Stock",        
+        "Name": "Wells Fargo & Company Common Stock",
         "Security Name": "Wells Fargo & Company Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41684,7 +41686,7 @@
     },
     {
         "Symbol": "WHR",
-        "Name": "Whirlpool Corporation Common Stock",        
+        "Name": "Whirlpool Corporation Common Stock",
         "Security Name": "Whirlpool Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41797,7 +41799,7 @@
     },
     {
         "Symbol": "WM",
-        "Name": "Waste Management, Inc. Common Stock",        
+        "Name": "Waste Management, Inc. Common Stock",
         "Security Name": "Waste Management, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41894,7 +41896,7 @@
     },
     {
         "Symbol": "WPP",
-        "Name": "WPP plc American Depositary Shares",        
+        "Name": "WPP plc American Depositary Shares",
         "Security Name": "WPP plc American Depositary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -42002,7 +42004,7 @@
     },
     {
         "Symbol": "WTI",
-        "Name": "W&T Offshore, Inc. Common Stock",        
+        "Name": "W&T Offshore, Inc. Common Stock",
         "Security Name": "W&T Offshore, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42021,7 +42023,7 @@
     },
     {
         "Symbol": "WTM",
-        "Name": "White Mountains Insurance Group, Ltd. Common Stock",        
+        "Name": "White Mountains Insurance Group, Ltd. Common Stock",
         "Security Name": "White Mountains Insurance Group, Ltd. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -43365,14 +43367,14 @@
     },
     {
         "Symbol": "ZIM",
-        "Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",        
+        "Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
         "Security Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "ZIP",
-        "Name": "ZipRecruiter, Inc. Class A Common Stock",        
+        "Name": "ZipRecruiter, Inc. Class A Common Stock",
         "Security Name": "ZipRecruiter, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
