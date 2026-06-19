@@ -9613,10 +9613,10 @@
     },
     {
         "Symbol": "DDS",
-        "Name": "Dillard's, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Dillard's, Inc. Common Stock",        
         "Security Name": "Dillard's, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DDT",
@@ -9663,10 +9663,10 @@
     },
     {
         "Symbol": "DECK",
-        "Name": "Deckers Outdoor Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Deckers Outdoor Corporation Common Stock",        
         "Security Name": "Deckers Outdoor Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DECM",
@@ -9793,9 +9793,9 @@
     {
         "Symbol": "DFAC",
         "Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
-        "ownRobinhood": true,
         "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownRobinhood": true
     },
     {
         "Symbol": "DFAE",
@@ -10107,10 +10107,10 @@
     },
     {
         "Symbol": "DHR",
-        "Name": "Danaher Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Danaher Corporation Common Stock",        
         "Security Name": "Danaher Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "DHS",
@@ -10192,10 +10192,10 @@
     },
     {
         "Symbol": "DIN",
-        "Name": "Dine Brands Global, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Dine Brands Global, Inc. Common Stock",        
         "Security Name": "Dine Brands Global, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DINO",
@@ -20501,10 +20501,10 @@
     },
     {
         "Symbol": "IOT",
-        "Name": "Samsara Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Samsara Inc. Class A Common Stock",        
         "Security Name": "Samsara Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "IP",
@@ -20674,10 +20674,10 @@
     },
     {
         "Symbol": "IRS",
-        "Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
-        "ownWebull": true,
+        "Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",        
         "Security Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "IRS.W",
@@ -20781,10 +20781,10 @@
     },
     {
         "Symbol": "IT",
-        "Name": "Gartner, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Gartner, Inc. Common Stock",        
         "Security Name": "Gartner, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ITA",
@@ -20927,6 +20927,7 @@
     },
     {
         "Symbol": "IVA",
+        "Name": "Inventiva SA - ADR",
         "ownWebull": true
     },
     {
@@ -21174,10 +21175,10 @@
     },
     {
         "Symbol": "IX",
-        "Name": "ORIX Corporation American Depositary Shares",
-        "ownEtrade": true,
+        "Name": "ORIX Corporation American Depositary Shares",        
         "Security Name": "ORIX Corporation American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "IXC",
@@ -21450,12 +21451,8 @@
     },
     {
         "Symbol": "JCAP",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Jefferson Capital Inc",
+        "ownEtrade": true
     },
     {
         "Symbol": "JCE",
@@ -21985,10 +21982,10 @@
     },
     {
         "Symbol": "JPM",
-        "Name": "JP Morgan Chase & Co. Common Stock",
-        "ownWebull": true,
+        "Name": "JP Morgan Chase & Co. Common Stock",        
         "Security Name": "JP Morgan Chase & Co. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "JPM-C",
