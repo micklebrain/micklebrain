@@ -10408,10 +10408,10 @@
     },
     {
         "Symbol": "DLNG",
-        "Name": "Dynagas LNG Partners LP Common Units",
-        "ownWebull": true,
+        "Name": "Dynagas LNG Partners LP Common Units",        
         "Security Name": "Dynagas LNG Partners LP Common Units",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DLNG-A",
@@ -21807,10 +21807,10 @@
     },
     {
         "Symbol": "JMIA",
-        "Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",        
         "Security Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "JMM",
@@ -21887,10 +21887,10 @@
     },
     {
         "Symbol": "JOBY",
-        "Name": "Joby Aviation, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Joby Aviation, Inc. Common Stock",        
         "Security Name": "Joby Aviation, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "JOBY.W",
@@ -36725,6 +36725,7 @@
     },
     {
         "Symbol": "STBFY",
+        "Name": "SoftBank Group Corp - ADR",
         "ownWebull": true
     },
     {
@@ -36873,10 +36874,10 @@
     },
     {
         "Symbol": "STVN",
-        "Name": "Stevanato Group S.p.A. Ordinary Shares",
-        "ownEtrade": true,
+        "Name": "Stevanato Group S.p.A. Ordinary Shares",        
         "Security Name": "Stevanato Group S.p.A. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "STWD",
@@ -36945,10 +36946,10 @@
     },
     {
         "Symbol": "STZ",
-        "Name": "Constellation Brands, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Constellation Brands, Inc. Common Stock",        
         "Security Name": "Constellation Brands, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SU",
@@ -37012,10 +37013,10 @@
     },
     {
         "Symbol": "SUZ",
-        "Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
-        "ownWebull": true,
+        "Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",        
         "Security Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SVAL",
@@ -37192,10 +37193,9 @@
     },
     {
         "Symbol": "T",
-        "Name": "AT&T Inc.",
-        "ownWebull": true,
-        "Security Name": "AT&T Inc.",
-        "ETF": "N"
+        "Name": "AT&T Inc.",        
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "T-A",
@@ -37284,10 +37284,10 @@
     },
     {
         "Symbol": "TAP",
-        "Name": "Molson Coors Beverage Company Class B Common Stock",
-        "ownWebull": true,
+        "Name": "Molson Coors Beverage Company Class B Common Stock",        
         "Security Name": "Molson Coors Beverage Company Class B Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TAP.A",
