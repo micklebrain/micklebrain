@@ -4633,10 +4633,10 @@
     },
     {
         "Symbol": "BIRK",
-        "Name": "Birkenstock Holding plc Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Birkenstock Holding plc Ordinary Shares",        
         "Security Name": "Birkenstock Holding plc Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BIT",
@@ -4765,10 +4765,10 @@
     },
     {
         "Symbol": "BKD",
-        "Name": "Brookdale Senior Living Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Brookdale Senior Living Inc.",        
         "Security Name": "Brookdale Senior Living Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BKDV",
@@ -4955,13 +4955,14 @@
     },
     {
         "Symbol": "BLK",
-        "Name": "BlackRock, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "BlackRock, Inc. Common Stock",        
         "Security Name": "BlackRock, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BLKB",
+        "Name": "Blackbaud Inc",
         "ownWebull": true
     },
     {
@@ -6396,10 +6397,10 @@
     },
     {
         "Symbol": "CARS",
-        "Name": "Cars.com Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Cars.com Inc. Common Stock",        
         "Security Name": "Cars.com Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CART",
