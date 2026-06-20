@@ -5572,16 +5572,16 @@
     {
         "Symbol": "BROS",
         "Name": "Dutch Bros Inc. Class A Common Stock",
-        "ownWebull": true,
         "Security Name": "Dutch Bros Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BRSL",
-        "Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",        
         "Security Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BRSP",
@@ -5972,10 +5972,10 @@
     },
     {
         "Symbol": "BUXX",
-        "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
-        "ownEtrade": true,
+        "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",        
         "Security Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "BUYO",
@@ -5985,10 +5985,10 @@
     },
     {
         "Symbol": "BUYW",
-        "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
-        "ownEtrade": true,
+        "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",        
         "Security Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "BUYZ",
@@ -6016,10 +6016,10 @@
     },
     {
         "Symbol": "BVN",
-        "Name": "Buenaventura Mining Company Inc.",
-        "ownEtrade": true,
+        "Name": "Buenaventura Mining Company Inc.",        
         "Security Name": "Buenaventura Mining Company Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BW",
@@ -6059,23 +6059,23 @@
     {
         "Symbol": "BWG",
         "Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
-        "ownEtrade": true,
         "Security Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BWLP",
         "Name": "BW LPG Limited Common Shares",
-        "ownEtrade": true,
         "Security Name": "BW LPG Limited Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BWMX",
-        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
-        "ownEtrade": true,
+        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",        
         "Security Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BWNB",
@@ -6115,10 +6115,10 @@
     },
     {
         "Symbol": "BX",
-        "Name": "Blackstone Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Blackstone Inc.",
         "Security Name": "Blackstone Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BXC",
@@ -6128,10 +6128,10 @@
     },
     {
         "Symbol": "BXMT",
-        "Name": "Blackstone Mortgage Trust, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Blackstone Mortgage Trust, Inc.",
         "Security Name": "Blackstone Mortgage Trust, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BXMX",
@@ -36643,6 +36643,7 @@
     },
     {
         "Symbol": "SSM",
+        "Name": "Sono Group NV",
         "ownWebull": true
     },
     {
@@ -36706,10 +36707,10 @@
     },
     {
         "Symbol": "STAG",
-        "Name": "Stag Industrial, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Stag Industrial, Inc. Common Stock",        
         "Security Name": "Stag Industrial, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "STAX",
@@ -36790,10 +36791,10 @@
     },
     {
         "Symbol": "STLA",
-        "Name": "Stellantis N.V. Common Shares",
-        "ownWebull": true,
+        "Name": "Stellantis N.V. Common Shares",        
         "Security Name": "Stellantis N.V. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "STM",
@@ -36856,10 +36857,10 @@
     },
     {
         "Symbol": "STT",
-        "Name": "State Street Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "State Street Corporation Common Stock",        
         "Security Name": "State Street Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "STT-G",
@@ -39009,10 +39010,9 @@
     },
     {
         "Symbol": "TTE",
-        "Name": "TotalEnergies SE",
-        "ownWebull": true,
-        "Security Name": "TotalEnergies SE",
-        "ETF": "N"
+        "Name": "TotalEnergies SE",        
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TTI",
@@ -39100,10 +39100,10 @@
     },
     {
         "Symbol": "TWLO",
-        "Name": "Twilio Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Twilio Inc. Class A Common Stock",        
         "Security Name": "Twilio Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TWM",
@@ -39257,10 +39257,10 @@
     },
     {
         "Symbol": "U",
-        "Name": "Unity Software Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Unity Software Inc. Common Stock",        
         "Security Name": "Unity Software Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UA",
@@ -39306,17 +39306,17 @@
     },
     {
         "Symbol": "UAVS",
-        "Name": "AgEagle Aerial Systems, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "AgEagle Aerial Systems, Inc. Common Stock",        
         "Security Name": "AgEagle Aerial Systems, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "UBER",
-        "Name": "Uber Technologies, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Uber Technologies, Inc. Common Stock",        
         "Security Name": "Uber Technologies, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UBOT",
@@ -39466,10 +39466,10 @@
     },
     {
         "Symbol": "UHAL",
-        "Name": "U",
-        "ownWebull": true,
+        "Name": "U-Haul Holding Co",        
         "Security Name": "U-Haul Holding Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UHAL.B",
@@ -39491,10 +39491,10 @@
     },
     {
         "Symbol": "UI",
-        "Name": "Ubiquiti Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Ubiquiti Inc. Common Stock",        
         "Security Name": "Ubiquiti Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UIS",
@@ -39528,10 +39528,10 @@
     },
     {
         "Symbol": "UL",
-        "Name": "Unilever PLC Common Stock",
-        "ownWebull": true,
+        "Name": "Unilever PLC Common Stock",        
         "Security Name": "Unilever PLC Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ULE",
@@ -39583,13 +39583,6 @@
     {
         "Symbol": "UMB",
         "Name": "Universal Music Group NV",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
         "ownInteractiveBrokers": true
     },
     {
@@ -39647,10 +39640,10 @@
     },
     {
         "Symbol": "UNH",
-        "Name": "UnitedHealth Group Incorporated Common Stock (DE)",
-        "ownWebull": true,
+        "Name": "UnitedHealth Group Incorporated Common Stock (DE)",        
         "Security Name": "UnitedHealth Group Incorporated Common Stock (DE)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UNL",
@@ -39796,10 +39789,10 @@
     },
     {
         "Symbol": "URI",
-        "Name": "United Rentals, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "United Rentals, Inc. Common Stock",        
         "Security Name": "United Rentals, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "URNM",
@@ -39856,10 +39849,10 @@
     },
     {
         "Symbol": "USB",
-        "Name": "U.S. Bancorp Common Stock",
-        "ownWebull": true,
+        "Name": "U.S. Bancorp Common Stock",        
         "Security Name": "U.S. Bancorp Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "USB-A",
