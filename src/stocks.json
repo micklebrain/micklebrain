@@ -6658,10 +6658,10 @@
     },
     {
         "Symbol": "CCL",
-        "Name": "Carnival Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Carnival Corporation Common Stock",        
         "Security Name": "Carnival Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CCM",
@@ -6847,10 +6847,10 @@
     },
     {
         "Symbol": "CEPU",
-        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
-        "ownEtrade": true,
+        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",        
         "Security Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CERT",
@@ -41914,10 +41914,10 @@
     },
     {
         "Symbol": "WRBY",
-        "Name": "Warby Parker Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Warby Parker Inc. Class A Common Stock",        
         "Security Name": "Warby Parker Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WRD",
@@ -43001,10 +43001,10 @@
     },
     {
         "Symbol": "XYZ",
-        "Name": "Block, Inc. Class A Common Stock,",
-        "ownWebull": true,
+        "Name": "Block, Inc. Class A Common Stock,",        
         "Security Name": "Block, Inc. Class A Common Stock,",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "XYZY",
@@ -43098,10 +43098,10 @@
     },
     {
         "Symbol": "YETI",
-        "Name": "YETI Holdings, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "YETI Holdings, Inc. Common Stock",        
         "Security Name": "YETI Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "YEXT",
@@ -43137,6 +43137,7 @@
     },
     {
         "Symbol": "YJ",
+        "Name": "Yunji Inc",
         "ownEtrade": true
     },
     {
