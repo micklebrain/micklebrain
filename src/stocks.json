@@ -7210,10 +7210,10 @@
     },
     {
         "Symbol": "CHMI",
-        "Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Cherry Hill Mortgage Investment Corporation",        
         "Security Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CHMI-A",
@@ -7324,10 +7324,10 @@
     },
     {
         "Symbol": "CIG",
-        "Name": "Comp En De Mn Cemig ADS American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Comp En De Mn Cemig ADS American Depositary Shares",        
         "Security Name": "Comp En De Mn Cemig ADS American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CIG.C",
@@ -7396,10 +7396,10 @@
     },
     {
         "Symbol": "CINT",
-        "Name": "CI&T Inc Class A Common Shares",
-        "ownWebull": true,
+        "Name": "CI&T Inc Class A Common Shares",        
         "Security Name": "CI&T Inc Class A Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CIO",
@@ -7831,10 +7831,10 @@
     },
     {
         "Symbol": "CNC",
-        "Name": "Centene Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Centene Corporation Common Stock",        
         "Security Name": "Centene Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CNEQ",
@@ -7856,10 +7856,10 @@
     },
     {
         "Symbol": "CNI",
-        "Name": "Canadian National Railway Company Common Stock",
-        "ownWebull": true,
+        "Name": "Canadian National Railway Company Common Stock",        
         "Security Name": "Canadian National Railway Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CNK",
@@ -9047,10 +9047,10 @@
     },
     {
         "Symbol": "CVNA",
-        "Name": "Carvana Co. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Carvana Co. Class A Common Stock",        
         "Security Name": "Carvana Co. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CVNY",
