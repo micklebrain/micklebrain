@@ -41638,10 +41638,10 @@
     },
     {
         "Symbol": "WH",
-        "Name": "Wyndham Hotels & Resorts, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Wyndham Hotels & Resorts, Inc. Common Stock",        
         "Security Name": "Wyndham Hotels & Resorts, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WHD",
