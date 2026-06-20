@@ -243,24 +243,24 @@
     },
     {
         "Symbol": "ABEQ",
-        "Name": "Absolute Select Value ETF",
-        "ownEtrade": true,
+        "Name": "Absolute Select Value ETF",        
         "Security Name": "Absolute Select Value ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABEV",
-        "Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
-        "ownWebull": true,
+        "Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",        
         "Security Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ABFL",
-        "Name": "Abacus FCF Leaders ETF",
-        "ownEtrade": true,
+        "Name": "Abacus FCF Leaders ETF",        
         "Security Name": "Abacus FCF Leaders ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABG",
@@ -271,6 +271,7 @@
     {
         "Symbol": "ABI",
         "Name": "Anheuser-Busch InBev SA/NV",
+        "Country": "Belgian",
         "ownInteractiveBrokers": true
     },
     {
@@ -346,10 +347,10 @@
     },
     {
         "Symbol": "ABT",
-        "Name": "Abbott Laboratories Common Stock",
-        "ownEtrade": true,
+        "Name": "Abbott Laboratories Common Stock",        
         "Security Name": "Abbott Laboratories Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABTS",
@@ -865,10 +866,10 @@
     },
     {
         "Symbol": "AG",
-        "Name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
-        "ownEtrade": true,
+        "Name": "First Majestic Silver Corp. (Canada)",        
         "Security Name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AGBK",
@@ -1236,10 +1237,10 @@
     },
     {
         "Symbol": "AIV",
-        "Name": "Apartment Investment and Management Company Common Stock",
-        "ownEtrade": true,
+        "Name": "Apartment Investment and Management Company Common Stock",        
         "Security Name": "Apartment Investment and Management Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AIVC",
@@ -2403,24 +2404,24 @@
     },
     {
         "Symbol": "AS",
-        "Name": "Amer Sports, Inc. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Amer Sports, Inc. Ordinary Shares",        
         "Security Name": "Amer Sports, Inc. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ASA",
-        "Name": "ASA  Gold and Precious Metals Limited",
-        "ownWebull": true,
+        "Name": "ASA  Gold and Precious Metals Limited",        
         "Security Name": "ASA  Gold and Precious Metals Limited",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ASAN",
-        "Name": "Asana, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Asana, Inc. Class A Common Stock",        
         "Security Name": "Asana, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ASB",
@@ -2448,10 +2449,10 @@
     },
     {
         "Symbol": "ASC",
-        "Name": "Ardmore Shipping Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Ardmore Shipping Corporation Common Stock",        
         "Security Name": "Ardmore Shipping Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ASCE",
@@ -5374,6 +5375,7 @@
     {
         "Symbol": "BOSS",
         "Name": "Hugo Boss",
+        "Country": "Germany",
         "ownInteractiveBrokers": true
     },
     {
@@ -9305,7 +9307,7 @@
     {
         "Symbol": "DANSKE",
         "Name": "Danske Bank A/S",
-        "Country": "Denmark",
+        "Country": "Denmark",        
         "ownInteractiveBrokers": true
     },
     {
@@ -10892,10 +10894,11 @@
     },
     {
         "Symbol": "DTE",
-        "Name": "DEUTSCHE TELEKOM",
-        "ownInteractiveBrokers": true,
+        "Name": "DEUTSCHE TELEKOM",        
         "Security Name": "DTE Energy Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "Germany",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "DTEC",
@@ -23618,13 +23621,7 @@
     {
         "Symbol": "LHV1T",
         "Name": "LHV Group AS",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
+        "Country": "Estonia",
         "ownInteractiveBrokers": true
     },
     {
@@ -24610,6 +24607,7 @@
     {
         "Symbol": "MBG",
         "Name": "Mercedes-Benz Group AG",
+        "Country": "Germany",
         "ownInteractiveBrokers": true
     },
     {
@@ -25716,13 +25714,7 @@
     {
         "Symbol": "MOL",
         "Name": "Mol Hungarian Oil And Gas Pl",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
+        "Country": "Hungary",
         "ownInteractiveBrokers": true
     },
     {
@@ -30333,13 +30325,7 @@
     {
         "Symbol": "PKO",
         "Name": "Powszechna Kasa Oszczednosci Bk Plski SA",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
+        "Country": "Poland",
         "ownInteractiveBrokers": true
     },
     {
@@ -35099,6 +35085,7 @@
     {
         "Symbol": "SIX2",
         "Name": "Sixt SE",
+        "Country": "Germany",
         "ownInteractiveBrokers": true
     },
     {
@@ -39584,6 +39571,7 @@
     {
         "Symbol": "UMB",
         "Name": "Universal Music Group NV",
+        "Country": "Netherlands",
         "ownInteractiveBrokers": true
     },
     {
@@ -40912,14 +40900,15 @@
     {
         "Symbol": "VOW",
         "Name": "Volkswagen AG",
+        "Country": "Germany",
         "ownInteractiveBrokers": true
     },
     {
         "Symbol": "VOX",
-        "Name": "Vanguard Communication Services  ETF",
-        "ownSchwab": true,
+        "Name": "Vanguard Communication Services  ETF",        
         "Security Name": "Vanguard Communication Services  ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownSchwab": true
     },
     {
         "Symbol": "VOYA",
@@ -43044,6 +43033,7 @@
     {
         "Symbol": "YAR",
         "Name": "Yara International ASA",
+        "Country": "Norway",
         "ownInteractiveBrokers": true
     },
     {
@@ -43115,10 +43105,11 @@
     },
     {
         "Symbol": "YEXT",
-        "Name": "Yext, Inc. Common Stock",
-        "ownInteractiveBrokers": true,
+        "Name": "Yext, Inc. Common Stock",        
         "Security Name": "Yext, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "USA",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "YFFI",
