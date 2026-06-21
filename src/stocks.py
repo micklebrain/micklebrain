@@ -160,7 +160,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BKU"]
+stocksToAdd = ["CC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="BankUnited Inc")
+    addStock(stock, name="Chemours Co", dividend=True)

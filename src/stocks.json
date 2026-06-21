@@ -4961,6 +4961,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BLMN",
+        "Name": "Bloomin' Brands Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BLND",
         "Name": "Blend Labs, Inc. Class A Common Stock",
         "Security Name": "Blend Labs, Inc. Class A Common Stock",
@@ -5129,9 +5142,10 @@
     },
     {
         "Symbol": "BMNR",
-        "Name": "BitMine Immersion Technologies, Inc. Common Stock",
+        "Name": "Bitmine Immersion Technologies Inc",
         "Security Name": "BitMine Immersion Technologies, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BMO",
@@ -5236,9 +5250,10 @@
     },
     {
         "Symbol": "BNL",
-        "Name": "Broadstone Net Lease, Inc. Common Stock",
+        "Name": "Broadstone Net Lease Inc",
         "Security Name": "Broadstone Net Lease, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BNO",
@@ -5337,6 +5352,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BOKF",
+        "Name": "BOK Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BOND",
         "Name": "PIMCO Active Bond Exchange",
         "Security Name": "PIMCO Active Bond Exchange-Traded Fund Exchange-Traded Fund",
@@ -5365,6 +5393,19 @@
         "Name": "Hugo Boss",
         "Country": "Germany",
         "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "BOTJ",
+        "Name": "Bank of The James Financial Group, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "BOUT",
@@ -5423,6 +5464,32 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BPRE",
+        "Name": "Bluerock Private Real Estate Fund Closed-Ended Fund",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
+        "Symbol": "BPRN",
+        "Name": "Princeton Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BPYPN",
         "Name": "Brokfld Prpty Pf",
         "ownWebull": true
@@ -5454,7 +5521,8 @@
     {
         "Symbol": "BRBI",
         "Name": "BRBI BR Partners S A American Depository Shares",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BRBR",
@@ -5576,9 +5644,10 @@
     },
     {
         "Symbol": "BRSP",
-        "Name": "BrightSpire Capital, Inc. Class A Common Stock",
+        "Name": "Brightspire Capital Inc",
         "Security Name": "BrightSpire Capital, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BRT",
@@ -5625,6 +5694,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BSET",
+        "Name": "Bassett Furniture Industries Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BSL",
         "Name": "Blackstone Senior Floating Rate 2027 Term Fund Common Shares of Beneficial Interest",
         "Security Name": "Blackstone Senior Floating Rate 2027 Term Fund Common Shares of Beneficial Interest",
@@ -5649,6 +5731,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BSRR",
+        "Name": "Sierra Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BST",
         "Name": "BlackRock Science and Technology Trust Common Shares of Beneficial Interest",
         "Security Name": "BlackRock Science and Technology Trust Common Shares of Beneficial Interest",
@@ -5671,6 +5766,19 @@
         "Name": "Vanguard Short",
         "Security Name": "Vanguard Short-Term Bond ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "BSVN",
+        "Name": "Bank7 Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "BSX",
@@ -5796,9 +5904,10 @@
     },
     {
         "Symbol": "BTX",
-        "Name": "BlackRock Technology and Private Equity Term Trust Common Shares of Beneficial Interest",
+        "Name": "BlackRock Tchnlgy nd Prvt Eqty Trm Trst",
         "Security Name": "BlackRock Technology and Private Equity Term Trust Common Shares of Beneficial Interest",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BTZ",
@@ -5957,6 +6066,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BUSE",
+        "Name": "First Busey Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BUUU",
         "Name": "BUUU Group Ltd",
         "ownEtrade": true
@@ -6046,6 +6168,19 @@
         "Name": "Amplify Commodity Trust Breakwave Tanker Shipping ETF",
         "Security Name": "Amplify Commodity Trust Breakwave Tanker Shipping ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "BWFG",
+        "Name": "Bankwell Financial Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "BWG",
@@ -6184,6 +6319,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BZ",
+        "Name": "Kanzhun Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "BZFD",
         "Name": "BUZZFEED INC",
         "ownWebull": true
@@ -6242,6 +6390,19 @@
         "Security Name": "Cable One, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
+    },
+    {
+        "Symbol": "CAC",
+        "Name": "Camden National Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "CACI",
@@ -6374,6 +6535,19 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CARE",
+        "Name": "Carter Bankshares, Inc.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "CARK",
         "Name": "The Advisors Inner Circle Fund II CastleArk Large Growth ETF",
         "Security Name": "The Advisors Inner Circle Fund II CastleArk Large Growth ETF",
@@ -6408,6 +6582,19 @@
         "Name": "Simplify Exchange Traded Funds Simplify China A Shares PLUS Income ETF",
         "Security Name": "Simplify Exchange Traded Funds Simplify China A Shares PLUS Income ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "CASS",
+        "Name": "Cass Information Systems Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "CASY",
@@ -6453,15 +6640,30 @@
     },
     {
         "Symbol": "CBAN",
-        "Name": "Colony Bankcorp, Inc. Common Stock",
+        "Name": "Colony Bankcorp Inc",
         "Security Name": "Colony Bankcorp, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
+    },
+    {
+        "Symbol": "CBFV",
+        "Name": "CB Financial Services Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "CBL",
-        "Name": "CBL & Associates Properties, Inc. Common Stock",
+        "Name": "CBL & Associates Properties Inc",
         "Security Name": "CBL & Associates Properties, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "CBLS",
@@ -6476,6 +6678,19 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CBNK",
+        "Name": "Capital Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "CBOA",
         "Name": "Calamos ETF Trust Calamos Bitcoin Structured Alt Protection ETF",
         "Security Name": "Calamos ETF Trust Calamos Bitcoin Structured Alt Protection ETF - April",
@@ -6483,9 +6698,10 @@
     },
     {
         "Symbol": "CBOE",
-        "Name": "Cboe Global Markets, Inc. Common Stock",
+        "Name": "Cboe Global Markets Inc",
         "Security Name": "Cboe Global Markets, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "CBOJ",
@@ -6578,9 +6794,10 @@
     },
     {
         "Symbol": "CC",
-        "Name": "Chemours Company (The) Common Stock",
+        "Name": "Chemours Co",
         "Security Name": "Chemours Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "CCC",
