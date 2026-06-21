@@ -441,14 +441,6 @@
     {
         "Symbol": "ACIC",
         "Name": "American Coastal Insurance Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -490,14 +482,6 @@
     {
         "Symbol": "ACMR",
         "Name": "ACM Research Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -1656,8 +1640,7 @@
     },
     {
         "Symbol": "AMIX",
-        "Name": "Autonomix Medical Inc",
-        "ownEtrade": false
+        "Name": "Autonomix Medical Inc"
     },
     {
         "Symbol": "AMJB",
@@ -2014,8 +1997,7 @@
     },
     {
         "Symbol": "APLT",
-        "Name": "Applied Therapeutics",
-        "ownEtrade": false
+        "Name": "Applied Therapeutics"
     },
     {
         "Symbol": "APLU",
@@ -2168,8 +2150,7 @@
     },
     {
         "Symbol": "ARAY",
-        "Name": "Accuray Incorp",
-        "ownEtrade": false
+        "Name": "Accuray Incorp"
     },
     {
         "Symbol": "ARB",
@@ -2223,8 +2204,7 @@
     },
     {
         "Symbol": "AREB",
-        "Name": "American Rebel H",
-        "ownEtrade": false
+        "Name": "American Rebel H"
     },
     {
         "Symbol": "AREN",
@@ -2784,14 +2764,6 @@
     {
         "Symbol": "ATRO",
         "Name": "Astronics Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -4334,8 +4306,7 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "BGFV",
-        "ownEtrade": false
+        "Symbol": "BGFV"
     },
     {
         "Symbol": "BGH",
@@ -4442,8 +4413,7 @@
     },
     {
         "Symbol": "BHILQ",
-        "Name": "Benson Hill Inc",
-        "ownEtrade": false
+        "Name": "Benson Hill Inc"
     },
     {
         "Symbol": "BHK",
@@ -4578,8 +4548,7 @@
     },
     {
         "Symbol": "BINI",
-        "Name": "Bollinger Innovations Inc",
-        "ownEtrade": false
+        "Name": "Bollinger Innovations Inc"
     },
     {
         "Symbol": "BINT",
@@ -4612,8 +4581,7 @@
     },
     {
         "Symbol": "BIOX",
-        "Name": "Bioceres Crop Solutions Corp",
-        "ownEtrade": false
+        "Name": "Bioceres Crop Solutions Corp"
     },
     {
         "Symbol": "BIP",
@@ -5006,14 +4974,6 @@
     {
         "Symbol": "BLMN",
         "Name": "Bloomin' Brands Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -5024,8 +4984,7 @@
     },
     {
         "Symbol": "BLNK",
-        "Name": "Blink Charging Co",
-        "ownEtrade": false
+        "Name": "Blink Charging Co"
     },
     {
         "Symbol": "BLOK",
@@ -5397,14 +5356,6 @@
     {
         "Symbol": "BOKF",
         "Name": "BOK Financial Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -5440,14 +5391,6 @@
     {
         "Symbol": "BOTJ",
         "Name": "Bank of The James Financial Group, Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -5509,27 +5452,11 @@
     {
         "Symbol": "BPRE",
         "Name": "Bluerock Private Real Estate Fund Closed-Ended Fund",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
         "Symbol": "BPRN",
         "Name": "Princeton Bancorp Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -5740,14 +5667,6 @@
     {
         "Symbol": "BSET",
         "Name": "Bassett Furniture Industries Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -5777,14 +5696,6 @@
     {
         "Symbol": "BSRR",
         "Name": "Sierra Bancorp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -5814,14 +5725,6 @@
     {
         "Symbol": "BSVN",
         "Name": "Bank7 Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6112,14 +6015,6 @@
     {
         "Symbol": "BUSE",
         "Name": "First Busey Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6216,14 +6111,6 @@
     {
         "Symbol": "BWFG",
         "Name": "Bankwell Financial Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6353,8 +6240,7 @@
     },
     {
         "Symbol": "BYND",
-        "Name": "Beyond Meat",
-        "ownWebull": false
+        "Name": "Beyond Meat"
     },
     {
         "Symbol": "BYRE",
@@ -6365,14 +6251,6 @@
     {
         "Symbol": "BZ",
         "Name": "Kanzhun Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6438,14 +6316,6 @@
     {
         "Symbol": "CAC",
         "Name": "Camden National Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6581,14 +6451,6 @@
     {
         "Symbol": "CARE",
         "Name": "Carter Bankshares, Inc.",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6630,14 +6492,6 @@
     {
         "Symbol": "CASS",
         "Name": "Cass Information Systems Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6692,14 +6546,6 @@
     {
         "Symbol": "CBFV",
         "Name": "CB Financial Services Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6724,14 +6570,6 @@
     {
         "Symbol": "CBNK",
         "Name": "Capital Bancorp Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -6846,28 +6684,12 @@
     {
         "Symbol": "CCAP",
         "Name": "Crescent Capital BDC Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
     {
         "Symbol": "CCBG",
         "Name": "Capital City Bank Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -6956,14 +6778,6 @@
     {
         "Symbol": "CCNE",
         "Name": "CNB Financial Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -6981,14 +6795,6 @@
     {
         "Symbol": "CCOI",
         "Name": "Cogent Communications Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7043,10 +6849,10 @@
     },
     {
         "Symbol": "CDLR",
-        "Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
-        "ownWebull": true,
+        "Name": "Cadeler A/S",        
         "Security Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CDP",
@@ -7079,20 +6885,11 @@
     },
     {
         "Symbol": "CDT",
-        "Name": "CDT Equity",
-        "ownEtrade": false
+        "Name": "CDT Equity"
     },
     {
         "Symbol": "CDW",
         "Name": "CDW common stock",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7142,14 +6939,6 @@
     {
         "Symbol": "CEG",
         "Name": "Constellation Energy Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7224,42 +7013,18 @@
     {
         "Symbol": "CFBK",
         "Name": "CF Bankshares Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
     {
         "Symbol": "CFFI",
         "Name": "C&F Financial Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
     {
         "Symbol": "CFFN",
         "Name": "Capitol Federal Financial Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7325,14 +7090,6 @@
     {
         "Symbol": "CGBD",
         "Name": "Carlyle Secured Lending Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7473,14 +7230,6 @@
     {
         "Symbol": "CGNX",
         "Name": "Cognex Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7563,14 +7312,6 @@
     {
         "Symbol": "CHCO",
         "Name": "City Holding Co",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7589,14 +7330,6 @@
     {
         "Symbol": "CHDN",
         "Name": "Churchill Downs Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7645,14 +7378,6 @@
     {
         "Symbol": "CHMG",
         "Name": "Chemung Financial Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7703,14 +7428,6 @@
     {
         "Symbol": "CHRD",
         "Name": "Chord Energy Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7721,8 +7438,7 @@
     },
     {
         "Symbol": "CHSN",
-        "Name": "CHANSON INTL HLDG",
-        "ownEtrade": false
+        "Name": "CHANSON INTL HLDG"
     },
     {
         "Symbol": "CHT",
@@ -7788,14 +7504,6 @@
     {
         "Symbol": "CIFR",
         "Name": "Cipher Digital Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -7873,14 +7581,6 @@
     {
         "Symbol": "CINF",
         "Name": "Cincinnati Financial Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7912,14 +7612,6 @@
     {
         "Symbol": "CIVB",
         "Name": "Civista Bancshares Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -7956,14 +7648,6 @@
     {
         "Symbol": "CLAR",
         "Name": "Clarus Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -8217,14 +7901,6 @@
     {
         "Symbol": "CME",
         "Name": "CME Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -8340,14 +8016,6 @@
     {
         "Symbol": "CMTV",
         "Name": "Community Bancorp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -8453,14 +8121,6 @@
     {
         "Symbol": "CNOB",
         "Name": "ConnectOne Bancorp Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -8752,14 +8412,6 @@
     {
         "Symbol": "CORZ",
         "Name": "Core Scientific Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true
     },
     {
@@ -12587,8 +12239,7 @@
     },
     {
         "Symbol": "ELBM",
-        "Name": "Electra Battery Materials Corp",
-        "ownWebull": false
+        "Name": "Electra Battery Materials Corp"
     },
     {
         "Symbol": "ELC",
@@ -12773,8 +12424,7 @@
     },
     {
         "Symbol": "EMISR",
-        "Name": "EMMIS ACQUISITION CORP.",
-        "ownEtrade": false
+        "Name": "EMMIS ACQUISITION CORP."
     },
     {
         "Symbol": "EMLC",
@@ -14102,12 +13752,7 @@
     },
     {
         "Symbol": "FABC",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownWebull": true
     },
     {
         "Symbol": "FAF",
@@ -14147,8 +13792,7 @@
     },
     {
         "Symbol": "FATBB",
-        "Name": "Fat Brands",
-        "ownEtrade": false
+        "Name": "Fat Brands"
     },
     {
         "Symbol": "FAUG",
@@ -15272,12 +14916,7 @@
     },
     {
         "Symbol": "FLNA",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownWebull": true
     },
     {
         "Symbol": "FLNC",
@@ -16028,12 +15667,7 @@
     },
     {
         "Symbol": "FSV",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "FSYD",
@@ -16505,8 +16139,7 @@
     },
     {
         "Symbol": "GAUZ",
-        "Name": "Gauzy Ltd",
-        "ownWebull": false
+        "Name": "Gauzy Ltd"
     },
     {
         "Symbol": "GBAB",
@@ -16750,7 +16383,6 @@
         "Symbol": "GDX",
         "Name": "VanEck Gold Miners ETF",
         "ownWebull": true,
-        "ownRobinhood": false,
         "Security Name": "VanEck Gold Miners ETF",
         "ETF": "Y"
     },
@@ -16947,12 +16579,7 @@
     },
     {
         "Symbol": "GGAL",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "GGB",
@@ -17437,12 +17064,7 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "GMEX",
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Symbol": "GMEX"
     },
     {
         "Symbol": "GMEY",
@@ -17731,12 +17353,7 @@
     },
     {
         "Symbol": "GPGI",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "GPI",
@@ -21049,12 +20666,7 @@
     },
     {
         "Symbol": "IONR",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "IOO",
@@ -21226,8 +20838,7 @@
     },
     {
         "Symbol": "IRBT",
-        "Name": "Irobot",
-        "ownEtrade": false
+        "Name": "Irobot"
     },
     {
         "Symbol": "IRET",
@@ -23194,12 +22805,7 @@
     },
     {
         "Symbol": "KLAC",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownWebull": true
     },
     {
         "Symbol": "KLAR",
@@ -23639,8 +23245,7 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "KUST",
-        "ownEtrade": false
+        "Symbol": "KUST"
     },
     {
         "Symbol": "KVLE",
@@ -23694,8 +23299,7 @@
     },
     {
         "Symbol": "KXIN",
-        "Name": "Kaixin Holdings",
-        "ownEtrade": false
+        "Name": "Kaixin Holdings"
     },
     {
         "Symbol": "KYIV",
@@ -24312,12 +23916,7 @@
     },
     {
         "Symbol": "LITE",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownWebull": true
     },
     {
         "Symbol": "LITL",
@@ -24879,12 +24478,7 @@
     },
     {
         "Symbol": "LYTS",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "LYV",
@@ -25378,8 +24972,7 @@
     },
     {
         "Symbol": "MDXH",
-        "Name": "MDxHealth SA",
-        "ownEtrade": false
+        "Name": "MDxHealth SA"
     },
     {
         "Symbol": "MDY",
@@ -25685,8 +25278,7 @@
     },
     {
         "Symbol": "MGN",
-        "Name": "MEGAN HLDGS LTD",
-        "ownEtrade": false
+        "Name": "MEGAN HLDGS LTD"
     },
     {
         "Symbol": "MGNR",
@@ -26640,8 +26232,7 @@
     },
     {
         "Symbol": "MSGY",
-        "Name": "MASONGLORY LTD",
-        "ownEtrade": false
+        "Name": "MASONGLORY LTD"
     },
     {
         "Symbol": "MSI",
@@ -29475,8 +29066,7 @@
     },
     {
         "Symbol": "ORIS",
-        "Name": "Oriental Rise Holdings Ltd",
-        "ownEtrade": false
+        "Name": "Oriental Rise Holdings Ltd"
     },
     {
         "Symbol": "ORLA",
@@ -29795,8 +29385,7 @@
     },
     {
         "Symbol": "PASW",
-        "Name": "Ping An Biomedical",
-        "ownEtrade": false
+        "Name": "Ping An Biomedical"
     },
     {
         "Symbol": "PATH",
@@ -29844,12 +29433,7 @@
     },
     {
         "Symbol": "PAYX",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "PB",
@@ -30560,12 +30144,7 @@
     },
     {
         "Symbol": "PGNY",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "PGP",
@@ -30679,12 +30258,7 @@
     },
     {
         "Symbol": "PHOE",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownEtrade": true
     },
     {
         "Symbol": "PHR",
@@ -30731,12 +30305,7 @@
     },
     {
         "Symbol": "PICS",
-        "ownWebull": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "ownWebull": true
     },
     {
         "Symbol": "PIEQ",
@@ -31252,8 +30821,7 @@
     },
     {
         "Symbol": "POM",
-        "Name": "POMDOCTOR LTD",
-        "ownEtrade": false
+        "Name": "POMDOCTOR LTD"
     },
     {
         "Symbol": "PONX",
@@ -31501,8 +31069,7 @@
     },
     {
         "Symbol": "PRPL",
-        "Name": "Purple Innovation Inc. Common Stock",
-        "ownEtrade": false
+        "Name": "Purple Innovation Inc. Common Stock"
     },
     {
         "Symbol": "PRS",
@@ -35299,8 +34866,7 @@
     },
     {
         "Symbol": "SGBX",
-        "Name": "Safe & Green Holdings Corp",
-        "ownEtrade": false
+        "Name": "Safe & Green Holdings Corp"
     },
     {
         "Symbol": "SGDJ",
@@ -36169,8 +35735,7 @@
     },
     {
         "Symbol": "SMX",
-        "Name": "Security Matters PLC",
-        "ownEtrade": false
+        "Name": "Security Matters PLC"
     },
     {
         "Symbol": "SN",
@@ -36200,8 +35765,7 @@
     },
     {
         "Symbol": "SNCY",
-        "Name": "Sun Country Airlines Holdings Inc",
-        "ownEtrade": false
+        "Name": "Sun Country Airlines Holdings Inc"
     },
     {
         "Symbol": "SNDA",
@@ -36403,8 +35967,7 @@
     },
     {
         "Symbol": "SONDQ",
-        "Name": "SONDER HOLDINGS INC",
-        "ownEtrade": false
+        "Name": "SONDER HOLDINGS INC"
     },
     {
         "Symbol": "SONY",
@@ -36444,8 +36007,7 @@
     },
     {
         "Symbol": "SOWG",
-        "Name": "Sow Good Inc",
-        "ownEtrade": false
+        "Name": "Sow Good Inc"
     },
     {
         "Symbol": "SOXL",
@@ -36480,10 +36042,6 @@
     {
         "Symbol": "SPAXX",
         "Name": "Fidelity Government Money Market Fund",
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
         "ownFidelity": true
     },
     {
@@ -37982,8 +37540,7 @@
     {
         "Symbol": "TCEHY",
         "Name": "Tencent",
-        "ownWebull": true,
-        "ownRobinhood": false
+        "ownWebull": true
     },
     {
         "Symbol": "TCHP",
@@ -38396,8 +37953,7 @@
     },
     {
         "Symbol": "TGHL",
-        "Name": "The GrowHub Limited",
-        "ownEtrade": false
+        "Name": "The GrowHub Limited"
     },
     {
         "Symbol": "TGLB",
@@ -38452,8 +38008,7 @@
     },
     {
         "Symbol": "THAR",
-        "Name": "Tharimmune Inc",
-        "ownEtrade": false
+        "Name": "Tharimmune Inc"
     },
     {
         "Symbol": "THC",
@@ -40252,8 +39807,7 @@
     },
     {
         "Symbol": "UOKA",
-        "Name": "MDJM LTD",
-        "ownEtrade": false
+        "Name": "MDJM LTD"
     },
     {
         "Symbol": "UP",
@@ -42233,8 +41787,7 @@
     },
     {
         "Symbol": "WHLR",
-        "Name": "Wheeler Real Estate Invt Tr",
-        "ownEtrade": false
+        "Name": "Wheeler Real Estate Invt Tr"
     },
     {
         "Symbol": "WHR",
@@ -43537,8 +43090,7 @@
     },
     {
         "Symbol": "XXII",
-        "Name": "22Nd Century",
-        "ownEtrade": false
+        "Name": "22Nd Century"
     },
     {
         "Symbol": "XXRP",
@@ -43737,8 +43289,7 @@
     },
     {
         "Symbol": "YMAT",
-        "Name": "J-Star Holding",
-        "ownWebull": false
+        "Name": "J-Star Holding"
     },
     {
         "Symbol": "YMAX",
