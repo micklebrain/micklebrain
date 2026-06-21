@@ -7471,6 +7471,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "CGNX",
+        "Name": "Cognex Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CGRO",
         "Name": "Tidal Trust II CoreValues Alpha Greater China Growth ETF",
         "Security Name": "Tidal Trust II CoreValues Alpha Greater China Growth ETF",
@@ -7547,6 +7561,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CHCO",
+        "Name": "City Holding Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CHCT",
         "Name": "Community Healthcare Trust Incorporated Common Stock",
         "Security Name": "Community Healthcare Trust Incorporated Common Stock",
@@ -7557,6 +7585,20 @@
         "Name": "Church & Dwight Company, Inc. Common Stock",
         "Security Name": "Church & Dwight Company, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CHDN",
+        "Name": "Churchill Downs Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CHE",
@@ -7599,6 +7641,20 @@
         "Symbol": "CHKP",
         "Name": "Check Point Software Technologies Ltd",
         "ownEtrade": true
+    },
+    {
+        "Symbol": "CHMG",
+        "Name": "Chemung Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CHMI",
@@ -7645,6 +7701,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CHRD",
+        "Name": "Chord Energy Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CHRW",
         "Name": "C H Robinson Worldwide Inc",
         "ownWebull": true
@@ -7674,9 +7744,10 @@
     },
     {
         "Symbol": "CI",
-        "Name": "The Cigna Group Common Stock",
+        "Name": "Cigna Group",
         "Security Name": "The Cigna Group Common Stock",
-        "ETF": "N"
+        "ETF": false,
+        "dividend": true
     },
     {
         "Symbol": "CIA",
@@ -7800,6 +7871,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CINF",
+        "Name": "Cincinnati Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CINT",
         "Name": "CI&T Inc Class A Common Shares",
         "Security Name": "CI&T Inc Class A Common Shares",
@@ -7823,6 +7908,20 @@
         "Name": "CION Investment Corporation Common Stock",
         "Security Name": "CION Investment Corporation Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CIVB",
+        "Name": "Civista Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CIVI",
@@ -7853,6 +7952,20 @@
         "ownWebull": true,
         "Security Name": "Colgate-Palmolive Company Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CLAR",
+        "Name": "Clarus Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CLB",
@@ -8102,6 +8215,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CME",
+        "Name": "CME Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CMF",
         "Name": "iShares California Muni Bond ETF",
         "Security Name": "iShares California Muni Bond ETF",
@@ -8211,6 +8338,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CMTV",
+        "Name": "Community Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CMU",
         "Name": "MFS Municipal Income Trust Common Stock",
         "Security Name": "MFS Municipal Income Trust Common Stock",
@@ -8308,6 +8449,20 @@
         "Name": "CNO Financial Group, Inc. 5.125% Subordinated Debentures due 2060",
         "Security Name": "CNO Financial Group, Inc. 5.125% Subordinated Debentures due 2060",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CNOB",
+        "Name": "ConnectOne Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CNP",

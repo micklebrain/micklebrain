@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CGBD"]
+stocksToAdd = ["CNOB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Carlyle Secured Lending Inc", dividend=True)
+    addStock(stock, name="ConnectOne Bancorp Inc", dividend=True)
