@@ -231,10 +231,10 @@
     },
     {
         "Symbol": "ABCB",
-        "Name": "Ameris Bancorp Common Stock",
-        "ownEtrade": true,
+        "Name": "Ameris Bancorp",        
         "Security Name": "Ameris Bancorp Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABCL",
@@ -28736,10 +28736,10 @@
     },
     {
         "Symbol": "ONL",
-        "Name": "Orion Properties Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Orion Properties Inc.",        
         "Security Name": "Orion Properties Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ONLN",
@@ -28755,10 +28755,10 @@
     },
     {
         "Symbol": "ONON",
-        "Name": "On Holding AG Class A Ordinary Shares",
-        "ownWebull": true,
+        "Name": "On Holding AG",        
         "Security Name": "On Holding AG Class A Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ONTF",
@@ -28774,10 +28774,10 @@
     },
     {
         "Symbol": "OOMA",
-        "Name": "Ooma, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Ooma, Inc.",        
         "Security Name": "Ooma, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "OOSP",
@@ -28850,6 +28850,7 @@
     },
     {
         "Symbol": "OPRA",
+        "Name": "Opera Ltd",
         "ownWebull": true
     },
     {
@@ -28884,10 +28885,10 @@
     },
     {
         "Symbol": "ORCL",
-        "Name": "Oracle Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Oracle Corporation",        
         "Security Name": "Oracle Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ORGO",
@@ -28907,10 +28908,10 @@
     },
     {
         "Symbol": "ORLA",
-        "Name": "Orla Mining Ltd. Common Shares",
-        "ownWebull": true,
+        "Name": "Orla Mining Ltd.",        
         "Security Name": "Orla Mining Ltd. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ORN",
@@ -29045,6 +29046,7 @@
     },
     {
         "Symbol": "OWLS",
+        "Name": "OBOOK Holdings Inc",
         "ownEtrade": true
     },
     {
@@ -29083,10 +29085,10 @@
     },
     {
         "Symbol": "OXY",
-        "Name": "Occidental Petroleum Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Occidental Petroleum Corporation",        
         "Security Name": "Occidental Petroleum Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "OXY.W",
@@ -29142,10 +29144,10 @@
     },
     {
         "Symbol": "PAGS",
-        "Name": "PagSeguro Digital Ltd. Class A Common Shares",
-        "ownWebull": true,
+        "Name": "PagSeguro Digital Ltd. Class A Common Shares",        
         "Security Name": "PagSeguro Digital Ltd. Class A Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PAI",
@@ -29173,10 +29175,10 @@
     },
     {
         "Symbol": "PAM",
-        "Name": "Pampa Energia S.A.",
-        "ownEtrade": true,
+        "Name": "Pampa Energia S.A.",        
         "Security Name": "Pampa Energia S.A.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "PAMC",
