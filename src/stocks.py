@@ -17,7 +17,7 @@ def remove_keys(obj, keys_to_remove):
     else:
         return obj
     
-def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False, dividend=True):
+def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False, dividend=True, ETF=False):
     if symbol == "":
         return
     
@@ -35,7 +35,8 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
         "ownAlly": ownAlly,
         "ownFidelity": ownFidelity,
         "ownInteractiveBrokers": ownInteractiveBrokers,
-        "dividend": dividend
+        "dividend": dividend,
+        "ETF": ETF
     }
 
     found = False
@@ -60,6 +61,7 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
             if name:
                 item["Name"] = name
             item["dividend"] = dividend
+            item["ETF"] = ETF
             found = True
             print("stock updated")
             break
@@ -160,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CC"]
+stocksToAdd = ["IWB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Chemours Co", dividend=True)
+    addStock(stock, name="iShares Russell 1000 ETF")

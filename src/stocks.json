@@ -439,6 +439,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ACIC",
+        "Name": "American Coastal Insurance Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ACIO",
         "Name": "Aptus Collared Investment Opportunity ETF",
         "Security Name": "Aptus Collared Investment Opportunity ETF",
@@ -472,6 +486,19 @@
         "Name": "AECOM Common Stock",
         "Security Name": "AECOM Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ACMR",
+        "Name": "ACM Research Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "ACN",
@@ -567,9 +594,10 @@
     },
     {
         "Symbol": "AD",
-        "Name": "Array Digital Infrastructure, Inc. Common Shares",
+        "Name": "Array Digital Infrastructure Inc",
         "Security Name": "Array Digital Infrastructure, Inc. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "ADAG",
@@ -755,9 +783,10 @@
     },
     {
         "Symbol": "AESI",
-        "Name": "Atlas Energy Solutions Inc. Common Stock",
+        "Name": "Atlas Energy Solutions Inc",
         "Security Name": "Atlas Energy Solutions Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "AESR",
@@ -2753,6 +2782,19 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ATRO",
+        "Name": "Astronics Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "ATS",
         "Name": "ATS Corporation Common Shares",
         "Security Name": "ATS Corporation Common Shares",
@@ -4038,9 +4080,10 @@
     },
     {
         "Symbol": "BE",
-        "Name": "Bloom Energy Corporation Class A Common Stock",
+        "Name": "Bloom Energy Corp",
         "Security Name": "Bloom Energy Corporation Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BEBE",
@@ -5576,10 +5619,11 @@
     },
     {
         "Symbol": "BRK-A",
-        "Name": "Berkshire Hathaway Inc. Common Stock",
+        "Name": "Berkshire Hathaway Inc Class A",
         "ownRobinhood": true,
         "Security Name": "Berkshire Hathaway Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BRK-B",
@@ -7530,6 +7574,19 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CIFR",
+        "Name": "Cipher Digital Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
+    },
+    {
         "Symbol": "CIG",
         "Name": "Comp En De Mn Cemig ADS American Depositary Shares",
         "Security Name": "Comp En De Mn Cemig ADS American Depositary Shares",
@@ -8395,6 +8452,19 @@
         "Name": "Volatility Shares Trust 2x Corn ETF",
         "Security Name": "Volatility Shares Trust 2x Corn ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "CORZ",
+        "Name": "Core Scientific Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true
     },
     {
         "Symbol": "COSO",
@@ -21253,7 +21323,8 @@
         "Symbol": "IWB",
         "Name": "iShares Russell 1000 ETF",
         "Security Name": "iShares Russell 1000 ETF",
-        "ETF": "Y"
+        "ETF": true,
+        "dividend": true
     },
     {
         "Symbol": "IWC",
