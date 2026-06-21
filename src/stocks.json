@@ -9798,6 +9798,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "CZWI",
+        "Name": "Citizens Community Bancorp Inc.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "D",
         "Name": "Dominion Energy, Inc. Common Stock",
         "Security Name": "Dominion Energy, Inc. Common Stock",
@@ -10071,6 +10085,20 @@
         "Name": "Ducommun Incorporated Common Stock",
         "Security Name": "Ducommun Incorporated Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "DCOM",
+        "Name": "Dime Commercial Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DCOR",
@@ -10587,6 +10615,20 @@
         "ownWebull": true,
         "Security Name": "Dollar General Corporation Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "DGICA",
+        "Name": "Donegal Group Inc Class A",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DGIN",
