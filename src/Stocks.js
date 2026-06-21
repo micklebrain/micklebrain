@@ -31,6 +31,7 @@ function Stocks() {
   });
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState("");
   const [showDividendOnly, setShowDividendOnly] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
@@ -48,6 +49,14 @@ function Stocks() {
     () => [...items, ...extraStocks],
     [items, extraStocks]
   );
+
+  const countries = React.useMemo(() => {
+    const set = new Set();
+    effectiveItems.forEach((item) => {
+      if (item.Country) set.add(item.Country);
+    });
+    return [...set].sort();
+  }, [effectiveItems]);
 
   const brokerToOwnershipField = {
     webull: "ownWebull",
@@ -82,6 +91,7 @@ function Stocks() {
     // include moomoo in overall owned check
     const ownedInAny = isOwnedInAnyBroker || !!item.ownMoomoo;
 
+    if (selectedCountry && item.Country !== selectedCountry) return false;
     if (showDividendOnly && !item.dividend) return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
@@ -111,6 +121,7 @@ function Stocks() {
       interactiveBrokers: false,
       moomoo: false,
     });
+    setSelectedCountry("");
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly(false);
     setShowDividendOnly(false);
@@ -201,6 +212,20 @@ function Stocks() {
         >
           All
         </button>
+        <label className="stocks-filter-select">
+          <span>Country</span>
+          <select
+            value={selectedCountry}
+            onChange={(e) => setSelectedCountry(e.target.value)}
+          >
+            <option value="">All Countries</option>
+            {countries.map((country) => (
+              <option key={country} value={country}>
+                {country}
+              </option>
+            ))}
+          </select>
+        </label>
         <button
           type="button"
           className={`stocks-filter-btn ${selectedBrokers.webull ? "active" : ""}`}

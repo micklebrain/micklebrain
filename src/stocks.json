@@ -8623,6 +8623,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CPHC",
+        "Name": "Canterbury Park Holding Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CPHI",
         "Name": "China Pharma Holdings, Inc. Common Stock",
         "Security Name": "China Pharma Holdings, Inc. Common Stock",
@@ -8828,6 +8842,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CRAI",
+        "Name": "CRA International Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CRAK",
         "Name": "VanEck Oil Refiners ETF",
         "Security Name": "VanEck Oil Refiners ETF",
@@ -8869,6 +8897,20 @@
         "ownWebull": true,
         "Security Name": "Circle Internet Group, Inc. Class A Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CRCT",
+        "Name": "Cricut Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CRD.A",
