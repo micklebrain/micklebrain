@@ -8534,9 +8534,9 @@
     {
         "Symbol": "CP",
         "Name": "Canadian Pacific Kansas City Limited Common Shares",
-        "ownWebull": true,
         "Security Name": "Canadian Pacific Kansas City Limited Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CPA",
@@ -8546,10 +8546,10 @@
     },
     {
         "Symbol": "CPAC",
-        "Name": "Cementos Pacasmayo S.A.A. American Depositary Shares (Each representing five Common Shares)",
-        "ownWebull": true,
+        "Name": "Cementos Pacasmayo S.A.A.",
         "Security Name": "Cementos Pacasmayo S.A.A. American Depositary Shares (Each representing five Common Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CPAI",
@@ -8738,13 +8738,13 @@
     },
     {
         "Symbol": "CPST",
-        "Name": "Calamos ETF Trust Calamos S&P 500 Structured Alt Protection ETF  September",
+        "Name": "Calamos ETF Trust Calamos S&P 500 Structured Alt Protection ETF September",
         "Security Name": "Calamos ETF Trust Calamos S&P 500 Structured Alt Protection ETF  September",
         "ETF": "Y"
     },
     {
         "Symbol": "CPSU",
-        "Name": "Calamos ETF Trust Calamos S&P 500 Structured Alt Protection ETF   June",
+        "Name": "Calamos ETF Trust Calamos S&P 500 Structured Alt Protection ETF June",
         "Security Name": "Calamos ETF Trust Calamos S&P 500 Structured Alt Protection ETF   June",
         "ETF": "Y"
     },
@@ -8756,10 +8756,10 @@
     },
     {
         "Symbol": "CPT",
-        "Name": "Camden Property Trust Common Stock",
-        "ownWebull": true,
+        "Name": "Camden Property Trust",        
         "Security Name": "Camden Property Trust Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CPXR",
