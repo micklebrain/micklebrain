@@ -9147,6 +9147,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CSPI",
+        "Name": "CSP Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CSR",
         "Name": "D/B/A Centerspace Common Stock",
         "Security Name": "D/B/A Centerspace Common Stock",
@@ -9184,6 +9198,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CSWC",
+        "Name": "Capital Southwest Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "CSX",
+        "Name": "CSX Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CTA",
         "Name": "Simplify Exchange Traded Funds Simplify Managed Futures Strategy ETF",
         "Security Name": "Simplify Exchange Traded Funds Simplify Managed Futures Strategy ETF",
@@ -9202,10 +9244,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CTAS",
+        "Name": "Cintas Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CTBB",
         "Name": "Qwest Corporation 6.5% Notes due 2056",
         "Security Name": "Qwest Corporation 6.5% Notes due 2056",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CTBI",
+        "Name": "Community Trust Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CTDD",
@@ -9251,9 +9321,10 @@
     },
     {
         "Symbol": "CTO",
-        "Name": "CTO Realty Growth, Inc. Common Stock",
+        "Name": "CTO Realty Growth Inc",
         "Security Name": "CTO Realty Growth, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": false,
+        "dividend": true
     },
     {
         "Symbol": "CTO-A",
@@ -9275,9 +9346,10 @@
     },
     {
         "Symbol": "CTRE",
-        "Name": "CareTrust REIT, Inc. Common Stock",
+        "Name": "Caretrust REIT Inc",
         "Security Name": "CareTrust REIT, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": false,
+        "dividend": true
     },
     {
         "Symbol": "CTRI",
@@ -9287,9 +9359,10 @@
     },
     {
         "Symbol": "CTS",
-        "Name": "CTS Corporation Common Stock",
+        "Name": "CTS Corp",
         "Security Name": "CTS Corporation Common Stock",
-        "ETF": "N"
+        "ETF": false,
+        "dividend": true
     },
     {
         "Symbol": "CTSH",
@@ -9298,9 +9371,10 @@
     },
     {
         "Symbol": "CTVA",
-        "Name": "Corteva, Inc. Common Stock",
+        "Name": "Corteva Inc",
         "Security Name": "Corteva, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": false,
+        "dividend": true
     },
     {
         "Symbol": "CTW",
@@ -9389,6 +9463,20 @@
         "Name": "ETF Opportunities Trust Cultivar ETF",
         "Security Name": "ETF Opportunities Trust Cultivar ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "CVBF",
+        "Name": "CVB Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CVE",
@@ -9531,6 +9619,34 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CWBC",
+        "Name": "Community West Bancshares",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "CWCO",
+        "Name": "Consolidated Water Co Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CWEB",
         "Name": "Direxion Daily CSI China Internet Index Bull 2X Shares",
         "Security Name": "Direxion Daily CSI China Internet Index Bull 2X Shares",
@@ -9661,6 +9777,20 @@
         "Symbol": "CZFS",
         "Name": "Citizens Financial Services Inc",
         "ownEtrade": true
+    },
+    {
+        "Symbol": "CZNC",
+        "Name": "Citizens & Northern Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CZR",
@@ -24191,6 +24321,20 @@
         "Name": "Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock",
         "Security Name": "Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LFTO",
+        "Name": "Liftoff Mobile, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LGCY",
