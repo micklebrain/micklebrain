@@ -243,21 +243,21 @@
     },
     {
         "Symbol": "ABEQ",
-        "Name": "Absolute Select Value ETF",        
+        "Name": "Absolute Select Value ETF",
         "Security Name": "Absolute Select Value ETF",
         "ETF": "Y",
         "ownEtrade": true
     },
     {
         "Symbol": "ABEV",
-        "Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",        
+        "Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
         "Security Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "ABFL",
-        "Name": "Abacus FCF Leaders ETF",        
+        "Name": "Abacus FCF Leaders ETF",
         "Security Name": "Abacus FCF Leaders ETF",
         "ETF": "Y",
         "ownEtrade": true
@@ -347,7 +347,7 @@
     },
     {
         "Symbol": "ABT",
-        "Name": "Abbott Laboratories Common Stock",        
+        "Name": "Abbott Laboratories Common Stock",
         "Security Name": "Abbott Laboratories Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -866,7 +866,7 @@
     },
     {
         "Symbol": "AG",
-        "Name": "First Majestic Silver Corp. (Canada)",        
+        "Name": "First Majestic Silver Corp. (Canada)",
         "Security Name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
         "ETF": "N",
         "ownEtrade": true
@@ -1237,7 +1237,7 @@
     },
     {
         "Symbol": "AIV",
-        "Name": "Apartment Investment and Management Company Common Stock",        
+        "Name": "Apartment Investment and Management Company Common Stock",
         "Security Name": "Apartment Investment and Management Company Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -2404,21 +2404,21 @@
     },
     {
         "Symbol": "AS",
-        "Name": "Amer Sports, Inc. Ordinary Shares",        
+        "Name": "Amer Sports, Inc. Ordinary Shares",
         "Security Name": "Amer Sports, Inc. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "ASA",
-        "Name": "ASA  Gold and Precious Metals Limited",        
+        "Name": "ASA  Gold and Precious Metals Limited",
         "Security Name": "ASA  Gold and Precious Metals Limited",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "ASAN",
-        "Name": "Asana, Inc. Class A Common Stock",        
+        "Name": "Asana, Inc. Class A Common Stock",
         "Security Name": "Asana, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -2449,7 +2449,7 @@
     },
     {
         "Symbol": "ASC",
-        "Name": "Ardmore Shipping Corporation Common Stock",        
+        "Name": "Ardmore Shipping Corporation Common Stock",
         "Security Name": "Ardmore Shipping Corporation Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -4634,7 +4634,7 @@
     },
     {
         "Symbol": "BIRK",
-        "Name": "Birkenstock Holding plc Ordinary Shares",        
+        "Name": "Birkenstock Holding plc Ordinary Shares",
         "Security Name": "Birkenstock Holding plc Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -4766,7 +4766,7 @@
     },
     {
         "Symbol": "BKD",
-        "Name": "Brookdale Senior Living Inc.",        
+        "Name": "Brookdale Senior Living Inc.",
         "Security Name": "Brookdale Senior Living Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4956,7 +4956,7 @@
     },
     {
         "Symbol": "BLK",
-        "Name": "BlackRock, Inc. Common Stock",        
+        "Name": "BlackRock, Inc. Common Stock",
         "Security Name": "BlackRock, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -5581,7 +5581,7 @@
     },
     {
         "Symbol": "BRSL",
-        "Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",        
+        "Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
         "Security Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -5975,7 +5975,7 @@
     },
     {
         "Symbol": "BUXX",
-        "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",        
+        "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "Security Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "ETF": "Y",
         "ownEtrade": true
@@ -5988,7 +5988,7 @@
     },
     {
         "Symbol": "BUYW",
-        "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",        
+        "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "Security Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "ETF": "Y",
         "ownEtrade": true
@@ -6019,7 +6019,7 @@
     },
     {
         "Symbol": "BVN",
-        "Name": "Buenaventura Mining Company Inc.",        
+        "Name": "Buenaventura Mining Company Inc.",
         "Security Name": "Buenaventura Mining Company Inc.",
         "ETF": "N",
         "ownEtrade": true
@@ -6075,7 +6075,7 @@
     },
     {
         "Symbol": "BWMX",
-        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",        
+        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "Security Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -6399,7 +6399,7 @@
     },
     {
         "Symbol": "CARS",
-        "Name": "Cars.com Inc. Common Stock",        
+        "Name": "Cars.com Inc. Common Stock",
         "Security Name": "Cars.com Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6658,7 +6658,7 @@
     },
     {
         "Symbol": "CCL",
-        "Name": "Carnival Corporation Common Stock",        
+        "Name": "Carnival Corporation Common Stock",
         "Security Name": "Carnival Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6847,7 +6847,7 @@
     },
     {
         "Symbol": "CEPU",
-        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",        
+        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "Security Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "ETF": "N",
         "ownEtrade": true
@@ -7187,10 +7187,10 @@
     },
     {
         "Symbol": "CHGG",
-        "Name": "Chegg, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Chegg, Inc. Common Stock",        
         "Security Name": "Chegg, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CHH",
@@ -7212,7 +7212,7 @@
     },
     {
         "Symbol": "CHMI",
-        "Name": "Cherry Hill Mortgage Investment Corporation",        
+        "Name": "Cherry Hill Mortgage Investment Corporation",
         "Security Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7243,10 +7243,10 @@
     },
     {
         "Symbol": "CHPT",
-        "Name": "ChargePoint Holdings, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "ChargePoint Holdings, Inc. Common Stock",        
         "Security Name": "ChargePoint Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CHPY",
@@ -7277,10 +7277,10 @@
     },
     {
         "Symbol": "CHWY",
-        "Name": "Chewy, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Chewy, Inc. Class A Common Stock",        
         "Security Name": "Chewy, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CI",
@@ -7296,10 +7296,10 @@
     },
     {
         "Symbol": "CIB",
-        "Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
-        "ownWebull": true,
+        "Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",        
         "Security Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CICB",
@@ -7326,7 +7326,7 @@
     },
     {
         "Symbol": "CIG",
-        "Name": "Comp En De Mn Cemig ADS American Depositary Shares",        
+        "Name": "Comp En De Mn Cemig ADS American Depositary Shares",
         "Security Name": "Comp En De Mn Cemig ADS American Depositary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -7398,7 +7398,7 @@
     },
     {
         "Symbol": "CINT",
-        "Name": "CI&T Inc Class A Common Shares",        
+        "Name": "CI&T Inc Class A Common Shares",
         "Security Name": "CI&T Inc Class A Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -7605,10 +7605,10 @@
     },
     {
         "Symbol": "CLX",
-        "Name": "Clorox Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Clorox Company (The) Common Stock",        
         "Security Name": "Clorox Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CM",
@@ -7833,7 +7833,7 @@
     },
     {
         "Symbol": "CNC",
-        "Name": "Centene Corporation Common Stock",        
+        "Name": "Centene Corporation Common Stock",
         "Security Name": "Centene Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7858,17 +7858,17 @@
     },
     {
         "Symbol": "CNI",
-        "Name": "Canadian National Railway Company Common Stock",        
+        "Name": "Canadian National Railway Company Common Stock",
         "Security Name": "Canadian National Railway Company Common Stock",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "CNK",
-        "Name": "Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Cinemark Holdings Inc Cinemark Holdings, Inc.",
         "Security Name": "Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CNL",
@@ -9049,7 +9049,7 @@
     },
     {
         "Symbol": "CVNA",
-        "Name": "Carvana Co. Class A Common Stock",        
+        "Name": "Carvana Co. Class A Common Stock",
         "Security Name": "Carvana Co. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -9307,7 +9307,7 @@
     {
         "Symbol": "DANSKE",
         "Name": "Danske Bank A/S",
-        "Country": "Denmark",        
+        "Country": "Denmark",
         "ownInteractiveBrokers": true
     },
     {
@@ -9616,7 +9616,7 @@
     },
     {
         "Symbol": "DDS",
-        "Name": "Dillard's, Inc. Common Stock",        
+        "Name": "Dillard's, Inc. Common Stock",
         "Security Name": "Dillard's, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -9666,7 +9666,7 @@
     },
     {
         "Symbol": "DECK",
-        "Name": "Deckers Outdoor Corporation Common Stock",        
+        "Name": "Deckers Outdoor Corporation Common Stock",
         "Security Name": "Deckers Outdoor Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10110,7 +10110,7 @@
     },
     {
         "Symbol": "DHR",
-        "Name": "Danaher Corporation Common Stock",        
+        "Name": "Danaher Corporation Common Stock",
         "Security Name": "Danaher Corporation Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -10195,7 +10195,7 @@
     },
     {
         "Symbol": "DIN",
-        "Name": "Dine Brands Global, Inc. Common Stock",        
+        "Name": "Dine Brands Global, Inc. Common Stock",
         "Security Name": "Dine Brands Global, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10411,7 +10411,7 @@
     },
     {
         "Symbol": "DLNG",
-        "Name": "Dynagas LNG Partners LP Common Units",        
+        "Name": "Dynagas LNG Partners LP Common Units",
         "Security Name": "Dynagas LNG Partners LP Common Units",
         "ETF": "N",
         "ownWebull": true
@@ -10894,7 +10894,7 @@
     },
     {
         "Symbol": "DTE",
-        "Name": "DEUTSCHE TELEKOM",        
+        "Name": "DEUTSCHE TELEKOM",
         "Security Name": "DTE Energy Company Common Stock",
         "ETF": "N",
         "Country": "Germany",
@@ -20505,7 +20505,7 @@
     },
     {
         "Symbol": "IOT",
-        "Name": "Samsara Inc. Class A Common Stock",        
+        "Name": "Samsara Inc. Class A Common Stock",
         "Security Name": "Samsara Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -20678,7 +20678,7 @@
     },
     {
         "Symbol": "IRS",
-        "Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",        
+        "Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
         "Security Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
         "ETF": "N",
         "ownWebull": true
@@ -20785,7 +20785,7 @@
     },
     {
         "Symbol": "IT",
-        "Name": "Gartner, Inc. Common Stock",        
+        "Name": "Gartner, Inc. Common Stock",
         "Security Name": "Gartner, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -21179,7 +21179,7 @@
     },
     {
         "Symbol": "IX",
-        "Name": "ORIX Corporation American Depositary Shares",        
+        "Name": "ORIX Corporation American Depositary Shares",
         "Security Name": "ORIX Corporation American Depositary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -21811,7 +21811,7 @@
     },
     {
         "Symbol": "JMIA",
-        "Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",        
+        "Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",
         "Security Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -21891,7 +21891,7 @@
     },
     {
         "Symbol": "JOBY",
-        "Name": "Joby Aviation, Inc. Common Stock",        
+        "Name": "Joby Aviation, Inc. Common Stock",
         "Security Name": "Joby Aviation, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -21986,7 +21986,7 @@
     },
     {
         "Symbol": "JPM",
-        "Name": "JP Morgan Chase & Co. Common Stock",        
+        "Name": "JP Morgan Chase & Co. Common Stock",
         "Security Name": "JP Morgan Chase & Co. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -29226,10 +29226,10 @@
     },
     {
         "Symbol": "PATH",
-        "Name": "UiPath, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "UiPath, Inc.",        
         "Security Name": "UiPath, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PAUG",
@@ -36695,7 +36695,7 @@
     },
     {
         "Symbol": "STAG",
-        "Name": "Stag Industrial, Inc. Common Stock",        
+        "Name": "Stag Industrial, Inc. Common Stock",
         "Security Name": "Stag Industrial, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -36779,7 +36779,7 @@
     },
     {
         "Symbol": "STLA",
-        "Name": "Stellantis N.V. Common Shares",        
+        "Name": "Stellantis N.V. Common Shares",
         "Security Name": "Stellantis N.V. Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -36845,7 +36845,7 @@
     },
     {
         "Symbol": "STT",
-        "Name": "State Street Corporation Common Stock",        
+        "Name": "State Street Corporation Common Stock",
         "Security Name": "State Street Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -36863,7 +36863,7 @@
     },
     {
         "Symbol": "STVN",
-        "Name": "Stevanato Group S.p.A. Ordinary Shares",        
+        "Name": "Stevanato Group S.p.A. Ordinary Shares",
         "Security Name": "Stevanato Group S.p.A. Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -36935,7 +36935,7 @@
     },
     {
         "Symbol": "STZ",
-        "Name": "Constellation Brands, Inc. Common Stock",        
+        "Name": "Constellation Brands, Inc. Common Stock",
         "Security Name": "Constellation Brands, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -37002,7 +37002,7 @@
     },
     {
         "Symbol": "SUZ",
-        "Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",        
+        "Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
         "Security Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
         "ETF": "N",
         "ownWebull": true
@@ -37182,7 +37182,7 @@
     },
     {
         "Symbol": "T",
-        "Name": "AT&T Inc.",        
+        "Name": "AT&T Inc.",
         "ETF": "N",
         "ownWebull": true
     },
@@ -37273,7 +37273,7 @@
     },
     {
         "Symbol": "TAP",
-        "Name": "Molson Coors Beverage Company Class B Common Stock",        
+        "Name": "Molson Coors Beverage Company Class B Common Stock",
         "Security Name": "Molson Coors Beverage Company Class B Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38998,7 +38998,7 @@
     },
     {
         "Symbol": "TTE",
-        "Name": "TotalEnergies SE",        
+        "Name": "TotalEnergies SE",
         "ETF": "N",
         "ownWebull": true
     },
@@ -39088,7 +39088,7 @@
     },
     {
         "Symbol": "TWLO",
-        "Name": "Twilio Inc. Class A Common Stock",        
+        "Name": "Twilio Inc. Class A Common Stock",
         "Security Name": "Twilio Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39245,7 +39245,7 @@
     },
     {
         "Symbol": "U",
-        "Name": "Unity Software Inc. Common Stock",        
+        "Name": "Unity Software Inc. Common Stock",
         "Security Name": "Unity Software Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39294,14 +39294,14 @@
     },
     {
         "Symbol": "UAVS",
-        "Name": "AgEagle Aerial Systems, Inc. Common Stock",        
+        "Name": "AgEagle Aerial Systems, Inc. Common Stock",
         "Security Name": "AgEagle Aerial Systems, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
     },
     {
         "Symbol": "UBER",
-        "Name": "Uber Technologies, Inc. Common Stock",        
+        "Name": "Uber Technologies, Inc. Common Stock",
         "Security Name": "Uber Technologies, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39454,7 +39454,7 @@
     },
     {
         "Symbol": "UHAL",
-        "Name": "U-Haul Holding Co",        
+        "Name": "U-Haul Holding Co",
         "Security Name": "U-Haul Holding Company Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39479,7 +39479,7 @@
     },
     {
         "Symbol": "UI",
-        "Name": "Ubiquiti Inc. Common Stock",        
+        "Name": "Ubiquiti Inc. Common Stock",
         "Security Name": "Ubiquiti Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39516,7 +39516,7 @@
     },
     {
         "Symbol": "UL",
-        "Name": "Unilever PLC Common Stock",        
+        "Name": "Unilever PLC Common Stock",
         "Security Name": "Unilever PLC Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39629,7 +39629,7 @@
     },
     {
         "Symbol": "UNH",
-        "Name": "UnitedHealth Group Incorporated Common Stock (DE)",        
+        "Name": "UnitedHealth Group Incorporated Common Stock (DE)",
         "Security Name": "UnitedHealth Group Incorporated Common Stock (DE)",
         "ETF": "N",
         "ownWebull": true
@@ -39778,7 +39778,7 @@
     },
     {
         "Symbol": "URI",
-        "Name": "United Rentals, Inc. Common Stock",        
+        "Name": "United Rentals, Inc. Common Stock",
         "Security Name": "United Rentals, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39838,7 +39838,7 @@
     },
     {
         "Symbol": "USB",
-        "Name": "U.S. Bancorp Common Stock",        
+        "Name": "U.S. Bancorp Common Stock",
         "Security Name": "U.S. Bancorp Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -40411,6 +40411,7 @@
     },
     {
         "Symbol": "VEON",
+        "Name": "VEON Ltd",
         "ownWebull": true
     },
     {
@@ -40523,12 +40524,8 @@
     },
     {
         "Symbol": "VGNT",
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "Name": "Versigent PLC",
+        "ownEtrade": true
     },
     {
         "Symbol": "VGT",
@@ -40581,9 +40578,9 @@
     {
         "Symbol": "VICI",
         "Name": "VICI Properties Inc. Common Stock",
-        "ownWebull": true,
         "Security Name": "VICI Properties Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VIDI",
@@ -40905,7 +40902,7 @@
     },
     {
         "Symbol": "VOX",
-        "Name": "Vanguard Communication Services  ETF",        
+        "Name": "Vanguard Communication Services  ETF",
         "Security Name": "Vanguard Communication Services  ETF",
         "ETF": "Y",
         "ownSchwab": true
@@ -41638,7 +41635,7 @@
     },
     {
         "Symbol": "WH",
-        "Name": "Wyndham Hotels & Resorts, Inc. Common Stock",        
+        "Name": "Wyndham Hotels & Resorts, Inc. Common Stock",
         "Security Name": "Wyndham Hotels & Resorts, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41914,7 +41911,7 @@
     },
     {
         "Symbol": "WRBY",
-        "Name": "Warby Parker Inc. Class A Common Stock",        
+        "Name": "Warby Parker Inc. Class A Common Stock",
         "Security Name": "Warby Parker Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -43001,7 +42998,7 @@
     },
     {
         "Symbol": "XYZ",
-        "Name": "Block, Inc. Class A Common Stock,",        
+        "Name": "Block, Inc. Class A Common Stock,",
         "Security Name": "Block, Inc. Class A Common Stock,",
         "ETF": "N",
         "ownWebull": true
@@ -43098,14 +43095,14 @@
     },
     {
         "Symbol": "YETI",
-        "Name": "YETI Holdings, Inc. Common Stock",        
+        "Name": "YETI Holdings, Inc. Common Stock",
         "Security Name": "YETI Holdings, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "YEXT",
-        "Name": "Yext, Inc. Common Stock",        
+        "Name": "Yext, Inc. Common Stock",
         "Security Name": "Yext, Inc. Common Stock",
         "ETF": "N",
         "Country": "USA",
