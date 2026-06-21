@@ -10680,6 +10680,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "DHC",
+        "Name": "Diversified Healthcare Trust",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "DHDG",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Quarterly 2.5 to 15 Buffer ETF",
@@ -11012,6 +11026,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "DLO",
+        "Name": "Dlocal Ltd.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "DLR",
         "Name": "Digital Realty Trust, Inc. Common Stock",
         "Security Name": "Digital Realty Trust, Inc. Common Stock",
@@ -11104,6 +11132,20 @@
         "Symbol": "DMIIU",
         "Name": "Drugs Made In America Acquisition II Corp.",
         "ownWebull": true
+    },
+    {
+        "Symbol": "DMLP",
+        "Name": "Dorchester Minerals LP",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DMO",

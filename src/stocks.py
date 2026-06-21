@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["DGICA"]
+stocksToAdd = ["DMLP"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Donegal Group Inc Class A", dividend=True)
+    addStock(stock, name="Dorchester Minerals LP", dividend=True)
