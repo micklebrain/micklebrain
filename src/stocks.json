@@ -6844,6 +6844,34 @@
         "dividend": true
     },
     {
+        "Symbol": "CCAP",
+        "Name": "Crescent Capital BDC Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "CCBG",
+        "Name": "Capital City Bank Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CCC",
         "Name": "CCC Intelligent Solutions Holdings Inc",
         "ownWebull": true
@@ -6877,9 +6905,10 @@
     },
     {
         "Symbol": "CCI",
-        "Name": "Crown Castle Inc. Common Stock",
+        "Name": "Crown Castle Inc",
         "Security Name": "Crown Castle Inc. Common Stock",
-        "ETF": "N"
+        "ETF": false,
+        "dividend": true
     },
     {
         "Symbol": "CCIA",
@@ -6925,6 +6954,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "CCNE",
+        "Name": "CNB Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CCO",
         "Name": "Clear Channel Outdoor Holdings, Inc. Common Stock",
         "Security Name": "Clear Channel Outdoor Holdings, Inc. Common Stock",
@@ -6934,6 +6977,20 @@
         "Symbol": "CCOEY",
         "Name": "Capcom ADR",
         "ownWebull": true
+    },
+    {
+        "Symbol": "CCOI",
+        "Name": "Cogent Communications Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CCOR",
@@ -7026,6 +7083,20 @@
         "ownEtrade": false
     },
     {
+        "Symbol": "CDW",
+        "Name": "CDW common stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CDX",
         "Name": "Simplify High Yield ETF",
         "Security Name": "Simplify High Yield ETF",
@@ -7067,6 +7138,20 @@
         "Name": "Elevation Series Trust RiverNorth Active Income ETF",
         "Security Name": "Elevation Series Trust RiverNorth Active Income ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "CEG",
+        "Name": "Constellation Energy Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CEGX",
@@ -7137,6 +7222,48 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CFBK",
+        "Name": "CF Bankshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "CFFI",
+        "Name": "C&F Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "CFFN",
+        "Name": "Capitol Federal Financial Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CFG",
         "Name": "Citizens Financial Group, Inc. Common Stock",
         "Security Name": "Citizens Financial Group, Inc. Common Stock",
@@ -7194,6 +7321,20 @@
         "Name": "Centerra Gold Inc. Common Shares",
         "Security Name": "Centerra Gold Inc. Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "CGBD",
+        "Name": "Carlyle Secured Lending Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CGBL",

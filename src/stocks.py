@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IWB"]
+stocksToAdd = ["CGBD"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="iShares Russell 1000 ETF")
+    addStock(stock, name="Carlyle Secured Lending Inc", dividend=True)
