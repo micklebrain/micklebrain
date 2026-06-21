@@ -17,7 +17,7 @@ def remove_keys(obj, keys_to_remove):
     else:
         return obj
     
-def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False):
+def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False, dividend=True):
     if symbol == "":
         return
     
@@ -34,7 +34,8 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
         "ownSchwab": ownSchwab,
         "ownAlly": ownAlly,
         "ownFidelity": ownFidelity,
-        "ownInteractiveBrokers": ownInteractiveBrokers
+        "ownInteractiveBrokers": ownInteractiveBrokers,
+        "dividend": dividend
     }
 
     found = False
@@ -58,6 +59,7 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
                 item["ownInteractiveBrokers"] = True
             if name:
                 item["Name"] = name
+            item["dividend"] = dividend
             found = True
             print("stock updated")
             break
@@ -158,7 +160,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["PKO"]
+stocksToAdd = ["BKU"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Powszechna Kasa Oszczednosci Bk Plski SA", ownInteractiveBrokers=True)
+    addStock(stock, name="BankUnited Inc")

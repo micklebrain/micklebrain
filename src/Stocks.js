@@ -31,6 +31,7 @@ function Stocks() {
   });
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
+  const [showDividendOnly, setShowDividendOnly] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
   const [newOwnWebull, setNewOwnWebull] = useState(false);
@@ -81,6 +82,7 @@ function Stocks() {
     // include moomoo in overall owned check
     const ownedInAny = isOwnedInAnyBroker || !!item.ownMoomoo;
 
+    if (showDividendOnly && !item.dividend) return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
@@ -111,6 +113,7 @@ function Stocks() {
     });
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly(false);
+    setShowDividendOnly(false);
   };
 
   const toggleBrokerFilter = (broker) => {
@@ -274,6 +277,13 @@ function Stocks() {
           onClick={toggleNotOwnedFilter}
         >
           Not Owned
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showDividendOnly ? "active" : ""}`}
+          onClick={() => setShowDividendOnly((prev) => !prev)}
+        >
+          Dividend
         </button>
       </div>
       <div className="stocks-count">

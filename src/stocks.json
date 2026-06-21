@@ -231,7 +231,7 @@
     },
     {
         "Symbol": "ABCB",
-        "Name": "Ameris Bancorp",        
+        "Name": "Ameris Bancorp",
         "Security Name": "Ameris Bancorp Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -283,23 +283,23 @@
     {
         "Symbol": "ABLG",
         "Name": "Abacus FCF International Leaders ETF",
-        "ownEtrade": true,
         "Security Name": "Abacus FCF International Leaders ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABLS",
         "Name": "Abacus FCF ETF Trust Abacus FCF Small Cap Leaders ETF",
-        "ownEtrade": true,
         "Security Name": "Abacus FCF ETF Trust Abacus FCF Small Cap Leaders ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABM",
         "Name": "ABM Industries Incorporated Common Stock",
-        "ownEtrade": true,
         "Security Name": "ABM Industries Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABNB",
@@ -475,10 +475,11 @@
     },
     {
         "Symbol": "ACN",
-        "Name": "Accenture plc Class A Ordinary Shares (Ireland)",
-        "ownWebull": true,
+        "Name": "Accenture plc",
         "Security Name": "Accenture plc Class A Ordinary Shares (Ireland)",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "Ireland",
+        "ownWebull": true
     },
     {
         "Symbol": "ACP",
@@ -1846,14 +1847,14 @@
     },
     {
         "Symbol": "ANRO",
-        "Name": "Alto Neuroscience, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Alto Neuroscience, Inc.",
         "Security Name": "Alto Neuroscience, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ANVS",
-        "Name": "Annovis Bio, Inc. Common Stock",
+        "Name": "Annovis Bio, Inc.",
         "Security Name": "Annovis Bio, Inc. Common Stock",
         "ETF": "N"
     },
@@ -2033,14 +2034,7 @@
     {
         "Symbol": "APOG",
         "Name": "Apogee Enterprises Inc",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false
+        "ownEtrade": true
     },
     {
         "Symbol": "APOS",
@@ -2689,9 +2683,9 @@
     {
         "Symbol": "ATHM",
         "Name": "Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",
-        "ownWebull": true,
         "Security Name": "Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ATHS",
@@ -2731,10 +2725,10 @@
     },
     {
         "Symbol": "ATNM",
-        "Name": "Actinium Pharmaceuticals, Inc. (Delaware) Common Stock",
-        "ownWebull": true,
+        "Name": "Actinium Pharmaceuticals, Inc.",
         "Security Name": "Actinium Pharmaceuticals, Inc. (Delaware) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ATO",
@@ -2791,14 +2785,7 @@
     {
         "Symbol": "AUBN",
         "Name": "Auburn National Bancorporation Inc",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false
+        "ownEtrade": true
     },
     {
         "Symbol": "AUDC",
@@ -3658,17 +3645,17 @@
     },
     {
         "Symbol": "BBD",
-        "Name": "Banco Bradesco Sa American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Banco Bradesco Sa",
         "Security Name": "Banco Bradesco Sa American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BBDC",
-        "Name": "Barings BDC, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Barings BDC, Inc.",
         "Security Name": "Barings BDC, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BBDO",
@@ -3808,10 +3795,10 @@
     },
     {
         "Symbol": "BBY",
-        "Name": "Best Buy Co., Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Best Buy Co., Inc.",
         "Security Name": "Best Buy Co., Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BC",
@@ -4890,9 +4877,10 @@
     },
     {
         "Symbol": "BKU",
-        "Name": "BankUnited, Inc. Common Stock",
+        "Name": "BankUnited Inc",
         "Security Name": "BankUnited, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "BKUI",
@@ -7187,7 +7175,7 @@
     },
     {
         "Symbol": "CHGG",
-        "Name": "Chegg, Inc. Common Stock",        
+        "Name": "Chegg, Inc. Common Stock",
         "Security Name": "Chegg, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7243,7 +7231,7 @@
     },
     {
         "Symbol": "CHPT",
-        "Name": "ChargePoint Holdings, Inc. Common Stock",        
+        "Name": "ChargePoint Holdings, Inc. Common Stock",
         "Security Name": "ChargePoint Holdings, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7277,7 +7265,7 @@
     },
     {
         "Symbol": "CHWY",
-        "Name": "Chewy, Inc. Class A Common Stock",        
+        "Name": "Chewy, Inc. Class A Common Stock",
         "Security Name": "Chewy, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7296,7 +7284,7 @@
     },
     {
         "Symbol": "CIB",
-        "Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",        
+        "Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
         "Security Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
         "ETF": "N",
         "ownWebull": true
@@ -7605,7 +7593,7 @@
     },
     {
         "Symbol": "CLX",
-        "Name": "Clorox Company (The) Common Stock",        
+        "Name": "Clorox Company (The) Common Stock",
         "Security Name": "Clorox Company (The) Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10398,10 +10386,10 @@
     },
     {
         "Symbol": "DLB",
-        "Name": "Dolby Laboratories Common Stock",
-        "ownWebull": true,
+        "Name": "Dolby Laboratories",
         "Security Name": "Dolby Laboratories Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DLN",
@@ -10714,10 +10702,10 @@
     },
     {
         "Symbol": "DRD",
-        "Name": "DRDGOLD Limited American Depositary Shares",
-        "ownWebull": true,
+        "Name": "DRDGOLD Limited",
         "Security Name": "DRDGOLD Limited American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DRGN",
@@ -10853,10 +10841,10 @@
     },
     {
         "Symbol": "DSX",
-        "Name": "Diana Shipping inc. common stock",
-        "ownWebull": true,
+        "Name": "Diana Shipping inc.",
         "Security Name": "Diana Shipping inc. common stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DSX-B",
@@ -28736,7 +28724,7 @@
     },
     {
         "Symbol": "ONL",
-        "Name": "Orion Properties Inc.",        
+        "Name": "Orion Properties Inc.",
         "Security Name": "Orion Properties Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -28755,7 +28743,7 @@
     },
     {
         "Symbol": "ONON",
-        "Name": "On Holding AG",        
+        "Name": "On Holding AG",
         "Security Name": "On Holding AG Class A Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -28774,7 +28762,7 @@
     },
     {
         "Symbol": "OOMA",
-        "Name": "Ooma, Inc.",        
+        "Name": "Ooma, Inc.",
         "Security Name": "Ooma, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -28885,7 +28873,7 @@
     },
     {
         "Symbol": "ORCL",
-        "Name": "Oracle Corporation",        
+        "Name": "Oracle Corporation",
         "Security Name": "Oracle Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -28908,7 +28896,7 @@
     },
     {
         "Symbol": "ORLA",
-        "Name": "Orla Mining Ltd.",        
+        "Name": "Orla Mining Ltd.",
         "Security Name": "Orla Mining Ltd. Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -29085,7 +29073,7 @@
     },
     {
         "Symbol": "OXY",
-        "Name": "Occidental Petroleum Corporation",        
+        "Name": "Occidental Petroleum Corporation",
         "Security Name": "Occidental Petroleum Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -29144,7 +29132,7 @@
     },
     {
         "Symbol": "PAGS",
-        "Name": "PagSeguro Digital Ltd. Class A Common Shares",        
+        "Name": "PagSeguro Digital Ltd. Class A Common Shares",
         "Security Name": "PagSeguro Digital Ltd. Class A Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -29175,7 +29163,7 @@
     },
     {
         "Symbol": "PAM",
-        "Name": "Pampa Energia S.A.",        
+        "Name": "Pampa Energia S.A.",
         "Security Name": "Pampa Energia S.A.",
         "ETF": "N",
         "ownEtrade": true
@@ -29228,7 +29216,7 @@
     },
     {
         "Symbol": "PATH",
-        "Name": "UiPath, Inc.",        
+        "Name": "UiPath, Inc.",
         "Security Name": "UiPath, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
