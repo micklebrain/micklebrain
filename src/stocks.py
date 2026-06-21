@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CNOB"]
+stocksToAdd = ["COLB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="ConnectOne Bancorp Inc", dividend=True)
+    addStock(stock, name="Columbia Banking System Inc", dividend=True)

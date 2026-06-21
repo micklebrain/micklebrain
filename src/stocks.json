@@ -5315,7 +5315,7 @@
     },
     {
         "Symbol": "BNS",
-        "Name": "Bank Nova Scotia Halifax Pfd 3",        
+        "Name": "Bank Nova Scotia Halifax Pfd 3",
         "Security Name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -8237,6 +8237,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "CNXC",
+        "Name": "Concentrix Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CNXT",
         "Name": "VanEck ChiNext ETF",
         "Security Name": "VanEck ChiNext ETF",
@@ -8322,6 +8336,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "COFS",
+        "Name": "Choiceone Financial Services Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "COHN",
         "Name": "Cohen & Company Inc.",
         "Security Name": "Cohen & Company Inc.",
@@ -8366,6 +8394,20 @@
         "Symbol": "COKE",
         "Name": "Coca-Cola Consolidated Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "COLB",
+        "Name": "Columbia Banking System Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "COLD",
@@ -8756,7 +8798,7 @@
     },
     {
         "Symbol": "CPT",
-        "Name": "Camden Property Trust",        
+        "Name": "Camden Property Trust",
         "Security Name": "Camden Property Trust Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38909,7 +38951,7 @@
     },
     {
         "Symbol": "TKO",
-        "Name": "TKO Group Holdings, Inc.",        
+        "Name": "TKO Group Holdings, Inc.",
         "Security Name": "TKO Group Holdings, Inc. Class A Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -39817,7 +39859,7 @@
     },
     {
         "Symbol": "TUYA",
-        "Name": "Tuya Inc.",        
+        "Name": "Tuya Inc.",
         "Security Name": "Tuya Inc. American Depositary Shares, each representing one Class A Ordinary Share",
         "ETF": "N",
         "ownWebull": true
@@ -44108,7 +44150,7 @@
     },
     {
         "Symbol": "ZGN",
-        "Name": "Ermenegildo Zegna N.V.",        
+        "Name": "Ermenegildo Zegna N.V.",
         "Security Name": "Ermenegildo Zegna N.V. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -44263,7 +44305,7 @@
     },
     {
         "Symbol": "ZTR",
-        "Name": "Virtus Total Return Fund Inc.",        
+        "Name": "Virtus Total Return Fund Inc.",
         "Security Name": "Virtus Total Return Fund Inc.",
         "ETF": "N",
         "ownEtrade": true
