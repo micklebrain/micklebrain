@@ -1554,6 +1554,17 @@
         "ETF": "N"
     },
     {
+        "Symbol": "AMBI.W",
+        "Name": "Ambipar Emergency Response Warrants to purchase Class A ordinary shares, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Security Name": "Ambipar Emergency Response Warrants to purchase Class A ordinary shares, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Exchange": "A",
+        "CQS Symbol": "AMBI.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "AMBI+"
+    },
+    {
         "Symbol": "AMBO",
         "Name": "Ambow Education Holding Ltd. American Depository Shares (each representing twenty (20) Class A Ordinary Shares)",
         "Security Name": "Ambow Education Holding Ltd. American Depository Shares (each representing twenty (20) Class A Ordinary Shares)",
@@ -2087,6 +2098,17 @@
         "Name": "AllianzIM U.S. Large Cap Buffer20 Apr ETF",
         "Security Name": "AllianzIM U.S. Large Cap Buffer20 Apr ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "APRZ",
+        "Name": "TrueShares Structured Outcome (April) ETF",
+        "Security Name": "TrueShares Structured Outcome (April) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "APRZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "APRZ"
     },
     {
         "Symbol": "APT",
@@ -2835,6 +2857,17 @@
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Aug ETF",
         "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Aug ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "AUGZ",
+        "Name": "TrueShares Structured Outcome (August) ETF",
+        "Security Name": "TrueShares Structured Outcome (August) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "AUGZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "AUGZ"
     },
     {
         "Symbol": "AUNA",
@@ -4393,6 +4426,17 @@
         "ownWebull": true
     },
     {
+        "Symbol": "BH.A",
+        "Name": "Biglari Holdings Inc. Class A Common Stock",
+        "Security Name": "Biglari Holdings Inc. Class A Common Stock",
+        "Exchange": "N",
+        "CQS Symbol": "BH.A",
+        "ETF": "N",
+        "Round Lot Size": "10",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "BH.A"
+    },
+    {
         "Symbol": "BHB",
         "Name": "Bar Harbor Bankshares, Inc. Common Stock",
         "Security Name": "Bar Harbor Bankshares, Inc. Common Stock",
@@ -5271,10 +5315,10 @@
     },
     {
         "Symbol": "BNS",
-        "Name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Bank Nova Scotia Halifax Pfd 3",        
         "Security Name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BNT",
@@ -5558,6 +5602,28 @@
         "ownWebull": true,
         "Security Name": "Berkshire Hathaway Inc. New Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "BRK.A",
+        "Name": "Berkshire Hathaway Inc. Common Stock",
+        "Security Name": "Berkshire Hathaway Inc. Common Stock",
+        "Exchange": "N",
+        "CQS Symbol": "BRK.A",
+        "ETF": "N",
+        "Round Lot Size": "1",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "BRK.A"
+    },
+    {
+        "Symbol": "BRK.B",
+        "Name": "Berkshire Hathaway Inc. New Common Stock",
+        "Security Name": "Berkshire Hathaway Inc. New Common Stock",
+        "Exchange": "N",
+        "CQS Symbol": "BRK.B",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "BRK.B"
     },
     {
         "Symbol": "BRKC",
@@ -6849,7 +6915,7 @@
     },
     {
         "Symbol": "CDLR",
-        "Name": "Cadeler A/S",        
+        "Name": "Cadeler A/S",
         "Security Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
         "ETF": "N",
         "ownWebull": true
@@ -8374,6 +8440,28 @@
         "ETF": "N"
     },
     {
+        "Symbol": "COPL.U",
+        "Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one",
+        "Security Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one-half warrant",
+        "Exchange": "N",
+        "CQS Symbol": "COPL.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "COPL="
+    },
+    {
+        "Symbol": "COPL.W",
+        "Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
+        "Security Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
+        "Exchange": "N",
+        "CQS Symbol": "COPL.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "COPL+"
+    },
+    {
         "Symbol": "COPX",
         "Name": "Global X Copper Miners ETF",
         "Security Name": "Global X Copper Miners ETF",
@@ -9742,6 +9830,17 @@
         "ETF": "N"
     },
     {
+        "Symbol": "DC.W",
+        "Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
+        "Security Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
+        "Exchange": "A",
+        "CQS Symbol": "DC.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "DC+"
+    },
+    {
         "Symbol": "DCI",
         "Name": "Donaldson Company, Inc. Common Stock",
         "Security Name": "Donaldson Company, Inc. Common Stock",
@@ -9923,6 +10022,17 @@
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",
         "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "DECZ",
+        "Name": "TrueShares Structured Outcome (December) ETF",
+        "Security Name": "TrueShares Structured Outcome (December) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "DECZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "DECZ"
     },
     {
         "Symbol": "DEED",
@@ -10756,6 +10866,28 @@
         "Name": "dMY Squared Technology Group, Inc. Class A Common Stock",
         "Security Name": "dMY Squared Technology Group, Inc. Class A Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "DMYY.U",
+        "Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one",
+        "Security Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one-half of one redeemable warrant",
+        "Exchange": "A",
+        "CQS Symbol": "DMYY.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "DMYY="
+    },
+    {
+        "Symbol": "DMYY.W",
+        "Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
+        "Security Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
+        "Exchange": "A",
+        "CQS Symbol": "DMYY.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "DMYY+"
     },
     {
         "Symbol": "DNA",
@@ -12651,6 +12783,17 @@
         "ETF": "N"
     },
     {
+        "Symbol": "EONR.W",
+        "Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
+        "Security Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
+        "Exchange": "A",
+        "CQS Symbol": "EONR.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "EONR+"
+    },
+    {
         "Symbol": "EOS",
         "Name": "Eaton Vance Enhance Equity Income Fund II Common Stock",
         "Security Name": "Eaton Vance Enhance Equity Income Fund II Common Stock",
@@ -13314,6 +13457,28 @@
         "Name": "EQV Ventures Acquisition Corp. II Class A Ordinary Shares",
         "Security Name": "EQV Ventures Acquisition Corp. II Class A Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "EVAC.U",
+        "Name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one",
+        "Security Name": "EQV Ventures Acquisition Corp. II Units, each unit consists of one Class A ordinary share and one-third of one redeemable warrant",
+        "Exchange": "N",
+        "CQS Symbol": "EVAC.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "EVAC="
+    },
+    {
+        "Symbol": "EVAC.W",
+        "Name": "EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Security Name": "EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Exchange": "N",
+        "CQS Symbol": "EVAC.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "EVAC+"
     },
     {
         "Symbol": "EVAV",
@@ -14199,6 +14364,17 @@
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Feb ETF",
         "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Feb ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FEBZ",
+        "Name": "TrueShares Structured Outcome (February) ETF",
+        "Security Name": "TrueShares Structured Outcome (February) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "FEBZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "FEBZ"
     },
     {
         "Symbol": "FEDM",
@@ -15089,6 +15265,17 @@
         "Name": "flyExclusive, Inc. Class A Common Stock",
         "Security Name": "flyExclusive, Inc. Class A Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FLYX.W",
+        "Name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share",
+        "Security Name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share",
+        "Exchange": "A",
+        "CQS Symbol": "FLYX.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "FLYX+"
     },
     {
         "Symbol": "FMAG",
@@ -17465,6 +17652,28 @@
         "ETF": "N"
     },
     {
+        "Symbol": "GRAF.U",
+        "Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one",
+        "Security Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
+        "Exchange": "A",
+        "CQS Symbol": "GRAF.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "GRAF="
+    },
+    {
+        "Symbol": "GRAF.W",
+        "Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Security Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Exchange": "A",
+        "CQS Symbol": "GRAF.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "GRAF+"
+    },
+    {
         "Symbol": "GRBK",
         "Name": "Green Brick Partners, Inc. Common Stock",
         "Security Name": "Green Brick Partners, Inc. Common Stock",
@@ -17564,6 +17773,17 @@
         "Name": "Gold Royalty Corp. Common Shares",
         "Security Name": "Gold Royalty Corp. Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GROY.W",
+        "Name": "Gold Royalty Corp. Warrants",
+        "Security Name": "Gold Royalty Corp. Warrants",
+        "Exchange": "A",
+        "CQS Symbol": "GROY.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "GROY+"
     },
     {
         "Symbol": "GROZ",
@@ -18760,6 +18980,17 @@
         "ownWebull": true
     },
     {
+        "Symbol": "HOUS",
+        "Name": "Anywhere Real Estate Inc. Common Stock,",
+        "Security Name": "Anywhere Real Estate Inc. Common Stock,",
+        "Exchange": "N",
+        "CQS Symbol": "HOUS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "HOUS"
+    },
+    {
         "Symbol": "HOV",
         "Name": "Hovnanian Enterprises, Inc. Class A Common Stock",
         "Security Name": "Hovnanian Enterprises, Inc. Class A Common Stock",
@@ -19105,6 +19336,28 @@
         "ETF": "N"
     },
     {
+        "Symbol": "HYAC.U",
+        "Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one",
+        "Security Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one-half of one redeemable Warrant",
+        "Exchange": "N",
+        "CQS Symbol": "HYAC.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "HYAC="
+    },
+    {
+        "Symbol": "HYAC.W",
+        "Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Security Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
+        "Exchange": "N",
+        "CQS Symbol": "HYAC.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "HYAC+"
+    },
+    {
         "Symbol": "HYBB",
         "Name": "iShares BB Rated Corporate Bond ETF",
         "Security Name": "iShares BB Rated Corporate Bond ETF",
@@ -19356,6 +19609,17 @@
         "Name": "i",
         "Security Name": "i-80 Gold Corp. Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "IAUX.W",
+        "Name": "i",
+        "Security Name": "i-80 Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $0.70",
+        "Exchange": "A",
+        "CQS Symbol": "IAUX.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "IAUX+"
     },
     {
         "Symbol": "IBCA",
@@ -21523,6 +21787,28 @@
         "ETF": "N"
     },
     {
+        "Symbol": "JACS.R",
+        "Name": "Jackson Acquisition Company II Rights, each right to acquire one",
+        "Security Name": "Jackson Acquisition Company II Rights, each right to acquire one-tenth (1/10) of one Class A ordinary share",
+        "Exchange": "N",
+        "CQS Symbol": "JACSr",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JACS^"
+    },
+    {
+        "Symbol": "JACS.U",
+        "Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one",
+        "Security Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one-tenth (1/10) of one Class A ordinary share",
+        "Exchange": "N",
+        "CQS Symbol": "JACS.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JACS="
+    },
+    {
         "Symbol": "JADE",
         "Name": "J.P. Morgan Exchange",
         "Security Name": "J.P. Morgan Exchange-Traded Fund Trust JPMorgan Active Developing Markets Equity ETF",
@@ -21575,6 +21861,17 @@
         "Name": "AllianzIM U.S. Large Cap Buffer20 Jan ETF",
         "Security Name": "AllianzIM U.S. Large Cap Buffer20 Jan ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "JANZ",
+        "Name": "TrueShares Structured Outcome (January) ETF",
+        "Security Name": "TrueShares Structured Outcome (January) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "JANZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JANZ"
     },
     {
         "Symbol": "JAVA",
@@ -21739,6 +22036,28 @@
         "Name": "Jena Acquisition Corporation II Class A Ordinary Shares",
         "Security Name": "Jena Acquisition Corporation II Class A Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "JENA.R",
+        "Name": "Jena Acquisition Corporation II Rights, each right to acquire one",
+        "Security Name": "Jena Acquisition Corporation II Rights, each right to acquire one-twentieth (1/20) of one Class A ordinary share",
+        "Exchange": "N",
+        "CQS Symbol": "JENAr",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JENA^"
+    },
+    {
+        "Symbol": "JENA.U",
+        "Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
+        "Security Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
+        "Exchange": "N",
+        "CQS Symbol": "JENA.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JENA="
     },
     {
         "Symbol": "JEPI",
@@ -22361,6 +22680,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "JULZ",
+        "Name": "TrueShares Structured Outcome (July) ETF",
+        "Security Name": "TrueShares Structured Outcome (July) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "JULZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JULZ"
+    },
+    {
         "Symbol": "JUNM",
         "Name": "SHL Telemedicine Ltd FT Vest U.S. Equity Max Buffer ETF",
         "Security Name": "SHL Telemedicine Ltd FT Vest U.S. Equity Max Buffer ETF - June",
@@ -22383,6 +22713,17 @@
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Jun ETF",
         "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Jun ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "JUNZ",
+        "Name": "TrueShares Structured Outcome (June) ETF",
+        "Security Name": "TrueShares Structured Outcome (June) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "JUNZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "JUNZ"
     },
     {
         "Symbol": "JUSA",
@@ -23585,6 +23926,28 @@
         "ETF": "N"
     },
     {
+        "Symbol": "LEGT.U",
+        "Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one",
+        "Security Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one-half of one warrant",
+        "Exchange": "A",
+        "CQS Symbol": "LEGT.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "LEGT="
+    },
+    {
+        "Symbol": "LEGT.W",
+        "Name": "Legato Merger Corp. III Redeemable Warrants, each whole warrant exercisable for one ordinary share at an exercise price of $11.50 per share",
+        "Security Name": "Legato Merger Corp. III Redeemable Warrants, each whole warrant exercisable for one ordinary share at an exercise price of $11.50 per share",
+        "Exchange": "A",
+        "CQS Symbol": "LEGT.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "LEGT+"
+    },
+    {
         "Symbol": "LEMB",
         "Name": "iShares J.P. Morgan EM Local Currency Bond",
         "Security Name": "iShares J.P. Morgan EM Local Currency Bond",
@@ -23601,6 +23964,17 @@
         "Symbol": "LEN-B",
         "Name": "Lennar Corp Class B",
         "ownWebull": true
+    },
+    {
+        "Symbol": "LEN.B",
+        "Name": "Lennar Corporation Class B",
+        "Security Name": "Lennar Corporation Class B",
+        "Exchange": "N",
+        "CQS Symbol": "LEN.B",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "LEN.B"
     },
     {
         "Symbol": "LENS",
@@ -23769,6 +24143,17 @@
         "Name": "LGL Group, Inc. (The) Common Stock",
         "Security Name": "LGL Group, Inc. (The) Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LGL.W",
+        "Name": "LGL Group, Inc. (The) Warrants",
+        "Security Name": "LGL Group, Inc. (The) Warrants",
+        "Exchange": "A",
+        "CQS Symbol": "LGL.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "LGL+"
     },
     {
         "Symbol": "LGLV",
@@ -23983,6 +24368,17 @@
         "ownRobinhood": true,
         "Security Name": "Lemonade, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LMND.W",
+        "Name": "Lemonade, Inc. Warrants",
+        "Security Name": "Lemonade, Inc. Warrants",
+        "Exchange": "A",
+        "CQS Symbol": "LMND.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "LMND+"
     },
     {
         "Symbol": "LMT",
@@ -24249,6 +24645,17 @@
         "Name": "Stride, Inc. Common Stock",
         "Security Name": "Stride, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LRNZ",
+        "Name": "Listed Funds Trust TrueShares Technology, AI & Deep Learning ETF",
+        "Security Name": "Listed Funds Trust TrueShares Technology, AI & Deep Learning ETF",
+        "Exchange": "P",
+        "CQS Symbol": "LRNZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "LRNZ"
     },
     {
         "Symbol": "LSAF",
@@ -24672,6 +25079,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "MARZ",
+        "Name": "TrueShares Structured Outcome (March) ETF",
+        "Security Name": "TrueShares Structured Outcome (March) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "MARZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "MARZ"
+    },
+    {
         "Symbol": "MAS",
         "Name": "Masco Corporation Common Stock",
         "Security Name": "Masco Corporation Common Stock",
@@ -24741,6 +25159,17 @@
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 May ETF",
         "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 May ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "MAYZ",
+        "Name": "TrueShares Structured Outcome (May) ETF",
+        "Security Name": "TrueShares Structured Outcome (May) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "MAYZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "MAYZ"
     },
     {
         "Symbol": "MAZE",
@@ -25554,6 +25983,17 @@
         "ownWebull": true
     },
     {
+        "Symbol": "MKC.V",
+        "Name": "McCormick & Company, Incorporated Common Stock",
+        "Security Name": "McCormick & Company, Incorporated Common Stock",
+        "Exchange": "N",
+        "CQS Symbol": "MKC.V",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "MKC.V"
+    },
+    {
         "Symbol": "MKL",
         "Name": "Markel Group Inc. Common Stock",
         "Security Name": "Markel Group Inc. Common Stock",
@@ -25975,6 +26415,17 @@
         "Name": "M",
         "Security Name": "M-tron Industries, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MPTI.W",
+        "Name": "M",
+        "Security Name": "M-tron Industries, Inc. Warrants to Purchase Shares of Common Stock, Expiring on or before April 25, 2028",
+        "Exchange": "A",
+        "CQS Symbol": "MPTI.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "MPTI+"
     },
     {
         "Symbol": "MPU",
@@ -27746,6 +28197,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "NOVZ",
+        "Name": "TrueShares Structured Outcome (November) ETF",
+        "Security Name": "TrueShares Structured Outcome (November) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "NOVZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "NOVZ"
+    },
+    {
         "Symbol": "NOW",
         "Name": "ServiceNow, Inc. Common Stock",
         "ownEtrade": true,
@@ -28645,6 +29107,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "OCTZ",
+        "Name": "TrueShares Structured Outcome (October) ETF",
+        "Security Name": "TrueShares Structured Outcome (October) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "OCTZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "OCTZ"
+    },
+    {
         "Symbol": "ODC",
         "Name": "Oil",
         "Security Name": "Oil-Dri Corporation Of America Common Stock",
@@ -28890,6 +29363,17 @@
         "Name": "SPDR Russell 1000 Yield Focus ETF",
         "Security Name": "SPDR Russell 1000 Yield Focus ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "ONEZ",
+        "Name": "Elevation Series Trust TrueShares Seasonality Laddered Buffered ETF",
+        "Security Name": "Elevation Series Trust TrueShares Seasonality Laddered Buffered ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "ONEZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "ONEZ"
     },
     {
         "Symbol": "ONIT",
@@ -29322,6 +29806,28 @@
         "Name": "Pyrophyte Acquisition Corp. II Class A Ordinary Shares",
         "Security Name": "Pyrophyte Acquisition Corp. II Class A Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "PAII.U",
+        "Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one",
+        "Security Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
+        "Exchange": "N",
+        "CQS Symbol": "PAII.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "PAII="
+    },
+    {
+        "Symbol": "PAII.W",
+        "Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
+        "Security Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
+        "Exchange": "N",
+        "CQS Symbol": "PAII.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "PAII+"
     },
     {
         "Symbol": "PALC",
@@ -31583,6 +32089,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "PVEX",
+        "Name": "Elevation Series Trust TrueShares ConVex Protect ETF",
+        "Security Name": "Elevation Series Trust TrueShares ConVex Protect ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "PVEX",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "PVEX"
+    },
+    {
         "Symbol": "PVH",
         "Name": "PVH Corp. Common Stock",
         "ownWebull": true,
@@ -31745,6 +32262,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "QBER",
+        "Name": "Elevation Series Trust TrueShares Quarterly Bear Hedge ETF",
+        "Security Name": "Elevation Series Trust TrueShares Quarterly Bear Hedge ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "QBER",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "QBER"
+    },
+    {
         "Symbol": "QBF",
         "Name": "Innovator ETFs Trust Innovator Uncapped Bitcoin 20 Floor ETF",
         "Security Name": "Innovator ETFs Trust Innovator Uncapped Bitcoin 20 Floor ETF - Quarterly",
@@ -31772,6 +32300,17 @@
         "Name": "Tradr 2X Long QBTS Daily ETF",
         "Security Name": "Tradr 2X Long QBTS Daily ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "QBUL",
+        "Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",
+        "Security Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "QBUL",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "QBUL"
     },
     {
         "Symbol": "QCAP",
@@ -32265,6 +32804,28 @@
         "Name": "Rithm Acquisition Corp. Class A Ordinary Shares",
         "Security Name": "Rithm Acquisition Corp. Class A Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "RAC.U",
+        "Name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one",
+        "Security Name": "Rithm Acquisition Corp. Units (each consists of one Class A Ordinary Share and one-third of one redeemable Warrant)",
+        "Exchange": "N",
+        "CQS Symbol": "RAC.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "RAC="
+    },
+    {
+        "Symbol": "RAC.W",
+        "Name": "Rithm Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
+        "Security Name": "Rithm Acquisition Corp. Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
+        "Exchange": "N",
+        "CQS Symbol": "RAC.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "RAC+"
     },
     {
         "Symbol": "RACE",
@@ -33186,6 +33747,17 @@
         "Symbol": "RNW",
         "Name": "Renew Energy Global PLC",
         "ownWebull": true
+    },
+    {
+        "Symbol": "RNWZ",
+        "Name": "Listed Funds Trust TrueShares Eagle Global Renewable Energy Income ETF",
+        "Security Name": "Listed Funds Trust TrueShares Eagle Global Renewable Energy Income ETF",
+        "Exchange": "P",
+        "CQS Symbol": "RNWZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "RNWZ"
     },
     {
         "Symbol": "ROAM",
@@ -34737,6 +35309,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SEPZ",
+        "Name": "TrueShares Structured Outcome (September) ETF",
+        "Security Name": "TrueShares Structured Outcome (September) ETF",
+        "Exchange": "Z",
+        "CQS Symbol": "SEPZ",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "SEPZ"
+    },
+    {
         "Symbol": "SER",
         "Name": "Serina Therapeutics, Inc. Common Stock",
         "Security Name": "Serina Therapeutics, Inc. Common Stock",
@@ -35439,6 +36022,17 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SLND.W",
+        "Name": "Southland Holdings, Inc. Warrants",
+        "Security Name": "Southland Holdings, Inc. Warrants",
+        "Exchange": "A",
+        "CQS Symbol": "SLND.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "SLND+"
+    },
+    {
         "Symbol": "SLNZ",
         "Name": "TCW Senior Loan ETF",
         "Security Name": "TCW Senior Loan ETF",
@@ -35993,6 +36587,28 @@
         "Name": "Soulpower Acquisition Corporation Class A Ordinary Shares",
         "Security Name": "Soulpower Acquisition Corporation Class A Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SOUL.R",
+        "Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one",
+        "Security Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one-tenth (1/10) of one Class A Ordinary Share",
+        "Exchange": "N",
+        "CQS Symbol": "SOULr",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "SOUL^"
+    },
+    {
+        "Symbol": "SOUL.U",
+        "Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
+        "Security Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
+        "Exchange": "N",
+        "CQS Symbol": "SOUL.U",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "SOUL="
     },
     {
         "Symbol": "SOUN",
@@ -37478,6 +38094,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "TBI",
+        "Name": "TrueBlue, Inc. Common Stock",
+        "Security Name": "TrueBlue, Inc. Common Stock",
+        "Exchange": "N",
+        "CQS Symbol": "TBI",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "TBI"
+    },
+    {
         "Symbol": "TBJL",
         "Name": "Innovator 20  Year Treasury Bond 9 Buffer ETF",
         "Security Name": "Innovator 20  Year Treasury Bond 9 Buffer ETF - July",
@@ -37946,6 +38573,17 @@
         "ETF": "N"
     },
     {
+        "Symbol": "TGE.W",
+        "Name": "The Generation Essentials Group Warrants, each whole warrant exercisable for one Class A Ordinary Share",
+        "Security Name": "The Generation Essentials Group Warrants, each whole warrant exercisable for one Class A Ordinary Share",
+        "Exchange": "A",
+        "CQS Symbol": "TGE.WS",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "TGE+"
+    },
+    {
         "Symbol": "TGEN",
         "Name": "Tecogen Inc. Common Stock",
         "Security Name": "Tecogen Inc. Common Stock",
@@ -38271,10 +38909,10 @@
     },
     {
         "Symbol": "TKO",
-        "Name": "TKO Group Holdings, Inc. Class A Common Stock",
-        "ownEtrade": true,
+        "Name": "TKO Group Holdings, Inc.",        
         "Security Name": "TKO Group Holdings, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "TKR",
@@ -39179,10 +39817,10 @@
     },
     {
         "Symbol": "TUYA",
-        "Name": "Tuya Inc. American Depositary Shares, each representing one Class A Ordinary Share",
-        "ownWebull": true,
+        "Name": "Tuya Inc.",        
         "Security Name": "Tuya Inc. American Depositary Shares, each representing one Class A Ordinary Share",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TV",
@@ -40367,7 +41005,7 @@
     },
     {
         "Symbol": "VALE",
-        "Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
+        "Name": "VALE S.A.",
         "Security Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
         "ETF": "N",
         "ownWebull": true
@@ -41124,6 +41762,17 @@
         "Name": "Virtus Investment Partners, Inc. Common Stock",
         "Security Name": "Virtus Investment Partners, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "VSCO",
+        "Name": "Victorias Secret & Co. Common Stock",
+        "Security Name": "Victorias Secret & Co. Common Stock",
+        "Exchange": "N",
+        "CQS Symbol": "VSCO",
+        "ETF": "N",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "VSCO"
     },
     {
         "Symbol": "VSDB",
@@ -42307,6 +42956,17 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "XC",
+        "Name": "WisdomTree True Emerging Markets Fund",
+        "Security Name": "WisdomTree True Emerging Markets Fund",
+        "Exchange": "P",
+        "CQS Symbol": "XC",
+        "ETF": "Y",
+        "Round Lot Size": "100",
+        "Test Issue": "N",
+        "NASDAQ Symbol": "XC"
+    },
+    {
         "Symbol": "XCCC",
         "Name": "BondBloxx ETF Trust BondBloxx CCC",
         "Security Name": "BondBloxx ETF Trust BondBloxx CCC-Rated USD High Yield Corporate Bond ETF",
@@ -43448,10 +44108,10 @@
     },
     {
         "Symbol": "ZGN",
-        "Name": "Ermenegildo Zegna N.V. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Ermenegildo Zegna N.V.",        
         "Security Name": "Ermenegildo Zegna N.V. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ZH",
@@ -43603,10 +44263,10 @@
     },
     {
         "Symbol": "ZTR",
-        "Name": "Virtus Total Return Fund Inc.",
-        "ownEtrade": true,
+        "Name": "Virtus Total Return Fund Inc.",        
         "Security Name": "Virtus Total Return Fund Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ZTS",
