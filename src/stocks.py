@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BBW"]
+stocksToAdd = ["SCHL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Build-A-Bear Workshop, Inc", ownEtrade=True)
+    addStock(stock, name="Scholastic Corp", ownEtrade=True)

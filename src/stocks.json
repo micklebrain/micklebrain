@@ -1729,6 +1729,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "AMRZ",
+        "Name": "Amrize AG",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "AMS",
         "Name": "American Shared Hospital Services Common Stock",
         "Security Name": "American Shared Hospital Services Common Stock",
@@ -25121,6 +25135,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "KBH",
+        "Name": "KB Home",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "KBR",
         "Name": "KBR, Inc. Common Stock",
         "Security Name": "KBR, Inc. Common Stock",
@@ -27339,6 +27367,20 @@
         "Name": "Lightspeed Commerce Inc. Subordinate Voting Shares",
         "Security Name": "Lightspeed Commerce Inc. Subordinate Voting Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LSPD",
+        "Name": "Lightspeed Commerce Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LST",
@@ -37545,6 +37587,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SCHL",
+        "Name": "Scholastic Corp",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SCHM",
         "Name": "Schwab U.S. Mid Cap ETF",
         "Security Name": "Schwab U.S. Mid Cap ETF",
@@ -42879,6 +42935,20 @@
         "Name": "U",
         "Security Name": "U-Haul Holding Company Series N Non-Voting Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "UHAL.B",
+        "Name": "U-Haul Holding Co Series N",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "UHS",
