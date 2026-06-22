@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["FER"]
+stocksToAdd = ["FITB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Ferrovial NV", dividend=True)
+    addStock(stock, name="Fifth Third Bancorp", dividend=True)

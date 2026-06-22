@@ -15221,6 +15221,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FFBC",
+        "Name": "First Financial Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FFC",
         "Name": "Flaherty & Crumrine Preferred and Income Securities Fund Incorporated",
         "Security Name": "Flaherty & Crumrine Preferred and Income Securities Fund Incorporated",
@@ -15249,6 +15263,20 @@
         "Name": "Fidelity Covington Trust Fidelity Fundamental Global ex",
         "Security Name": "Fidelity Covington Trust Fidelity Fundamental Global ex-U.S. ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FFIN",
+        "Name": "First Financial Bankshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FFIU",
@@ -15323,6 +15351,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FGBI",
+        "Name": "First Guaranty Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FGD",
         "Name": "First Trust DJ Global Select Dividend",
         "Security Name": "First Trust DJ Global Select Dividend",
@@ -15356,6 +15398,20 @@
         "Name": "F&G Annuities & Life, Inc. 7.300% Junior Subordinated Notes due 2065",
         "Security Name": "F&G Annuities & Life, Inc. 7.300% Junior Subordinated Notes due 2065",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FHB",
+        "Name": "First Hawaiian Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FHDG",
@@ -15428,6 +15484,20 @@
         "Name": "Tidal ETF Trust II Nicholas Fixed Income Alternative ETF",
         "Security Name": "Tidal ETF Trust II Nicholas Fixed Income Alternative ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FIBK",
+        "Name": "First Interstate Bancsystem Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FICO",
@@ -15504,6 +15574,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FIP",
+        "Name": "Ftai Infrastructure Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FIRI",
         "Name": "FIRE Funds Income Target ETF",
         "Security Name": "FIRE Funds Income Target ETF",
@@ -15522,6 +15606,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FISI",
+        "Name": "Financial Institutions Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FISK",
         "Name": "Empire State Realty OP, L.P. Series 250 Operating Partnership Units Representing Limited Partnership Interests",
         "Security Name": "Empire State Realty OP, L.P. Series 250 Operating Partnership Units Representing Limited Partnership Interests",
@@ -15536,6 +15634,20 @@
     {
         "Symbol": "FISV",
         "ownWebull": true
+    },
+    {
+        "Symbol": "FITB",
+        "Name": "Fifth Third Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FITE",
