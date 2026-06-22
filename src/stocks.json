@@ -18382,6 +18382,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "GLNG",
+        "Name": "Golar LNG Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GLO",
         "Name": "Clough Global Opportunities Fund Common Stock",
         "Security Name": "Clough Global Opportunities Fund Common Stock",
@@ -18433,6 +18447,20 @@
         "Name": "Global Partners LP 9.50% Series B Fixed Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests",
         "Security Name": "Global Partners LP 9.50% Series B Fixed Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GLPI",
+        "Name": "Gaming and Leisure Properties Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GLQ",
@@ -18744,6 +18772,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "GOOD",
+        "Name": "Gladstone Commercial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GOOG",
         "Name": "Alphabet Inc",
         "ownWebull": true
@@ -18819,6 +18861,20 @@
         "Name": "Genuine Parts Company Common Stock",
         "Security Name": "Genuine Parts Company Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GPC",
+        "Name": "Genuine Parts Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GPGI",
@@ -19325,6 +19381,20 @@
         "Name": "Gray Media, Inc. Class A Common Stock",
         "Security Name": "Gray Media, Inc. Class A Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GTNX",
+        "Name": "Gentex Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GTO",
@@ -25053,13 +25123,6 @@
     {
         "Symbol": "LBTYK",
         "Name": "Liberty Global Ltd Class C",
-        "ownWebull": true
-    },
-    {
-        "Symbol": "LC",
-        "Name": "LendingClub Corporation Common Stock",
-        "Security Name": "LendingClub Corporation Common Stock",
-        "ETF": "N",
         "ownWebull": true
     },
     {
