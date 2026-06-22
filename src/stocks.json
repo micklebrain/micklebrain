@@ -13136,6 +13136,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ENSG",
+        "Name": "Ensign Group, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "ENTG",
+        "Name": "Entegris Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ENVA",
         "Name": "Enova International, Inc. Common Stock",
         "Security Name": "Enova International, Inc. Common Stock",
@@ -13613,6 +13641,20 @@
         "Name": "Espey Mfg. & Electronics Corp. Common Stock",
         "Security Name": "Espey Mfg. & Electronics Corp. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ESPN",
+        "Name": "Epsilon Energy Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ESRT",
