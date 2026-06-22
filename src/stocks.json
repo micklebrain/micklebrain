@@ -2358,10 +2358,10 @@
     },
     {
         "Symbol": "ARMK",
-        "Name": "Aramark Common Stock",
-        "ownWebull": true,
+        "Name": "Aramark",
         "Security Name": "Aramark Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ARMN",
@@ -2545,10 +2545,10 @@
     },
     {
         "Symbol": "ASIX",
-        "Name": "AdvanSix Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "AdvanSix Inc.",
         "Security Name": "AdvanSix Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ASLV",
@@ -9464,14 +9464,6 @@
     {
         "Symbol": "CVBF",
         "Name": "CVB Financial Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -9618,28 +9610,12 @@
     {
         "Symbol": "CWBC",
         "Name": "Community West Bancshares",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
     {
         "Symbol": "CWCO",
         "Name": "Consolidated Water Co Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -9778,16 +9754,7 @@
     {
         "Symbol": "CZNC",
         "Name": "Citizens & Northern Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "CZR",
@@ -9797,14 +9764,6 @@
     {
         "Symbol": "CZWI",
         "Name": "Citizens Community Bancorp Inc.",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
         "dividend": true,
         "ETF": false
     },
@@ -10059,11 +10018,7 @@
         "Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
         "Security Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
         "Exchange": "A",
-        "CQS Symbol": "DC.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "DC+"
+        "ETF": "N"
     },
     {
         "Symbol": "DCI",
@@ -10086,16 +10041,7 @@
     {
         "Symbol": "DCOM",
         "Name": "Dime Commercial Bancshares Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "DCOR",
@@ -44404,7 +44350,7 @@
     },
     {
         "Symbol": "ZBH",
-        "Name": "Zimmer Biomet Holdings, Inc. Common Stock",
+        "Name": "Zimmer Biomet Holdings, Inc.",
         "Security Name": "Zimmer Biomet Holdings, Inc. Common Stock",
         "ETF": "N"
     },
@@ -44434,7 +44380,7 @@
     },
     {
         "Symbol": "ZETA",
-        "Name": "Zeta Global Holdings Corp. Class A Common Stock",
+        "Name": "Zeta Global Holdings Corp.",
         "Security Name": "Zeta Global Holdings Corp. Class A Common Stock",
         "ETF": "N"
     },
@@ -44476,14 +44422,14 @@
     },
     {
         "Symbol": "ZIM",
-        "Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
+        "Name": "ZIM Integrated Shipping Services Ltd.",
         "Security Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "ZIP",
-        "Name": "ZipRecruiter, Inc. Class A Common Stock",
+        "Name": "ZipRecruiter, Inc.",
         "Security Name": "ZipRecruiter, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -44561,6 +44507,7 @@
     },
     {
         "Symbol": "ZS",
+        "Name": "Zscaler Inc",
         "ownWebull": true
     },
     {
