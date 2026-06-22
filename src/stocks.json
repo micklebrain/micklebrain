@@ -11325,6 +11325,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "DOX",
+        "Name": "Amdocs Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "DPG",
         "Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
         "Security Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
@@ -11414,6 +11428,20 @@
         "Name": "Direxion Daily Real Estate Bull 3X Shares",
         "Security Name": "Direxion Daily Real Estate Bull 3X Shares",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "DRS",
+        "Name": "Leonardo DRS Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DRSK",
@@ -11547,11 +11575,12 @@
     },
     {
         "Symbol": "DTE",
-        "Name": "DEUTSCHE TELEKOM",
+        "Name": "DTE Energy Co",
         "Security Name": "DTE Energy Company Common Stock",
-        "ETF": "N",
+        "ETF": false,
         "Country": "Germany",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "DTEC",
