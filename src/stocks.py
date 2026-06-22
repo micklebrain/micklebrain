@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LECO"]
+stocksToAdd = ["LMNR"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Lincoln Electric Holdings Inc", dividend=True)
+    addStock(stock, name="Limoneira Co", dividend=True)

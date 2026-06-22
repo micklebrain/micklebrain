@@ -26588,6 +26588,34 @@
         "ETF": false
     },
     {
+        "Symbol": "LFUS",
+        "Name": "Littelfuse Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "LFVN",
+        "Name": "LifeVantage Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LGCY",
         "Name": "Legacy Education Inc. Common Stock",
         "Security Name": "Legacy Education Inc. Common Stock",
@@ -26743,6 +26771,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "LIEN",
+        "Name": "Chicago Atlantic BDC Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LII",
         "Name": "Lennox International, Inc. Common Stock",
         "ownWebull": true,
@@ -26750,10 +26792,66 @@
         "ETF": "N"
     },
     {
+        "Symbol": "LILA",
+        "Name": "Liberty Latin America Ltd Class A",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "LILAK",
+        "Name": "Liberty Latin America Ltd Class C",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LIMI",
         "Name": "Themes ETF Trust Themes Lithium & Battery Metal Miners ETF",
         "Security Name": "Themes ETF Trust Themes Lithium & Battery Metal Miners ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "LIN",
+        "Name": "Linde PLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "LINE",
+        "Name": "Lineage Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LION",
@@ -26801,6 +26899,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "LKFN",
+        "Name": "Lakeland Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LKFT",
         "Name": "Lakefront Biotherapeutics NV - ADR",
         "ownEtrade": true
@@ -26815,6 +26927,20 @@
         "Name": "FlexShares Trust FlexShares Credit",
         "Security Name": "FlexShares Trust FlexShares Credit-Scored US Long Corporate Bond Index Fund",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "LKQ",
+        "Name": "LKQ Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LLDR",
@@ -26834,6 +26960,20 @@
         "Name": "Tidal Trust II Defiance Daily Target 2X Long LLY ETF",
         "Security Name": "Tidal Trust II Defiance Daily Target 2X Long LLY ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "LMAT",
+        "Name": "LeMaitre Vascular Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LMBO",
@@ -26858,6 +26998,20 @@
         "Round Lot Size": "100",
         "Test Issue": "N",
         "NASDAQ Symbol": "LMND+"
+    },
+    {
+        "Symbol": "LMNR",
+        "Name": "Limoneira Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LMT",
