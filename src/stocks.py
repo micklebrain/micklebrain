@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["FITB"]
+stocksToAdd = ["GLAD"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Fifth Third Bancorp", dividend=True)
+    addStock(stock, name="Gladstone Capital Corp", dividend=True)

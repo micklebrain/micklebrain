@@ -16083,6 +16083,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FLXS",
+        "Name": "Flexsteel Industries Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FLYD",
         "Name": "Bank of Montreal MicroSectors Travel",
         "Security Name": "Bank of Montreal MicroSectors Travel -3x Inverse Leveraged ETN",
@@ -16118,6 +16132,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FMAO",
+        "Name": "Farmers & Merchants Bancorp, Inc. (OH) Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FMAR",
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "Security Name": "FT Vest U.S. Equity Buffer ETF - March",
@@ -16134,6 +16162,20 @@
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "Security Name": "FT Vest U.S. Equity Buffer ETF - May",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FMBH",
+        "Name": "First Mid-Illinois Bancshares, Inc. Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FMC",
@@ -16177,6 +16219,20 @@
         "Name": "Federated Hermes Premier Municipal Income Fund",
         "Security Name": "Federated Hermes Premier Municipal Income Fund",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FMNB",
+        "Name": "Farmers National Banc Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FMNY",
@@ -16311,6 +16367,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "FNLC",
+        "Name": "First Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FNOV",
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "Security Name": "FT Vest U.S. Equity Buffer ETF - November",
@@ -16321,6 +16391,34 @@
         "Name": "Franco",
         "Security Name": "Franco-Nevada Corporation",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FNV",
+        "Name": "Franco-Nevada Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "FNWD",
+        "Name": "Finward Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FOA",
@@ -16367,6 +16465,20 @@
         "Name": "Formidable ETF",
         "Security Name": "Formidable ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FORTY",
+        "Name": "Formula Systems 1985 Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FOSL",
@@ -16503,8 +16615,36 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FRAF",
+        "Name": "Franklin Financial Services Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FRBA",
         "ownWebull": true
+    },
+    {
+        "Symbol": "FRD",
+        "Name": "Friedman Industries Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FRDM",
@@ -16537,6 +16677,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FRME",
+        "Name": "First Merchants Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FRMI",
         "Name": "Fermi Inc.",
         "ownWebull": true
@@ -16564,10 +16718,38 @@
         "ownWebull": true
     },
     {
+        "Symbol": "FRST",
+        "Name": "Primis Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FRT",
         "Name": "Federal Realty Investment Trust Common Stock",
         "Security Name": "Federal Realty Investment Trust Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FRT",
+        "Name": "Federal Realty Investment Trust",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FRT-C",
@@ -16582,10 +16764,38 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FSBC",
+        "Name": "Five Star Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FSBD",
         "Name": "Fidelity Merrimack Street Trust Fidelity Sustainable Core Plus Bond ETF",
         "Security Name": "Fidelity Merrimack Street Trust Fidelity Sustainable Core Plus Bond ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FSBW",
+        "Name": "FS Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FSCC",
@@ -16703,6 +16913,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FTAI",
+        "Name": "FTAI Aviation Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FTBD",
         "Name": "Fidelity Merrimack Street Trust Fidelity Tactical Bond ETF",
         "Security Name": "Fidelity Merrimack Street Trust Fidelity Tactical Bond ETF",
@@ -16755,6 +16979,20 @@
         "Name": "TechnipFMC plc Ordinary Share",
         "Security Name": "TechnipFMC plc Ordinary Share",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FTI",
+        "Name": "TechnipFMC PLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FTIF",
@@ -16833,6 +17071,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "FULT",
+        "Name": "Fulton Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FUMB",
         "Name": "First Trust Ultra Short Duration Municipal ETF",
         "Security Name": "First Trust Ultra Short Duration Municipal ETF",
@@ -16846,6 +17098,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FUNC",
+        "Name": "First United Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FUNL",
         "Name": "CornerCap Fundametrics Large",
         "Security Name": "CornerCap Fundametrics Large-Cap ETF",
@@ -16856,6 +17122,20 @@
         "Name": "Fury Gold Mines Limited Common Shares",
         "Security Name": "Fury Gold Mines Limited Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FUSB",
+        "Name": "First US Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FUSI",
@@ -16880,6 +17160,20 @@
         "Name": "Fidelity Value Factor ETF",
         "Security Name": "Fidelity Value Factor ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FVCB",
+        "Name": "FVCBankcorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FVD",
@@ -16984,6 +17278,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FXNC",
+        "Name": "First National Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FXO",
         "Name": "First Trust Financials AlphaDEX",
         "Security Name": "First Trust Financials AlphaDEX",
@@ -17070,6 +17378,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "GABC",
+        "Name": "German American Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GABF",
         "Name": "Gabelli ETFs Trust Gabelli Financial Services Opportunities ETF",
         "Security Name": "Gabelli ETFs Trust Gabelli Financial Services Opportunities ETF",
@@ -17085,6 +17407,20 @@
         "Symbol": "GAIA",
         "Name": "Gaia Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "GAIN",
+        "Name": "Gladstone Investment Corporation",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GAL",
@@ -17145,6 +17481,20 @@
         "Name": "GATX Corporation Common Stock",
         "Security Name": "GATX Corporation Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GATX",
+        "Name": "GATX Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GAU",
@@ -17264,6 +17614,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "GCBC",
+        "Name": "Greene County Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GCC",
         "Name": "WisdomTree EnhancedContinuous Commodity Index Fund",
         "Security Name": "WisdomTree EnhancedContinuous Commodity Index Fund",
@@ -17274,6 +17638,20 @@
         "Name": "Gannett Co., Inc. Common Stock",
         "Security Name": "Gannett Co., Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GCMG",
+        "Name": "GCM Grosvenor Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GCO",
@@ -17456,10 +17834,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "GEHC",
+        "Name": "GE HealthCare Technologies Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GEL",
         "Name": "Genesis Energy, L.P. Common Units",
         "Security Name": "Genesis Energy, L.P. Common Units",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GEL",
+        "Name": "Genesis Energy, L.P. common stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GEM",
@@ -17791,10 +18197,38 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "GIII",
+        "Name": "G-III Apparel Group Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GIL",
         "Name": "Gildan Activewear, Inc. Class A Sub. Vot. Common Stock",
         "Security Name": "Gildan Activewear, Inc. Class A Sub. Vot. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GILD",
+        "Name": "Gilead Sciences, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GINN",
@@ -17886,6 +18320,20 @@
         "Name": "Globe Life Inc. 4.25% Junior Subordinated Debentures due 2061",
         "Security Name": "Globe Life Inc. 4.25% Junior Subordinated Debentures due 2061",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GLAD",
+        "Name": "Gladstone Capital Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GLBL",
