@@ -1222,7 +1222,7 @@
     },
     {
         "Symbol": "AIR",
-        "Name": "AAR Corp. Common Stock",
+        "Name": "AAR Corp.",
         "Security Name": "AAR Corp. Common Stock",
         "ETF": "N"
     },
@@ -1597,10 +1597,10 @@
     },
     {
         "Symbol": "AMCR",
-        "Name": "Amcor plc Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Amcor plc",
         "Security Name": "Amcor plc Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AMD",
@@ -2037,10 +2037,10 @@
     },
     {
         "Symbol": "APO",
-        "Name": "Apollo Global Management, Inc. (New) Common Stock",
-        "ownWebull": true,
+        "Name": "Apollo Global Management, Inc.",
         "Security Name": "Apollo Global Management, Inc. (New) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "APO-A",
@@ -2105,11 +2105,7 @@
         "Name": "TrueShares Structured Outcome (April) ETF",
         "Security Name": "TrueShares Structured Outcome (April) ETF",
         "Exchange": "Z",
-        "CQS Symbol": "APRZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "APRZ"
+        "ETF": "Y"
     },
     {
         "Symbol": "APT",
@@ -2119,10 +2115,10 @@
     },
     {
         "Symbol": "APTV",
-        "Name": "Aptiv PLC Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Aptiv PLC",
         "Security Name": "Aptiv PLC Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "APUE",
