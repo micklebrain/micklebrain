@@ -401,6 +401,7 @@ function Stocks() {
       <div className="stocks-grid">
         {filteredItems.map((item, index) => {
           const occurrence = symbolOccurrences[index];
+          const globalIndex = effectiveItems.findIndex((x) => x === item);
           const hasWebull = !!item.ownWebull;
           const hasEtrade = !!item.ownEtrade;
           const hasRobinhood = !!item.ownRobinhood;
@@ -423,11 +424,11 @@ function Stocks() {
 
           return (
             <div
-              key={`${item.Symbol}-${occurrence}`}
+              key={`${item.Symbol}-${globalIndex}`}
               className={`stocks-tile ${isOwned ? "stocks-tile-owned" : ""}`}
             >
               <span className="stocks-symbol">
-                <Link to={`/stocks/${encodeURIComponent(item.Symbol)}/${occurrence}`}>
+                <Link to={`/stocks/${encodeURIComponent(item.Symbol)}/${globalIndex}`}>
                   {item.Symbol}
                 </Link>
               </span>

@@ -676,9 +676,10 @@
     },
     {
         "Symbol": "ADT",
-        "Name": "ADT Inc. Common Stock",
+        "Name": "ADT Inc.",
         "Security Name": "ADT Inc. Common Stock",
         "ETF": "N",
+        "Country": "USA",
         "ownInteractiveBrokers": true
     },
     {
@@ -11575,12 +11576,16 @@
     },
     {
         "Symbol": "DTE",
-        "Name": "DTE Energy Co",
-        "Security Name": "DTE Energy Company Common Stock",
-        "ETF": false,
+        "Name": "Deutsche Telekom AG",
         "Country": "Germany",
-        "ownInteractiveBrokers": true,
-        "dividend": true
+        "ETF": false,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "DTE",
+        "Name": "DTE Energy Co",
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DTEC",
@@ -27329,10 +27334,10 @@
     },
     {
         "Symbol": "MUFG",
-        "Name": "Mitsubishi UFJ Financial Group, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Mitsubishi UFJ Financial Group, Inc.",
         "Security Name": "Mitsubishi UFJ Financial Group, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MUJ",
@@ -27379,16 +27384,16 @@
     {
         "Symbol": "MUR",
         "Name": "Murphy Oil Corporation Common Stock",
-        "ownWebull": true,
         "Security Name": "Murphy Oil Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MUSA",
-        "Name": "Murphy USA Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Murphy USA Inc.",
         "Security Name": "Murphy USA Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MUSE",
@@ -27960,9 +27965,9 @@
     {
         "Symbol": "NEM",
         "Name": "Newmont Corporation",
-        "ownWebull": true,
         "Security Name": "Newmont Corporation",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NEMD",
@@ -28261,12 +28266,13 @@
     {
         "Symbol": "NKE",
         "Name": "Nike, Inc. Common Stock",
-        "ownEtrade": true,
         "Security Name": "Nike, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "NKLR",
+        "Name": "Terra Innovatum Global NV",
         "ownWebull": true
     },
     {

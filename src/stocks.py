@@ -41,7 +41,7 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
 
     found = False
     for item in data:
-        if item.get("Symbol") == symbol.upper():
+        if item.get("Symbol") == symbol.upper() and item.get("Name") == name:
             if ownWebull:
                 item["ownWebull"] = True
             if ownEtrade:

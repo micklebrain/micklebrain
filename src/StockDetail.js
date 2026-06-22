@@ -14,15 +14,19 @@ function StockDetail() {
       item.Symbol.toUpperCase() === normalizedSymbol
   );
 
-  const selectedItem = (() => {
-    if (typeof itemIndex !== "undefined") {
-      const index = Number(itemIndex);
-      if (!Number.isNaN(index) && index >= 0 && index < matches.length) {
-        return matches[index];
+  let selectedItem = null;
+  if (typeof itemIndex !== "undefined") {
+    const index = Number(itemIndex);
+    if (!Number.isNaN(index) && index >= 0 && index < stocks.length) {
+      const candidate = stocks[index];
+      if (candidate && typeof candidate.Symbol === "string" && candidate.Symbol.toUpperCase() === normalizedSymbol) {
+        selectedItem = candidate;
+      } else if (index >= 0 && index < matches.length) {
+        // Fallback for older links that used match-local index
+        selectedItem = matches[index];
       }
     }
-    return null;
-  })();
+  }
 
   const renderOwnedIn = (item) => {
     const owners = [];
@@ -70,14 +74,15 @@ function StockDetail() {
         <div className="stock-detail-list">
           {matches.map((item, index) => {
             const ownedIn = renderOwnedIn(item);
+            const globalIndex = stocks.findIndex((x) => x === item);
             return (
               <div
-                key={`${normalizedSymbol}-${index}`}
+                key={`${normalizedSymbol}-${globalIndex}`}
                 className="stock-detail-card"
               >
                 <h2>{item.Name || item["Security Name"] || "Unnamed Stock"}</h2>
                 <p>
-                  <Link to={`/stocks/${encodeURIComponent(item.Symbol)}/${index}`}>
+                  <Link to={`/stocks/${encodeURIComponent(item.Symbol)}/${globalIndex}`}>
                     View this item
                   </Link>
                 </p>
