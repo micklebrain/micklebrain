@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LMNR"]
+stocksToAdd = ["BBW"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Limoneira Co", dividend=True)
+    addStock(stock, name="Build-A-Bear Workshop, Inc", ownEtrade=True)
