@@ -5043,7 +5043,9 @@
     {
         "Symbol": "BLMN",
         "Name": "Bloomin' Brands Inc",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true,
+        "ETF": false
     },
     {
         "Symbol": "BLND",
@@ -42019,9 +42021,10 @@
     },
     {
         "Symbol": "TPL",
-        "Name": "Texas Pacific Land Corporation Common Stock",
+        "Name": "Texas Pacific Land Corporation",
         "Security Name": "Texas Pacific Land Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TPLC",

@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["SCHL"]
+stocksToAdd = ["BLMN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Scholastic Corp", ownEtrade=True)
+    addStock(stock, name="Bloomin' Brands Inc", ownEtrade=True)
