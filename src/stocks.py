@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LSTR"]
+stocksToAdd = ["MLCI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Landstar System Inc", dividend=True)
+    addStock(stock, name="Mount Logan Capital Inc", dividend=True)

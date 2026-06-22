@@ -27680,17 +27680,17 @@
     },
     {
         "Symbol": "M",
-        "Name": "Macy's Inc Common Stock",
-        "ownWebull": true,
+        "Name": "Macy's Inc",
         "Security Name": "Macy's Inc Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MA",
-        "Name": "Mastercard Incorporated Common Stock",
-        "ownWebull": true,
+        "Name": "Mastercard Incorporated",
         "Security Name": "Mastercard Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MAA",
@@ -27829,6 +27829,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "MARPS",
+        "Name": "Marine Petroleum Trust",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MART",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Mar ETF",
         "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Mar ETF",
@@ -27873,6 +27887,20 @@
         "Name": "Mativ Holdings, Inc. Common Stock",
         "Security Name": "Mativ Holdings, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MATW",
+        "Name": "Matthews International Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MATX",
@@ -27985,6 +28013,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "MBIN",
+        "Name": "Merchants Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MBND",
         "Name": "SPDR Nuveen Municipal Bond ETF",
         "Security Name": "SPDR Nuveen Municipal Bond ETF",
@@ -28021,6 +28063,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "MBWM",
+        "Name": "Mercantile Bank Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MC",
         "Name": "Moelis & Company Class A Common Stock",
         "Security Name": "Moelis & Company Class A Common Stock",
@@ -28031,6 +28087,20 @@
         "Name": "Metropolitan Bank Holding Corp. Common Stock",
         "Security Name": "Metropolitan Bank Holding Corp. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MCBS",
+        "Name": "Metrocity Bankshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MCD",
@@ -28044,6 +28114,34 @@
         "Name": "Matthews International Funds Matthews China Active ETF",
         "Security Name": "Matthews International Funds Matthews China Active ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "MCHB",
+        "Name": "Mechanics Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "MCHP",
+        "Name": "Microchip Technology Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MCI",
@@ -28082,6 +28180,20 @@
         "Name": "MFS Charter Income Trust Common Stock",
         "Security Name": "MFS Charter Income Trust Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MCRI",
+        "Name": "Monarch Casino & Resort Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MCRP",
@@ -28125,16 +28237,58 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "MDLN",
+        "Name": "Medline Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MDLV",
         "Name": "EA Series Trust Morgan Dempsey Large Cap Value ETF",
         "Security Name": "EA Series Trust Morgan Dempsey Large Cap Value ETF",
         "ETF": "Y"
     },
     {
+        "Symbol": "MDLZ",
+        "Name": "MONDELEZ INTERNATIONAL INC Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MDPL",
         "Name": "Northern Lights Fund Trust IV Monarch Dividend Plus Index ETF",
         "Security Name": "Northern Lights Fund Trust IV Monarch Dividend Plus Index ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "MDRR",
+        "Name": "Medalist Diversified, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MDST",
@@ -28254,6 +28408,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "MEOH",
+        "Name": "Methanex Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MER-K",
         "Name": "Bank of America Corporation Income Capital Obligation Notes initially due December 15, 2066",
         "Security Name": "Bank of America Corporation Income Capital Obligation Notes initially due December 15, 2066",
@@ -28291,6 +28459,20 @@
         "Symbol": "META",
         "Name": "MEta Platforms Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "METC",
+        "Name": "Ramaco Resources Inc Class A",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "METV",
@@ -28364,6 +28546,34 @@
         "ownWebull": true,
         "Security Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MFIC",
+        "Name": "MidCap Financial Investment Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "MFIN",
+        "Name": "Medallion Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MFM",
@@ -28443,6 +28653,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "MGEE",
+        "Name": "MGE Energy Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MGF",
         "Name": "MFS Government Markets Income Trust Common Stock",
         "Security Name": "MFS Government Markets Income Trust Common Stock",
@@ -28490,6 +28714,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "MGPI",
+        "Name": "MGP Ingredients Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MGR",
         "Name": "Affiliated Managers Group, Inc. 5.875% Junior Subordinated Notes due 2059",
         "Security Name": "Affiliated Managers Group, Inc. 5.875% Junior Subordinated Notes due 2059",
@@ -28500,6 +28738,20 @@
         "Name": "Affiliated Managers Group, Inc. 4.750% Junior Subordinated Notes due 2060",
         "Security Name": "Affiliated Managers Group, Inc. 4.750% Junior Subordinated Notes due 2060",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MGRC",
+        "Name": "McGrath RentCorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MGRD",
@@ -28535,6 +28787,20 @@
         "Name": "Magnolia Oil & Gas Corporation Class A Common Stock",
         "Security Name": "Magnolia Oil & Gas Corporation Class A Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MGYR",
+        "Name": "Magyar Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MH",
@@ -28601,6 +28867,20 @@
         "Name": "Miami International Holdings, Inc. Common Stock",
         "Security Name": "Miami International Holdings, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MICC",
+        "Name": "Magnum Ice Cream Company NV",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MID",
@@ -28775,9 +29055,79 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "MKSI",
+        "Name": "MKS Incorporated",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "MKTW",
+        "Name": "MarketWise Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "MKTX",
+        "Name": "Marketaxess Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MKZR",
         "Name": "MacKenzie Realty Capital Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "MLAB",
+        "Name": "Mesa Laboratories Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "MLCI",
+        "Name": "Mount Logan Capital Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MLCO",
