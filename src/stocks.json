@@ -26010,13 +26010,6 @@
         "ETF": "N"
     },
     {
-        "Symbol": "KW",
-        "Name": "Kennedy",
-        "ownWebull": true,
-        "Security Name": "Kennedy-Wilson Holdings Inc. Common Stock",
-        "ETF": "N"
-    },
-    {
         "Symbol": "KWEB",
         "Name": "KraneShares Trust KraneShares CSI China Internet ETF",
         "Security Name": "KraneShares Trust KraneShares CSI China Internet ETF",
