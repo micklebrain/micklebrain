@@ -13579,10 +13579,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ESCA",
+        "Name": "Escalade Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ESE",
         "Name": "ESCO Technologies Inc. Common Stock",
         "Security Name": "ESCO Technologies Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ESEA",
+        "Name": "Euroseas Ltdc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ESG",
@@ -13637,6 +13665,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ESOA",
+        "Name": "Energy Services Of America Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ESP",
         "Name": "Espey Mfg. & Electronics Corp. Common Stock",
         "Security Name": "Espey Mfg. & Electronics Corp. Common Stock",
@@ -13645,6 +13687,20 @@
     {
         "Symbol": "ESPN",
         "Name": "Epsilon Energy Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "ESQ",
+        "Name": "Esquire Financial Holdings Inc",
         "ownWebull": false,
         "ownEtrade": false,
         "ownRobinhood": false,

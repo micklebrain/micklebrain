@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ESPN"]
+stocksToAdd = ["ESQ"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Epsilon Energy Ltd", dividend=True)
+    addStock(stock, name="Esquire Financial Holdings Inc", dividend=True)
