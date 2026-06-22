@@ -11970,6 +11970,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "EBMT",
+        "Name": "Eagle Bancorp Montana Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "EBND",
         "Name": "SPDR Bloomberg Emerging Markets Local Bond ETF",
         "Security Name": "SPDR Bloomberg Emerging Markets Local Bond ETF",
@@ -12409,6 +12423,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "EFSC",
+        "Name": "Enterprise Financial Services Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "EFSI",
+        "Name": "Eagle Financial Services Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "EFT",
         "Name": "Eaton Vance Floating Rate Income Trust Common Shares of Beneficial Interest",
         "Security Name": "Eaton Vance Floating Rate Income Trust Common Shares of Beneficial Interest",
@@ -12450,6 +12492,20 @@
         "Name": "Everest Group, Ltd. Common Stock",
         "Security Name": "Everest Group, Ltd. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "EGBN",
+        "Name": "Eagle Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "EGG",
@@ -12666,6 +12722,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "ELE",
+        "Name": "Elemental Royalty Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ELF",
         "Name": "e.l.f. Beauty, Inc. Common Stock",
         "ownWebull": true,
@@ -12739,16 +12809,58 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "ELV",
+        "Name": "Elevance Health Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "EMA",
         "Name": "Emera Incorporated Common Shares",
         "Security Name": "Emera Incorporated Common Shares",
         "ETF": "N"
     },
     {
+        "Symbol": "EMBC",
+        "Name": "Embecta Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "EMBD",
         "Name": "Global X Emerging Markets Bond ETF",
         "Security Name": "Global X Emerging Markets Bond ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "EMBJ",
+        "Name": "Embraer SA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "EMC",
@@ -12831,6 +12943,20 @@
     {
         "Symbol": "EMISR",
         "Name": "EMMIS ACQUISITION CORP."
+    },
+    {
+        "Symbol": "EML",
+        "Name": "Eastern Company",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "EMLC",

@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["DTE"]
+stocksToAdd = ["EML"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="DTE Energy Co", dividend=True)
+    addStock(stock, name="Eastern Company", dividend=True)

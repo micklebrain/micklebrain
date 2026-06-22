@@ -242,17 +242,17 @@ function Stocks() {
         </button>
         <button
           type="button"
-          className={`stocks-filter-btn ${selectedBrokers.robinhood ? "active" : ""}`}
-          onClick={() => toggleBrokerFilter("robinhood")}
-        >
-          Robinhood
-        </button>
-        <button
-          type="button"
           className={`stocks-filter-btn ${selectedBrokers.interactiveBrokers ? "active" : ""}`}
           onClick={() => toggleBrokerFilter("interactiveBrokers")}
         >
           Interactive Brokers
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${selectedBrokers.robinhood ? "active" : ""}`}
+          onClick={() => toggleBrokerFilter("robinhood")}
+        >
+          Robinhood
         </button>
         <button
           type="button"
