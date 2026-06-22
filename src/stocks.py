@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BLMN"]
+stocksToAdd = ["LSTR"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bloomin' Brands Inc", ownEtrade=True)
+    addStock(stock, name="Landstar System Inc", dividend=True)

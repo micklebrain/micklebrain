@@ -27099,6 +27099,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "LNT",
+        "Name": "Alliant Energy Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LNVGY",
         "Name": "Lenovo Group Ltd",
         "ownWebull": true
@@ -27107,6 +27121,20 @@
         "Symbol": "LNWO",
         "Name": "Light & Wonder",
         "ownWebull": true
+    },
+    {
+        "Symbol": "LOAN",
+        "Name": "Manhattan Bridge Capital Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LOAR",
@@ -27217,6 +27245,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "LPLA",
+        "Name": "LPL Financial Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LPRE",
         "Name": "Exchange Listed Funds Trust Long Pond Real Estate Select ETF",
         "Security Name": "Exchange Listed Funds Trust Long Pond Real Estate Select ETF",
@@ -27289,6 +27331,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "LRCX",
+        "Name": "Lam Research Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LRE",
         "ownWebull": true
     },
@@ -27340,6 +27396,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "LSBK",
+        "Name": "Lake Shore Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LSEQ",
         "Name": "Harbor ETF Trust Harbor Long",
         "Security Name": "Harbor ETF Trust Harbor Long-Short Equity ETF",
@@ -27382,6 +27452,20 @@
         "Name": "Managed Portfolio Series Leuthold Select Industries ETF",
         "Security Name": "Managed Portfolio Series Leuthold Select Industries ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "LSTR",
+        "Name": "Landstar System Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LSVD",
