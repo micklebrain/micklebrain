@@ -3831,6 +3831,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "BBW",
+        "Name": "Build-A-Bear Workshop, Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "BBWI",
         "Name": "Bath & Body Works, Inc.",
         "ownWebull": true,
