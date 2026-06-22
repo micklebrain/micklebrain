@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["MLCI"]
+stocksToAdd = ["NXST"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Mount Logan Capital Inc", dividend=True)
+    addStock(stock, name="Nexstar Media Group Inc", dividend=True)
