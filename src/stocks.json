@@ -25372,6 +25372,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "KINS",
+        "Name": "Kingstone Companies Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "KIO",
         "Name": "KKR Income Opportunities Fund Common Shares",
         "Security Name": "KKR Income Opportunities Fund Common Shares",
@@ -25484,10 +25498,52 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "KMB",
+        "Name": "Kimberly-Clark Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "KMDA",
+        "Name": "Kamada Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "KMI",
         "Name": "Kinder Morgan, Inc. Common Stock",
         "Security Name": "Kinder Morgan, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "KMI",
+        "Name": "Kinder Morgan Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "KMID",
@@ -25748,6 +25804,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "KRNY",
+        "Name": "Kearny Financial Corp.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "KRO",
         "Name": "Kronos Worldwide Inc Common Stock",
         "Security Name": "Kronos Worldwide Inc Common Stock",
@@ -25759,6 +25829,20 @@
         "ownWebull": true,
         "Security Name": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
         "ETF": "N"
+    },
+    {
+        "Symbol": "KRT",
+        "Name": "Karat Packaging Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "KRUS",
@@ -25976,10 +26060,52 @@
         "ownWebull": true
     },
     {
+        "Symbol": "LAKE",
+        "Name": "Lakeland Industries Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LALT",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund VIII First Trust Multi-Strategy Alternative ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "LAMR",
+        "Name": "Lamar Advertising Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "LAND",
+        "Name": "Gladstone Land Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LANV",
@@ -26004,6 +26130,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "LARK",
+        "Name": "Landmark Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "LAUR",
+        "Name": "Laureate Education Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LAW",
         "Name": "CS Disco, Inc. Common Stock",
         "Security Name": "CS Disco, Inc. Common Stock",
@@ -26019,6 +26173,20 @@
         "Name": "Lazard, Inc. Common Stock",
         "Security Name": "Lazard, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LAZ",
+        "Name": "Lazard Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LB",
@@ -26085,6 +26253,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "LCNB",
+        "Name": "LCNB Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LCOW",
         "Name": "Pacer Funds Trust Pacer S&P 500 Quality FCF Aristocrats ETF",
         "Security Name": "Pacer Funds Trust Pacer S&P 500 Quality FCF Aristocrats ETF",
@@ -26113,6 +26295,20 @@
         "Name": "Lineage Cell Therapeutics, Inc. Common Stock",
         "Security Name": "Lineage Cell Therapeutics, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "LCUT",
+        "Name": "Lifetime Brands Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LDDR",

@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["KELYA"]
+stocksToAdd = ["LECO"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Kelly Services Inc Class A", dividend=True)
+    addStock(stock, name="Lincoln Electric Holdings Inc", dividend=True)
