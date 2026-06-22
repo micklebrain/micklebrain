@@ -22905,6 +22905,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "IOSP",
+        "Name": "Innospec Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "IOT",
         "Name": "Samsara Inc. Class A Common Stock",
         "Security Name": "Samsara Inc. Class A Common Stock",
@@ -22918,10 +22932,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "IP",
+        "Name": "International Paper Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "IPAC",
         "Name": "iShares Core MSCI Pacific ETF",
         "Security Name": "iShares Core MSCI Pacific ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "IPAR",
+        "Name": "Interparfums Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "IPAV",
@@ -23059,6 +23101,20 @@
         "Name": "Irobot"
     },
     {
+        "Symbol": "IRDM",
+        "Name": "Iridium Communications Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "IRET",
         "Name": "Tidal Trust II iREIT",
         "Security Name": "Tidal Trust II iREIT - MarketVector Quality REIT Index ETF",
@@ -23069,6 +23125,20 @@
         "Name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
         "Security Name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
         "ETF": "N"
+    },
+    {
+        "Symbol": "IRMD",
+        "Name": "Iradimed Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "IROC",
@@ -23104,6 +23174,20 @@
         "Name": "Global X Funds Global X Interest Rate Volatility & Inflation Hedge ETF",
         "Security Name": "Global X Funds Global X Interest Rate Volatility & Inflation Hedge ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "ISBA",
+        "Name": "Isabella Bank Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ISCB",
@@ -23170,6 +23254,20 @@
         "Name": "VanEck Israel ETF",
         "Security Name": "VanEck Israel ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "ISTR",
+        "Name": "Investar Holding Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ISVL",
@@ -23275,6 +23373,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "ITIC",
+        "Name": "Investors Title Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ITM",
         "Name": "VanEck ETF Trust VanEck Intermediate Muni ETF",
         "Security Name": "VanEck ETF Trust VanEck Intermediate Muni ETF",
@@ -23303,6 +23415,20 @@
         "Name": "Integra Resources Corp. Common Shares",
         "Security Name": "Integra Resources Corp. Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ITRN",
+        "Name": "Ituran Location and Control Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ITT",
@@ -23775,6 +23901,34 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "JAKK",
+        "Name": "JAKKS Pacific Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "JAN",
+        "Name": "Janus Living Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JANH",
         "Name": "Innovator ETFs Trust Innovator Premium Income 20 Barrier ETF",
         "Security Name": "Innovator ETFs Trust Innovator Premium Income 20 Barrier ETF - January",
@@ -23846,6 +24000,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "JBHT",
+        "Name": "J B Hunt Transport Services Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JBI",
         "Name": "Janus International Group, Inc. Common Stock",
         "Security Name": "Janus International Group, Inc. Common Stock",
@@ -23880,6 +24048,20 @@
         "ownEtrade": true,
         "Security Name": "JBS N.V. Class A Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "JBSS",
+        "Name": "John B Sanfilippo & Son Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "JBTM",
@@ -24042,6 +24224,20 @@
         "Name": "Bank Of Montreal MAX Airlines 3X Leveraged ETNs",
         "Security Name": "Bank Of Montreal MAX Airlines 3X Leveraged ETNs",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "JFIN",
+        "Name": "Jiayin Group Inc - ADR",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "JFLI",
@@ -24224,6 +24420,20 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "JKHY",
+        "Name": "Jack Henry & Associates Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JKS",
         "Name": "JinkoSolar Holding Company Limited American Depositary Shares (each representing 4 Common Shares)",
         "Security Name": "JinkoSolar Holding Company Limited American Depositary Shares (each representing 4 Common Shares)",
@@ -24283,6 +24493,20 @@
         "Name": "JPMorgan U.S. Momentum Factor ETF",
         "Security Name": "JPMorgan U.S. Momentum Factor ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "JMSB",
+        "Name": "John Marshall Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "JMSI",
@@ -24381,10 +24605,38 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "JOUT",
+        "Name": "Johnson Outdoors Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JOYT",
         "Name": "J.P. Morgan Exchange",
         "Security Name": "J.P. Morgan Exchange-Traded Fund Trust JPMorgan Equity and Options Total Return ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "JOYY",
+        "Name": "JOYY Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "JPAN",
@@ -24568,6 +24820,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "JRSH",
+        "Name": "Jerash Holdings (US) Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "JRVR",
+        "Name": "James River Group Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JSCP",
         "Name": "JPMorgan Short Duration Core Plus ETF",
         "Security Name": "JPMorgan Short Duration Core Plus ETF",
@@ -24739,6 +25019,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "KALU",
+        "Name": "Kaiser Aluminum Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "KAPA",
         "Name": "Kairos Pharma, Ltd. Common Stock",
         "Security Name": "Kairos Pharma, Ltd. Common Stock",
@@ -24755,6 +25049,20 @@
         "Name": "OPENLANE, Inc. Common Stock",
         "Security Name": "OPENLANE, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "KARO",
+        "Name": "Karooooo Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "KARS",
@@ -24872,6 +25180,20 @@
         "Symbol": "KEEL",
         "Name": "Bitfarms",
         "ownWebull": true
+    },
+    {
+        "Symbol": "KELYA",
+        "Name": "Kelly Services Inc Class A",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "KEMQ",

@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["INDB"]
+stocksToAdd = ["KELYA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Independent Bank Corp (Massachusetts)", dividend=True)
+    addStock(stock, name="Kelly Services Inc Class A", dividend=True)
