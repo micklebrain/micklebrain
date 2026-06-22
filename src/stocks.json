@@ -19107,6 +19107,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "GROW",
+        "Name": "US Global Investors Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GROY",
         "Name": "Gold Royalty Corp. Common Shares",
         "Security Name": "Gold Royalty Corp. Common Shares",
@@ -19185,6 +19199,20 @@
         "Name": "Goldman Sachs Group, Inc. (The) Dep Shs repstg 1/1000 Pfd Ser D Fltg",
         "Security Name": "Goldman Sachs Group, Inc. (The) Dep Shs repstg 1/1000 Pfd Ser D Fltg",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GSBC",
+        "Name": "Great Southern Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GSBD",
@@ -19283,6 +19311,20 @@
         "Name": "Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF",
         "Security Name": "Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "GSM",
+        "Name": "Ferroglobe PLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GSPY",
@@ -19415,6 +19457,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "GTX",
+        "Name": "Garrett Motion Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GTY",
         "Name": "Getty Realty Corporation Common Stock",
         "Security Name": "Getty Realty Corporation Common Stock",
@@ -19519,6 +19575,20 @@
         "Name": "Guidewire Software, Inc. Common Stock",
         "Security Name": "Guidewire Software, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "GWRS",
+        "Name": "Global Water Resources Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GWW",
@@ -19641,6 +19711,20 @@
         "Name": "Harbor Human Capital Factor US Large Cap ETF",
         "Security Name": "Harbor Human Capital Factor US Large Cap ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "HAPN",
+        "Name": "LendingClub Corporation",
+        "ownWebull": true,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "HAPS",

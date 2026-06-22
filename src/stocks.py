@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["GPC"]
+stocksToAdd = ["GWRS"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Genuine Parts Co", dividend=True)
+    addStock(stock, name="Global Water Resources Inc", dividend=True)
