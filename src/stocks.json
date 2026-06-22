@@ -14089,6 +14089,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "EVRG",
+        "Name": "Evergy Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "EVSB",
         "Name": "Morgan Stanley ETF Trust Eaton Vance Ultra",
         "Security Name": "Morgan Stanley ETF Trust Eaton Vance Ultra-Short Income ETF",
@@ -14155,6 +14169,20 @@
         "Name": "iShares MSCI Australia Index Fund",
         "Security Name": "iShares MSCI Australia Index Fund",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "EWBC",
+        "Name": "East West Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "EWC",
@@ -14287,6 +14315,34 @@
         "Name": "iShares Inc iShares MSCI Brazil ETF",
         "Security Name": "iShares Inc iShares MSCI Brazil ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "EXC",
+        "Name": "Exelon Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "EXE",
+        "Name": "Expand Energy Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "EXG",
@@ -14436,6 +14492,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FANG",
+        "Name": "Diamondback Energy Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FAPR",
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "Security Name": "FT Vest U.S. Equity Buffer ETF - April",
@@ -14452,6 +14522,20 @@
         "Name": "Direxion Financial Bull 3X Shares",
         "Security Name": "Direxion Financial Bull 3X Shares",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FAST",
+        "Name": "Fastenal Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FATBB",
@@ -14506,10 +14590,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FBIZ",
+        "Name": "First Business Financial Services Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FBK",
         "Name": "FB Financial Corporation Common Stock",
         "Security Name": "FB Financial Corporation Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FBNC",
+        "Name": "First Bancorp (North Carolina)",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FBND",
@@ -14567,16 +14679,72 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FCAP",
+        "Name": "First Capital Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "FCBC",
+        "Name": "First Community Bankshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FCBD",
         "Name": "The Advisors' Inner Circle Fund II Frontier Asset Core Bond ETF",
         "Security Name": "The Advisors' Inner Circle Fund II Frontier Asset Core Bond ETF",
         "ETF": "Y"
     },
     {
+        "Symbol": "FCCO",
+        "Name": "First Community Corp (South Carolina)",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FCF",
         "Name": "First Commonwealth Financial Corporation Common Stock",
         "Security Name": "First Commonwealth Financial Corporation Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "FCFS",
+        "Name": "Firstcash Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FCFY",
@@ -14679,6 +14847,20 @@
         "Name": "Tactical Advantage ETF",
         "Security Name": "Tactical Advantage ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FDBC",
+        "Name": "Fidelity D&D Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FDD",
@@ -14797,6 +14979,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "FDUS",
+        "Name": "Fidus Investment Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FDV",
         "Name": "Federated Hermes ETF Trust Federated Hermes U.S. Strategic Dividend ETF",
         "Security Name": "Federated Hermes ETF Trust Federated Hermes U.S. Strategic Dividend ETF",
@@ -14906,6 +15102,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FELE",
+        "Name": "Franklin Electric Co Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FELG",
         "Name": "Fidelity Covington Trust Fidelity Enhanced Large Cap Growth ETF",
         "Security Name": "Fidelity Covington Trust Fidelity Enhanced Large Cap Growth ETF",
@@ -14947,6 +15157,20 @@
         "Name": "The RBB Fund Trust First Eagle Overseas Equity ETF",
         "Security Name": "The RBB Fund Trust First Eagle Overseas Equity ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FER",
+        "Name": "Ferrovial NV",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FERG",
