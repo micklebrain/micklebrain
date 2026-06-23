@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["OGC"]
+stocksToAdd = ["SBGI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="OceanaGold Corp", dividend=True)
+    addStock(stock, name="Sinclair Inc", dividend=True)
