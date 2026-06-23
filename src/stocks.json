@@ -1038,10 +1038,10 @@
     },
     {
         "Symbol": "AGRO",
-        "Name": "Adecoagro S.A. Common Shares",
-        "ownWebull": true,
+        "Name": "Adecoagro S.A.",        
         "Security Name": "Adecoagro S.A. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AGRW",
