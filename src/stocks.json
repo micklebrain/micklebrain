@@ -39721,14 +39721,15 @@
     },
     {
         "Symbol": "SWGAY",
+        "Name": "Swatch Group ADR",
         "ownWebull": true
     },
     {
         "Symbol": "SWK",
-        "Name": "Stanley Black & Decker, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Stanley Black & Decker, Inc.",        
         "Security Name": "Stanley Black & Decker, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SWKS",
@@ -39778,10 +39779,10 @@
     },
     {
         "Symbol": "SYF",
-        "Name": "Synchrony Financial Common Stock",
-        "ownWebull": true,
+        "Name": "Synchrony Financial",        
         "Security Name": "Synchrony Financial Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SYF-A",
@@ -39922,10 +39923,10 @@
     },
     {
         "Symbol": "TAK",
-        "Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
-        "ownWebull": true,
+        "Name": "Takeda Pharmaceutical Company Limited",        
         "Security Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TAL",
@@ -40373,10 +40374,10 @@
     },
     {
         "Symbol": "TEO",
-        "Name": "Telecom Argentina SA",
-        "ownWebull": true,
+        "Name": "Telecom Argentina SA",        
         "Security Name": "Telecom Argentina SA",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TEQI",
