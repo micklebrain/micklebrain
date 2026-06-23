@@ -423,10 +423,10 @@
     },
     {
         "Symbol": "ACHR",
-        "Name": "Archer Aviation Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Archer Aviation Inc.",
         "Security Name": "Archer Aviation Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ACHR.W",
@@ -1038,7 +1038,7 @@
     },
     {
         "Symbol": "AGRO",
-        "Name": "Adecoagro S.A.",        
+        "Name": "Adecoagro S.A.",
         "Security Name": "Adecoagro S.A. Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -25162,10 +25162,10 @@
     },
     {
         "Symbol": "LII",
-        "Name": "Lennox International, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Lennox International, Inc.",        
         "Security Name": "Lennox International, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LILA",
@@ -30421,10 +30421,7 @@
         "Name": "TrueShares Structured Outcome (October) ETF",
         "Security Name": "TrueShares Structured Outcome (October) ETF",
         "Exchange": "Z",
-        "CQS Symbol": "OCTZ",
         "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
         "NASDAQ Symbol": "OCTZ"
     },
     {
@@ -30435,6 +30432,7 @@
     },
     {
         "Symbol": "ODD",
+        "Name": "Oddity Tech Ltd",
         "ownWebull": true
     },
     {
@@ -30456,10 +30454,10 @@
     },
     {
         "Symbol": "OEC",
-        "Name": "Orion S.A. Common Shares",
-        "ownWebull": true,
+        "Name": "Orion S.A.",
         "Security Name": "Orion S.A. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "OEF",
