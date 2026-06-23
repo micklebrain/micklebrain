@@ -45115,10 +45115,10 @@
     },
     {
         "Symbol": "WU",
-        "Name": "Western Union Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Western Union Company (The)",        
         "Security Name": "Western Union Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WUGI",
@@ -45150,10 +45150,10 @@
     },
     {
         "Symbol": "WWW",
-        "Name": "Wolverine World Wide, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Wolverine World Wide, Inc. Common Stock",        
         "Security Name": "Wolverine World Wide, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WXET",
