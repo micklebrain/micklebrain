@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ZION"]
+stocksToAdd = ["QNT"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Zions Bancorporation NA", dividend=True)
+    addStock(stock, name="Quantinuum Inc", ownEtrade=True)

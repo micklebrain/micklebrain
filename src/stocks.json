@@ -22574,6 +22574,7 @@
     {
         "Symbol": "JAN",
         "Name": "Janus Living Inc",
+        "ownEtrade": true,
         "dividend": true
     },
     {
@@ -25042,7 +25043,7 @@
         "Symbol": "LGL.W",
         "Name": "LGL Group, Inc. (The) Warrants",
         "Security Name": "LGL Group, Inc. (The) Warrants",
-        "Exchange": "A",        
+        "Exchange": "A",
         "ETF": "N",
         "NASDAQ Symbol": "LGL+"
     },
@@ -25161,7 +25162,7 @@
     },
     {
         "Symbol": "LII",
-        "Name": "Lennox International, Inc.",        
+        "Name": "Lennox International, Inc.",
         "Security Name": "Lennox International, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -34143,6 +34144,20 @@
         "Symbol": "QNCX",
         "Name": "Quince",
         "ownWebull": true
+    },
+    {
+        "Symbol": "QNT",
+        "Name": "Quantinuum Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "QPUX",
