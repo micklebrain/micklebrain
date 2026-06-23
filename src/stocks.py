@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["SBGI"]
+stocksToAdd = ["ZION"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Sinclair Inc", dividend=True)
+    addStock(stock, name="Zions Bancorporation NA", dividend=True)

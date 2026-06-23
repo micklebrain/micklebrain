@@ -39534,6 +39534,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SBRA",
+        "Name": "Sabra Health Care REIT Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SBS",
         "Name": "Companhia de saneamento Basico Do Estado De Sao Paulo",
         "Security Name": "Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp American Depositary Shares (Each repstg 250 Common Shares)",
@@ -40082,6 +40096,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SEIC",
+        "Name": "SEI Investments Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SEIM",
         "Name": "SEI Enhanced U.S. Large Cap Momentum Factor ETF",
         "Security Name": "SEI Enhanced U.S. Large Cap Momentum Factor ETF",
@@ -40104,6 +40132,20 @@
         "Name": "Virtus Seix Senior Loan ETF",
         "Security Name": "Virtus Seix Senior Loan ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "SELF",
+        "Name": "Global Self Storage Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SELV",
@@ -40216,6 +40258,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SEVN",
+        "Name": "Seven Hills Realty Trust",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SF",
         "Name": "Stifel Financial Corporation Common Stock",
         "Security Name": "Stifel Financial Corporation Common Stock",
@@ -40246,10 +40302,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SFBC",
+        "Name": "Sound Financial Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SFBS",
         "Name": "ServisFirst Bancshares, Inc. Common Stock",
         "Security Name": "ServisFirst Bancshares, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SFD",
+        "Name": "Smithfield Foods Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SFEB",
@@ -40279,6 +40363,20 @@
         "Symbol": "SFM",
         "Name": "Sprouts Farmers",
         "ownWebull": true
+    },
+    {
+        "Symbol": "SFNC",
+        "Name": "Simmons First National Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SFTBY",
@@ -40317,8 +40415,36 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SGA",
+        "Name": "Saga Communications Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SGBX",
         "Name": "Safe & Green Holdings Corp"
+    },
+    {
+        "Symbol": "SGC",
+        "Name": "Superior Group of Companies Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SGDJ",
@@ -40411,6 +40537,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SHBI",
+        "Name": "Shore Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "SHC",
+        "Name": "Sotera Health Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SHCO",
         "Name": "Soho House & Co Inc. Class A Common Stock",
         "Security Name": "Soho House & Co Inc. Class A Common Stock",
@@ -40440,6 +40594,20 @@
         "ownWebull": true,
         "Security Name": "Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares)",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SHEN",
+        "Name": "Shenandoah Telecommunications Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SHG",
@@ -40504,6 +40672,20 @@
         "Symbol": "SHOE",
         "Name": "Shoe Carnival",
         "ownWebull": true
+    },
+    {
+        "Symbol": "SHOO",
+        "Name": "Steven Madden Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SHOP",
@@ -40597,6 +40779,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SIGA",
+        "Name": "SIGA Technologies Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "SIGI",
+        "Name": "Selective Insurance Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SIHY",
         "Name": "Harbor Scientific Alpha High",
         "Security Name": "Harbor Scientific Alpha High-Yield ETF",
@@ -40640,6 +40850,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SIMO",
+        "Name": "Silicon Motion Technology Corp.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SIMS",
         "Name": "SPDR S&P Kensho Intelligent Structures ETF",
         "Security Name": "SPDR S&P Kensho Intelligent Structures ETF",
@@ -40655,6 +40879,20 @@
         "Name": "Touchstone Strategic Income ETF",
         "Security Name": "Touchstone Strategic Income ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "SIRI",
+        "Name": "Sirius XM Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SITC",
@@ -40880,6 +41118,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SLM",
+        "Name": "SLM Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SLMT",
         "Name": "Brera Holdings PLC",
         "ownWebull": true
@@ -40918,6 +41170,20 @@
         "Name": "SelectQuote, Inc. Common Stock",
         "Security Name": "SelectQuote, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SLRC",
+        "Name": "SLR Investment Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SLSR",
@@ -41003,6 +41269,20 @@
         "Name": "VanEck ETF Trust VanEck Short Muni ETF",
         "Security Name": "VanEck ETF Trust VanEck Short Muni ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "SMBC",
+        "Name": "Southern Missouri Bancorp, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SMBK",
@@ -41339,6 +41619,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SNY",
+        "Name": "Sanofi SA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SO",
         "Name": "Southern Company (The) Common Stock",
         "ownWebull": true,
@@ -41415,6 +41709,20 @@
         "Name": "SmartETFs Sustainable Energy II ETF",
         "Security Name": "SmartETFs Sustainable Energy II ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "SOLS",
+        "Name": "Solstice Advanced Materials Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SOLV",
@@ -41638,6 +41946,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SPFI",
+        "Name": "South Plains Financial Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SPG",
         "Name": "Simon Property Group, Inc. Common Stock",
         "ownWebull": true,
@@ -41806,6 +42128,20 @@
         "Name": "SiriusPoint Ltd. 8.00% Resettable Fixed Rate Preference Shares, Series B, $25.00 liquidation preference per share",
         "Security Name": "SiriusPoint Ltd. 8.00% Resettable Fixed Rate Preference Shares, Series B, $25.00 liquidation preference per share",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SPOK",
+        "Name": "Spok Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SPOT",
@@ -42099,6 +42435,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SRBK",
+        "Name": "SR Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "SRCE",
+        "Name": "1st Source Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SRE",
         "Name": "DBA Sempra Common Stock",
         "Security Name": "DBA Sempra Common Stock",
@@ -42252,6 +42616,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "SSNC",
+        "Name": "SS&C Technologies Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SSO",
         "Name": "ProShares Ultra S&P500",
         "Security Name": "ProShares Ultra S&P500",
@@ -42273,6 +42651,20 @@
         "Symbol": "SSRM",
         "Name": "Ssr Mng Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "SSSS",
+        "Name": "SuRo Capital Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SST",
@@ -42324,6 +42716,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "STBA",
+        "Name": "S&T Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "STBF",
         "Name": "Trust for Professional Managers Performance Trust Short Term Bond ETF",
         "Security Name": "Trust for Professional Managers Performance Trust Short Term Bond ETF",
@@ -42365,6 +42771,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "STEP",
+        "Name": "Stepstone Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "STEW",
         "Name": "SRH Total Return Fund, Inc. Common Stock",
         "Security Name": "SRH Total Return Fund, Inc. Common Stock",
@@ -42402,6 +42822,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "STLD",
+        "Name": "Steel Dynamics Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "STM",
         "Name": "STMicroelectronics N.V. Common Stock",
         "Security Name": "STMicroelectronics N.V. Common Stock",
@@ -42412,6 +42846,20 @@
         "Name": "Stantec Inc Common Stock",
         "Security Name": "Stantec Inc Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "STNE",
+        "Name": "StoneCo Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "STNG",
@@ -42436,6 +42884,20 @@
         "Name": "PIMCO 1",
         "Security Name": "PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "STRA",
+        "Name": "Strategic Education Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "STRN",
@@ -42582,9 +43044,37 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SUNC",
+        "Name": "SunocoCorp LLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SUNE",
         "Name": "SUNation Energy Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "SUNS",
+        "Name": "Sunrise Realty Trust Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SUPL",
@@ -42631,6 +43121,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SVC",
+        "Name": "Service Properties Trust",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SVIX",
         "Name": "VS TR",
         "Security Name": "VS TR -1x Short VIX Futures ETF",
@@ -42667,10 +43171,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "SW",
+        "Name": "Smurfit WestRock PLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SWAN",
         "Name": "Amplify ETF Trust Amplify BlackSwan Growth & Treasury Core ETF",
         "Security Name": "Amplify ETF Trust Amplify BlackSwan Growth & Treasury Core ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "SWBI",
+        "Name": "Smith & Wesson Brands Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SWGAY",
@@ -42682,6 +43214,20 @@
         "ownWebull": true,
         "Security Name": "Stanley Black & Decker, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SWKS",
+        "Name": "Skyworks Solutions Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SWX",
@@ -42718,6 +43264,20 @@
         "Name": "Sensient Technologies Corporation Common Stock",
         "Security Name": "Sensient Technologies Corporation Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "SYBT",
+        "Name": "Stock Yards Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SYF",
@@ -42908,6 +43468,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "TASK",
+        "Name": "TaskUs, Inc.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TAXF",
         "Name": "American Century Diversified Municipal Bond ETF",
         "Security Name": "American Century Diversified Municipal Bond ETF",
@@ -43032,6 +43606,48 @@
         "Name": "T. Rowe Price Exchange",
         "Security Name": "T. Rowe Price Exchange-Traded Funds, Inc. T. Rowe Price Capital Appreciation Premium Income ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "TCBI",
+        "Name": "Texas Capital Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "TCBK",
+        "Name": "TriCo Bancshares",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "TCBS",
+        "Name": "Texas Community Bancshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TCEHY",
@@ -43308,6 +43924,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "TER",
+        "Name": "Teradyne Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TESL",
         "Name": "Simplify Volt TSLA Revolution ETF",
         "Security Name": "Simplify Volt TSLA Revolution ETF",
@@ -43415,6 +44045,20 @@
         "Name": "Terra Income Fund 6, LLC 7.00% Notes due 2026",
         "Security Name": "Terra Income Fund 6, LLC 7.00% Notes due 2026",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TFSL",
+        "Name": "TFS Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TFX",
@@ -43536,6 +44180,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "THFF",
+        "Name": "First Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "THG",
         "Name": "Hanover Insurance Group Inc",
         "Security Name": "Hanover Insurance Group Inc",
@@ -43638,10 +44296,38 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "TIGO",
+        "Name": "Millicom International Cellular SA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TIIV",
         "Name": "ETF Series Solutions AAM Todd International Intrinsic Value ETF",
         "Security Name": "ETF Series Solutions AAM Todd International Intrinsic Value ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "TILE",
+        "Name": "Interface Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TILL",
@@ -43709,6 +44395,20 @@
         "Name": "Northern Funds Northern Trust 2055 Inflation",
         "Security Name": "Northern Funds Northern Trust 2055 Inflation-Linked Distributing Ladder ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "TIPT",
+        "Name": "Tiptree Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TIPX",
@@ -43807,6 +44507,20 @@
         "ownWebull": true,
         "Security Name": "PT Telekomunikasi Indonesia, Tbk",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TLN",
+        "Name": "Talen Energy Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TLPH",
@@ -44120,6 +44834,34 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "TOUR",
+        "Name": "Tuniu Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "TOUR",
+        "Name": "TowneBank",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TOUS",
         "Name": "T. Rowe Price Exchange",
         "Security Name": "T. Rowe Price Exchange-Traded Funds, Inc. T. Rowe Price International Equity ETF",
@@ -44311,6 +45053,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "TRIN",
+        "Name": "Trinity Capital Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TRIO",
         "Name": "EA Series Trust MC Trio Equity Buffered ETF",
         "Security Name": "EA Series Trust MC Trio Equity Buffered ETF",
@@ -44320,6 +45076,34 @@
         "Symbol": "TRIP",
         "Name": "Tripadvisor",
         "ownWebull": true
+    },
+    {
+        "Symbol": "TRMD",
+        "Name": "Torm PLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "TRMK",
+        "Name": "Trustmark Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TRN",
@@ -44345,6 +45129,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "TROW",
+        "Name": "T Rowe Price Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TROX",
         "Name": "Tronox Holdings plc Ordinary Shares (UK)",
         "Security Name": "Tronox Holdings plc Ordinary Shares (UK)",
@@ -44361,6 +45159,34 @@
         "Name": "Hartford AAA CLO ETF",
         "Security Name": "Hartford AAA CLO ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "TRS",
+        "Name": "TriMas Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "TRST",
+        "Name": "TrustCo Bank Corp NY",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TRSY",
@@ -44462,6 +45288,20 @@
         "Name": "Tenaris S.A. American Depositary Shares",
         "Security Name": "Tenaris S.A. American Depositary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TSBK",
+        "Name": "Timberland Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TSCDY",
@@ -44640,6 +45480,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "TTEK",
+        "Name": "Tetra Tech Inc (Delaware)",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TTI",
         "Name": "Tetra Technologies, Inc. Common Stock",
         "Security Name": "Tetra Technologies, Inc. Common Stock",
@@ -44661,6 +45515,20 @@
         "Name": "Telus Corporation Ordinary Shares",
         "Security Name": "Telus Corporation Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TU",
+        "Name": "Telus Corporation",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TUA",
@@ -44718,10 +45586,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "TW",
+        "Name": "Tradeweb Markets Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TWI",
         "Name": "Titan International, Inc. (DE) Common Stock",
         "Security Name": "Titan International, Inc. (DE) Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TWIN",
+        "Name": "Twin Disc Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TWLO",
@@ -44785,6 +45681,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "TXN",
+        "Name": "Texas Instruments Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "TXNM",
         "Name": "TXNM Energy, Inc. Common Stock",
         "Security Name": "TXNM Energy, Inc. Common Stock",
@@ -44795,6 +45705,20 @@
         "Name": "TXO Partners, L.P. Common Units Representing Limited Partner Interests",
         "Security Name": "TXO Partners, L.P. Common Units Representing Limited Partner Interests",
         "ETF": "N"
+    },
+    {
+        "Symbol": "TXRH",
+        "Name": "Texas Roadhouse Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "TXS",
@@ -44937,6 +45861,20 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "UBCP",
+        "Name": "United Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "UBER",
         "Name": "Uber Technologies, Inc. Common Stock",
         "Security Name": "Uber Technologies, Inc. Common Stock",
@@ -44961,6 +45899,20 @@
         "ownWebull": true,
         "Security Name": "UBS Group AG Registered Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "UBSI",
+        "Name": "United Bankshares Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "UBT",
@@ -45047,6 +45999,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "UFCS",
+        "Name": "United Fire Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "UFEB",
         "Name": "Innovator U.S. Equity Ultra Buffer ETF",
         "Security Name": "Innovator U.S. Equity Ultra Buffer ETF - February",
@@ -45057,6 +46023,34 @@
         "Name": "Unifi, Inc. New Common Stock",
         "Security Name": "Unifi, Inc. New Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "UFPI",
+        "Name": "UFP Industries Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "UG",
+        "Name": "United-Guardian Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "UGA",
@@ -45179,6 +46173,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "ULH",
+        "Name": "Universal Logistics Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ULS",
         "Name": "UL Solutions Inc. Class A Common Stock",
         "Security Name": "UL Solutions Inc. Class A Common Stock",
@@ -45261,6 +46269,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "UNB",
+        "Name": "UNION BANKSHARES INC Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "UNF",
         "Name": "Unifirst Corporation Common Stock",
         "Security Name": "Unifirst Corporation Common Stock",
@@ -45316,6 +46338,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "UNTY",
+        "Name": "Unity Bancorp, Inc.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "UNX",
         "Name": "Investment Managers Series Trust II Tradr 2X Long U Daily ETF",
         "Security Name": "Investment Managers Series Trust II Tradr 2X Long U Daily ETF",
@@ -45342,6 +46378,20 @@
         "Name": "UPAR Ultra Risk Parity ETF",
         "Security Name": "UPAR Ultra Risk Parity ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "UPBD",
+        "Name": "Upbound Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "UPGD",
@@ -45542,6 +46592,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "USCB",
+        "Name": "USCB Financial Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "USCI",
         "Name": "United States Commodity Index Fund ETV",
         "Security Name": "United States Commodity Index Fund ETV",
@@ -45605,6 +46669,20 @@
         "Name": "United States 12 Month Oil",
         "Security Name": "United States 12 Month Oil",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "USLM",
+        "Name": "United States Lime & Minerals Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "USMF",
@@ -45716,6 +46794,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "UTMD",
+        "Name": "Utah Medical Products Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "UTSL",
         "Name": "Direxion Daily Utilities Bull 3X Shares",
         "Security Name": "Direxion Daily Utilities Bull 3X Shares",
@@ -45756,6 +46848,20 @@
         "Name": "VS TR 2x Long VIX Futures ETF",
         "Security Name": "VS TR 2x Long VIX Futures ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "UVSP",
+        "Name": "Univest Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "UVV",
@@ -45865,6 +46971,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "VABK",
+        "Name": "Virginia National Bankshares Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VABS",
         "Name": "Virtus Newfleet ABS/MBS ETF",
         "Security Name": "Virtus Newfleet ABS/MBS ETF",
@@ -45904,6 +47024,20 @@
         "Name": "American Century U.S. Quality Value ETF",
         "Security Name": "American Century U.S. Quality Value ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "VALU",
+        "Name": "Value Line Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VAMO",
@@ -45948,10 +47082,38 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "VBNK",
+        "Name": "VersaBank",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VBR",
         "Name": "Vanguard Small",
         "Security Name": "Vanguard Small-Cap Value ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "VC",
+        "Name": "Visteon Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VCEB",
@@ -45981,6 +47143,20 @@
         "Name": "Vanguard Tax",
         "Security Name": "Vanguard Tax-Managed Funds Vanguard Core Tax-Exempt Bond ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "VCTR",
+        "Name": "Victory Capital Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VCV",
@@ -46280,6 +47456,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "VIRC",
+        "Name": "Virco Mfg Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VIRT",
         "Name": "Virtu Financial, Inc. Class A Common Stock",
         "Security Name": "Virtu Financial, Inc. Class A Common Stock",
@@ -46327,6 +47517,20 @@
         "Name": "Invesco Municipal Trust Common Stock",
         "Security Name": "Invesco Municipal Trust Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "VLGEA",
+        "Name": "Village Super Market Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VLLU",
@@ -46380,6 +47584,20 @@
         "Name": "iShares MSCI USA Value Factor ETF",
         "Security Name": "iShares MSCI USA Value Factor ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "VLY",
+        "Name": "Valley National Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VMAX",
@@ -46465,6 +47683,20 @@
         "Name": "Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares, Liquidation Preference $25.00 Per Share",
         "Security Name": "Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares, Liquidation Preference $25.00 Per Share",
         "ETF": "N"
+    },
+    {
+        "Symbol": "VNOM",
+        "Name": "Viper Energy Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VNQ",
@@ -46558,6 +47790,20 @@
         "ownSchwab": true
     },
     {
+        "Symbol": "VOXR",
+        "Name": "Vox Royalty Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VOYA",
         "Name": "Voya Financial, Inc. Common Stock",
         "Security Name": "Voya Financial, Inc. Common Stock",
@@ -46635,6 +47881,20 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "VRSN",
+        "Name": "VeriSign, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VRT",
         "Name": "Vertiv Holdings, LLC Class A Common Stock",
         "ownWebull": true,
@@ -46671,6 +47931,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "VSEC",
+        "Name": "VSE Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VSGX",
         "Name": "Vanguard ESG International Stock ETF",
         "Security Name": "Vanguard ESG International Stock ETF",
@@ -46693,6 +47967,20 @@
         "Name": "Applied Finance Valuation Large Cap ETF",
         "Security Name": "Applied Finance Valuation Large Cap ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "VSNT",
+        "Name": "Versant Media Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VSS",
@@ -46815,6 +48103,20 @@
         "Name": "Ventas, Inc. Common Stock",
         "Security Name": "Ventas, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "VTRS",
+        "Name": "Viatris Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VTS",
@@ -46953,6 +48255,34 @@
         "ETF": "N"
     },
     {
+        "Symbol": "WABC",
+        "Name": "Westamerica Bancorp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "WAFD",
+        "Name": "WaFd Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WAL",
         "Name": "Western Alliance Bancorporation Common Stock (DE)",
         "Security Name": "Western Alliance Bancorporation Common Stock (DE)",
@@ -46977,15 +48307,57 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "WASH",
+        "Name": "Washington Trust Bancorp Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WAT",
         "Name": "Waters Corporation Common Stock",
         "Security Name": "Waters Corporation Common Stock",
         "ETF": "N"
     },
     {
+        "Symbol": "WB",
+        "Name": "Weibo Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WBD",
         "Name": "WARNER BROS DISCOVERY INC",
         "ownWebull": true
+    },
+    {
+        "Symbol": "WBI",
+        "Name": "WaterBridge Infrastructure LLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WBIF",
@@ -47214,6 +48586,20 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "WERN",
+        "Name": "Werner Enterprises Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WES",
         "Name": "Western Midstream Partners, LP Common Units Representing Limited Partner Interests",
         "Security Name": "Western Midstream Partners, LP Common Units Representing Limited Partner Interests",
@@ -47224,6 +48610,20 @@
         "Name": "WEX Inc. common stock",
         "Security Name": "WEX Inc. common stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "WEYS",
+        "Name": "WEYCO Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WF",
@@ -47288,6 +48688,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "WFRD",
+        "Name": "Weatherford International plc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WGO",
         "Name": "Winnebago Industries, Inc. Common Stock",
         "Security Name": "Winnebago Industries, Inc. Common Stock",
@@ -47342,10 +48756,38 @@
         "ETF": "N"
     },
     {
+        "Symbol": "WILC",
+        "Name": "G Willi Food International Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WILD",
         "Name": "Tidal Trust III VistaShares Animal Spirits Daily 2X Strategy ETF",
         "Security Name": "Tidal Trust III VistaShares Animal Spirits Daily 2X Strategy ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "WINA",
+        "Name": "Winmark Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WING",
@@ -47406,6 +48848,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "WLFC",
+        "Name": "Willis Lease Finance Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WLK",
         "Name": "Westlake Corporation",
         "Security Name": "Westlake Corporation Common Stock",
@@ -47447,6 +48903,20 @@
         "Name": "Williams Companies, Inc. (The) Common Stock",
         "Security Name": "Williams Companies, Inc. (The) Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "WMG",
+        "Name": "Warner Music Group Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WMK",
@@ -47594,9 +49064,51 @@
         "ETF": "N"
     },
     {
+        "Symbol": "WSBC",
+        "Name": "WesBanco Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "WSBF",
+        "Name": "Waterstone Financial Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WSC",
         "Name": "Willscot Holdings Corp",
         "ownEtrade": true
+    },
+    {
+        "Symbol": "WSFS",
+        "Name": "WSFS Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WSM",
@@ -47639,6 +49151,34 @@
         "Name": "WisdomTree Trust WisdomTree Artificial Intelligence and Innovation Fund",
         "Security Name": "WisdomTree Trust WisdomTree Artificial Intelligence and Innovation Fund",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "WTBA",
+        "Name": "West Bancorporation Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "WTFC",
+        "Name": "Wintrust Financial Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WTI",
@@ -47730,6 +49270,20 @@
         "Symbol": "WULF",
         "Name": "Terawulf Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "WWD",
+        "Name": "Woodward, Inc.Common Stock",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WWJD",
@@ -47920,6 +49474,20 @@
         "Name": "Roundhill ETF Trust Roundhill S&P 500 0DTE Covered Call Strategy ETF",
         "Security Name": "Roundhill ETF Trust Roundhill S&P 500 0DTE Covered Call Strategy ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "XEL",
+        "Name": "Xcel Energy Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "XEMD",
@@ -48436,6 +50004,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "XRAY",
+        "Name": "DENTSPLY SIRONA Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "XRLV",
         "Name": "Invesco S&P 500 ex",
         "Security Name": "Invesco S&P 500 ex-Rate Sensitive Low Volatility ETF",
@@ -48452,6 +50034,20 @@
         "Name": "Global X Funds Global X S&P 500 Risk Managed Income ETF",
         "Security Name": "Global X Funds Global X S&P 500 Risk Managed Income ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "XRN",
+        "Name": "Chiron Real Estate Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "XRT",
@@ -48704,6 +50300,20 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "YB",
+        "Name": "Yuanbao Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "YBIT",
         "Name": "Tidal Trust II YieldMax Bitcoin Option Income Strategy ETF",
         "Security Name": "Tidal Trust II YieldMax Bitcoin Option Income Strategy ETF",
@@ -48856,6 +50466,20 @@
         "Name": "AdvisorShares Pure Cannabis ETF",
         "Security Name": "AdvisorShares Pure Cannabis ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "YORW",
+        "Name": "York Water Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "YOU",
@@ -49021,6 +50645,20 @@
         "Security Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
+    },
+    {
+        "Symbol": "ZION",
+        "Name": "Zions Bancorporation NA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ZIP",
