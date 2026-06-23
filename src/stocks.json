@@ -24172,10 +24172,10 @@
     },
     {
         "Symbol": "KO",
-        "Name": "Coca",
-        "ownWebull": true,
+        "Name": "Coca-Cola Co",
         "Security Name": "Coca-Cola Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KOCT",
@@ -24186,16 +24186,16 @@
     {
         "Symbol": "KODK",
         "Name": "Eastman Kodak Company Common New",
-        "ownWebull": true,
         "Security Name": "Eastman Kodak Company Common New",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KOF",
-        "Name": "Coca Cola Femsa S.A.B. de C.V.  American Depositary Shares, each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)",
-        "ownWebull": true,
-        "Security Name": "Coca Cola Femsa S.A.B. de C.V.  American Depositary Shares, each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)",
-        "ETF": "N"
+        "Name": "Coca Cola Femsa S.A.B. de C.V.",
+        "Security Name": "Coca Cola Femsa S.A.B. de C.V. American Depositary Shares, each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)",
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KOKU",
@@ -24971,6 +24971,7 @@
     },
     {
         "Symbol": "LFS",
+        "Name": "Leifras Co Ltd",
         "ownWebull": true
     },
     {
