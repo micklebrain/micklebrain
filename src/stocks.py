@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["QNT"]
+stocksToAdd = ["BSY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Quantinuum Inc", ownEtrade=True)
+    addStock(stock, name="Bentley Systems, Inc", ownEtrade=True)

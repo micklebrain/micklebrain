@@ -5809,6 +5809,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "BSY",
+        "Name": "Bentley Systems, Inc",
+        "ownWebull": false,
+        "ownEtrade": true,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "BTA",
         "Name": "BlackRock Long",
         "Security Name": "BlackRock Long-Term Municipal Advantage Trust Common Shares of Beneficial Interest",
@@ -21654,6 +21668,7 @@
     {
         "Symbol": "IOSP",
         "Name": "Innospec Inc",
+        "ownEtrade": true,
         "dividend": true
     },
     {
