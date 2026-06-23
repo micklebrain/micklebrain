@@ -33,6 +33,7 @@ function Stocks() {
   const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState("");
   const [showDividendOnly, setShowDividendOnly] = useState(false);
+  const [showETFOnly, setShowETFOnly] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
   const [newOwnWebull, setNewOwnWebull] = useState(false);
@@ -93,6 +94,7 @@ function Stocks() {
 
     if (selectedCountry && item.Country !== selectedCountry) return false;
     if (showDividendOnly && !item.dividend) return false;
+    if (showETFOnly && item.ETF !== "Y") return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
@@ -125,6 +127,7 @@ function Stocks() {
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly(false);
     setShowDividendOnly(false);
+    setShowETFOnly(false);
   };
 
   const toggleBrokerFilter = (broker) => {
@@ -309,6 +312,13 @@ function Stocks() {
           onClick={() => setShowDividendOnly((prev) => !prev)}
         >
           Dividend
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showETFOnly ? "active" : ""}`}
+          onClick={() => setShowETFOnly((prev) => !prev)}
+        >
+          ETF
         </button>
       </div>
       <div className="stocks-count">
