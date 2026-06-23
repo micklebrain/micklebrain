@@ -77,6 +77,13 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "88636X401",
+        "Name": "YieldMax ABNB Option Income Strategy ETF",
+        "Security Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
+        "ETF": "Y",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "9432",
         "Name": "NTT,INC",
         "Country": "Japan",
@@ -307,13 +314,6 @@
         "ownWebull": true
     },
     {
-        "Symbol": "88636X401",
-        "Name": "YieldMax ABNB Option Income Strategy ETF",
-        "Security Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
-        "ETF": "Y",
-        "ownEtrade": true
-    },
-    {
         "Symbol": "ABOT",
         "Name": "Abacus FCF Innovation Leaders ETF",
         "Security Name": "Abacus FCF Innovation Leaders ETF",
@@ -347,7 +347,7 @@
     },
     {
         "Symbol": "ABT",
-        "Name": "Abbott Laboratories Common Stock",
+        "Name": "Abbott Laboratories",
         "Security Name": "Abbott Laboratories Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -599,10 +599,10 @@
     },
     {
         "Symbol": "ADC",
-        "Name": "Agree Realty Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Agree Realty Corporation",
         "Security Name": "Agree Realty Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ADC-A",
@@ -612,10 +612,10 @@
     },
     {
         "Symbol": "ADCT",
-        "Name": "ADC Therapeutics SA Common Shares",
-        "ownWebull": true,
+        "Name": "ADC Therapeutics SA",
         "Security Name": "ADC Therapeutics SA Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ADDYY",
