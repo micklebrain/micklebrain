@@ -25044,8 +25044,6 @@
         "Exchange": "A",
         "CQS Symbol": "LGL.WS",
         "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
         "NASDAQ Symbol": "LGL+"
     },
     {
@@ -25219,6 +25217,7 @@
     },
     {
         "Symbol": "LITE",
+        "Name": "Lumentum Holdings Inc",
         "ownWebull": true
     },
     {
@@ -25273,10 +25272,10 @@
     },
     {
         "Symbol": "LLY",
-        "Name": "Eli Lilly and Company Common Stock",
-        "ownWebull": true,
+        "Name": "Eli Lilly and Company",
         "Security Name": "Eli Lilly and Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LLYX",
@@ -39726,7 +39725,7 @@
     },
     {
         "Symbol": "SWK",
-        "Name": "Stanley Black & Decker, Inc.",        
+        "Name": "Stanley Black & Decker, Inc.",
         "Security Name": "Stanley Black & Decker, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39779,7 +39778,7 @@
     },
     {
         "Symbol": "SYF",
-        "Name": "Synchrony Financial",        
+        "Name": "Synchrony Financial",
         "Security Name": "Synchrony Financial Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39923,7 +39922,7 @@
     },
     {
         "Symbol": "TAK",
-        "Name": "Takeda Pharmaceutical Company Limited",        
+        "Name": "Takeda Pharmaceutical Company Limited",
         "Security Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
         "ETF": "N",
         "ownWebull": true
@@ -40374,7 +40373,7 @@
     },
     {
         "Symbol": "TEO",
-        "Name": "Telecom Argentina SA",        
+        "Name": "Telecom Argentina SA",
         "Security Name": "Telecom Argentina SA",
         "ETF": "N",
         "ownWebull": true
@@ -45115,7 +45114,7 @@
     },
     {
         "Symbol": "WU",
-        "Name": "Western Union Company (The)",        
+        "Name": "Western Union Company (The)",
         "Security Name": "Western Union Company (The) Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -45150,7 +45149,7 @@
     },
     {
         "Symbol": "WWW",
-        "Name": "Wolverine World Wide, Inc. Common Stock",        
+        "Name": "Wolverine World Wide, Inc. Common Stock",
         "Security Name": "Wolverine World Wide, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -45249,11 +45248,7 @@
         "Name": "WisdomTree True Emerging Markets Fund",
         "Security Name": "WisdomTree True Emerging Markets Fund",
         "Exchange": "P",
-        "CQS Symbol": "XC",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "XC"
+        "ETF": "Y"
     },
     {
         "Symbol": "XCCC",
@@ -46455,7 +46450,8 @@
     {
         "Symbol": "ZION",
         "Name": "Zions Bancorporation NA",
-        "dividend": true
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ZIP",
