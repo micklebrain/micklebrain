@@ -29126,10 +29126,10 @@
     },
     {
         "Symbol": "NEXA",
-        "Name": "Nexa Resources S.A. Common Shares",
-        "ownWebull": true,
+        "Name": "Nexa Resources S.A.",        
         "Security Name": "Nexa Resources S.A. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NEXOY",
@@ -29682,19 +29682,15 @@
         "Symbol": "NOVZ",
         "Name": "TrueShares Structured Outcome (November) ETF",
         "Security Name": "TrueShares Structured Outcome (November) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "NOVZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "NOVZ"
+        "Exchange": "Z",        
+        "ETF": "Y" 
     },
     {
         "Symbol": "NOW",
-        "Name": "ServiceNow, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "ServiceNow, Inc.",        
         "Security Name": "ServiceNow, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "NPB",
@@ -44587,17 +44583,17 @@
     },
     {
         "Symbol": "VYX",
-        "Name": "NCR Voyix Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "NCR Voyix Corporation",        
         "Security Name": "NCR Voyix Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VZ",
-        "Name": "Verizon Communications Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Verizon Communications Inc.",        
         "Security Name": "Verizon Communications Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VZLA",
@@ -45147,16 +45143,8 @@
     {
         "Symbol": "WLTH",
         "Name": "Wealthfront Corp",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "ownEtrade": true,        
+        "dividend": true        
     },
     {
         "Symbol": "WLY",
@@ -45202,10 +45190,10 @@
     },
     {
         "Symbol": "WMT",
-        "Name": "Walmart Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Walmart Inc.",        
         "Security Name": "Walmart Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "WNC",
