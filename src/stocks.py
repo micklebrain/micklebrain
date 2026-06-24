@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BSY"]
+stocksToAdd = ["GENB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bentley Systems, Inc")
+    addStock(stock, name="Generate Biomedicines Inc")

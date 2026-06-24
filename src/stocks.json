@@ -440,7 +440,7 @@
     },
     {
         "Symbol": "ACIC",
-        "Name": "American Coastal Insurance Corp"        
+        "Name": "American Coastal Insurance Corp"
     },
     {
         "Symbol": "ACIO",
@@ -742,7 +742,7 @@
     },
     {
         "Symbol": "AEON",
-        "Name": "AEON Biopharma, Inc.",        
+        "Name": "AEON Biopharma, Inc.",
         "Security Name": "AEON Biopharma, Inc. Class A Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -768,7 +768,7 @@
         "Symbol": "AESI",
         "Name": "Atlas Energy Solutions Inc",
         "Security Name": "Atlas Energy Solutions Inc. Common Stock",
-        "ETF": "N"        
+        "ETF": "N"
     },
     {
         "Symbol": "AESR",
@@ -1340,6 +1340,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "AKTS",
+        "Name": "Aktis Oncology Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "AL",
         "Name": "Air Lease Corporation Class A Common Stock",
         "Security Name": "Air Lease Corporation Class A Common Stock",
@@ -1824,6 +1838,20 @@
         "Name": "AutoNation, Inc. Common Stock",
         "Security Name": "AutoNation, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ANDG",
+        "Name": "Andersen Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ANET",
@@ -5895,6 +5923,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "BTGO",
+        "Name": "BitGo Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "BTI",
         "Name": "British American Tobacco  Industries, p.l.c. Common Stock ADR",
         "Security Name": "British American Tobacco  Industries, p.l.c. Common Stock ADR",
@@ -5961,6 +6003,20 @@
         "Security Name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
         "ETF": "N",
         "ownWebull": true
+    },
+    {
+        "Symbol": "BUDA",
+        "Name": "Buda Juice Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "BUFB",
@@ -6401,6 +6457,20 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "CABR",
+        "Name": "Caring Brands Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CAC",
         "Name": "Camden National Corp",
         "dividend": true
@@ -6582,6 +6652,20 @@
         "dividend": true
     },
     {
+        "Symbol": "CAST",
+        "Name": "Freecast Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CASY",
         "Name": "Caseys",
         "ownWebull": true
@@ -6629,6 +6713,20 @@
         "Security Name": "Colony Bankcorp, Inc. Common Stock",
         "ETF": "N",
         "dividend": true
+    },
+    {
+        "Symbol": "CBC",
+        "Name": "Central Bancompany Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CBFV",
@@ -6935,6 +7033,20 @@
         "Security Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
         "ETF": "N",
         "ownWebull": true
+    },
+    {
+        "Symbol": "CDNL",
+        "Name": "Cardinal Infrastructure Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CDP",
@@ -9365,6 +9477,20 @@
         "dividend": true
     },
     {
+        "Symbol": "CVCO",
+        "Name": "Cavco Industries Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "CVE",
         "Name": "Cenovus Energy Inc Common Stock",
         "Security Name": "Cenovus Energy Inc Common Stock",
@@ -10839,7 +10965,7 @@
     },
     {
         "Symbol": "DLO",
-        "Name": "Dlocal Ltd."        
+        "Name": "Dlocal Ltd."
     },
     {
         "Symbol": "DLR",
@@ -13185,6 +13311,20 @@
         "ownWebull": true,
         "Security Name": "Equinor ASA",
         "ETF": "N"
+    },
+    {
+        "Symbol": "EQPT",
+        "Name": "Equipmentshare.Com Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "EQR",
@@ -17099,6 +17239,20 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "GENB",
+        "Name": "Generate Biomedicines Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GENC",
         "Name": "Gencor Industries, Inc. Common Stock",
         "Security Name": "Gencor Industries, Inc. Common Stock",
@@ -17587,6 +17741,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "GLOO",
+        "Name": "Gloo Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "GLOP-A",
         "Name": "GasLog Partners LP 8.625% Series A Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units",
         "Security Name": "GasLog Partners LP 8.625% Series A Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units",
@@ -17959,7 +18127,7 @@
     },
     {
         "Symbol": "GOOS",
-        "Name": "Canada Goose Holdings Inc.",        
+        "Name": "Canada Goose Holdings Inc.",
         "Security Name": "Canada Goose Holdings Inc. Subordinate Voting Shares",
         "ETF": "N",
         "ownWebull": true
@@ -18142,7 +18310,7 @@
         "Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one",
         "Security Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
         "Exchange": "A",
-        "ETF": "N",        
+        "ETF": "N",
         "NASDAQ Symbol": "GRAF="
     },
     {
@@ -23084,6 +23252,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "JMG",
+        "Name": "JM Group Limited",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JMHI",
         "Name": "J.P. Morgan Exchange",
         "Security Name": "J.P. Morgan Exchange-Traded Fund Trust JPMorgan High Yield Municipal ETF",
@@ -24447,7 +24629,7 @@
     },
     {
         "Symbol": "KVUE",
-        "Name": "Kenvue Inc.",        
+        "Name": "Kenvue Inc.",
         "Security Name": "Kenvue Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -25312,6 +25494,20 @@
         "Symbol": "LMNR",
         "Name": "Limoneira Co",
         "dividend": true
+    },
+    {
+        "Symbol": "LMRI",
+        "Name": "Lumexa Imaging Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LMT",
@@ -26349,6 +26545,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "MDA",
+        "Name": "MDA Space Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MDB",
         "Name": "Mongodb",
         "ownWebull": true
@@ -27222,6 +27432,20 @@
         "Name": "NYLI MacKay DefinedTerm Muni Opportunities Fund Common Shares",
         "Security Name": "NYLI MacKay DefinedTerm Muni Opportunities Fund Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MMED",
+        "Name": "MiniMed Group Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MMI",
@@ -31287,6 +31511,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "PARK",
+        "Name": "Park Dental Partners Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "PARR",
         "Name": "Par Pacific Holdings, Inc.  Common Stock",
         "Security Name": "Par Pacific Holdings, Inc.  Common Stock",
@@ -31349,6 +31587,20 @@
         "ownWebull": true,
         "Security Name": "Paycom Software, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "PAYP",
+        "Name": "PayPay Corp - ADR",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "PAYX",
@@ -34986,6 +35238,20 @@
         "dividend": true
     },
     {
+        "Symbol": "RGNT",
+        "Name": "Regentis Biomaterials Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "RGP",
         "ownWebull": true
     },
@@ -38060,6 +38326,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SMJF",
+        "Name": "SMJ International Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SMLF",
         "Name": "iShares U.S. Small",
         "Security Name": "iShares U.S. Small-Cap Equity Factor ETF",
@@ -39467,6 +39747,20 @@
         "dividend": true
     },
     {
+        "Symbol": "STRL",
+        "Name": "Sterling Infrastructure Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "STRN",
         "Name": "Tidal Trust I SMART Trend 25 ETF",
         "Security Name": "Tidal Trust I SMART Trend 25 ETF",
@@ -39742,6 +40036,20 @@
         "Symbol": "SWKS",
         "Name": "Skyworks Solutions Inc",
         "dividend": true
+    },
+    {
+        "Symbol": "SWMR",
+        "Name": "Swarmer Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SWX",
@@ -43479,6 +43787,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "VHCPU",
+        "Name": "Vine Hill Capital Investment II Units",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "VHI",
         "Name": "Valhi, Inc. Common Stock",
         "Security Name": "Valhi, Inc. Common Stock",
@@ -44801,6 +45123,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "WLTH",
+        "Name": "Wealthfront Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "WLY",
         "Name": "John Wiley & Sons, Inc. Common Stock",
         "Security Name": "John Wiley & Sons, Inc. Common Stock",
@@ -44994,6 +45330,20 @@
         "Symbol": "WSFS",
         "Name": "WSFS Financial Corp",
         "dividend": true
+    },
+    {
+        "Symbol": "WSHP",
+        "Name": "WeShop Holdings Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "WSM",
@@ -46321,6 +46671,20 @@
         "Name": "Yatsen Holding Limited American Depositary Shares, each representing twenty (20) Class A Ordinary Shares",
         "Security Name": "Yatsen Holding Limited American Depositary Shares, each representing twenty (20) Class A Ordinary Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "YSS",
+        "Name": "York Space Systems Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "YTRA",
