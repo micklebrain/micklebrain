@@ -1848,17 +1848,8 @@
     },
     {
         "Symbol": "ANDG",
-        "Name": "Andersen Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Andersen Group Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "ANET",
@@ -2006,17 +1997,8 @@
     },
     {
         "Symbol": "APC",
-        "Name": "ARKO Petroleum Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "ARKO Petroleum Corp",        
+        "dividend": true        
     },
     {
         "Symbol": "APCB",
@@ -2447,10 +2429,10 @@
     },
     {
         "Symbol": "ARR",
-        "Name": "ARMOUR Residential REIT, Inc.",
-        "ownWebull": true,
+        "Name": "ARMOUR Residential REIT, Inc.",        
         "Security Name": "ARMOUR Residential REIT, Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ARR-C",
@@ -2475,6 +2457,11 @@
         "Name": "Accelerant Holdings Class A Common Shares",
         "Security Name": "Accelerant Holdings Class A Common Shares",
         "ETF": "N"
+    },
+    {
+        "Symbol": "ARXS",
+        "Name": "Arxis Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "AS",
@@ -19705,6 +19692,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "HMH",
+        "Name": "HMH Holding Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "HMN",
         "Name": "Horace Mann Educators Corporation Common Stock",
         "Security Name": "Horace Mann Educators Corporation Common Stock",
@@ -26286,6 +26287,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "MAIR",
+        "Name": "Madison Air Solutions Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MAKX",
         "Name": "ProShares S&P Kensho Smart Factories ETF",
         "Security Name": "ProShares S&P Kensho Smart Factories ETF",
@@ -27384,10 +27399,10 @@
     },
     {
         "Symbol": "MKC",
-        "Name": "McCormick & Company, Incorporated Common Stock",
-        "ownWebull": true,
+        "Name": "McCormick & Company, Incorporated",        
         "Security Name": "McCormick & Company, Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MKC-V",
@@ -27398,12 +27413,7 @@
         "Symbol": "MKC.V",
         "Name": "McCormick & Company, Incorporated Common Stock",
         "Security Name": "McCormick & Company, Incorporated Common Stock",
-        "Exchange": "N",
-        "CQS Symbol": "MKC.V",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "MKC.V"
+        "Exchange": "N"        
     },
     {
         "Symbol": "MKL",
@@ -27568,17 +27578,8 @@
     },
     {
         "Symbol": "MMED",
-        "Name": "MiniMed Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "MiniMed Group Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "MMI",
@@ -27770,16 +27771,16 @@
     },
     {
         "Symbol": "MOGU",
-        "Name": "MOGU Inc. American Depositary Shares (each  representing 25 Class A Ordinary Shares)",
+        "Name": "MOGU Inc.",
         "Security Name": "MOGU Inc. American Depositary Shares (each  representing 25 Class A Ordinary Shares)",
         "ETF": "N"
     },
     {
         "Symbol": "MOH",
-        "Name": "Molina Healthcare Inc Common Stock",
-        "ownWebull": true,
+        "Name": "Molina Healthcare Inc",        
         "Security Name": "Molina Healthcare Inc Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MOL",
@@ -27901,12 +27902,7 @@
         "Symbol": "MPTI.W",
         "Name": "M",
         "Security Name": "M-tron Industries, Inc. Warrants to Purchase Shares of Common Stock, Expiring on or before April 25, 2028",
-        "Exchange": "A",
-        "CQS Symbol": "MPTI.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "MPTI+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "MPU",
@@ -38458,17 +38454,17 @@
     },
     {
         "Symbol": "SMFG",
-        "Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
-        "ownWebull": true,
+        "Name": "Sumitomo Mitsui Financial Group Inc",        
         "Security Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SMG",
-        "Name": "Scotts Miracle",
-        "ownEtrade": true,
+        "Name": "Scotts Miracle",        
         "Security Name": "Scotts Miracle-Gro Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "SMHB",
@@ -38863,10 +38859,10 @@
     },
     {
         "Symbol": "SONY",
-        "Name": "Sony Group Corporation American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Sony Group Corporation",        
         "Security Name": "Sony Group Corporation American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SOR",
@@ -38901,11 +38897,7 @@
         "Symbol": "SOUL.U",
         "Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
         "Security Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
-        "Exchange": "N",
-        "CQS Symbol": "SOUL.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
+        "Exchange": "N",        
         "NASDAQ Symbol": "SOUL="
     },
     {
@@ -39073,10 +39065,10 @@
     },
     {
         "Symbol": "SPG",
-        "Name": "Simon Property Group, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Simon Property Group, Inc.",        
         "Security Name": "Simon Property Group, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SPG-J",
@@ -42640,10 +42632,10 @@
     },
     {
         "Symbol": "UBS",
-        "Name": "UBS Group AG Registered Ordinary Shares",
-        "ownWebull": true,
+        "Name": "UBS Group AG",        
         "Security Name": "UBS Group AG Registered Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UBSI",
