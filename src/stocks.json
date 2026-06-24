@@ -17528,6 +17528,7 @@
     },
     {
         "Symbol": "GLBS",
+        "Name": "Globus Maritime Ltd",
         "ownWebull": true
     },
     {
@@ -17961,10 +17962,10 @@
     },
     {
         "Symbol": "GOOS",
-        "Name": "Canada Goose Holdings Inc. Subordinate Voting Shares",
-        "ownWebull": true,
+        "Name": "Canada Goose Holdings Inc.",        
         "Security Name": "Canada Goose Holdings Inc. Subordinate Voting Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GOOW",
@@ -18027,6 +18028,7 @@
     },
     {
         "Symbol": "GPGI",
+        "Name": "GPGI Inc (Nevada)",
         "ownEtrade": true
     },
     {
@@ -18143,10 +18145,7 @@
         "Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one",
         "Security Name": "Graf Global Corp. Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
         "Exchange": "A",
-        "CQS Symbol": "GRAF.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
+        "ETF": "N",        
         "NASDAQ Symbol": "GRAF="
     },
     {
@@ -18156,8 +18155,6 @@
         "Exchange": "A",
         "CQS Symbol": "GRAF.WS",
         "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
         "NASDAQ Symbol": "GRAF+"
     },
     {
@@ -18198,14 +18195,15 @@
     },
     {
         "Symbol": "GRFS",
+        "Name": "Grifols SA - ADR ADR Class B",
         "ownWebull": true
     },
     {
         "Symbol": "GRMN",
-        "Name": "Garmin Ltd. Common Stock (Switzerland)",
-        "ownWebull": true,
+        "Name": "Garmin Ltd.",
         "Security Name": "Garmin Ltd. Common Stock (Switzerland)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "GRN",
@@ -18273,8 +18271,6 @@
         "Exchange": "A",
         "CQS Symbol": "GROY.WS",
         "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
         "NASDAQ Symbol": "GROY+"
     },
     {
@@ -21627,7 +21623,7 @@
     },
     {
         "Symbol": "IONQ",
-        "Name": "IonQ, Inc.",        
+        "Name": "IonQ, Inc.",
         "Security Name": "IonQ, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -22558,7 +22554,7 @@
         "Security Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one-tenth (1/10) of one Class A ordinary share",
         "Exchange": "N",
         "CQS Symbol": "JACS.U",
-        "ETF": "N",        
+        "ETF": "N",
         "NASDAQ Symbol": "JACS="
     },
     {
@@ -22691,7 +22687,7 @@
     },
     {
         "Symbol": "JBS",
-        "Name": "JBS N.V.",        
+        "Name": "JBS N.V.",
         "Security Name": "JBS N.V. Class A Common Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -24335,10 +24331,10 @@
     },
     {
         "Symbol": "KRP",
-        "Name": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
-        "ownWebull": true,
+        "Name": "Kimbell Royalty Partners",
         "Security Name": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KRT",
@@ -24447,9 +24443,6 @@
         "ETF": "Y"
     },
     {
-        "Symbol": "KUST"
-    },
-    {
         "Symbol": "KVLE",
         "Name": "KraneShares Value Line Dynamic Dividend Equity Index ETF",
         "Security Name": "KraneShares Value Line Dynamic Dividend Equity Index ETF",
@@ -24457,10 +24450,10 @@
     },
     {
         "Symbol": "KVUE",
-        "Name": "Kenvue Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Kenvue Inc.",        
         "Security Name": "Kenvue Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KVYO",
@@ -24498,6 +24491,7 @@
     },
     {
         "Symbol": "KYIV",
+        "Name": "Kyivstar Group Ltd",
         "ownWebull": true
     },
     {
@@ -24819,8 +24813,6 @@
         "Exchange": "A",
         "CQS Symbol": "LEGT.U",
         "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
         "NASDAQ Symbol": "LEGT="
     },
     {
@@ -24830,8 +24822,6 @@
         "Exchange": "A",
         "CQS Symbol": "LEGT.WS",
         "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
         "NASDAQ Symbol": "LEGT+"
     },
     {
