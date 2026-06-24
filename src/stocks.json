@@ -19397,10 +19397,10 @@
     },
     {
         "Symbol": "HHH",
-        "Name": "Howard Hughes Holdings Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Howard Hughes Holdings Inc.",        
         "Security Name": "Howard Hughes Holdings Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HI",
@@ -19457,10 +19457,10 @@
     },
     {
         "Symbol": "HIMS",
-        "Name": "Hims & Hers Health, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Hims & Hers Health, Inc.",        
         "Security Name": "Hims & Hers Health, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HIMU",
@@ -19516,10 +19516,10 @@
     },
     {
         "Symbol": "HKD",
-        "Name": "AMTD Digital Inc. American Depositary Shares (every five of which represent two Class A Ordinary Shares)",
-        "ownWebull": true,
+        "Name": "AMTD Digital Inc.",
         "Security Name": "AMTD Digital Inc. American Depositary Shares (every five of which represent two Class A Ordinary Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HKND",
@@ -19628,6 +19628,7 @@
     },
     {
         "Symbol": "HMR",
+        "Name": "Heidmar Maritime Holdings Corp",
         "ownWebull": true
     },
     {
@@ -19684,10 +19685,10 @@
     },
     {
         "Symbol": "HOG",
-        "Name": "Harley",
-        "ownWebull": true,
+        "Name": "Harley",        
         "Security Name": "Harley-Davidson, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HOLA",
@@ -19715,6 +19716,7 @@
     },
     {
         "Symbol": "HON",
+        "Name": "Honeywell International Inc",
         "ownWebull": true
     },
     {
@@ -19758,17 +19760,17 @@
     },
     {
         "Symbol": "HP",
-        "Name": "Helmerich & Payne, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Helmerich & Payne, Inc.",        
         "Security Name": "Helmerich & Payne, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HPE",
-        "Name": "Hewlett Packard Enterprise Company Common Stock",
-        "ownWebull": true,
+        "Name": "Hewlett Packard Enterprise Company",        
         "Security Name": "Hewlett Packard Enterprise Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HPE-C",
@@ -19795,10 +19797,10 @@
     },
     {
         "Symbol": "HPP",
-        "Name": "Hudson Pacific Properties, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Hudson Pacific Properties, Inc.",        
         "Security Name": "Hudson Pacific Properties, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HPP-C",
@@ -19844,10 +19846,10 @@
     },
     {
         "Symbol": "HRB",
-        "Name": "H&R Block, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "H&R Block, Inc.",        
         "Security Name": "H&R Block, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HRI",
@@ -19920,10 +19922,10 @@
     },
     {
         "Symbol": "HSY",
-        "Name": "The Hershey Company Common Stock",
-        "ownWebull": true,
+        "Name": "The Hershey Company",        
         "Security Name": "The Hershey Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HTAB",
@@ -19997,6 +19999,7 @@
     },
     {
         "Symbol": "HTOO",
+        "Name": "Fusion Fuel Green PLC",
         "ownWebull": true
     },
     {
@@ -20030,17 +20033,17 @@
     },
     {
         "Symbol": "HUBS",
-        "Name": "HubSpot, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "HubSpot, Inc.",        
         "Security Name": "HubSpot, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HUM",
-        "Name": "Humana Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Humana Inc.",        
         "Security Name": "Humana Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HUMN",
@@ -20788,10 +20791,12 @@
     },
     {
         "Symbol": "ICLR",
+        "Name": "ICON PLC",
         "ownWebull": true
     },
     {
         "Symbol": "ICMB",
+        "Name": "Investcorp Credit Management Bdc Inc",
         "ownWebull": true
     },
     {
@@ -20802,6 +20807,7 @@
     },
     {
         "Symbol": "ICON",
+        "Name": "Icon Energy Corp",
         "ownWebull": true
     },
     {
@@ -41451,10 +41457,10 @@
     },
     {
         "Symbol": "TNET",
-        "Name": "TriNet Group, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "TriNet Group, Inc.",        
         "Security Name": "TriNet Group, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TNGY",
