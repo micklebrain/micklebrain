@@ -9201,10 +9201,9 @@
     },
     {
         "Symbol": "CSW",
-        "Name": "CSW Industrials, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "CSW Industrials, Inc.",        
         "Security Name": "CSW Industrials, Inc. Common Stock",
-        "ETF": "N"
+        "ownEtrade": true        
     },
     {
         "Symbol": "CSWC",
@@ -9440,17 +9439,8 @@
     },
     {
         "Symbol": "CVCO",
-        "Name": "Cavco Industries Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Cavco Industries Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "CVE",
@@ -9537,10 +9527,9 @@
     },
     {
         "Symbol": "CVS",
-        "Name": "CVS Health Corporation Common Stock",
-        "ownWebull": true,
-        "Security Name": "CVS Health Corporation Common Stock",
-        "ETF": "N"
+        "Name": "CVS Health Corporation",        
+        "Security Name": "CVS Health Corporation Common Stock",        
+        "ownWebull": true
     },
     {
         "Symbol": "CVSB",
@@ -9708,8 +9697,7 @@
     },
     {
         "Symbol": "CYCU",
-        "Name": "Cycurion Inc.",
-        "ownWebull": true
+        "Name": "Cycurion Inc."        
     },
     {
         "Symbol": "CYD",
@@ -19171,10 +19159,10 @@
     },
     {
         "Symbol": "HE",
-        "Name": "Hawaiian Electric Industries, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Hawaiian Electric Industries, Inc.",
         "Security Name": "Hawaiian Electric Industries, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HEAT",
@@ -19584,10 +19572,10 @@
     },
     {
         "Symbol": "HLT",
-        "Name": "Hilton Worldwide Holdings Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Hilton Worldwide Holdings Inc.",
         "Security Name": "Hilton Worldwide Holdings Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HLX",
@@ -19604,17 +19592,8 @@
     },
     {
         "Symbol": "HMH",
-        "Name": "HMH Holding Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "HMH Holding Inc",        
+        "dividend": true
     },
     {
         "Symbol": "HMN",
@@ -19747,12 +19726,7 @@
         "Symbol": "HOUS",
         "Name": "Anywhere Real Estate Inc. Common Stock,",
         "Security Name": "Anywhere Real Estate Inc. Common Stock,",
-        "Exchange": "N",
-        "CQS Symbol": "HOUS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "HOUS"
+        "Exchange": "N"        
     },
     {
         "Symbol": "HOV",
@@ -19812,10 +19786,10 @@
     },
     {
         "Symbol": "HPQ",
-        "Name": "HP Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "HP Inc.",
         "Security Name": "HP Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HPS",
@@ -24203,6 +24177,7 @@
     },
     {
         "Symbol": "KLIC",
+        "Name": "Kulicke And Soffa Industries Inc",
         "ownWebull": true
     },
     {
@@ -24299,10 +24274,10 @@
     },
     {
         "Symbol": "KMX",
-        "Name": "CarMax Inc",
-        "ownEtrade": true,
+        "Name": "CarMax Inc",        
         "Security Name": "CarMax Inc",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "KN",
@@ -24360,10 +24335,10 @@
     },
     {
         "Symbol": "KNSL",
-        "Name": "Kinsale Capital Group, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Kinsale Capital Group, Inc.",        
         "Security Name": "Kinsale Capital Group, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "KNTK",
@@ -24572,10 +24547,10 @@
     },
     {
         "Symbol": "KSS",
-        "Name": "Kohl's Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Kohl's Corporation",        
         "Security Name": "Kohl's Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KSTR",
@@ -24747,6 +24722,7 @@
     },
     {
         "Symbol": "LAFA",
+        "Name": "Lafayette Acquisition Corp",
         "ownWebull": true
     },
     {
