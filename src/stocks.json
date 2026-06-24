@@ -1348,8 +1348,8 @@
     },
     {
         "Symbol": "AKTS",
-        "Name": "Aktis Oncology Inc",        
-        "dividend": true        
+        "Name": "Aktis Oncology Inc",
+        "dividend": true
     },
     {
         "Symbol": "AL",
@@ -5400,17 +5400,9 @@
     },
     {
         "Symbol": "BOBS",
-        "Name": "Bob's Discount Furniture, Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Bob's Discount Furniture, Inc",        
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BOC",
@@ -5675,32 +5667,23 @@
     },
     {
         "Symbol": "BRK-B",
-        "Name": "Berkshire Hathaway Inc. New Common Stock",
-        "ownWebull": true,
+        "Name": "Berkshire Hathaway Inc.",
         "Security Name": "Berkshire Hathaway Inc. New Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BRK.A",
-        "Name": "Berkshire Hathaway Inc. Common Stock",
+        "Name": "Berkshire Hathaway Inc.",
         "Security Name": "Berkshire Hathaway Inc. Common Stock",
         "Exchange": "N",
-        "CQS Symbol": "BRK.A",
-        "ETF": "N",
-        "Round Lot Size": "1",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "BRK.A"
+        "ETF": "N"
     },
     {
         "Symbol": "BRK.B",
         "Name": "Berkshire Hathaway Inc. New Common Stock",
         "Security Name": "Berkshire Hathaway Inc. New Common Stock",
-        "Exchange": "N",
-        "CQS Symbol": "BRK.B",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "BRK.B"
+        "Exchange": "N"
     },
     {
         "Symbol": "BRKC",
@@ -5878,9 +5861,9 @@
     },
     {
         "Symbol": "BSY",
-        "Name": "Bentley Systems, Inc",        
+        "Name": "Bentley Systems, Inc",
         "ownEtrade": true,
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "BTA",
@@ -5958,8 +5941,8 @@
     },
     {
         "Symbol": "BTGO",
-        "Name": "BitGo Holdings Inc",        
-        "dividend": true        
+        "Name": "BitGo Holdings Inc",
+        "dividend": true
     },
     {
         "Symbol": "BTI",
@@ -6152,7 +6135,7 @@
     },
     {
         "Symbol": "BUR",
-        "Name": "Burford Capital Limited",        
+        "Name": "Burford Capital Limited",
         "Security Name": "Burford Capital Limited Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -6372,7 +6355,7 @@
     },
     {
         "Symbol": "BXSL",
-        "Name": "Blackstone Secured Lending Fund",        
+        "Name": "Blackstone Secured Lending Fund",
         "Security Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",
         "ETF": "N",
         "ownEtrade": true
@@ -6678,8 +6661,8 @@
     },
     {
         "Symbol": "CAST",
-        "Name": "Freecast Inc",        
-        "dividend": true        
+        "Name": "Freecast Inc",
+        "dividend": true
     },
     {
         "Symbol": "CASY",
@@ -6732,8 +6715,8 @@
     },
     {
         "Symbol": "CBC",
-        "Name": "Central Bancompany Inc",        
-        "dividend": true        
+        "Name": "Central Bancompany Inc",
+        "dividend": true
     },
     {
         "Symbol": "CBFV",
@@ -7043,8 +7026,8 @@
     },
     {
         "Symbol": "CDNL",
-        "Name": "Cardinal Infrastructure Group Inc",        
-        "dividend": true        
+        "Name": "Cardinal Infrastructure Group Inc",
+        "dividend": true
     },
     {
         "Symbol": "CDP",
@@ -8566,7 +8549,7 @@
         "Symbol": "COPL.U",
         "Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one",
         "Security Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one-half warrant",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "COPL.W",
@@ -9034,7 +9017,7 @@
     },
     {
         "Symbol": "CRM",
-        "Name": "Salesforce, Inc.",        
+        "Name": "Salesforce, Inc.",
         "Security Name": "Salesforce, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -9684,7 +9667,7 @@
     },
     {
         "Symbol": "CX",
-        "Name": "Cemex, S.A.B. de C.V. Sponsored ADR",        
+        "Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
         "Security Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
         "ETF": "N",
         "ownWebull": true
@@ -9868,7 +9851,7 @@
     },
     {
         "Symbol": "DB",
-        "Name": "Deutsche Bank AG",        
+        "Name": "Deutsche Bank AG",
         "Security Name": "Deutsche Bank AG Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10155,7 +10138,7 @@
     },
     {
         "Symbol": "DE",
-        "Name": "Deere & Company",        
+        "Name": "Deere & Company",
         "Security Name": "Deere & Company Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10213,8 +10196,8 @@
         "Symbol": "DECZ",
         "Name": "TrueShares Structured Outcome (December) ETF",
         "Security Name": "TrueShares Structured Outcome (December) ETF",
-        "Exchange": "Z",        
-        "ETF": "Y"        
+        "Exchange": "Z",
+        "ETF": "Y"
     },
     {
         "Symbol": "DEED",
@@ -10273,7 +10256,7 @@
     },
     {
         "Symbol": "DEO",
-        "Name": "Diageo plc",        
+        "Name": "Diageo plc",
         "Security Name": "Diageo plc Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10551,7 +10534,7 @@
     },
     {
         "Symbol": "DG",
-        "Name": "Dollar General Corporation",        
+        "Name": "Dollar General Corporation",
         "Security Name": "Dollar General Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10580,7 +10563,7 @@
     },
     {
         "Symbol": "DGRO",
-        "Name": "iShares Core Dividend Growth ETF",        
+        "Name": "iShares Core Dividend Growth ETF",
         "Security Name": "iShares Core Dividend Growth ETF",
         "ETF": "Y",
         "ownRobinhood": true
@@ -10672,7 +10655,7 @@
     },
     {
         "Symbol": "DIA",
-        "Name": "SPDR Dow Jones Industrial Average ETF",        
+        "Name": "SPDR Dow Jones Industrial Average ETF",
         "Security Name": "SPDR Dow Jones Industrial Average ETF",
         "ETF": "Y",
         "ownWebull": true
@@ -10745,7 +10728,7 @@
     },
     {
         "Symbol": "DIS",
-        "Name": "Walt Disney Company (The) Common Stock",        
+        "Name": "Walt Disney Company (The) Common Stock",
         "Security Name": "Walt Disney Company (The) Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -43874,8 +43857,8 @@
     },
     {
         "Symbol": "VHCPU",
-        "Name": "Vine Hill Capital Investment II Units",        
-        "dividend": true        
+        "Name": "Vine Hill Capital Investment II Units",
+        "dividend": true
     },
     {
         "Symbol": "VHI",
@@ -45203,7 +45186,7 @@
         "Symbol": "WLTH",
         "Name": "Wealthfront Corp",
         "ownWebull": false,
-        "ownEtrade": false,
+        "ownEtrade": true,
         "ownRobinhood": false,
         "ownChase": false,
         "ownSchwab": false,
@@ -46899,7 +46882,7 @@
     {
         "Symbol": "ZION",
         "Name": "Zions Bancorporation NA",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "ZIP",

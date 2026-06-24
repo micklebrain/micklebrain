@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ARXS"]
+stocksToAdd = ["WLTH"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Arxis Inc")
+    addStock(stock, name="Wealthfront Corp", ownEtrade=True)
