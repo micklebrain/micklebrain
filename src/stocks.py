@@ -165,4 +165,4 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 stocksToAdd = ["BSY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bentley Systems, Inc", ownEtrade=True)
+    addStock(stock, name="Bentley Systems, Inc")

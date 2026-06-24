@@ -440,8 +440,7 @@
     },
     {
         "Symbol": "ACIC",
-        "Name": "American Coastal Insurance Corp",
-        "dividend": true
+        "Name": "American Coastal Insurance Corp"        
     },
     {
         "Symbol": "ACIO",
@@ -736,17 +735,17 @@
     },
     {
         "Symbol": "AEO",
-        "Name": "American Eagle Outfitters, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "American Eagle Outfitters, Inc.",
         "Security Name": "American Eagle Outfitters, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AEON",
-        "Name": "AEON Biopharma, Inc. Class A Common Stock",
-        "ownEtrade": true,
+        "Name": "AEON Biopharma, Inc.",        
         "Security Name": "AEON Biopharma, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AER",
@@ -769,8 +768,7 @@
         "Symbol": "AESI",
         "Name": "Atlas Energy Solutions Inc",
         "Security Name": "Atlas Energy Solutions Inc. Common Stock",
-        "ETF": "N",
-        "dividend": true
+        "ETF": "N"        
     },
     {
         "Symbol": "AESR",
@@ -10841,8 +10839,7 @@
     },
     {
         "Symbol": "DLO",
-        "Name": "Dlocal Ltd.",
-        "dividend": true
+        "Name": "Dlocal Ltd."        
     },
     {
         "Symbol": "DLR",
