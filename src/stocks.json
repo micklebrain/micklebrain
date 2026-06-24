@@ -46696,17 +46696,8 @@
     },
     {
         "Symbol": "YSS",
-        "Name": "York Space Systems Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "York Space Systems Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "YTRA",
