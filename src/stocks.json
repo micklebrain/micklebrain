@@ -30361,10 +30361,10 @@
     },
     {
         "Symbol": "NX",
-        "Name": "Quanex Building Products Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Quanex Building Products Corporation",        
         "Security Name": "Quanex Building Products Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "NXC",
@@ -30463,10 +30463,10 @@
     },
     {
         "Symbol": "NYT",
-        "Name": "New York Times Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "New York Times Company (The)",        
         "Security Name": "New York Times Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NYXH",
