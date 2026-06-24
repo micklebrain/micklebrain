@@ -1998,6 +1998,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "APC",
+        "Name": "ARKO Petroleum Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "APCB",
         "Name": "Trust for Professional Managers ActivePassive Core Bond ETF",
         "Security Name": "Trust for Professional Managers ActivePassive Core Bond ETF",
@@ -3961,6 +3975,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "BCHT",
+        "Name": "Birchtech Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "BCI",
         "Name": "abrdn Bloomberg All Commodity Strategy K",
         "Security Name": "abrdn Bloomberg All Commodity Strategy K-1 Free ETF",
@@ -5560,6 +5588,20 @@
         "ownEtrade": true,
         "Security Name": "Broadridge Financial Solutions, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "BRAI",
+        "Name": "Braiin Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "BRAZ",
@@ -22729,6 +22771,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "JAGU",
+        "Name": "Jaguar Uranium Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JAJL",
         "Name": "SHL Telemedicine Ltd Innovator Equity Defined Protection ETF",
         "Security Name": "SHL Telemedicine Ltd Innovator Equity Defined Protection ETF - 6mo Jan/Jul",
@@ -35694,6 +35750,20 @@
         "Name": "Exchange Traded Concepts Trust ROBO Global Robotics and Automation Index ETF",
         "Security Name": "Exchange Traded Concepts Trust ROBO Global Robotics and Automation Index ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "ROC",
+        "Name": "Rank One Computing Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "RODM",

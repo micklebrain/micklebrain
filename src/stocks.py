@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["GENB"]
+stocksToAdd = ["JAGU"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Generate Biomedicines Inc")
+    addStock(stock, name="Jaguar Uranium Corp")
