@@ -13411,9 +13411,10 @@
     },
     {
         "Symbol": "ESAB",
-        "Name": "ESAB Corporation Common Stock",
+        "Name": "ESAB Corporation",
         "Security Name": "ESAB Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ESBA",
@@ -13524,10 +13525,10 @@
     },
     {
         "Symbol": "ESTC",
-        "Name": "Elastic N.V. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Elastic N.V.",        
         "Security Name": "Elastic N.V. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ESUM",
@@ -35436,10 +35437,10 @@
     },
     {
         "Symbol": "RITM",
-        "Name": "Rithm Capital Corp. Common Stock",
-        "ownWebull": true,
+        "Name": "Rithm Capital Corp.",        
         "Security Name": "Rithm Capital Corp. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RITM-A",
@@ -35555,10 +35556,10 @@
     },
     {
         "Symbol": "RLX",
-        "Name": "RLX Technology Inc. American Depositary Shares, each representing the right to receive one (1) Class A ordinary share",
-        "ownWebull": true,
+        "Name": "RLX Technology Inc.",        
         "Security Name": "RLX Technology Inc. American Depositary Shares, each representing the right to receive one (1) Class A ordinary share",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RLY",
@@ -35711,11 +35712,7 @@
         "Name": "Listed Funds Trust TrueShares Eagle Global Renewable Energy Income ETF",
         "Security Name": "Listed Funds Trust TrueShares Eagle Global Renewable Energy Income ETF",
         "Exchange": "P",
-        "CQS Symbol": "RNWZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "RNWZ"
+        "ETF": "Y"        
     },
     {
         "Symbol": "ROAM",
