@@ -9957,13 +9957,6 @@
         "ownWebull": true
     },
     {
-        "Symbol": "DD",
-        "Name": "DUPONT DE NEMOURS INC",
-        "Security Name": "DuPont de Nemours, Inc. Common Stock",
-        "ETF": "N",
-        "ownEtrade": true
-    },
-    {
         "Symbol": "DDC",
         "Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
@@ -21634,10 +21627,10 @@
     },
     {
         "Symbol": "IONQ",
-        "Name": "IonQ, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "IonQ, Inc.",        
         "Security Name": "IonQ, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "IONQ.W",
@@ -21645,6 +21638,7 @@
     },
     {
         "Symbol": "IONR",
+        "Name": "ioneer American Depositary Shares",
         "ownEtrade": true
     },
     {
@@ -22560,13 +22554,11 @@
     },
     {
         "Symbol": "JACS.U",
-        "Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one",
+        "Name": "Jackson Acquisition Company",
         "Security Name": "Jackson Acquisition Company II Units, each consisting of one Class A ordinary share and one right to acquire one-tenth (1/10) of one Class A ordinary share",
         "Exchange": "N",
         "CQS Symbol": "JACS.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
+        "ETF": "N",        
         "NASDAQ Symbol": "JACS="
     },
     {
@@ -22699,10 +22691,10 @@
     },
     {
         "Symbol": "JBS",
-        "Name": "JBS N.V. Class A Common Shares",
-        "ownEtrade": true,
+        "Name": "JBS N.V.",        
         "Security Name": "JBS N.V. Class A Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "JBSS",
@@ -22752,6 +22744,7 @@
     },
     {
         "Symbol": "JCSE",
+        "Name": "JE Cleantech Holdings Ltd",
         "ownWebull": true
     },
     {
