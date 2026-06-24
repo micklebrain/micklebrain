@@ -524,7 +524,8 @@
         "Symbol": "ACRE",
         "Name": "Ares Commercial Real Estate Corporation Common Stock",
         "Security Name": "Ares Commercial Real Estate Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "dividend": true
     },
     {
         "Symbol": "ACSI",
@@ -1003,6 +1004,12 @@
         "Symbol": "AGNC",
         "Name": "Agnc Invt Corp",
         "ownWebull": true
+    },
+    {
+        "Symbol": "AGNT",
+        "Name": "Agnt Inc",
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "AGO",
@@ -5411,6 +5418,20 @@
         "Name": "Exchange Traded Concepts Trust CORE16 Best of Breed Premier Index ETF",
         "Security Name": "Exchange Traded Concepts Trust CORE16 Best of Breed Premier Index ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "BOBS",
+        "Name": "Bob's Discount Furniture, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "BOC",
@@ -12589,6 +12610,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "EIKN",
+        "Name": "Eikon Therapeutics Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "EIM",
         "Name": "Eaton Vance Municipal Bond Fund Common Shares of Beneficial Interest, $.01 par value",
         "Security Name": "Eaton Vance Municipal Bond Fund Common Shares of Beneficial Interest, $.01 par value",
@@ -16163,6 +16198,20 @@
         "Name": "Fidelity Real Estate Investment ETF",
         "Security Name": "Fidelity Real Estate Investment ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FPS",
+        "Name": "Forgent Power Solutions, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FPWR",
@@ -25394,6 +25443,20 @@
         "dividend": true
     },
     {
+        "Symbol": "LIFE",
+        "Name": "Ethos Technologies Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "LII",
         "Name": "Lennox International, Inc.",
         "Security Name": "Lennox International, Inc. Common Stock",
@@ -26239,6 +26302,20 @@
         "Name": "ManpowerGroup Common Stock",
         "Security Name": "ManpowerGroup Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "MANE",
+        "Name": "Veradermics Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MANU",
@@ -30758,6 +30835,20 @@
         "dividend": true
     },
     {
+        "Symbol": "OFRM",
+        "Name": "Once Upon A Farm PBC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "OFS",
         "Name": "OFS Capital Corp",
         "dividend": true
@@ -32925,6 +33016,20 @@
         "Name": "Plymouth Industrial REIT, Inc. Common Stock",
         "Security Name": "Plymouth Industrial REIT, Inc. Common Stock",
         "ETF": "N"
+    },
+    {
+        "Symbol": "PLYX",
+        "Name": "Polaryx Therapeutics, Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "PM",

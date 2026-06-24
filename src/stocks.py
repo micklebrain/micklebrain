@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["JAGU"]
+stocksToAdd = ["PLYX"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Jaguar Uranium Corp")
+    addStock(stock, name="Polaryx Therapeutics, Inc")
