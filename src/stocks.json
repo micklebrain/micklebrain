@@ -28114,10 +28114,10 @@
     },
     {
         "Symbol": "MSCI",
-        "Name": "MSCI Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "MSCI Inc.",        
         "Security Name": "MSCI Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MSD",
@@ -28347,10 +28347,10 @@
     },
     {
         "Symbol": "MTD",
-        "Name": "Mettler",
-        "ownWebull": true,
+        "Name": "Mettler-Toledo International Inc",
         "Security Name": "Mettler-Toledo International, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MTDR",
@@ -33016,23 +33016,14 @@
     {
         "Symbol": "PLYX",
         "Name": "Polaryx Therapeutics, Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "PM",
-        "Name": "Philip Morris International Inc Common Stock",
-        "ownWebull": true,
+        "Name": "Philip Morris International Inc",
         "Security Name": "Philip Morris International Inc Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PMAP",
@@ -33138,6 +33129,7 @@
     },
     {
         "Symbol": "PMRTY",
+        "Name": "Pop Mart International Group ADR",
         "ownEtrade": true
     },
     {
