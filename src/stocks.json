@@ -3484,10 +3484,10 @@
     },
     {
         "Symbol": "BAK",
-        "Name": "Braskem SA ADR",
-        "ownWebull": true,
+        "Name": "Braskem SA ADR",        
         "Security Name": "Braskem SA ADR",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BALI",
@@ -3497,10 +3497,10 @@
     },
     {
         "Symbol": "BALL",
-        "Name": "Ball Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Ball Corporation",        
         "Security Name": "Ball Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BALT",
@@ -3510,10 +3510,10 @@
     },
     {
         "Symbol": "BALY",
-        "Name": "Bally's Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Bally's Corporation",        
         "Security Name": "Bally's Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BAM",
@@ -3572,10 +3572,10 @@
     },
     {
         "Symbol": "BANC",
-        "Name": "Banc of California, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Banc of California, Inc.",        
         "Security Name": "Banc of California, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BANC-F",
@@ -3962,17 +3962,8 @@
     },
     {
         "Symbol": "BCHT",
-        "Name": "Birchtech Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Birchtech Corp",        
+        "dividend": true
     },
     {
         "Symbol": "BCI",
@@ -30750,16 +30741,8 @@
     {
         "Symbol": "OFRM",
         "Name": "Once Upon A Farm PBC",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "ownEtrade": true,
+        "dividend": true        
     },
     {
         "Symbol": "OFS",
@@ -30903,6 +30886,7 @@
     },
     {
         "Symbol": "OLOX",
+        "Name": "Olenox Industries Inc",
         "ownWebull": true
     },
     {
@@ -30986,11 +30970,7 @@
         "Name": "Elevation Series Trust TrueShares Seasonality Laddered Buffered ETF",
         "Security Name": "Elevation Series Trust TrueShares Seasonality Laddered Buffered ETF",
         "Exchange": "Z",
-        "CQS Symbol": "ONEZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "ONEZ"
+        "ETF": "Y"        
     },
     {
         "Symbol": "ONIT",
