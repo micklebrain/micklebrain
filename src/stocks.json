@@ -37735,10 +37735,10 @@
     },
     {
         "Symbol": "SHAK",
-        "Name": "Shake Shack, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Shake Shack, Inc.",
         "Security Name": "Shake Shack, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SHBI",
@@ -37941,10 +37941,10 @@
     },
     {
         "Symbol": "SIG",
-        "Name": "Signet Jewelers Limited Common Shares",
-        "ownWebull": true,
+        "Name": "Signet Jewelers Limited",        
         "Security Name": "Signet Jewelers Limited Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SIGA",
@@ -37994,10 +37994,10 @@
     },
     {
         "Symbol": "SIM",
-        "Name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares",
-        "ownEtrade": true,
+        "Name": "Grupo Simec, S.A.B. de C.V.",        
         "Security Name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "SIMO",
@@ -38155,10 +38155,10 @@
     },
     {
         "Symbol": "SKIL",
-        "Name": "Skillsoft Corp. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Skillsoft Corp.",        
         "Security Name": "Skillsoft Corp. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SKLZ",
