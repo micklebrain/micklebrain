@@ -9189,10 +9189,10 @@
     },
     {
         "Symbol": "CSAN",
-        "Name": "Cosan S.A. ADS",
-        "ownWebull": true,
+        "Name": "Cosan S.A. ADS",        
         "Security Name": "Cosan S.A. ADS",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CSCO",
@@ -38648,10 +38648,10 @@
     },
     {
         "Symbol": "SNN",
-        "Name": "Smith & Nephew SNATS, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Smith & Nephew SNATS, Inc.",        
         "Security Name": "Smith & Nephew SNATS, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "SNOU",
@@ -42549,10 +42549,10 @@
     },
     {
         "Symbol": "UAA",
-        "Name": "Under Armour, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Under Armour, Inc.",
         "Security Name": "Under Armour, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UAL",
@@ -42763,10 +42763,10 @@
     },
     {
         "Symbol": "UGP",
-        "Name": "Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)",
-        "ownWebull": true,
+        "Name": "Ultrapar Participacoes S.A.",
         "Security Name": "Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "UHAL",
