@@ -8619,23 +8619,13 @@
         "Symbol": "COPL.U",
         "Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one",
         "Security Name": "Copley Acquisition Corp Units, each consisting of one ordinary share and one-half warrant",
-        "Exchange": "N",
-        "CQS Symbol": "COPL.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "COPL="
+        "Exchange": "N"        
     },
     {
         "Symbol": "COPL.W",
         "Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
         "Security Name": "Copley Acquisition Corp Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
-        "Exchange": "N",
-        "CQS Symbol": "COPL.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "COPL+"
+        "Exchange": "N"
     },
     {
         "Symbol": "COPX",
@@ -9097,10 +9087,10 @@
     },
     {
         "Symbol": "CRM",
-        "Name": "Salesforce, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Salesforce, Inc.",        
         "Security Name": "Salesforce, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CRMT",
