@@ -1848,8 +1848,8 @@
     },
     {
         "Symbol": "ANDG",
-        "Name": "Andersen Group Inc",        
-        "dividend": true        
+        "Name": "Andersen Group Inc",
+        "dividend": true
     },
     {
         "Symbol": "ANET",
@@ -1997,8 +1997,8 @@
     },
     {
         "Symbol": "APC",
-        "Name": "ARKO Petroleum Corp",        
-        "dividend": true        
+        "Name": "ARKO Petroleum Corp",
+        "dividend": true
     },
     {
         "Symbol": "APCB",
@@ -2429,7 +2429,7 @@
     },
     {
         "Symbol": "ARR",
-        "Name": "ARMOUR Residential REIT, Inc.",        
+        "Name": "ARMOUR Residential REIT, Inc.",
         "Security Name": "ARMOUR Residential REIT, Inc.",
         "ETF": "N",
         "ownWebull": true
@@ -2460,8 +2460,9 @@
     },
     {
         "Symbol": "ARXS",
-        "Name": "Arxis Inc",        
-        "dividend": true        
+        "Name": "Arxis Inc",
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "AS",
@@ -9008,10 +9009,10 @@
     },
     {
         "Symbol": "CRCL",
-        "Name": "Circle Internet Group, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Circle Internet Group, Inc.",
         "Security Name": "Circle Internet Group, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CRCT",
@@ -9189,7 +9190,7 @@
     },
     {
         "Symbol": "CSAN",
-        "Name": "Cosan S.A. ADS",        
+        "Name": "Cosan S.A. ADS",
         "Security Name": "Cosan S.A. ADS",
         "ETF": "N",
         "ownWebull": true
@@ -27399,7 +27400,7 @@
     },
     {
         "Symbol": "MKC",
-        "Name": "McCormick & Company, Incorporated",        
+        "Name": "McCormick & Company, Incorporated",
         "Security Name": "McCormick & Company, Incorporated Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -27413,7 +27414,7 @@
         "Symbol": "MKC.V",
         "Name": "McCormick & Company, Incorporated Common Stock",
         "Security Name": "McCormick & Company, Incorporated Common Stock",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "MKL",
@@ -27578,8 +27579,8 @@
     },
     {
         "Symbol": "MMED",
-        "Name": "MiniMed Group Inc",        
-        "dividend": true        
+        "Name": "MiniMed Group Inc",
+        "dividend": true
     },
     {
         "Symbol": "MMI",
@@ -27777,7 +27778,7 @@
     },
     {
         "Symbol": "MOH",
-        "Name": "Molina Healthcare Inc",        
+        "Name": "Molina Healthcare Inc",
         "Security Name": "Molina Healthcare Inc Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -27902,7 +27903,7 @@
         "Symbol": "MPTI.W",
         "Name": "M",
         "Security Name": "M-tron Industries, Inc. Warrants to Purchase Shares of Common Stock, Expiring on or before April 25, 2028",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "MPU",
@@ -28114,7 +28115,7 @@
     },
     {
         "Symbol": "MSCI",
-        "Name": "MSCI Inc.",        
+        "Name": "MSCI Inc.",
         "Security Name": "MSCI Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -33417,7 +33418,7 @@
     },
     {
         "Symbol": "PRGO",
-        "Name": "Perrigo Company plc",        
+        "Name": "Perrigo Company plc",
         "Security Name": "Perrigo Company plc Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -33581,7 +33582,7 @@
     },
     {
         "Symbol": "PSA",
-        "Name": "Public Storage",        
+        "Name": "Public Storage",
         "Security Name": "Public Storage Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -35847,8 +35848,8 @@
     },
     {
         "Symbol": "ROC",
-        "Name": "Rank One Computing Corp",        
-        "dividend": true        
+        "Name": "Rank One Computing Corp",
+        "dividend": true
     },
     {
         "Symbol": "RODM",
@@ -37026,7 +37027,7 @@
     },
     {
         "Symbol": "SCHH",
-        "Name": "Schwab U.S. REIT ETF",        
+        "Name": "Schwab U.S. REIT ETF",
         "Security Name": "Schwab U.S. REIT ETF",
         "ETF": "Y",
         "ownRobinhood": true
@@ -37148,7 +37149,7 @@
     },
     {
         "Symbol": "SCL",
-        "Name": "STEPAN CO COM",        
+        "Name": "STEPAN CO COM",
         "Security Name": "Stepan Company Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -37941,7 +37942,7 @@
     },
     {
         "Symbol": "SIG",
-        "Name": "Signet Jewelers Limited",        
+        "Name": "Signet Jewelers Limited",
         "Security Name": "Signet Jewelers Limited Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -37994,7 +37995,7 @@
     },
     {
         "Symbol": "SIM",
-        "Name": "Grupo Simec, S.A.B. de C.V.",        
+        "Name": "Grupo Simec, S.A.B. de C.V.",
         "Security Name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -38155,7 +38156,7 @@
     },
     {
         "Symbol": "SKIL",
-        "Name": "Skillsoft Corp.",        
+        "Name": "Skillsoft Corp.",
         "Security Name": "Skillsoft Corp. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38438,14 +38439,14 @@
     },
     {
         "Symbol": "SMFG",
-        "Name": "Sumitomo Mitsui Financial Group Inc",        
+        "Name": "Sumitomo Mitsui Financial Group Inc",
         "Security Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "SMG",
-        "Name": "Scotts Miracle",        
+        "Name": "Scotts Miracle",
         "Security Name": "Scotts Miracle-Gro Company (The) Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -38648,7 +38649,7 @@
     },
     {
         "Symbol": "SNN",
-        "Name": "Smith & Nephew SNATS, Inc.",        
+        "Name": "Smith & Nephew SNATS, Inc.",
         "Security Name": "Smith & Nephew SNATS, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -38843,7 +38844,7 @@
     },
     {
         "Symbol": "SONY",
-        "Name": "Sony Group Corporation",        
+        "Name": "Sony Group Corporation",
         "Security Name": "Sony Group Corporation American Depositary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -38881,7 +38882,7 @@
         "Symbol": "SOUL.U",
         "Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
         "Security Name": "Soulpower Acquisition Corporation Units, each consisting of one Class A ordinary share and one right",
-        "Exchange": "N",        
+        "Exchange": "N",
         "NASDAQ Symbol": "SOUL="
     },
     {
@@ -39049,7 +39050,7 @@
     },
     {
         "Symbol": "SPG",
-        "Name": "Simon Property Group, Inc.",        
+        "Name": "Simon Property Group, Inc.",
         "Security Name": "Simon Property Group, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42060,7 +42061,7 @@
     },
     {
         "Symbol": "TRV",
-        "Name": "The Travelers Companies, Inc.",        
+        "Name": "The Travelers Companies, Inc.",
         "Security Name": "The Travelers Companies, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42206,10 +42207,10 @@
     },
     {
         "Symbol": "TSN",
-        "Name": "Tyson Foods, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Tyson Foods, Inc.",
         "Security Name": "Tyson Foods, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TSPA",
@@ -42617,7 +42618,7 @@
     },
     {
         "Symbol": "UBS",
-        "Name": "UBS Group AG",        
+        "Name": "UBS Group AG",
         "Security Name": "UBS Group AG Registered Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
