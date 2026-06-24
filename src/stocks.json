@@ -3642,10 +3642,10 @@
     },
     {
         "Symbol": "BB",
-        "Name": "BlackBerry Limited Common Stock",
-        "ownWebull": true,
+        "Name": "BlackBerry Limited",        
         "Security Name": "BlackBerry Limited Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BBAG",
@@ -3734,10 +3734,10 @@
     },
     {
         "Symbol": "BBDO",
-        "Name": "Banco Bradesco Sa American Depositary Shares (each representing one Common Share)",
-        "ownWebull": true,
+        "Name": "Banco Bradesco Sa",
         "Security Name": "Banco Bradesco Sa American Depositary Shares (each representing one Common Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BBEM",
@@ -3869,10 +3869,10 @@
     },
     {
         "Symbol": "BBWI",
-        "Name": "Bath & Body Works, Inc.",
-        "ownWebull": true,
+        "Name": "Bath & Body Works, Inc.",        
         "Security Name": "Bath & Body Works, Inc.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BBY",
