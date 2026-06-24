@@ -31650,15 +31650,8 @@
     },
     {
         "Symbol": "PAYP",
-        "Name": "PayPay Corp - ADR",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
+        "Name": "PayPay Corp - ADR",        
+        "ownEtrade": true,
         "dividend": true,
         "ETF": false
     },
