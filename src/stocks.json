@@ -1348,17 +1348,8 @@
     },
     {
         "Symbol": "AKTS",
-        "Name": "Aktis Oncology Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Aktis Oncology Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "AL",
@@ -5887,17 +5878,9 @@
     },
     {
         "Symbol": "BSY",
-        "Name": "Bentley Systems, Inc",
-        "ownWebull": false,
+        "Name": "Bentley Systems, Inc",        
         "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "BTA",
@@ -5975,17 +5958,8 @@
     },
     {
         "Symbol": "BTGO",
-        "Name": "BitGo Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "BitGo Holdings Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "BTI",
@@ -6178,10 +6152,10 @@
     },
     {
         "Symbol": "BUR",
-        "Name": "Burford Capital Limited Ordinary Shares",
-        "ownEtrade": true,
+        "Name": "Burford Capital Limited",        
         "Security Name": "Burford Capital Limited Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BURBY",
@@ -6398,10 +6372,10 @@
     },
     {
         "Symbol": "BXSL",
-        "Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",
-        "ownEtrade": true,
+        "Name": "Blackstone Secured Lending Fund",        
         "Security Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BY",
@@ -6704,17 +6678,8 @@
     },
     {
         "Symbol": "CAST",
-        "Name": "Freecast Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Freecast Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "CASY",
@@ -6767,17 +6732,8 @@
     },
     {
         "Symbol": "CBC",
-        "Name": "Central Bancompany Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Central Bancompany Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "CBFV",
@@ -7087,17 +7043,8 @@
     },
     {
         "Symbol": "CDNL",
-        "Name": "Cardinal Infrastructure Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Cardinal Infrastructure Group Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "CDP",
@@ -9737,10 +9684,10 @@
     },
     {
         "Symbol": "CX",
-        "Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
-        "ownWebull": true,
+        "Name": "Cemex, S.A.B. de C.V. Sponsored ADR",        
         "Security Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CXE",
@@ -9921,10 +9868,10 @@
     },
     {
         "Symbol": "DB",
-        "Name": "Deutsche Bank AG Common Stock",
-        "ownWebull": true,
+        "Name": "Deutsche Bank AG",        
         "Security Name": "Deutsche Bank AG Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DBA",
@@ -10208,10 +10155,10 @@
     },
     {
         "Symbol": "DE",
-        "Name": "Deere & Company Common Stock",
-        "ownWebull": true,
+        "Name": "Deere & Company",        
         "Security Name": "Deere & Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DEA",
@@ -10266,12 +10213,8 @@
         "Symbol": "DECZ",
         "Name": "TrueShares Structured Outcome (December) ETF",
         "Security Name": "TrueShares Structured Outcome (December) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "DECZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "DECZ"
+        "Exchange": "Z",        
+        "ETF": "Y"        
     },
     {
         "Symbol": "DEED",
@@ -10330,10 +10273,10 @@
     },
     {
         "Symbol": "DEO",
-        "Name": "Diageo plc Common Stock",
-        "ownWebull": true,
+        "Name": "Diageo plc",        
         "Security Name": "Diageo plc Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DES",
@@ -10608,10 +10551,10 @@
     },
     {
         "Symbol": "DG",
-        "Name": "Dollar General Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Dollar General Corporation",        
         "Security Name": "Dollar General Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DGICA",
@@ -10637,10 +10580,10 @@
     },
     {
         "Symbol": "DGRO",
-        "Name": "iShares Core Dividend Growth ETF",
-        "ownRobinhood": true,
+        "Name": "iShares Core Dividend Growth ETF",        
         "Security Name": "iShares Core Dividend Growth ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownRobinhood": true
     },
     {
         "Symbol": "DGS",
@@ -10729,10 +10672,10 @@
     },
     {
         "Symbol": "DIA",
-        "Name": "SPDR Dow Jones Industrial Average ETF",
-        "ownWebull": true,
+        "Name": "SPDR Dow Jones Industrial Average ETF",        
         "Security Name": "SPDR Dow Jones Industrial Average ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "DIAL",
@@ -10802,10 +10745,10 @@
     },
     {
         "Symbol": "DIS",
-        "Name": "Walt Disney Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Walt Disney Company (The) Common Stock",        
         "Security Name": "Walt Disney Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DISO",
@@ -43931,17 +43874,8 @@
     },
     {
         "Symbol": "VHCPU",
-        "Name": "Vine Hill Capital Investment II Units",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Vine Hill Capital Investment II Units",        
+        "dividend": true        
     },
     {
         "Symbol": "VHI",
@@ -46965,8 +46899,7 @@
     {
         "Symbol": "ZION",
         "Name": "Zions Bancorporation NA",
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "ZIP",
