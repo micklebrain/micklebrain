@@ -33417,10 +33417,10 @@
     },
     {
         "Symbol": "PRGO",
-        "Name": "Perrigo Company plc Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Perrigo Company plc",        
         "Security Name": "Perrigo Company plc Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PRH",
@@ -33547,6 +33547,7 @@
     },
     {
         "Symbol": "PRTA",
+        "Name": "Prothena Corporation PLC",
         "ownWebull": true
     },
     {
@@ -33580,10 +33581,10 @@
     },
     {
         "Symbol": "PSA",
-        "Name": "Public Storage Common Stock",
-        "ownWebull": true,
+        "Name": "Public Storage",        
         "Security Name": "Public Storage Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PSA-F",
@@ -35846,17 +35847,8 @@
     },
     {
         "Symbol": "ROC",
-        "Name": "Rank One Computing Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Rank One Computing Corp",        
+        "dividend": true        
     },
     {
         "Symbol": "RODM",
@@ -36788,10 +36780,10 @@
     },
     {
         "Symbol": "SBH",
-        "Name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock",
-        "ownWebull": true,
+        "Name": "Sally Beauty Holdings, Inc.",
         "Security Name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SBI",
@@ -37034,10 +37026,10 @@
     },
     {
         "Symbol": "SCHH",
-        "Name": "Schwab U.S. REIT ETF",
-        "ownRobinhood": true,
+        "Name": "Schwab U.S. REIT ETF",        
         "Security Name": "Schwab U.S. REIT ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownRobinhood": true
     },
     {
         "Symbol": "SCHI",
@@ -37156,10 +37148,10 @@
     },
     {
         "Symbol": "SCL",
-        "Name": "STEPAN CO COM",
-        "ownEtrade": true,
+        "Name": "STEPAN CO COM",        
         "Security Name": "Stepan Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "SCLZ",
@@ -37338,10 +37330,10 @@
     },
     {
         "Symbol": "SEB",
-        "Name": "Seaboard Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Seaboard Corporation",
         "Security Name": "Seaboard Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SECR",
