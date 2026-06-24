@@ -35151,17 +35151,17 @@
     },
     {
         "Symbol": "REZI",
-        "Name": "Resideo Technologies, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Resideo Technologies, Inc.",        
         "Security Name": "Resideo Technologies, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RF",
-        "Name": "Regions Financial Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Regions Financial Corporation",        
         "Security Name": "Regions Financial Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "RF-C",
@@ -35280,20 +35280,12 @@
     },
     {
         "Symbol": "RGNT",
-        "Name": "Regentis Biomaterials Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Regentis Biomaterials Ltd",        
+        "dividend": true        
     },
     {
         "Symbol": "RGP",
+        "Name": "Resources Connection Inc",
         "ownWebull": true
     },
     {
