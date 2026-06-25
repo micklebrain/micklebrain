@@ -3385,10 +3385,11 @@
     },
     {
         "Symbol": "BA",
-        "Name": "Boeing Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Boeing Company (The)",
         "Security Name": "Boeing Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "BA-A",
@@ -3417,7 +3418,7 @@
     },
     {
         "Symbol": "BAC",
-        "Name": "Bank of America Corporation Common Stock",
+        "Name": "Bank of America Corporation",
         "Security Name": "Bank of America Corporation Common Stock",
         "ETF": "N",
         "ownEtrade": true
