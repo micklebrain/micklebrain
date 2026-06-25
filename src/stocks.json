@@ -15774,12 +15774,7 @@
         "Symbol": "FLYX.W",
         "Name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share",
         "Security Name": "flyExclusive, Inc. Redeemable warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share",
-        "Exchange": "A",
-        "CQS Symbol": "FLYX.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "FLYX+"
+        "Exchange": "A"
     },
     {
         "Symbol": "FMAG",
@@ -15877,10 +15872,10 @@
     },
     {
         "Symbol": "FMS",
-        "Name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
-        "ownEtrade": true,
+        "Name": "Fresenius Medical Care AG",        
         "Security Name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "FMST",
@@ -16207,17 +16202,8 @@
     },
     {
         "Symbol": "FPS",
-        "Name": "Forgent Power Solutions, Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Forgent Power Solutions, Inc",        
+        "dividend": true
     },
     {
         "Symbol": "FPWR",
@@ -16256,6 +16242,7 @@
     },
     {
         "Symbol": "FRBA",
+        "Name": "FIRST BANK (Hamilton)",
         "ownWebull": true
     },
     {
@@ -37571,13 +37558,8 @@
     {
         "Symbol": "SEPZ",
         "Name": "TrueShares Structured Outcome (September) ETF",
-        "Security Name": "TrueShares Structured Outcome (September) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "SEPZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "SEPZ"
+        "Security Name": "TrueShares Structured Outcome (September) ETF",        
+        "ETF": "Y"        
     },
     {
         "Symbol": "SER",
