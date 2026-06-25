@@ -2769,7 +2769,7 @@
     },
     {
         "Symbol": "ATHM",
-        "Name": "Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",
+        "Name": "Autohome Inc.",
         "Security Name": "Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",
         "ETF": "N",
         "ownWebull": true
@@ -2788,7 +2788,7 @@
     },
     {
         "Symbol": "ATKR",
-        "Name": "Atkore Inc. Common Stock",
+        "Name": "Atkore Inc.",
         "Security Name": "Atkore Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -2918,12 +2918,8 @@
         "Symbol": "AUGZ",
         "Name": "TrueShares Structured Outcome (August) ETF",
         "Security Name": "TrueShares Structured Outcome (August) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "AUGZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "AUGZ"
+        "Exchange": "Z",        
+        "ETF": "Y"
     },
     {
         "Symbol": "AUNA",
@@ -2951,7 +2947,7 @@
     },
     {
         "Symbol": "AUST",
-        "Name": "Austin Gold Corp. Common Shares",
+        "Name": "Austin Gold Corp.",
         "Security Name": "Austin Gold Corp. Common Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -2964,10 +2960,10 @@
     },
     {
         "Symbol": "AVAL",
-        "Name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
-        "ownWebull": true,
+        "Name": "Grupo Aval Acciones y Valores S.A. ADR",
         "Security Name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AVB",
@@ -3202,10 +3198,10 @@
     },
     {
         "Symbol": "AVY",
-        "Name": "Avery Dennison Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Avery Dennison Corporation",        
         "Security Name": "Avery Dennison Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "AWAY",
@@ -31565,7 +31561,7 @@
     },
     {
         "Symbol": "PAGS",
-        "Name": "PagSeguro Digital Ltd. Class A Common Shares",
+        "Name": "PagSeguro Digital Ltd.",
         "Security Name": "PagSeguro Digital Ltd. Class A Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -31591,23 +31587,13 @@
         "Symbol": "PAII.U",
         "Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one",
         "Security Name": "Pyrophyte Acquisition Corp. II Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",
-        "Exchange": "N",
-        "CQS Symbol": "PAII.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "PAII="
+        "Exchange": "N"
     },
     {
         "Symbol": "PAII.W",
         "Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
         "Security Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
-        "Exchange": "N",
-        "CQS Symbol": "PAII.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "PAII+"
+        "Exchange": "N"        
     },
     {
         "Symbol": "PALC",
