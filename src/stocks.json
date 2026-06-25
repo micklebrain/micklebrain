@@ -11830,10 +11830,10 @@
     },
     {
         "Symbol": "E",
-        "Name": "ENI S.p.A. Common Stock",
-        "ownEtrade": true,
+        "Name": "ENI S.p.A.",        
         "Security Name": "ENI S.p.A. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "EA",
@@ -12498,10 +12498,10 @@
     },
     {
         "Symbol": "EGO",
-        "Name": "Eldorado Gold Corporation Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Eldorado Gold Corporation",
         "Security Name": "Eldorado Gold Corporation Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "EGP",
@@ -13128,14 +13128,9 @@
     },
     {
         "Symbol": "EONR.W",
-        "Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
+        "Name": "EON Resources Inc. Warrants",
         "Security Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
-        "Exchange": "A",
-        "CQS Symbol": "EONR.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "EONR+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "EOS",
@@ -38363,12 +38358,7 @@
         "Symbol": "SLND.W",
         "Name": "Southland Holdings, Inc. Warrants",
         "Security Name": "Southland Holdings, Inc. Warrants",
-        "Exchange": "A",
-        "CQS Symbol": "SLND.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "SLND+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "SLNZ",
@@ -38576,17 +38566,8 @@
     },
     {
         "Symbol": "SMJF",
-        "Name": "SMJ International Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "SMJ International Holdings Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "SMLF",
@@ -38964,12 +38945,7 @@
         "Symbol": "SOUL.R",
         "Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one",
         "Security Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one-tenth (1/10) of one Class A Ordinary Share",
-        "Exchange": "N",
-        "CQS Symbol": "SOULr",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "SOUL^"
+        "Exchange": "N"        
     },
     {
         "Symbol": "SOUL.U",
@@ -39739,6 +39715,7 @@
     {
         "Symbol": "SSDOY",
         "Name": "Shiseido",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -41751,7 +41728,7 @@
     },
     {
         "Symbol": "TOST",
-        "Name": "Toast, Inc. Class A Common Stock",
+        "Name": "Toast, Inc.",
         "Security Name": "Toast, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41809,7 +41786,7 @@
     },
     {
         "Symbol": "TPB",
-        "Name": "Turning Point Brands, Inc. Common Stock",
+        "Name": "Turning Point Brands, Inc.",
         "Security Name": "Turning Point Brands, Inc. Common Stock",
         "ETF": "N"
     },
@@ -41881,7 +41858,7 @@
     },
     {
         "Symbol": "TPR",
-        "Name": "Tapestry, Inc. Common Stock",
+        "Name": "Tapestry, Inc.",
         "Security Name": "Tapestry, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41900,7 +41877,7 @@
     },
     {
         "Symbol": "TPVG",
-        "Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
+        "Name": "TriplePoint Venture Growth BDC Corp.",
         "Security Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42263,10 +42240,11 @@
     },
     {
         "Symbol": "TSM",
-        "Name": "Taiwan Semiconductor Manufacturing Company Ltd.",
-        "ownWebull": true,
+        "Name": "Taiwan Semiconductor Manufacturing Company Ltd.",        
         "Security Name": "Taiwan Semiconductor Manufacturing Company Ltd.",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "Taiwan",
+        "ownWebull": true
     },
     {
         "Symbol": "TSME",
