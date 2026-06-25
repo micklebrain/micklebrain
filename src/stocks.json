@@ -3666,9 +3666,9 @@
     {
         "Symbol": "BBAR",
         "Name": "Banco BBVA Argentina S.A. ADS",
-        "ownEtrade": true,
         "Security Name": "Banco BBVA Argentina S.A. ADS",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BBAX",
@@ -3850,10 +3850,10 @@
     },
     {
         "Symbol": "BBVA",
-        "Name": "Banco Bilbao Vizcaya Argentaria S.A. Common Stock",
-        "ownWebull": true,
+        "Name": "Banco Bilbao Vizcaya Argentaria S.A.",        
         "Security Name": "Banco Bilbao Vizcaya Argentaria S.A. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BBW",
@@ -3936,17 +3936,17 @@
     },
     {
         "Symbol": "BCE",
-        "Name": "BCE, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "BCE, Inc.",
         "Security Name": "BCE, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BCH",
         "Name": "Banco De Chile ADS",
-        "ownWebull": true,
         "Security Name": "Banco De Chile ADS",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BCHI",
@@ -4003,17 +4003,17 @@
     },
     {
         "Symbol": "BCS",
-        "Name": "Barclays PLC Common Stock",
-        "ownWebull": true,
+        "Name": "Barclays PLC",
         "Security Name": "Barclays PLC Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BCSF",
-        "Name": "Bain Capital Specialty Finance, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Bain Capital Specialty Finance, Inc.",
         "Security Name": "Bain Capital Specialty Finance, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BCUS",
@@ -4860,10 +4860,10 @@
     },
     {
         "Symbol": "BKE",
-        "Name": "Buckle, Inc. (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Buckle, Inc. (The)",        
         "Security Name": "Buckle, Inc. (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BKEM",
@@ -5084,14 +5084,15 @@
     },
     {
         "Symbol": "BLRX",
+        "Name": "BioLine RX Ltd - ADR",
         "ownWebull": true
     },
     {
         "Symbol": "BLSH",
-        "Name": "Bullish Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Bullish",        
         "Security Name": "Bullish Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BLST",
@@ -5191,10 +5192,10 @@
     },
     {
         "Symbol": "BMI",
-        "Name": "Badger Meter, Inc. Common Stock",
-        "ownChase": true,
+        "Name": "Badger Meter, Inc.",
         "Security Name": "Badger Meter, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownChase": true
     },
     {
         "Symbol": "BML-G",
