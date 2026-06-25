@@ -19375,6 +19375,8 @@
     },
     {
         "Symbol": "HESAY",
+        "Name": "Hermes Intl S A Unsponsored France ADR",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -37720,10 +37722,11 @@
     },
     {
         "Symbol": "SG",
-        "Name": "Sweetgreen, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Sweetgreen, Inc.",
         "Security Name": "Sweetgreen, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "SGA",
@@ -37865,10 +37868,10 @@
     },
     {
         "Symbol": "SHEL",
-        "Name": "Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares)",
-        "ownWebull": true,
+        "Name": "Shell PLC",
         "Security Name": "Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SHEN",
@@ -38006,10 +38009,10 @@
     },
     {
         "Symbol": "SID",
-        "Name": "Companhia Siderurgica Nacional S.A. Common Stock",
-        "ownWebull": true,
+        "Name": "Companhia Siderurgica Nacional S.A.",
         "Security Name": "Companhia Siderurgica Nacional S.A. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SIF",
