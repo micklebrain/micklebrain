@@ -5622,7 +5622,8 @@
     },
     {
         "Symbol": "BRBI",
-        "Name": "BRBI BR Partners S A American Depository Shares",
+        "Name": "BRBI BR Partners S A",
+        "Country": "Brazil",
         "ownEtrade": true,
         "dividend": true
     },
@@ -5665,10 +5666,10 @@
     },
     {
         "Symbol": "BRIA",
-        "Name": "BrilliA Inc Class A Ordinary Shares",
-        "ownWebull": true,
+        "Name": "BrilliA Inc",
         "Security Name": "BrilliA Inc Class A Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BRIF",
@@ -5700,7 +5701,7 @@
     },
     {
         "Symbol": "BRK.B",
-        "Name": "Berkshire Hathaway Inc. New Common Stock",
+        "Name": "Berkshire Hathaway Inc.",
         "Security Name": "Berkshire Hathaway Inc. New Common Stock",
         "Exchange": "N"
     },
@@ -5729,17 +5730,8 @@
     },
     {
         "Symbol": "BRLS",
-        "Name": "Borealis Foods Inc (Oakville)",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Borealis Foods Inc (Oakville)",        
+        "dividend": true        
     },
     {
         "Symbol": "BRLT",
@@ -6475,7 +6467,7 @@
     },
     {
         "Symbol": "CAAP",
-        "Name": "Corporacion America Airports SA Common Shares",
+        "Name": "Corporacion America Airports SA",
         "Security Name": "Corporacion America Airports SA Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -6495,16 +6487,7 @@
     {
         "Symbol": "CABR",
         "Name": "Caring Brands Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "CAC",
@@ -6513,17 +6496,8 @@
     },
     {
         "Symbol": "CACC",
-        "Name": "Credit Acceptance Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Credit Acceptance Corp",        
+        "dividend": true        
     },
     {
         "Symbol": "CACI",
@@ -6564,7 +6538,7 @@
     },
     {
         "Symbol": "CAG",
-        "Name": "ConAgra Brands, Inc. Common Stock",
+        "Name": "ConAgra Brands, Inc.",
         "Security Name": "ConAgra Brands, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6674,7 +6648,7 @@
     },
     {
         "Symbol": "CARS",
-        "Name": "Cars.com Inc. Common Stock",
+        "Name": "Cars.com Inc.",
         "Security Name": "Cars.com Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6708,12 +6682,12 @@
     },
     {
         "Symbol": "CASY",
-        "Name": "Caseys",
+        "Name": "Caseys General Stores Inc",
         "ownWebull": true
     },
     {
         "Symbol": "CAT",
-        "Name": "Caterpillar, Inc. Common Stock",
+        "Name": "Caterpillar, Inc.",
         "Security Name": "Caterpillar, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6972,7 +6946,7 @@
     },
     {
         "Symbol": "CCL",
-        "Name": "Carnival Corporation Common Stock",
+        "Name": "Carnival Corporation",
         "Security Name": "Carnival Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7030,10 +7004,10 @@
     },
     {
         "Symbol": "CCU",
-        "Name": "Compania Cervecerias Unidas, S.A. Common Stock",
-        "ownWebull": true,
+        "Name": "Compania Cervecerias Unidas, S.A.",        
         "Security Name": "Compania Cervecerias Unidas, S.A. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CCUP",
@@ -38671,10 +38645,10 @@
     },
     {
         "Symbol": "SO",
-        "Name": "Southern Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Southern Company (The)",        
         "Security Name": "Southern Company (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SOAR",
