@@ -5421,10 +5421,10 @@
     },
     {
         "Symbol": "BOH",
-        "Name": "Bank of Hawaii Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Bank of Hawaii Corporation",        
         "Security Name": "Bank of Hawaii Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BOH-A",
@@ -5463,10 +5463,10 @@
     },
     {
         "Symbol": "BORR",
-        "Name": "Borr Drilling Limited Common Shares",
-        "ownWebull": true,
+        "Name": "Borr Drilling Limited",
         "Security Name": "Borr Drilling Limited Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BOSC",
@@ -5517,10 +5517,10 @@
     },
     {
         "Symbol": "BP",
-        "Name": "BP p.l.c. Common Stock",
-        "ownWebull": true,
+        "Name": "BP p.l.c.",
         "Security Name": "BP p.l.c. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "BPAY",
@@ -5607,10 +5607,10 @@
     },
     {
         "Symbol": "BRBS",
-        "Name": "Blue Ridge Bankshares, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Blue Ridge Bankshares, Inc.",        
         "Security Name": "Blue Ridge Bankshares, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BRC",
@@ -5652,10 +5652,10 @@
     {
         "Symbol": "BRK-A",
         "Name": "Berkshire Hathaway Inc Class A",
-        "ownRobinhood": true,
         "Security Name": "Berkshire Hathaway Inc. Common Stock",
         "ETF": "N",
-        "dividend": true
+        "dividend": true,
+        "ownRobinhood": true
     },
     {
         "Symbol": "BRK-B",
@@ -5926,7 +5926,7 @@
     },
     {
         "Symbol": "BTG",
-        "Name": "B2Gold Corp Common shares (Canada)",
+        "Name": "B2Gold Corp (Canada)",
         "Security Name": "B2Gold Corp Common shares (Canada)",
         "ETF": "N",
         "ownWebull": true
