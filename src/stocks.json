@@ -43922,9 +43922,9 @@
     },
     {
         "Symbol": "VIV",
-        "Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
+        "Name": "Telefonica Brasil S.A.",
         "Security Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
-        "ETF": "N",
+        "Country": "Brazil",
         "ownEtrade": true
     },
     {
@@ -44070,7 +44070,7 @@
     },
     {
         "Symbol": "VNO",
-        "Name": "Vornado Realty Trust Common Stock",
+        "Name": "Vornado Realty Trust",
         "Security Name": "Vornado Realty Trust Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -44284,10 +44284,10 @@
     },
     {
         "Symbol": "VRT",
-        "Name": "Vertiv Holdings, LLC Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Vertiv Holdings, LLC",
         "Security Name": "Vertiv Holdings, LLC Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VRTS",
@@ -44360,7 +44360,7 @@
     },
     {
         "Symbol": "VST",
-        "Name": "Vistra Corp. Common Stock",
+        "Name": "Vistra Corp.",
         "Security Name": "Vistra Corp. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -44523,10 +44523,10 @@
     },
     {
         "Symbol": "VVV",
-        "Name": "Valvoline Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Valvoline Inc.",        
         "Security Name": "Valvoline Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "VVX",
