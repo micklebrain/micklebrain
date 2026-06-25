@@ -4600,7 +4600,7 @@
     },
     {
         "Symbol": "BILL",
-        "Name": "BILL Holdings, Inc. Common Stock",
+        "Name": "BILL Holdings, Inc.",
         "Security Name": "BILL Holdings, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4715,7 +4715,7 @@
     },
     {
         "Symbol": "BIRK",
-        "Name": "Birkenstock Holding plc Ordinary Shares",
+        "Name": "Birkenstock Holding plc",
         "Security Name": "Birkenstock Holding plc Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -8698,10 +8698,10 @@
     },
     {
         "Symbol": "CPNG",
-        "Name": "Coupang, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Coupang, Inc.",
         "Security Name": "Coupang, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CPNJ",
@@ -34865,10 +34865,10 @@
     },
     {
         "Symbol": "RCL",
-        "Name": "Royal Caribbean Cruises Ltd. Common Stock",
-        "ownWebull": true,
+        "Name": "Royal Caribbean Cruises Ltd.",
         "Security Name": "Royal Caribbean Cruises Ltd. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "RCS",
@@ -39337,10 +39337,10 @@
     },
     {
         "Symbol": "SQNS",
-        "Name": "Sequans Communications S.A. American Depositary Shares (each representing ten (10) Ordinary Shares)",
-        "ownWebull": true,
+        "Name": "Sequans Communications S.A.",        
         "Security Name": "Sequans Communications S.A. American Depositary Shares (each representing ten (10) Ordinary Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SR",
@@ -39588,7 +39588,7 @@
     },
     {
         "Symbol": "STAG",
-        "Name": "Stag Industrial, Inc. Common Stock",
+        "Name": "Stag Industrial, Inc.",
         "Security Name": "Stag Industrial, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -39682,7 +39682,7 @@
     },
     {
         "Symbol": "STLA",
-        "Name": "Stellantis N.V. Common Shares",
+        "Name": "Stellantis N.V.",
         "Security Name": "Stellantis N.V. Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -39740,17 +39740,8 @@
     },
     {
         "Symbol": "STRL",
-        "Name": "Sterling Infrastructure Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Sterling Infrastructure Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "STRN",
@@ -39919,10 +39910,10 @@
     },
     {
         "Symbol": "SUPV",
-        "Name": "Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares",
-        "ownEtrade": true,
+        "Name": "Grupo Supervielle S.A.",        
         "Security Name": "Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "SURE",
@@ -40255,7 +40246,7 @@
     },
     {
         "Symbol": "TAP",
-        "Name": "Molson Coors Beverage Company Class B Common Stock",
+        "Name": "Molson Coors Beverage Company",
         "Security Name": "Molson Coors Beverage Company Class B Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -40336,12 +40327,7 @@
         "Symbol": "TBI",
         "Name": "TrueBlue, Inc. Common Stock",
         "Security Name": "TrueBlue, Inc. Common Stock",
-        "Exchange": "N",
-        "CQS Symbol": "TBI",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "TBI"
+        "Exchange": "N"        
     },
     {
         "Symbol": "TBJL",
@@ -40472,10 +40458,10 @@
     },
     {
         "Symbol": "TDC",
-        "Name": "Teradata Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Teradata Corporation",
         "Security Name": "Teradata Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TDEC",
@@ -40491,17 +40477,17 @@
     },
     {
         "Symbol": "TDG",
-        "Name": "Transdigm Group Incorporated Common Stock",
-        "ownWebull": true,
+        "Name": "Transdigm Group Incorporated",        
         "Security Name": "Transdigm Group Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TDOC",
-        "Name": "Teladoc Health, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Teladoc Health, Inc.",
         "Security Name": "Teladoc Health, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TDS",
@@ -45366,7 +45352,7 @@
     },
     {
         "Symbol": "WTI",
-        "Name": "W&T Offshore, Inc. Common Stock",
+        "Name": "W&T Offshore, Inc.",
         "Security Name": "W&T Offshore, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
