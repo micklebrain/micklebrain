@@ -23805,12 +23805,8 @@
         "Symbol": "JULZ",
         "Name": "TrueShares Structured Outcome (July) ETF",
         "Security Name": "TrueShares Structured Outcome (July) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "JULZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "JULZ"
+        "Exchange": "Z",        
+        "ETF": "Y"
     },
     {
         "Symbol": "JUNM",
@@ -23840,12 +23836,9 @@
         "Symbol": "JUNZ",
         "Name": "TrueShares Structured Outcome (June) ETF",
         "Security Name": "TrueShares Structured Outcome (June) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "JUNZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "JUNZ"
+        "Exchange": "Z",        
+        "ETF": "Y"
+
     },
     {
         "Symbol": "JUSA",
