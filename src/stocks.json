@@ -172,8 +172,7 @@
         "Name": "Advance Auto Parts Inc.",
         "Country": "USA",
         "Security Name": "Advance Auto Parts Inc.",
-        "ownWebull": true,
-        "ETF": "N"
+        "ownWebull": true        
     },
     {
         "Symbol": "AAPL",
@@ -6146,7 +6145,7 @@
     },
     {
         "Symbol": "BULL",
-        "Name": "Webull",
+        "Name": "Webull Corp",
         "Country": "USA",
         "ownWebull": true
     },
@@ -20212,23 +20211,13 @@
         "Symbol": "HYAC.U",
         "Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one",
         "Security Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one-half of one redeemable Warrant",
-        "Exchange": "N",
-        "CQS Symbol": "HYAC.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "HYAC="
+        "Exchange": "N"        
     },
     {
         "Symbol": "HYAC.W",
         "Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
         "Security Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "Exchange": "N",
-        "CQS Symbol": "HYAC.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "HYAC+"
+        "Exchange": "N"        
     },
     {
         "Symbol": "HYBB",
@@ -21214,6 +21203,7 @@
     },
     {
         "Symbol": "IGIC",
+        "Name": "International General Insuranc Hldgs Ltd",
         "ownWebull": true
     },
     {
@@ -21308,10 +21298,10 @@
     },
     {
         "Symbol": "IHG",
-        "Name": "Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)",
-        "ownWebull": true,
+        "Name": "Intercontinental Hotels Group",
         "Security Name": "Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "IHI",
@@ -21321,10 +21311,10 @@
     },
     {
         "Symbol": "IHS",
-        "Name": "IHS Holding Limited Ordinary Shares",
-        "ownWebull": true,
+        "Name": "IHS Holding Limited",        
         "Security Name": "IHS Holding Limited Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "IHT",
