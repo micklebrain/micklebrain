@@ -77,13 +77,6 @@
         "ownInteractiveBrokers": true
     },
     {
-        "Symbol": "88636X401",
-        "Name": "YieldMax ABNB Option Income Strategy ETF",
-        "Security Name": "Tidal Trust II YieldMax ABNB Option Income Strategy ETF",
-        "ETF": "Y",
-        "ownEtrade": true
-    },
-    {
         "Symbol": "9432",
         "Name": "NTT,INC",
         "Country": "Japan",
@@ -5778,6 +5771,7 @@
         "Name": "Brightstar Lottery PLC",
         "Security Name": "Brightstar Lottery PLC",
         "ETF": "N",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -5789,7 +5783,7 @@
     },
     {
         "Symbol": "BRT",
-        "Name": "BRT Apartments Corp. (MD) Common Stock",
+        "Name": "BRT Apartments Corp. (MD)",
         "Security Name": "BRT Apartments Corp. (MD) Common Stock",
         "ETF": "N"
     },
@@ -6153,6 +6147,7 @@
     {
         "Symbol": "BULL",
         "Name": "Webull",
+        "Country": "USA",
         "ownWebull": true
     },
     {
