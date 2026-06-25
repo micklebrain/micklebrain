@@ -24630,10 +24630,10 @@
     },
     {
         "Symbol": "KRMN",
-        "Name": "Karman Holdings Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Karman Holdings Inc.",
         "Security Name": "Karman Holdings Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "KRNY",
@@ -24700,10 +24700,10 @@
     },
     {
         "Symbol": "KT",
-        "Name": "KT Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "KT Corporation",
         "Security Name": "KT Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "KTB",
@@ -24832,9 +24832,9 @@
     {
         "Symbol": "LABU",
         "Name": "Direxion Daily S&P Biotech Bull 3X Shares",
-        "ownWebull": true,
         "Security Name": "Direxion Daily S&P Biotech Bull 3X Shares",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "LABX",
@@ -25058,10 +25058,10 @@
     },
     {
         "Symbol": "LDOS",
-        "Name": "Leidos Holdings, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Leidos Holdings, Inc.",        
         "Security Name": "Leidos Holdings, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "LDP",
@@ -25101,10 +25101,10 @@
     },
     {
         "Symbol": "LEA",
-        "Name": "Lear Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Lear Corporation",
         "Security Name": "Lear Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LEAD",
@@ -25293,10 +25293,10 @@
     },
     {
         "Symbol": "LFT",
-        "Name": "Lument Finance Trust, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Lument Finance Trust, Inc.",
         "Security Name": "Lument Finance Trust, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LFT-A",
@@ -25478,17 +25478,8 @@
     },
     {
         "Symbol": "LIFE",
-        "Name": "Ethos Technologies Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Ethos Technologies Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "LII",
@@ -25627,10 +25618,10 @@
     },
     {
         "Symbol": "LMND",
-        "Name": "Lemonade, Inc. Common Stock",
-        "ownRobinhood": true,
+        "Name": "Lemonade, Inc.",
         "Security Name": "Lemonade, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownRobinhood": true
     },
     {
         "Symbol": "LMND.W",
