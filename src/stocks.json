@@ -33068,10 +33068,10 @@
     },
     {
         "Symbol": "PNC",
-        "Name": "PNC Financial Services Group, Inc. (The) Common Stock",
-        "ownWebull": true,
+        "Name": "PNC Financial Services Group, Inc. (The)",        
         "Security Name": "PNC Financial Services Group, Inc. (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PNFP",
@@ -33888,10 +33888,10 @@
     },
     {
         "Symbol": "PUK",
-        "Name": "Prudential Public Limited Company Common Stock",
-        "ownEtrade": true,
+        "Name": "Prudential Public Limited Company",
         "Security Name": "Prudential Public Limited Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "PULS",
@@ -33938,19 +33938,15 @@
         "Symbol": "PVEX",
         "Name": "Elevation Series Trust TrueShares ConVex Protect ETF",
         "Security Name": "Elevation Series Trust TrueShares ConVex Protect ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "PVEX",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "PVEX"
+        "Exchange": "Z",        
+        "ETF": "Y"        
     },
     {
         "Symbol": "PVH",
-        "Name": "PVH Corp. Common Stock",
-        "ownWebull": true,
+        "Name": "PVH Corp.",        
         "Security Name": "PVH Corp. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PVI",
@@ -34101,7 +34097,7 @@
     },
     {
         "Symbol": "PZZA",
-        "Name": "Papa Johns Intl Inc",
+        "Name": "Papa John's International Inc",
         "Country": "USA",
         "ownWebull": true
     },
@@ -34127,11 +34123,7 @@
         "Name": "Elevation Series Trust TrueShares Quarterly Bear Hedge ETF",
         "Security Name": "Elevation Series Trust TrueShares Quarterly Bear Hedge ETF",
         "Exchange": "Z",
-        "CQS Symbol": "QBER",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "QBER"
+        "ETF": "Y"        
     },
     {
         "Symbol": "QBF",
@@ -34147,10 +34139,10 @@
     },
     {
         "Symbol": "QBTS",
-        "Name": "D",
-        "ownWebull": true,
+        "Name": "D-Wave Quantum Inc",        
         "Security Name": "D-Wave Quantum Inc. Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "QBTS.W",
@@ -34165,13 +34157,8 @@
     {
         "Symbol": "QBUL",
         "Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",
-        "Security Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "QBUL",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "QBUL"
+        "Security Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",        
+        "ETF": "Y"        
     },
     {
         "Symbol": "QCAP",
