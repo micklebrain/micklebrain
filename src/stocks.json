@@ -5607,38 +5607,20 @@
     },
     {
         "Symbol": "BR",
-        "Name": "Broadridge Financial Solutions, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Broadridge Financial Solutions, Inc.",
         "Security Name": "Broadridge Financial Solutions, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "BRAG",
-        "Name": "Bragg Gaming Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Bragg Gaming Group Inc",        
+        "dividend": true
     },
     {
         "Symbol": "BRAI",
-        "Name": "Braiin Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Braiin Ltd",        
+        "dividend": true        
     },
     {
         "Symbol": "BRAZ",
@@ -5793,8 +5775,8 @@
     },
     {
         "Symbol": "BRSL",
-        "Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
-        "Security Name": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",
+        "Name": "Brightstar Lottery PLC",
+        "Security Name": "Brightstar Lottery PLC",
         "ETF": "N",
         "ownWebull": true
     },
@@ -5838,9 +5820,10 @@
     },
     {
         "Symbol": "BSBR",
-        "Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
+        "Name": "Banco Santander Brasil SA",
         "Security Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "ETF": "N",
+        "Country": "Brazil",
         "ownEtrade": true
     },
     {
@@ -5986,7 +5969,7 @@
     },
     {
         "Symbol": "BTE",
-        "Name": "Baytex Energy Corp Common Shares",
+        "Name": "Baytex Energy Corp",
         "Security Name": "Baytex Energy Corp Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -5996,6 +5979,7 @@
         "Name": "B2Gold Corp (Canada)",
         "Security Name": "B2Gold Corp Common shares (Canada)",
         "ETF": "N",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -6073,17 +6057,8 @@
     },
     {
         "Symbol": "BUDA",
-        "Name": "Buda Juice Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Buda Juice Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "BUFB",
@@ -43016,10 +42991,11 @@
     },
     {
         "Symbol": "UPS",
-        "Name": "United Parcel Service, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "United Parcel Service, Inc.",
         "Security Name": "United Parcel Service, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "UPSD",
