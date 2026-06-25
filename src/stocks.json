@@ -41162,7 +41162,7 @@
     },
     {
         "Symbol": "TKC",
-        "Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
+        "Name": "Turkcell Iletisim Hizmetleri AS",
         "Security Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -41199,10 +41199,10 @@
     },
     {
         "Symbol": "TLK",
-        "Name": "PT Telekomunikasi Indonesia, Tbk",
-        "ownWebull": true,
+        "Name": "PT Telekomunikasi Indonesia, Tbk",        
         "Security Name": "PT Telekomunikasi Indonesia, Tbk",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TLN",
@@ -41258,10 +41258,11 @@
     },
     {
         "Symbol": "TM",
-        "Name": "Toyota Motor Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Toyota Motor Corporation",        
         "Security Name": "Toyota Motor Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "Japan",
+        "ownWebull": true
     },
     {
         "Symbol": "TMAR",
@@ -41350,7 +41351,7 @@
     },
     {
         "Symbol": "TMO",
-        "Name": "Thermo Fisher Scientific Inc Common Stock",
+        "Name": "Thermo Fisher Scientific Inc",
         "Security Name": "Thermo Fisher Scientific Inc Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -41484,7 +41485,7 @@
     },
     {
         "Symbol": "TOPS",
-        "Name": "TOP Ships, Inc. Common Stock",
+        "Name": "TOP Ships, Inc.",
         "Security Name": "TOP Ships, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
