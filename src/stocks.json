@@ -24075,10 +24075,11 @@
     },
     {
         "Symbol": "KEP",
-        "Name": "Korea Electric Power Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Korea Electric Power Corporation",        
         "Security Name": "Korea Electric Power Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "South Korea",
+        "ownWebull": true
     },
     {
         "Symbol": "KEUA",
