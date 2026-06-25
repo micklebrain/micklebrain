@@ -522,7 +522,7 @@
     },
     {
         "Symbol": "ACRE",
-        "Name": "Ares Commercial Real Estate Corporation Common Stock",
+        "Name": "Ares Commercial Real Estate Corporation",
         "Security Name": "Ares Commercial Real Estate Corporation Common Stock",
         "ETF": "N",
         "dividend": true
@@ -1186,10 +1186,10 @@
     },
     {
         "Symbol": "AI",
-        "Name": "C3.ai, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "C3.ai, Inc.",        
         "Security Name": "C3.ai, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "AIBD",
@@ -2238,10 +2238,10 @@
     },
     {
         "Symbol": "ARCO",
-        "Name": "Arcos Dorados Holdings Inc. Class A Shares",
-        "ownWebull": true,
+        "Name": "Arcos Dorados Holdings Inc.",
         "Security Name": "Arcos Dorados Holdings Inc. Class A Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ARCX",
@@ -2286,10 +2286,10 @@
     },
     {
         "Symbol": "ARES",
-        "Name": "Ares Management Corporation Class A Common Stock",
-        "ownEtrade": true,
+        "Name": "Ares Management Corporation",        
         "Security Name": "Ares Management Corporation Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "ARES.PR.B",
@@ -2356,10 +2356,10 @@
     },
     {
         "Symbol": "ARKK",
-        "Name": "ARK Innovation ETF",
-        "ownWebull": true,
+        "Name": "ARK Innovation ETF",        
         "Security Name": "ARK Innovation ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "ARKQ",
@@ -7598,10 +7598,10 @@
     },
     {
         "Symbol": "CHH",
-        "Name": "Choice Hotels International, Inc. Common Stock",
-        "ownEtrade": true,
+        "Name": "Choice Hotels International, Inc.",        
         "Security Name": "Choice Hotels International, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "CHIQ",
@@ -7821,7 +7821,7 @@
     },
     {
         "Symbol": "CINT",
-        "Name": "CI&T Inc Class A Common Shares",
+        "Name": "CI&T Inc",
         "Security Name": "CI&T Inc Class A Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -10679,7 +10679,7 @@
     },
     {
         "Symbol": "DHR",
-        "Name": "Danaher Corporation Common Stock",
+        "Name": "Danaher Corporation",
         "Security Name": "Danaher Corporation Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -28443,7 +28443,7 @@
     },
     {
         "Symbol": "MTUS",
-        "Name": "Metallus Inc. Common Shares",
+        "Name": "Metallus Inc.",
         "Security Name": "Metallus Inc. Common Shares",
         "ETF": "N"
     },
@@ -28455,10 +28455,10 @@
     },
     {
         "Symbol": "MTX",
-        "Name": "Minerals Technologies Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Minerals Technologies Inc.",        
         "Security Name": "Minerals Technologies Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MTZ",
@@ -30994,7 +30994,7 @@
     },
     {
         "Symbol": "OLN",
-        "Name": "Olin Corporation Common Stock",
+        "Name": "Olin Corporation",
         "Security Name": "Olin Corporation Common Stock",
         "ETF": "N"
     },
@@ -45198,7 +45198,7 @@
     },
     {
         "Symbol": "WIT",
-        "Name": "Wipro Limited Common Stock",
+        "Name": "Wipro Limited",
         "Security Name": "Wipro Limited Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -46231,10 +46231,10 @@
     },
     {
         "Symbol": "XOM",
-        "Name": "Exxon Mobil Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Exxon Mobil Corporation",
         "Security Name": "Exxon Mobil Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "XOMO",
