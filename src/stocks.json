@@ -42350,7 +42350,7 @@
     },
     {
         "Symbol": "TWLO",
-        "Name": "Twilio Inc. Class A Common Stock",
+        "Name": "Twilio Inc.",
         "Security Name": "Twilio Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42566,7 +42566,7 @@
     },
     {
         "Symbol": "UAVS",
-        "Name": "AgEagle Aerial Systems, Inc. Common Stock",
+        "Name": "AgEagle Aerial Systems, Inc.",
         "Security Name": "AgEagle Aerial Systems, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
