@@ -629,6 +629,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "ADI",
+        "Name": "Analog Devices Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ADIV",
         "Name": "SmartETFs Asia Pacific Dividend Builder ETF",
         "Security Name": "SmartETFs Asia Pacific Dividend Builder ETF",
@@ -16010,6 +16024,20 @@
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "Security Name": "FT Vest U.S. Equity Buffer ETF - November",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "FNUC",
+        "Name": "Frontier Nuclear and Minerals Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FNV",
