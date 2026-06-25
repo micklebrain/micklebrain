@@ -4467,7 +4467,7 @@
     },
     {
         "Symbol": "BH-A",
-        "Name": "Biglari Holdings Inc. Class A Common Stock",
+        "Name": "Biglari Holdings Inc.",
         "Security Name": "Biglari Holdings Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -4476,12 +4476,7 @@
         "Symbol": "BH.A",
         "Name": "Biglari Holdings Inc. Class A Common Stock",
         "Security Name": "Biglari Holdings Inc. Class A Common Stock",
-        "Exchange": "N",
-        "CQS Symbol": "BH.A",
-        "ETF": "N",
-        "Round Lot Size": "10",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "BH.A"
+        "Exchange": "N"        
     },
     {
         "Symbol": "BHB",
@@ -32407,10 +32402,10 @@
     },
     {
         "Symbol": "PGR",
-        "Name": "Progressive Corporation (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Progressive Corporation (The)",        
         "Security Name": "Progressive Corporation (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PGRE",
@@ -40316,10 +40311,10 @@
     },
     {
         "Symbol": "TBBB",
-        "Name": "BBB Foods Inc. Class A Common Shares",
-        "ownWebull": true,
+        "Name": "BBB Foods Inc.",        
         "Security Name": "BBB Foods Inc. Class A Common Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TBF",
@@ -46531,14 +46526,14 @@
     },
     {
         "Symbol": "YETI",
-        "Name": "YETI Holdings, Inc. Common Stock",
+        "Name": "YETI Holdings, Inc.",
         "Security Name": "YETI Holdings, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "YEXT",
-        "Name": "Yext, Inc. Common Stock",
+        "Name": "Yext, Inc.",
         "Security Name": "Yext, Inc. Common Stock",
         "ETF": "N",
         "Country": "USA",
