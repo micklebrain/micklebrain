@@ -23114,23 +23114,13 @@
         "Symbol": "JENA.R",
         "Name": "Jena Acquisition Corporation II Rights, each right to acquire one",
         "Security Name": "Jena Acquisition Corporation II Rights, each right to acquire one-twentieth (1/20) of one Class A ordinary share",
-        "Exchange": "N",
-        "CQS Symbol": "JENAr",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "JENA^"
+        "Exchange": "N"        
     },
     {
         "Symbol": "JENA.U",
         "Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
         "Security Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
-        "Exchange": "N",
-        "CQS Symbol": "JENA.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "JENA="
+        "Exchange": "N"        
     },
     {
         "Symbol": "JEPI",
