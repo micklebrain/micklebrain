@@ -379,7 +379,7 @@
     },
     {
         "Symbol": "ACCO",
-        "Name": "Acco Brands Corporation Common Stock",
+        "Name": "Acco Brands Corporation",
         "Security Name": "Acco Brands Corporation Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -1008,17 +1008,8 @@
     },
     {
         "Symbol": "AGMH",
-        "Name": "AGM Group Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "AGM Group Holdings Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "AGNC",
@@ -10054,6 +10045,12 @@
         "Symbol": "DCX",
         "Name": "Digital Currency X Technology Inc",
         "ownWebull": true
+    },
+    {
+        "Symbol": "DD",
+        "Name": "DuPont de Nemours Inc",
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "DDC",
@@ -22766,8 +22763,8 @@
     },
     {
         "Symbol": "JAGU",
-        "Name": "Jaguar Uranium Corp",        
-        "dividend": true        
+        "Name": "Jaguar Uranium Corp",
+        "dividend": true
     },
     {
         "Symbol": "JAJL",
@@ -22832,7 +22829,7 @@
         "Symbol": "JANZ",
         "Name": "TrueShares Structured Outcome (January) ETF",
         "Security Name": "TrueShares Structured Outcome (January) ETF",
-        "Exchange": "Z",        
+        "Exchange": "Z",
         "ETF": "Y"
     },
     {
@@ -32476,10 +32473,10 @@
     },
     {
         "Symbol": "PHG",
-        "Name": "Koninklijke Philips N.V. NY Registry Shares",
-        "ownWebull": true,
+        "Name": "Koninklijke Philips N.V. NY Registry Shares",        
         "Security Name": "Koninklijke Philips N.V. NY Registry Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PHGE",
@@ -32489,10 +32486,10 @@
     },
     {
         "Symbol": "PHI",
-        "Name": "PLDT Inc. Sponsored ADR",
-        "ownWebull": true,
+        "Name": "PLDT Inc.",        
         "Security Name": "PLDT Inc. Sponsored ADR",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PHIN",
@@ -32514,6 +32511,8 @@
     },
     {
         "Symbol": "PHOE",
+        "Name": "Phoenix Asia Holdings Ltd",
+        "Country": "Hong Kong",
         "ownEtrade": true
     },
     {
@@ -32613,10 +32612,10 @@
     },
     {
         "Symbol": "PINS",
-        "Name": "Pinterest, Inc. Class A Common Stock",
-        "ownEtrade": true,
+        "Name": "Pinterest, Inc.",
         "Security Name": "Pinterest, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "PIPE",
@@ -32756,10 +32755,10 @@
     },
     {
         "Symbol": "PL",
-        "Name": "Planet Labs PBC Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Planet Labs PBC",        
         "Security Name": "Planet Labs PBC Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PL.W",
@@ -32811,10 +32810,10 @@
     },
     {
         "Symbol": "PLNT",
-        "Name": "Planet Fitness, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Planet Fitness, Inc.",
         "Security Name": "Planet Fitness, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PLOO",
@@ -32846,9 +32845,9 @@
     {
         "Symbol": "PLTA",
         "Name": "ProShares Trust ProShares Ultra PLTR",
-        "ownWebull": true,
         "Security Name": "ProShares Trust ProShares Ultra PLTR",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "PLTK",
@@ -44297,14 +44296,14 @@
     },
     {
         "Symbol": "VRTX",
-        "Name": "Vertex Pharmaceuticals Inc",        
+        "Name": "Vertex Pharmaceuticals Inc",
         "dividend": true
     },
     {
         "Symbol": "VSCO",
         "Name": "Victorias Secret & Co. Common Stock",
         "Security Name": "Victorias Secret & Co. Common Stock",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "VSDB",
@@ -44523,7 +44522,7 @@
     },
     {
         "Symbol": "VVV",
-        "Name": "Valvoline Inc.",        
+        "Name": "Valvoline Inc.",
         "Security Name": "Valvoline Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
