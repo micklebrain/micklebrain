@@ -10083,7 +10083,7 @@
     },
     {
         "Symbol": "DDC",
-        "Name": "DDC Enterprise Limited Class A Ordinary Shares",
+        "Name": "DDC Enterprise Limited",
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -10187,7 +10187,7 @@
     },
     {
         "Symbol": "DECK",
-        "Name": "Deckers Outdoor Corporation Common Stock",
+        "Name": "Deckers Outdoor Corporation",
         "Security Name": "Deckers Outdoor Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -10273,10 +10273,10 @@
     },
     {
         "Symbol": "DELL",
-        "Name": "Dell Technologies Inc. Class C Common Stock",
-        "ownWebull": true,
+        "Name": "Dell Technologies Inc.",
         "Security Name": "Dell Technologies Inc. Class C Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DEM",
@@ -10612,10 +10612,10 @@
     },
     {
         "Symbol": "DGX",
-        "Name": "Quest Diagnostics Incorporated Common Stock",
-        "ownWebull": true,
+        "Name": "Quest Diagnostics Incorporated",        
         "Security Name": "Quest Diagnostics Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DGZ",
@@ -11099,23 +11099,13 @@
         "Symbol": "DMYY.U",
         "Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one",
         "Security Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one-half of one redeemable warrant",
-        "Exchange": "A",
-        "CQS Symbol": "DMYY.U",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "DMYY="
+        "Exchange": "A"        
     },
     {
         "Symbol": "DMYY.W",
         "Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
         "Security Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "Exchange": "A",
-        "CQS Symbol": "DMYY.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "DMYY+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "DNA",
@@ -38546,16 +38536,14 @@
     },
     {
         "Symbol": "SNA",
-        "Name": "Snap",
-        "Security Name": "Snap-On Incorporated Common Stock",
-        "ETF": "N",
+        "Name": "Snap-On Inc",
+        "Security Name": "Snap-On Incorporated Common Stock",        
         "ownWebull": true
     },
     {
         "Symbol": "SNAP",
-        "Name": "Snap Inc. Class A Common Stock",
-        "Security Name": "Snap Inc. Class A Common Stock",
-        "ETF": "N",
+        "Name": "Snap Inc.",
+        "Security Name": "Snap Inc. Class A Common Stock",        
         "ownEtrade": true
     },
     {
@@ -38606,10 +38594,10 @@
     },
     {
         "Symbol": "SNOW",
-        "Name": "Snowflake Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Snowflake Inc.",
         "Security Name": "Snowflake Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "SNOY",
