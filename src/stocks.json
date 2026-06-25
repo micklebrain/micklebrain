@@ -21793,10 +21793,10 @@
     },
     {
         "Symbol": "INVH",
-        "Name": "Invitation Homes Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Invitation Homes Inc.",
         "Security Name": "Invitation Homes Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "INVN",
@@ -21864,7 +21864,7 @@
     },
     {
         "Symbol": "IOT",
-        "Name": "Samsara Inc. Class A Common Stock",
+        "Name": "Samsara Inc.",
         "Security Name": "Samsara Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -22766,17 +22766,8 @@
     },
     {
         "Symbol": "JAGU",
-        "Name": "Jaguar Uranium Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Jaguar Uranium Corp",        
+        "dividend": true        
     },
     {
         "Symbol": "JAJL",
@@ -22841,12 +22832,8 @@
         "Symbol": "JANZ",
         "Name": "TrueShares Structured Outcome (January) ETF",
         "Security Name": "TrueShares Structured Outcome (January) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "JANZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "JANZ"
+        "Exchange": "Z",        
+        "ETF": "Y"
     },
     {
         "Symbol": "JAVA",
@@ -44310,28 +44297,14 @@
     },
     {
         "Symbol": "VRTX",
-        "Name": "Vertex Pharmaceuticals Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Vertex Pharmaceuticals Inc",        
+        "dividend": true
     },
     {
         "Symbol": "VSCO",
         "Name": "Victorias Secret & Co. Common Stock",
         "Security Name": "Victorias Secret & Co. Common Stock",
-        "Exchange": "N",
-        "CQS Symbol": "VSCO",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "VSCO"
+        "Exchange": "N"        
     },
     {
         "Symbol": "VSDB",
