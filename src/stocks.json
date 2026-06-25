@@ -172,7 +172,7 @@
         "Name": "Advance Auto Parts Inc.",
         "Country": "USA",
         "Security Name": "Advance Auto Parts Inc.",
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "AAPL",
@@ -1178,7 +1178,7 @@
     },
     {
         "Symbol": "AI",
-        "Name": "C3.ai, Inc.",        
+        "Name": "C3.ai, Inc.",
         "Security Name": "C3.ai, Inc. Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -2278,7 +2278,7 @@
     },
     {
         "Symbol": "ARES",
-        "Name": "Ares Management Corporation",        
+        "Name": "Ares Management Corporation",
         "Security Name": "Ares Management Corporation Class A Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -2348,7 +2348,7 @@
     },
     {
         "Symbol": "ARKK",
-        "Name": "ARK Innovation ETF",        
+        "Name": "ARK Innovation ETF",
         "Security Name": "ARK Innovation ETF",
         "ETF": "Y",
         "ownWebull": true
@@ -2910,7 +2910,7 @@
         "Symbol": "AUGZ",
         "Name": "TrueShares Structured Outcome (August) ETF",
         "Security Name": "TrueShares Structured Outcome (August) ETF",
-        "Exchange": "Z",        
+        "Exchange": "Z",
         "ETF": "Y"
     },
     {
@@ -3190,7 +3190,7 @@
     },
     {
         "Symbol": "AVY",
-        "Name": "Avery Dennison Corporation",        
+        "Name": "Avery Dennison Corporation",
         "Security Name": "Avery Dennison Corporation Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -5606,13 +5606,13 @@
     },
     {
         "Symbol": "BRAG",
-        "Name": "Bragg Gaming Group Inc",        
+        "Name": "Bragg Gaming Group Inc",
         "dividend": true
     },
     {
         "Symbol": "BRAI",
-        "Name": "Braiin Ltd",        
-        "dividend": true        
+        "Name": "Braiin Ltd",
+        "dividend": true
     },
     {
         "Symbol": "BRAZ",
@@ -5730,8 +5730,8 @@
     },
     {
         "Symbol": "BRLS",
-        "Name": "Borealis Foods Inc (Oakville)",        
-        "dividend": true        
+        "Name": "Borealis Foods Inc (Oakville)",
+        "dividend": true
     },
     {
         "Symbol": "BRLT",
@@ -6042,8 +6042,8 @@
     },
     {
         "Symbol": "BUDA",
-        "Name": "Buda Juice Inc",        
-        "dividend": true        
+        "Name": "Buda Juice Inc",
+        "dividend": true
     },
     {
         "Symbol": "BUFB",
@@ -6487,7 +6487,7 @@
     {
         "Symbol": "CABR",
         "Name": "Caring Brands Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "CAC",
@@ -6496,8 +6496,8 @@
     },
     {
         "Symbol": "CACC",
-        "Name": "Credit Acceptance Corp",        
-        "dividend": true        
+        "Name": "Credit Acceptance Corp",
+        "dividend": true
     },
     {
         "Symbol": "CACI",
@@ -6525,7 +6525,7 @@
     },
     {
         "Symbol": "CAF",
-        "Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
+        "Name": "Morgan Stanley China A Share Fund Inc.",
         "Security Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -6557,7 +6557,7 @@
     },
     {
         "Symbol": "CAL",
-        "Name": "Caleres, Inc. Common Stock",
+        "Name": "Caleres, Inc.",
         "Security Name": "Caleres, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -7004,7 +7004,7 @@
     },
     {
         "Symbol": "CCU",
-        "Name": "Compania Cervecerias Unidas, S.A.",        
+        "Name": "Compania Cervecerias Unidas, S.A.",
         "Security Name": "Compania Cervecerias Unidas, S.A. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -7541,7 +7541,7 @@
     },
     {
         "Symbol": "CHH",
-        "Name": "Choice Hotels International, Inc.",        
+        "Name": "Choice Hotels International, Inc.",
         "Security Name": "Choice Hotels International, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -10586,7 +10586,7 @@
     },
     {
         "Symbol": "DGX",
-        "Name": "Quest Diagnostics Incorporated",        
+        "Name": "Quest Diagnostics Incorporated",
         "Security Name": "Quest Diagnostics Incorporated Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -11073,13 +11073,13 @@
         "Symbol": "DMYY.U",
         "Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one",
         "Security Name": "dMY Squared Technology Group, Inc. Units, each consisting of one share of Class A common stock and one-half of one redeemable warrant",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "DMYY.W",
         "Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
         "Security Name": "dMY Squared Technology Group, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "DNA",
@@ -11184,7 +11184,7 @@
     },
     {
         "Symbol": "DOLE",
-        "Name": "Dole plc",        
+        "Name": "Dole plc",
         "Security Name": "Dole plc Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -11760,7 +11760,7 @@
     },
     {
         "Symbol": "E",
-        "Name": "ENI S.p.A.",        
+        "Name": "ENI S.p.A.",
         "Security Name": "ENI S.p.A. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -13060,7 +13060,7 @@
         "Symbol": "EONR.W",
         "Name": "EON Resources Inc. Warrants",
         "Security Name": "EON Resources Inc. Warrants, each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "EOS",
@@ -13105,7 +13105,7 @@
     },
     {
         "Symbol": "EPC",
-        "Name": "Edgewell Personal Care Company",        
+        "Name": "Edgewell Personal Care Company",
         "Security Name": "Edgewell Personal Care Company Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -13298,8 +13298,8 @@
     },
     {
         "Symbol": "EQPT",
-        "Name": "Equipmentshare.Com Inc",        
-        "dividend": true        
+        "Name": "Equipmentshare.Com Inc",
+        "dividend": true
     },
     {
         "Symbol": "EQR",
@@ -13922,7 +13922,7 @@
     },
     {
         "Symbol": "EVTL",
-        "Name": "Vertical Aerospace Ltd.",        
+        "Name": "Vertical Aerospace Ltd.",
         "Security Name": "Vertical Aerospace Ltd. Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -15794,7 +15794,7 @@
     },
     {
         "Symbol": "FMS",
-        "Name": "Fresenius Medical Care AG",        
+        "Name": "Fresenius Medical Care AG",
         "Security Name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
         "ETF": "N",
         "ownEtrade": true
@@ -16124,7 +16124,7 @@
     },
     {
         "Symbol": "FPS",
-        "Name": "Forgent Power Solutions, Inc",        
+        "Name": "Forgent Power Solutions, Inc",
         "dividend": true
     },
     {
@@ -20166,13 +20166,13 @@
         "Symbol": "HYAC.U",
         "Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one",
         "Security Name": "Haymaker Acquisition Corp. 4 Units, each consisting one Class A Ordinary Share and one-half of one redeemable Warrant",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "HYAC.W",
         "Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
         "Security Name": "Haymaker Acquisition Corp. 4 Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "HYBB",
@@ -21266,7 +21266,7 @@
     },
     {
         "Symbol": "IHS",
-        "Name": "IHS Holding Limited",        
+        "Name": "IHS Holding Limited",
         "Security Name": "IHS Holding Limited Ordinary Shares",
         "ETF": "N",
         "ownWebull": true
@@ -23026,13 +23026,13 @@
         "Symbol": "JENA.R",
         "Name": "Jena Acquisition Corporation II Rights, each right to acquire one",
         "Security Name": "Jena Acquisition Corporation II Rights, each right to acquire one-twentieth (1/20) of one Class A ordinary share",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "JENA.U",
         "Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
         "Security Name": "Jena Acquisition Corporation II Units, each consisting of one Class A ordinary share and one right",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "JEPI",
@@ -23707,7 +23707,7 @@
         "Symbol": "JULZ",
         "Name": "TrueShares Structured Outcome (July) ETF",
         "Security Name": "TrueShares Structured Outcome (July) ETF",
-        "Exchange": "Z",        
+        "Exchange": "Z",
         "ETF": "Y"
     },
     {
@@ -23738,9 +23738,8 @@
         "Symbol": "JUNZ",
         "Name": "TrueShares Structured Outcome (June) ETF",
         "Security Name": "TrueShares Structured Outcome (June) ETF",
-        "Exchange": "Z",        
+        "Exchange": "Z",
         "ETF": "Y"
-
     },
     {
         "Symbol": "JUSA",
@@ -23977,7 +23976,7 @@
     },
     {
         "Symbol": "KEP",
-        "Name": "Korea Electric Power Corporation",        
+        "Name": "Korea Electric Power Corporation",
         "Security Name": "Korea Electric Power Corporation Common Stock",
         "ETF": "N",
         "Country": "South Korea",
@@ -24954,7 +24953,7 @@
     },
     {
         "Symbol": "LDOS",
-        "Name": "Leidos Holdings, Inc.",        
+        "Name": "Leidos Holdings, Inc.",
         "Security Name": "Leidos Holdings, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -25374,8 +25373,8 @@
     },
     {
         "Symbol": "LIFE",
-        "Name": "Ethos Technologies Inc",        
-        "dividend": true        
+        "Name": "Ethos Technologies Inc",
+        "dividend": true
     },
     {
         "Symbol": "LII",
@@ -25839,8 +25838,8 @@
         "Symbol": "LRNZ",
         "Name": "Listed Funds Trust TrueShares Technology, AI & Deep Learning ETF",
         "Security Name": "Listed Funds Trust TrueShares Technology, AI & Deep Learning ETF",
-        "Exchange": "P",        
-        "ETF": "Y"        
+        "Exchange": "P",
+        "ETF": "Y"
     },
     {
         "Symbol": "LSAF",
@@ -25979,14 +25978,14 @@
     },
     {
         "Symbol": "LUV",
-        "Name": "Southwest Airlines Company",        
+        "Name": "Southwest Airlines Company",
         "Security Name": "Southwest Airlines Company Common Stock",
         "ETF": "N",
         "ownWebull": true
     },
     {
         "Symbol": "LUXE",
-        "Name": "LuxExperience B.V.",        
+        "Name": "LuxExperience B.V.",
         "Security Name": "LuxExperience B.V. American Depositary Shares, each representing one Ordinary Share",
         "ETF": "N",
         "ownWebull": true
@@ -26010,7 +26009,7 @@
     },
     {
         "Symbol": "LVS",
-        "Name": "Las Vegas Sands Corp. Common Stock",        
+        "Name": "Las Vegas Sands Corp. Common Stock",
         "Security Name": "Las Vegas Sands Corp. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -26090,7 +26089,7 @@
     },
     {
         "Symbol": "LYV",
-        "Name": "Live Nation Entertainment, Inc.",        
+        "Name": "Live Nation Entertainment, Inc.",
         "Security Name": "Live Nation Entertainment, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -26204,7 +26203,7 @@
     },
     {
         "Symbol": "MAIR",
-        "Name": "Madison Air Solutions Corp",        
+        "Name": "Madison Air Solutions Corp",
         "dividend": true
     },
     {
@@ -26227,8 +26226,8 @@
     },
     {
         "Symbol": "MANE",
-        "Name": "Veradermics Inc",        
-        "dividend": true        
+        "Name": "Veradermics Inc",
+        "dividend": true
     },
     {
         "Symbol": "MANU",
@@ -26299,7 +26298,7 @@
         "Name": "TrueShares Structured Outcome (March) ETF",
         "Security Name": "TrueShares Structured Outcome (March) ETF",
         "Exchange": "Z",
-        "ETF": "Y"    
+        "ETF": "Y"
     },
     {
         "Symbol": "MAS",
@@ -28370,7 +28369,7 @@
     },
     {
         "Symbol": "MTX",
-        "Name": "Minerals Technologies Inc.",        
+        "Name": "Minerals Technologies Inc.",
         "Security Name": "Minerals Technologies Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -31508,7 +31507,7 @@
         "Symbol": "PAII.W",
         "Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
         "Security Name": "Pyrophyte Acquisition Corp. II Warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50 per share",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "PALC",
@@ -33201,7 +33200,7 @@
     {
         "Symbol": "PPCB",
         "Name": "Propanc Biopharma Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "PPEM",
@@ -34449,15 +34448,8 @@
     },
     {
         "Symbol": "QNT",
-        "Name": "Quantinuum Inc",
-        "ownWebull": false,
-        "ownEtrade": true,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
+        "Name": "Quantinuum Inc",        
+        "ownEtrade": true, 
         "dividend": true,
         "ETF": false
     },
@@ -37401,8 +37393,8 @@
     {
         "Symbol": "SEPZ",
         "Name": "TrueShares Structured Outcome (September) ETF",
-        "Security Name": "TrueShares Structured Outcome (September) ETF",        
-        "ETF": "Y"        
+        "Security Name": "TrueShares Structured Outcome (September) ETF",
+        "ETF": "Y"
     },
     {
         "Symbol": "SER",
@@ -38186,7 +38178,7 @@
         "Symbol": "SLND.W",
         "Name": "Southland Holdings, Inc. Warrants",
         "Security Name": "Southland Holdings, Inc. Warrants",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "SLNZ",
@@ -38394,8 +38386,8 @@
     },
     {
         "Symbol": "SMJF",
-        "Name": "SMJ International Holdings Inc",        
-        "dividend": true        
+        "Name": "SMJ International Holdings Inc",
+        "dividend": true
     },
     {
         "Symbol": "SMLF",
@@ -38511,13 +38503,13 @@
     {
         "Symbol": "SNA",
         "Name": "Snap-On Inc",
-        "Security Name": "Snap-On Incorporated Common Stock",        
+        "Security Name": "Snap-On Incorporated Common Stock",
         "ownWebull": true
     },
     {
         "Symbol": "SNAP",
         "Name": "Snap Inc.",
-        "Security Name": "Snap Inc. Class A Common Stock",        
+        "Security Name": "Snap Inc. Class A Common Stock",
         "ownEtrade": true
     },
     {
@@ -38645,7 +38637,7 @@
     },
     {
         "Symbol": "SO",
-        "Name": "Southern Company (The)",        
+        "Name": "Southern Company (The)",
         "Security Name": "Southern Company (The) Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -38771,7 +38763,7 @@
         "Symbol": "SOUL.R",
         "Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one",
         "Security Name": "Soulpower Acquisition Corporation Rights, each right entitling the holder to receive one-tenth (1/10) of one Class A Ordinary Share",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "SOUL.U",
@@ -42066,7 +42058,7 @@
     },
     {
         "Symbol": "TSM",
-        "Name": "Taiwan Semiconductor Manufacturing Company Ltd.",        
+        "Name": "Taiwan Semiconductor Manufacturing Company Ltd.",
         "Security Name": "Taiwan Semiconductor Manufacturing Company Ltd.",
         "ETF": "N",
         "Country": "Taiwan",
@@ -42209,7 +42201,7 @@
     },
     {
         "Symbol": "TV",
-        "Name": "Grupo Televisa S.A.B. Common Stock",
+        "Name": "Grupo Televisa S.A.B.",
         "Security Name": "Grupo Televisa S.A.B. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42235,7 +42227,8 @@
     {
         "Symbol": "TW",
         "Name": "Tradeweb Markets Inc",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "TWI",
