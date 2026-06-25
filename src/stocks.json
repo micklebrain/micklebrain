@@ -11149,10 +11149,10 @@
     },
     {
         "Symbol": "DNOW",
-        "Name": "DNOW Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "DNOW Inc.",
         "Security Name": "DNOW Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "DNP",
@@ -11220,10 +11220,10 @@
     },
     {
         "Symbol": "DOLE",
-        "Name": "Dole plc Ordinary Shares",
-        "ownEtrade": true,
+        "Name": "Dole plc",        
         "Security Name": "Dole plc Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "DON",
@@ -11897,10 +11897,10 @@
     },
     {
         "Symbol": "EAT",
-        "Name": "Brinker International, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Brinker International, Inc.",
         "Security Name": "Brinker International, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "EATZ",
@@ -12673,10 +12673,10 @@
     },
     {
         "Symbol": "ELF",
-        "Name": "e.l.f. Beauty, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "elf Beauty Inc",
         "Security Name": "e.l.f. Beauty, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ELLO",
@@ -12721,10 +12721,10 @@
     },
     {
         "Symbol": "ELPC",
-        "Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
-        "ownWebull": true,
+        "Name": "Companhia Paranaense de Energia (COPEL)",
         "Security Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "ELS",
@@ -13141,10 +13141,10 @@
     },
     {
         "Symbol": "EPC",
-        "Name": "Edgewell Personal Care Company Common Stock",
-        "ownEtrade": true,
+        "Name": "Edgewell Personal Care Company",        
         "Security Name": "Edgewell Personal Care Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "EPD",
@@ -13334,24 +13334,15 @@
     },
     {
         "Symbol": "EQPT",
-        "Name": "Equipmentshare.Com Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Equipmentshare.Com Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "EQR",
-        "Name": "Equity Residential Common Shares of Beneficial Interest",
-        "ownWebull": true,
+        "Name": "Equity Residential",
         "Security Name": "Equity Residential Common Shares of Beneficial Interest",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "EQS",
@@ -13361,10 +13352,10 @@
     },
     {
         "Symbol": "EQT",
-        "Name": "EQT Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "EQT Corporation",
         "Security Name": "EQT Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "EQTY",
@@ -19693,9 +19684,9 @@
     {
         "Symbol": "HMY",
         "Name": "Harmony Gold Mining Company Limited",
-        "ownWebull": true,
         "Security Name": "Harmony Gold Mining Company Limited",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HNGE",
@@ -19744,7 +19735,7 @@
     },
     {
         "Symbol": "HOG",
-        "Name": "Harley",
+        "Name": "Harley-Davidson Inc",
         "Security Name": "Harley-Davidson, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
