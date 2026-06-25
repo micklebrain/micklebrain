@@ -14001,10 +14001,10 @@
     },
     {
         "Symbol": "EVTL",
-        "Name": "Vertical Aerospace Ltd. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Vertical Aerospace Ltd.",        
         "Security Name": "Vertical Aerospace Ltd. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "EVTR",
@@ -14291,10 +14291,11 @@
     },
     {
         "Symbol": "F",
-        "Name": "Ford Motor Company Common Stock",
-        "ownEtrade": true,
+        "Name": "Ford Motor Company",
         "Security Name": "Ford Motor Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "F-B",
@@ -25951,12 +25952,8 @@
         "Symbol": "LRNZ",
         "Name": "Listed Funds Trust TrueShares Technology, AI & Deep Learning ETF",
         "Security Name": "Listed Funds Trust TrueShares Technology, AI & Deep Learning ETF",
-        "Exchange": "P",
-        "CQS Symbol": "LRNZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "LRNZ"
+        "Exchange": "P",        
+        "ETF": "Y"        
     },
     {
         "Symbol": "LSAF",
@@ -26095,17 +26092,17 @@
     },
     {
         "Symbol": "LUV",
-        "Name": "Southwest Airlines Company Common Stock",
-        "ownWebull": true,
+        "Name": "Southwest Airlines Company",        
         "Security Name": "Southwest Airlines Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LUXE",
-        "Name": "LuxExperience B.V. American Depositary Shares, each representing one Ordinary Share",
-        "ownWebull": true,
+        "Name": "LuxExperience B.V.",        
         "Security Name": "LuxExperience B.V. American Depositary Shares, each representing one Ordinary Share",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LVDS",
@@ -26126,10 +26123,10 @@
     },
     {
         "Symbol": "LVS",
-        "Name": "Las Vegas Sands Corp. Common Stock",
-        "ownWebull": true,
+        "Name": "Las Vegas Sands Corp. Common Stock",        
         "Security Name": "Las Vegas Sands Corp. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LVWR",
@@ -26206,10 +26203,10 @@
     },
     {
         "Symbol": "LYV",
-        "Name": "Live Nation Entertainment, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Live Nation Entertainment, Inc.",        
         "Security Name": "Live Nation Entertainment, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "LZB",
@@ -26320,17 +26317,8 @@
     },
     {
         "Symbol": "MAIR",
-        "Name": "Madison Air Solutions Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Madison Air Solutions Corp",        
+        "dividend": true
     },
     {
         "Symbol": "MAKX",
@@ -26352,17 +26340,8 @@
     },
     {
         "Symbol": "MANE",
-        "Name": "Veradermics Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Veradermics Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "MANU",
@@ -26433,11 +26412,7 @@
         "Name": "TrueShares Structured Outcome (March) ETF",
         "Security Name": "TrueShares Structured Outcome (March) ETF",
         "Exchange": "Z",
-        "CQS Symbol": "MARZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "MARZ"
+        "ETF": "Y"    
     },
     {
         "Symbol": "MAS",
@@ -33248,10 +33223,10 @@
     },
     {
         "Symbol": "PNNT",
-        "Name": "PennantPark Investment Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "PennantPark Investment Corporation",
         "Security Name": "PennantPark Investment Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "PNOV",
@@ -33349,16 +33324,7 @@
     {
         "Symbol": "PPCB",
         "Name": "Propanc Biopharma Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "PPEM",
