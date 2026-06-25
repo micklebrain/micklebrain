@@ -21645,23 +21645,24 @@
     },
     {
         "Symbol": "ING",
-        "Name": "ING Group, N.V. Common Stock",
-        "ownWebull": true,
+        "Name": "ING Group, N.V.",
         "Security Name": "ING Group, N.V. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "INGM",
-        "Name": "Ingram Micro Holding Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Ingram Micro Holding Corporation",
         "Security Name": "Ingram Micro Holding Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "INGR",
-        "Name": "Ingredion Incorporated Common Stock",
+        "Name": "Ingredion Incorporated",
         "Security Name": "Ingredion Incorporated Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "INKM",
@@ -34448,8 +34449,8 @@
     },
     {
         "Symbol": "QNT",
-        "Name": "Quantinuum Inc",        
-        "ownEtrade": true, 
+        "Name": "Quantinuum Inc",
+        "ownEtrade": true,
         "dividend": true,
         "ETF": false
     },
