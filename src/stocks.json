@@ -40697,10 +40697,10 @@
     },
     {
         "Symbol": "TEVA",
-        "Name": "Teva Pharmaceutical Industries Limited American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Teva Pharmaceutical Industries Limited",        
         "Security Name": "Teva Pharmaceutical Industries Limited American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TEX",
@@ -40817,21 +40817,16 @@
     },
     {
         "Symbol": "TGE",
-        "Name": "The Generation Essentials Group Class A Ordinary Shares",
-        "ownWebull": true,
+        "Name": "The Generation Essentials Group",
         "Security Name": "The Generation Essentials Group Class A Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TGE.W",
         "Name": "The Generation Essentials Group Warrants, each whole warrant exercisable for one Class A Ordinary Share",
         "Security Name": "The Generation Essentials Group Warrants, each whole warrant exercisable for one Class A Ordinary Share",
-        "Exchange": "A",
-        "CQS Symbol": "TGE.WS",
-        "ETF": "N",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "TGE+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "TGEN",
@@ -40882,17 +40877,17 @@
     },
     {
         "Symbol": "TGS",
-        "Name": "Transportadora de Gas del Sur SA TGS Common Stock",
-        "ownEtrade": true,
+        "Name": "Transportadora de Gas del Sur SA TGS",        
         "Security Name": "Transportadora de Gas del Sur SA TGS Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "TGT",
-        "Name": "Target Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Target Corporation",
         "Security Name": "Target Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "THAR",
@@ -41053,10 +41048,10 @@
     },
     {
         "Symbol": "TIMB",
-        "Name": "TIM S.A. American Depositary Shares (Each representing 5 Common Shares)",
-        "ownEtrade": true,
+        "Name": "TIM S.A.",        
         "Security Name": "TIM S.A. American Depositary Shares (Each representing 5 Common Shares)",
-        "ETF": "N"
+        "ETF": "N",
+        "ownEtrade": true
     },
     {
         "Symbol": "TIME",
