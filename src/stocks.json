@@ -7786,16 +7786,16 @@
     },
     {
         "Symbol": "CKX",
-        "Name": "CKX Lands, Inc. Common Stock",
+        "Name": "CKX Lands, Inc.",
         "Security Name": "CKX Lands, Inc. Common Stock",
         "ETF": "N"
     },
     {
         "Symbol": "CL",
-        "Name": "Colgate",
-        "ownWebull": true,
+        "Name": "Colgate",        
         "Security Name": "Colgate-Palmolive Company Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CLAR",
@@ -8062,10 +8062,10 @@
     },
     {
         "Symbol": "CMG",
-        "Name": "Chipotle Mexican Grill, Inc.",
-        "ownWebull": true,
+        "Name": "Chipotle Mexican Grill, Inc.",        
         "Security Name": "Chipotle Mexican Grill, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "CMI",
@@ -8194,7 +8194,7 @@
     },
     {
         "Symbol": "CNC",
-        "Name": "Centene Corporation Common Stock",
+        "Name": "Centene Corporation",
         "Security Name": "Centene Corporation Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -18896,10 +18896,10 @@
     },
     {
         "Symbol": "H",
-        "Name": "Hyatt Hotels Corporation Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Hyatt Hotels Corporation",
         "Security Name": "Hyatt Hotels Corporation Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "HACK",
@@ -26497,10 +26497,10 @@
     },
     {
         "Symbol": "MCD",
-        "Name": "McDonald's Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "McDonald's Corporation",
         "Security Name": "McDonald's Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MCH",
@@ -26587,17 +26587,8 @@
     },
     {
         "Symbol": "MDA",
-        "Name": "MDA Space Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "MDA Space Ltd",        
+        "dividend": true        
     },
     {
         "Symbol": "MDB",
@@ -26651,10 +26642,10 @@
     },
     {
         "Symbol": "MDT",
-        "Name": "Medtronic plc. Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Medtronic plc.",        
         "Security Name": "Medtronic plc. Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MDU",
@@ -26994,10 +26985,10 @@
     },
     {
         "Symbol": "MGM",
-        "Name": "MGM Resorts International Common Stock",
-        "ownWebull": true,
+        "Name": "MGM Resorts International",        
         "Security Name": "MGM Resorts International Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "MGMT",
@@ -29073,11 +29064,11 @@
     },
     {
         "Symbol": "NET",
-        "Name": "Cloudflare, Inc. Class A Common Stock",
+        "Name": "Cloudflare, Inc.",
         "Country": "USA",
-        "ownWebull": true,
         "Security Name": "Cloudflare, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NETL",
@@ -29369,7 +29360,7 @@
     },
     {
         "Symbol": "NKE",
-        "Name": "Nike, Inc. Common Stock",
+        "Name": "Nike, Inc.",
         "Security Name": "Nike, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
@@ -29611,10 +29602,10 @@
     },
     {
         "Symbol": "NOK",
-        "Name": "Nokia Corporation Sponsored American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Nokia Corporation",        
         "Security Name": "Nokia Corporation Sponsored American Depositary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NOM",
@@ -29726,10 +29717,10 @@
     },
     {
         "Symbol": "NPWR",
-        "Name": "NET Power Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "NET Power Inc.",
         "Security Name": "NET Power Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NPWR.W",
@@ -29876,10 +29867,10 @@
     },
     {
         "Symbol": "NSP",
-        "Name": "Insperity, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Insperity, Inc.",
         "Security Name": "Insperity, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NSRGY",
@@ -29927,9 +29918,9 @@
     {
         "Symbol": "NTIP",
         "Name": "Network",
-        "ownWebull": true,
         "Security Name": "Network-1 Technologies, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NTLA",
@@ -29979,16 +29970,16 @@
     {
         "Symbol": "NTZ",
         "Name": "Natuzzi, S.p.A.",
-        "ownWebull": true,
         "Security Name": "Natuzzi, S.p.A.",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NU",
-        "Name": "Nu Holdings Ltd. Class A Ordinary Shares",
-        "ownWebull": true,
+        "Name": "Nu Holdings Ltd.",        
         "Security Name": "Nu Holdings Ltd. Class A Ordinary Shares",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NUAG",
@@ -30354,10 +30345,10 @@
     },
     {
         "Symbol": "NXDR",
-        "Name": "Nextdoor Holdings, Inc. Class A Common Stock",
-        "ownWebull": true,
+        "Name": "Nextdoor Holdings, Inc.",        
         "Security Name": "Nextdoor Holdings, Inc. Class A Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "NXDT",
@@ -30461,10 +30452,10 @@
     },
     {
         "Symbol": "O",
-        "Name": "Realty Income Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Realty Income Corporation",
         "Security Name": "Realty Income Corporation Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "OACP",
@@ -30538,10 +30529,10 @@
     },
     {
         "Symbol": "OBK",
-        "Name": "Origin Bancorp, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Origin Bancorp, Inc.",
         "Security Name": "Origin Bancorp, Inc. Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "OBND",
@@ -31533,17 +31524,8 @@
     },
     {
         "Symbol": "PARK",
-        "Name": "Park Dental Partners Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Park Dental Partners Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "PARR",
@@ -31613,11 +31595,11 @@
         "Symbol": "PAYP",
         "Name": "PayPay Corp - ADR",        
         "ownEtrade": true,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "PAYX",
+        "Name": "Paychex Inc",
         "ownEtrade": true
     },
     {
@@ -44915,7 +44897,7 @@
     },
     {
         "Symbol": "WFC",
-        "Name": "Wells Fargo & Company Common Stock",
+        "Name": "Wells Fargo & Company",
         "Security Name": "Wells Fargo & Company Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -44975,14 +44957,14 @@
     },
     {
         "Symbol": "WGO",
-        "Name": "Winnebago Industries, Inc. Common Stock",
+        "Name": "Winnebago Industries, Inc.",
         "Security Name": "Winnebago Industries, Inc. Common Stock",
         "ETF": "N",
         "ownEtrade": true
     },
     {
         "Symbol": "WH",
-        "Name": "Wyndham Hotels & Resorts, Inc. Common Stock",
+        "Name": "Wyndham Hotels & Resorts, Inc.",
         "Security Name": "Wyndham Hotels & Resorts, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -45000,7 +44982,7 @@
     },
     {
         "Symbol": "WHG",
-        "Name": "Westwood Holdings Group Inc Common Stock",
+        "Name": "Westwood Holdings Group Inc",
         "Security Name": "Westwood Holdings Group Inc Common Stock",
         "ETF": "N"
     },
@@ -45327,17 +45309,8 @@
     },
     {
         "Symbol": "WSHP",
-        "Name": "WeShop Holdings Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "WeShop Holdings Ltd",        
+        "dividend": true        
     },
     {
         "Symbol": "WSM",
@@ -45412,7 +45385,7 @@
     },
     {
         "Symbol": "WTM",
-        "Name": "White Mountains Insurance Group, Ltd. Common Stock",
+        "Name": "White Mountains Insurance Group, Ltd.",
         "Security Name": "White Mountains Insurance Group, Ltd. Common Stock",
         "ETF": "N",
         "ownWebull": true
