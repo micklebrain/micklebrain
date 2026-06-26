@@ -2283,8 +2283,7 @@
     {
         "Symbol": "ARXS",
         "Name": "Arxis Inc",
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "AS",
@@ -2496,7 +2495,7 @@
     },
     {
         "Symbol": "ATCH",
-        "Name": "AtlasClear Holdings, Inc. Common Stock",
+        "Name": "AtlasClear Holdings, Inc.",
         "Security Name": "AtlasClear Holdings, Inc. Common Stock"
     },
     {
