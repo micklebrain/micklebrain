@@ -3246,6 +3246,7 @@
         "Symbol": "BAK",
         "Name": "Braskem SA ADR",
         "Security Name": "Braskem SA ADR",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -16505,7 +16506,7 @@
     },
     {
         "Symbol": "GIB",
-        "Name": "CGI Inc. Common Stock",
+        "Name": "CGI Inc.",
         "Security Name": "CGI Inc. Common Stock",
         "ownWebull": true
     },
@@ -16560,7 +16561,7 @@
     },
     {
         "Symbol": "GIS",
-        "Name": "General Mills, Inc. Common Stock",
+        "Name": "General Mills, Inc.",
         "Security Name": "General Mills, Inc. Common Stock",
         "ownEtrade": true,
         "dividend": true
@@ -16682,7 +16683,8 @@
     },
     {
         "Symbol": "GLNCY",
-        "Name": "Glencore",
+        "Name": "Glencore ADR",
+        "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
     },
@@ -16709,17 +16711,8 @@
     },
     {
         "Symbol": "GLOO",
-        "Name": "Gloo Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Gloo Holdings Inc",        
+        "dividend": true        
     },
     {
         "Symbol": "GLOP-A",
@@ -17242,9 +17235,7 @@
         "Symbol": "GRAF.W",
         "Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
         "Security Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "Exchange": "A",
-        "CQS Symbol": "GRAF.WS",
-        "NASDAQ Symbol": "GRAF+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "GRBK",
@@ -17303,7 +17294,7 @@
     },
     {
         "Symbol": "GRND",
-        "Name": "Grindr Inc. Common Stock",
+        "Name": "Grindr Inc.",
         "Security Name": "Grindr Inc. Common Stock",
         "ownWebull": true
     },
