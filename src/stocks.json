@@ -19292,6 +19292,13 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "HFG",
+        "Name": "Hellofresh SE",
+        "Country": "Germany",
+        "ownInteractiveBrokers": true,
+        "dividend": true
+    },
+    {
         "Symbol": "HFGM",
         "Name": "Unlimited HFGM Global Macro ETF",
         "Security Name": "Unlimited HFGM Global Macro ETF",
@@ -33891,6 +33898,13 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "PUM",
+        "Name": "Puma SE",
+        "Country": "Germany",
+        "ownInteractiveBrokers": true,
+        "dividend": true
+    },
+    {
         "Symbol": "PUMP",
         "Name": "ProPetro Holding Corp. Common Stock",
         "Security Name": "ProPetro Holding Corp. Common Stock",
@@ -46659,6 +46673,12 @@
         "Name": "Amplify High Income ETF",
         "Security Name": "Amplify High Income ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "ZAL",
+        "Name": "Zalando SE",        
+        "ownInteractiveBrokers": true,
+        "dividend": true        
     },
     {
         "Symbol": "ZALT",

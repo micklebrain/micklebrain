@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["PKN"]
+stocksToAdd = ["ZAL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Orlen SA")
+    addStock(stock, name="Zalando SE", ownInteractiveBrokers=True)
