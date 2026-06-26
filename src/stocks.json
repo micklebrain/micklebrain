@@ -17358,7 +17358,7 @@
     },
     {
         "Symbol": "GRPN",
-        "Name": "Groupon",
+        "Name": "Groupon Inc",
         "ownWebull": true
     },
     {
@@ -17474,8 +17474,8 @@
     {
         "Symbol": "GSK",
         "Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
-        "ownWebull": true,
         "Security Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -17559,6 +17559,7 @@
     },
     {
         "Symbol": "GTERA",
+        "Name": "Globa Terra Acquisition Corp",
         "ownWebull": true
     },
     {
@@ -18006,7 +18007,7 @@
     },
     {
         "Symbol": "HDB",
-        "Name": "HDFC Bank Limited Common Stock",
+        "Name": "HDFC Bank Ltd",
         "ownWebull": true,
         "dividend": true
     },
@@ -18145,7 +18146,7 @@
     },
     {
         "Symbol": "HESAY",
-        "Name": "Hermes Intl S A Unsponsored France ADR",
+        "Name": "Hermes Intl SA",
         "Country": "France",
         "ownWebull": true,
         "dividend": true
