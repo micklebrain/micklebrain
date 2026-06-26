@@ -3,42 +3,49 @@
         "Symbol": "003490",
         "Name": "Korean Air Lines Co.",
         "Country": "South Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "003550",
         "Name": "LG Corp.",
         "Country": "South Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "005930",
         "Name": "Samsung Electronics Co., Ltd. Common Stock",
         "Country": "South Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "005940",
         "Name": "NH INVESTMENT & SECURITIES C",
         "Country": "Japan",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "006800",
         "Name": "MIRAE ASSET SECURITIES CO LT",
         "Country": "South Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "024110",
         "Name": "Industrial Bank of Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "035420",
         "Name": "NAVER Corporation",
         "Country": "South Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "035720",
@@ -56,7 +63,8 @@
         "Symbol": "055550",
         "Name": "SHINHAN FINANCIAL GROUP LTD",
         "Country": "South Korea",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "352820",
@@ -68,19 +76,22 @@
         "Symbol": "7201",
         "Name": "NISSAN MOTOR CO LTD.",
         "Country": "Japan",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "8729",
         "Name": "SONY FINANCIAL GROUP INC",
         "Country": "Japan",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "9432",
         "Name": "NTT,INC",
         "Country": "Japan",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "A",
@@ -173,7 +184,8 @@
         "Symbol": "AAPL",
         "Name": "Apple Inc",
         "Country": "USA",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AAPR",
@@ -235,20 +247,23 @@
         "Name": "Absolute Select Value ETF",
         "Security Name": "Absolute Select Value ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABEV",
         "Name": "Ambev S.A.",
         "Security Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ABFL",
         "Name": "Abacus FCF Leaders ETF",
         "Security Name": "Abacus FCF Leaders ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABG",
@@ -259,7 +274,8 @@
         "Symbol": "ABI",
         "Name": "Anheuser-Busch InBev SA/NV",
         "Country": "Belgian",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "ABLD",
@@ -272,20 +288,23 @@
         "Name": "Abacus FCF International Leaders ETF",
         "Security Name": "Abacus FCF International Leaders ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABLS",
         "Name": "Abacus FCF ETF Trust Abacus FCF Small Cap Leaders ETF",
         "Security Name": "Abacus FCF ETF Trust Abacus FCF Small Cap Leaders ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABM",
         "Name": "ABM Industries Incorporated Common Stock",
         "Security Name": "ABM Industries Incorporated Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABNB",
@@ -297,7 +316,8 @@
         "Name": "Abacus FCF Innovation Leaders ETF",
         "Security Name": "Abacus FCF Innovation Leaders ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABR",
@@ -324,7 +344,8 @@
         "Symbol": "ABT",
         "Name": "Abbott Laboratories",
         "Security Name": "Abbott Laboratories Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ABTS",
@@ -336,7 +357,8 @@
         "Name": "Abacus Flexible Bond Leaders ETF",
         "Security Name": "Abacus Flexible Bond Leaders ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ACA",
@@ -383,7 +405,8 @@
     {
         "Symbol": "ACGBY",
         "Name": "Agricultural Bank of China",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ACGR",
@@ -557,7 +580,8 @@
         "Symbol": "ADC",
         "Name": "Agree Realty Corporation",
         "Security Name": "Agree Realty Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ADC-A",
@@ -573,7 +597,8 @@
     {
         "Symbol": "ADDYY",
         "Name": "Adidas Ag",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ADFI",
@@ -611,7 +636,8 @@
     {
         "Symbol": "ADP",
         "Name": "Automatic Data Processing Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ADPV",
@@ -735,7 +761,8 @@
     {
         "Symbol": "AFCG",
         "Name": "Advanced Flower Capital Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AFG",
@@ -933,7 +960,8 @@
     {
         "Symbol": "AGNC",
         "Name": "Agnc Invt Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AGNT",
@@ -1208,7 +1236,8 @@
         "Symbol": "AJG",
         "Name": "Arthur J. Gallagher & Co.",
         "Security Name": "Arthur J. Gallagher & Co. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AJUL",
@@ -1318,7 +1347,8 @@
         "Symbol": "ALL",
         "Name": "Allstate Corporation (The) Common Stock",
         "Security Name": "Allstate Corporation (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ALL-B",
@@ -1344,7 +1374,8 @@
         "Symbol": "ALLE",
         "Name": "Allegion plc",
         "Security Name": "Allegion plc Ordinary Shares",
-        "ownChase": true
+        "ownChase": true,
+        "dividend": true
     },
     {
         "Symbol": "ALLT",
@@ -1474,7 +1505,8 @@
         "Symbol": "AMCR",
         "Name": "Amcor plc",
         "Security Name": "Amcor plc Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AMD",
@@ -2048,7 +2080,8 @@
         "Symbol": "ARE",
         "Name": "Alexandria Real Estate Equities, Inc. Common Stock",
         "Security Name": "Alexandria Real Estate Equities, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "AREA",
@@ -2189,7 +2222,8 @@
         "Symbol": "ARMK",
         "Name": "Aramark",
         "Security Name": "Aramark Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ARMN",
@@ -2222,7 +2256,8 @@
         "Symbol": "ARR",
         "Name": "ARMOUR Residential REIT, Inc.",
         "Security Name": "ARMOUR Residential REIT, Inc.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ARR-C",
@@ -2261,7 +2296,8 @@
         "Symbol": "ASA",
         "Name": "ASA  Gold and Precious Metals Limited",
         "Security Name": "ASA  Gold and Precious Metals Limited",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ASAN",
@@ -2293,7 +2329,8 @@
         "Symbol": "ASC",
         "Name": "Ardmore Shipping Corporation Common Stock",
         "Security Name": "Ardmore Shipping Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ASCE",
@@ -2332,7 +2369,8 @@
         "Symbol": "ASH",
         "Name": "Ashland Inc. Common Stock",
         "Security Name": "Ashland Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ASHR",
@@ -2361,7 +2399,8 @@
         "Symbol": "ASIX",
         "Name": "AdvanSix Inc.",
         "Security Name": "AdvanSix Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ASLV",
@@ -2389,7 +2428,8 @@
     {
         "Symbol": "ASML",
         "Name": "ASML Holding NV",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ASO",
@@ -2415,7 +2455,8 @@
     {
         "Symbol": "ASRV",
         "Name": "Ameriserv Financial Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ASTH",
@@ -2476,7 +2517,8 @@
     {
         "Symbol": "ATEYY",
         "Name": "Advantest Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ATFV",
@@ -2605,7 +2647,8 @@
     {
         "Symbol": "AUBN",
         "Name": "Auburn National Bancorporation Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "AUDC",
@@ -2687,7 +2730,8 @@
         "Symbol": "AVAL",
         "Name": "Grupo Aval Acciones y Valores S.A. ADR",
         "Security Name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AVB",
@@ -2703,7 +2747,8 @@
         "Symbol": "AVD",
         "Name": "American Vanguard Corporation Common Stock ($0.10 Par Value)",
         "ownWebull": true,
-        "Security Name": "American Vanguard Corporation Common Stock ($0.10 Par Value)"
+        "Security Name": "American Vanguard Corporation Common Stock ($0.10 Par Value)",
+        "dividend": true
     },
     {
         "Symbol": "AVDE",
@@ -2750,7 +2795,8 @@
     {
         "Symbol": "AVGO",
         "Name": "Broadcom Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AVGV",
@@ -2917,7 +2963,8 @@
         "Symbol": "AVY",
         "Name": "Avery Dennison Corporation",
         "Security Name": "Avery Dennison Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "AWAY",
@@ -2990,7 +3037,8 @@
         "Symbol": "AXP",
         "Name": "American Express Company",
         "Security Name": "American Express Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AXR",
@@ -3041,7 +3089,8 @@
     {
         "Symbol": "AZN",
         "Name": "AstraZeneca PLC (US)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "AZNH",
@@ -3111,7 +3160,8 @@
         "Symbol": "BAC",
         "Name": "Bank of America Corporation",
         "Security Name": "Bank of America Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BAC-B",
@@ -3196,7 +3246,8 @@
         "Symbol": "BAK",
         "Name": "Braskem SA ADR",
         "Security Name": "Braskem SA ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BALI",
@@ -3208,7 +3259,8 @@
         "Symbol": "BALL",
         "Name": "Ball Corporation",
         "Security Name": "Ball Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BALT",
@@ -3227,7 +3279,8 @@
         "Name": "Brookfield Asset Management Ltd.",
         "Security Name": "Brookfield Asset Management Inc Class A Limited Voting Shares",
         "Country": "USA",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BAMA",
@@ -3424,7 +3477,8 @@
         "Symbol": "BBDC",
         "Name": "Barings BDC, Inc.",
         "Security Name": "Barings BDC, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BBDO",
@@ -3449,7 +3503,8 @@
         "Name": "JPMorgan BetaBuilders USD High Yield Corporate Bond ETF",
         "Security Name": "JPMorgan BetaBuilders USD High Yield Corporate Bond ETF",
         "ETF": "Y",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BBIB",
@@ -3541,7 +3596,8 @@
         "Symbol": "BBVA",
         "Name": "Banco Bilbao Vizcaya Argentaria S.A.",
         "Security Name": "Banco Bilbao Vizcaya Argentaria S.A. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BBW",
@@ -3564,7 +3620,8 @@
         "Symbol": "BBY",
         "Name": "Best Buy Co., Inc.",
         "Security Name": "Best Buy Co., Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BC",
@@ -3589,7 +3646,8 @@
     {
         "Symbol": "BCBP",
         "Name": "Bcb Bancorp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BCC",
@@ -3618,13 +3676,15 @@
         "Symbol": "BCE",
         "Name": "BCE, Inc.",
         "Security Name": "BCE, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BCH",
         "Name": "Banco De Chile ADS",
         "Security Name": "Banco De Chile ADS",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BCHI",
@@ -3670,7 +3730,8 @@
         "Symbol": "BCO",
         "Name": "Brinks Company (The)",
         "Security Name": "Brinks Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BCOR",
@@ -3682,13 +3743,15 @@
         "Symbol": "BCS",
         "Name": "Barclays PLC",
         "Security Name": "Barclays PLC Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BCSF",
         "Name": "Bain Capital Specialty Finance, Inc.",
         "Security Name": "Bain Capital Specialty Finance, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BCUS",
@@ -3764,12 +3827,14 @@
     {
         "Symbol": "BDOUY",
         "Name": "BDO Unibank Inc - ADR",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BDRFY",
         "Name": "Beiersdorf",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BDRY",
@@ -3836,7 +3901,8 @@
         "Symbol": "BEN",
         "Name": "Franklin Resources, Inc.",
         "Security Name": "Franklin Resources, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BENJ",
@@ -4060,7 +4126,8 @@
         "Symbol": "BGS",
         "Name": "B&G Foods, Inc.",
         "Security Name": "B&G Foods, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BGSF",
@@ -4143,7 +4210,8 @@
         "Symbol": "BHR",
         "Name": "Braemar Hotels & Resorts Inc.",
         "Security Name": "Braemar Hotels & Resorts Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BHR-B",
@@ -4158,7 +4226,8 @@
     {
         "Symbol": "BHRB",
         "Name": "Burke & Herbert",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BHV",
@@ -4464,7 +4533,8 @@
         "Symbol": "BKE",
         "Name": "Buckle, Inc. (The)",
         "Security Name": "Buckle, Inc. (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BKEM",
@@ -4629,7 +4699,8 @@
         "Symbol": "BLK",
         "Name": "BlackRock, Inc.",
         "Security Name": "BlackRock, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BLKB",
@@ -4775,7 +4846,8 @@
         "Symbol": "BMI",
         "Name": "Badger Meter, Inc.",
         "Security Name": "Badger Meter, Inc. Common Stock",
-        "ownChase": true
+        "ownChase": true,
+        "dividend": true
     },
     {
         "Symbol": "BML-G",
@@ -4812,7 +4884,8 @@
         "Symbol": "BMO",
         "Name": "Bank Of Montreal Common Stock",
         "ownWebull": true,
-        "Security Name": "Bank Of Montreal Common Stock"
+        "Security Name": "Bank Of Montreal Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "BMR",
@@ -4838,7 +4911,8 @@
     {
         "Symbol": "BND",
         "Name": "Vanguard Total Bond Market Index Fund ETF",
-        "ownRobinhood": true
+        "ownRobinhood": true,
+        "dividend": true
     },
     {
         "Symbol": "BNDC",
@@ -4930,7 +5004,8 @@
         "Symbol": "BNS",
         "Name": "Bank Nova Scotia Halifax Pfd 3",
         "Security Name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BNT",
@@ -4990,7 +5065,8 @@
         "Symbol": "BOH",
         "Name": "Bank of Hawaii Corporation",
         "Security Name": "Bank of Hawaii Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BOH-A",
@@ -5079,7 +5155,8 @@
         "Symbol": "BP",
         "Name": "BP p.l.c.",
         "Security Name": "BP p.l.c. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BPAY",
@@ -5112,12 +5189,14 @@
     {
         "Symbol": "BPYPN",
         "Name": "Brokfld Prpty Pf",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BPYPO",
         "Name": "Brookfield Property",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BQ",
@@ -5128,7 +5207,8 @@
         "Symbol": "BR",
         "Name": "Broadridge Financial Solutions, Inc.",
         "Security Name": "Broadridge Financial Solutions, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BRAG",
@@ -5162,7 +5242,8 @@
         "Symbol": "BRBS",
         "Name": "Blue Ridge Bankshares, Inc.",
         "Security Name": "Blue Ridge Bankshares, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BRC",
@@ -5310,14 +5391,16 @@
         "Symbol": "BSAC",
         "Name": "Banco Santander",
         "Security Name": "Banco Santander - Chile ADS",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BSBR",
         "Name": "Banco Santander Brasil SA",
         "Security Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "Country": "Brazil",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BSEP",
@@ -5457,14 +5540,16 @@
         "Symbol": "BTE",
         "Name": "Baytex Energy Corp",
         "Security Name": "Baytex Energy Corp Common Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BTG",
         "Name": "B2Gold Corp (Canada)",
         "Security Name": "B2Gold Corp Common shares (Canada)",
         "Country": "Canada",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BTGO",
@@ -5530,7 +5615,8 @@
         "Symbol": "BUD",
         "Name": "Anheuser",
         "Security Name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BUDA",
@@ -5653,7 +5739,8 @@
     {
         "Symbol": "BURBY",
         "Name": "Burberry Group ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BURL",
@@ -5686,7 +5773,8 @@
         "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "Security Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BUYO",
@@ -5699,7 +5787,8 @@
         "Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "Security Name": "Northern Lights Fund Trust IV Main BuyWrite ETF",
         "ETF": "Y",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BUYZ",
@@ -5771,19 +5860,22 @@
         "Symbol": "BWG",
         "Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
         "Security Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BWLP",
         "Name": "BW LPG Limited Common Shares",
         "Security Name": "BW LPG Limited Common Shares",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BWMX",
         "Name": "Betterware de Mexico, S.A.P.I. de C.V.",
         "Security Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BWNB",
@@ -5822,7 +5914,8 @@
         "Symbol": "BX",
         "Name": "Blackstone Inc.",
         "Security Name": "Blackstone Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "BXC",
@@ -5833,7 +5926,8 @@
         "Symbol": "BXMT",
         "Name": "Blackstone Mortgage Trust, Inc.",
         "Security Name": "Blackstone Mortgage Trust, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BXMX",
@@ -5849,7 +5943,8 @@
         "Symbol": "BXSL",
         "Name": "Blackstone Secured Lending Fund",
         "Security Name": "Blackstone Secured Lending Fund Common Shares of Beneficial Interest",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "BY",
@@ -5912,7 +6007,8 @@
         "Symbol": "C",
         "Name": "Citigroup, Inc.",
         "Security Name": "Citigroup, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "C-N",
@@ -5922,7 +6018,8 @@
     {
         "Symbol": "CA",
         "Name": "Carrefour SA",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "CAAA",
@@ -5934,7 +6031,8 @@
         "Symbol": "CAAP",
         "Name": "Corporacion America Airports SA",
         "Security Name": "Corporacion America Airports SA Common Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CAAS",
@@ -5986,7 +6084,8 @@
         "Symbol": "CAF",
         "Name": "Morgan Stanley China A Share Fund Inc.",
         "Security Name": "Morgan Stanley China A Share Fund Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CAFX",
@@ -5998,7 +6097,8 @@
         "Symbol": "CAG",
         "Name": "ConAgra Brands, Inc.",
         "Security Name": "ConAgra Brands, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CAH",
@@ -6015,7 +6115,8 @@
         "Symbol": "CAL",
         "Name": "Caleres, Inc.",
         "Security Name": "Caleres, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CALF",
@@ -6133,13 +6234,15 @@
     {
         "Symbol": "CASY",
         "Name": "Caseys General Stores Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CAT",
         "Name": "Caterpillar, Inc.",
         "Security Name": "Caterpillar, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CATF",
@@ -6243,7 +6346,8 @@
     {
         "Symbol": "CBRL",
         "Name": "Cracker Barrel Old Ctry Store",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CBSE",
@@ -6342,12 +6446,14 @@
     {
         "Symbol": "CCEP",
         "Name": "Coca-Cola Europacific partners Plc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CCHGY",
         "Name": "Coca-Cola Hbc Ag",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CCI",
@@ -6432,7 +6538,8 @@
         "Symbol": "CCU",
         "Name": "Compania Cervecerias Unidas, S.A.",
         "Security Name": "Compania Cervecerias Unidas, S.A. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CCUP",
@@ -6511,7 +6618,8 @@
         "Symbol": "CE",
         "Name": "Celanese Corporation Common Stock",
         "Security Name": "Celanese Corporation Common Stock",
-        "ownChase": true
+        "ownChase": true,
+        "dividend": true
     },
     {
         "Symbol": "CEE",
@@ -6577,7 +6685,8 @@
         "Symbol": "CEPU",
         "Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "Security Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CERT",
@@ -6670,7 +6779,8 @@
     {
         "Symbol": "CG",
         "Name": "The Carlyle Group Inc.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CGAU",
@@ -6726,7 +6836,8 @@
     {
         "Symbol": "CGEMY",
         "Name": "Capgemini S E",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CGEN",
@@ -6921,7 +7032,8 @@
         "Symbol": "CHE",
         "Name": "Chemed Corp",
         "Security Name": "Chemed Corp",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CHECU",
@@ -6943,7 +7055,8 @@
         "Symbol": "CHH",
         "Name": "Choice Hotels International, Inc.",
         "Security Name": "Choice Hotels International, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CHIQ",
@@ -6954,7 +7067,8 @@
     {
         "Symbol": "CHKP",
         "Name": "Check Point Software Technologies Ltd",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CHMG",
@@ -7007,7 +7121,8 @@
     {
         "Symbol": "CHRW",
         "Name": "C H Robinson Worldwide Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CHSN",
@@ -7044,7 +7159,8 @@
         "Symbol": "CIB",
         "Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
         "Security Name": "Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CICB",
@@ -7054,7 +7170,8 @@
     {
         "Symbol": "CICHY",
         "Name": "China Con Bk Adr",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CIEN",
@@ -7075,7 +7192,8 @@
         "Symbol": "CIG",
         "Name": "Comp En De Mn Cemig ADS American Depositary Shares",
         "Security Name": "Comp En De Mn Cemig ADS American Depositary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CIG.C",
@@ -7176,7 +7294,8 @@
     {
         "Symbol": "CKHUY",
         "Name": "CK Hutchison Holdings ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CKX",
@@ -7187,7 +7306,8 @@
         "Symbol": "CL",
         "Name": "Colgate",
         "Security Name": "Colgate-Palmolive Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CLAR",
@@ -7338,7 +7458,8 @@
         "Symbol": "CLX",
         "Name": "Clorox Company (The) Common Stock",
         "Security Name": "Clorox Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CM",
@@ -7365,7 +7486,8 @@
         "Symbol": "CMBT",
         "Name": "CMB.TECH NV Ordinary Shares",
         "ownWebull": true,
-        "Security Name": "CMB.TECH NV Ordinary Shares"
+        "Security Name": "CMB.TECH NV Ordinary Shares",
+        "dividend": true
     },
     {
         "Symbol": "CMC",
@@ -7396,12 +7518,14 @@
     {
         "Symbol": "CMCSA",
         "Name": "Comcast Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CMCT",
         "Name": "Creative Media & Community Trust Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CMDB",
@@ -7441,7 +7565,8 @@
         "Symbol": "CMI",
         "Name": "Cummins Inc. Common Stock",
         "Security Name": "Cummins Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CMMB",
@@ -7506,7 +7631,8 @@
     {
         "Symbol": "CMSQY",
         "Name": "Computershare Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CMT",
@@ -7572,7 +7698,8 @@
         "Symbol": "CNI",
         "Name": "Canadian National Railway Company Common Stock",
         "Security Name": "Canadian National Railway Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CNK",
@@ -7915,7 +8042,8 @@
     {
         "Symbol": "COST",
         "Name": "Costco Whsl Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "COTY",
@@ -7937,7 +8065,8 @@
         "Symbol": "CP",
         "Name": "Canadian Pacific Kansas City Limited Common Shares",
         "Security Name": "Canadian Pacific Kansas City Limited Common Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CPA",
@@ -7964,7 +8093,8 @@
     {
         "Symbol": "CPB",
         "Name": "The Campbell's Company",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CPER",
@@ -8155,7 +8285,8 @@
         "Symbol": "CPT",
         "Name": "Camden Property Trust",
         "Security Name": "Camden Property Trust Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CPXR",
@@ -8395,7 +8526,8 @@
     {
         "Symbol": "CSCO",
         "Name": "Cisco Sys Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CSD",
@@ -8485,7 +8617,8 @@
         "Symbol": "CSW",
         "Name": "CSW Industrials, Inc.",
         "Security Name": "CSW Industrials, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CSWC",
@@ -8607,7 +8740,8 @@
     {
         "Symbol": "CTSH",
         "Name": "Cognizant Technology Solutions Corp",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CTVA",
@@ -8784,7 +8918,8 @@
         "Symbol": "CVS",
         "Name": "CVS Health Corporation",
         "Security Name": "CVS Health Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CVSB",
@@ -8807,7 +8942,8 @@
         "Symbol": "CVX",
         "Name": "Chevron Corporation Common Stock",
         "Security Name": "Chevron Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CVY",
@@ -8819,7 +8955,8 @@
         "Symbol": "CW",
         "Name": "Curtiss",
         "Security Name": "Curtiss-Wright Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CWAN",
@@ -8895,7 +9032,8 @@
         "Symbol": "CX",
         "Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
         "Security Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CXE",
@@ -8922,7 +9060,8 @@
         "Symbol": "CXT",
         "Name": "Crane NXT, Co. Common Stock",
         "Security Name": "Crane NXT, Co. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CXW",
@@ -8957,7 +9096,8 @@
     {
         "Symbol": "CZFS",
         "Name": "Citizens Financial Services Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "CZNC",
@@ -8989,7 +9129,8 @@
         "Symbol": "DAC",
         "Name": "Danaos Corporation Common Stock",
         "Security Name": "Danaos Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DAL",
@@ -9061,7 +9202,8 @@
         "Symbol": "DB",
         "Name": "Deutsche Bank AG",
         "Security Name": "Deutsche Bank AG Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DBA",
@@ -9186,7 +9328,8 @@
     {
         "Symbol": "DBSDY",
         "Name": "Dbs Group Holdings ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DBVT",
@@ -9337,7 +9480,8 @@
         "Symbol": "DE",
         "Name": "Deere & Company",
         "Security Name": "Deere & Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DEA",
@@ -9449,7 +9593,8 @@
         "Symbol": "DEO",
         "Name": "Diageo plc",
         "Security Name": "Diageo plc Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DES",
@@ -9486,7 +9631,8 @@
         "Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
         "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
         "ETF": "Y",
-        "ownRobinhood": true
+        "ownRobinhood": true,
+        "dividend": true
     },
     {
         "Symbol": "DFAE",
@@ -9751,7 +9897,8 @@
         "Name": "iShares Core Dividend Growth ETF",
         "Security Name": "iShares Core Dividend Growth ETF",
         "ETF": "Y",
-        "ownRobinhood": true
+        "ownRobinhood": true,
+        "dividend": true
     },
     {
         "Symbol": "DGS",
@@ -9769,7 +9916,8 @@
         "Symbol": "DGX",
         "Name": "Quest Diagnostics Incorporated",
         "Security Name": "Quest Diagnostics Incorporated Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DGZ",
@@ -9835,7 +9983,8 @@
         "Name": "SPDR Dow Jones Industrial Average ETF",
         "Security Name": "SPDR Dow Jones Industrial Average ETF",
         "ETF": "Y",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DIAL",
@@ -9881,7 +10030,8 @@
         "Symbol": "DIN",
         "Name": "Dine Brands Global, Inc. Common Stock",
         "Security Name": "Dine Brands Global, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DINO",
@@ -9904,7 +10054,8 @@
         "Symbol": "DIS",
         "Name": "Walt Disney Company (The) Common Stock",
         "Security Name": "Walt Disney Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DISO",
@@ -10102,7 +10253,8 @@
         "Symbol": "DLNG",
         "Name": "Dynagas LNG Partners LP Common Units",
         "Security Name": "Dynagas LNG Partners LP Common Units",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DLNG-A",
@@ -10241,7 +10393,8 @@
         "Symbol": "DNB",
         "Name": "DNB Bank ASA",
         "Country": "Norway",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "DNL",
@@ -10341,7 +10494,8 @@
     {
         "Symbol": "DOO",
         "Name": "BRP Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DOUG",
@@ -10377,7 +10531,8 @@
     {
         "Symbol": "DPZ",
         "Name": "Domino's Pizza Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DQ",
@@ -10406,7 +10561,8 @@
         "Symbol": "DRD",
         "Name": "DRDGOLD Limited",
         "Security Name": "DRDGOLD Limited American Depositary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DRGN",
@@ -10428,7 +10584,8 @@
         "Symbol": "DRI",
         "Name": "Darden Restaurants, Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "Darden Restaurants, Inc. Common Stock"
+        "Security Name": "Darden Restaurants, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "DRIP",
@@ -10536,7 +10693,8 @@
     {
         "Symbol": "DSWL",
         "Name": "Deswell Industries Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "DSX",
@@ -10579,7 +10737,8 @@
         "Symbol": "DTE",
         "Name": "Deutsche Telekom AG",
         "Country": "Germany",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "DTE",
@@ -10870,12 +11029,14 @@
         "Symbol": "E",
         "Name": "ENI S.p.A.",
         "Security Name": "ENI S.p.A. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "EA",
         "Name": "Electronic Arts Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EAD",
@@ -10885,7 +11046,8 @@
     {
         "Symbol": "EADSY",
         "Name": "Airbus Se",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EAF",
@@ -10982,12 +11144,14 @@
     {
         "Symbol": "EBAY",
         "Name": "Ebay Inc.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EBC",
         "Name": "Eastern Bankshares Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "EBF",
@@ -11036,7 +11200,8 @@
         "Symbol": "EC",
         "Name": "Ecopetrol S.A. American Depositary Shares",
         "ownWebull": true,
-        "Security Name": "Ecopetrol S.A. American Depositary Shares"
+        "Security Name": "Ecopetrol S.A. American Depositary Shares",
+        "dividend": true
     },
     {
         "Symbol": "ECAT",
@@ -11442,7 +11607,8 @@
         "Symbol": "EFX",
         "Name": "Equifax, Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "Equifax, Inc. Common Stock"
+        "Security Name": "Equifax, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "EFXT",
@@ -11492,7 +11658,8 @@
         "Symbol": "EGO",
         "Name": "Eldorado Gold Corporation",
         "Security Name": "Eldorado Gold Corporation Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EGP",
@@ -11704,7 +11871,8 @@
     {
         "Symbol": "ELME",
         "Name": "Elme Communities Common Stock",
-        "Security Name": "Elme Communities Common Stock"
+        "Security Name": "Elme Communities Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "ELOG",
@@ -11726,7 +11894,8 @@
         "Symbol": "ELPC",
         "Name": "Companhia Paranaense de Energia (COPEL)",
         "Security Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ELS",
@@ -11736,13 +11905,15 @@
     {
         "Symbol": "ELUXY",
         "Name": "Aktiebolaget Electrolux",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ELV",
         "Name": "Elevance Health, Inc. Common Stock",
         "Security Name": "Elevance Health, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ELV",
@@ -11809,7 +11980,8 @@
         "Symbol": "EME",
         "Name": "EMCOR Group, Inc. Common Stock",
         "Security Name": "EMCOR Group, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EMES",
@@ -12270,7 +12442,8 @@
     {
         "Symbol": "EQIX",
         "Name": "Equinix Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EQL",
@@ -12288,7 +12461,8 @@
         "Symbol": "EQNR",
         "Name": "Equinor ASA",
         "ownWebull": true,
-        "Security Name": "Equinor ASA"
+        "Security Name": "Equinor ASA",
+        "dividend": true
     },
     {
         "Symbol": "EQPT",
@@ -12299,7 +12473,8 @@
         "Symbol": "EQR",
         "Name": "Equity Residential",
         "Security Name": "Equity Residential Common Shares of Beneficial Interest",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "EQS",
@@ -12361,7 +12536,8 @@
     {
         "Symbol": "ERIE",
         "Name": "Erie Indemnity Co",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ERJ",
@@ -12400,7 +12576,8 @@
         "Symbol": "ESAB",
         "Name": "ESAB Corporation",
         "Security Name": "ESAB Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ESBA",
@@ -12454,12 +12631,14 @@
     {
         "Symbol": "ESLOY",
         "Name": "EssilorLuxottica Unsponsored ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ESLT",
         "Name": "Elbit Systems Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ESML",
@@ -12865,7 +13044,8 @@
         "Symbol": "EVTC",
         "Name": "Evertec, Inc. Common Stock",
         "ownEtrade": true,
-        "Security Name": "Evertec, Inc. Common Stock"
+        "Security Name": "Evertec, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "EVTL",
@@ -13153,7 +13333,8 @@
         "Name": "Ford Motor Company",
         "Security Name": "Ford Motor Company Common Stock",
         "Country": "USA",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "F-B",
@@ -13294,7 +13475,8 @@
         "Symbol": "FBP",
         "Name": "First BanCorp. New Common Stock",
         "ownEtrade": true,
-        "Security Name": "First BanCorp. New Common Stock"
+        "Security Name": "First BanCorp. New Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "FBRT",
@@ -13392,7 +13574,8 @@
     {
         "Symbol": "FCNCA",
         "Name": "First Citizens BancShares Inc (Delaware) Class A",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "FCO",
@@ -13404,7 +13587,8 @@
         "Name": "Fidelity MSCI Communication Services Index ETF",
         "ownAlly": true,
         "Security Name": "Fidelity MSCI Communication Services Index ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "dividend": true
     },
     {
         "Symbol": "FCOR",
@@ -13561,7 +13745,8 @@
         "Symbol": "FDP",
         "Name": "Fresh Del Monte Produce, Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "Fresh Del Monte Produce, Inc. Common Stock"
+        "Security Name": "Fresh Del Monte Produce, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "FDRR",
@@ -13579,7 +13764,8 @@
         "Symbol": "FDS",
         "Name": "FactSet Research Systems Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "FactSet Research Systems Inc. Common Stock"
+        "Security Name": "FactSet Research Systems Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "FDUS",
@@ -13608,7 +13794,8 @@
         "Symbol": "FDX",
         "Name": "FedEx Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "FedEx Corporation Common Stock"
+        "Security Name": "FedEx Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "FE",
@@ -13731,7 +13918,8 @@
         "Name": "Fidelity MSCI Energy Index ETF",
         "ownSchwab": true,
         "Security Name": "Fidelity MSCI Energy Index ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "dividend": true
     },
     {
         "Symbol": "FEOE",
@@ -14614,7 +14802,8 @@
         "Symbol": "FMC",
         "Name": "FMC Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "FMC Corporation Common Stock"
+        "Security Name": "FMC Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "FMCE",
@@ -14672,7 +14861,8 @@
         "Symbol": "FMS",
         "Name": "Fresenius Medical Care AG",
         "Security Name": "Fresenius Medical Care AG American Depositary Shares (Each representing 1/2 of an Ordinary Share)",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "FMST",
@@ -14972,7 +15162,8 @@
         "Symbol": "FPI",
         "Name": "Farmland Partners Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "Farmland Partners Inc. Common Stock"
+        "Security Name": "Farmland Partners Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "FPRO",
@@ -15021,7 +15212,8 @@
     {
         "Symbol": "FRBA",
         "Name": "FIRST BANK (Hamilton)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "FRD",
@@ -15218,12 +15410,14 @@
     {
         "Symbol": "FSTA",
         "Name": "Fidelity MSCI COnsumer Staples Index ETF",
-        "ownAlly": true,
         "Security Name": "Fidelity MSCI COnsumer Staples Index ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownAlly": true,
+        "dividend": true
     },
     {
         "Symbol": "FSV",
+        "Name": "FirstService Corp",
         "ownEtrade": true
     },
     {
@@ -15357,7 +15551,8 @@
     {
         "Symbol": "FUJHY",
         "Name": "Subaru Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "FUL",
@@ -15382,9 +15577,9 @@
     },
     {
         "Symbol": "FUN",
-        "Name": "Six Flags Entertainment Corporation Common Stock New",
-        "ownWebull": true,
-        "Security Name": "Six Flags Entertainment Corporation Common Stock New"
+        "Name": "Six Flags Entertainment Corporation",
+        "Security Name": "Six Flags Entertainment Corporation Common Stock New",
+        "ownWebull": true
     },
     {
         "Symbol": "FUNC",
@@ -15421,9 +15616,10 @@
     {
         "Symbol": "FUTY",
         "Name": "Fidelity MSCI Utilities Index ETF",
-        "ownFidelity": true,
         "Security Name": "Fidelity MSCI Utilities Index ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownFidelity": true,
+        "dividend": true
     },
     {
         "Symbol": "FVAL",
@@ -15449,9 +15645,9 @@
     },
     {
         "Symbol": "FVRR",
-        "Name": "Fiverr International Ltd. Ordinary Shares, no par value",
-        "ownWebull": true,
-        "Security Name": "Fiverr International Ltd. Ordinary Shares, no par value"
+        "Name": "Fiverr International Ltd.",
+        "Security Name": "Fiverr International Ltd. Ordinary Shares, no par value",
+        "ownWebull": true
     },
     {
         "Symbol": "FWD",
@@ -15468,7 +15664,8 @@
     {
         "Symbol": "FXAIX",
         "Name": "Fidelity 500 Index Fund",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "FXB",
@@ -15592,9 +15789,11 @@
     },
     {
         "Symbol": "G",
-        "Name": "Genpact Limited Common Stock",
+        "Name": "Genpact Limited",
+        "Security Name": "Genpact Limited Common Stock",
+        "Country": "USA",
         "ownWebull": true,
-        "Security Name": "Genpact Limited Common Stock"
+        "dividend": true
     },
     {
         "Symbol": "GAA",
@@ -15673,9 +15872,10 @@
     },
     {
         "Symbol": "GAP",
-        "Name": "Gap, Inc. (The) Common Stock",
+        "Name": "Gap, Inc. (The)",
+        "Security Name": "Gap, Inc. (The) Common Stock",
         "ownWebull": true,
-        "Security Name": "Gap, Inc. (The) Common Stock"
+        "dividend": true
     },
     {
         "Symbol": "GAPR",
@@ -15874,15 +16074,16 @@
     },
     {
         "Symbol": "GD",
-        "Name": "General Dynamics Corporation Common Stock",
+        "Name": "General Dynamics Corporation",
         "Security Name": "General Dynamics Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GDDY",
-        "Name": "GoDaddy Inc. Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "GoDaddy Inc. Class A Common Stock"
+        "Name": "GoDaddy Inc.",
+        "Security Name": "GoDaddy Inc. Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "GDE",
@@ -15958,9 +16159,10 @@
     {
         "Symbol": "GDX",
         "Name": "VanEck Gold Miners ETF",
-        "ownWebull": true,
         "Security Name": "VanEck Gold Miners ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GDXD",
@@ -15990,7 +16192,8 @@
         "Symbol": "GE",
         "Name": "GE Aerospace Common Stock",
         "Security Name": "GE Aerospace Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "GECC",
@@ -16047,16 +16250,7 @@
     {
         "Symbol": "GENB",
         "Name": "Generate Biomedicines Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "GENC",
@@ -16122,7 +16316,8 @@
         "Symbol": "GEV",
         "Name": "GE Vernova Inc. Common Stock",
         "Security Name": "GE Vernova Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GEVX",
@@ -16148,9 +16343,10 @@
     },
     {
         "Symbol": "GFI",
-        "Name": "Gold Fields Limited American Depositary Shares",
+        "Name": "Gold Fields Limited",
+        "Security Name": "Gold Fields Limited American Depositary Shares",
         "ownWebull": true,
-        "Security Name": "Gold Fields Limited American Depositary Shares"
+        "dividend": true
     },
     {
         "Symbol": "GFL",
@@ -16164,13 +16360,15 @@
     },
     {
         "Symbol": "GGAL",
-        "ownEtrade": true
+        "Name": "Grupo Financiero Galicia SA",
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "GGB",
-        "Name": "Gerdau S.A. Common Stock",
-        "ownWebull": true,
-        "Security Name": "Gerdau S.A. Common Stock"
+        "Name": "Gerdau S.A.",        
+        "Security Name": "Gerdau S.A. Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "GGG",
@@ -16241,7 +16439,8 @@
         "Symbol": "GHC",
         "Name": "Graham Holdings Company Common Stock",
         "ownWebull": true,
-        "Security Name": "Graham Holdings Company Common Stock"
+        "Security Name": "Graham Holdings Company Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "GHG",
@@ -16363,7 +16562,8 @@
         "Symbol": "GIS",
         "Name": "General Mills, Inc. Common Stock",
         "Security Name": "General Mills, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "GJAN",
@@ -16483,7 +16683,8 @@
     {
         "Symbol": "GLNCY",
         "Name": "Glencore",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GLNG",
@@ -16608,7 +16809,8 @@
         "Symbol": "GM",
         "Name": "General Motors Company Common Stock",
         "ownWebull": true,
-        "Security Name": "General Motors Company Common Stock"
+        "Security Name": "General Motors Company Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "GMAR",
@@ -16847,12 +17049,14 @@
     {
         "Symbol": "GOOG",
         "Name": "Alphabet Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GOOGL",
         "Name": "Alphabet Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GOOP",
@@ -16946,7 +17150,8 @@
         "Symbol": "GPMT",
         "Name": "Granite Point Mortgage Trust Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "Granite Point Mortgage Trust Inc. Common Stock"
+        "Security Name": "Granite Point Mortgage Trust Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "GPMT-A",
@@ -16968,7 +17173,8 @@
         "Symbol": "GPRK",
         "Name": "Geopark Ltd Common Shares",
         "ownWebull": true,
-        "Security Name": "Geopark Ltd Common Shares"
+        "Security Name": "Geopark Ltd Common Shares",
+        "dividend": true
     },
     {
         "Symbol": "GPRO",
@@ -17074,13 +17280,15 @@
     {
         "Symbol": "GRFS",
         "Name": "Grifols SA - ADR ADR Class B",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GRMN",
         "Name": "Garmin Ltd.",
         "Security Name": "Garmin Ltd. Common Stock (Switzerland)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GRN",
@@ -17184,7 +17392,8 @@
         "Symbol": "GS",
         "Name": "Goldman Sachs Group, Inc. (The) Common Stock",
         "Security Name": "Goldman Sachs Group, Inc. (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "GS-A",
@@ -17210,7 +17419,8 @@
         "Symbol": "GSBD",
         "Name": "Goldman Sachs BDC, Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "Goldman Sachs BDC, Inc. Common Stock"
+        "Security Name": "Goldman Sachs BDC, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "GSC",
@@ -17276,7 +17486,8 @@
         "Symbol": "GSK",
         "Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
         "ownWebull": true,
-        "Security Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)"
+        "Security Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+        "dividend": true
     },
     {
         "Symbol": "GSKH",
@@ -17533,7 +17744,8 @@
         "Symbol": "GWW",
         "Name": "W.W. Grainger, Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "W.W. Grainger, Inc. Common Stock"
+        "Security Name": "W.W. Grainger, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "GWX",
@@ -17671,7 +17883,8 @@
     {
         "Symbol": "HAS",
         "Name": "Hasbro Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HASI",
@@ -17799,12 +18012,14 @@
         "Symbol": "HD",
         "Name": "Home Depot, Inc. (The) Common Stock",
         "ownWebull": true,
-        "Security Name": "Home Depot, Inc. (The) Common Stock"
+        "Security Name": "Home Depot, Inc. (The) Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "HDB",
         "Name": "HDFC Bank Limited Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HDEF",
@@ -17903,7 +18118,8 @@
     {
         "Symbol": "HEINY",
         "Name": "Heineken Nv",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HELO",
@@ -17942,7 +18158,8 @@
         "Symbol": "HESAY",
         "Name": "Hermes Intl S A Unsponsored France ADR",
         "Country": "France",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HESM",
@@ -18330,7 +18547,8 @@
         "Symbol": "HOG",
         "Name": "Harley-Davidson Inc",
         "Security Name": "Harley-Davidson, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HOLA",
@@ -18358,7 +18576,8 @@
     {
         "Symbol": "HON",
         "Name": "Honeywell International Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HOOD",
@@ -18380,7 +18599,8 @@
     {
         "Symbol": "HOPE",
         "Name": "Hope Bancorp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HOUS",
@@ -18397,13 +18617,15 @@
         "Symbol": "HP",
         "Name": "Helmerich & Payne, Inc.",
         "Security Name": "Helmerich & Payne, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HPE",
         "Name": "Hewlett Packard Enterprise Company",
         "Security Name": "Hewlett Packard Enterprise Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HPE-C",
@@ -18440,7 +18662,8 @@
         "Symbol": "HPQ",
         "Name": "HP Inc.",
         "Security Name": "HP Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HPS",
@@ -18471,7 +18694,8 @@
         "Symbol": "HRB",
         "Name": "H&R Block, Inc.",
         "Security Name": "H&R Block, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HRI",
@@ -18482,7 +18706,8 @@
         "Symbol": "HRL",
         "Name": "Hormel Foods Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "Hormel Foods Corporation Common Stock"
+        "Security Name": "Hormel Foods Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "HRTG",
@@ -18492,7 +18717,8 @@
     {
         "Symbol": "HRZN",
         "Name": "Horizon Techn",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HSBC",
@@ -18541,7 +18767,8 @@
         "Symbol": "HSY",
         "Name": "The Hershey Company",
         "Security Name": "The Hershey Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HTAB",
@@ -18590,7 +18817,8 @@
         "Symbol": "HTH",
         "Name": "Hilltop Holdings Inc.",
         "ownWebull": true,
-        "Security Name": "Hilltop Holdings Inc."
+        "Security Name": "Hilltop Holdings Inc.",
+        "dividend": true
     },
     {
         "Symbol": "HTHT",
@@ -18633,7 +18861,8 @@
         "Symbol": "HUBB",
         "Name": "Hubbell Inc Common Stock",
         "ownWebull": true,
-        "Security Name": "Hubbell Inc Common Stock"
+        "Security Name": "Hubbell Inc Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "HUBG",
@@ -18650,7 +18879,8 @@
         "Symbol": "HUM",
         "Name": "Humana Inc.",
         "Security Name": "Humana Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "HUMN",
@@ -18946,7 +19176,8 @@
         "Symbol": "IAG",
         "Name": "Iamgold Corporation Ordinary Shares",
         "ownEtrade": true,
-        "Security Name": "Iamgold Corporation Ordinary Shares"
+        "Security Name": "Iamgold Corporation Ordinary Shares",
+        "dividend": true
     },
     {
         "Symbol": "IAGG",
@@ -19220,7 +19451,8 @@
     {
         "Symbol": "IBKR",
         "Name": "Interactive Brokers Group Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IBLC",
@@ -19232,7 +19464,8 @@
         "Symbol": "IBM",
         "Name": "International Business Machines Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "International Business Machines Corporation Common Stock"
+        "Security Name": "International Business Machines Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "IBMN",
@@ -19280,7 +19513,8 @@
         "Symbol": "IBN",
         "Name": "ICICI Bank Limited Common Stock",
         "Security Name": "ICICI Bank Limited Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "IBND",
@@ -19368,7 +19602,8 @@
     {
         "Symbol": "ICMB",
         "Name": "Investcorp Credit Management Bdc Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ICOI",
@@ -19418,7 +19653,8 @@
     {
         "Symbol": "IDCBY",
         "Name": "Industrial Comme",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IDCC",
@@ -19451,7 +19687,8 @@
     {
         "Symbol": "IDEXY",
         "Name": "Industria De Diseno Textil Ind",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IDGT",
@@ -19640,7 +19877,8 @@
         "Symbol": "IFF",
         "Name": "International Flavors & Fragrances, Inc. Common Stock",
         "ownEtrade": true,
-        "Security Name": "International Flavors & Fragrances, Inc. Common Stock"
+        "Security Name": "International Flavors & Fragrances, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "IFN",
@@ -19717,7 +19955,8 @@
     {
         "Symbol": "IGIC",
         "Name": "International General Insuranc Hldgs Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IGLB",
@@ -19810,7 +20049,8 @@
         "Symbol": "IHG",
         "Name": "Intercontinental Hotels Group",
         "Security Name": "Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IHI",
@@ -20037,7 +20277,8 @@
     {
         "Symbol": "IMOS",
         "Name": "ChipMOS Technologies Inc - ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IMPP",
@@ -20188,7 +20429,8 @@
         "Symbol": "ING",
         "Name": "ING Group, N.V.",
         "Security Name": "ING Group, N.V. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "INGM",
@@ -20200,7 +20442,8 @@
         "Symbol": "INGR",
         "Name": "Ingredion Incorporated",
         "Security Name": "Ingredion Incorporated Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "INKM",
@@ -20269,7 +20512,8 @@
     {
         "Symbol": "INTC",
         "Name": "Intel Corp",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "INTF",
@@ -20297,7 +20541,8 @@
     {
         "Symbol": "INTR",
         "Name": "Inter & Co Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "INTT",
@@ -20307,7 +20552,8 @@
     {
         "Symbol": "INTU",
         "Name": "Intuit Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "INUV",
@@ -20324,7 +20570,8 @@
         "Symbol": "INVH",
         "Name": "Invitation Homes Inc.",
         "Security Name": "Invitation Homes Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "INVN",
@@ -20575,7 +20822,8 @@
         "Symbol": "IRS",
         "Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
         "Security Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "IRS.W",
@@ -20884,7 +21132,8 @@
         "Symbol": "IVR",
         "Name": "INVESCO MORTGAGE CAPITAL INC Common Stock",
         "ownWebull": true,
-        "Security Name": "INVESCO MORTGAGE CAPITAL INC Common Stock"
+        "Security Name": "INVESCO MORTGAGE CAPITAL INC Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "IVR-C",
@@ -21004,7 +21253,8 @@
         "Name": "iShares Russell 2000 ETF",
         "ownRobinhood": true,
         "Security Name": "iShares Russell 2000 ETF",
-        "ETF": "Y"
+        "ETF": "Y",
+        "dividend": true
     },
     {
         "Symbol": "IWMI",
@@ -21082,7 +21332,8 @@
         "Symbol": "IX",
         "Name": "ORIX Corporation American Depositary Shares",
         "Security Name": "ORIX Corporation American Depositary Shares",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "IXC",
@@ -21399,7 +21650,8 @@
     {
         "Symbol": "JCAP",
         "Name": "Jefferson Capital Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "JCE",
@@ -21432,7 +21684,8 @@
     {
         "Symbol": "JCSE",
         "Name": "JE Cleantech Holdings Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "JCTR",
@@ -21713,7 +21966,8 @@
     {
         "Symbol": "JJSF",
         "Name": "JJ Snack Foods",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "JKHY",
@@ -21829,7 +22083,8 @@
         "Symbol": "JNJ",
         "Name": "Johnson & Johnson Common Stock",
         "ownWebull": true,
-        "Security Name": "Johnson & Johnson Common Stock"
+        "Security Name": "Johnson & Johnson Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "JNK",
@@ -21958,7 +22213,8 @@
         "Symbol": "JPM",
         "Name": "JP Morgan Chase & Co. Common Stock",
         "Security Name": "JP Morgan Chase & Co. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "JPM-C",
@@ -22371,7 +22627,8 @@
     {
         "Symbol": "KDP",
         "Name": "Keurig Dr Pepper Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KDRN",
@@ -22411,7 +22668,8 @@
         "Name": "Korea Electric Power Corporation",
         "Security Name": "Korea Electric Power Corporation Common Stock",
         "Country": "South Korea",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KEUA",
@@ -22428,7 +22686,8 @@
         "Symbol": "KEY",
         "Name": "KeyCorp Common Stock",
         "ownEtrade": true,
-        "Security Name": "KeyCorp Common Stock"
+        "Security Name": "KeyCorp Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "KEY-I",
@@ -22485,7 +22744,8 @@
         "Symbol": "KGC",
         "Name": "Kinross Gold Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "Kinross Gold Corporation Common Stock"
+        "Security Name": "Kinross Gold Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "KGLD",
@@ -22507,7 +22767,8 @@
     {
         "Symbol": "KHC",
         "Name": "Kraft Heinz Co",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KHPI",
@@ -22579,7 +22840,8 @@
         "Symbol": "KKR",
         "Name": "KKR & Co. Inc. Common Stock",
         "ownWebull": true,
-        "Security Name": "KKR & Co. Inc. Common Stock"
+        "Security Name": "KKR & Co. Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "KKR-D",
@@ -22786,7 +23048,8 @@
         "Symbol": "KO",
         "Name": "Coca-Cola Co",
         "Security Name": "Coca-Cola Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KOCT",
@@ -22804,7 +23067,8 @@
         "Symbol": "KOF",
         "Name": "Coca Cola Femsa S.A.B. de C.V.",
         "Security Name": "Coca Cola Femsa S.A.B. de C.V. American Depositary Shares, each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KOKU",
@@ -22873,7 +23137,8 @@
         "Symbol": "KR",
         "Name": "Kroger Company (The) Common Stock",
         "ownWebull": true,
-        "Security Name": "Kroger Company (The) Common Stock"
+        "Security Name": "Kroger Company (The) Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "KRBN",
@@ -22927,7 +23192,8 @@
         "Symbol": "KRP",
         "Name": "Kimbell Royalty Partners",
         "Security Name": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KRT",
@@ -22977,7 +23243,8 @@
         "Symbol": "KT",
         "Name": "KT Corporation",
         "Security Name": "KT Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "KTB",
@@ -23037,7 +23304,8 @@
         "Symbol": "KVUE",
         "Name": "Kenvue Inc.",
         "Security Name": "Kenvue Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "KVYO",
@@ -23311,7 +23579,8 @@
         "Symbol": "LDOS",
         "Name": "Leidos Holdings, Inc.",
         "Security Name": "Leidos Holdings, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "LDP",
@@ -23352,7 +23621,8 @@
         "Symbol": "LEA",
         "Name": "Lear Corporation",
         "Security Name": "Lear Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LEAD",
@@ -23396,12 +23666,14 @@
         "Symbol": "LEN",
         "Name": "Lennar Corporation Class A Common Stock",
         "ownEtrade": true,
-        "Security Name": "Lennar Corporation Class A Common Stock"
+        "Security Name": "Lennar Corporation Class A Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "LEN-B",
         "Name": "Lennar Corp Class B",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LEN.B",
@@ -23534,7 +23806,8 @@
         "Symbol": "LFT",
         "Name": "Lument Finance Trust, Inc.",
         "Security Name": "Lument Finance Trust, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LFT-A",
@@ -23622,7 +23895,8 @@
         "Symbol": "LHV1T",
         "Name": "LHV Group AS",
         "Country": "Estonia",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "LHX",
@@ -23715,7 +23989,8 @@
         "Symbol": "LII",
         "Name": "Lennox International, Inc.",
         "Security Name": "Lennox International, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LILA",
@@ -23881,7 +24156,8 @@
         "Symbol": "LMT",
         "Name": "Lockheed Martin Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "Lockheed Martin Corporation Common Stock"
+        "Security Name": "Lockheed Martin Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "LMUB",
@@ -23903,7 +24179,8 @@
         "Symbol": "LND",
         "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
         "Security Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LNG",
@@ -23927,7 +24204,8 @@
     {
         "Symbol": "LNVGY",
         "Name": "Lenovo Group Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LNWO",
@@ -23979,13 +24257,15 @@
     {
         "Symbol": "LOGI",
         "Name": "Logitech Intl S A",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LOMA",
         "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
         "Security Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LONZ",
@@ -24025,7 +24305,8 @@
         "Symbol": "LPA",
         "Name": "Logistic Properties of the Americas Ordinary Shares",
         "Security Name": "Logistic Properties of the Americas Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LPG",
@@ -24305,7 +24586,8 @@
     {
         "Symbol": "LVMUY",
         "Name": "Lvmh Moet Hennessy Louis Vuitton",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "LVS",
@@ -24326,7 +24608,8 @@
         "Symbol": "LW",
         "Name": "Lamb Weston Holdings, Inc. Common Stock",
         "Security Name": "Lamb Weston Holdings, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "LX",
@@ -24408,7 +24691,8 @@
         "Symbol": "MA",
         "Name": "Mastercard Incorporated",
         "Security Name": "Mastercard Incorporated Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MAA",
@@ -24523,7 +24807,8 @@
     {
         "Symbol": "MAR",
         "Name": "Marriott Intl Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MARA",
@@ -24692,12 +24977,14 @@
         "Symbol": "MBG",
         "Name": "Mercedes-Benz Group AG",
         "Country": "Germany",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "MBGYY",
         "Name": "MERCEDES BENZ GROUP AG",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MBI",
@@ -24769,7 +25056,8 @@
         "Symbol": "MCD",
         "Name": "McDonald's Corporation",
         "Security Name": "McDonald's Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MCH",
@@ -24796,7 +25084,8 @@
         "Symbol": "MCK",
         "Name": "McKesson Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "McKesson Corporation Common Stock"
+        "Security Name": "McKesson Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "MCN",
@@ -24807,7 +25096,8 @@
         "Symbol": "MCO",
         "Name": "Moody's Corporation Common Stock",
         "ownEtrade": true,
-        "Security Name": "Moody's Corporation Common Stock"
+        "Security Name": "Moody's Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "MCOW",
@@ -24918,7 +25208,8 @@
         "Symbol": "MDT",
         "Name": "Medtronic plc.",
         "Security Name": "Medtronic plc. Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MDU",
@@ -25067,7 +25358,8 @@
     {
         "Symbol": "META",
         "Name": "MEta Platforms Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "METC",
@@ -25138,7 +25430,8 @@
         "Symbol": "MFG",
         "Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
         "ownWebull": true,
-        "Security Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)"
+        "Security Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
+        "dividend": true
     },
     {
         "Symbol": "MFIC",
@@ -25222,7 +25515,8 @@
     {
         "Symbol": "MGDDY",
         "Name": "Michelin Comp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MGEE",
@@ -25477,7 +25771,8 @@
     {
         "Symbol": "MITEY",
         "Name": "Mitsubishi Estate Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MITN",
@@ -25497,7 +25792,8 @@
     {
         "Symbol": "MITSY",
         "Name": "Mitsui & Co Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MITT",
@@ -25534,12 +25830,14 @@
         "Symbol": "MKC",
         "Name": "McCormick & Company, Incorporated",
         "Security Name": "McCormick & Company, Incorporated Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MKC-V",
         "Name": "McCormick & Company Inc Co Voting",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MKC.V",
@@ -25577,7 +25875,8 @@
     {
         "Symbol": "MKZR",
         "Name": "MacKenzie Realty Capital Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MLAB",
@@ -25608,7 +25907,8 @@
     {
         "Symbol": "MLKN",
         "Name": "MillerKnoll Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "MLM",
@@ -25740,13 +26040,15 @@
         "Symbol": "MMM",
         "Name": "3M Company Common Stock",
         "Security Name": "3M Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MMS",
         "Name": "Maximus, Inc. Common Stock",
         "Security Name": "Maximus, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MMSC",
@@ -25807,12 +26109,14 @@
         "Symbol": "MNR",
         "Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
         "ownWebull": true,
-        "Security Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests"
+        "Security Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
+        "dividend": true
     },
     {
         "Symbol": "MNRO",
         "Name": "Monro Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "MNRS",
@@ -25849,7 +26153,8 @@
         "Symbol": "MO",
         "Name": "Altria Group, Inc.",
         "ownWebull": true,
-        "Security Name": "Altria Group, Inc."
+        "Security Name": "Altria Group, Inc.",
+        "dividend": true
     },
     {
         "Symbol": "MOAT",
@@ -25892,7 +26197,8 @@
         "Symbol": "MOL",
         "Name": "Mol Hungarian Oil And Gas Pl",
         "Country": "Hungary",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "MOMO",
@@ -25908,7 +26214,8 @@
     {
         "Symbol": "MORN",
         "Name": "Morningstar Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "MORT",
@@ -26021,7 +26328,8 @@
     {
         "Symbol": "MPWR",
         "Name": "Monolithic Power Systems Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MPX",
@@ -26121,7 +26429,8 @@
         "Symbol": "MS",
         "Name": "Morgan Stanley Common Stock",
         "ownWebull": true,
-        "Security Name": "Morgan Stanley Common Stock"
+        "Security Name": "Morgan Stanley Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "MS-A",
@@ -26181,7 +26490,8 @@
     {
         "Symbol": "MSBI",
         "Name": "Midland States",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MSC",
@@ -26192,7 +26502,8 @@
         "Symbol": "MSCI",
         "Name": "MSCI Inc.",
         "Security Name": "MSCI Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MSD",
@@ -26207,7 +26518,8 @@
     {
         "Symbol": "MSEX",
         "Name": "Middlesex Water Co",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "MSFO",
@@ -26218,7 +26530,8 @@
     {
         "Symbol": "MSFT",
         "Name": "Microsoft Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MSFW",
@@ -26257,7 +26570,8 @@
         "Symbol": "MSI",
         "Name": "Motorola Solutions, Inc. Common Stock",
         "Security Name": "Motorola Solutions, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MSIF",
@@ -26368,7 +26682,8 @@
         "Symbol": "MT",
         "Name": "Arcelor Mittal NY Registry Shares NEW",
         "Security Name": "Arcelor Mittal NY Registry Shares NEW",
-        "ownRobinhood": true
+        "ownRobinhood": true,
+        "dividend": true
     },
     {
         "Symbol": "MTA",
@@ -26468,7 +26783,8 @@
     {
         "Symbol": "MTUAY",
         "Name": "MTU AERO ENGINES HLDGS ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MTUL",
@@ -26496,7 +26812,8 @@
         "Symbol": "MTX",
         "Name": "Minerals Technologies Inc.",
         "Security Name": "Minerals Technologies Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MTZ",
@@ -26533,7 +26850,8 @@
         "Symbol": "MUFG",
         "Name": "Mitsubishi UFJ Financial Group, Inc.",
         "Security Name": "Mitsubishi UFJ Financial Group, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MUJ",
@@ -26580,13 +26898,15 @@
         "Symbol": "MUR",
         "Name": "Murphy Oil Corporation Common Stock",
         "Security Name": "Murphy Oil Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MUSA",
         "Name": "Murphy USA Inc.",
         "Security Name": "Murphy USA Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "MUSE",
@@ -26841,7 +27161,8 @@
         "Symbol": "NAT",
         "Name": "Nordic American Tankers Limited Common Stock",
         "ownWebull": true,
-        "Security Name": "Nordic American Tankers Limited Common Stock"
+        "Security Name": "Nordic American Tankers Limited Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "NATH",
@@ -27050,7 +27371,8 @@
     {
         "Symbol": "NDAQ",
         "Name": "Nasdaq Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NDEC",
@@ -27161,7 +27483,8 @@
         "Symbol": "NEM",
         "Name": "Newmont Corporation",
         "Security Name": "Newmont Corporation",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NEMD",
@@ -27178,7 +27501,8 @@
         "Symbol": "NESN",
         "Name": "Nestle SA",
         "ownInteractiveBrokers": true,
-        "Country": "Switzerland"
+        "Country": "Switzerland",
+        "dividend": true
     },
     {
         "Symbol": "NESR",
@@ -27222,7 +27546,8 @@
         "Symbol": "NEXA",
         "Name": "Nexa Resources S.A.",
         "Security Name": "Nexa Resources S.A. Common Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NEXOY",
@@ -27400,7 +27725,8 @@
     {
         "Symbol": "NINOY",
         "Name": "Nikon Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NIO",
@@ -27457,7 +27783,8 @@
         "Symbol": "NKE",
         "Name": "Nike, Inc.",
         "Security Name": "Nike, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "NKLR",
@@ -27577,7 +27904,8 @@
         "Symbol": "NMR",
         "Name": "Nomura Holdings Inc ADR American Depositary Shares",
         "ownWebull": true,
-        "Security Name": "Nomura Holdings Inc ADR American Depositary Shares"
+        "Security Name": "Nomura Holdings Inc ADR American Depositary Shares",
+        "dividend": true
     },
     {
         "Symbol": "NMRK",
@@ -27649,7 +27977,8 @@
     {
         "Symbol": "NOC",
         "Name": "Northrop Grumman Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NOCT",
@@ -27672,7 +28001,8 @@
         "Symbol": "NOK",
         "Name": "Nokia Corporation",
         "Security Name": "Nokia Corporation Sponsored American Depositary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NOM",
@@ -27890,7 +28220,8 @@
     {
         "Symbol": "NSANY",
         "Name": "Nissan Motor Co Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NSC",
@@ -27907,7 +28238,8 @@
         "Symbol": "NSP",
         "Name": "Insperity, Inc.",
         "Security Name": "Insperity, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NSRGY",
@@ -27938,12 +28270,14 @@
     {
         "Symbol": "NTDOY",
         "Name": "Nintendo Co Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NTES",
         "Name": "NetEase Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NTGR",
@@ -28179,7 +28513,8 @@
     {
         "Symbol": "NVDA",
         "Name": "Nvidia Corporation",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NVDB",
@@ -28253,7 +28588,8 @@
         "Symbol": "NVO",
         "Name": "Novo Nordisk A/S Common Stock",
         "ownWebull": true,
-        "Security Name": "Novo Nordisk A/S Common Stock"
+        "Security Name": "Novo Nordisk A/S Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "NVOH",
@@ -28439,7 +28775,8 @@
         "Symbol": "NYT",
         "Name": "New York Times Company (The)",
         "Security Name": "New York Times Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "NYXH",
@@ -28455,7 +28792,8 @@
         "Symbol": "O",
         "Name": "Realty Income Corporation",
         "Security Name": "Realty Income Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OACP",
@@ -28527,7 +28865,8 @@
         "Symbol": "OBK",
         "Name": "Origin Bancorp, Inc.",
         "Security Name": "Origin Bancorp, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OBND",
@@ -28554,7 +28893,8 @@
     {
         "Symbol": "OCCI",
         "Name": "Ofs Credit Company Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OCFC",
@@ -28675,7 +29015,8 @@
         "Symbol": "OEC",
         "Name": "Orion S.A.",
         "Security Name": "Orion S.A. Common Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OEF",
@@ -28825,7 +29166,8 @@
     {
         "Symbol": "OLED",
         "Name": "Universal Display Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OLN",
@@ -28925,7 +29267,8 @@
         "Symbol": "ONL",
         "Name": "Orion Properties Inc.",
         "Security Name": "Orion Properties Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ONLN",
@@ -29031,7 +29374,8 @@
     {
         "Symbol": "OPRA",
         "Name": "Opera Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OPTT",
@@ -29271,7 +29615,8 @@
     {
         "Symbol": "OXLC",
         "Name": "Oxford Lane Cap Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OXM",
@@ -29281,13 +29626,15 @@
     {
         "Symbol": "OXSQ",
         "Name": "Oxford Square Ca",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OXY",
         "Name": "Occidental Petroleum Corporation",
         "Security Name": "Occidental Petroleum Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "OXY.W",
@@ -29399,7 +29746,8 @@
         "Symbol": "PAM",
         "Name": "Pampa Energia S.A.",
         "Security Name": "Pampa Energia S.A.",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "PAMC",
@@ -29512,7 +29860,8 @@
     {
         "Symbol": "PAYX",
         "Name": "Paychex Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "PB",
@@ -29661,13 +30010,15 @@
         "Symbol": "PBR",
         "Name": "Petroleo Brasileiro S.A. Petrobras ADS",
         "ownWebull": true,
-        "Security Name": "Petroleo Brasileiro S.A. Petrobras ADS"
+        "Security Name": "Petroleo Brasileiro S.A. Petrobras ADS",
+        "dividend": true
     },
     {
         "Symbol": "PBR.A",
         "Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares",
         "ownEtrade": true,
-        "Security Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares"
+        "Security Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares",
+        "dividend": true
     },
     {
         "Symbol": "PBSE",
@@ -30022,7 +30373,8 @@
     {
         "Symbol": "PEP",
         "Name": "Pepsico Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PERF",
@@ -30074,7 +30426,8 @@
         "Symbol": "PFE",
         "Name": "Pfizer, Inc. Common Stock",
         "ownEtrade": true,
-        "Security Name": "Pfizer, Inc. Common Stock"
+        "Security Name": "Pfizer, Inc. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "PFEB",
@@ -30201,7 +30554,8 @@
         "Symbol": "PG",
         "Name": "Procter & Gamble Company (The) Common Stock",
         "ownWebull": true,
-        "Security Name": "Procter & Gamble Company (The) Common Stock"
+        "Security Name": "Procter & Gamble Company (The) Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "PGC",
@@ -30233,7 +30587,8 @@
         "Symbol": "PGR",
         "Name": "Progressive Corporation (The)",
         "Security Name": "Progressive Corporation (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PGRE",
@@ -30261,7 +30616,8 @@
         "Symbol": "PH",
         "Name": "Parker-Hannifin Corp",
         "Security Name": "Parker-Hannifin Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PHAR",
@@ -30295,7 +30651,8 @@
         "Symbol": "PHG",
         "Name": "Koninklijke Philips N.V. NY Registry Shares",
         "Security Name": "Koninklijke Philips N.V. NY Registry Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PHGE",
@@ -30306,7 +30663,8 @@
         "Symbol": "PHI",
         "Name": "PLDT Inc.",
         "Security Name": "PLDT Inc. Sponsored ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PHIN",
@@ -30546,7 +30904,8 @@
         "Symbol": "PKO",
         "Name": "Powszechna Kasa Oszczednosci Bk Plski SA",
         "Country": "Poland",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "PKOH",
@@ -30715,7 +31074,8 @@
         "Symbol": "PM",
         "Name": "Philip Morris International Inc",
         "Security Name": "Philip Morris International Inc Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PMAP",
@@ -30864,7 +31224,8 @@
         "Symbol": "PNC",
         "Name": "PNC Financial Services Group, Inc. (The)",
         "Security Name": "PNC Financial Services Group, Inc. (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PNFP",
@@ -30880,7 +31241,8 @@
         "Symbol": "PNNT",
         "Name": "PennantPark Investment Corporation",
         "Security Name": "PennantPark Investment Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PNOV",
@@ -30932,7 +31294,8 @@
     {
         "Symbol": "POOL",
         "Name": "Pool Corp",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "POR",
@@ -31006,7 +31369,8 @@
     {
         "Symbol": "PPLI",
         "Name": "People Incorporated",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PPLT",
@@ -31091,7 +31455,8 @@
         "Symbol": "PRGO",
         "Name": "Perrigo Company plc",
         "Security Name": "Perrigo Company plc Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PRH",
@@ -31237,7 +31602,8 @@
         "Symbol": "PSA",
         "Name": "Public Storage",
         "Security Name": "Public Storage Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PSA-F",
@@ -31347,7 +31713,8 @@
     {
         "Symbol": "PSEC",
         "Name": "Prospect Capital",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PSEC-A",
@@ -31625,7 +31992,8 @@
         "Symbol": "PUK",
         "Name": "Prudential Public Limited Company",
         "Security Name": "Prudential Public Limited Company Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "PULS",
@@ -31685,7 +32053,8 @@
         "Symbol": "PVH",
         "Name": "PVH Corp.",
         "Security Name": "PVH Corp. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PVI",
@@ -31729,7 +32098,8 @@
         "Symbol": "PWR",
         "Name": "Quanta Services, Inc. Common Stock",
         "Security Name": "Quanta Services, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "PWS",
@@ -31925,7 +32295,8 @@
     {
         "Symbol": "QCOM",
         "Name": "Qualcomm Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "QCRH",
@@ -32219,7 +32590,8 @@
         "Symbol": "QSR",
         "Name": "Restaurant Brands International Inc. Common Shares",
         "ownWebull": true,
-        "Security Name": "Restaurant Brands International Inc. Common Shares"
+        "Security Name": "Restaurant Brands International Inc. Common Shares",
+        "dividend": true
     },
     {
         "Symbol": "QTAP",
@@ -32390,7 +32762,8 @@
         "Symbol": "RA",
         "Name": "Brookfield Real Assets Income Fund Inc.",
         "Security Name": "Brookfield Real Assets Income Fund Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "RAAA",
@@ -32552,7 +32925,8 @@
         "Symbol": "RC",
         "Name": "Ready Capital Corporation Common Stock",
         "Security Name": "Ready Capital Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RC-C",
@@ -32598,7 +32972,8 @@
         "Symbol": "RCL",
         "Name": "Royal Caribbean Cruises Ltd.",
         "Security Name": "Royal Caribbean Cruises Ltd. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RCS",
@@ -32671,7 +33046,8 @@
         "Symbol": "RDY",
         "Name": "Dr. Reddy's Laboratories Ltd Common Stock",
         "Security Name": "Dr. Reddy's Laboratories Ltd Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RDYY",
@@ -32817,7 +33193,8 @@
     {
         "Symbol": "REYN",
         "Name": "Reynolds Consumer Products Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "REZ",
@@ -32835,7 +33212,8 @@
         "Symbol": "RF",
         "Name": "Regions Financial Corporation",
         "Security Name": "Regions Financial Corporation Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "RF-C",
@@ -32952,7 +33330,8 @@
     {
         "Symbol": "RGP",
         "Name": "Resources Connection Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RGR",
@@ -33090,7 +33469,8 @@
         "Symbol": "RITM",
         "Name": "Rithm Capital Corp.",
         "Security Name": "Rithm Capital Corp. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RITM-A",
@@ -33156,13 +33536,15 @@
     {
         "Symbol": "RKUNY",
         "Name": "Rakuten Group Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RL",
         "Name": "Ralph Lauren Corporation Common Stock",
         "ownWebull": true,
-        "Security Name": "Ralph Lauren Corporation Common Stock"
+        "Security Name": "Ralph Lauren Corporation Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "RLGT",
@@ -33388,7 +33770,8 @@
         "Symbol": "ROL",
         "Name": "Rollins, Inc. Common Stock",
         "Security Name": "Rollins, Inc. Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ROLR",
@@ -33410,7 +33793,8 @@
     {
         "Symbol": "ROP",
         "Name": "Roper Technologies Inc",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ROPE",
@@ -33433,7 +33817,8 @@
     {
         "Symbol": "ROST",
         "Name": "Ross Stores",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ROUS",
@@ -33746,7 +34131,8 @@
         "Symbol": "RTX",
         "Name": "RTX Corporation Common Stock",
         "Security Name": "RTX Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "RULE",
@@ -34023,7 +34409,8 @@
         "Symbol": "SACH",
         "Name": "Sachem Capital Corp. Common Shares",
         "ownWebull": true,
-        "Security Name": "Sachem Capital Corp. Common Shares"
+        "Security Name": "Sachem Capital Corp. Common Shares",
+        "dividend": true
     },
     {
         "Symbol": "SACH-A",
@@ -34112,7 +34499,8 @@
         "Symbol": "SAN",
         "Name": "Banco Santander, S.A. Sponsored ADR (Spain)",
         "ownWebull": true,
-        "Security Name": "Banco Santander, S.A. Sponsored ADR (Spain)"
+        "Security Name": "Banco Santander, S.A. Sponsored ADR (Spain)",
+        "dividend": true
     },
     {
         "Symbol": "SAND",
@@ -34123,7 +34511,8 @@
         "Symbol": "SAP",
         "Name": "SAP  SE ADS",
         "ownWebull": true,
-        "Security Name": "SAP  SE ADS"
+        "Security Name": "SAP  SE ADS",
+        "dividend": true
     },
     {
         "Symbol": "SAPH",
@@ -34274,7 +34663,8 @@
     {
         "Symbol": "SBLK",
         "Name": "Star Bulk Carriers Corp",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "SBND",
@@ -34310,7 +34700,8 @@
     {
         "Symbol": "SBUX",
         "Name": "Starbucks Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SBXD",
@@ -34473,7 +34864,8 @@
         "Name": "Schwab U.S. REIT ETF",
         "Security Name": "Schwab U.S. REIT ETF",
         "ETF": "Y",
-        "ownRobinhood": true
+        "ownRobinhood": true,
+        "dividend": true
     },
     {
         "Symbol": "SCHI",
@@ -34539,7 +34931,8 @@
         "Symbol": "SCHW",
         "Name": "Charles Schwab Corporation (The) Common Stock",
         "ownWebull": true,
-        "Security Name": "Charles Schwab Corporation (The) Common Stock"
+        "Security Name": "Charles Schwab Corporation (The) Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "SCHW-D",
@@ -34590,7 +34983,8 @@
         "Symbol": "SCL",
         "Name": "STEPAN CO COM",
         "Security Name": "Stepan Company Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "SCLZ",
@@ -35192,7 +35586,8 @@
         "Symbol": "SHG",
         "Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
         "Security Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SHIP",
@@ -35315,7 +35710,8 @@
         "Symbol": "SID",
         "Name": "Companhia Siderurgica Nacional S.A.",
         "Security Name": "Companhia Siderurgica Nacional S.A. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SIF",
@@ -35337,7 +35733,8 @@
         "Symbol": "SIG",
         "Name": "Signet Jewelers Limited",
         "Security Name": "Signet Jewelers Limited Common Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SIGA",
@@ -35387,7 +35784,8 @@
         "Symbol": "SIM",
         "Name": "Grupo Simec, S.A.B. de C.V.",
         "Security Name": "Grupo Simec, S.A.B. de C.V. American Depositary Shares",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "SIMO",
@@ -35403,7 +35801,8 @@
     {
         "Symbol": "SINGY",
         "Name": "Singapore Airlines Limited",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SIO",
@@ -35514,7 +35913,8 @@
         "Symbol": "SJM",
         "Name": "The J.M. Smucker Company",
         "ownWebull": true,
-        "Security Name": "The J.M. Smucker Company Common Stock"
+        "Security Name": "The J.M. Smucker Company Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "SJNK",
@@ -35553,7 +35953,8 @@
         "Symbol": "SKM",
         "Name": "SK Telecom Co., Ltd. Common Stock",
         "ownEtrade": true,
-        "Security Name": "SK Telecom Co., Ltd. Common Stock"
+        "Security Name": "SK Telecom Co., Ltd. Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "SKT",
@@ -35599,7 +36000,8 @@
         "Symbol": "SLG",
         "Name": "SL Green Realty Corp Common Stock",
         "ownWebull": true,
-        "Security Name": "SL Green Realty Corp Common Stock"
+        "Security Name": "SL Green Realty Corp Common Stock",
+        "dividend": true
     },
     {
         "Symbol": "SLG-I",
@@ -35800,13 +36202,15 @@
         "Symbol": "SMFG",
         "Name": "Sumitomo Mitsui Financial Group Inc",
         "Security Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SMG",
         "Name": "Scotts Miracle",
         "Security Name": "Scotts Miracle-Gro Company (The) Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "SMHB",
@@ -35913,7 +36317,8 @@
     {
         "Symbol": "SMSGY",
         "Name": "Samsonite Grp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SMTH",
@@ -35951,7 +36356,8 @@
         "Symbol": "SNA",
         "Name": "Snap-On Inc",
         "Security Name": "Snap-On Incorporated Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SNAP",
@@ -36078,7 +36484,8 @@
         "Symbol": "SO",
         "Name": "Southern Company (The)",
         "Security Name": "Southern Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SOAR",
@@ -36166,7 +36573,8 @@
         "Symbol": "SONY",
         "Name": "Sony Group Corporation",
         "Security Name": "Sony Group Corporation American Depositary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SOR",
@@ -36370,7 +36778,8 @@
         "Symbol": "SPGI",
         "Name": "S&P Global Inc. Common Stock",
         "Security Name": "S&P Global Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SPGM",
@@ -36445,7 +36854,8 @@
     {
         "Symbol": "SPKKY",
         "Name": "Spark New Zealand Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SPLB",
@@ -36706,7 +37116,8 @@
         "Name": "SPDR S&P 500",
         "Security Name": "SPDR S&P 500",
         "ETF": "Y",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SPYA",
@@ -36857,7 +37268,8 @@
         "Symbol": "SRL",
         "Name": "Scully Royalty Ltd.",
         "Security Name": "Scully Royalty Ltd.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SRLN",
@@ -36979,7 +37391,8 @@
     {
         "Symbol": "SSRM",
         "Name": "Ssr Mng Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SSSS",
@@ -37023,7 +37436,8 @@
         "Symbol": "STAG",
         "Name": "Stag Industrial, Inc.",
         "Security Name": "Stag Industrial, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "STAX",
@@ -37045,7 +37459,8 @@
     {
         "Symbol": "STBFY",
         "Name": "SoftBank Group Corp - ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "STC",
@@ -37190,7 +37605,8 @@
         "Symbol": "STT",
         "Name": "State Street Corporation Common Stock",
         "Security Name": "State Street Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "STT-G",
@@ -37216,7 +37632,8 @@
     {
         "Symbol": "STX",
         "Name": "Seagate Technology Hldngs Plc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "STXD",
@@ -37275,7 +37692,8 @@
         "Symbol": "STZ",
         "Name": "Constellation Brands, Inc. Common Stock",
         "Security Name": "Constellation Brands, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SU",
@@ -37347,7 +37765,8 @@
         "Symbol": "SUZ",
         "Name": "Suzano S.A.",
         "Security Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SVAL",
@@ -37391,7 +37810,7 @@
     {
         "Symbol": "SW",
         "Name": "Smurfit WestRock plc Ordinary Shares",
-        "Security Name": "Smurfit WestRock plc Ordinary Shares"        
+        "Security Name": "Smurfit WestRock plc Ordinary Shares"
     },
     {
         "Symbol": "SW",
@@ -37412,13 +37831,15 @@
     {
         "Symbol": "SWGAY",
         "Name": "Swatch Group ADR",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SWK",
         "Name": "Stanley Black & Decker, Inc.",
         "Security Name": "Stanley Black & Decker, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SWKS",
@@ -37470,7 +37891,8 @@
         "Symbol": "SYF",
         "Name": "Synchrony Financial",
         "Security Name": "Synchrony Financial Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "SYF-A",
@@ -37541,7 +37963,8 @@
     {
         "Symbol": "T",
         "Name": "AT&T Inc.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "T-A",
@@ -37604,7 +38027,8 @@
         "Symbol": "TAK",
         "Name": "Takeda Pharmaceutical Company Limited",
         "Security Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TAL",
@@ -37626,7 +38050,8 @@
         "Symbol": "TAP",
         "Name": "Molson Coors Beverage Company",
         "Security Name": "Molson Coors Beverage Company Class B Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TAP.A",
@@ -37781,7 +38206,8 @@
         "Symbol": "TCEHY",
         "Name": "Tencent",
         "Country": "China",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TCHP",
@@ -37820,7 +38246,8 @@
         "Symbol": "TD",
         "Name": "Toronto Dominion Bank (The)",
         "Security Name": "Toronto Dominion Bank (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TDAQ",
@@ -37915,7 +38342,7 @@
     {
         "Symbol": "TE",
         "Name": "T1 Energy Inc. Common Stock",
-        "Security Name": "T1 Energy Inc. Common Stock"        
+        "Security Name": "T1 Energy Inc. Common Stock"
     },
     {
         "Symbol": "TE.W",
@@ -38088,12 +38515,12 @@
     {
         "Symbol": "TFII",
         "Name": "TFI International Inc. Common Shares",
-        "Security Name": "TFI International Inc. Common Shares"        
+        "Security Name": "TFI International Inc. Common Shares"
     },
     {
         "Symbol": "TFIN",
         "Name": "Triumph Financial, Inc. Common Stock",
-        "Security Name": "Triumph Financial, Inc. Common Stock"        
+        "Security Name": "Triumph Financial, Inc. Common Stock"
     },
     {
         "Symbol": "TFIN-",
@@ -38191,7 +38618,8 @@
         "Symbol": "TGLS",
         "Name": "Tecnoglass Inc.",
         "Security Name": "Tecnoglass Inc. Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TGNA",
@@ -38214,14 +38642,16 @@
         "Symbol": "TGS",
         "Name": "Transportadora de Gas del Sur SA TGS",
         "Security Name": "Transportadora de Gas del Sur SA TGS Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "TGT",
         "Name": "Target Corporation",
         "Security Name": "Target Corporation Common Stock",
         "Country": "USA",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "THAR",
@@ -38252,7 +38682,7 @@
     {
         "Symbol": "THG",
         "Name": "Hanover Insurance Group Inc",
-        "Security Name": "Hanover Insurance Group Inc"        
+        "Security Name": "Hanover Insurance Group Inc"
     },
     {
         "Symbol": "THIR",
@@ -38375,7 +38805,8 @@
         "Symbol": "TIMB",
         "Name": "TIM S.A.",
         "Security Name": "TIM S.A. American Depositary Shares (Each representing 5 Common Shares)",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "TIME",
@@ -38484,7 +38915,8 @@
         "Symbol": "TKC",
         "Name": "Turkcell Iletisim Hizmetleri AS",
         "Security Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TKLF",
@@ -38518,7 +38950,8 @@
         "Symbol": "TLK",
         "Name": "PT Telekomunikasi Indonesia, Tbk",
         "Security Name": "PT Telekomunikasi Indonesia, Tbk",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TLN",
@@ -38576,7 +39009,8 @@
         "Name": "Toyota Motor Corporation",
         "Security Name": "Toyota Motor Corporation Common Stock",
         "Country": "Japan",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TMAR",
@@ -38605,7 +39039,8 @@
         "Symbol": "TME",
         "Name": "Tencent Music Entertainment Group",
         "Security Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "TMF",
@@ -38685,7 +39120,8 @@
     {
         "Symbol": "TMUS",
         "Name": "T Mobile Us",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TMV",
@@ -38732,7 +39168,8 @@
         "Symbol": "TNL",
         "Name": "Travel Leisure Co. Common Stock",
         "Security Name": "Travel Leisure Co. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TOAK",
@@ -38947,7 +39384,8 @@
         "Symbol": "TPVG",
         "Name": "TriplePoint Venture Growth BDC Corp.",
         "Security Name": "TriplePoint Venture Growth BDC Corp. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TPYP",
@@ -39013,7 +39451,8 @@
         "Symbol": "TRI",
         "Name": "Thomson Reuters Corp",
         "Country": "Canada",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TRIN",
@@ -39164,7 +39603,8 @@
         "Symbol": "TRV",
         "Name": "The Travelers Companies, Inc.",
         "Security Name": "The Travelers Companies, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TRVG",
@@ -39189,12 +39629,14 @@
     {
         "Symbol": "TSCDY",
         "Name": "Tesco Plc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TSCO",
         "Name": "Tractor Supply Co",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TSE",
@@ -39287,7 +39729,8 @@
         "Name": "Taiwan Semiconductor Manufacturing Company Ltd.",
         "Security Name": "Taiwan Semiconductor Manufacturing Company Ltd.",
         "Country": "Taiwan",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TSME",
@@ -39305,7 +39748,8 @@
         "Symbol": "TSN",
         "Name": "Tyson Foods, Inc.",
         "Security Name": "Tyson Foods, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TSPA",
@@ -39353,7 +39797,8 @@
     {
         "Symbol": "TTE",
         "Name": "TotalEnergies SE",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TTEK",
@@ -39395,7 +39840,8 @@
     {
         "Symbol": "TUR",
         "Name": "iShares MSCI Turkey ETF",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TUSB",
@@ -39574,7 +40020,8 @@
         "Symbol": "TYIDY",
         "Name": "Toyota Industries ADR Rep 1 Ord Shs",
         "Country": "Japan",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "TYL",
@@ -39682,7 +40129,8 @@
         "Symbol": "UBS",
         "Name": "UBS Group AG",
         "Security Name": "UBS Group AG Registered Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "UBSI",
@@ -39821,7 +40269,8 @@
         "Symbol": "UGP",
         "Name": "Ultrapar Participacoes S.A.",
         "Security Name": "Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "UHAL",
@@ -39854,7 +40303,8 @@
         "Symbol": "UI",
         "Name": "Ubiquiti Inc.",
         "Security Name": "Ubiquiti Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "UIS",
@@ -39889,7 +40339,8 @@
         "Symbol": "UL",
         "Name": "Unilever PLC",
         "Security Name": "Unilever PLC Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ULE",
@@ -39950,7 +40401,8 @@
     {
         "Symbol": "UMBF",
         "Name": "Umb Financial",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "UMC",
@@ -40004,7 +40456,8 @@
         "Symbol": "UNH",
         "Name": "UnitedHealth Group Incorporated Common Stock (DE)",
         "Security Name": "UnitedHealth Group Incorporated Common Stock (DE)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "UNL",
@@ -40087,7 +40540,8 @@
         "Name": "United Parcel Service, Inc.",
         "Security Name": "United Parcel Service, Inc. Common Stock",
         "Country": "USA",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "UPSD",
@@ -40212,7 +40666,8 @@
         "Symbol": "USB",
         "Name": "U.S. Bancorp",
         "Security Name": "U.S. Bancorp Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "USB-A",
@@ -40593,7 +41048,8 @@
         "Symbol": "V",
         "Name": "Visa Inc.",
         "Security Name": "Visa Inc.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VABK",
@@ -40625,7 +41081,8 @@
         "Symbol": "VALE",
         "Name": "VALE S.A.",
         "Security Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VALN",
@@ -40759,7 +41216,8 @@
     {
         "Symbol": "VDMCY",
         "Name": "Vodacom Group Limited",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VEA",
@@ -40809,7 +41267,8 @@
     {
         "Symbol": "VEON",
         "Name": "VEON Ltd",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VERS",
@@ -40838,7 +41297,8 @@
         "Symbol": "VFC",
         "Name": "V.F. Corporation Common Stock",
         "Security Name": "V.F. Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VFH",
@@ -40971,7 +41431,8 @@
         "Symbol": "VICI",
         "Name": "VICI Properties Inc. Common Stock",
         "Security Name": "VICI Properties Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VIDI",
@@ -41044,7 +41505,8 @@
         "Name": "Telefonica Brasil S.A.",
         "Security Name": "Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)",
         "Country": "Brazil",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "VIXM",
@@ -41107,7 +41569,8 @@
         "Symbol": "VLTO",
         "Name": "Veralto Corp",
         "Security Name": "Veralto Corp Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "VLU",
@@ -41180,7 +41643,8 @@
         "Symbol": "VNO",
         "Name": "Vornado Realty Trust",
         "Security Name": "Vornado Realty Trust Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VNO-L",
@@ -41248,7 +41712,8 @@
     {
         "Symbol": "VOD",
         "Name": "Vodafone Group Plc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VOE",
@@ -41261,7 +41726,8 @@
         "Name": "Vanguard S&P 500 ETF",
         "Security Name": "Vanguard S&P 500 ETF",
         "ETF": "Y",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VOOG",
@@ -41285,14 +41751,16 @@
         "Symbol": "VOW",
         "Name": "Volkswagen AG",
         "Country": "Germany",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "VOX",
         "Name": "Vanguard Communication Services  ETF",
         "Security Name": "Vanguard Communication Services  ETF",
         "ETF": "Y",
-        "ownSchwab": true
+        "ownSchwab": true,
+        "dividend": true
     },
     {
         "Symbol": "VOXR",
@@ -41613,7 +42081,8 @@
     {
         "Symbol": "VWAGY",
         "Name": "Volkswagen",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VWID",
@@ -41626,7 +42095,8 @@
         "Name": "Vanguard FTSE Emerging Markets ETF",
         "Security Name": "Vanguard FTSE Emerging Markets ETF",
         "ETF": "Y",
-        "ownRobinhood": true
+        "ownRobinhood": true,
+        "dividend": true
     },
     {
         "Symbol": "VXF",
@@ -41666,7 +42136,8 @@
         "Symbol": "VZ",
         "Name": "Verizon Communications Inc.",
         "Security Name": "Verizon Communications Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VZLA",
@@ -41769,7 +42240,8 @@
         "Symbol": "WBS",
         "Name": "Webster Financial Corporation Common Stock",
         "Security Name": "Webster Financial Corporation Common Stock",
-        "ownChase": true
+        "ownChase": true,
+        "dividend": true
     },
     {
         "Symbol": "WBS-F",
@@ -41835,7 +42307,8 @@
         "Symbol": "WD",
         "Name": "Walker & Dunlop, Inc Common Stock",
         "Security Name": "Walker & Dunlop, Inc Common Stock",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "WDAY",
@@ -41856,7 +42329,8 @@
     {
         "Symbol": "WDFC",
         "Name": "WD-40 Co",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WDH",
@@ -41951,7 +42425,8 @@
     {
         "Symbol": "WEN",
         "Name": "Wendys Co",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "WERN",
@@ -41977,13 +42452,15 @@
         "Symbol": "WF",
         "Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
         "Security Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WFC",
         "Name": "Wells Fargo & Company",
         "Security Name": "Wells Fargo & Company Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WFC-A",
@@ -42051,7 +42528,8 @@
     {
         "Symbol": "WHF",
         "Name": "Whitehorse",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WHG",
@@ -42066,7 +42544,8 @@
         "Symbol": "WHR",
         "Name": "Whirlpool Corporation Common Stock",
         "Security Name": "Whirlpool Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WHTX",
@@ -42190,7 +42669,8 @@
         "Symbol": "WM",
         "Name": "Waste Management, Inc. Common Stock",
         "Security Name": "Waste Management, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WMB",
@@ -42216,7 +42696,8 @@
         "Symbol": "WMT",
         "Name": "Walmart Inc.",
         "Security Name": "Walmart Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WNC",
@@ -42280,7 +42761,8 @@
         "Symbol": "WPP",
         "Name": "WPP plc American Depositary Shares",
         "Security Name": "WPP plc American Depositary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WRB",
@@ -42465,13 +42947,15 @@
     {
         "Symbol": "WTW",
         "Name": "Willis Towers Watson PLC",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WU",
         "Name": "Western Union Company (The)",
         "Security Name": "Western Union Company (The) Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "WUGI",
@@ -42738,7 +43222,8 @@
         "Symbol": "XHR",
         "Name": "Xenia Hotels & Resorts, Inc. Common Stock",
         "Security Name": "Xenia Hotels & Resorts, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "XHS",
@@ -43100,7 +43585,8 @@
         "Symbol": "XOM",
         "Name": "Exxon Mobil Corporation",
         "Security Name": "Exxon Mobil Corporation Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "XOMO",
@@ -43216,7 +43702,8 @@
     {
         "Symbol": "XRX",
         "Name": "Xerox Holdings Corp",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "XSD",
@@ -43450,7 +43937,8 @@
         "Symbol": "YAR",
         "Name": "Yara International ASA",
         "Country": "Norway",
-        "ownInteractiveBrokers": true
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "YB",
@@ -43653,13 +44141,15 @@
         "Symbol": "YUM",
         "Name": "Yum! Brands, Inc.",
         "Security Name": "Yum! Brands, Inc.",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "YUMC",
         "Name": "Yum China Holdings, Inc. Common Stock",
         "Security Name": "Yum China Holdings, Inc. Common Stock",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "YXI",
@@ -43772,7 +44262,8 @@
         "Symbol": "ZIM",
         "Name": "ZIM Integrated Shipping Services Ltd.",
         "Security Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ZION",
@@ -43902,7 +44393,8 @@
         "Symbol": "ZTR",
         "Name": "Virtus Total Return Fund Inc.",
         "Security Name": "Virtus Total Return Fund Inc.",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": true
     },
     {
         "Symbol": "ZTS",
@@ -43917,7 +44409,8 @@
     {
         "Symbol": "ZURVY",
         "Name": "Zurich Insurance",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "ZVIA",
