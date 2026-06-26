@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["DD"]
+stocksToAdd = ["PKN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="DuPont de Nemours Inc")
+    addStock(stock, name="Orlen SA")

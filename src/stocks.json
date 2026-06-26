@@ -995,8 +995,8 @@
     },
     {
         "Symbol": "AGMH",
-        "Name": "AGM Group Holdings Inc",        
-        "dividend": true        
+        "Name": "AGM Group Holdings Inc",
+        "dividend": true
     },
     {
         "Symbol": "AGNC",
@@ -4464,7 +4464,7 @@
         "Symbol": "BH.A",
         "Name": "Biglari Holdings Inc. Class A Common Stock",
         "Security Name": "Biglari Holdings Inc. Class A Common Stock",
-        "Exchange": "N"        
+        "Exchange": "N"
     },
     {
         "Symbol": "BHB",
@@ -5136,7 +5136,7 @@
     },
     {
         "Symbol": "BMA",
-        "Name": "Banco Macro S.A.",        
+        "Name": "Banco Macro S.A.",
         "Security Name": "Banco Macro S.A. ADR (representing Ten Class B Common Shares)",
         "ownEtrade": true
     },
@@ -5346,8 +5346,8 @@
     },
     {
         "Symbol": "BNRG",
-        "Name": "Brenmiller Energy Ltd",        
-        "dividend": true        
+        "Name": "Brenmiller Energy Ltd",
+        "dividend": true
     },
     {
         "Symbol": "BNS",
@@ -5724,7 +5724,7 @@
     {
         "Symbol": "BRSL",
         "Name": "Brightstar Lottery PLC",
-        "Security Name": "Brightstar Lottery PLC",        
+        "Security Name": "Brightstar Lottery PLC",
         "Country": "United Kingdom",
         "ownWebull": true
     },
@@ -6406,7 +6406,7 @@
     },
     {
         "Symbol": "C",
-        "Name": "Citigroup, Inc. Common Stock",
+        "Name": "Citigroup, Inc.",
         "Security Name": "Citigroup, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -6557,7 +6557,7 @@
     },
     {
         "Symbol": "CANF",
-        "Name": "Can-Fite BioPharma Ltd.",        
+        "Name": "Can-Fite BioPharma Ltd.",
         "Security Name": "Can-Fite Biopharma Ltd Sponsored ADR (Israel)",
         "Country": "Israel",
         "ownWebull": true
@@ -7481,9 +7481,8 @@
     {
         "Symbol": "CHE",
         "Name": "Chemed Corp",
-        "ownEtrade": true,
         "Security Name": "Chemed Corp",
-        "ETF": "N"
+        "ownEtrade": true
     },
     {
         "Symbol": "CHECU",
@@ -32379,7 +32378,7 @@
     },
     {
         "Symbol": "PGR",
-        "Name": "Progressive Corporation (The)",        
+        "Name": "Progressive Corporation (The)",
         "Security Name": "Progressive Corporation (The) Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -32445,7 +32444,7 @@
     },
     {
         "Symbol": "PHG",
-        "Name": "Koninklijke Philips N.V. NY Registry Shares",        
+        "Name": "Koninklijke Philips N.V. NY Registry Shares",
         "Security Name": "Koninklijke Philips N.V. NY Registry Shares",
         "ETF": "N",
         "ownWebull": true
@@ -32458,7 +32457,7 @@
     },
     {
         "Symbol": "PHI",
-        "Name": "PLDT Inc.",        
+        "Name": "PLDT Inc.",
         "Security Name": "PLDT Inc. Sponsored ADR",
         "ETF": "N",
         "ownWebull": true
@@ -32698,6 +32697,20 @@
         "ETF": "N"
     },
     {
+        "Symbol": "PKN",
+        "Name": "Orlen SA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "PKO",
         "Name": "Powszechna Kasa Oszczednosci Bk Plski SA",
         "Country": "Poland",
@@ -32727,7 +32740,7 @@
     },
     {
         "Symbol": "PL",
-        "Name": "Planet Labs PBC",        
+        "Name": "Planet Labs PBC",
         "Security Name": "Planet Labs PBC Class A Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -33040,7 +33053,7 @@
     },
     {
         "Symbol": "PNC",
-        "Name": "PNC Financial Services Group, Inc. (The)",        
+        "Name": "PNC Financial Services Group, Inc. (The)",
         "Security Name": "PNC Financial Services Group, Inc. (The) Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -33910,12 +33923,12 @@
         "Symbol": "PVEX",
         "Name": "Elevation Series Trust TrueShares ConVex Protect ETF",
         "Security Name": "Elevation Series Trust TrueShares ConVex Protect ETF",
-        "Exchange": "Z",        
-        "ETF": "Y"        
+        "Exchange": "Z",
+        "ETF": "Y"
     },
     {
         "Symbol": "PVH",
-        "Name": "PVH Corp.",        
+        "Name": "PVH Corp.",
         "Security Name": "PVH Corp. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -34095,7 +34108,7 @@
         "Name": "Elevation Series Trust TrueShares Quarterly Bear Hedge ETF",
         "Security Name": "Elevation Series Trust TrueShares Quarterly Bear Hedge ETF",
         "Exchange": "Z",
-        "ETF": "Y"        
+        "ETF": "Y"
     },
     {
         "Symbol": "QBF",
@@ -34111,7 +34124,7 @@
     },
     {
         "Symbol": "QBTS",
-        "Name": "D-Wave Quantum Inc",        
+        "Name": "D-Wave Quantum Inc",
         "Security Name": "D-Wave Quantum Inc. Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -34129,8 +34142,8 @@
     {
         "Symbol": "QBUL",
         "Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",
-        "Security Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",        
-        "ETF": "Y"        
+        "Security Name": "Elevation Series Trust TrueShares Quarterly Bull Hedge ETF",
+        "ETF": "Y"
     },
     {
         "Symbol": "QCAP",
@@ -34570,13 +34583,13 @@
     },
     {
         "Symbol": "QVCC",
-        "Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",        
-        "Security Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",        
+        "Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",
+        "Security Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",
         "ownWebull": true
     },
     {
         "Symbol": "QVCD",
-        "Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067", 
+        "Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067",
         "Security Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067",
         "ownWebull": true
     },
@@ -40266,7 +40279,7 @@
     },
     {
         "Symbol": "TBBB",
-        "Name": "BBB Foods Inc.",        
+        "Name": "BBB Foods Inc.",
         "Security Name": "BBB Foods Inc. Class A Common Shares",
         "ETF": "N",
         "ownWebull": true
@@ -41230,7 +41243,7 @@
     {
         "Symbol": "TM",
         "Name": "Toyota Motor Corporation",
-        "Security Name": "Toyota Motor Corporation Common Stock",        
+        "Security Name": "Toyota Motor Corporation Common Stock",
         "Country": "Japan",
         "ownWebull": true
     },
@@ -41599,7 +41612,7 @@
     {
         "Symbol": "TPR",
         "Name": "Tapestry, Inc.",
-        "Security Name": "Tapestry, Inc. Common Stock",        
+        "Security Name": "Tapestry, Inc. Common Stock",
         "ownWebull": true
     },
     {
@@ -42000,7 +42013,7 @@
     {
         "Symbol": "TSN",
         "Name": "Tyson Foods, Inc.",
-        "Security Name": "Tyson Foods, Inc. Common Stock",        
+        "Security Name": "Tyson Foods, Inc. Common Stock",
         "ownWebull": true
     },
     {
