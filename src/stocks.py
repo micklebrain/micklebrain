@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ZAL"]
+stocksToAdd = ["PZU"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Zalando SE", ownInteractiveBrokers=True)
+    addStock(stock, name="Powszechny Zaklad Ubezpieczen SA", ownInteractiveBrokers=True)

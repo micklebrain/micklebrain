@@ -34095,6 +34095,13 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "PZU",
+        "Name": "Powszechny Zaklad Ubezpieczen SA",
+        "Country": "Poland",
+        "ownInteractiveBrokers": true,
+        "dividend": true
+    },
+    {
         "Symbol": "PZZA",
         "Name": "Papa John's International Inc",
         "Country": "USA",
@@ -41383,6 +41390,13 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "TMV",
+        "Name": "TeamViewer SE",
+        "Country": "Germany",
+        "ownInteractiveBrokers": true,
+        "dividend": true
+    },
+    {
         "Symbol": "TNA",
         "Name": "Direxion Small Cap Bull 3X Shares",
         "Security Name": "Direxion Small Cap Bull 3X Shares",
@@ -46676,9 +46690,9 @@
     },
     {
         "Symbol": "ZAL",
-        "Name": "Zalando SE",        
+        "Name": "Zalando SE",
         "ownInteractiveBrokers": true,
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "ZALT",
