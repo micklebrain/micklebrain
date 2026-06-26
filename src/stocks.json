@@ -10053,7 +10053,7 @@
     },
     {
         "Symbol": "DIS",
-        "Name": "Walt Disney Company (The) Common Stock",
+        "Name": "Walt Disney Company (The)",
         "Security Name": "Walt Disney Company (The) Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -10155,17 +10155,8 @@
     },
     {
         "Symbol": "DJCO",
-        "Name": "Daily Journal Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Daily Journal Corp",        
+        "dividend": true        
     },
     {
         "Symbol": "DJD",
@@ -11199,9 +11190,10 @@
     },
     {
         "Symbol": "EC",
-        "Name": "Ecopetrol S.A. American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Ecopetrol S.A.",
         "Security Name": "Ecopetrol S.A. American Depositary Shares",
+        "Country": "Colombia",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -11368,9 +11360,10 @@
     },
     {
         "Symbol": "EDN",
-        "Name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares",
-        "ownEtrade": true,
-        "Security Name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares"
+        "Name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor)",
+        "Security Name": "Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares",
+        "Country": "Argentina",
+        "ownEtrade": true
     },
     {
         "Symbol": "EDOG",
@@ -11387,6 +11380,7 @@
     {
         "Symbol": "EDRY",
         "Name": "EuroDry Ltd",
+        "Country": "Greece",
         "ownEtrade": true
     },
     {
