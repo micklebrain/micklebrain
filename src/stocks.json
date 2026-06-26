@@ -3597,6 +3597,7 @@
         "Symbol": "BBVA",
         "Name": "Banco Bilbao Vizcaya Argentaria S.A.",
         "Security Name": "Banco Bilbao Vizcaya Argentaria S.A. Common Stock",
+        "Country": "Spain",
         "ownWebull": true,
         "dividend": true
     },
@@ -3821,7 +3822,7 @@
     },
     {
         "Symbol": "BDN",
-        "Name": "Brandywine Realty Trust Common Stock",
+        "Name": "Brandywine Realty Trust",
         "Security Name": "Brandywine Realty Trust Common Stock",
         "ownEtrade": true
     },
@@ -3833,7 +3834,8 @@
     },
     {
         "Symbol": "BDRFY",
-        "Name": "Beiersdorf",
+        "Name": "Beiersdorf AG",
+        "Country": "Germany",
         "ownWebull": true,
         "dividend": true
     },
@@ -9450,7 +9452,7 @@
     },
     {
         "Symbol": "DDS",
-        "Name": "Dillard's, Inc. Common Stock",
+        "Name": "Dillard's, Inc.",
         "Security Name": "Dillard's, Inc. Common Stock",
         "ownWebull": true
     },
