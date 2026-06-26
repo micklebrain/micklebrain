@@ -219,8 +219,7 @@
     {
         "Symbol": "AB",
         "Name": "AllianceBernstein Holding L.P.  Units",
-        "Security Name": "AllianceBernstein Holding L.P.  Units",
-        "ETF": "N"
+        "Security Name": "AllianceBernstein Holding L.P.  Units"
     },
     {
         "Symbol": "ABBV",
@@ -232,7 +231,6 @@
         "Symbol": "ABCB",
         "Name": "Ameris Bancorp",
         "Security Name": "Ameris Bancorp Common Stock",
-        "ETF": "N",
         "ownEtrade": true
     },
     {
@@ -249,9 +247,8 @@
     },
     {
         "Symbol": "ABEV",
-        "Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
+        "Name": "Ambev S.A.",
         "Security Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
-        "ETF": "N",
         "ownWebull": true
     },
     {
@@ -571,7 +568,6 @@
         "Symbol": "AD",
         "Name": "Array Digital Infrastructure Inc",
         "Security Name": "Array Digital Infrastructure, Inc. Common Shares",
-        "ETF": "N",
         "dividend": true
     },
     {
@@ -623,16 +619,7 @@
     {
         "Symbol": "ADI",
         "Name": "Analog Devices Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "ADIV",
@@ -1316,7 +1303,7 @@
     },
     {
         "Symbol": "AJG",
-        "Name": "Arthur J. Gallagher & Co. Common Stock",
+        "Name": "Arthur J. Gallagher & Co.",
         "Security Name": "Arthur J. Gallagher & Co. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -3384,9 +3371,10 @@
     },
     {
         "Symbol": "BABA",
-        "Name": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+        "Name": "Alibaba Group Holding Limited",
         "Security Name": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
         "ETF": "N",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -3458,13 +3446,15 @@
     },
     {
         "Symbol": "BAC-S",
-        "Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.750% Non",
+        "Name": "Bank of America Corporation",
         "Security Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.750% Non-Cumulative Preferred Stock, Series SS",
         "ETF": "N"
     },
     {
         "Symbol": "BACHY",
         "Name": "Bank Of China",
+        "Security Name": "Bank of China ADR Reptg 25 Ord Shs Class H",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -3525,10 +3515,10 @@
     },
     {
         "Symbol": "BAM",
-        "Name": "BROOKFIELD ASSET MANAGMT",
-        "ownEtrade": true,
+        "Name": "Brookfield Asset Management Ltd.",
         "Security Name": "Brookfield Asset Management Inc Class A Limited Voting Shares",
-        "ETF": "N"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "BAMA",
@@ -4425,7 +4415,7 @@
     },
     {
         "Symbol": "BGS",
-        "Name": "B&G Foods, Inc. Common Stock",
+        "Name": "B&G Foods, Inc.",
         "Security Name": "B&G Foods, Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -5359,17 +5349,8 @@
     },
     {
         "Symbol": "BNRG",
-        "Name": "Brenmiller Energy Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Brenmiller Energy Ltd",        
+        "dividend": true        
     },
     {
         "Symbol": "BNS",
@@ -39952,7 +39933,7 @@
     },
     {
         "Symbol": "SUZ",
-        "Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
+        "Name": "Suzano S.A.",
         "Security Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
         "ETF": "N",
         "ownWebull": true
@@ -40040,16 +40021,7 @@
     {
         "Symbol": "SWMR",
         "Name": "Swarmer Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "SWX",
@@ -40173,7 +40145,6 @@
     {
         "Symbol": "T",
         "Name": "AT&T Inc.",
-        "ETF": "N",
         "ownWebull": true
     },
     {
@@ -40462,10 +40433,10 @@
     },
     {
         "Symbol": "TD",
-        "Name": "Toronto Dominion Bank (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Toronto Dominion Bank (The)",
         "Security Name": "Toronto Dominion Bank (The) Common Stock",
-        "ETF": "N"
+        "ETF": "N",
+        "ownWebull": true
     },
     {
         "Symbol": "TDAQ",
@@ -40686,7 +40657,6 @@
         "Symbol": "TEO",
         "Name": "Telecom Argentina SA",
         "Security Name": "Telecom Argentina SA",
-        "ETF": "N",
         "ownWebull": true
     },
     {
@@ -41276,8 +41246,7 @@
     {
         "Symbol": "TM",
         "Name": "Toyota Motor Corporation",
-        "Security Name": "Toyota Motor Corporation Common Stock",
-        "ETF": "N",
+        "Security Name": "Toyota Motor Corporation Common Stock",        
         "Country": "Japan",
         "ownWebull": true
     },
@@ -41307,7 +41276,7 @@
     },
     {
         "Symbol": "TME",
-        "Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
+        "Name": "Tencent Music Entertainment Group",
         "Security Name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -41646,8 +41615,7 @@
     {
         "Symbol": "TPR",
         "Name": "Tapestry, Inc.",
-        "Security Name": "Tapestry, Inc. Common Stock",
-        "ETF": "N",
+        "Security Name": "Tapestry, Inc. Common Stock",        
         "ownWebull": true
     },
     {
@@ -42048,8 +42016,7 @@
     {
         "Symbol": "TSN",
         "Name": "Tyson Foods, Inc.",
-        "Security Name": "Tyson Foods, Inc. Common Stock",
-        "ETF": "N",
+        "Security Name": "Tyson Foods, Inc. Common Stock",        
         "ownWebull": true
     },
     {
@@ -42644,7 +42611,7 @@
     },
     {
         "Symbol": "UI",
-        "Name": "Ubiquiti Inc. Common Stock",
+        "Name": "Ubiquiti Inc.",
         "Security Name": "Ubiquiti Inc. Common Stock",
         "ETF": "N",
         "ownWebull": true
@@ -42681,7 +42648,7 @@
     },
     {
         "Symbol": "UL",
-        "Name": "Unilever PLC Common Stock",
+        "Name": "Unilever PLC",
         "Security Name": "Unilever PLC Common Stock",
         "ETF": "N",
         "ownWebull": true
