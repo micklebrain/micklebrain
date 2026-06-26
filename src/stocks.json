@@ -5632,7 +5632,7 @@
         "Symbol": "BRIA",
         "Name": "BrilliA Inc",
         "Security Name": "BrilliA Inc Class A Ordinary Shares",
-        "ETF": "N",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -5724,8 +5724,7 @@
     {
         "Symbol": "BRSL",
         "Name": "Brightstar Lottery PLC",
-        "Security Name": "Brightstar Lottery PLC",
-        "ETF": "N",
+        "Security Name": "Brightstar Lottery PLC",        
         "Country": "United Kingdom",
         "ownWebull": true
     },
@@ -6264,7 +6263,7 @@
     },
     {
         "Symbol": "BWMX",
-        "Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
+        "Name": "Betterware de Mexico, S.A.P.I. de C.V.",
         "Security Name": "Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",
         "ETF": "N",
         "ownEtrade": true
@@ -6558,10 +6557,10 @@
     },
     {
         "Symbol": "CANF",
-        "Name": "Can",
-        "ownWebull": true,
+        "Name": "Can-Fite BioPharma Ltd.",        
         "Security Name": "Can-Fite Biopharma Ltd Sponsored ADR (Israel)",
-        "ETF": "N"
+        "Country": "Israel",
+        "ownWebull": true
     },
     {
         "Symbol": "CANG",
