@@ -17338,9 +17338,7 @@
         "Symbol": "GROY.W",
         "Name": "Gold Royalty Corp. Warrants",
         "Security Name": "Gold Royalty Corp. Warrants",
-        "Exchange": "A",
-        "CQS Symbol": "GROY.WS",
-        "NASDAQ Symbol": "GROY+"
+        "Exchange": "A"        
     },
     {
         "Symbol": "GROZ",
@@ -17381,7 +17379,7 @@
     },
     {
         "Symbol": "GS",
-        "Name": "Goldman Sachs Group, Inc. (The) Common Stock",
+        "Name": "Goldman Sachs Group, Inc. (The)",
         "Security Name": "Goldman Sachs Group, Inc. (The) Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -17408,9 +17406,9 @@
     },
     {
         "Symbol": "GSBD",
-        "Name": "Goldman Sachs BDC, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Goldman Sachs BDC, Inc.",        
         "Security Name": "Goldman Sachs BDC, Inc. Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -29838,9 +29836,9 @@
     },
     {
         "Symbol": "PAYC",
-        "Name": "Paycom Software, Inc. Common Stock",
-        "ownWebull": true,
-        "Security Name": "Paycom Software, Inc. Common Stock"
+        "Name": "Paycom Software, Inc.",
+        "Security Name": "Paycom Software, Inc. Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "PAYP",
@@ -30081,9 +30079,9 @@
     },
     {
         "Symbol": "PCG",
-        "Name": "Pacific Gas & Electric Co. Common Stock",
-        "ownWebull": true,
-        "Security Name": "Pacific Gas & Electric Co. Common Stock"
+        "Name": "Pacific Gas & Electric Co.",
+        "Security Name": "Pacific Gas & Electric Co. Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "PCG-A",
@@ -30210,16 +30208,19 @@
     },
     {
         "Symbol": "PD",
-        "Name": "PagerDuty, Inc. Common Stock",
-        "ownWebull": true,
-        "Security Name": "PagerDuty, Inc. Common Stock"
+        "Name": "PagerDuty, Inc.",        
+        "Security Name": "PagerDuty, Inc. Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "PDBC",
+        "Name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF",
         "ownRobinhood": true
     },
     {
         "Symbol": "PDC",
+        "Name": "Perpetuals.com Ltd - ADR",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -30702,10 +30703,10 @@
     },
     {
         "Symbol": "PHYS",
-        "Name": "Sprott Physical Gold Trust ETV",
-        "ownWebull": true,
+        "Name": "Sprott Physical Gold Trust ETV",        
         "Security Name": "Sprott Physical Gold Trust ETV",
-        "ETF": "Y"
+        "ETF": "Y",
+        "ownWebull": true
     },
     {
         "Symbol": "PICB",
@@ -30835,9 +30836,9 @@
     },
     {
         "Symbol": "PJT",
-        "Name": "PJT Partners Inc. Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "PJT Partners Inc. Class A Common Stock"
+        "Name": "PJT Partners Inc.",        
+        "Security Name": "PJT Partners Inc. Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "PJUL",
@@ -30879,17 +30880,8 @@
     },
     {
         "Symbol": "PKN",
-        "Name": "Orlen SA",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Orlen SA",        
+        "dividend": true        
     },
     {
         "Symbol": "PKO",
@@ -32579,9 +32571,9 @@
     },
     {
         "Symbol": "QSR",
-        "Name": "Restaurant Brands International Inc. Common Shares",
-        "ownWebull": true,
+        "Name": "Restaurant Brands International Inc.",
         "Security Name": "Restaurant Brands International Inc. Common Shares",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -32882,9 +32874,9 @@
     },
     {
         "Symbol": "RBLX",
-        "Name": "Roblox Corporation Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "Roblox Corporation Class A Common Stock"
+        "Name": "Roblox Corporation",
+        "Security Name": "Roblox Corporation Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "RBLY",
@@ -32914,7 +32906,7 @@
     },
     {
         "Symbol": "RC",
-        "Name": "Ready Capital Corporation Common Stock",
+        "Name": "Ready Capital Corporation",
         "Security Name": "Ready Capital Corporation Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -33520,9 +33512,9 @@
     },
     {
         "Symbol": "RKT",
-        "Name": "Rocket Companies, Inc. Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "Rocket Companies, Inc. Class A Common Stock"
+        "Name": "Rocket Companies, Inc.",        
+        "Security Name": "Rocket Companies, Inc. Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "RKUNY",
@@ -33532,10 +33524,10 @@
     },
     {
         "Symbol": "RL",
-        "Name": "Ralph Lauren Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Ralph Lauren Corporation",
         "Security Name": "Ralph Lauren Corporation Common Stock",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "RLGT",
@@ -42229,7 +42221,7 @@
     },
     {
         "Symbol": "WBS",
-        "Name": "Webster Financial Corporation Common Stock",
+        "Name": "Webster Financial Corporation",
         "Security Name": "Webster Financial Corporation Common Stock",
         "ownChase": true,
         "dividend": true
@@ -42533,7 +42525,7 @@
     },
     {
         "Symbol": "WHR",
-        "Name": "Whirlpool Corporation Common Stock",
+        "Name": "Whirlpool Corporation",
         "Security Name": "Whirlpool Corporation Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -42977,7 +42969,7 @@
     },
     {
         "Symbol": "WWW",
-        "Name": "Wolverine World Wide, Inc. Common Stock",
+        "Name": "Wolverine World Wide, Inc.",
         "Security Name": "Wolverine World Wide, Inc. Common Stock",
         "ownWebull": true
     },
@@ -43267,6 +43259,7 @@
     {
         "Symbol": "XIACY",
         "Name": "Xiaomi Corp",
+        "Country": "China",
         "ownWebull": true
     },
     {
