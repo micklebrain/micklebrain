@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["PZU"]
+stocksToAdd = ["FCBM"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Powszechny Zaklad Ubezpieczen SA", ownInteractiveBrokers=True)
+    addStock(stock, name="First Carolina Financial Services Inc")

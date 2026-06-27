@@ -2283,7 +2283,7 @@
     {
         "Symbol": "ARXS",
         "Name": "Arxis Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "AS",
@@ -4618,9 +4618,9 @@
     },
     {
         "Symbol": "BKSY",
-        "Name": "BlackSky Technology Inc. Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "BlackSky Technology Inc. Class A Common Stock"
+        "Name": "BlackSky Technology Inc.",
+        "Security Name": "BlackSky Technology Inc. Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "BKSY.W",
@@ -10156,8 +10156,8 @@
     },
     {
         "Symbol": "DJCO",
-        "Name": "Daily Journal Corp",        
-        "dividend": true        
+        "Name": "Daily Journal Corp",
+        "dividend": true
     },
     {
         "Symbol": "DJD",
@@ -10511,6 +10511,20 @@
         "dividend": true
     },
     {
+        "Symbol": "DPC",
+        "Name": "DPC Holdings Ord Shs",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "DPG",
         "Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
         "Security Name": "Duff & Phelps Utility and Infrastructure Fund Inc."
@@ -10620,6 +10634,20 @@
         "Name": "Direxion Daily Real Estate Bear 3X Shares",
         "Security Name": "Direxion Daily Real Estate Bear 3X Shares",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "DSC",
+        "Name": "DSC Holdings ADR",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DSCF",
@@ -13530,6 +13558,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FCBM",
+        "Name": "First Carolina Financial Services Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FCCO",
         "Name": "First Community Corp (South Carolina)",
         "dividend": true
@@ -14294,6 +14336,20 @@
         "Symbol": "FISK",
         "Name": "Empire State Realty OP, L.P. Series 250 Operating Partnership Units Representing Limited Partnership Interests",
         "Security Name": "Empire State Realty OP, L.P. Series 250 Operating Partnership Units Representing Limited Partnership Interests"
+    },
+    {
+        "Symbol": "FISN",
+        "Name": "Deep Fission Ord Shs",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "FISR",
@@ -16362,7 +16418,7 @@
     },
     {
         "Symbol": "GGB",
-        "Name": "Gerdau S.A.",        
+        "Name": "Gerdau S.A.",
         "Security Name": "Gerdau S.A. Common Stock",
         "ownWebull": true
     },
@@ -16706,8 +16762,8 @@
     },
     {
         "Symbol": "GLOO",
-        "Name": "Gloo Holdings Inc",        
-        "dividend": true        
+        "Name": "Gloo Holdings Inc",
+        "dividend": true
     },
     {
         "Symbol": "GLOP-A",
@@ -17230,7 +17286,7 @@
         "Symbol": "GRAF.W",
         "Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
         "Security Name": "Graf Global Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "GRBK",
@@ -17333,7 +17389,7 @@
         "Symbol": "GROY.W",
         "Name": "Gold Royalty Corp. Warrants",
         "Security Name": "Gold Royalty Corp. Warrants",
-        "Exchange": "A"        
+        "Exchange": "A"
     },
     {
         "Symbol": "GROZ",
@@ -17401,7 +17457,7 @@
     },
     {
         "Symbol": "GSBD",
-        "Name": "Goldman Sachs BDC, Inc.",        
+        "Name": "Goldman Sachs BDC, Inc.",
         "Security Name": "Goldman Sachs BDC, Inc. Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -23629,17 +23685,13 @@
         "Symbol": "LEGT.U",
         "Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one",
         "Security Name": "Legato Merger Corp. III Units, each consisting of one Ordinary Share and one-half of one warrant",
-        "Exchange": "A",
-        "CQS Symbol": "LEGT.U",
-        "NASDAQ Symbol": "LEGT="
+        "Exchange": "A"
     },
     {
         "Symbol": "LEGT.W",
         "Name": "Legato Merger Corp. III Redeemable Warrants, each whole warrant exercisable for one ordinary share at an exercise price of $11.50 per share",
         "Security Name": "Legato Merger Corp. III Redeemable Warrants, each whole warrant exercisable for one ordinary share at an exercise price of $11.50 per share",
-        "Exchange": "A",
-        "CQS Symbol": "LEGT.WS",
-        "NASDAQ Symbol": "LEGT+"
+        "Exchange": "A"
     },
     {
         "Symbol": "LEMB",
@@ -23688,9 +23740,9 @@
     },
     {
         "Symbol": "LEVI",
-        "Name": "Levi Strauss & Co Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "Levi Strauss & Co Class A Common Stock"
+        "Name": "Levi Strauss & Co",
+        "Security Name": "Levi Strauss & Co Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "LFAI",
@@ -24162,8 +24214,9 @@
     },
     {
         "Symbol": "LND",
-        "Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
+        "Name": "Brasilagro Brazilian Agric Real Estate Co",
         "Security Name": "Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -25067,9 +25120,9 @@
     },
     {
         "Symbol": "MCK",
-        "Name": "McKesson Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "McKesson Corporation",
         "Security Name": "McKesson Corporation Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -25079,9 +25132,9 @@
     },
     {
         "Symbol": "MCO",
-        "Name": "Moody's Corporation Common Stock",
-        "ownEtrade": true,
+        "Name": "Moody's Corporation",
         "Security Name": "Moody's Corporation Common Stock",
+        "ownEtrade": true,
         "dividend": true
     },
     {
@@ -25258,16 +25311,7 @@
     {
         "Symbol": "MEDP",
         "Name": "Medpace Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "MEG",
@@ -25413,9 +25457,10 @@
     },
     {
         "Symbol": "MFG",
-        "Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-        "ownWebull": true,
+        "Name": "Mizuho Financial Group, Inc.",
         "Security Name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
+        "Country": "Japan",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -25742,16 +25787,7 @@
     {
         "Symbol": "MIST",
         "Name": "Milestone Pharmaceuticals Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "MITEY",
@@ -26092,9 +26128,9 @@
     },
     {
         "Symbol": "MNR",
-        "Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
-        "ownWebull": true,
+        "Name": "Mach Natural Resources LP",
         "Security Name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -26412,9 +26448,9 @@
     },
     {
         "Symbol": "MS",
-        "Name": "Morgan Stanley Common Stock",
-        "ownWebull": true,
+        "Name": "Morgan Stanley",
         "Security Name": "Morgan Stanley Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -30204,7 +30240,7 @@
     },
     {
         "Symbol": "PD",
-        "Name": "PagerDuty, Inc.",        
+        "Name": "PagerDuty, Inc.",
         "Security Name": "PagerDuty, Inc. Common Stock",
         "ownWebull": true
     },
@@ -30699,7 +30735,7 @@
     },
     {
         "Symbol": "PHYS",
-        "Name": "Sprott Physical Gold Trust ETV",        
+        "Name": "Sprott Physical Gold Trust ETV",
         "Security Name": "Sprott Physical Gold Trust ETV",
         "ETF": "Y",
         "ownWebull": true
@@ -30832,7 +30868,7 @@
     },
     {
         "Symbol": "PJT",
-        "Name": "PJT Partners Inc.",        
+        "Name": "PJT Partners Inc.",
         "Security Name": "PJT Partners Inc. Class A Common Stock",
         "ownWebull": true
     },
@@ -30876,8 +30912,8 @@
     },
     {
         "Symbol": "PKN",
-        "Name": "Orlen SA",        
-        "dividend": true        
+        "Name": "Orlen SA",
+        "dividend": true
     },
     {
         "Symbol": "PKO",
@@ -33508,7 +33544,7 @@
     },
     {
         "Symbol": "RKT",
-        "Name": "Rocket Companies, Inc.",        
+        "Name": "Rocket Companies, Inc.",
         "Security Name": "Rocket Companies, Inc. Class A Common Stock",
         "ownWebull": true
     },
@@ -35776,6 +35812,20 @@
         "Name": "SPDR S&P Kensho Intelligent Structures ETF",
         "Security Name": "SPDR S&P Kensho Intelligent Structures ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "SIND",
+        "Name": "Sinda Ord Shs",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SINGY",
