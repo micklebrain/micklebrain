@@ -21625,6 +21625,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "JATT",
+        "Name": "Jatt II Acquisition Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "JAVA",
         "Name": "JPMorgan Active Value ETF",
         "Security Name": "JPMorgan Active Value ETF",
@@ -22941,6 +22955,20 @@
         "Name": "Invesco Exchange",
         "Security Name": "Invesco Exchange-Traded Fund Trust II Invesco MSCI Global Climate 500 ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "KLRA",
+        "Name": "Kailera Therapeutics Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "KLXY",
@@ -26182,6 +26210,20 @@
         "Name": "VanEck Morningstar Wide Moat ETF",
         "Security Name": "VanEck Morningstar Wide Moat ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "MOBI",
+        "Name": "Mobia Medical Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MOD",

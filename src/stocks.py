@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["FCBM"]
+stocksToAdd = ["JATT"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="First Carolina Financial Services Inc")
+    addStock(stock, name="Jatt II Acquisition Corp")
