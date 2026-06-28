@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["JATT"]
+stocksToAdd = ["MOBI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Jatt II Acquisition Corp")
+    addStock(stock, name="Mobia Medical Inc")

@@ -1389,6 +1389,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "ALMR",
+        "Name": "Alamar Biosciences Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ALRG",
         "Name": "Allspring Exchange",
         "Security Name": "Allspring Exchange-Traded Funds Trust Allspring LT Large Core ETF",
@@ -2786,6 +2800,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "AVEX",
+        "Name": "AEVEX Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "AVGE",
         "Name": "American Century ETF Trust Avantis All Equity Markets ETF",
         "Security Name": "American Century ETF Trust Avantis All Equity Markets ETF",
@@ -2837,6 +2865,20 @@
         "Name": "American Century ETF Trust Avantis U.S. Large Cap Equity ETF",
         "Security Name": "American Century ETF Trust Avantis U.S. Large Cap Equity ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "AVLN",
+        "Name": "Avalyn Pharma Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "AVLV",
@@ -7803,6 +7845,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "COAG",
+        "Name": "Hemab Therapeutics Holdings Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "COAL",
         "Name": "Exchange Traded Concepts Trust Range Global Coal Index ETF",
         "Security Name": "Exchange Traded Concepts Trust Range Global Coal Index ETF",
@@ -9609,6 +9665,20 @@
         "Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",
         "Security Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "DETX",
+        "Name": "Liberty Defense Holdings Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DEUS",
@@ -11897,6 +11967,20 @@
         "Name": "Elme Communities Common Stock",
         "Security Name": "Elme Communities Common Stock",
         "dividend": true
+    },
+    {
+        "Symbol": "ELMT",
+        "Name": "Elmet Group Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ELOG",
@@ -17943,6 +18027,20 @@
         "Name": "Xtrackers International Real Estate ETF",
         "Security Name": "Xtrackers International Real Estate ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "HAWK",
+        "Name": "HawkEye 360 Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "HAWX",
@@ -29070,6 +29168,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "ODTX",
+        "Name": "Odyssey Therapeutics Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ODV",
         "Name": "Osisko Development Corp. Common Shares",
         "Security Name": "Osisko Development Corp. Common Shares"
@@ -33113,6 +33225,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "REA",
+        "Name": "Rare Earths Americas Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "REAL",
         "Name": "Therealreal",
         "ownWebull": true
@@ -34722,6 +34848,20 @@
         "Name": "Star Bulk Carriers Corp",
         "ownEtrade": true,
         "dividend": true
+    },
+    {
+        "Symbol": "SBMT",
+        "Name": "Silver Bow Mining Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SBND",
@@ -37083,6 +37223,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "SPTX",
+        "Name": "Seaport Therapeutics Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SPUC",
         "Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Upside Convexity ETF",
         "Security Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Upside Convexity ETF",
@@ -37781,6 +37935,20 @@
         "Symbol": "SUI",
         "Name": "Sun Communities, Inc. Common Stock",
         "Security Name": "Sun Communities, Inc. Common Stock"
+    },
+    {
+        "Symbol": "SUJA",
+        "Name": "Suja Life Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "SUN",
@@ -43227,6 +43395,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "XE",
+        "Name": "X-Energy Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "XEL",
         "Name": "Xcel Energy Inc",
         "dividend": true
@@ -44203,6 +44385,20 @@
         "Symbol": "YSS",
         "Name": "York Space Systems Inc",
         "dividend": true
+    },
+    {
+        "Symbol": "YSWY",
+        "Name": "Yesway Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "YTRA",
