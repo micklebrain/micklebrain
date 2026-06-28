@@ -2293,7 +2293,7 @@
     },
     {
         "Symbol": "AS",
-        "Name": "Amer Sports, Inc. Ordinary Shares",
+        "Name": "Amer Sports, Inc.",
         "Security Name": "Amer Sports, Inc. Ordinary Shares",
         "ownWebull": true
     },
@@ -27643,9 +27643,9 @@
     },
     {
         "Symbol": "NESN",
-        "Name": "Nestle SA",
-        "ownInteractiveBrokers": true,
+        "Name": "Nestle SA",        
         "Country": "Switzerland",
+        "ownInteractiveBrokers": true,
         "dividend": true
     },
     {
@@ -27869,14 +27869,15 @@
     {
         "Symbol": "NINOY",
         "Name": "Nikon Corp",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "NIO",
-        "Name": "NIO Inc. American depositary shares, each  representing one Class A ordinary share",
-        "ownWebull": true,
-        "Security Name": "NIO Inc. American depositary shares, each  representing one Class A ordinary share"
+        "Name": "NIO Inc.",
+        "Security Name": "NIO Inc. American depositary shares, each  representing one Class A ordinary share",
+        "ownWebull": true
     },
     {
         "Symbol": "NIQ",
@@ -28732,9 +28733,9 @@
     },
     {
         "Symbol": "NVO",
-        "Name": "Novo Nordisk A/S Common Stock",
-        "ownWebull": true,
+        "Name": "Novo Nordisk A/S",        
         "Security Name": "Novo Nordisk A/S Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
