@@ -843,8 +843,9 @@
     },
     {
         "Symbol": "AG",
-        "Name": "First Majestic Silver Corp. (Canada)",
+        "Name": "First Majestic Silver Corp.",
         "Security Name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
+        "Country": "Canada",
         "ownEtrade": true
     },
     {
@@ -8136,7 +8137,7 @@
     },
     {
         "Symbol": "CP",
-        "Name": "Canadian Pacific Kansas City Limited Common Shares",
+        "Name": "Canadian Pacific Kansas City",
         "Security Name": "Canadian Pacific Kansas City Limited Common Shares",
         "ownWebull": true,
         "dividend": true
@@ -9684,16 +9685,7 @@
     {
         "Symbol": "DETX",
         "Name": "Liberty Defense Holdings Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "DEUS",
@@ -17110,20 +17102,12 @@
     {
         "Symbol": "GMRS",
         "Name": "GMR Solutions Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "GMTL",
-        "Name": "Guardian Metal Resources American Depositary Shares Representing 5 Ord Shs",
+        "Name": "Guardian Metal Resources",
+        "Country": "United Kingdom",
         "ownEtrade": true
     },
     {
@@ -17384,9 +17368,9 @@
     },
     {
         "Symbol": "GPRK",
-        "Name": "Geopark Ltd Common Shares",
-        "ownWebull": true,
+        "Name": "Geopark Ltd",        
         "Security Name": "Geopark Ltd Common Shares",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -17601,6 +17585,7 @@
         "Symbol": "GS",
         "Name": "Goldman Sachs Group, Inc. (The)",
         "Security Name": "Goldman Sachs Group, Inc. (The) Common Stock",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -17693,7 +17678,7 @@
     },
     {
         "Symbol": "GSK",
-        "Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+        "Name": "GSK plc",
         "Security Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
         "ownWebull": true,
         "dividend": true
@@ -18126,7 +18111,7 @@
     },
     {
         "Symbol": "HAYW",
-        "Name": "Hayward Holdings, Inc. Common Stock",
+        "Name": "Hayward Holdings, Inc.",
         "Security Name": "Hayward Holdings, Inc. Common Stock"
     },
     {
@@ -18225,9 +18210,9 @@
     },
     {
         "Symbol": "HD",
-        "Name": "Home Depot, Inc. (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Home Depot, Inc. (The)",        
         "Security Name": "Home Depot, Inc. (The) Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -19666,6 +19651,7 @@
     {
         "Symbol": "IBKR",
         "Name": "Interactive Brokers Group Inc",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -19677,9 +19663,9 @@
     },
     {
         "Symbol": "IBM",
-        "Name": "International Business Machines Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "International Business Machines Corporation",        
         "Security Name": "International Business Machines Corporation Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -19996,16 +19982,7 @@
     {
         "Symbol": "IDXX",
         "Name": "IDEXX Laboratories Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "IDYN",
@@ -20509,16 +20486,7 @@
     {
         "Symbol": "IMRN",
         "Name": "Immuron Ltd - ADR",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "IMST",
@@ -20663,16 +20631,7 @@
     {
         "Symbol": "INIO",
         "Name": "Innio NV",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "INKM",
@@ -21815,16 +21774,7 @@
     {
         "Symbol": "JATT",
         "Name": "Jatt II Acquisition Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "JAVA",
@@ -22253,16 +22203,7 @@
     {
         "Symbol": "JMG",
         "Name": "JM Group Limited",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "JMHI",
@@ -22762,17 +22703,8 @@
     },
     {
         "Symbol": "KARD",
-        "Name": "Kardigan Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Kardigan Inc", 
+        "dividend": true        
     },
     {
         "Symbol": "KARO",
@@ -23161,16 +23093,7 @@
     {
         "Symbol": "KLRA",
         "Name": "Kailera Therapeutics Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "KLXY",
@@ -23799,16 +23722,7 @@
     {
         "Symbol": "LCLN",
         "Name": "Lincoln International Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "LCNB",
@@ -24422,22 +24336,13 @@
     {
         "Symbol": "LMRI",
         "Name": "Lumexa Imaging Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "LMT",
-        "Name": "Lockheed Martin Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Lockheed Martin Corporation",        
         "Security Name": "Lockheed Martin Corporation Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -25442,16 +25347,7 @@
     {
         "Symbol": "MDGL",
         "Name": "Madrigal Pharmaceuticals Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "MDLN",
@@ -26430,16 +26326,7 @@
     {
         "Symbol": "MOBI",
         "Name": "Mobia Medical Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "MOD",
@@ -27286,16 +27173,7 @@
     {
         "Symbol": "MWC",
         "Name": "Micware Co Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "MWG",
@@ -27367,16 +27245,7 @@
     {
         "Symbol": "MYRG",
         "Name": "MYR Group Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "MYY",
@@ -29304,16 +29173,7 @@
     {
         "Symbol": "ODTX",
         "Name": "Odyssey Therapeutics Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "ODV",
@@ -30287,17 +30147,8 @@
     },
     {
         "Symbol": "PBLS",
-        "Name": "Parabilis Medicines Ord Shs",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Parabilis Medicines Ord Shs",        
+        "dividend": true        
     },
     {
         "Symbol": "PBMR",
@@ -30331,16 +30182,17 @@
     },
     {
         "Symbol": "PBR",
-        "Name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "ownWebull": true,
+        "Name": "Petroleo Brasileiro S.A. Petrobras ADS",        
         "Security Name": "Petroleo Brasileiro S.A. Petrobras ADS",
+        "Country": "Brazil",
+        "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "PBR.A",
-        "Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares",
-        "ownEtrade": true,
+        "Name": "Petroleo Brasileiro S.A. Petrobras",
         "Security Name": "Petroleo Brasileiro S.A. Petrobras American Depositary Shares representing Preferred Shares",
+        "ownEtrade": true,
         "dividend": true
     },
     {
@@ -32292,6 +32144,7 @@
     {
         "Symbol": "PTON",
         "Name": "Peloton Interactive, Inc.",
+        "Country": "USA",
         "ownRobinhood": true
     },
     {
@@ -32421,16 +32274,7 @@
     {
         "Symbol": "PWRL",
         "Name": "Powerlaw Ord Shs",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "PWS",
@@ -32984,16 +32828,7 @@
     {
         "Symbol": "QUCY",
         "Name": "Quantum Cyber NV",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "QUIZ",
@@ -33389,16 +33224,7 @@
     {
         "Symbol": "REA",
         "Name": "Rare Earths Americas Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "REAL",
@@ -34797,16 +34623,7 @@
     {
         "Symbol": "SAIA",
         "Name": "Saia Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "SAIC",
@@ -35014,16 +34831,7 @@
     {
         "Symbol": "SBMT",
         "Name": "Silver Bow Mining Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "SBND",
@@ -36160,16 +35968,7 @@
     {
         "Symbol": "SIND",
         "Name": "Sinda Ord Shs",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "SINGY",
@@ -37065,6 +36864,7 @@
     {
         "Symbol": "SPCX",
         "Name": "Space Exploration Technologies Corp",
+        "Country": "USA",
         "ownInteractiveBrokers": true
     },
     {
@@ -37387,16 +37187,7 @@
     {
         "Symbol": "SPTX",
         "Name": "Seaport Therapeutics Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "SPUC",
@@ -37755,16 +37546,7 @@
     {
         "Symbol": "SSMR",
         "Name": "Sunshine Silver Mining And Refining Company Ord Shs",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "SSNC",
@@ -38004,7 +37786,7 @@
     },
     {
         "Symbol": "STT",
-        "Name": "State Street Corporation Common Stock",
+        "Name": "State Street Corporation",
         "Security Name": "State Street Corporation Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -38115,16 +37897,7 @@
     {
         "Symbol": "SUJA",
         "Name": "Suja Life Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "SUN",
@@ -38294,7 +38067,7 @@
     },
     {
         "Symbol": "SXT",
-        "Name": "Sensient Technologies Corporation Common Stock",
+        "Name": "Sensient Technologies Corporation",
         "Security Name": "Sensient Technologies Corporation Common Stock"
     },
     {
@@ -41294,16 +41067,7 @@
     {
         "Symbol": "UTHR",
         "Name": "United Therapeutics Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "UTI",
@@ -41852,16 +41616,7 @@
     {
         "Symbol": "VIDA",
         "Name": "Vida Global Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "VIDI",
@@ -43587,16 +43342,7 @@
     {
         "Symbol": "XE",
         "Name": "X-Energy Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "XEL",
@@ -44579,16 +44325,7 @@
     {
         "Symbol": "YSWY",
         "Name": "Yesway Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "YTRA",
@@ -44604,7 +44341,7 @@
     },
     {
         "Symbol": "YUMC",
-        "Name": "Yum China Holdings, Inc. Common Stock",
+        "Name": "Yum China Holdings, Inc.",
         "Security Name": "Yum China Holdings, Inc. Common Stock",
         "ownWebull": true,
         "dividend": true
