@@ -29,7 +29,7 @@
     },
     {
         "Symbol": "006800",
-        "Name": "MIRAE ASSET SECURITIES CO LT",
+        "Name": "Mirae Asset Securities Co Ltd",
         "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
@@ -49,39 +49,39 @@
     },
     {
         "Symbol": "035720",
-        "Name": "KAKAO CORP",
+        "Name": "Kakao Corp",
         "Country": "South Korea",
         "ownInteractiveBrokers": true
     },
     {
         "Symbol": "047040",
-        "Name": "DAEWOO ENGINEERING & CONSTR",
+        "Name": "Daewoo Engineering & Construction Co Ltd",
         "Country": "South Korea",
         "ownInteractiveBrokers": true
     },
     {
         "Symbol": "055550",
-        "Name": "SHINHAN FINANCIAL GROUP LTD",
+        "Name": "Shinhan Financial Group Co Ltd",
         "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
     },
     {
         "Symbol": "352820",
-        "Name": "HYBE CO LTD",
+        "Name": "Hybe Co Ltd",
         "Country": "South Korea",
         "ownInteractiveBrokers": true
     },
     {
         "Symbol": "7201",
-        "Name": "NISSAN MOTOR CO LTD.",
+        "Name": "Nissan Motor Co., Ltd",
         "Country": "Japan",
         "ownInteractiveBrokers": true,
         "dividend": true
     },
     {
         "Symbol": "8729",
-        "Name": "SONY FINANCIAL GROUP INC",
+        "Name": "Sony Financial Group Inc",
         "Country": "Japan",
         "ownInteractiveBrokers": true,
         "dividend": true
@@ -321,7 +321,7 @@
     },
     {
         "Symbol": "ABR",
-        "Name": "Arbor Realty Trust Common Stock",
+        "Name": "Arbor Realty Trust",
         "Security Name": "Arbor Realty Trust Common Stock",
         "ownEtrade": true
     },
@@ -14943,7 +14943,7 @@
     },
     {
         "Symbol": "FMAO",
-        "Name": "Farmers & Merchants Bancorp, Inc. (OH) Common Stock",
+        "Name": "Farmers & Merchants Bancorp, Inc. (OH)",
         "dividend": true
     },
     {
@@ -15168,16 +15168,7 @@
     {
         "Symbol": "FNUC",
         "Name": "Frontier Nuclear and Minerals Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "FNV",
@@ -15331,9 +15322,9 @@
     },
     {
         "Symbol": "FPI",
-        "Name": "Farmland Partners Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Farmland Partners Inc.",        
         "Security Name": "Farmland Partners Inc. Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -15389,16 +15380,7 @@
     {
         "Symbol": "FRBT",
         "Name": "Forbright, Inc.",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "FRD",
