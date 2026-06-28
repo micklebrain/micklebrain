@@ -1391,16 +1391,7 @@
     {
         "Symbol": "ALMR",
         "Name": "Alamar Biosciences Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "ALRG",
@@ -2092,7 +2083,7 @@
     },
     {
         "Symbol": "ARE",
-        "Name": "Alexandria Real Estate Equities, Inc. Common Stock",
+        "Name": "Alexandria Real Estate Equities, Inc.",
         "Security Name": "Alexandria Real Estate Equities, Inc. Common Stock",
         "ownEtrade": true,
         "dividend": true
@@ -7528,7 +7519,7 @@
     },
     {
         "Symbol": "CLX",
-        "Name": "Clorox Company (The) Common Stock",
+        "Name": "Clorox Company (The)",
         "Security Name": "Clorox Company (The) Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -7557,9 +7548,9 @@
     {
         "Symbol": "CMBT",
         "Name": "CMB.TECH NV Ordinary Shares",
-        "ownWebull": true,
         "Security Name": "CMB.TECH NV Ordinary Shares",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "CMC",
@@ -7768,7 +7759,7 @@
     },
     {
         "Symbol": "CNI",
-        "Name": "Canadian National Railway Company Common Stock",
+        "Name": "Canadian National Railway Company",
         "Security Name": "Canadian National Railway Company Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -7869,16 +7860,7 @@
     {
         "Symbol": "CNXU",
         "Name": "Conexeu Sciences Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "CNYA",
@@ -7888,17 +7870,8 @@
     },
     {
         "Symbol": "COAG",
-        "Name": "Hemab Therapeutics Holdings Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "Name": "Hemab Therapeutics Holdings Inc",        
+        "dividend": true
     },
     {
         "Symbol": "COAL",
@@ -18143,16 +18116,7 @@
     {
         "Symbol": "HAWK",
         "Name": "HawkEye 360 Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "HAWX",
@@ -28231,9 +28195,9 @@
     },
     {
         "Symbol": "NMR",
-        "Name": "Nomura Holdings Inc ADR American Depositary Shares",
-        "ownWebull": true,
+        "Name": "Nomura Holdings Inc",
         "Security Name": "Nomura Holdings Inc ADR American Depositary Shares",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -28451,6 +28415,8 @@
     },
     {
         "Symbol": "NRDS",
+        "Name": "Nerdwallet Inc",
+        "Country": "USA",
         "ownRobinhood": true
     },
     {
@@ -28577,7 +28543,7 @@
     },
     {
         "Symbol": "NSRX",
-        "Name": "Nasus Pharma Ltd. Ordinary Shares",
+        "Name": "Nasus Pharma Ltd.",
         "ownWebull": true,
         "Security Name": "Nasus Pharma Ltd. Ordinary Shares"
     },
@@ -42768,7 +42734,7 @@
     },
     {
         "Symbol": "WD",
-        "Name": "Walker & Dunlop, Inc Common Stock",
+        "Name": "Walker & Dunlop, Inc",
         "Security Name": "Walker & Dunlop, Inc Common Stock",
         "ownEtrade": true,
         "dividend": true
@@ -42797,9 +42763,9 @@
     },
     {
         "Symbol": "WDH",
-        "Name": "Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)",
-        "ownWebull": true,
-        "Security Name": "Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)"
+        "Name": "Waterdrop Inc.",
+        "Security Name": "Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)",
+        "ownWebull": true
     },
     {
         "Symbol": "WDI",
@@ -43222,7 +43188,7 @@
     },
     {
         "Symbol": "WPP",
-        "Name": "WPP plc American Depositary Shares",
+        "Name": "WPP plc",
         "Security Name": "WPP plc American Depositary Shares",
         "ownWebull": true,
         "dividend": true
