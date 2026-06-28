@@ -1346,7 +1346,7 @@
     },
     {
         "Symbol": "ALL",
-        "Name": "Allstate Corporation (The) Common Stock",
+        "Name": "Allstate Corporation (The)",
         "Security Name": "Allstate Corporation (The) Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -1475,11 +1475,7 @@
         "Symbol": "AMBI.W",
         "Name": "Ambipar Emergency Response Warrants to purchase Class A ordinary shares, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
         "Security Name": "Ambipar Emergency Response Warrants to purchase Class A ordinary shares, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",
-        "Exchange": "A",
-        "CQS Symbol": "AMBI.WS",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "AMBI+"
+        "Exchange": "A"
     },
     {
         "Symbol": "AMBO",
