@@ -15422,6 +15422,20 @@
         "dividend": true
     },
     {
+        "Symbol": "FRBT",
+        "Name": "Forbright, Inc.",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FRD",
         "Name": "Friedman Industries Inc",
         "dividend": true
@@ -22781,6 +22795,20 @@
         "Symbol": "KAR",
         "Name": "OPENLANE, Inc. Common Stock",
         "Security Name": "OPENLANE, Inc. Common Stock"
+    },
+    {
+        "Symbol": "KARD",
+        "Name": "Kardigan Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "KARO",

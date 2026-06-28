@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["EROC"]
+stocksToAdd = ["KARD"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="ERock Ord Shs Class A")
+    addStock(stock, name="Kardigan Inc")
