@@ -5967,6 +5967,20 @@
         "Security Name": "Bluelinx Holdings Inc. Common Stock"
     },
     {
+        "Symbol": "BXDC",
+        "Name": "Blackstone Digital Infrastructr Trst Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "BXMT",
         "Name": "Blackstone Mortgage Trust, Inc.",
         "Security Name": "Blackstone Mortgage Trust, Inc. Common Stock",
@@ -6392,6 +6406,20 @@
         "Name": "Cracker Barrel Old Ctry Store",
         "ownWebull": true,
         "dividend": true
+    },
+    {
+        "Symbol": "CBRS",
+        "Name": "Cerebras Systems Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CBSE",
@@ -7837,6 +7865,20 @@
         "Name": "VanEck ChiNext ETF",
         "Security Name": "VanEck ChiNext ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "CNXU",
+        "Name": "Conexeu Sciences Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "CNYA",
@@ -12658,6 +12700,34 @@
         "Security Name": "Ero Copper Corp. Common Shares"
     },
     {
+        "Symbol": "EROC",
+        "Name": "ERock Ord Shs Class A",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
+        "Symbol": "EROK",
+        "Name": "EagleRock Land LLC",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "ERTH",
         "Name": "Invesco MSCI Sustainable Future ETF",
         "Security Name": "Invesco MSCI Sustainable Future ETF",
@@ -15443,6 +15513,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "FRVO",
+        "Name": "Fervo Energy Co",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "FSBC",
         "Name": "Five Star Bancorp",
         "dividend": true
@@ -17035,6 +17119,20 @@
         "Symbol": "GMRE-A",
         "Name": "Global Medical REIT Inc. Series A Cumulative Redeemable Preferred Stock",
         "Security Name": "Global Medical REIT Inc. Series A Cumulative Redeemable Preferred Stock"
+    },
+    {
+        "Symbol": "GMRS",
+        "Name": "GMR Solutions Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "GMTL",
@@ -20585,6 +20683,20 @@
         "dividend": true
     },
     {
+        "Symbol": "INIO",
+        "Name": "Innio NV",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "INKM",
         "Name": "SPDR SSgA Income Allocation ETF",
         "Security Name": "SPDR SSgA Income Allocation ETF",
@@ -23691,6 +23803,20 @@
         "Name": "Advisors Series Trust Logan Capital Broad Innovative Growth ETF",
         "Security Name": "Advisors Series Trust Logan Capital Broad Innovative Growth ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "LCLN",
+        "Name": "Lincoln International Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "LCNB",
@@ -27166,6 +27292,20 @@
         "Security Name": "MUELLER WATER PRODUCTS Common Stock"
     },
     {
+        "Symbol": "MWC",
+        "Name": "Micware Co Ltd",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "MWG",
         "Name": "Multi Ways Holdings Limited Ordinary Shares",
         "Security Name": "Multi Ways Holdings Limited Ordinary Shares"
@@ -30152,6 +30292,20 @@
         "ETF": "Y"
     },
     {
+        "Symbol": "PBLS",
+        "Name": "Parabilis Medicines Ord Shs",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "PBMR",
         "Name": "PGIM S&P 500 Buffer 20 ETF",
         "Security Name": "PGIM S&P 500 Buffer 20 ETF - March",
@@ -32269,6 +32423,20 @@
         "Security Name": "Quanta Services, Inc. Common Stock",
         "ownWebull": true,
         "dividend": true
+    },
+    {
+        "Symbol": "PWRL",
+        "Name": "Powerlaw Ord Shs",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "PWS",
@@ -37591,6 +37759,20 @@
         "ownWebull": true
     },
     {
+        "Symbol": "SSMR",
+        "Name": "Sunshine Silver Mining And Refining Company Ord Shs",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
+    },
+    {
         "Symbol": "SSNC",
         "Name": "SS&C Technologies Holdings Inc",
         "dividend": true
@@ -41672,6 +41854,20 @@
         "Security Name": "VICI Properties Inc. Common Stock",
         "ownWebull": true,
         "dividend": true
+    },
+    {
+        "Symbol": "VIDA",
+        "Name": "Vida Global Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "VIDI",

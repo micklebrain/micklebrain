@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["MOBI"]
+stocksToAdd = ["EROC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Mobia Medical Inc")
+    addStock(stock, name="ERock Ord Shs Class A")
