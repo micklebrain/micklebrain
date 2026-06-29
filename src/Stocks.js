@@ -59,6 +59,29 @@ function Stocks() {
     return [...set].sort();
   }, [effectiveItems]);
 
+  const countryOwnedCounts = React.useMemo(() => {
+    const counts = {};
+    effectiveItems.forEach((item) => {
+      const country = item.Country || "Unknown";
+      const owned =
+        !!item.ownWebull ||
+        !!item.ownEtrade ||
+        !!item.ownRobinhood ||
+        !!item.ownChase ||
+        !!item.ownSchwab ||
+        !!item.ownAlly ||
+        !!item.ownFidelity ||
+        !!item.ownInteractiveBrokers ||
+        !!item.ownMoomoo;
+      if (!counts[country]) counts[country] = { total: 0, owned: 0 };
+      counts[country].total += 1;
+      if (owned) counts[country].owned += 1;
+    });
+    return Object.entries(counts)
+      .filter(([, v]) => v.owned > 0)
+      .sort((a, b) => b[1].owned - a[1].owned);
+  }, [effectiveItems]);
+
   const brokerToOwnershipField = {
     webull: "ownWebull",
     etrade: "ownEtrade",
@@ -324,6 +347,16 @@ function Stocks() {
       <div className="stocks-count">
         {filteredItems.length} stocks
       </div>
+      {countryOwnedCounts.length > 0 && (
+        <div className="stocks-country-counts">
+          {countryOwnedCounts.map(([country, { owned }]) => (
+            <span key={country} className="stocks-country-count-item">
+              <span className="stocks-country-count-name">{country}</span>
+              <span className="stocks-country-count-num">{owned}</span>
+            </span>
+          ))}
+        </div>
+      )}
       <form className="stocks-add-form" onSubmit={handleAddStock}>
         <input
           type="text"

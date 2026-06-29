@@ -2363,12 +2363,12 @@
     },
     {
         "Symbol": "ASGN",
-        "Name": "ASGN Incorporated Common Stock",
+        "Name": "ASGN Incorporated",
         "Security Name": "ASGN Incorporated Common Stock"
     },
     {
         "Symbol": "ASH",
-        "Name": "Ashland Inc. Common Stock",
+        "Name": "Ashland Inc.",
         "Security Name": "Ashland Inc. Common Stock",
         "ownEtrade": true,
         "dividend": true
@@ -33033,9 +33033,9 @@
     },
     {
         "Symbol": "RDDT",
-        "Name": "Reddit, Inc. Class A Common Stock",
-        "ownWebull": true,
-        "Security Name": "Reddit, Inc. Class A Common Stock"
+        "Name": "Reddit, Inc.",
+        "Security Name": "Reddit, Inc. Class A Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "RDFI",
@@ -40021,7 +40021,7 @@
     },
     {
         "Symbol": "TXNM",
-        "Name": "TXNM Energy, Inc. Common Stock",
+        "Name": "TXNM Energy, Inc.",
         "Security Name": "TXNM Energy, Inc. Common Stock"
     },
     {

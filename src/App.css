@@ -149,6 +149,33 @@ table, th, td {
   color: #6b7280;
 }
 
+.stocks-country-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.stocks-country-count-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 11px;
+}
+
+.stocks-country-count-name {
+  color: #6b7280;
+}
+
+.stocks-country-count-num {
+  font-weight: 600;
+  color: #111827;
+}
+
 .stocks-add-form {
   margin-top: 10px;
   display: flex;
