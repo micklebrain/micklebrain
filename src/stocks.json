@@ -1140,9 +1140,9 @@
     },
     {
         "Symbol": "AIN",
-        "Name": "Albany International Corporation Common Stock",
-        "ownWebull": true,
-        "Security Name": "Albany International Corporation Common Stock"
+        "Name": "Albany International Corporation",        
+        "Security Name": "Albany International Corporation Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "AINP",
@@ -1189,7 +1189,7 @@
     },
     {
         "Symbol": "AIV",
-        "Name": "Apartment Investment and Management Company Common Stock",
+        "Name": "Apartment Investment and Management Company",
         "Security Name": "Apartment Investment and Management Company Common Stock",
         "ownEtrade": true
     },
@@ -1732,7 +1732,7 @@
     },
     {
         "Symbol": "ANF",
-        "Name": "Abercrombie & Fitch Company Common Stock",
+        "Name": "Abercrombie & Fitch Company",
         "Security Name": "Abercrombie & Fitch Company Common Stock",
         "ownWebull": true
     },
@@ -6398,16 +6398,7 @@
     {
         "Symbol": "CBRS",
         "Name": "Cerebras Systems Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "CBSE",
@@ -6676,7 +6667,7 @@
     },
     {
         "Symbol": "CE",
-        "Name": "Celanese Corporation Common Stock",
+        "Name": "Celanese Corporation",
         "Security Name": "Celanese Corporation Common Stock",
         "ownChase": true,
         "dividend": true
@@ -32685,8 +32676,7 @@
         "Symbol": "QNT",
         "Name": "Quantinuum Inc",
         "ownEtrade": true,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "QPUX",
