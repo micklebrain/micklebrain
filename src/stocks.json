@@ -3660,6 +3660,13 @@
         "Security Name": "Brunswick Corporation Common Stock"
     },
     {
+        "Symbol": "BC",
+        "Name": "Brunello Cucinelli SpA",
+        "Country": "Italy",
+        "ownInteractiveBrokers": true,
+        "dividend": true
+    },
+    {
         "Symbol": "BC-A",
         "Name": "Brunswick Corporation 6.500% Senior Notes due 2048",
         "Security Name": "Brunswick Corporation 6.500% Senior Notes due 2048"
