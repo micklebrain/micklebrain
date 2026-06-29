@@ -13624,9 +13624,9 @@
     },
     {
         "Symbol": "FBP",
-        "Name": "First BanCorp. New Common Stock",
-        "ownEtrade": true,
+        "Name": "First BanCorp. New",        
         "Security Name": "First BanCorp. New Common Stock",
+        "ownEtrade": true,
         "dividend": true
     },
     {
@@ -13687,16 +13687,7 @@
     {
         "Symbol": "FCBM",
         "Name": "First Carolina Financial Services Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "FCCO",
@@ -13908,9 +13899,9 @@
     },
     {
         "Symbol": "FDP",
-        "Name": "Fresh Del Monte Produce, Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "Fresh Del Monte Produce, Inc.",        
         "Security Name": "Fresh Del Monte Produce, Inc. Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -13957,9 +13948,9 @@
     },
     {
         "Symbol": "FDX",
-        "Name": "FedEx Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "FedEx Corporation",        
         "Security Name": "FedEx Corporation Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -14009,10 +14000,7 @@
         "Security Name": "TrueShares Structured Outcome (February) ETF",
         "Exchange": "Z",
         "CQS Symbol": "FEBZ",
-        "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "FEBZ"
+        "ETF": "Y"        
     },
     {
         "Symbol": "FEDM",
@@ -36854,9 +36842,9 @@
     },
     {
         "Symbol": "SPCE",
-        "Name": "Virgin Galactic Holdings, Inc. Common Stock",
-        "ownWebull": true,
-        "Security Name": "Virgin Galactic Holdings, Inc. Common Stock"
+        "Name": "Virgin Galactic Holdings, Inc.",        
+        "Security Name": "Virgin Galactic Holdings, Inc. Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "SPCX",
@@ -39351,7 +39339,7 @@
     },
     {
         "Symbol": "TNL",
-        "Name": "Travel Leisure Co. Common Stock",
+        "Name": "Travel Leisure Co.",
         "Security Name": "Travel Leisure Co. Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -44299,7 +44287,7 @@
     },
     {
         "Symbol": "YRD",
-        "Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
+        "Name": "Yiren Digital Ltd.",
         "Security Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
         "ownWebull": true
     },
