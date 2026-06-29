@@ -395,6 +395,13 @@
         "ownWebull": true
     },
     {
+        "Symbol": "ABVX",
+        "Name": "Abivax SA",
+        "Country": "France",
+        "ownEtrade": true,
+        "dividend": true
+    },
+    {
         "Symbol": "ABXB",
         "Name": "Abacus Flexible Bond Leaders ETF",
         "Security Name": "Abacus Flexible Bond Leaders ETF",
@@ -3211,9 +3218,10 @@
     },
     {
         "Symbol": "AVB",
-        "Name": "AvalonBay Communities, Inc. Common Stock",
+        "Name": "AvalonBay Communities, Inc.",
         "Security Name": "AvalonBay Communities, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "AVBC",
@@ -7213,6 +7221,13 @@
         "Security Name": "Pacer US Small Cap Cash Cows ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "CALM",
+        "Name": "Cal-Maine Foods Inc",
+        "Country": "USA",
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "CALX",
@@ -46655,9 +46670,10 @@
     },
     {
         "Symbol": "TRU",
-        "Name": "TransUnion Common Stock",
+        "Name": "TransUnion",
         "Security Name": "TransUnion Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "TRUP",
@@ -48482,6 +48498,7 @@
         "Symbol": "VC",
         "Name": "Visteon Corp",
         "Country": "USA",
+        "ownEtrade": true,
         "dividend": true
     },
     {
