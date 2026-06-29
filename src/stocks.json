@@ -968,8 +968,7 @@
     {
         "Symbol": "AGNT",
         "Name": "Agnt Inc",
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "AGO",
@@ -2791,16 +2790,7 @@
     {
         "Symbol": "AVEX",
         "Name": "AEVEX Corp",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "AVGE",
@@ -2858,16 +2848,7 @@
     {
         "Symbol": "AVLN",
         "Name": "Avalyn Pharma Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "AVLV",
@@ -3103,7 +3084,7 @@
     },
     {
         "Symbol": "AYI",
-        "Name": "Acuity Inc. Common Stock",
+        "Name": "Acuity Inc.",
         "Security Name": "Acuity Inc. Common Stock"
     },
     {
@@ -5965,16 +5946,7 @@
     {
         "Symbol": "BXDC",
         "Name": "Blackstone Digital Infrastructr Trst Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "BXMT",
@@ -10012,16 +9984,9 @@
     {
         "Symbol": "DHER",
         "Name": "Delivery Hero SE",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
+        "Country": "Germany",
         "ownInteractiveBrokers": true,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "DHF",
@@ -10599,16 +10564,7 @@
     {
         "Symbol": "DPC",
         "Name": "DPC Holdings Ord Shs",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "DPG",
@@ -10724,16 +10680,7 @@
     {
         "Symbol": "DSC",
         "Name": "DSC Holdings ADR",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "DSCF",
@@ -11851,16 +11798,7 @@
     {
         "Symbol": "EIKN",
         "Name": "Eikon Therapeutics Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "EIM",
@@ -11987,16 +11925,7 @@
     {
         "Symbol": "ELMT",
         "Name": "Elmet Group Co",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "ELOG",
@@ -12676,30 +12605,12 @@
     {
         "Symbol": "EROC",
         "Name": "ERock Ord Shs Class A",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "EROK",
         "Name": "EagleRock Land LLC",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "ERTH",
@@ -15028,16 +14939,7 @@
     {
         "Symbol": "FMST",
         "Name": "Foremost Clean Energy Ltd",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "FMX",
@@ -15466,16 +15368,7 @@
     {
         "Symbol": "FRVO",
         "Name": "Fervo Energy Co",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "FSBC",
@@ -23385,6 +23278,8 @@
     },
     {
         "Symbol": "KSPI",
+        "Name": "Kaspi.kz AO - ADR",
+        "Country": "Kazakhstan",
         "ownWebull": true
     },
     {
@@ -26346,16 +26241,8 @@
     {
         "Symbol": "MONC",
         "Name": "Moncler SpA",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
         "ownInteractiveBrokers": true,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "MOO",
@@ -30717,9 +30604,9 @@
     },
     {
         "Symbol": "PG",
-        "Name": "Procter & Gamble Company (The) Common Stock",
-        "ownWebull": true,
+        "Name": "Procter & Gamble Company (The)",        
         "Security Name": "Procter & Gamble Company (The) Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -31054,6 +30941,7 @@
     {
         "Symbol": "PKN",
         "Name": "Orlen SA",
+        "Country": "Poland",
         "dividend": true
     },
     {
