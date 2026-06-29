@@ -399,7 +399,8 @@
         "Name": "Abivax SA",
         "Country": "France",
         "ownEtrade": true,
-        "dividend": true
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "ABXB",
@@ -19501,8 +19502,7 @@
     {
         "Symbol": "GIBO",
         "Name": "Gibo Holdings",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"        
     },
     {
         "Symbol": "GIC",
@@ -21933,8 +21933,7 @@
     {
         "Symbol": "HON",
         "Name": "Honeywell International Inc",
-        "Country": "USA",
-        "ownWebull": true,
+        "Country": "USA",        
         "dividend": true
     },
     {
@@ -25619,9 +25618,10 @@
     },
     {
         "Symbol": "JEF",
-        "Name": "Jefferies Financial Group Inc. Common Stock",
+        "Name": "Jefferies Financial Group Inc.",
         "Security Name": "Jefferies Financial Group Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "JELD",
