@@ -22,8 +22,8 @@
     },
     {
         "Symbol": "005940",
-        "Name": "NH INVESTMENT & SECURITIES C",
-        "Country": "Japan",
+        "Name": "NH Investment & Securities Co., Ltd.",
+        "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
     },
@@ -37,6 +37,7 @@
     {
         "Symbol": "024110",
         "Name": "Industrial Bank of Korea",
+        "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
     },
