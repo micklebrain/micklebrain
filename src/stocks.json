@@ -1753,7 +1753,7 @@
     },
     {
         "Symbol": "ANGX",
-        "Name": "Angel Studios, Inc. Class A Common Stock",
+        "Name": "Angel Studios, Inc.",
         "Security Name": "Angel Studios, Inc. Class A Common Stock"
     },
     {
@@ -2328,7 +2328,7 @@
     },
     {
         "Symbol": "ASC",
-        "Name": "Ardmore Shipping Corporation Common Stock",
+        "Name": "Ardmore Shipping Corporation",
         "Security Name": "Ardmore Shipping Corporation Common Stock",
         "ownEtrade": true,
         "dividend": true
@@ -8928,7 +8928,7 @@
     },
     {
         "Symbol": "CVNA",
-        "Name": "Carvana Co. Class A Common Stock",
+        "Name": "Carvana Co.",
         "Security Name": "Carvana Co. Class A Common Stock",
         "ownWebull": true
     },
@@ -8981,7 +8981,7 @@
     },
     {
         "Symbol": "CVX",
-        "Name": "Chevron Corporation Common Stock",
+        "Name": "Chevron Corporation",
         "Security Name": "Chevron Corporation Common Stock",
         "ownWebull": true,
         "dividend": true
