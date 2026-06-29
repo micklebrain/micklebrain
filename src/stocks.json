@@ -3697,13 +3697,15 @@
         "Symbol": "BCE",
         "Name": "BCE, Inc.",
         "Security Name": "BCE, Inc. Common Stock",
+        "Country": "Canada",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "BCH",
-        "Name": "Banco De Chile ADS",
+        "Name": "Banco De Chile",
         "Security Name": "Banco De Chile ADS",
+        "Country": "Chile",
         "ownWebull": true,
         "dividend": true
     },
@@ -3847,7 +3849,8 @@
     },
     {
         "Symbol": "BDOUY",
-        "Name": "BDO Unibank Inc - ADR",
+        "Name": "BDO Unibank Inc",
+        "Country": "Philippines",
         "ownEtrade": true,
         "dividend": true
     },
