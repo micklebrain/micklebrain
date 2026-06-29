@@ -2435,6 +2435,7 @@
     {
         "Symbol": "ASO",
         "Name": "Academy Sports and Outdoors Inc",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -11898,6 +11899,7 @@
         "Symbol": "ELF",
         "Name": "elf Beauty Inc",
         "Security Name": "e.l.f. Beauty, Inc. Common Stock",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -11947,6 +11949,7 @@
         "Symbol": "ELPC",
         "Name": "Companhia Paranaense de Energia (COPEL)",
         "Security Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -11958,12 +11961,13 @@
     {
         "Symbol": "ELUXY",
         "Name": "Aktiebolaget Electrolux",
+        "Country": "Sweden",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "ELV",
-        "Name": "Elevance Health, Inc. Common Stock",
+        "Name": "Elevance Health, Inc.",
         "Security Name": "Elevance Health, Inc. Common Stock",
         "ownEtrade": true,
         "dividend": true
@@ -11992,6 +11996,7 @@
     {
         "Symbol": "EMBJ",
         "Name": "Embraer SA",
+        "Country": "Brazil",
         "dividend": true
     },
     {
@@ -26599,6 +26604,7 @@
         "Symbol": "MSGS",
         "Name": "Madison Square Garden Sports Corp.",
         "Security Name": "Madison Square Garden Sports Corp. Class A Common Stock (New)",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -26607,8 +26613,9 @@
     },
     {
         "Symbol": "MSI",
-        "Name": "Motorola Solutions, Inc. Common Stock",
+        "Name": "Motorola Solutions, Inc.",
         "Security Name": "Motorola Solutions, Inc. Common Stock",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -26719,8 +26726,9 @@
     },
     {
         "Symbol": "MT",
-        "Name": "Arcelor Mittal NY Registry Shares NEW",
+        "Name": "ArcelorMittal SA",
         "Security Name": "Arcelor Mittal NY Registry Shares NEW",
+        "Country": "Switzerland",
         "ownRobinhood": true,
         "dividend": true
     },
@@ -26790,13 +26798,14 @@
     {
         "Symbol": "MTLS",
         "Name": "Materialise NV - ADR",
+        "Country": "Belgium",
         "ownWebull": true
     },
     {
         "Symbol": "MTN",
-        "Name": "Vail Resorts, Inc. Common Stock",
-        "ownWebull": true,
-        "Security Name": "Vail Resorts, Inc. Common Stock"
+        "Name": "Vail Resorts, Inc.",
+        "Security Name": "Vail Resorts, Inc. Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "MTNB",
@@ -38308,6 +38317,7 @@
         "Symbol": "TD",
         "Name": "Toronto Dominion Bank (The)",
         "Security Name": "Toronto Dominion Bank (The) Common Stock",
+        "Country": "Canada",
         "ownWebull": true,
         "dividend": true
     },
@@ -38704,6 +38714,7 @@
         "Symbol": "TGS",
         "Name": "Transportadora de Gas del Sur SA TGS",
         "Security Name": "Transportadora de Gas del Sur SA TGS Common Stock",
+        "Country": "Argentina",
         "ownEtrade": true,
         "dividend": true
     },
@@ -38849,6 +38860,7 @@
     {
         "Symbol": "TILE",
         "Name": "Interface Inc",
+        "Country": "USA",
         "dividend": true
     },
     {
@@ -42387,6 +42399,7 @@
     {
         "Symbol": "WDFC",
         "Name": "WD-40 Co",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -42483,6 +42496,7 @@
     {
         "Symbol": "WEN",
         "Name": "Wendys Co",
+        "Country": "USA",
         "ownEtrade": true,
         "dividend": true
     },
@@ -42508,8 +42522,9 @@
     },
     {
         "Symbol": "WF",
-        "Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
+        "Name": "Woori Financial Group Inc.",
         "Security Name": "Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of Common Stock)",
+        "Country": "South Korea",
         "ownWebull": true,
         "dividend": true
     },
@@ -42517,6 +42532,7 @@
         "Symbol": "WFC",
         "Name": "Wells Fargo & Company",
         "Security Name": "Wells Fargo & Company Common Stock",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
