@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["KARD"]
+stocksToAdd = ["MONC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Kardigan Inc")
+    addStock(stock, name="Moncler SpA", ownInteractiveBrokers=True)

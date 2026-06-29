@@ -1140,7 +1140,7 @@
     },
     {
         "Symbol": "AIN",
-        "Name": "Albany International Corporation",        
+        "Name": "Albany International Corporation",
         "Security Name": "Albany International Corporation Common Stock",
         "ownWebull": true
     },
@@ -1392,7 +1392,7 @@
     {
         "Symbol": "ALMR",
         "Name": "Alamar Biosciences Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "ALRG",
@@ -6398,7 +6398,7 @@
     {
         "Symbol": "CBRS",
         "Name": "Cerebras Systems Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "CBSE",
@@ -7848,7 +7848,7 @@
     {
         "Symbol": "CNXU",
         "Name": "Conexeu Sciences Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "CNYA",
@@ -7858,7 +7858,7 @@
     },
     {
         "Symbol": "COAG",
-        "Name": "Hemab Therapeutics Holdings Inc",        
+        "Name": "Hemab Therapeutics Holdings Inc",
         "dividend": true
     },
     {
@@ -9672,7 +9672,7 @@
     {
         "Symbol": "DETX",
         "Name": "Liberty Defense Holdings Ltd",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "DEUS",
@@ -10000,6 +10000,20 @@
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Quarterly 2.5 to 15 Buffer ETF",
         "ETF": "Y"
+    },
+    {
+        "Symbol": "DHER",
+        "Name": "Delivery Hero SE",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DHF",
@@ -14446,16 +14460,7 @@
     {
         "Symbol": "FISN",
         "Name": "Deep Fission Ord Shs",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": true,
-        "ETF": false
+        "dividend": true
     },
     {
         "Symbol": "FISR",
@@ -14516,6 +14521,8 @@
     },
     {
         "Symbol": "FJTSY",
+        "Name": "Fujitsu Ltd",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -15155,7 +15162,7 @@
     {
         "Symbol": "FNUC",
         "Name": "Frontier Nuclear and Minerals Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "FNV",
@@ -15309,7 +15316,7 @@
     },
     {
         "Symbol": "FPI",
-        "Name": "Farmland Partners Inc.",        
+        "Name": "Farmland Partners Inc.",
         "Security Name": "Farmland Partners Inc. Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -15367,7 +15374,7 @@
     {
         "Symbol": "FRBT",
         "Name": "Forbright, Inc.",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "FRD",
@@ -17071,7 +17078,7 @@
     {
         "Symbol": "GMRS",
         "Name": "GMR Solutions Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "GMTL",
@@ -17337,7 +17344,7 @@
     },
     {
         "Symbol": "GPRK",
-        "Name": "Geopark Ltd",        
+        "Name": "Geopark Ltd",
         "Security Name": "Geopark Ltd Common Shares",
         "ownWebull": true,
         "dividend": true
@@ -18070,7 +18077,7 @@
     {
         "Symbol": "HAWK",
         "Name": "HawkEye 360 Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "HAWX",
@@ -18179,7 +18186,7 @@
     },
     {
         "Symbol": "HD",
-        "Name": "Home Depot, Inc. (The)",        
+        "Name": "Home Depot, Inc. (The)",
         "Security Name": "Home Depot, Inc. (The) Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -19632,7 +19639,7 @@
     },
     {
         "Symbol": "IBM",
-        "Name": "International Business Machines Corporation",        
+        "Name": "International Business Machines Corporation",
         "Security Name": "International Business Machines Corporation Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -19951,7 +19958,7 @@
     {
         "Symbol": "IDXX",
         "Name": "IDEXX Laboratories Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "IDYN",
@@ -20455,7 +20462,7 @@
     {
         "Symbol": "IMRN",
         "Name": "Immuron Ltd - ADR",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "IMST",
@@ -20600,7 +20607,7 @@
     {
         "Symbol": "INIO",
         "Name": "Innio NV",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "INKM",
@@ -21743,7 +21750,7 @@
     {
         "Symbol": "JATT",
         "Name": "Jatt II Acquisition Corp",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "JAVA",
@@ -22172,7 +22179,7 @@
     {
         "Symbol": "JMG",
         "Name": "JM Group Limited",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "JMHI",
@@ -22672,8 +22679,8 @@
     },
     {
         "Symbol": "KARD",
-        "Name": "Kardigan Inc", 
-        "dividend": true        
+        "Name": "Kardigan Inc",
+        "dividend": true
     },
     {
         "Symbol": "KARO",
@@ -23062,7 +23069,7 @@
     {
         "Symbol": "KLRA",
         "Name": "Kailera Therapeutics Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "KLXY",
@@ -23691,7 +23698,7 @@
     {
         "Symbol": "LCLN",
         "Name": "Lincoln International Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "LCNB",
@@ -24305,11 +24312,11 @@
     {
         "Symbol": "LMRI",
         "Name": "Lumexa Imaging Holdings Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "LMT",
-        "Name": "Lockheed Martin Corporation",        
+        "Name": "Lockheed Martin Corporation",
         "Security Name": "Lockheed Martin Corporation Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -25316,7 +25323,7 @@
     {
         "Symbol": "MDGL",
         "Name": "Madrigal Pharmaceuticals Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "MDLN",
@@ -26295,7 +26302,7 @@
     {
         "Symbol": "MOBI",
         "Name": "Mobia Medical Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "MOD",
@@ -26339,6 +26346,20 @@
         "Symbol": "MOMO",
         "Name": "Hello Group Inc",
         "dividend": true
+    },
+    {
+        "Symbol": "MONC",
+        "Name": "Moncler SpA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "MOO",
@@ -27142,7 +27163,7 @@
     {
         "Symbol": "MWC",
         "Name": "Micware Co Ltd",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "MWG",
@@ -27214,7 +27235,7 @@
     {
         "Symbol": "MYRG",
         "Name": "MYR Group Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "MYY",
@@ -27630,7 +27651,7 @@
     },
     {
         "Symbol": "NESN",
-        "Name": "Nestle SA",        
+        "Name": "Nestle SA",
         "Country": "Switzerland",
         "ownInteractiveBrokers": true,
         "dividend": true
@@ -28720,7 +28741,7 @@
     },
     {
         "Symbol": "NVO",
-        "Name": "Novo Nordisk A/S",        
+        "Name": "Novo Nordisk A/S",
         "Security Name": "Novo Nordisk A/S Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -29143,7 +29164,7 @@
     {
         "Symbol": "ODTX",
         "Name": "Odyssey Therapeutics Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "ODV",
@@ -30117,8 +30138,8 @@
     },
     {
         "Symbol": "PBLS",
-        "Name": "Parabilis Medicines Ord Shs",        
-        "dividend": true        
+        "Name": "Parabilis Medicines Ord Shs",
+        "dividend": true
     },
     {
         "Symbol": "PBMR",
@@ -30152,7 +30173,7 @@
     },
     {
         "Symbol": "PBR",
-        "Name": "Petroleo Brasileiro S.A. Petrobras ADS",        
+        "Name": "Petroleo Brasileiro S.A. Petrobras ADS",
         "Security Name": "Petroleo Brasileiro S.A. Petrobras ADS",
         "Country": "Brazil",
         "ownWebull": true,
@@ -32244,7 +32265,7 @@
     {
         "Symbol": "PWRL",
         "Name": "Powerlaw Ord Shs",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "PWS",
@@ -32676,7 +32697,7 @@
         "Symbol": "QNT",
         "Name": "Quantinuum Inc",
         "ownEtrade": true,
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "QPUX",
@@ -32797,7 +32818,7 @@
     {
         "Symbol": "QUCY",
         "Name": "Quantum Cyber NV",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "QUIZ",
@@ -33193,7 +33214,7 @@
     {
         "Symbol": "REA",
         "Name": "Rare Earths Americas Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "REAL",
@@ -34592,7 +34613,7 @@
     {
         "Symbol": "SAIA",
         "Name": "Saia Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "SAIC",
@@ -34800,7 +34821,7 @@
     {
         "Symbol": "SBMT",
         "Name": "Silver Bow Mining Corp",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "SBND",
@@ -37156,7 +37177,7 @@
     {
         "Symbol": "SPTX",
         "Name": "Seaport Therapeutics Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "SPUC",
@@ -37515,7 +37536,7 @@
     {
         "Symbol": "SSMR",
         "Name": "Sunshine Silver Mining And Refining Company Ord Shs",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "SSNC",
@@ -37866,7 +37887,7 @@
     {
         "Symbol": "SUJA",
         "Name": "Suja Life Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "SUN",
@@ -39932,9 +39953,9 @@
     },
     {
         "Symbol": "TTAM",
-        "Name": "Titan America SA Common Shares",
-        "ownEtrade": true,
-        "Security Name": "Titan America SA Common Shares"
+        "Name": "Titan America SA",
+        "Security Name": "Titan America SA Common Shares",
+        "ownEtrade": true
     },
     {
         "Symbol": "TTAN",
@@ -41036,7 +41057,7 @@
     {
         "Symbol": "UTHR",
         "Name": "United Therapeutics Corp",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "UTI",
@@ -41585,7 +41606,7 @@
     {
         "Symbol": "VIDA",
         "Name": "Vida Global Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "VIDI",
@@ -43311,7 +43332,7 @@
     {
         "Symbol": "XE",
         "Name": "X-Energy Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "XEL",
@@ -44294,7 +44315,7 @@
     {
         "Symbol": "YSWY",
         "Name": "Yesway Inc",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "YTRA",
