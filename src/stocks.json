@@ -10000,15 +10000,15 @@
     },
     {
         "Symbol": "CRSP",
-        "Name": "Crispr Therapeut",
-        "ownWebull": true,
-        "Country": "USA"
+        "Name": "Crispr Therapeut",        
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CRSR",
-        "Name": "Corsair Gaming, Inc.",
-        "ownWebull": true,
-        "Country": "USA"
+        "Name": "Corsair Gaming, Inc.",        
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CRT",
@@ -10025,27 +10025,27 @@
     },
     {
         "Symbol": "CRTO",
-        "Name": "Criteo SA",
-        "ownEtrade": true,
-        "Country": "USA"
+        "Name": "Criteo SA",        
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "CRVO",
         "Name": "CervoMed",
-        "ownWebull": true,
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CRWD",
-        "Name": "Crowdstrike Holdings",
-        "ownWebull": true,
-        "Country": "USA"
+        "Name": "Crowdstrike Holdings",        
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CRWS",
-        "Name": "Crown Crafts Inc",
-        "ownWebull": true,
-        "Country": "USA"
+        "Name": "Crown Crafts Inc",        
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CRWU",
@@ -10056,23 +10056,23 @@
     },
     {
         "Symbol": "CRWV",
-        "Name": "CoreWeave, Inc.",
-        "ownWebull": true,
-        "Country": "USA"
+        "Name": "CoreWeave, Inc.",        
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CSAN",
         "Name": "Cosan S.A. ADS",
-        "Security Name": "Cosan S.A. ADS",
-        "ownWebull": true,
-        "Country": "USA"
+        "Security Name": "Cosan S.A. ADS",        
+        "Country": "Brazil",
+        "ownWebull": true
     },
     {
         "Symbol": "CSCO",
         "Name": "Cisco Sys Inc",
+        "Country": "USA",
         "ownWebull": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true        
     },
     {
         "Symbol": "CSD",
@@ -13047,9 +13047,9 @@
     {
         "Symbol": "EADSY",
         "Name": "Airbus Se",
+        "Country": "Netherlands",
         "ownWebull": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true        
     },
     {
         "Symbol": "EAF",
@@ -13162,16 +13162,16 @@
     {
         "Symbol": "EBAY",
         "Name": "Ebay Inc.",
+        "Country": "USA",
         "ownWebull": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true
     },
     {
         "Symbol": "EBC",
         "Name": "Eastern Bankshares Inc",
+        "Country": "USA",
         "ownEtrade": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true
     },
     {
         "Symbol": "EBF",
@@ -47533,9 +47533,9 @@
         "Symbol": "UL",
         "Name": "Unilever PLC",
         "Security Name": "Unilever PLC Common Stock",
+        "Country": "USA",
         "ownWebull": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true
     },
     {
         "Symbol": "ULE",
@@ -47547,8 +47547,8 @@
     {
         "Symbol": "ULH",
         "Name": "Universal Logistics Holdings Inc",
-        "dividend": true,
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true        
     },
     {
         "Symbol": "ULS",
@@ -47566,8 +47566,8 @@
     {
         "Symbol": "ULTA",
         "Name": "Ulta Beauty",
-        "ownWebull": true,
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true        
     },
     {
         "Symbol": "ULTY",
@@ -47605,9 +47605,9 @@
     {
         "Symbol": "UMBF",
         "Name": "Umb Financial",
+        "Country": "USA",
         "ownWebull": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true        
     },
     {
         "Symbol": "UMC",
@@ -47709,8 +47709,8 @@
     {
         "Symbol": "UNTY",
         "Name": "Unity Bancorp, Inc.",
-        "dividend": true,
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "UNX",
@@ -47747,8 +47747,8 @@
     {
         "Symbol": "UPBD",
         "Name": "Upbound Group Inc",
-        "dividend": true,
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "UPGD",
@@ -47782,8 +47782,8 @@
     {
         "Symbol": "UPST",
         "Name": "Upstart Holdings, Inc.",
-        "ownWebull": true,
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true        
     },
     {
         "Symbol": "UPSX",
@@ -47809,8 +47809,8 @@
     {
         "Symbol": "UPWK",
         "Name": "Upwork Inc",
-        "ownWebull": true,
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "URA",
@@ -47848,10 +47848,10 @@
     },
     {
         "Symbol": "URI",
-        "Name": "United Rentals, Inc. Common Stock",
-        "Security Name": "United Rentals, Inc. Common Stock",
-        "ownWebull": true,
-        "Country": "USA"
+        "Name": "United Rentals, Inc.",
+        "Security Name": "United Rentals, Inc. Common Stock",        
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "URNM",
@@ -47916,9 +47916,9 @@
         "Symbol": "USB",
         "Name": "U.S. Bancorp",
         "Security Name": "U.S. Bancorp Common Stock",
+        "Country": "USA",
         "ownWebull": true,
-        "dividend": true,
-        "Country": "USA"
+        "dividend": true        
     },
     {
         "Symbol": "USB-A",
@@ -47972,8 +47972,8 @@
     {
         "Symbol": "USCB",
         "Name": "USCB Financial Holdings Inc",
-        "dividend": true,
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true        
     },
     {
         "Symbol": "USCI",
@@ -48053,8 +48053,8 @@
     {
         "Symbol": "USLM",
         "Name": "United States Lime & Minerals Inc",
-        "dividend": true,
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "USMF",
