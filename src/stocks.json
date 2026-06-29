@@ -5890,7 +5890,7 @@
     },
     {
         "Symbol": "BWLP",
-        "Name": "BW LPG Limited Common Shares",
+        "Name": "BW LPG Limited",
         "Security Name": "BW LPG Limited Common Shares",
         "ownEtrade": true,
         "dividend": true
@@ -6237,6 +6237,7 @@
     {
         "Symbol": "CART",
         "Name": "Instacart, Inc.(Maplebear Inc.)",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -10085,7 +10086,7 @@
     },
     {
         "Symbol": "DIN",
-        "Name": "Dine Brands Global, Inc. Common Stock",
+        "Name": "Dine Brands Global, Inc.",
         "Security Name": "Dine Brands Global, Inc. Common Stock",
         "ownWebull": true,
         "dividend": true
@@ -11719,6 +11720,7 @@
         "Symbol": "EGO",
         "Name": "Eldorado Gold Corporation",
         "Security Name": "Eldorado Gold Corporation Ordinary Shares",
+        "Country": "Canada",
         "ownWebull": true,
         "dividend": true
     },
@@ -13661,9 +13663,9 @@
     {
         "Symbol": "FCOM",
         "Name": "Fidelity MSCI Communication Services Index ETF",
-        "ownAlly": true,
         "Security Name": "Fidelity MSCI Communication Services Index ETF",
         "ETF": "Y",
+        "ownAlly": true,
         "dividend": true
     },
     {
@@ -13870,6 +13872,7 @@
         "Symbol": "FDX",
         "Name": "FedEx Corporation",        
         "Security Name": "FedEx Corporation Common Stock",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -14274,9 +14277,9 @@
     },
     {
         "Symbol": "FICO",
-        "Name": "Fair Isaac Corporation Common Stock",
-        "ownWebull": true,
-        "Security Name": "Fair Isaac Corporation Common Stock"
+        "Name": "Fair Isaac Corporation",        
+        "Security Name": "Fair Isaac Corporation Common Stock",
+        "ownWebull": true
     },
     {
         "Symbol": "FIDI",
@@ -18191,6 +18194,7 @@
     {
         "Symbol": "HEINY",
         "Name": "Heineken Nv",
+        "Country": "Netherlands",
         "ownWebull": true,
         "dividend": true
     },
@@ -18225,6 +18229,7 @@
     {
         "Symbol": "HERZ",
         "Name": "Herzfeld Credit Income Fund Inc",
+        "Country": "USA",
         "dividend": true
     },
     {
@@ -18543,9 +18548,10 @@
     },
     {
         "Symbol": "HMC",
-        "Name": "Honda Motor Company, Ltd. Common Stock",
-        "ownEtrade": true,
-        "Security Name": "Honda Motor Company, Ltd. Common Stock"
+        "Name": "Honda Motor Company, Ltd.",
+        "Security Name": "Honda Motor Company, Ltd. Common Stock",
+        "Country": "Japan",
+        "ownEtrade": true
     },
     {
         "Symbol": "HMH",
@@ -18888,9 +18894,9 @@
     },
     {
         "Symbol": "HTH",
-        "Name": "Hilltop Holdings Inc.",
-        "ownWebull": true,
+        "Name": "Hilltop Holdings Inc.",        
         "Security Name": "Hilltop Holdings Inc.",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -22689,6 +22695,7 @@
     {
         "Symbol": "KDP",
         "Name": "Keurig Dr Pepper Inc",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -22746,9 +22753,10 @@
     },
     {
         "Symbol": "KEY",
-        "Name": "KeyCorp Common Stock",
-        "ownEtrade": true,
+        "Name": "KeyCorp",
         "Security Name": "KeyCorp Common Stock",
+        "Country": "USA",
+        "ownEtrade": true,
         "dividend": true
     },
     {
@@ -22804,9 +22812,9 @@
     },
     {
         "Symbol": "KGC",
-        "Name": "Kinross Gold Corporation Common Stock",
-        "ownWebull": true,
+        "Name": "Kinross Gold Corporation",
         "Security Name": "Kinross Gold Corporation Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -22900,9 +22908,9 @@
     },
     {
         "Symbol": "KKR",
-        "Name": "KKR & Co. Inc. Common Stock",
-        "ownWebull": true,
+        "Name": "KKR & Co. Inc.",
         "Security Name": "KKR & Co. Inc. Common Stock",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -23734,14 +23742,16 @@
     },
     {
         "Symbol": "LEN",
-        "Name": "Lennar Corporation Class A Common Stock",
-        "ownEtrade": true,
+        "Name": "Lennar Corporation",
         "Security Name": "Lennar Corporation Class A Common Stock",
+        "Country": "USA",
+        "ownEtrade": true,
         "dividend": true
     },
     {
         "Symbol": "LEN-B",
         "Name": "Lennar Corp Class B",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
@@ -24096,6 +24106,7 @@
     {
         "Symbol": "LIQT",
         "Name": "Liqtech Internat",
+        "Country": "Denmark",
         "ownWebull": true
     },
     {
@@ -24112,6 +24123,7 @@
     {
         "Symbol": "LITE",
         "Name": "Lumentum Holdings Inc",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -39545,6 +39557,7 @@
     {
         "Symbol": "TRIP",
         "Name": "Tripadvisor",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -41116,6 +41129,7 @@
         "Symbol": "V",
         "Name": "Visa Inc.",
         "Security Name": "Visa Inc.",
+        "Country": "USA",
         "ownWebull": true,
         "dividend": true
     },
