@@ -4007,7 +4007,7 @@
         "Symbol": "BB",
         "Name": "BlackBerry Limited",
         "Security Name": "BlackBerry Limited Common Stock",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -4094,7 +4094,7 @@
         "Symbol": "BBD",
         "Name": "Banco Bradesco Sa",
         "Security Name": "Banco Bradesco Sa American Depositary Shares",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -4109,7 +4109,7 @@
         "Symbol": "BBDO",
         "Name": "Banco Bradesco Sa",
         "Security Name": "Banco Bradesco Sa American Depositary Shares (each representing one Common Share)",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -4419,7 +4419,7 @@
         "Symbol": "BCS",
         "Name": "Barclays PLC",
         "Security Name": "Barclays PLC Common Stock",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -4559,13 +4559,13 @@
     {
         "Symbol": "BEBE",
         "Name": "TGE Value Creative Solutions Corp",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
         "Symbol": "BEBE-U",
         "Name": "TGE Value Creative Solutions Corp.",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -4852,7 +4852,7 @@
     {
         "Symbol": "BGLC",
         "Name": "BioNexus Gene Lab Corp",
-        "Country": "USA",
+        "Country": "Malaysia",
         "ownWebull": true
     },
     {
@@ -4934,9 +4934,9 @@
     },
     {
         "Symbol": "BHC",
-        "Name": "Bausch Health Companies Inc. Common Stock",
+        "Name": "Bausch Health Companies Inc.",
         "Security Name": "Bausch Health Companies Inc. Common Stock",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -5031,7 +5031,7 @@
     {
         "Symbol": "BIDU",
         "Name": "Baidu Inc",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -5058,7 +5058,7 @@
     {
         "Symbol": "BILI",
         "Name": "Bilibili",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -5190,7 +5190,7 @@
         "Symbol": "BIRK",
         "Name": "Birkenstock Holding plc",
         "Security Name": "Birkenstock Holding plc Ordinary Shares",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -5601,14 +5601,14 @@
     {
         "Symbol": "BLRX",
         "Name": "BioLine RX Ltd",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
         "Symbol": "BLSH",
         "Name": "Bullish",
         "Security Name": "Bullish Ordinary Shares",
-        "Country": "USA",
+        "Country": "Cayman Islands",
         "ownWebull": true
     },
     {
@@ -5663,7 +5663,7 @@
         "Symbol": "BLX",
         "Name": "Banco Latinoamericano de Comercio Exterior, S.A.",
         "Security Name": "Banco Latinoamericano de Comercio Exterior, S.A.",
-        "Country": "USA",
+        "Country": "Panama",
         "ownWebull": true
     },
     {
