@@ -2875,7 +2875,7 @@
     {
         "Symbol": "ASPS",
         "Name": "Altisource Portfolio Solutions S.A.",
-        "Country": "Luxembourg",
+        "Country": "USA",
         "ownWebull": true
     },
     {
@@ -32446,7 +32446,7 @@
         "Symbol": "NEXA",
         "Name": "Nexa Resources S.A.",
         "Security Name": "Nexa Resources S.A. Common Shares",
-        "Country": "Luxembourg",
+        "Country": "Peru",
         "ownWebull": true,
         "dividend": true
     },
@@ -34510,7 +34510,7 @@
         "Symbol": "ONON",
         "Name": "On Holding AG",
         "Security Name": "On Holding AG Class A Ordinary Shares",
-        "Country": "Luxembourg",
+        "Country": "Switzerland",
         "ownWebull": true
     },
     {
