@@ -149,6 +149,28 @@ table, th, td {
   color: #6b7280;
 }
 
+.stocks-map-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 12px auto 4px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.stocks-map-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.stocks-map-loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
 .stocks-country-counts {
   display: flex;
   flex-wrap: wrap;

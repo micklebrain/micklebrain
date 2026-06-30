@@ -8,6 +8,7 @@ import chaseLogo from "./chase.svg";
 import schwabLogo from "./schwab.svg";
 import allyLogo from "./ally.svg";
 import fidelityLogo from "./fidelity.svg";
+import StocksMap from "./StocksMap";
 
 const brokerToOwnershipField = {
   webull: "ownWebull",
@@ -342,18 +343,21 @@ function Stocks() {
         {filteredItems.length} stocks
       </div>
       {countryOwnedCounts.length > 0 && (
-        <div className="stocks-country-counts">
-          {countryOwnedCounts.map(([country, { owned }]) => (
-            <span
-              key={country}
-              className={`stocks-country-count-item${selectedCountry === country ? " active" : ""}`}
-              onClick={() => setSelectedCountry((prev) => prev === country ? "" : country)}
-            >
-              <span className="stocks-country-count-name">{country}</span>
-              <span className="stocks-country-count-num">{owned}</span>
-            </span>
-          ))}
-        </div>
+        <>
+          <StocksMap countryOwnedCounts={countryOwnedCounts} />
+          <div className="stocks-country-counts">
+            {countryOwnedCounts.map(([country, { owned }]) => (
+              <span
+                key={country}
+                className={`stocks-country-count-item${selectedCountry === country ? " active" : ""}`}
+                onClick={() => setSelectedCountry((prev) => prev === country ? "" : country)}
+              >
+                <span className="stocks-country-count-name">{country}</span>
+                <span className="stocks-country-count-num">{owned}</span>
+              </span>
+            ))}
+          </div>
+        </>
       )}
       <form className="stocks-add-form" onSubmit={handleAddStock}>
         <input

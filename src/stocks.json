@@ -78,7 +78,7 @@
         "Name": "4ig Plc.",
         "Country": "Hungary",
         "ownInteractiveBrokers": true,
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "7201",
@@ -19513,7 +19513,7 @@
         "Symbol": "GIB",
         "Name": "CGI Inc.",
         "Security Name": "CGI Inc. Common Stock",
-        "Country": "Cana",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
