@@ -16668,7 +16668,7 @@
     {
         "Symbol": "FGL",
         "Name": "Founder Group Ltd",
-        "Country": "USA",
+        "Country": "Malaysia",
         "ownWebull": true
     },
     {
@@ -17744,7 +17744,7 @@
     {
         "Symbol": "FOCL",
         "Name": "Edap Tms SA",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -17763,7 +17763,7 @@
     {
         "Symbol": "FOFO",
         "Name": "Hang Feng Technology Innovation Co Ltd",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -18370,7 +18370,7 @@
     {
         "Symbol": "FUJHY",
         "Name": "Subaru Corp",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -18483,7 +18483,7 @@
         "Symbol": "FVRR",
         "Name": "Fiverr International Ltd.",
         "Security Name": "Fiverr International Ltd. Ordinary Shares, no par value",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -18651,7 +18651,7 @@
         "Symbol": "G",
         "Name": "Genpact Limited",
         "Security Name": "Genpact Limited Common Stock",
-        "Country": "USA",
+        "Country": "Bermuda",
         "ownWebull": true,
         "dividend": true
     },
@@ -18769,7 +18769,7 @@
     {
         "Symbol": "GASS",
         "Name": "StealthGas Inc",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -19015,7 +19015,7 @@
     {
         "Symbol": "GDHG",
         "Name": "Golden Heaven Gr",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -19304,7 +19304,7 @@
         "Symbol": "GFI",
         "Name": "Gold Fields Limited",
         "Security Name": "Gold Fields Limited American Depositary Shares",
-        "Country": "USA",
+        "Country": "South Africa",
         "ownWebull": true,
         "dividend": true
     },
@@ -19331,7 +19331,7 @@
         "Symbol": "GGB",
         "Name": "Gerdau S.A.",
         "Security Name": "Gerdau S.A. Common Stock",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -19421,9 +19421,9 @@
     },
     {
         "Symbol": "GHG",
-        "Name": "GreenTree Hospitality Group Ltd. American depositary shares, each representing one Class A ordinary share",
+        "Name": "GreenTree Hospitality Group Ltd.",
         "Security Name": "GreenTree Hospitality Group Ltd. American depositary shares, each representing one Class A ordinary share",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -19495,7 +19495,7 @@
         "Symbol": "GIB",
         "Name": "CGI Inc.",
         "Security Name": "CGI Inc. Common Stock",
-        "Country": "USA",
+        "Country": "Cana",
         "ownWebull": true
     },
     {
@@ -19661,7 +19661,7 @@
     {
         "Symbol": "GLBS",
         "Name": "Globus Maritime Ltd",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -19720,8 +19720,8 @@
     },
     {
         "Symbol": "GLOB",
-        "Name": "Globant S.A. Common Shares",
-        "Country": "USA",
+        "Name": "Globant S.A.",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -20153,7 +20153,7 @@
         "Symbol": "GOOS",
         "Name": "Canada Goose Holdings Inc.",
         "Security Name": "Canada Goose Holdings Inc. Subordinate Voting Shares",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -20277,7 +20277,7 @@
         "Symbol": "GPRK",
         "Name": "Geopark Ltd",
         "Security Name": "Geopark Ltd Common Shares",
-        "Country": "USA",
+        "Country": "Colombia",
         "ownWebull": true,
         "dividend": true
     },
@@ -20337,7 +20337,7 @@
     {
         "Symbol": "GRAB",
         "Name": "Grab Holdings Limited",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true
     },
     {
@@ -20409,7 +20409,7 @@
         "Symbol": "GRMN",
         "Name": "Garmin Ltd.",
         "Security Name": "Garmin Ltd. Common Stock (Switzerland)",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
     },
@@ -20436,7 +20436,7 @@
     {
         "Symbol": "GRNQ",
         "Name": "Greenpro Capital Corp",
-        "Country": "USA",
+        "Country": "Malaysia",
         "ownWebull": true
     },
     {
@@ -20518,7 +20518,7 @@
     {
         "Symbol": "GRVY",
         "Name": "Gravity",
-        "Country": "USA",
+        "Country": "South Korea",
         "ownWebull": true
     },
     {
@@ -20641,7 +20641,7 @@
         "Symbol": "GSK",
         "Name": "GSK plc",
         "Security Name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -21186,7 +21186,7 @@
     {
         "Symbol": "HBNB",
         "Name": "Hotel101 Global Holdings Corp",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true
     },
     {
@@ -21276,7 +21276,7 @@
     {
         "Symbol": "HDB",
         "Name": "HDFC Bank Ltd",
-        "Country": "USA",
+        "Country": "India",
         "ownWebull": true,
         "dividend": true
     },
@@ -21701,7 +21701,7 @@
     {
         "Symbol": "HIVE",
         "Name": "Hive Digital Technologies Ltd",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -21727,7 +21727,7 @@
         "Symbol": "HKD",
         "Name": "AMTD Digital Inc.",
         "Security Name": "AMTD Digital Inc. American Depositary Shares (every five of which represent two Class A Ordinary Shares)",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -21752,9 +21752,9 @@
     },
     {
         "Symbol": "HLF",
-        "Name": "Herbalife Ltd. Common Shares",
+        "Name": "Herbalife Ltd.",
         "Security Name": "Herbalife Ltd. Common Shares",
-        "Country": "USA",
+        "Country": "Cayman Islands",
         "ownWebull": true
     },
     {
@@ -21834,14 +21834,14 @@
     {
         "Symbol": "HMR",
         "Name": "Heidmar Maritime Holdings Corp",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
         "Symbol": "HMY",
         "Name": "Harmony Gold Mining Company Limited",
         "Security Name": "Harmony Gold Mining Company Limited",
-        "Country": "USA",
+        "Country": "South Africa",
         "ownWebull": true
     },
     {
@@ -22137,7 +22137,7 @@
     {
         "Symbol": "HSQVY",
         "Name": "Husqvarna Ab",
-        "Country": "USA",
+        "Country": "Sweden",
         "ownWebull": true
     },
     {
@@ -22222,7 +22222,7 @@
     {
         "Symbol": "HTHT",
         "Name": "H World Group",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -22240,7 +22240,7 @@
     {
         "Symbol": "HTOO",
         "Name": "Fusion Fuel Green PLC",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
@@ -22814,7 +22814,7 @@
     },
     {
         "Symbol": "IBG",
-        "Country": "USA",
+        "Country": "Australia",
         "ownWebull": true
     },
     {
@@ -23130,7 +23130,7 @@
     {
         "Symbol": "ICLR",
         "Name": "ICON PLC",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
