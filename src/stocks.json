@@ -1363,8 +1363,8 @@
     },
     {
         "Symbol": "AIR",
-        "Name": "AIRBUS",
-        "Country": "USA",
+        "Name": "Airbus",
+        "Country": "France",
         "ownInteractiveBrokers": true
     },
     {
@@ -1534,6 +1534,13 @@
         "Name": "Allete, Inc.",
         "Security Name": "Allete, Inc.",
         "Country": "USA"
+    },
+    {
+        "Symbol": "ALE",
+        "Name": "Allegro.eu S.A.",
+        "Country": "Poland",
+        "ownInteractiveBrokers": true,
+        "dividend": true
     },
     {
         "Symbol": "ALEC",
@@ -7098,7 +7105,7 @@
     {
         "Symbol": "CA",
         "Name": "Carrefour SA",
-        "Country": "USA",
+        "Country": "France",
         "ownInteractiveBrokers": true,
         "dividend": true
     },
@@ -12326,6 +12333,20 @@
         "Name": "DNP Select Income Fund, Inc.",
         "Security Name": "DNP Select Income Fund, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "DNP",
+        "Name": "Dino Polska SA",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": true,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "DNUT",
@@ -29395,7 +29416,7 @@
         "Symbol": "MAYZ",
         "Name": "TrueShares Structured Outcome (May) ETF",
         "Security Name": "TrueShares Structured Outcome (May) ETF",
-        "Exchange": "Z",        
+        "Exchange": "Z",
         "ETF": "Y",
         "Country": "USA"
     },
@@ -30864,7 +30885,7 @@
     {
         "Symbol": "MONC",
         "Name": "Moncler SpA",
-        "Country": "USA",
+        "Country": "Italy",
         "ownInteractiveBrokers": true,
         "dividend": true
     },
@@ -34146,7 +34167,7 @@
         "Name": "TrueShares Structured Outcome (October) ETF",
         "Security Name": "TrueShares Structured Outcome (October) ETF",
         "Exchange": "Z",
-        "ETF": "Y",        
+        "ETF": "Y",
         "Country": "USA"
     },
     {
