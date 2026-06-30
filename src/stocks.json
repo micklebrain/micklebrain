@@ -96,7 +96,7 @@
     },
     {
         "Symbol": "9432",
-        "Name": "NTT,INC",
+        "Name": "NTT Inc",
         "Country": "Japan",
         "ownInteractiveBrokers": true,
         "dividend": true
@@ -1909,7 +1909,7 @@
     },
     {
         "Symbol": "AMRN",
-        "name": "Amarin Corporation PLC",
+        "Name": "Amarin Corporation PLC",
         "Country": "Ireland",
         "ownWebull": true
     },
@@ -2492,7 +2492,7 @@
     },
     {
         "Symbol": "ARES.PR.B",
-        "Name": "ARES MANAGEMENT CORPORATION 6.75 SE B PFD",
+        "Name": "Ares Management Corporation",
         "Country": "USA",
         "ownEtrade": true
     },
@@ -6076,7 +6076,7 @@
     },
     {
         "Symbol": "BOX",
-        "Name": "Box, Inc. Class A",
+        "Name": "Box, Inc.",
         "Security Name": "Box, Inc. Class A Common Stock",
         "Country": "USA",
         "ownWebull": true
@@ -6281,7 +6281,7 @@
     },
     {
         "Symbol": "BRKRP",
-        "Name": "Bruker 6 375 Mandatory Convertible Preference Shares Ser A",
+        "Name": "Bruker Corporation",
         "Country": "USA",
         "ownMoomoo": true
     },
@@ -6815,7 +6815,7 @@
     },
     {
         "Symbol": "BUXX",
-        "Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
+        "Name": "Strive Enhanced Income Short Maturity ETF",
         "Security Name": "EA Series Trust Strive Enhanced Income Short Maturity ETF",
         "ETF": "Y",
         "Country": "USA",
@@ -6918,7 +6918,7 @@
     },
     {
         "Symbol": "BWG",
-        "Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
+        "Name": "Brandywineglbl Global Incm Opp Fund Inc",
         "Security Name": "BrandywineGLOBAL Global Income Opportunities Fund Inc.",
         "Country": "USA",
         "ownEtrade": true,
@@ -7909,7 +7909,7 @@
     },
     {
         "Symbol": "CEPU",
-        "Name": "Central Puerto S.A. American Depositary Shares (each represents ten)",
+        "Name": "Central Puerto S.A.",
         "Security Name": "Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)",
         "Country": "Argentina",
         "ownEtrade": true,
@@ -9115,8 +9115,8 @@
     },
     {
         "Symbol": "CNK",
-        "Name": "Cinemark Holdings Inc Cinemark Holdings, Inc.",
-        "Security Name": "Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock",
+        "Name": "Cinemark Holdings Inc",
+        "Security Name": "Cinemark Holdings Inc Common Stock",
         "Country": "USA",
         "ownEtrade": true
     },
@@ -14228,14 +14228,9 @@
     },
     {
         "Symbol": "EMIS",
-        "Name": "EMMIS ACQUISITION CORP.",
+        "Name": "Emmis Acquisition Corp.",
         "Country": "USA",
         "ownWebull": true
-    },
-    {
-        "Symbol": "EMISR",
-        "Name": "EMMIS ACQUISITION CORP.",
-        "Country": "USA"
     },
     {
         "Symbol": "EML",
@@ -16078,7 +16073,7 @@
     },
     {
         "Symbol": "FCNCA",
-        "Name": "First Citizens BancShares Inc (Delaware) Class A",
+        "Name": "First Citizens BancShares Inc",
         "Country": "USA",
         "ownWebull": true,
         "dividend": true
@@ -16934,6 +16929,7 @@
     },
     {
         "Symbol": "FISV",
+        "Name": "Fiserv Inc",
         "Country": "USA",
         "ownWebull": true
     },
@@ -17262,6 +17258,7 @@
     },
     {
         "Symbol": "FLNA",
+        "Name": "Filana Therapeutics Inc",
         "Country": "USA",
         "ownWebull": true
     },
@@ -18641,8 +18638,8 @@
     },
     {
         "Symbol": "FXY",
-        "Name": "Invesco CurrencyShares Japanese Yen Trust",
-        "Security Name": "Invesco CurrencyShares Japanese Yen Trust",
+        "Name": "Invesco Currency Shares Japanese Yen Trust",
+        "Security Name": "Invesco Currency Shares Japanese Yen Trust",
         "ETF": "Y",
         "Country": "USA",
         "ownRobinhood": true
@@ -22835,6 +22832,7 @@
     },
     {
         "Symbol": "IBG",
+        "Name": "Innovation Beverage Group Ltd",
         "Country": "Australia",
         "ownWebull": true
     },
@@ -24938,8 +24936,8 @@
     },
     {
         "Symbol": "IVR",
-        "Name": "INVESCO MORTGAGE CAPITAL INC",
-        "Security Name": "INVESCO MORTGAGE CAPITAL INC Common Stock",
+        "Name": "Invesco Mortgage Capital Inc",
+        "Security Name": "Invesco Mortgage Capital Inc Common Stock",
         "Country": "USA",
         "ownWebull": true,
         "dividend": true
@@ -25171,8 +25169,8 @@
     },
     {
         "Symbol": "IX",
-        "Name": "ORIX Corporation American Depositary Shares",
-        "Security Name": "ORIX Corporation American Depositary Shares",
+        "Name": "Orix Corp",
+        "Security Name": "Orix Corporation American Depositary Shares",
         "Country": "Japan",
         "ownEtrade": true,
         "dividend": true
@@ -25987,7 +25985,7 @@
     },
     {
         "Symbol": "JMIA",
-        "Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",
+        "Name": "Jumia Technologies AG",
         "Security Name": "Jumia Technologies AG American Depositary Shares, each representing two Ordinary Shares",
         "Country": "Germany",
         "ownWebull": true
@@ -26970,6 +26968,7 @@
     },
     {
         "Symbol": "KLAC",
+        "Name": "KLA Corp",
         "Country": "USA",
         "ownWebull": true
     },
@@ -28531,6 +28530,7 @@
     },
     {
         "Symbol": "LNKS",
+        "Name": "Linkers Industries Ltd",
         "Country": "Malaysia",
         "ownWebull": true
     },
@@ -28618,7 +28618,7 @@
     },
     {
         "Symbol": "LOMA",
-        "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
+        "Name": "Loma Negra Compania Indl Argntna SA",
         "Security Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
         "Country": "Argentina",
         "ownWebull": true,
@@ -28666,7 +28666,7 @@
     },
     {
         "Symbol": "LPA",
-        "Name": "Logistic Properties of the Americas Ordinary Shares",
+        "Name": "Logistic Properties of The Americas",
         "Security Name": "Logistic Properties of the Americas Ordinary Shares",
         "Country": "USA",
         "ownWebull": true,
@@ -28781,6 +28781,7 @@
     },
     {
         "Symbol": "LRE",
+        "Name": "Lead Real Estate Co Ltd",
         "Country": "Japan",
         "ownWebull": true
     },
@@ -28913,7 +28914,7 @@
     },
     {
         "Symbol": "LTM",
-        "Name": "LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of)",
+        "Name": "LATAM Airlines Group S.A.",
         "Security Name": "LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",
         "Country": "USA",
         "ownEtrade": true
@@ -29086,6 +29087,7 @@
     },
     {
         "Symbol": "LYTS",
+        "Name": "LSI Industries Inc",
         "Country": "USA",
         "ownEtrade": true
     },
@@ -30729,7 +30731,7 @@
     },
     {
         "Symbol": "MMYT",
-        "Name": "Makemytrip Limited Mauritius",
+        "Name": "Makemytrip Ltd",
         "Country": "India",
         "ownWebull": true
     },
@@ -36068,6 +36070,7 @@
     },
     {
         "Symbol": "PGNY",
+        "Name": "Progyny Inc",
         "Country": "USA",
         "ownEtrade": true
     },
@@ -49758,7 +49761,7 @@
     },
     {
         "Symbol": "WBD",
-        "Name": "WARNER BROS DISCOVERY INC",
+        "Name": "Warner Bros Discovery Inc",
         "Country": "USA",
         "ownWebull": true
     },
@@ -49818,7 +49821,7 @@
     },
     {
         "Symbol": "WBTN",
-        "Name": "WEBTOON ENTERTAINMENT INC.",
+        "Name": "Webtoon Entertainment Inc",
         "Country": "USA",
         "ownWebull": true
     },
@@ -52328,7 +52331,7 @@
     },
     {
         "Symbol": "ZTG",
-        "Name": "ZENTA GROUP CO LTD",
+        "Name": "Zenta Group Co Ltd",
         "Country": "USA",
         "ownWebull": true
     },

@@ -9,6 +9,18 @@ import schwabLogo from "./schwab.svg";
 import allyLogo from "./ally.svg";
 import fidelityLogo from "./fidelity.svg";
 
+const brokerToOwnershipField = {
+  webull: "ownWebull",
+  etrade: "ownEtrade",
+  robinhood: "ownRobinhood",
+  chase: "ownChase",
+  schwab: "ownSchwab",
+  ally: "ownAlly",
+  fidelity: "ownFidelity",
+  interactiveBrokers: "ownInteractiveBrokers",
+  moomoo: "ownMoomoo",
+};
+
 function Stocks() {
   const items = React.useMemo(() => {
     if (!Array.isArray(stocksData)) return [];
@@ -34,6 +46,7 @@ function Stocks() {
   const [selectedCountry, setSelectedCountry] = useState("");
   const [showDividendOnly, setShowDividendOnly] = useState(false);
   const [showETFOnly, setShowETFOnly] = useState(false);
+  const [showName, setShowName] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
   const [newOwnWebull, setNewOwnWebull] = useState(false);
@@ -82,24 +95,12 @@ function Stocks() {
       .sort((a, b) => b[1].owned - a[1].owned);
   }, [effectiveItems]);
 
-  const brokerToOwnershipField = {
-    webull: "ownWebull",
-    etrade: "ownEtrade",
-    robinhood: "ownRobinhood",
-    chase: "ownChase",
-    schwab: "ownSchwab",
-    ally: "ownAlly",
-    fidelity: "ownFidelity",
-    interactiveBrokers: "ownInteractiveBrokers",
-    moomoo: "ownMoomoo",
-  };
-
   const activeBrokers = Object.keys(selectedBrokers).filter(
     (broker) => selectedBrokers[broker]
   );
   const hasAnyBrokerFilter = activeBrokers.length > 0;
 
-  const filteredItems = effectiveItems.filter((item) => {
+  const filteredItems = React.useMemo(() => effectiveItems.filter((item) => {
     const isOwnedInAnyBroker =
       !!item.ownWebull ||
       !!item.ownEtrade ||
@@ -122,7 +123,7 @@ function Stocks() {
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
-  });
+  }).sort((a, b) => (a.Name || a.Symbol || "").localeCompare(b.Name || b.Symbol || "")), [effectiveItems, selectedCountry, showDividendOnly, showETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
 
   const symbolOccurrences = React.useMemo(() => {
     const counts = {};
@@ -329,6 +330,13 @@ function Stocks() {
         >
           ETF
         </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showName ? "active" : ""}`}
+          onClick={() => setShowName((prev) => !prev)}
+        >
+          {showName ? "Symbol" : "Name"}
+        </button>
       </div>
       <div className="stocks-count">
         {filteredItems.length} stocks
@@ -460,9 +468,9 @@ function Stocks() {
               key={`${item.Symbol}-${globalIndex}`}
               className={`stocks-tile ${isOwned ? "stocks-tile-owned" : ""}`}
             >
-              <span className="stocks-symbol">
+              <span className={showName ? "stocks-name" : "stocks-symbol"}>
                 <Link to={`/stocks/${encodeURIComponent(item.Symbol)}/${globalIndex}`}>
-                  {item.Symbol}
+                  {showName ? (item.Name || item.Symbol) : item.Symbol}
                 </Link>
               </span>
               {hasWebull && (
