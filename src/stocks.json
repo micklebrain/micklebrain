@@ -28510,7 +28510,7 @@
     },
     {
         "Symbol": "LNKS",
-        "Country": "USA",
+        "Country": "Malaysia",
         "ownWebull": true
     },
     {
@@ -28591,7 +28591,7 @@
     {
         "Symbol": "LOGI",
         "Name": "Logitech Intl S A",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
     },
@@ -28599,7 +28599,7 @@
         "Symbol": "LOMA",
         "Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
         "Security Name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
-        "Country": "USA",
+        "Country": "Argentina",
         "ownWebull": true,
         "dividend": true
     },
@@ -28760,7 +28760,7 @@
     },
     {
         "Symbol": "LRE",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -28938,7 +28938,7 @@
     {
         "Symbol": "LULU",
         "Name": "Lululemon",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -28958,7 +28958,7 @@
         "Symbol": "LUXE",
         "Name": "LuxExperience B.V.",
         "Security Name": "LuxExperience B.V. American Depositary Shares, each representing one Ordinary Share",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -28978,7 +28978,7 @@
     {
         "Symbol": "LVMUY",
         "Name": "Lvmh Moet Hennessy Louis Vuitton",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true,
         "dividend": true
     },
@@ -29010,7 +29010,7 @@
     },
     {
         "Symbol": "LX",
-        "Name": "LexinFintech Holdings Ltd - ADR",
+        "Name": "LexinFintech Holdings Ltd",
         "Country": "China",
         "ownWebull": true
     },
@@ -29149,12 +29149,12 @@
     {
         "Symbol": "MAGH",
         "Name": "Magnitude International Ltd",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true
     },
     {
         "Symbol": "MAGN",
-        "Name": "Magnera Corporation Common Stock",
+        "Name": "Magnera Corporation",
         "Security Name": "Magnera Corporation Common Stock",
         "Country": "USA"
     },
@@ -29181,7 +29181,7 @@
     },
     {
         "Symbol": "MAIA",
-        "Name": "MAIA Biotechnology, Inc. Common Stock",
+        "Name": "MAIA Biotechnology, Inc.",
         "Security Name": "MAIA Biotechnology, Inc. Common Stock",
         "Country": "USA"
     },
