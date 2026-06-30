@@ -29225,9 +29225,9 @@
     },
     {
         "Symbol": "MANU",
-        "Name": "Manchester United Ltd. Class A Ordinary Shares",
+        "Name": "Manchester United Ltd.",
         "Security Name": "Manchester United Ltd. Class A Ordinary Shares",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -29395,12 +29395,8 @@
         "Symbol": "MAYZ",
         "Name": "TrueShares Structured Outcome (May) ETF",
         "Security Name": "TrueShares Structured Outcome (May) ETF",
-        "Exchange": "Z",
-        "CQS Symbol": "MAYZ",
+        "Exchange": "Z",        
         "ETF": "Y",
-        "Round Lot Size": "100",
-        "Test Issue": "N",
-        "NASDAQ Symbol": "MAYZ",
         "Country": "USA"
     },
     {
@@ -29412,7 +29408,7 @@
     {
         "Symbol": "MB",
         "Name": "Masterbeef Group",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -29444,8 +29440,8 @@
     },
     {
         "Symbol": "MBGYY",
-        "Name": "MERCEDES BENZ GROUP AG",
-        "Country": "USA",
+        "Name": "Mercedes Benz Group",
+        "Country": "Germany",
         "ownWebull": true,
         "dividend": true
     },
@@ -29700,7 +29696,7 @@
         "Symbol": "MDT",
         "Name": "Medtronic plc.",
         "Security Name": "Medtronic plc. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true,
         "dividend": true
     },
@@ -29801,7 +29797,7 @@
     {
         "Symbol": "MELI",
         "Name": "MercadoLibre Inc",
-        "Country": "USA",
+        "Country": "Uruguay",
         "ownWebull": true
     },
     {
@@ -29821,7 +29817,7 @@
     {
         "Symbol": "MENS",
         "Name": "Jyong Biotech Ltd.",
-        "Country": "USA",
+        "Country": "Taiwan",
         "ownWebull": true
     },
     {
@@ -29838,7 +29834,8 @@
     },
     {
         "Symbol": "MERC",
-        "Country": "USA",
+        "Name": "Mercer International Inc",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -30052,8 +30049,8 @@
     },
     {
         "Symbol": "MGDDY",
-        "Name": "Michelin Comp",
-        "Country": "USA",
+        "Name": "Michelin Compagnie Generale des Etablissements Michelin",
+        "Country": "France",
         "ownWebull": true,
         "dividend": true
     },
@@ -30161,7 +30158,7 @@
     {
         "Symbol": "MGRT",
         "Name": "Mega Fortune Co Ltd",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -30346,7 +30343,7 @@
     {
         "Symbol": "MITEY",
         "Name": "Mitsubishi Estate Ltd",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -30371,7 +30368,7 @@
     {
         "Symbol": "MITSY",
         "Name": "Mitsui & Co Ltd",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -30488,7 +30485,7 @@
     {
         "Symbol": "MLCO",
         "Name": "Melco Resorts And Entmnt Ltd",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -30712,7 +30709,7 @@
     {
         "Symbol": "MMYT",
         "Name": "Makemytrip Limited Mauritius",
-        "Country": "USA",
+        "Country": "India",
         "ownWebull": true
     },
     {
@@ -30732,13 +30729,13 @@
     {
         "Symbol": "MNDO",
         "Name": "Mind Cti",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
         "Symbol": "MNDY",
         "Name": "Monday.Com Ltd.",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -31073,7 +31070,7 @@
     {
         "Symbol": "MRM",
         "Name": "Medirom Healthcare Technologies Inc",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -31515,7 +31512,7 @@
     },
     {
         "Symbol": "MTLS",
-        "Name": "Materialise NV - ADR",
+        "Name": "Materialise NV",
         "Country": "Belgium",
         "ownWebull": true
     },
@@ -31553,7 +31550,7 @@
     },
     {
         "Symbol": "MTUAY",
-        "Name": "MTU AERO ENGINES HLDGS ADR",
+        "Name": "MTU Aero Engines AG",
         "Country": "Germany",
         "ownWebull": true,
         "dividend": true
@@ -31633,7 +31630,7 @@
         "Symbol": "MUFG",
         "Name": "Mitsubishi UFJ Financial Group, Inc.",
         "Security Name": "Mitsubishi UFJ Financial Group, Inc. Common Stock",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -31995,7 +31992,7 @@
         "Symbol": "NAT",
         "Name": "Nordic American Tankers Limited",
         "Security Name": "Nordic American Tankers Limited Common Stock",
-        "Country": "USA",
+        "Country": "Bermuda",
         "ownWebull": true,
         "dividend": true
     },
@@ -32106,7 +32103,7 @@
     {
         "Symbol": "NBIS",
         "Name": "Nebius Group NV",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true
     },
     {
