@@ -32446,14 +32446,14 @@
         "Symbol": "NEXA",
         "Name": "Nexa Resources S.A.",
         "Security Name": "Nexa Resources S.A. Common Shares",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "NEXOY",
         "Name": "Nexon Co Ltd",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -32667,7 +32667,7 @@
         "Symbol": "NIO",
         "Name": "NIO Inc.",
         "Security Name": "NIO Inc. American depositary shares, each  representing one Class A ordinary share",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -32734,7 +32734,7 @@
     {
         "Symbol": "NKLR",
         "Name": "Terra Innovatum Global NV",
-        "Country": "USA",
+        "Country": "Italy",
         "ownWebull": true
     },
     {
@@ -32871,7 +32871,7 @@
         "Symbol": "NMR",
         "Name": "Nomura Holdings Inc",
         "Security Name": "Nomura Holdings Inc ADR American Depositary Shares",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -32986,7 +32986,7 @@
         "Symbol": "NOK",
         "Name": "Nokia Corporation",
         "Security Name": "Nokia Corporation Sponsored American Depositary Shares",
-        "Country": "USA",
+        "Country": "Finland",
         "ownWebull": true,
         "dividend": true
     },
