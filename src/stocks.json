@@ -23150,7 +23150,7 @@
     {
         "Symbol": "ICON",
         "Name": "Icon Energy Corp",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -23196,7 +23196,7 @@
     {
         "Symbol": "IDCBY",
         "Name": "Industrial Comme",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true,
         "dividend": true
     },
@@ -23236,7 +23236,7 @@
     {
         "Symbol": "IDEXY",
         "Name": "Industria De Diseno Textil Ind",
-        "Country": "USA",
+        "Country": "Spain",
         "ownWebull": true,
         "dividend": true
     },
@@ -23540,7 +23540,7 @@
     {
         "Symbol": "IGIC",
         "Name": "International General Insuranc Hldgs Ltd",
-        "Country": "USA",
+        "Country": "Jordan",
         "ownWebull": true,
         "dividend": true
     },
@@ -23650,7 +23650,7 @@
         "Symbol": "IHG",
         "Name": "Intercontinental Hotels Group",
         "Security Name": "Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -23665,7 +23665,7 @@
         "Symbol": "IHS",
         "Name": "IHS Holding Limited",
         "Security Name": "IHS Holding Limited Ordinary Shares",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -23857,9 +23857,9 @@
     },
     {
         "Symbol": "IMAX",
-        "Name": "Imax Corporation Common Stock",
+        "Name": "Imax Corporation",
         "Security Name": "Imax Corporation Common Stock",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -23917,7 +23917,7 @@
     },
     {
         "Symbol": "IMOS",
-        "Name": "ChipMOS Technologies Inc - ADR",
+        "Name": "ChipMOS Technologies Inc",
         "Country": "Taiwan",
         "ownWebull": true,
         "dividend": true
@@ -23925,7 +23925,7 @@
     {
         "Symbol": "IMPP",
         "Name": "Imperial Petroleum Inc",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -23965,7 +23965,7 @@
     {
         "Symbol": "IMTX",
         "Name": "Immatics NV",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -24030,9 +24030,9 @@
     },
     {
         "Symbol": "INDO",
-        "Name": "Indonesia Energy Corporation Limited Ordinary Shares",
+        "Name": "Indonesia Energy Corporation",
         "Security Name": "Indonesia Energy Corporation Limited Ordinary Shares",
-        "Country": "USA",
+        "Country": "Indonesia",
         "ownWebull": true
     },
     {
@@ -24077,7 +24077,7 @@
     },
     {
         "Symbol": "INFY",
-        "Name": "Infosys Limited American Depositary Shares",
+        "Name": "Infosys",
         "Security Name": "Infosys Limited American Depositary Shares",
         "Country": "India",
         "ownWebull": true
@@ -24086,7 +24086,7 @@
         "Symbol": "ING",
         "Name": "ING Group, N.V.",
         "Security Name": "ING Group, N.V. Common Stock",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true,
         "dividend": true
     },
@@ -24224,7 +24224,7 @@
     {
         "Symbol": "INTR",
         "Name": "Inter & Co Inc",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -24396,7 +24396,7 @@
     {
         "Symbol": "IPHA",
         "Name": "Innate Pharma SA",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -24553,9 +24553,9 @@
     },
     {
         "Symbol": "IRS",
-        "Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
+        "Name": "IRSA Inversiones Y Representaciones S.A.",
         "Security Name": "IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock)",
-        "Country": "USA",
+        "Country": "Argentina",
         "ownWebull": true,
         "dividend": true
     },
@@ -24842,7 +24842,7 @@
     },
     {
         "Symbol": "ITUB",
-        "Name": "Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)",
+        "Name": "Itau Unibanco Banco Holding SA",
         "Security Name": "Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)",
         "Country": "Brazil",
         "ownWebull": true
@@ -24862,7 +24862,7 @@
     },
     {
         "Symbol": "IVA",
-        "Name": "Inventiva SA - ADR",
+        "Name": "Inventiva SA",
         "Country": "France",
         "ownWebull": true
     },
@@ -25570,7 +25570,7 @@
     {
         "Symbol": "JCSE",
         "Name": "JE Cleantech Holdings Ltd",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true,
         "dividend": true
     },
@@ -25584,7 +25584,7 @@
     {
         "Symbol": "JD",
         "Name": "JD.com Inc",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -26812,7 +26812,7 @@
         "Symbol": "KGC",
         "Name": "Kinross Gold Corporation",
         "Security Name": "Kinross Gold Corporation Common Stock",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true,
         "dividend": true
     },
@@ -26954,9 +26954,9 @@
     },
     {
         "Symbol": "KLAR",
-        "Name": "Klarna Group plc Ordinary Shares",
+        "Name": "Klarna Group plc",
         "Security Name": "Klarna Group plc Ordinary Shares",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -26974,7 +26974,7 @@
     {
         "Symbol": "KLIC",
         "Name": "Kulicke And Soffa Industries Inc",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true
     },
     {
@@ -27077,8 +27077,8 @@
     },
     {
         "Symbol": "KMRK",
-        "Name": "K-Tech Solutions Company Limited",
-        "Country": "USA",
+        "Name": "K-Tech Solutions Company",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -27199,7 +27199,7 @@
         "Symbol": "KOF",
         "Name": "Coca Cola Femsa S.A.B. de C.V.",
         "Security Name": "Coca Cola Femsa S.A.B. de C.V. American Depositary Shares, each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)",
-        "Country": "USA",
+        "Country": "Mexico",
         "ownWebull": true,
         "dividend": true
     },
@@ -27524,7 +27524,7 @@
     {
         "Symbol": "KYIV",
         "Name": "Kyivstar Group Ltd",
-        "Country": "USA",
+        "Country": "United Arab Emirates",
         "ownWebull": true
     },
     {
@@ -27582,7 +27582,7 @@
     {
         "Symbol": "LAFA",
         "Name": "Lafayette Acquisition Corp",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -27655,7 +27655,7 @@
     {
         "Symbol": "LAWR",
         "Name": "Robot Consulting Co., Ltd.",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -27698,8 +27698,8 @@
     },
     {
         "Symbol": "LBTYK",
-        "Name": "Liberty Global Ltd Class C",
-        "Country": "USA",
+        "Name": "Liberty Global Ltd",
+        "Country": "Bermuda",
         "ownWebull": true
     },
     {
@@ -28064,7 +28064,7 @@
     {
         "Symbol": "LFS",
         "Name": "Leifras Co Ltd",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -28387,7 +28387,7 @@
     {
         "Symbol": "LKNCY",
         "Name": "Luckin Coffee Inc",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
