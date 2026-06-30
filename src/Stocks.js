@@ -238,20 +238,6 @@ function Stocks() {
         >
           All
         </button>
-        <label className="stocks-filter-select">
-          <span>Country</span>
-          <select
-            value={selectedCountry}
-            onChange={(e) => setSelectedCountry(e.target.value)}
-          >
-            <option value="">All Countries</option>
-            {countries.map((country) => (
-              <option key={country} value={country}>
-                {country}
-              </option>
-            ))}
-          </select>
-        </label>
         <button
           type="button"
           className={`stocks-filter-btn ${selectedBrokers.webull ? "active" : ""}`}
@@ -350,7 +336,11 @@ function Stocks() {
       {countryOwnedCounts.length > 0 && (
         <div className="stocks-country-counts">
           {countryOwnedCounts.map(([country, { owned }]) => (
-            <span key={country} className="stocks-country-count-item">
+            <span
+              key={country}
+              className={`stocks-country-count-item${selectedCountry === country ? " active" : ""}`}
+              onClick={() => setSelectedCountry((prev) => prev === country ? "" : country)}
+            >
               <span className="stocks-country-count-name">{country}</span>
               <span className="stocks-country-count-num">{owned}</span>
             </span>

@@ -165,6 +165,22 @@ table, th, td {
   border-radius: 12px;
   padding: 2px 8px;
   font-size: 11px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.stocks-country-count-item:hover {
+  background: #e5e7eb;
+}
+
+.stocks-country-count-item.active {
+  background: #0ea5ff;
+}
+
+.stocks-country-count-item.active .stocks-country-count-name,
+.stocks-country-count-item.active .stocks-country-count-num {
+  color: #fff;
 }
 
 .stocks-country-count-name {
