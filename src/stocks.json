@@ -33909,7 +33909,7 @@
     {
         "Symbol": "NYXH",
         "Name": "Nyxoah SA",
-        "Country": "USA",
+        "Country": "Belgium",
         "ownWebull": true
     },
     {
@@ -33989,7 +33989,8 @@
     },
     {
         "Symbol": "OBAWU",
-        "Country": "USA",
+        "Name": "Oxley Bridge Acquisition Limited",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -34145,8 +34146,7 @@
         "Name": "TrueShares Structured Outcome (October) ETF",
         "Security Name": "TrueShares Structured Outcome (October) ETF",
         "Exchange": "Z",
-        "ETF": "Y",
-        "NASDAQ Symbol": "OCTZ",
+        "ETF": "Y",        
         "Country": "USA"
     },
     {
@@ -34158,7 +34158,7 @@
     {
         "Symbol": "ODD",
         "Name": "Oddity Tech Ltd",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -34190,7 +34190,7 @@
         "Symbol": "OEC",
         "Name": "Orion S.A.",
         "Security Name": "Orion S.A. Common Shares",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true,
         "dividend": true
     },
@@ -34510,7 +34510,7 @@
         "Symbol": "ONON",
         "Name": "On Holding AG",
         "Security Name": "On Holding AG Class A Ordinary Shares",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -34615,7 +34615,7 @@
     {
         "Symbol": "OPRA",
         "Name": "Opera Ltd",
-        "Country": "USA",
+        "Country": "Norway",
         "ownWebull": true,
         "dividend": true
     },
@@ -34677,7 +34677,7 @@
         "Symbol": "ORLA",
         "Name": "Orla Mining Ltd.",
         "Security Name": "Orla Mining Ltd. Common Shares",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -34763,7 +34763,7 @@
     {
         "Symbol": "OTLY",
         "Name": "Oatly Group Ab",
-        "Country": "USA",
+        "Country": "Sweden",
         "ownWebull": true
     },
     {
@@ -35003,7 +35003,7 @@
         "Symbol": "PAGS",
         "Name": "PagSeguro Digital Ltd.",
         "Security Name": "PagSeguro Digital Ltd. Class A Common Shares",
-        "Country": "USA",
+        "Country": "Cayman Islands",
         "ownWebull": true
     },
     {
@@ -35563,7 +35563,8 @@
     },
     {
         "Symbol": "PCLA",
-        "Country": "USA",
+        "Name": "Picocela Inc",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -35646,7 +35647,7 @@
     {
         "Symbol": "PDD",
         "Name": "Pinduoduo",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -36100,7 +36101,7 @@
     {
         "Symbol": "PHAR",
         "Name": "Pharming Group NV",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true
     },
     {
@@ -36132,9 +36133,9 @@
     },
     {
         "Symbol": "PHG",
-        "Name": "Koninklijke Philips N.V. NY Registry Shares",
+        "Name": "Koninklijke Philips N.V. NY",
         "Security Name": "Koninklijke Philips N.V. NY Registry Shares",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true,
         "dividend": true
     },
@@ -36148,7 +36149,7 @@
         "Symbol": "PHI",
         "Name": "PLDT Inc.",
         "Security Name": "PLDT Inc. Sponsored ADR",
-        "Country": "USA",
+        "Country": "Philippines",
         "ownWebull": true,
         "dividend": true
     },
@@ -36226,7 +36227,8 @@
     },
     {
         "Symbol": "PICS",
-        "Country": "USA",
+        "Name": "Pics NV",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -36543,7 +36545,7 @@
     {
         "Symbol": "PLRZ",
         "Name": "Polyrizon Ltd",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -36843,8 +36845,8 @@
     },
     {
         "Symbol": "POAHY",
-        "Name": "Porsche Automobil Hldg Se",
-        "Country": "USA",
+        "Name": "Porsche Automobile Holding SE",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -36875,7 +36877,7 @@
     {
         "Symbol": "PONY",
         "Name": "Pony AI Inc.",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -37071,7 +37073,7 @@
         "Symbol": "PRGO",
         "Name": "Perrigo Company plc",
         "Security Name": "Perrigo Company plc Ordinary Shares",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true,
         "dividend": true
     },
@@ -37206,7 +37208,7 @@
     {
         "Symbol": "PRTA",
         "Name": "Prothena Corporation PLC",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
@@ -37457,7 +37459,7 @@
     {
         "Symbol": "PSHG",
         "Name": "Performance Shipping Inc",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -37904,7 +37906,7 @@
     {
         "Symbol": "PXS",
         "Name": "Pyxis Tankers Inc",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -38642,7 +38644,7 @@
         "Symbol": "RACE",
         "Name": "Ferrari N.V.",
         "Security Name": "Ferrari N.V. Common Shares",
-        "Country": "USA",
+        "Country": "Italy",
         "ownWebull": true
     },
     {
@@ -38935,7 +38937,7 @@
         "Symbol": "RDY",
         "Name": "Dr. Reddy's Laboratories Ltd",
         "Security Name": "Dr. Reddy's Laboratories Ltd Common Stock",
-        "Country": "USA",
+        "Country": "India",
         "ownWebull": true,
         "dividend": true
     },
@@ -39246,7 +39248,7 @@
     {
         "Symbol": "RGC",
         "Name": "Regencell Bioscience Holdings Ltd",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -39341,7 +39343,7 @@
     {
         "Symbol": "RIBB",
         "Name": "Ribbon Acquisition Corp",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -39521,7 +39523,7 @@
     {
         "Symbol": "RKUNY",
         "Name": "Rakuten Group Inc",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -39567,7 +39569,7 @@
         "Symbol": "RLX",
         "Name": "RLX Technology Inc.",
         "Security Name": "RLX Technology Inc. American Depositary Shares, each representing the right to receive one (1) Class A ordinary share",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -39724,7 +39726,7 @@
     {
         "Symbol": "RNW",
         "Name": "Renew Energy Global PLC",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -40430,7 +40432,7 @@
     {
         "Symbol": "RYAAY",
         "Name": "Ryanair Holdings Plc",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
@@ -40480,7 +40482,7 @@
     {
         "Symbol": "RYOJ",
         "Name": "Ryojbaba Co. Ltd.",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -40589,8 +40591,8 @@
     },
     {
         "Symbol": "SAGT",
-        "Name": "SAGTEC GLOBAL Ltd",
-        "Country": "USA",
+        "Name": "South Asia Gateway Terminals Ltd",
+        "Country": "Sri Lanka",
         "ownWebull": true
     },
     {
@@ -41395,7 +41397,7 @@
         "Symbol": "SE",
         "Name": "Sea Limited",
         "Security Name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true
     },
     {
@@ -41721,8 +41723,8 @@
     },
     {
         "Symbol": "SFTBY",
-        "Name": "Softbank Group",
-        "Country": "USA",
+        "Name": "SoftBank Group Corp",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -41813,7 +41815,7 @@
     {
         "Symbol": "SGML",
         "Name": "Sigma Lithium Corp",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -41920,7 +41922,7 @@
         "Symbol": "SHEL",
         "Name": "Shell PLC",
         "Security Name": "Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares)",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -41931,7 +41933,7 @@
     },
     {
         "Symbol": "SHG",
-        "Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
+        "Name": "Shinhan Financial Group Co Ltd",
         "Security Name": "Shinhan Financial Group Co Ltd American Depositary Shares",
         "Country": "South Korea",
         "ownWebull": true,
@@ -41940,7 +41942,7 @@
     {
         "Symbol": "SHIP",
         "Name": "Seanergy Maritime Holdings Corp",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -41960,7 +41962,7 @@
     {
         "Symbol": "SHMD",
         "Name": "SCHMID Group NV",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -42010,7 +42012,7 @@
     {
         "Symbol": "SHOP",
         "Name": "Shopify Inc",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -42079,7 +42081,7 @@
         "Symbol": "SID",
         "Name": "Companhia Siderurgica Nacional S.A.",
         "Security Name": "Companhia Siderurgica Nacional S.A. Common Stock",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -42099,7 +42101,7 @@
     {
         "Symbol": "SIFY",
         "Name": "Sify Technologies Ltd",
-        "Country": "USA",
+        "Country": "India",
         "ownWebull": true
     },
     {
@@ -42192,7 +42194,7 @@
     {
         "Symbol": "SINGY",
         "Name": "Singapore Airlines Limited",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true,
         "dividend": true
     },
@@ -42463,7 +42465,7 @@
     {
         "Symbol": "SLMT",
         "Name": "Brera Holdings PLC",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
@@ -42663,7 +42665,7 @@
         "Symbol": "SMFG",
         "Name": "Sumitomo Mitsui Financial Group Inc",
         "Security Name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -42798,7 +42800,7 @@
     {
         "Symbol": "SMSGY",
         "Name": "Samsonite Grp",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true,
         "dividend": true
     },
@@ -43101,7 +43103,7 @@
         "Symbol": "SONY",
         "Name": "Sony Group Corporation",
         "Security Name": "Sony Group Corporation American Depositary Shares",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -43431,7 +43433,7 @@
     {
         "Symbol": "SPKKY",
         "Name": "Spark New Zealand Ltd",
-        "Country": "USA",
+        "Country": "New Zealand",
         "ownWebull": true,
         "dividend": true
     },
@@ -43522,9 +43524,9 @@
     },
     {
         "Symbol": "SPOT",
-        "Name": "Spotify Technology S.A. Ordinary Shares",
+        "Name": "Spotify Technology S.A.",
         "Security Name": "Spotify Technology S.A. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Sweden",
         "ownWebull": true
     },
     {
@@ -43842,7 +43844,7 @@
         "Symbol": "SQNS",
         "Name": "Sequans Communications S.A.",
         "Security Name": "Sequans Communications S.A. American Depositary Shares (each representing ten (10) Ordinary Shares)",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -43923,7 +43925,7 @@
         "Symbol": "SRL",
         "Name": "Scully Royalty Ltd.",
         "Security Name": "Scully Royalty Ltd.",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true,
         "dividend": true
     },
@@ -44034,7 +44036,7 @@
     {
         "Symbol": "SSM",
         "Name": "Sono Group NV",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -44230,7 +44232,7 @@
         "Symbol": "STLA",
         "Name": "Stellantis N.V.",
         "Security Name": "Stellantis N.V. Common Shares",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true
     },
     {
@@ -44358,7 +44360,7 @@
     {
         "Symbol": "STX",
         "Name": "Seagate Technology Hldngs Plc",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true,
         "dividend": true
     },
@@ -44520,7 +44522,7 @@
         "Symbol": "SUZ",
         "Name": "Suzano S.A.",
         "Security Name": "Suzano S.A. American Depositary Shares (each representing One Ordinary Share)",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -44829,7 +44831,7 @@
         "Symbol": "TAK",
         "Name": "Takeda Pharmaceutical Company Limited",
         "Security Name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
