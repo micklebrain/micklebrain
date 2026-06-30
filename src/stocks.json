@@ -15,7 +15,7 @@
     },
     {
         "Symbol": "005930",
-        "Name": "Samsung Electronics Co., Ltd. Common Stock",
+        "Name": "Samsung Electronics Co., Ltd.",
         "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
@@ -265,7 +265,7 @@
     {
         "Symbol": "ABCL",
         "Name": "AbCellera Biologics Inc",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -281,7 +281,7 @@
         "Symbol": "ABEV",
         "Name": "Ambev S.A.",
         "Security Name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -391,7 +391,7 @@
     {
         "Symbol": "ABTS",
         "Name": "Abits Group Inc",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -426,13 +426,13 @@
     {
         "Symbol": "ACB",
         "Name": "Aurora Cannabis Inc",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
         "Symbol": "ACCL",
         "Name": "Acco Group Holdings Ltd",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -444,7 +444,7 @@
     },
     {
         "Symbol": "ACCS",
-        "Name": "ACCESS Newswire Inc. Common Stock",
+        "Name": "ACCESS Newswire Inc.",
         "Security Name": "ACCESS Newswire Inc. Common Stock",
         "Country": "USA"
     },
@@ -508,7 +508,7 @@
     {
         "Symbol": "ACIU",
         "Name": "AC Immune SA",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true
     },
     {
@@ -651,7 +651,7 @@
     {
         "Symbol": "ADAG",
         "Name": "Adagene Inc",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -684,13 +684,13 @@
         "Symbol": "ADCT",
         "Name": "ADC Therapeutics SA",
         "Security Name": "ADC Therapeutics SA Common Shares",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true
     },
     {
         "Symbol": "ADDYY",
         "Name": "Adidas Ag",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true,
         "dividend": true
     },
@@ -750,7 +750,7 @@
     {
         "Symbol": "ADSE",
         "Name": "Ads-Tec Energy PLC",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
@@ -769,7 +769,7 @@
     {
         "Symbol": "ADUR",
         "Name": "Aduro Clean Technologies Inc",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -844,7 +844,7 @@
     },
     {
         "Symbol": "AERO",
-        "Name": "Grupo Aeromexico SAB de CV - ADR",
+        "Name": "Grupo Aeromexico SAB de CV",
         "Country": "Mexico",
         "ownWebull": true
     },
@@ -975,7 +975,7 @@
     {
         "Symbol": "AFYA",
         "Name": "Afya Ltd",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -988,7 +988,7 @@
     {
         "Symbol": "AGBK",
         "Name": "Agi Inc",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -1167,7 +1167,7 @@
         "Symbol": "AGRO",
         "Name": "Adecoagro S.A.",
         "Security Name": "Adecoagro S.A. Common Shares",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -1507,8 +1507,8 @@
     },
     {
         "Symbol": "ALAR",
-        "Name": "Alarum Technologies Ltd - ADR",
-        "Country": "USA",
+        "Name": "Alarum Technologies Ltd",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -1615,7 +1615,7 @@
     {
         "Symbol": "ALLT",
         "Name": "Allot Ltd",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -1689,7 +1689,7 @@
     {
         "Symbol": "ALVO",
         "Name": "Alvotech SA",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -1738,9 +1738,9 @@
     },
     {
         "Symbol": "AMBP",
-        "Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
+        "Name": "Ardagh Metal Packaging S.A.",
         "Security Name": "Ardagh Metal Packaging S.A. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -1765,7 +1765,7 @@
         "Symbol": "AMCR",
         "Name": "Amcor plc",
         "Security Name": "Amcor plc Ordinary Shares",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
     },
@@ -1896,7 +1896,7 @@
     {
         "Symbol": "AMRN",
         "name": "Amarin Corporation PLC",
-        "Country": "USA",
+        "Country": "Ireland",
         "ownWebull": true
     },
     {
@@ -2065,7 +2065,7 @@
     {
         "Symbol": "ANPA",
         "Name": "Rich Sparkle Holdings Ltd",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -2344,7 +2344,7 @@
         "Symbol": "APTV",
         "Name": "Aptiv PLC",
         "Security Name": "Aptiv PLC Ordinary Shares",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true
     },
     {
@@ -2421,7 +2421,7 @@
         "Symbol": "ARCO",
         "Name": "Arcos Dorados Holdings Inc.",
         "Security Name": "Arcos Dorados Holdings Inc. Class A Shares",
-        "Country": "USA",
+        "Country": "Uruguay",
         "ownWebull": true
     },
     {
@@ -2491,7 +2491,7 @@
     },
     {
         "Symbol": "ARGX",
-        "Name": "argenx SE - ADR",
+        "Name": "argenx SE",
         "Country": "Netherlands",
         "ownWebull": true
     },
@@ -2693,7 +2693,7 @@
         "Symbol": "AS",
         "Name": "Amer Sports, Inc.",
         "Security Name": "Amer Sports, Inc. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Finland",
         "ownWebull": true
     },
     {
@@ -2855,7 +2855,7 @@
     {
         "Symbol": "ASML",
         "Name": "ASML Holding NV",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true,
         "dividend": true
     },
@@ -2875,7 +2875,7 @@
     {
         "Symbol": "ASPS",
         "Name": "Altisource Portfolio Solutions S.A.",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -2906,7 +2906,7 @@
     {
         "Symbol": "ASTL",
         "Name": "Algoma Steel Grp",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -2949,7 +2949,7 @@
     {
         "Symbol": "ATCX",
         "Name": "Atlas Critical Minerals Corp",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -2961,7 +2961,7 @@
     {
         "Symbol": "ATEYY",
         "Name": "Advantest Corp",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true,
         "dividend": true
     },
@@ -3006,7 +3006,7 @@
         "Symbol": "ATHM",
         "Name": "Autohome Inc.",
         "Security Name": "Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -3068,7 +3068,7 @@
     {
         "Symbol": "ATPC",
         "Name": "Agape ATP Corp",
-        "Country": "USA",
+        "Country": "Malaysia",
         "ownWebull": true
     },
     {
@@ -3123,7 +3123,7 @@
     {
         "Symbol": "AUDC",
         "Name": "AudioCodes Ltd",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -3173,7 +3173,7 @@
         "Symbol": "AUNA",
         "Name": "Auna SA",
         "Security Name": "Auna SA Class A Ordinary Shares",
-        "Country": "USA",
+        "Country": "Luxembourg",
         "ownWebull": true
     },
     {
@@ -3211,7 +3211,7 @@
     },
     {
         "Symbol": "AVAL",
-        "Name": "Grupo Aval Acciones y Valores S.A. ADR",
+        "Name": "Grupo Aval Acciones y Valores S.A.",
         "Security Name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
         "Country": "Colombia",
         "ownWebull": true,
@@ -3561,8 +3561,8 @@
     },
     {
         "Symbol": "AXIA",
-        "Name": "Axia Energia SA-ADR",
-        "Country": "Greece",
+        "Name": "Axia Energia SA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -3574,7 +3574,7 @@
     {
         "Symbol": "AXINU",
         "Name": "Axiom Intelligence Acquisition 1 Units",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -3829,7 +3829,7 @@
     },
     {
         "Symbol": "BAK",
-        "Name": "Braskem SA ADR",
+        "Name": "Braskem SA",
         "Security Name": "Braskem SA ADR",
         "Country": "Brazil",
         "ownWebull": true,
@@ -5600,7 +5600,7 @@
     },
     {
         "Symbol": "BLRX",
-        "Name": "BioLine RX Ltd - ADR",
+        "Name": "BioLine RX Ltd",
         "Country": "USA",
         "ownWebull": true
     },
@@ -5920,7 +5920,7 @@
     },
     {
         "Symbol": "BNTX",
-        "Name": "BioNTech SE - ADR",
+        "Name": "BioNTech SE",
         "Country": "Germany",
         "ownEtrade": true
     },
@@ -6365,7 +6365,7 @@
     },
     {
         "Symbol": "BSBR",
-        "Name": "Banco Santander Brasil SA",
+        "Name": "Banco Santander",
         "Security Name": "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
         "Country": "Brazil",
         "ownEtrade": true,
@@ -6553,7 +6553,7 @@
     },
     {
         "Symbol": "BTI",
-        "Name": "British American Tobacco  Industries, p.l.c. Common Stock ADR",
+        "Name": "British American Tobacco  Industries, p.l.c.",
         "Security Name": "British American Tobacco  Industries, p.l.c. Common Stock ADR",
         "Country": "United Kingdom"
     },
@@ -6763,7 +6763,7 @@
     },
     {
         "Symbol": "BURBY",
-        "Name": "Burberry Group ADR",
+        "Name": "Burberry Group",
         "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
@@ -6878,8 +6878,8 @@
     },
     {
         "Symbol": "BWAY",
-        "Name": "Brainsway Ltd - ADR",
-        "Country": "USA",
+        "Name": "Brainsway Ltd",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -7690,7 +7690,7 @@
     },
     {
         "Symbol": "CCOEY",
-        "Name": "Capcom ADR",
+        "Name": "Capcom",
         "Country": "Japan",
         "ownWebull": true
     },
@@ -8318,7 +8318,7 @@
     },
     {
         "Symbol": "CHEOY",
-        "Name": "Cochlear Ord ADR",
+        "Name": "Cochlear Ord",
         "Country": "Australia",
         "ownWebull": true
     },
@@ -8468,7 +8468,7 @@
     },
     {
         "Symbol": "CICHY",
-        "Name": "China Con Bk Adr",
+        "Name": "China Con Bk",
         "Country": "China",
         "ownWebull": true,
         "dividend": true
@@ -8616,7 +8616,7 @@
     },
     {
         "Symbol": "CKHUY",
-        "Name": "CK Hutchison Holdings ADR",
+        "Name": "CK Hutchison Holdings",
         "Country": "Hong Kong",
         "ownWebull": true,
         "dividend": true
@@ -9997,7 +9997,7 @@
     },
     {
         "Symbol": "CRRFY",
-        "Name": "Carrefour S A F Sponsored France ADR",
+        "Name": "Carrefour S A F",
         "Country": "France",
         "ownEtrade": true
     },
@@ -10682,7 +10682,7 @@
     },
     {
         "Symbol": "CX",
-        "Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
+        "Name": "Cemex, S.A.B. de C.V.",
         "Security Name": "Cemex, S.A.B. de C.V. Sponsored ADR",
         "Country": "Mexico",
         "ownWebull": true,
@@ -11031,14 +11031,14 @@
     },
     {
         "Symbol": "DBSDY",
-        "Name": "Dbs Group Holdings ADR",
+        "Name": "Dbs Group Holdings",
         "Country": "Singapore",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "DBVT",
-        "Name": "DBV Technologies SA - ADR",
+        "Name": "DBV Technologies SA",
         "Country": "France",
         "ownEtrade": true
     },
@@ -12568,7 +12568,7 @@
     },
     {
         "Symbol": "DSC",
-        "Name": "DSC Holdings ADR",
+        "Name": "DSC Holdings",
         "Country": "USA",
         "dividend": true
     },
@@ -14811,7 +14811,7 @@
     },
     {
         "Symbol": "ERIC",
-        "Name": "Telefonaktiebolaget LM Ericsson - ADR",
+        "Name": "Telefonaktiebolaget LM Ericsson",
         "Country": "Sweden",
         "ownWebull": true
     },
@@ -14941,7 +14941,7 @@
     },
     {
         "Symbol": "ESLOY",
-        "Name": "EssilorLuxottica Unsponsored ADR",
+        "Name": "EssilorLuxottica",
         "Country": "France",
         "ownWebull": true,
         "dividend": true
@@ -19702,7 +19702,7 @@
     },
     {
         "Symbol": "GLNCY",
-        "Name": "Glencore ADR",
+        "Name": "Glencore",
         "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
@@ -20401,7 +20401,7 @@
     },
     {
         "Symbol": "GRFS",
-        "Name": "Grifols SA - ADR ADR Class B",
+        "Name": "Grifols SA",
         "Country": "Spain",
         "ownWebull": true,
         "dividend": true
@@ -21414,7 +21414,7 @@
     },
     {
         "Symbol": "HEPS",
-        "Name": "D Market Elektronik Hztlr ve Tcrt AS-ADR",
+        "Name": "D Market Elektronik Hztlr ve Tcrt AS",
         "Country": "Turkey",
         "ownWebull": true
     },
@@ -27280,7 +27280,7 @@
     },
     {
         "Symbol": "KR",
-        "Name": "Kroger Company (The) Common Stock",
+        "Name": "Kroger Company (The)",
         "Security Name": "Kroger Company (The) Common Stock",
         "Country": "USA",
         "ownWebull": true,
@@ -27379,7 +27379,7 @@
     },
     {
         "Symbol": "KSPI",
-        "Name": "Kaspi.kz AO - ADR",
+        "Name": "Kaspi.kz AO",
         "Country": "Kazakhstan",
         "ownWebull": true
     },
@@ -35187,7 +35187,7 @@
     },
     {
         "Symbol": "PAYP",
-        "Name": "PayPay Corp - ADR",
+        "Name": "PayPay Corp",
         "Country": "Japan",
         "ownEtrade": true,
         "dividend": true
@@ -35637,7 +35637,7 @@
     },
     {
         "Symbol": "PDC",
-        "Name": "Perpetuals.com Ltd - ADR",
+        "Name": "Perpetuals.com Ltd",
         "Country": "Japan",
         "ownWebull": true
     },
@@ -36103,7 +36103,7 @@
     },
     {
         "Symbol": "PHAR",
-        "Name": "Pharming Group NV - ADR",
+        "Name": "Pharming Group NV",
         "Country": "USA",
         "ownWebull": true
     },
@@ -36745,7 +36745,7 @@
     },
     {
         "Symbol": "PMRTY",
-        "Name": "Pop Mart International Group ADR",
+        "Name": "Pop Mart International Group",
         "Country": "China",
         "ownEtrade": true
     },
@@ -38164,7 +38164,7 @@
     },
     {
         "Symbol": "QFIN",
-        "Name": "Qfin Holdings Inc - ADR",
+        "Name": "Qfin Holdings Inc",
         "Country": "China",
         "dividend": true
     },
@@ -40649,7 +40649,7 @@
     },
     {
         "Symbol": "SAN",
-        "Name": "Banco Santander, S.A. Sponsored ADR (Spain)",
+        "Name": "Banco Santander, S.A.",
         "Security Name": "Banco Santander, S.A. Sponsored ADR (Spain)",
         "Country": "Spain",
         "ownWebull": true,
@@ -44156,7 +44156,7 @@
     },
     {
         "Symbol": "STBFY",
-        "Name": "SoftBank Group Corp - ADR",
+        "Name": "SoftBank Group Corp",
         "Country": "Japan",
         "ownWebull": true,
         "dividend": true
@@ -44601,7 +44601,7 @@
     },
     {
         "Symbol": "SWGAY",
-        "Name": "Swatch Group ADR",
+        "Name": "Swatch Group",
         "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
@@ -47173,7 +47173,7 @@
     },
     {
         "Symbol": "TYIDY",
-        "Name": "Toyota Industries ADR Rep 1 Ord Shs",
+        "Name": "Toyota Industries",
         "Country": "Japan",
         "ownWebull": true,
         "dividend": true
