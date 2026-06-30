@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ABVX"]
+stocksToAdd = ["DMC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Abivax SA", ownEtrade=True)
+    addStock(stock, name="Del Monte Corp", ownWebull=True)

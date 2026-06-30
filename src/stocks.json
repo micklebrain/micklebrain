@@ -9556,7 +9556,7 @@
         "Symbol": "CPAC",
         "Name": "Cementos Pacasmayo S.A.A.",
         "Security Name": "Cementos Pacasmayo S.A.A. American Depositary Shares (Each representing five Common Shares)",
-        "Country": "USA",
+        "Country": "Peru",
         "ownWebull": true
     },
     {
@@ -9930,7 +9930,7 @@
     {
         "Symbol": "CRESY",
         "Name": "Cresud SACIF y A",
-        "Country": "USA",
+        "Country": "Argentina",
         "ownWebull": true
     },
     {
@@ -10017,7 +10017,7 @@
     {
         "Symbol": "CRSP",
         "Name": "Crispr Therapeut",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true
     },
     {
@@ -10352,8 +10352,8 @@
     },
     {
         "Symbol": "CTW",
-        "Name": "Ctw Cayman",
-        "Country": "USA",
+        "Name": "CTW Inc.",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -10797,9 +10797,9 @@
     },
     {
         "Symbol": "DAC",
-        "Name": "Danaos Corporation Common Stock",
+        "Name": "Danaos Corporation",
         "Security Name": "Danaos Corporation Common Stock",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true,
         "dividend": true
     },
@@ -10884,7 +10884,7 @@
         "Symbol": "DB",
         "Name": "Deutsche Bank AG",
         "Security Name": "Deutsche Bank AG Common Stock",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true,
         "dividend": true
     },
@@ -11103,7 +11103,7 @@
     {
         "Symbol": "DCX",
         "Name": "Digital Currency X Technology Inc",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -11343,7 +11343,7 @@
         "Symbol": "DEO",
         "Name": "Diageo plc",
         "Security Name": "Diageo plc Common Stock",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -11690,7 +11690,7 @@
     {
         "Symbol": "DGNX",
         "Name": "Diginex Limited",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -11832,7 +11832,7 @@
     {
         "Symbol": "DIDIY",
         "Name": "Didi Global Inc",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -12072,7 +12072,7 @@
     {
         "Symbol": "DKI",
         "Name": "DARKIRIS INC.",
-        "Country": "USA",
+        "Country": "Hong Kong",
         "ownWebull": true
     },
     {
@@ -12116,9 +12116,9 @@
     },
     {
         "Symbol": "DLNG",
-        "Name": "Dynagas LNG Partners LP Common Units",
+        "Name": "Dynagas LNG Partners LP",
         "Security Name": "Dynagas LNG Partners LP Common Units",
-        "Country": "USA",
+        "Country": "Monaco",
         "ownWebull": true,
         "dividend": true
     },
@@ -12221,6 +12221,13 @@
         "Security Name": "DoubleLine ETF Trust DoubleLine Mortgage ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "DMC",
+        "Name": "Del Monte Corp",
+        "Country": "Cayman Islands",
+        "ownWebull": true,        
+        "dividend": true
     },
     {
         "Symbol": "DMCY",
@@ -12402,7 +12409,7 @@
     {
         "Symbol": "DOO",
         "Name": "BRP Inc",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true,
         "dividend": true
     },
@@ -12487,7 +12494,7 @@
         "Symbol": "DRD",
         "Name": "DRDGOLD Limited",
         "Security Name": "DRDGOLD Limited American Depositary Shares",
-        "Country": "USA",
+        "Country": "South Africa",
         "ownWebull": true,
         "dividend": true
     },
@@ -12648,7 +12655,7 @@
     {
         "Symbol": "DSWL",
         "Name": "Deswell Industries Inc",
-        "Country": "USA",
+        "Country": "Macau",
         "ownWebull": true,
         "dividend": true
     },
@@ -12824,7 +12831,7 @@
     {
         "Symbol": "DUO",
         "Name": "Fangdd Network Group Ltd.",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -13810,7 +13817,7 @@
     {
         "Symbol": "EH",
         "Name": "Ehang Holdings Ltd",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -13834,7 +13841,7 @@
     {
         "Symbol": "EHLD",
         "Name": "Euroholdings Ltd",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -14039,7 +14046,7 @@
     {
         "Symbol": "ELOG",
         "Name": "Eastern International Ltd.",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -14057,7 +14064,7 @@
     },
     {
         "Symbol": "ELPC",
-        "Name": "Companhia Paranaense de Energia (COPEL)",
+        "Name": "Companhia Paranaense de Energia COPEL",
         "Security Name": "Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares)",
         "Country": "Brazil",
         "ownWebull": true,
@@ -14729,7 +14736,7 @@
         "Symbol": "EQNR",
         "Name": "Equinor ASA",
         "Security Name": "Equinor ASA",
-        "Country": "USA",
+        "Country": "Norway",
         "ownWebull": true,
         "dividend": true
     },
@@ -14792,9 +14799,9 @@
     },
     {
         "Symbol": "EQX",
-        "Name": "Equinox Gold Corp. Common Shares",
+        "Name": "Equinox Gold Corp.",
         "Security Name": "Equinox Gold Corp. Common Shares",
-        "Country": "USA",
+        "Country": "Canada",
         "ownWebull": true
     },
     {
@@ -14949,7 +14956,7 @@
     {
         "Symbol": "ESLT",
         "Name": "Elbit Systems Ltd",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true,
         "dividend": true
     },
@@ -15006,7 +15013,7 @@
         "Symbol": "ESTC",
         "Name": "Elastic N.V.",
         "Security Name": "Elastic N.V. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Netherlands",
         "ownWebull": true
     },
     {
@@ -15136,7 +15143,7 @@
     {
         "Symbol": "ETOR",
         "Name": "eToro Group Ltd.",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -15382,7 +15389,7 @@
     {
         "Symbol": "EVO",
         "Name": "Evotec Ag",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -15429,7 +15436,7 @@
         "Symbol": "EVTL",
         "Name": "Vertical Aerospace Ltd.",
         "Security Name": "Vertical Aerospace Ltd. Ordinary Shares",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true
     },
     {
@@ -16248,14 +16255,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "FDP",
-        "Name": "Fresh Del Monte Produce, Inc.",
-        "Security Name": "Fresh Del Monte Produce, Inc. Common Stock",
-        "Country": "USA",
-        "ownWebull": true,
-        "dividend": true
-    },
-    {
         "Symbol": "FDRR",
         "Name": "Fidelity Dividend ETF for Rising Rates",
         "Security Name": "Fidelity Dividend ETF for Rising Rates",
@@ -16378,7 +16377,7 @@
     },
     {
         "Symbol": "FEDU",
-        "Name": "Four Seasons Education (Cayman) Inc. American Depositary Shares, each ADS representing 10 ordinary shares",
+        "Name": "Four Seasons Education (Cayman) Inc.",
         "Security Name": "Four Seasons Education (Cayman) Inc. American Depositary Shares, each ADS representing 10 ordinary shares",
         "Country": "China",
         "ownWebull": true
@@ -19502,7 +19501,7 @@
     {
         "Symbol": "GIBO",
         "Name": "Gibo Holdings",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "GIC",
@@ -21933,7 +21932,7 @@
     {
         "Symbol": "HON",
         "Name": "Honeywell International Inc",
-        "Country": "USA",        
+        "Country": "USA",
         "dividend": true
     },
     {
