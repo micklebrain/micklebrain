@@ -44912,7 +44912,7 @@
         "Symbol": "TBBB",
         "Name": "BBB Foods Inc.",
         "Security Name": "BBB Foods Inc. Class A Common Shares",
-        "Country": "USA",
+        "Country": "Mexico",
         "ownWebull": true
     },
     {
@@ -45060,7 +45060,7 @@
     {
         "Symbol": "TCOM",
         "Name": "Tripcom Group Ltd",
-        "Country": "USA",
+        "Country": "Singapore",
         "ownWebull": true
     },
     {
@@ -45217,7 +45217,7 @@
     {
         "Symbol": "TEAM",
         "Name": "Atlassian Corp Plc",
-        "Country": "USA",
+        "Country": "Australia",
         "ownWebull": true
     },
     {
@@ -45328,7 +45328,7 @@
         "Symbol": "TEO",
         "Name": "Telecom Argentina SA",
         "Security Name": "Telecom Argentina SA",
-        "Country": "USA",
+        "Country": "Argentina",
         "ownWebull": true
     },
     {
@@ -45362,7 +45362,7 @@
         "Symbol": "TEVA",
         "Name": "Teva Pharmaceutical Industries Limited",
         "Security Name": "Teva Pharmaceutical Industries Limited American Depositary Shares",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -45488,7 +45488,7 @@
         "Symbol": "TGE",
         "Name": "The Generation Essentials Group",
         "Security Name": "The Generation Essentials Group Class A Ordinary Shares",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -45527,7 +45527,7 @@
         "Symbol": "TGLS",
         "Name": "Tecnoglass Inc.",
         "Security Name": "Tecnoglass Inc. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Colombia",
         "ownWebull": true,
         "dividend": true
     },
@@ -45875,14 +45875,14 @@
         "Symbol": "TKC",
         "Name": "Turkcell Iletisim Hizmetleri AS",
         "Security Name": "Turkcell Iletisim Hizmetleri AS Common Stock",
-        "Country": "USA",
+        "Country": "Turkey",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "TKLF",
         "Name": "Tokyo Lifestyle Co Ltd",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -45916,7 +45916,7 @@
         "Symbol": "TLK",
         "Name": "PT Telekomunikasi Indonesia, Tbk",
         "Security Name": "PT Telekomunikasi Indonesia, Tbk",
-        "Country": "USA",
+        "Country": "Indonesia",
         "ownWebull": true,
         "dividend": true
     },
@@ -46244,7 +46244,7 @@
         "Symbol": "TOPS",
         "Name": "TOP Ships, Inc.",
         "Security Name": "TOP Ships, Inc. Common Stock",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -46317,7 +46317,7 @@
     {
         "Symbol": "TOYO",
         "Name": "TOYO Co., Ltd",
-        "Country": "USA",
+        "Country": "Japan",
         "ownWebull": true
     },
     {
@@ -46690,7 +46690,7 @@
     {
         "Symbol": "TRVG",
         "Name": "Trivago NV",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -46714,7 +46714,7 @@
     {
         "Symbol": "TSCDY",
         "Name": "Tesco Plc",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -46909,7 +46909,7 @@
     {
         "Symbol": "TTE",
         "Name": "TotalEnergies SE",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true,
         "dividend": true
     },
@@ -46960,7 +46960,7 @@
     {
         "Symbol": "TUR",
         "Name": "iShares MSCI Turkey ETF",
-        "Country": "USA",
+        "Country": "Turkey",
         "ownWebull": true,
         "dividend": true
     },
@@ -46982,14 +46982,14 @@
         "Symbol": "TUYA",
         "Name": "Tuya Inc.",
         "Security Name": "Tuya Inc. American Depositary Shares, each representing one Class A Ordinary Share",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
         "Symbol": "TV",
         "Name": "Grupo Televisa S.A.B.",
         "Security Name": "Grupo Televisa S.A.B. Common Stock",
-        "Country": "USA",
+        "Country": "Mexico",
         "ownWebull": true
     },
     {
@@ -47300,7 +47300,7 @@
         "Symbol": "UBS",
         "Name": "UBS Group AG",
         "Security Name": "UBS Group AG Registered Ordinary Shares",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
     },
@@ -47465,7 +47465,7 @@
         "Symbol": "UGP",
         "Name": "Ultrapar Participacoes S.A.",
         "Security Name": "Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
@@ -47547,7 +47547,7 @@
         "Symbol": "UL",
         "Name": "Unilever PLC",
         "Security Name": "Unilever PLC Common Stock",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -48020,7 +48020,7 @@
     {
         "Symbol": "USEA",
         "Name": "United Maritime Corp",
-        "Country": "USA",
+        "Country": "Greece",
         "ownWebull": true
     },
     {
@@ -48409,14 +48409,14 @@
         "Symbol": "VALE",
         "Name": "VALE S.A.",
         "Security Name": "VALE S.A.  American Depositary Shares Each Representing one common share",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "VALN",
         "Name": "Valneva SE",
-        "Country": "USA",
+        "Country": "France",
         "ownWebull": true
     },
     {
@@ -48509,7 +48509,7 @@
     {
         "Symbol": "VCIG",
         "Name": "VCI Global Ltd",
-        "Country": "USA",
+        "Country": "Malaysia",
         "ownWebull": true
     },
     {
@@ -48568,7 +48568,7 @@
     {
         "Symbol": "VDMCY",
         "Name": "Vodacom Group Limited",
-        "Country": "USA",
+        "Country": "South Africa",
         "ownWebull": true,
         "dividend": true
     },
@@ -48628,7 +48628,7 @@
     {
         "Symbol": "VEON",
         "Name": "VEON Ltd",
-        "Country": "USA",
+        "Country": "United Arab Emirates",
         "ownWebull": true,
         "dividend": true
     },
@@ -48711,7 +48711,7 @@
     {
         "Symbol": "VFS",
         "Name": "VinFast Auto Ltd",
-        "Country": "USA",
+        "Country": "Vietnam",
         "ownWebull": true
     },
     {
@@ -48854,7 +48854,7 @@
     {
         "Symbol": "VINP",
         "Name": "Vinci Compass Investments Ltd",
-        "Country": "USA",
+        "Country": "Brazil",
         "ownWebull": true
     },
     {
@@ -49158,7 +49158,7 @@
     {
         "Symbol": "VOD",
         "Name": "Vodafone Group Plc",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -49591,7 +49591,7 @@
     {
         "Symbol": "VWAGY",
         "Name": "Volkswagen",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true,
         "dividend": true
     },
@@ -49891,7 +49891,7 @@
         "Symbol": "WDH",
         "Name": "Waterdrop Inc.",
         "Security Name": "Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -50197,7 +50197,7 @@
         "Symbol": "WIT",
         "Name": "Wipro Limited",
         "Security Name": "Wipro Limited Common Stock",
-        "Country": "USA",
+        "Country": "India",
         "ownWebull": true
     },
     {
@@ -50209,7 +50209,7 @@
     {
         "Symbol": "WIX",
         "Name": "Wix.com",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true
     },
     {
@@ -50394,7 +50394,7 @@
         "Symbol": "WPP",
         "Name": "WPP plc",
         "Security Name": "WPP plc American Depositary Shares",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -50438,7 +50438,7 @@
     {
         "Symbol": "WRD",
         "Name": "WeRide Inc.",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -50615,7 +50615,7 @@
     {
         "Symbol": "WTW",
         "Name": "Willis Towers Watson PLC",
-        "Country": "USA",
+        "Country": "United Kingdom",
         "ownWebull": true,
         "dividend": true
     },
@@ -50793,7 +50793,7 @@
     {
         "Symbol": "XCH",
         "Name": "XCHG Ltd",
-        "Country": "USA",
+        "Country": "Germany",
         "ownWebull": true
     },
     {
@@ -51332,7 +51332,7 @@
     {
         "Symbol": "XNET",
         "Name": "Xunlei Ltd",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -51826,7 +51826,7 @@
     {
         "Symbol": "YDDL",
         "Name": "One and one Green Technologies.INC",
-        "Country": "USA",
+        "Country": "Philippines",
         "ownWebull": true
     },
     {
@@ -51986,7 +51986,7 @@
         "Symbol": "YRD",
         "Name": "Yiren Digital Ltd.",
         "Security Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true
     },
     {
@@ -52017,7 +52017,7 @@
     {
         "Symbol": "YTRA",
         "Name": "Yatra Online Inc",
-        "Country": "USA",
+        "Country": "India",
         "ownWebull": true
     },
     {
@@ -52032,7 +52032,7 @@
         "Symbol": "YUMC",
         "Name": "Yum China Holdings, Inc.",
         "Security Name": "Yum China Holdings, Inc. Common Stock",
-        "Country": "USA",
+        "Country": "China",
         "ownWebull": true,
         "dividend": true
     },
@@ -52139,7 +52139,7 @@
         "Symbol": "ZGN",
         "Name": "Ermenegildo Zegna N.V.",
         "Security Name": "Ermenegildo Zegna N.V. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Italy",
         "ownWebull": true
     },
     {
@@ -52166,7 +52166,7 @@
         "Symbol": "ZIM",
         "Name": "ZIM Integrated Shipping Services Ltd.",
         "Security Name": "ZIM Integrated Shipping Services Ltd. Ordinary Shares",
-        "Country": "USA",
+        "Country": "Israel",
         "ownWebull": true,
         "dividend": true
     },
@@ -52339,7 +52339,7 @@
     {
         "Symbol": "ZURVY",
         "Name": "Zurich Insurance",
-        "Country": "USA",
+        "Country": "Switzerland",
         "ownWebull": true,
         "dividend": true
     },
