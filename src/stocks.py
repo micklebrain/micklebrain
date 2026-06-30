@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["DNP"]
+stocksToAdd = ["4IG"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Dino Polska SA", ownInteractiveBrokers=True)
+    addStock(stock, name="4ig Plc.", ownInteractiveBrokers=True)

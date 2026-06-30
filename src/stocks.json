@@ -74,6 +74,13 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "4IG",
+        "Name": "4ig Plc.",
+        "Country": "Hungary",
+        "ownInteractiveBrokers": true,
+        "dividend": true        
+    },
+    {
         "Symbol": "7201",
         "Name": "Nissan Motor Co., Ltd",
         "Country": "Japan",
@@ -12339,7 +12346,7 @@
         "Name": "Dino Polska SA",
         "Country": "Poland",
         "ownInteractiveBrokers": true,
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "DNUT",
