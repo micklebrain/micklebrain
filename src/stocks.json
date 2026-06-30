@@ -12337,16 +12337,9 @@
     {
         "Symbol": "DNP",
         "Name": "Dino Polska SA",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
+        "Country": "Poland",
         "ownInteractiveBrokers": true,
-        "dividend": true,
-        "ETF": false
+        "dividend": true        
     },
     {
         "Symbol": "DNUT",
@@ -36437,6 +36430,7 @@
         "Symbol": "PKN",
         "Name": "Orlen SA",
         "Country": "Poland",
+        "ownInteractiveBrokers": true,
         "dividend": true
     },
     {
