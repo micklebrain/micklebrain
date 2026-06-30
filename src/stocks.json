@@ -332,7 +332,7 @@
     },
     {
         "Symbol": "ABLS",
-        "Name": "Abacus FCF ETF Trust Abacus FCF Small Cap Leaders ETF",
+        "Name": "Abacus FCF Small Cap Leaders ETF",
         "Security Name": "Abacus FCF ETF Trust Abacus FCF Small Cap Leaders ETF",
         "ETF": "Y",
         "Country": "USA",
@@ -8268,7 +8268,7 @@
     },
     {
         "Symbol": "CHA",
-        "Name": "CHAGEE HLDGS LTD",
+        "Name": "Chagee Holdings Ltd",
         "Country": "China",
         "ownWebull": true
     },
@@ -28400,7 +28400,7 @@
     },
     {
         "Symbol": "LKFT",
-        "Name": "Lakefront Biotherapeutics NV - ADR",
+        "Name": "Lakefront Biotherapeutics NV",
         "Country": "Netherlands",
         "ownEtrade": true
     },
@@ -44179,7 +44179,7 @@
     },
     {
         "Symbol": "STBFY",
-        "Name": "SoftBank Group Corp",
+        "Name": "Suntory Beverage and Food",
         "Country": "Japan",
         "ownWebull": true,
         "dividend": true
