@@ -15,7 +15,7 @@
     },
     {
         "Symbol": "005930",
-        "Name": "Samsung Electronics Co., Ltd.",
+        "Name": "Samsung Electronics Co Ltd",
         "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
@@ -78,7 +78,8 @@
         "Name": "4ig Plc.",
         "Country": "Hungary",
         "ownInteractiveBrokers": true,
-        "dividend": true
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "7201",
@@ -840,8 +841,7 @@
         "Symbol": "AEON",
         "Name": "AEON Biopharma, Inc.",
         "Security Name": "AEON Biopharma, Inc. Class A Common Stock",
-        "Country": "USA",
-        "ownEtrade": true
+        "Country": "USA"
     },
     {
         "Symbol": "AER",
@@ -8275,8 +8275,7 @@
     {
         "Symbol": "CHAI",
         "Name": "Core AI Holdings Inc",
-        "Country": "USA",
-        "ownEtrade": true
+        "Country": "USA"
     },
     {
         "Symbol": "CHAT",
@@ -9416,7 +9415,7 @@
     },
     {
         "Symbol": "COMP",
-        "Name": "Compass, Inc. Class A",
+        "Name": "Compass, Inc.",
         "Security Name": "Compass, Inc. Class A Common Stock",
         "Country": "USA",
         "ownWebull": true
@@ -19519,7 +19518,8 @@
     {
         "Symbol": "GIBO",
         "Name": "Gibo Holdings",
-        "Country": "USA"
+        "Country": "Malaysia",
+        "ownWebull": true
     },
     {
         "Symbol": "GIC",
@@ -21951,6 +21951,7 @@
         "Symbol": "HON",
         "Name": "Honeywell International Inc",
         "Country": "USA",
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -23366,7 +23367,8 @@
         "Symbol": "IDXX",
         "Name": "IDEXX Laboratories Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "IDYN",
