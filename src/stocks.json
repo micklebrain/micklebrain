@@ -12851,8 +12851,7 @@
     {
         "Symbol": "DUO",
         "Name": "Fangdd Network Group Ltd.",
-        "Country": "China",
-        "ownWebull": true
+        "Country": "China"
     },
     {
         "Symbol": "DUOL",
@@ -29860,8 +29859,7 @@
     {
         "Symbol": "MERC",
         "Name": "Mercer International Inc",
-        "Country": "Canada",
-        "ownWebull": true
+        "Country": "Canada"        
     },
     {
         "Symbol": "MET",
