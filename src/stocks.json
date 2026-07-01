@@ -26747,6 +26747,13 @@
         "dividend": true
     },
     {
+        "Symbol": "KER",
+        "Name": "Kering SA",
+        "Country": "France",
+        "ownInteractiveBrokers": true,
+        "dividend": true        
+    },
+    {
         "Symbol": "KEUA",
         "Name": "KraneShares European Carbon Allowance Strategy ETF",
         "Security Name": "KraneShares European Carbon Allowance Strategy ETF",
@@ -29859,7 +29866,7 @@
     {
         "Symbol": "MERC",
         "Name": "Mercer International Inc",
-        "Country": "Canada"        
+        "Country": "Canada"
     },
     {
         "Symbol": "MET",

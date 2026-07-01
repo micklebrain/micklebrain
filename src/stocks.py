@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["4IG"]
+stocksToAdd = ["KER"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="4ig Plc.", ownInteractiveBrokers=True)
+    addStock(stock, name="Kering SA", ownInteractiveBrokers=True)
