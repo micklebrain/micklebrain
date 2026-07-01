@@ -23367,7 +23367,7 @@
         "Name": "IDEXX Laboratories Inc",
         "Country": "USA",
         "dividend": true,
-        "ownWebull": true
+        "ownEtrade": true
     },
     {
         "Symbol": "IDYN",

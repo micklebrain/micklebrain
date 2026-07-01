@@ -124,17 +124,25 @@ function Stocks() {
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
-  }).sort((a, b) => (a.Name || a.Symbol || "").localeCompare(b.Name || b.Symbol || "")), [effectiveItems, selectedCountry, showDividendOnly, showETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
+  }), [effectiveItems, selectedCountry, showDividendOnly, showETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
+
+  const sortedItems = React.useMemo(() => {
+    return [...filteredItems].sort((a, b) => {
+      const aKey = showName ? (a.Name || a.Symbol || "") : (a.Symbol || "");
+      const bKey = showName ? (b.Name || b.Symbol || "") : (b.Symbol || "");
+      return aKey.localeCompare(bKey);
+    });
+  }, [filteredItems, showName]);
 
   const symbolOccurrences = React.useMemo(() => {
     const counts = {};
-    return filteredItems.map((item) => {
+    return sortedItems.map((item) => {
       const symbol = item && item.Symbol;
       const occurrence = counts[symbol] ?? 0;
       counts[symbol] = occurrence + 1;
       return occurrence;
     });
-  }, [filteredItems]);
+  }, [sortedItems]);
 
   const clearBrokerFilters = () => {
     setSelectedBrokers({
@@ -444,7 +452,7 @@ function Stocks() {
         </button>
       </form>
       <div className="stocks-grid">
-        {filteredItems.map((item, index) => {
+        {sortedItems.map((item, index) => {
           const occurrence = symbolOccurrences[index];
           const globalIndex = effectiveItems.findIndex((x) => x === item);
           const hasWebull = !!item.ownWebull;
