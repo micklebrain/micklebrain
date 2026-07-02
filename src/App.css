@@ -205,6 +205,11 @@ table, th, td {
   color: #fff;
 }
 
+.stocks-country-flag {
+  font-size: 13px;
+  line-height: 1;
+}
+
 .stocks-country-count-name {
   color: #6b7280;
 }

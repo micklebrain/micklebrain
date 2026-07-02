@@ -10,6 +10,36 @@ import allyLogo from "./ally.svg";
 import fidelityLogo from "./fidelity.svg";
 import StocksMap from "./StocksMap";
 
+const COUNTRY_ISO = {
+  USA: "US", Canada: "CA", "United Kingdom": "GB", Germany: "DE",
+  France: "FR", Japan: "JP", China: "CN", "South Korea": "KR",
+  Brazil: "BR", Australia: "AU", Netherlands: "NL", Switzerland: "CH",
+  Sweden: "SE", Denmark: "DK", Norway: "NO", Ireland: "IE",
+  Israel: "IL", India: "IN", Spain: "ES", Italy: "IT",
+  Mexico: "MX", Colombia: "CO", Argentina: "AR", Chile: "CL",
+  Greece: "GR", Turkey: "TR", Luxembourg: "LU", "Hong Kong": "HK",
+  Taiwan: "TW", Singapore: "SG", "South Africa": "ZA", Belgium: "BE",
+  Finland: "FI", Poland: "PL", Portugal: "PT", Hungary: "HU",
+  "United Arab Emirates": "AE", Malaysia: "MY", Indonesia: "ID",
+  Philippines: "PH", Thailand: "TH", Vietnam: "VN", "New Zealand": "NZ",
+  Bermuda: "BM", "Cayman Islands": "KY", Panama: "PA", Peru: "PE",
+  Uruguay: "UY", Monaco: "MC", Macau: "MO", Jordan: "JO",
+  Kazakhstan: "KZ", Estonia: "EE", "Sri Lanka": "LK", Austria: "AT",
+  "Czech Republic": "CZ", Romania: "RO", Ukraine: "UA", Russia: "RU",
+  "Saudi Arabia": "SA", Egypt: "EG", Nigeria: "NG", Kenya: "KE",
+  Qatar: "QA", Kuwait: "KW", Bahrain: "BH",
+};
+
+function countryFlag(country) {
+  const code = COUNTRY_ISO[country];
+  if (!code) return "";
+  return code
+    .toUpperCase()
+    .split("")
+    .map((c) => String.fromCodePoint(c.charCodeAt(0) - 65 + 0x1f1e6))
+    .join("");
+}
+
 const brokerToOwnershipField = {
   webull: "ownWebull",
   etrade: "ownEtrade",
@@ -360,6 +390,9 @@ function Stocks() {
                 className={`stocks-country-count-item${selectedCountry === country ? " active" : ""}`}
                 onClick={() => setSelectedCountry((prev) => prev === country ? "" : country)}
               >
+                {countryFlag(country) && (
+                  <span className="stocks-country-flag">{countryFlag(country)}</span>
+                )}
                 <span className="stocks-country-count-name">{country}</span>
                 <span className="stocks-country-count-num">{owned}</span>
               </span>
