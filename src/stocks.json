@@ -26752,7 +26752,7 @@
         "Name": "Kering SA",
         "Country": "France",
         "ownInteractiveBrokers": true,
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "KEUA",
@@ -29468,6 +29468,13 @@
         "Name": "Mercedes-Benz Group AG",
         "Country": "Germany",
         "ownInteractiveBrokers": true,
+        "dividend": true
+    },
+    {
+        "Symbol": "MBGL",
+        "Name": "Mobility Global Inc",
+        "Country": "USA",
+        "ownWebull": true,        
         "dividend": true
     },
     {
