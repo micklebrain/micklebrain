@@ -7778,8 +7778,7 @@
     {
         "Symbol": "CDNL",
         "Name": "Cardinal Infrastructure Group Inc",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA"        
     },
     {
         "Symbol": "CDP",
@@ -21155,8 +21154,7 @@
     {
         "Symbol": "HAWK",
         "Name": "HawkEye 360 Inc",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA"        
     },
     {
         "Symbol": "HAWX",
@@ -38525,8 +38523,7 @@
     {
         "Symbol": "QUCY",
         "Name": "Quantum Cyber NV",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA"        
     },
     {
         "Symbol": "QUIZ",
@@ -38991,8 +38988,7 @@
     {
         "Symbol": "REA",
         "Name": "Rare Earths Americas Inc",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA"        
     },
     {
         "Symbol": "REAL",
