@@ -1432,7 +1432,8 @@
         "Symbol": "AIZ",
         "Name": "Assurant, Inc.",
         "Security Name": "Assurant, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "AIZN",
