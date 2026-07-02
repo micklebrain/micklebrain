@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["MBGL"]
+stocksToAdd = ["AF"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Mobility Global Inc", ownWebull=True)
+    addStock(stock, name="Air France KLM SA", ownInteractiveBrokers=True)

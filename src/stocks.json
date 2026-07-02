@@ -882,6 +882,13 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AF",
+        "Name": "Air France KLM SA",
+        "Country": "France",  
+        "ownInteractiveBrokers": true,
+        "dividend": true        
+    },
+    {
         "Symbol": "AFB",
         "Name": "AllianceBernstein National Municipal Income Fund Inc",
         "Security Name": "AllianceBernstein National Municipal Income Fund Inc",
@@ -1073,7 +1080,8 @@
         "Symbol": "AGM",
         "Name": "Federal Agricultural Mortgage Corporation",
         "Security Name": "Federal Agricultural Mortgage Corporation Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "AGM-D",
@@ -1711,7 +1719,8 @@
         "Symbol": "ALX",
         "Name": "Alexander's, Inc.",
         "Security Name": "Alexander's, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "AM",
@@ -2730,7 +2739,8 @@
         "Symbol": "ASB",
         "Name": "Associated Banc",
         "Security Name": "Associated Banc-Corp Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "ASB-E",
@@ -2897,7 +2907,8 @@
         "Symbol": "ASR",
         "Name": "Grupo Aeroportuario del Sureste, S.A. de C.V.",
         "Security Name": "Grupo Aeroportuario del Sureste, S.A. de C.V. Common Stock",
-        "Country": "USA"
+        "Country": "Mexico",
+        "dividend": true
     },
     {
         "Symbol": "ASRV",
@@ -3955,6 +3966,20 @@
         "Name": "Banc of California, Inc. Depositary Shares, each representing a 1/40th interest in a share of 7.75% non",
         "Security Name": "Banc of California, Inc. Depositary Shares, each representing a 1/40th interest in a share of 7.75% non-cumulative perpetual preferred stock, Series F",
         "Country": "USA"
+    },
+    {
+        "Symbol": "BANR",
+        "Name": "Banner Corp",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "BAP",
@@ -7778,7 +7803,7 @@
     {
         "Symbol": "CDNL",
         "Name": "Cardinal Infrastructure Group Inc",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "CDP",
@@ -15021,7 +15046,8 @@
         "Symbol": "ESS",
         "Name": "Essex Property Trust, Inc.",
         "Security Name": "Essex Property Trust, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "ESTC",
@@ -15810,9 +15836,10 @@
     },
     {
         "Symbol": "FAF",
-        "Name": "First American Corporation (New)",
+        "Name": "First American Corporation",
         "Security Name": "First American Corporation (New) Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "FAI",
@@ -17600,7 +17627,8 @@
         "Symbol": "FMY",
         "Name": "First Trust Motgage Income Fund of Beneficial Interest",
         "Security Name": "First Trust Motgage Income Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "FN",
@@ -19153,7 +19181,8 @@
         "Symbol": "GEF",
         "Name": "Greif Inc. Class A",
         "Security Name": "Greif Inc. Class A Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "GEF.B",
@@ -21154,7 +21183,7 @@
     {
         "Symbol": "HAWK",
         "Name": "HawkEye 360 Inc",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "HAWX",
@@ -29472,7 +29501,7 @@
         "Symbol": "MBGL",
         "Name": "Mobility Global Inc",
         "Country": "USA",
-        "ownWebull": true,        
+        "ownWebull": true,
         "dividend": true
     },
     {
@@ -31525,7 +31554,8 @@
         "Symbol": "MTDR",
         "Name": "Matador Resources Company",
         "Security Name": "Matador Resources Company Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "MTG",
@@ -36527,7 +36557,8 @@
         "Symbol": "PLD",
         "Name": "Prologis, Inc.",
         "Security Name": "Prologis, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "PLDR",
@@ -38523,7 +38554,7 @@
     {
         "Symbol": "QUCY",
         "Name": "Quantum Cyber NV",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "QUIZ",
@@ -38988,7 +39019,7 @@
     {
         "Symbol": "REA",
         "Name": "Rare Earths Americas Inc",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "REAL",
@@ -50529,7 +50560,8 @@
         "Symbol": "WSO",
         "Name": "Watsco, Inc.",
         "Security Name": "Watsco, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "dividend": true
     },
     {
         "Symbol": "WSO.B",
