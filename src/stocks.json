@@ -884,9 +884,8 @@
     {
         "Symbol": "AF",
         "Name": "Air France KLM SA",
-        "Country": "France",  
-        "ownInteractiveBrokers": true,
-        "dividend": true        
+        "Country": "France",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "AFB",
@@ -4767,9 +4766,10 @@
     },
     {
         "Symbol": "BFH",
-        "Name": "Bread Financial Holdings, Inc.",
-        "Security Name": "Bread Financial Holdings, Inc. Common Stock",
-        "Country": "USA"
+        "Name": "Bread Financial Holdings Inc",
+        "Country": "USA",
+        "ownEtrade": true,    
+        "dividend": true
     },
     {
         "Symbol": "BFIX",
@@ -50861,8 +50861,7 @@
     {
         "Symbol": "XCH",
         "Name": "XCHG Ltd",
-        "Country": "Germany",
-        "ownWebull": true
+        "Country": "Germany"        
     },
     {
         "Symbol": "XCLR",
