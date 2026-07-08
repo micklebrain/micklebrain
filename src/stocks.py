@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AFL"]
+stocksToAdd = ["BELFB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Aflac Inc", ownEtrade=True)
+    addStock(stock, name="Bel Fuse Inc", ownWebull=True)

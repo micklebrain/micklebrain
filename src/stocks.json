@@ -1374,7 +1374,8 @@
         "Symbol": "AIR",
         "Name": "AAR Corp.",
         "Security Name": "AAR Corp. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "AIR",
@@ -4633,6 +4634,12 @@
         "Name": "KE Holdings Inc American Depositary Shares (each representing three Class A Ordinary Shares)",
         "Security Name": "KE Holdings Inc American Depositary Shares (each representing three Class A Ordinary Shares)",
         "Country": "China"
+    },
+    {
+        "Symbol": "BELFB",
+        "Name": "Bel Fuse Inc",
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "BEMB",
@@ -14543,6 +14550,12 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "EOSER",
+        "Name": "Eos Energy Enterprises Inc",
+        "Country": "USA",   
+        "ownEtrade": true
+    },
+    {
         "Symbol": "EOT",
         "Name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
         "Security Name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
@@ -15030,12 +15043,6 @@
         "Name": "Espey Mfg. & Electronics Corp.",
         "Security Name": "Espey Mfg. & Electronics Corp. Common Stock",
         "Country": "USA"
-    },
-    {
-        "Symbol": "ESPN",
-        "Name": "Epsilon Energy Ltd",
-        "Country": "USA",
-        "dividend": true
     },
     {
         "Symbol": "ESQ",
@@ -46317,8 +46324,7 @@
         "Symbol": "TOPS",
         "Name": "TOP Ships, Inc.",
         "Security Name": "TOP Ships, Inc. Common Stock",
-        "Country": "Greece",
-        "ownWebull": true
+        "Country": "Greece"
     },
     {
         "Symbol": "TOPT",
@@ -46535,8 +46541,7 @@
     {
         "Symbol": "TRAW",
         "Name": "Traws Pharma",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"
     },
     {
         "Symbol": "TRC",
