@@ -958,6 +958,13 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AFL",
+        "Name": "Aflac Inc",        
+        "ownEtrade": true,
+        "dividend": true,
+        "Country": "USA"
+    },
+    {
         "Symbol": "AFLG",
         "Name": "First Trust Active Factor Large Cap ETF",
         "Security Name": "First Trust Active Factor Large Cap ETF",
@@ -4768,7 +4775,7 @@
         "Symbol": "BFH",
         "Name": "Bread Financial Holdings Inc",
         "Country": "USA",
-        "ownEtrade": true,    
+        "ownEtrade": true,
         "dividend": true
     },
     {
@@ -11805,6 +11812,12 @@
         "Name": "D.R. Horton, Inc.",
         "Security Name": "D.R. Horton, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "DHL",
+        "Name": "DHL Group",
+        "ownInteractiveBrokers": true,
+        "Country": "Germany"
     },
     {
         "Symbol": "DHR",
@@ -50860,7 +50873,7 @@
     {
         "Symbol": "XCH",
         "Name": "XCHG Ltd",
-        "Country": "Germany"        
+        "Country": "Germany"
     },
     {
         "Symbol": "XCLR",

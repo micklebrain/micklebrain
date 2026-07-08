@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BFH"]
+stocksToAdd = ["AFL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bread Financial Holdings Inc", ownEtrade=True)
+    addStock(stock, name="Aflac Inc", ownEtrade=True)
