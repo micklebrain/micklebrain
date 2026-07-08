@@ -953,16 +953,10 @@
     },
     {
         "Symbol": "AFL",
-        "Name": "AFLAC Incorporated",
+        "Name": "Aflac Inc",
         "Security Name": "AFLAC Incorporated Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AFL",
-        "Name": "Aflac Inc",        
-        "ownEtrade": true,
-        "dividend": true,
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "AFLG",
