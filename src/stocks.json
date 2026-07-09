@@ -47174,8 +47174,9 @@
     {
         "Symbol": "TXN",
         "Name": "Texas Instruments Inc",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA",     
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "TXNM",
