@@ -4639,7 +4639,9 @@
         "Symbol": "BELFB",
         "Name": "Bel Fuse Inc",
         "Country": "USA",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": true,
+        "ETF": false
     },
     {
         "Symbol": "BEMB",
@@ -14552,8 +14554,7 @@
     {
         "Symbol": "EOSER",
         "Name": "Eos Energy Enterprises Inc",
-        "Country": "USA",   
-        "ownEtrade": true
+        "Country": "USA"        
     },
     {
         "Symbol": "EOT",
@@ -28398,8 +28399,7 @@
     {
         "Symbol": "LIQT",
         "Name": "Liqtech Internat",
-        "Country": "Denmark",
-        "ownWebull": true
+        "Country": "Denmark"
     },
     {
         "Symbol": "LIT",
@@ -30590,7 +30590,8 @@
         "Symbol": "MLM",
         "Name": "Martin Marietta Materials, Inc.",
         "Security Name": "Martin Marietta Materials, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "MLN",
@@ -47176,7 +47177,7 @@
     {
         "Symbol": "TXN",
         "Name": "Texas Instruments Inc",
-        "Country": "USA",     
+        "Country": "USA",
         "dividend": true,
         "ownEtrade": true
     },
