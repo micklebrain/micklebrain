@@ -32501,7 +32501,8 @@
         "Symbol": "NEU",
         "Name": "NewMarket Corp",
         "Security Name": "NewMarket Corp Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "NEUE",
@@ -44376,7 +44377,8 @@
         "Symbol": "STRL",
         "Name": "Sterling Infrastructure Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "STRN",
