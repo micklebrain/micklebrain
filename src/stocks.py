@@ -17,7 +17,7 @@ def remove_keys(obj, keys_to_remove):
     else:
         return obj
     
-def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False, dividend=True, ETF=False):
+def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=False, ownChase=False, ownSchwab=False, ownAlly=False, ownFidelity=False, ownInteractiveBrokers=False, dividend=False, ETF=False):
     if symbol == "":
         return
     
@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BELFB"]
+stocksToAdd = ["SKHY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bel Fuse Inc", ownWebull=True)
+    addStock(stock, name="SK Hynix Inc", ownEtrade=True)

@@ -14554,7 +14554,7 @@
     {
         "Symbol": "EOSER",
         "Name": "Eos Energy Enterprises Inc",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "EOT",
@@ -42435,6 +42435,12 @@
         "Security Name": "ProShares UltraShort Financials",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "SKHY",
+        "Name": "SK Hynix Inc",
+        "Country": "South Korea",
+        "ownEtrade": true        
     },
     {
         "Symbol": "SKIL",
