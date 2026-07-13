@@ -1196,7 +1196,8 @@
         "Symbol": "AGX",
         "Name": "Argan, Inc.",
         "Security Name": "Argan, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "AGZ",
