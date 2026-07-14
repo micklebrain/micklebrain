@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["SKHY"]
+stocksToAdd = ["MC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="SK Hynix Inc", ownEtrade=True)
+    addStock(stock, name="LVMH Moet Hennessy Louis Vuitton SE", ownInteractiveBrokers=True)

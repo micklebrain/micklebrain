@@ -11166,8 +11166,7 @@
         "Symbol": "DDC",
         "Name": "DDC Enterprise Limited",
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
-        "Country": "USA",
-        "ownEtrade": true
+        "Country": "USA"        
     },
     {
         "Symbol": "DDD",
@@ -29592,6 +29591,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "MC",
+        "Name": "LVMH Moet Hennessy Louis Vuitton SE",
+        "Country": "France",
+        "ownInteractiveBrokers": true        
+    },
+    {
         "Symbol": "MCB",
         "Name": "Metropolitan Bank Holding Corp.",
         "Security Name": "Metropolitan Bank Holding Corp. Common Stock",
@@ -42441,7 +42446,7 @@
         "Symbol": "SKHY",
         "Name": "SK Hynix Inc",
         "Country": "South Korea",
-        "ownEtrade": true        
+        "ownEtrade": true
     },
     {
         "Symbol": "SKIL",
