@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["MC"]
+stocksToAdd = ["IESC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="LVMH Moet Hennessy Louis Vuitton SE", ownInteractiveBrokers=True)
+    addStock(stock, name="IES Holdings Inc", ownEtrade=True)
