@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IESC"]
+stocksToAdd = ["SITM"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="IES Holdings Inc", ownEtrade=True)
+    addStock(stock, name="SiTime Corp", ownEtrade=True)

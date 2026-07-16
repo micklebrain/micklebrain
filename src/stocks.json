@@ -7201,9 +7201,9 @@
     },
     {
         "Symbol": "CACI",
-        "Name": "CACI International, Inc. Class A",
-        "Security Name": "CACI International, Inc. Class A Common Stock",
-        "Country": "USA"
+        "Name": "CACI International Inc.",
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "CADE",
@@ -10927,6 +10927,12 @@
         "Name": "Endava plc American Depositary Shares (each representing one Class A Ordinary Share)",
         "Security Name": "Endava plc American Depositary Shares (each representing one Class A Ordinary Share)",
         "Country": "United Kingdom"
+    },
+    {
+        "Symbol": "DAVE",
+        "Name": "Dave Inc",
+        "Country": "USA",
+        "ownEtrade": true        
     },
     {
         "Symbol": "DAY",
@@ -23470,7 +23476,7 @@
     },
     {
         "Symbol": "IESC",
-        "Name": "IES Holdings Inc",        
+        "Name": "IES Holdings Inc",
         "ownEtrade": true
     },
     {
@@ -42327,6 +42333,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "SITM",
+        "Name": "SiTime Corp",
+        "Country": "USA",     
+        "ownEtrade": true
+    },
+    {
         "Symbol": "SIVR",
         "Name": "abrdn Physical Silver Shares ETF",
         "Security Name": "abrdn Physical Silver Shares ETF",
@@ -50603,7 +50615,8 @@
         "Name": "Watsco, Inc.",
         "Security Name": "Watsco, Inc. Common Stock",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "WSO.B",
