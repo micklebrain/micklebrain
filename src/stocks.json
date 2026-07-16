@@ -10932,7 +10932,7 @@
         "Symbol": "DAVE",
         "Name": "Dave Inc",
         "Country": "USA",
-        "ownEtrade": true        
+        "ownEtrade": true
     },
     {
         "Symbol": "DAY",
@@ -42335,8 +42335,10 @@
     {
         "Symbol": "SITM",
         "Name": "SiTime Corp",
-        "Country": "USA",     
-        "ownEtrade": true
+        "Country": "USA",
+        "ownEtrade": true,
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "SIVR",
