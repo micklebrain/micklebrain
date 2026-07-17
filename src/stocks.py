@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CDI"]
+stocksToAdd = ["CSQR"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Christian Dior SE", ownInteractiveBrokers=True)
+    addStock(stock, name="Csquare Inc", ownEtrade=True)

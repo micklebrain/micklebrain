@@ -7812,8 +7812,8 @@
     {
         "Symbol": "CDI",
         "Name": "Christian Dior SE",
-        "Country": "France",       
-        "ownInteractiveBrokers": true        
+        "Country": "France",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "CDLR",
@@ -10216,6 +10216,12 @@
         "Name": "CSP Inc",
         "Country": "USA",
         "dividend": true
+    },
+    {
+        "Symbol": "CSQR",
+        "Name": "Csquare Inc",
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "CSR",
