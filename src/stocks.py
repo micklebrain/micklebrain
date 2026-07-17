@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["SITM"]
+stocksToAdd = ["CDI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="SiTime Corp", ownEtrade=True)
+    addStock(stock, name="Christian Dior SE", ownInteractiveBrokers=True)

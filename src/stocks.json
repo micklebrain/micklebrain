@@ -7810,6 +7810,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "CDI",
+        "Name": "Christian Dior SE",
+        "Country": "France",       
+        "ownInteractiveBrokers": true        
+    },
+    {
         "Symbol": "CDLR",
         "Name": "Cadeler A/S",
         "Security Name": "Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares)",
