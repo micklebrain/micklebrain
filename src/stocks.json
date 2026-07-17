@@ -44308,6 +44308,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "STDN",
+        "Name": "Standard Nuclear Inc",
+        "Country": "USA",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "STE",
         "Name": "STERIS plc (Ireland) Ordinary Shares",
         "Security Name": "STERIS plc (Ireland) Ordinary Shares",

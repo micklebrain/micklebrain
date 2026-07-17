@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CSQR"]
+stocksToAdd = ["STDN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Csquare Inc", ownEtrade=True)
+    addStock(stock, name="Standard Nuclear Inc", ownEtrade=True)
