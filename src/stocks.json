@@ -7197,7 +7197,8 @@
         "Symbol": "CACC",
         "Name": "Credit Acceptance Corp",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "CACI",
@@ -44311,7 +44312,9 @@
         "Symbol": "STDN",
         "Name": "Standard Nuclear Inc",
         "Country": "USA",
-        "ownEtrade": true
+        "ownEtrade": true,
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "STE",
@@ -48650,8 +48653,7 @@
     {
         "Symbol": "VCIG",
         "Name": "VCI Global Ltd",
-        "Country": "Malaysia",
-        "ownWebull": true
+        "Country": "Malaysia"
     },
     {
         "Symbol": "VCLN",
