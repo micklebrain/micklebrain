@@ -26068,6 +26068,12 @@
         "ownWebull": true
     },
     {
+        "Symbol": "JMKE",
+        "Name": "Jersey Mike's Subs",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "JMM",
         "Name": "Nuveen Multi",
         "Security Name": "Nuveen Multi-Market Income Fund (MA)",
