@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["JMKE"]
+stocksToAdd = ["LIME"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Jersey Mike's Subs")
+    addStock(stock, name="Neutron Holdings Inc")

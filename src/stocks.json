@@ -28412,6 +28412,12 @@
         "dividend": true
     },
     {
+        "Symbol": "LIME",
+        "Name": "Neutron Holdings Inc",
+        "Country": "USA",
+        "ownEtrade": true        
+    },
+    {
         "Symbol": "LIMI",
         "Name": "Themes ETF Trust Themes Lithium & Battery Metal Miners ETF",
         "Security Name": "Themes ETF Trust Themes Lithium & Battery Metal Miners ETF",
