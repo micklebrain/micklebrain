@@ -10066,7 +10066,8 @@
         "Symbol": "CRS",
         "Name": "Carpenter Technology Corporation",
         "Security Name": "Carpenter Technology Corporation Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "CRSH",
