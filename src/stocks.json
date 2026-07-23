@@ -1731,6 +1731,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AMAT",
+        "Name": "Applied Materials Inc",
+        "Country": "USA",      
+        "ownEtrade": true        
+    },
+    {
         "Symbol": "AMAX",
         "Name": "Adaptive Hedged Multi",
         "Security Name": "Adaptive Hedged Multi-Asset Income ETF",
@@ -29905,8 +29911,8 @@
     {
         "Symbol": "MEDP",
         "Name": "Medpace Holdings Inc",
-        "Country": "USA",        
-        "ownEtrade": true        
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "MEG",
