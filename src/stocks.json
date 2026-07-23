@@ -1733,8 +1733,8 @@
     {
         "Symbol": "AMAT",
         "Name": "Applied Materials Inc",
-        "Country": "USA",      
-        "ownEtrade": true        
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "AMAX",
@@ -11183,8 +11183,7 @@
     {
         "Symbol": "DCX",
         "Name": "Digital Currency X Technology Inc",
-        "Country": "China",
-        "ownWebull": true
+        "Country": "China"
     },
     {
         "Symbol": "DD",
@@ -12099,7 +12098,7 @@
         "Symbol": "DJCO",
         "Name": "Daily Journal Corp",
         "Country": "USA",
-        "dividend": true
+        "ownWebull": true
     },
     {
         "Symbol": "DJD",
@@ -29050,8 +29049,7 @@
     {
         "Symbol": "LUCY",
         "Name": "Lucyd Inc",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"
     },
     {
         "Symbol": "LUD",
@@ -38872,7 +38870,8 @@
         "Symbol": "RBC",
         "Name": "RBC Bearings Incorporated",
         "Security Name": "RBC Bearings Incorporated Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "RBCAA",
