@@ -28416,7 +28416,7 @@
         "Symbol": "LIME",
         "Name": "Neutron Holdings Inc",
         "Country": "USA",
-        "ownEtrade": true        
+        "ownEtrade": true
     },
     {
         "Symbol": "LIMI",
@@ -29905,8 +29905,8 @@
     {
         "Symbol": "MEDP",
         "Name": "Medpace Holdings Inc",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA",        
+        "ownEtrade": true        
     },
     {
         "Symbol": "MEG",

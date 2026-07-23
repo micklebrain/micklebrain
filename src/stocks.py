@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LIME"]
+stocksToAdd = ["MEDP"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Neutron Holdings Inc")
+    addStock(stock, name="Medpace Holdings Inc", ownEtrade=True)
