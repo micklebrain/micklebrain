@@ -1,5 +1,10 @@
 [
     {
+        "Symbol": "000270",
+        "Name": "Kia Corp",        
+        "ownInteractiveBrokers": true        
+    },
+    {
         "Symbol": "003490",
         "Name": "Korean Air Lines Co.",
         "Country": "South Korea",
@@ -10528,7 +10533,8 @@
         "Symbol": "CVCO",
         "Name": "Cavco Industries Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "CVE",

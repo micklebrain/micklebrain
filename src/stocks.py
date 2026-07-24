@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["DJCO"]
+stocksToAdd = ["000270"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Daily Journal Corp", ownEtrade=True)
+    addStock(stock, name="Kia Corp", ownInteractiveBrokers=True)
