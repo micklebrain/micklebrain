@@ -48350,7 +48350,8 @@
         "Symbol": "UTHR",
         "Name": "United Therapeutics Corp",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "UTI",
