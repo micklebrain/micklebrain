@@ -77,6 +77,7 @@ function Stocks() {
   const [selectedCountry, setSelectedCountry] = useState("");
   const [showDividendOnly, setShowDividendOnly] = useState(false);
   const [showETFOnly, setShowETFOnly] = useState(false);
+  const [showNonETFOnly, setShowNonETFOnly] = useState(false);
   const [showName, setShowName] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
@@ -150,11 +151,12 @@ function Stocks() {
     if (selectedCountry && item.Country !== selectedCountry) return false;
     if (showDividendOnly && !item.dividend) return false;
     if (showETFOnly && item.ETF !== "Y") return false;
+    if (showNonETFOnly && item.ETF === "Y") return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
-  }), [effectiveItems, selectedCountry, showDividendOnly, showETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
+  }), [effectiveItems, selectedCountry, showDividendOnly, showETFOnly, showNonETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
 
   const sortedItems = React.useMemo(() => {
     return [...filteredItems].sort((a, b) => {
@@ -191,6 +193,7 @@ function Stocks() {
     setShowNotOwnedOnly(false);
     setShowDividendOnly(false);
     setShowETFOnly(false);
+    setShowNonETFOnly(false);
   };
 
   const toggleBrokerFilter = (broker) => {
@@ -365,9 +368,22 @@ function Stocks() {
         <button
           type="button"
           className={`stocks-filter-btn ${showETFOnly ? "active" : ""}`}
-          onClick={() => setShowETFOnly((prev) => !prev)}
+          onClick={() => {
+            setShowNonETFOnly(false);
+            setShowETFOnly((prev) => !prev);
+          }}
         >
           ETF
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showNonETFOnly ? "active" : ""}`}
+          onClick={() => {
+            setShowETFOnly(false);
+            setShowNonETFOnly((prev) => !prev);
+          }}
+        >
+          Non-ETF
         </button>
         <button
           type="button"
