@@ -6307,20 +6307,6 @@
         "ownWebull": true
     },
     {
-        "Symbol": "BRK.A",
-        "Name": "Berkshire Hathaway Inc.",
-        "Security Name": "Berkshire Hathaway Inc. Common Stock",
-        "Exchange": "N",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "BRK.B",
-        "Name": "Berkshire Hathaway Inc.",
-        "Security Name": "Berkshire Hathaway Inc. New Common Stock",
-        "Exchange": "N",
-        "Country": "USA"
-    },
-    {
         "Symbol": "BRKC",
         "Name": "Tidal Trust II YieldMax BRK.B Option Income Strategy ETF",
         "Security Name": "Tidal Trust II YieldMax BRK.B Option Income Strategy ETF",
