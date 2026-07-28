@@ -18383,12 +18383,6 @@
     },
     {
         "Symbol": "FTI",
-        "Name": "TechnipFMC plc Ordinary Share",
-        "Security Name": "TechnipFMC plc Ordinary Share",
-        "Country": "United Kingdom"
-    },
-    {
-        "Symbol": "FTI",
         "Name": "TechnipFMC PLC",
         "Country": "United Kingdom",
         "dividend": true
@@ -21801,7 +21795,7 @@
     },
     {
         "Symbol": "HITI",
-        "Name": "High Tide Inc"        
+        "Name": "High Tide Inc"
     },
     {
         "Symbol": "HIVE",
@@ -32599,6 +32593,10 @@
         "Country": "Peru",
         "ownWebull": true,
         "dividend": true
+    },
+    {
+        "Symbol": "NEXM",
+        "Name": "NexMetals Mining Corp"
     },
     {
         "Symbol": "NEXOY",

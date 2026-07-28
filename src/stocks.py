@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["HITI"]
+stocksToAdd = ["NEXM"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="High Tide Inc")
+    addStock(stock, name="NexMetals Mining Corp")
