@@ -25885,12 +25885,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "JHG",
-        "Name": "Janus Henderson Group plc Ordinary Shares",
-        "Security Name": "Janus Henderson Group plc Ordinary Shares",
-        "Country": "USA"
-    },
-    {
         "Symbol": "JHHY",
         "Name": "John Hancock Exchange",
         "Security Name": "John Hancock Exchange-Traded Fund Trust John Hancock High Yield ETF",
@@ -26617,12 +26611,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "K",
-        "Name": "Kellanova",
-        "Security Name": "Kellanova Common Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "KAI",
         "Name": "Kadant Inc",
         "Security Name": "Kadant Inc Common Stock",
@@ -26645,12 +26633,6 @@
         "Name": "Innovator U.S. Small Cap Power Buffer ETF",
         "Security Name": "Innovator U.S. Small Cap Power Buffer ETF - April",
         "ETF": "Y",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "KAR",
-        "Name": "OPENLANE, Inc.",
-        "Security Name": "OPENLANE, Inc. Common Stock",
         "Country": "USA"
     },
     {
@@ -30433,6 +30415,11 @@
         "Name": "MFS Intermediate Income Trust",
         "Security Name": "MFS Intermediate Income Trust Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "MINE",
+        "Name": "Mayfair Gold Corp",
+        "Country": "Canada"
     },
     {
         "Symbol": "MINN",
@@ -38796,6 +38783,11 @@
         "Security Name": "Ferrari N.V. Common Shares",
         "Country": "Italy",
         "ownWebull": true
+    },
+    {
+        "Symbol": "RADX",
+        "Name": "Radiopharm Theranostics Limited",
+        "Country": "Australia"
     },
     {
         "Symbol": "RAFE",

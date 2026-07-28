@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["NEXM"]
+stocksToAdd = ["RADX"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="NexMetals Mining Corp")
+    addStock(stock, name="Radiopharm Theranostics Limited")
