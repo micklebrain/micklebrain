@@ -805,6 +805,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AEC",
+        "Name": "Anfield Energy Inc"
+    },
+    {
         "Symbol": "AEE",
         "Name": "Ameren Corporation",
         "Security Name": "Ameren Corporation Common Stock",
@@ -26974,24 +26978,6 @@
         "Symbol": "KIM",
         "Name": "Kimco Realty Corporation (HC)",
         "Security Name": "Kimco Realty Corporation (HC) Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "KIM-L",
-        "Name": "Kimco Realty Corporation Class L Depositary Shares, each of which represents a one",
-        "Security Name": "Kimco Realty Corporation Class L Depositary Shares, each of which represents a one-one thousandth fractional interest in a share of 5.125% Class L Cumulative Redeemable Preferred Stock, liquidation preference $25,000.00 per share",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "KIM-M",
-        "Name": "Kimco Realty Corporation Class M Depositary Shares, each of which represents a one",
-        "Security Name": "Kimco Realty Corporation Class M Depositary Shares, each of which represents a one-one thousandth fractional interest in a share of 5.25% Class M Cumulative Redeemable Preferred Stock, liquidation preference $25,000.00 per share",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "KIM-N",
-        "Name": "Kimco Realty Corporation Depositary Shares, each representing 1/1,000th interest in a share of 7.25% Class N Cumulative Convertible Perpetual Preferred Stock",
-        "Security Name": "Kimco Realty Corporation Depositary Shares, each representing 1/1,000th interest in a share of 7.25% Class N Cumulative Convertible Perpetual Preferred Stock",
         "Country": "USA"
     },
     {

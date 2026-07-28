@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BTQ"]
+stocksToAdd = ["AEC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="BTQ Technologies Corp")
+    addStock(stock, name="Anfield Energy Inc")
