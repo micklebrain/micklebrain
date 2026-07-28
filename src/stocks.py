@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["GVH"]
+stocksToAdd = ["BHST"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Globavend Holdings Ltd")
+    addStock(stock, name="Bioharvest Sciences Inc")

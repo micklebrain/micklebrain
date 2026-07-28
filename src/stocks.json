@@ -5065,6 +5065,10 @@
         "dividend": true
     },
     {
+        "Symbol": "BHST",
+        "Name": "Bioharvest Sciences Inc" 
+    },
+    {
         "Symbol": "BHV",
         "Name": "BlackRock Virginia Municipal Bond Trust",
         "Security Name": "BlackRock Virginia Municipal Bond Trust",
@@ -20983,7 +20987,7 @@
     },
     {
         "Symbol": "GVH",
-        "Name": "Globavend Holdings Ltd"        
+        "Name": "Globavend Holdings Ltd"
     },
     {
         "Symbol": "GVI",
