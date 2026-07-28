@@ -28433,7 +28433,8 @@
         "Symbol": "LIN",
         "Name": "Linde PLC",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "LINE",
@@ -29785,8 +29786,8 @@
     {
         "Symbol": "MDGL",
         "Name": "Madrigal Pharmaceuticals Inc",
-        "Country": "USA",
-        "dividend": true
+        "Country": "USA",        
+        "ownWebull": true
     },
     {
         "Symbol": "MDLN",
@@ -40731,8 +40732,7 @@
     {
         "Symbol": "SAGT",
         "Name": "South Asia Gateway Terminals Ltd",
-        "Country": "Sri Lanka",
-        "ownWebull": true
+        "Country": "Sri Lanka"
     },
     {
         "Symbol": "SAH",
