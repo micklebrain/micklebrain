@@ -5066,7 +5066,7 @@
     },
     {
         "Symbol": "BHST",
-        "Name": "Bioharvest Sciences Inc" 
+        "Name": "Bioharvest Sciences Inc"
     },
     {
         "Symbol": "BHV",
@@ -21798,6 +21798,10 @@
         "Security Name": "GraniteShares HIPS US High Income ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "HITI",
+        "Name": "High Tide Inc"        
     },
     {
         "Symbol": "HIVE",

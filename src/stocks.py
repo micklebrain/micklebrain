@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BHST"]
+stocksToAdd = ["HITI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bioharvest Sciences Inc")
+    addStock(stock, name="High Tide Inc")
