@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["000270"]
+stocksToAdd = ["005935"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Kia Corp", ownInteractiveBrokers=True)
+    addStock(stock, name="Samsung Electronics Co Ltd", ownInteractiveBrokers=True)

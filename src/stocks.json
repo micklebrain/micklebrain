@@ -1,8 +1,8 @@
 [
     {
         "Symbol": "000270",
-        "Name": "Kia Corp",        
-        "ownInteractiveBrokers": true        
+        "Name": "Kia Corp",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "003490",
@@ -24,6 +24,11 @@
         "Country": "South Korea",
         "ownInteractiveBrokers": true,
         "dividend": true
+    },
+    {
+        "Symbol": "005935",
+        "Name": "Samsung Electronics Co Ltd",        
+        "ownInteractiveBrokers": true        
     },
     {
         "Symbol": "005940",
