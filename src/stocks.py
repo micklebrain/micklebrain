@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["005935"]
+stocksToAdd = ["GVH"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Samsung Electronics Co Ltd", ownInteractiveBrokers=True)
+    addStock(stock, name="Globavend Holdings Ltd")

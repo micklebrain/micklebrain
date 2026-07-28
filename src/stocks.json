@@ -28,8 +28,8 @@
     {
         "Symbol": "005935",
         "Name": "Samsung Electronics Co Ltd",
-        "Country": "South Korea",        
-        "ownInteractiveBrokers": true        
+        "Country": "South Korea",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "005940",
@@ -20982,6 +20982,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "GVH",
+        "Name": "Globavend Holdings Ltd"        
+    },
+    {
         "Symbol": "GVI",
         "Name": "iShares Intermediate Government/Credit Bond ETF",
         "Security Name": "iShares Intermediate Government/Credit Bond ETF",
@@ -29786,7 +29790,7 @@
     {
         "Symbol": "MDGL",
         "Name": "Madrigal Pharmaceuticals Inc",
-        "Country": "USA",        
+        "Country": "USA",
         "ownWebull": true
     },
     {
