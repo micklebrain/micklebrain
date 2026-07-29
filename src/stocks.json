@@ -3023,12 +3023,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "ATGE",
-        "Name": "Adtalem Global Education Inc.",
-        "Security Name": "Adtalem Global Education Inc. Common Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "ATH-A",
         "Name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.35% Fixed",
         "Security Name": "Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Interest in a 6.35% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Share, Series A",
@@ -7882,9 +7876,10 @@
     },
     {
         "Symbol": "CDW",
-        "Name": "CDW",
+        "Name": "CDW Corporation",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownMoomoo": true
     },
     {
         "Symbol": "CDX",
@@ -24646,6 +24641,11 @@
         "Name": "Iridium Communications Inc",
         "Country": "USA",
         "dividend": true
+    },
+    {
+        "Symbol": "IREN",
+        "Name": "IREN Ltd",        
+        "ownEtrade": true
     },
     {
         "Symbol": "IRET",

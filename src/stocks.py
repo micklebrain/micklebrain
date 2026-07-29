@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["HSLV"]
+stocksToAdd = ["IREN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Highlander Silver Corp")
+    addStock(stock, name="IREN Ltd")
