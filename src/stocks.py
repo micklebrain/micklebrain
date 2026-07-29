@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AEC"]
+stocksToAdd = ["HSLV"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Anfield Energy Inc")
+    addStock(stock, name="Highlander Silver Corp")
