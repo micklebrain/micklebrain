@@ -7466,7 +7466,8 @@
         "Symbol": "CAVA",
         "Name": "CAVA Group, Inc.",
         "Security Name": "CAVA Group, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "CB",
@@ -22237,7 +22238,9 @@
     },
     {
         "Symbol": "HSLV",
-        "Name": "Highlander Silver Corp"        
+        "Name": "Highlander Silver Corp",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "HSMV",
@@ -52204,8 +52207,7 @@
     {
         "Symbol": "YYAI",
         "Name": "AIRWA Inc",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"
     },
     {
         "Symbol": "YYY",
