@@ -26090,8 +26090,7 @@
     {
         "Symbol": "JMKE",
         "Name": "Jersey Mike's Subs",
-        "dividend": false,
-        "ETF": false
+        "ownEtrade": true
     },
     {
         "Symbol": "JMM",
