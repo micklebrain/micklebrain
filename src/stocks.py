@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IREN"]
+stocksToAdd = ["MUEL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="IREN Ltd")
+    addStock(stock, name="Paul Mueller Co")

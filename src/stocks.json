@@ -24644,7 +24644,7 @@
     },
     {
         "Symbol": "IREN",
-        "Name": "IREN Ltd",        
+        "Name": "IREN Ltd",
         "ownEtrade": true
     },
     {
@@ -31752,6 +31752,11 @@
         "Name": "Blackrock MuniHoldings Quality Fund II, Inc.",
         "Security Name": "Blackrock MuniHoldings Quality Fund II, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "MUEL",
+        "Name": "Paul Mueller Co",        
+        "ownEtrade": true
     },
     {
         "Symbol": "MUFG",
