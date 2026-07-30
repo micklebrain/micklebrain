@@ -8550,7 +8550,8 @@
         "Symbol": "CIEN",
         "Name": "Ciena Corporation",
         "Security Name": "Ciena Corporation Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CIF",
@@ -24269,8 +24270,7 @@
     {
         "Symbol": "INO",
         "Name": "Inovio Pharmaceu",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"        
     },
     {
         "Symbol": "INOV",
