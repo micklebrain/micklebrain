@@ -5025,7 +5025,7 @@
     },
     {
         "Symbol": "BHM",
-        "Name": "Bluerock Homes Trust, Inc. Class A",
+        "Name": "Bluerock Homes Trust, Inc",
         "Security Name": "Bluerock Homes Trust, Inc. Class A Common Stock",
         "Country": "USA"
     },
@@ -5820,6 +5820,10 @@
         "Name": "Bank of America Corporation Depositary Shares (Each representing a 1/1200th Interest in a Share of Floating Rate Non",
         "Security Name": "Bank of America Corporation Depositary Shares (Each representing a 1/1200th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock, Series 5)",
         "Country": "USA"
+    },
+    {
+        "Symbol": "BMM",
+        "Name": "Blue Moon Metals Inc"
     },
     {
         "Symbol": "BMN",
@@ -10314,24 +10318,12 @@
         "Name": "Cintas Corp",
         "Country": "USA",
         "dividend": true
-    },
-    {
-        "Symbol": "CTBB",
-        "Name": "Qwest Corporation 6.5% Notes due 2056",
-        "Security Name": "Qwest Corporation 6.5% Notes due 2056",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "CTBI",
         "Name": "Community Trust Bancorp Inc",
         "Country": "USA",
         "dividend": true
-    },
-    {
-        "Symbol": "CTDD",
-        "Name": "Qwest Corporation 6.75% Notes due 2057",
-        "Security Name": "Qwest Corporation 6.75% Notes due 2057",
-        "Country": "USA"
     },
     {
         "Symbol": "CTEF",
@@ -10467,13 +10459,7 @@
         "Name": "Customers Bancorp, Inc Fixed",
         "Security Name": "Customers Bancorp, Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock, Series F",
         "Country": "USA"
-    },
-    {
-        "Symbol": "CUK",
-        "Name": "Carnival Plc ADS ADS",
-        "Security Name": "Carnival Plc ADS ADS",
-        "Country": "United Kingdom"
-    },
+    },    
     {
         "Symbol": "CULP",
         "Name": "Culp, Inc.",
@@ -14735,6 +14721,20 @@
         "Name": "Essential Properties Realty Trust, Inc.",
         "Security Name": "Essential Properties Realty Trust, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "EPRX",
+        "Name": "Eupraxia Pharmaceuticals Inc",
+        "ownWebull": false,
+        "ownEtrade": false,
+        "ownRobinhood": false,
+        "ownChase": false,
+        "ownSchwab": false,
+        "ownAlly": false,
+        "ownFidelity": false,
+        "ownInteractiveBrokers": false,
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "EPS",
@@ -24270,7 +24270,7 @@
     {
         "Symbol": "INO",
         "Name": "Inovio Pharmaceu",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "INOV",
@@ -26090,6 +26090,7 @@
     {
         "Symbol": "JMKE",
         "Name": "Jersey Mike's Subs",
+        "Country": "USA",
         "ownEtrade": true
     },
     {
@@ -31754,7 +31755,7 @@
     },
     {
         "Symbol": "MUEL",
-        "Name": "Paul Mueller Co",        
+        "Name": "Paul Mueller Co",
         "ownEtrade": true
     },
     {
