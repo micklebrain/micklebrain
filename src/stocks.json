@@ -12169,7 +12169,8 @@
         "Symbol": "DKS",
         "Name": "Dick's Sporting Goods Inc",
         "Security Name": "Dick's Sporting Goods Inc Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "DKUP",
