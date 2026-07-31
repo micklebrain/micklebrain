@@ -18457,7 +18457,8 @@
         "Symbol": "FUBO",
         "Name": "fuboTV Inc.",
         "Security Name": "fuboTV Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "FUJHY",
@@ -18808,7 +18809,8 @@
         "Symbol": "GAIN",
         "Name": "Gladstone Investment Corporation",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "GAL",
@@ -49196,7 +49198,8 @@
         "Symbol": "VMI",
         "Name": "Valmont Industries, Inc.",
         "Security Name": "Valmont Industries, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "VMO",
