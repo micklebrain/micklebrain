@@ -28174,7 +28174,7 @@
         "Symbol": "LFT",
         "Name": "Lument Finance Trust, Inc.",
         "Security Name": "Lument Finance Trust, Inc. Common Stock",
-        "Country": "USA",        
+        "Country": "USA",
         "dividend": true
     },
     {
@@ -37620,7 +37620,7 @@
     },
     {
         "Symbol": "PSIX",
-        "Name": "Power Solutions International Inc"        
+        "Name": "Power Solutions International Inc"
     },
     {
         "Symbol": "PSK",
@@ -46145,6 +46145,10 @@
         "Security Name": "Global X Funds Global X Treasury Bond Enhanced Income ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "TLX",
+        "Name": "Telix Pharmaceuticals Ltd"
     },
     {
         "Symbol": "TLYS",
