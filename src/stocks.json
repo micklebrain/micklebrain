@@ -5591,6 +5591,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "BLDP",
+        "Name": "Ballard Power Systems Inc",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "BLDR",
         "Name": "Builders FirstSource, Inc.",
         "Security Name": "Builders FirstSource, Inc. Common Stock",
@@ -20551,7 +20556,8 @@
         "Symbol": "GRO",
         "Name": "Brazil Potash Corp.",
         "Security Name": "Brazil Potash Corp. Common Shares",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "GROV",
@@ -20569,7 +20575,8 @@
         "Symbol": "GROY",
         "Name": "Gold Royalty Corp.",
         "Security Name": "Gold Royalty Corp. Common Shares",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "GROY.W",
@@ -27818,6 +27825,11 @@
         "Security Name": "Touchstone ETF Trust Touchstone US Large Cap Focused ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "LCFY",
+        "Name": "Locafy Ltd",
+        "ownEtrade": true
     },
     {
         "Symbol": "LCG",
@@ -41618,7 +41630,8 @@
         "Symbol": "SEI",
         "Name": "Solaris Energy Infrastructure, Inc. Class A",
         "Security Name": "Solaris Energy Infrastructure, Inc. Class A Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "SEIC",
