@@ -10318,7 +10318,7 @@
         "Name": "Cintas Corp",
         "Country": "USA",
         "dividend": true
-    },    
+    },
     {
         "Symbol": "CTBI",
         "Name": "Community Trust Bancorp Inc",
@@ -10459,7 +10459,7 @@
         "Name": "Customers Bancorp, Inc Fixed",
         "Security Name": "Customers Bancorp, Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock, Series F",
         "Country": "USA"
-    },    
+    },
     {
         "Symbol": "CULP",
         "Name": "Culp, Inc.",
@@ -28174,8 +28174,7 @@
         "Symbol": "LFT",
         "Name": "Lument Finance Trust, Inc.",
         "Security Name": "Lument Finance Trust, Inc. Common Stock",
-        "Country": "USA",
-        "ownWebull": true,
+        "Country": "USA",        
         "dividend": true
     },
     {
@@ -37618,6 +37617,10 @@
         "Security Name": "AdvisorShares Psychedelics ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "PSIX",
+        "Name": "Power Solutions International Inc"        
     },
     {
         "Symbol": "PSK",
