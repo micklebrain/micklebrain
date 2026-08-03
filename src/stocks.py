@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BLDP"]
+stocksToAdd = ["EVAX"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Ballard Power Systems Inc")
+    addStock(stock, name="Evaxion A/S", ownEtrade=True)

@@ -15385,6 +15385,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "EVAX",
+        "Name": "Evaxion A/S",        
+        "ownEtrade": true
+    },
+    {
         "Symbol": "EVC",
         "Name": "Entravision Communications Corporation",
         "Security Name": "Entravision Communications Corporation Common Stock",
