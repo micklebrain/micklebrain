@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["EVAX"]
+stocksToAdd = ["IXHL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Evaxion A/S", ownEtrade=True)
+    addStock(stock, name="Incannex Healthcare Inc", ownEtrade=True)

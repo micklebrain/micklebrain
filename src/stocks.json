@@ -3604,6 +3604,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AXG",
+        "Name": "Solowin Holdings Ltd",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "AXIA",
         "Name": "Axia Energia SA",
         "Country": "Brazil",
@@ -10066,6 +10071,11 @@
         "ownWebull": true
     },
     {
+        "Symbol": "CRON",
+        "Name": "Cronos Group Inc",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "CROX",
         "Name": "Crocs Inc",
         "Country": "USA",
@@ -12389,7 +12399,8 @@
         "Symbol": "DNN",
         "Name": "Denison Mines Corp Ordinary Shares (Canada)",
         "Security Name": "Denison Mines Corp Ordinary Shares (Canada)",
-        "Country": "Canada"
+        "Country": "Canada",
+        "ownEtrade": true
     },
     {
         "Symbol": "DNOV",
@@ -15386,7 +15397,7 @@
     },
     {
         "Symbol": "EVAX",
-        "Name": "Evaxion A/S",        
+        "Name": "Evaxion A/S",
         "ownEtrade": true
     },
     {
@@ -25306,6 +25317,11 @@
         "Security Name": "iShares Global Financial ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "IXHL",
+        "Name": "Incannex Healthcare Inc",        
+        "ownEtrade": true
     },
     {
         "Symbol": "IXJ",
@@ -36009,6 +36025,12 @@
         "Security Name": "Pacer US Export Leaders ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "PFAI",
+        "Name": "Pinnacle Food Group Ltd",
+        "Country": "Canada",
+        "ownEtrade": true
     },
     {
         "Symbol": "PFBC",
