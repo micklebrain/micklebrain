@@ -25308,7 +25308,7 @@
     },
     {
         "Symbol": "IXHL",
-        "Name": "Incannex Healthcare Inc",        
+        "Name": "Incannex Healthcare Inc",
         "ownEtrade": true
     },
     {
@@ -46205,6 +46205,10 @@
         "Security Name": "Main Thematic Innovation ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "TMC",
+        "Name": "TMC the metals company Inc"
     },
     {
         "Symbol": "TMDE",

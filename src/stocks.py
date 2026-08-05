@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IXHL"]
+stocksToAdd = ["TMC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Incannex Healthcare Inc", ownEtrade=True)
+    addStock(stock, name="TMC the metals company Inc")
