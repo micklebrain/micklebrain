@@ -13145,13 +13145,6 @@
         "dividend": true
     },
     {
-        "Symbol": "EA",
-        "Name": "Electronic Arts Inc",
-        "Country": "USA",
-        "ownWebull": true,
-        "dividend": true
-    },
-    {
         "Symbol": "EAD",
         "Name": "Allspring Income Opportunities Fund",
         "Security Name": "Allspring Income Opportunities Fund Common Shares",
@@ -34835,13 +34828,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "ORLA",
-        "Name": "Orla Mining Ltd.",
-        "Security Name": "Orla Mining Ltd. Common Shares",
-        "Country": "Canada",
-        "ownWebull": true
-    },
-    {
         "Symbol": "ORN",
         "Name": "Orion Group Holdings, Inc. Common",
         "Security Name": "Orion Group Holdings, Inc. Common",
@@ -36704,7 +36690,8 @@
         "Symbol": "PLPC",
         "Name": "Preformed Line Products Co",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "PLRX",
@@ -46209,7 +46196,9 @@
     },
     {
         "Symbol": "TMC",
-        "Name": "TMC the metals company Inc"
+        "Name": "TMC the metals company Inc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "TMDE",
