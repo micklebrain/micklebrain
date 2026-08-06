@@ -21322,7 +21322,8 @@
         "Symbol": "HCA",
         "Name": "HCA Healthcare, Inc.",
         "Security Name": "HCA Healthcare, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "HCC",
@@ -49526,7 +49527,8 @@
         "Symbol": "VRTX",
         "Name": "Vertex Pharmaceuticals Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "VSCO",
