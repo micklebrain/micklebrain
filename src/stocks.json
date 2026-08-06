@@ -28209,7 +28209,8 @@
         "Symbol": "LFUS",
         "Name": "Littelfuse Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "LFVN",
