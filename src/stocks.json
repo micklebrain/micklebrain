@@ -47076,7 +47076,8 @@
         "Symbol": "TT",
         "Name": "Trane Technologies plc",
         "Security Name": "Trane Technologies plc",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "TTAM",
