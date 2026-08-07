@@ -509,9 +509,10 @@
     },
     {
         "Symbol": "ACI",
-        "Name": "Albertsons Companies, Inc. Class A",
+        "Name": "Albertsons Companies, Inc.",
         "Security Name": "Albertsons Companies, Inc. Class A Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "ACIC",
