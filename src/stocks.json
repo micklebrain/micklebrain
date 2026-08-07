@@ -14718,17 +14718,7 @@
     },
     {
         "Symbol": "EPRX",
-        "Name": "Eupraxia Pharmaceuticals Inc",
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false,
-        "ownInteractiveBrokers": false,
-        "dividend": false,
-        "ETF": false
+        "Name": "Eupraxia Pharmaceuticals Inc"
     },
     {
         "Symbol": "EPS",
@@ -39943,7 +39933,8 @@
         "Symbol": "ROK",
         "Name": "Rockwell Automation, Inc.",
         "Security Name": "Rockwell Automation, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "ROKT",
