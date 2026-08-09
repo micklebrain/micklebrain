@@ -1277,6 +1277,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AHRT",
+        "Name": "AH Realty Trust, Inc",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "AHT",
         "Name": "Ashford Hospitality Trust Inc",
         "Security Name": "Ashford Hospitality Trust Inc Common Stock",
@@ -3031,6 +3037,10 @@
         "Security Name": "Alger 35 ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "ATGL",
+        "Name": "Alpha Technology Group Ltd"
     },
     {
         "Symbol": "ATH-A",

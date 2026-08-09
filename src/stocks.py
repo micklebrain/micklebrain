@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ADVB"]
+stocksToAdd = ["ATGL"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Advanced Biomed Inc")
+    addStock(stock, name="Alpha Technology Group Ltd")
