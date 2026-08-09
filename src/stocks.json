@@ -423,6 +423,12 @@
         "ETF": false
     },
     {
+        "Symbol": "ABX",
+        "Name": "Abacus Global Management Inc",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "ABXB",
         "Name": "Abacus Flexible Bond Leaders ETF",
         "Security Name": "Abacus Flexible Bond Leaders ETF",
@@ -14212,6 +14218,12 @@
         "Name": "Elevance Health Inc",
         "Country": "USA",
         "dividend": true
+    },
+    {
+        "Symbol": "ELVA",
+        "Name": "Electrovaya Inc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "EMA",
@@ -29350,6 +29362,12 @@
         "Name": "Madison Air Solutions Corp",
         "Country": "USA",
         "dividend": true
+    },
+    {
+        "Symbol": "MAKO",
+        "Name": "Mako Mining Corp",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "MAKX",
