@@ -2607,6 +2607,10 @@
         "ownWebull": true
     },
     {
+        "Symbol": "ARKO",
+        "Name": "Arko Corp."        
+    },
+    {
         "Symbol": "ARKQ",
         "Name": "ARK Autonomous Technology & Robotics ETF",
         "Security Name": "ARK Autonomous Technology & Robotics ETF",
@@ -33724,6 +33728,10 @@
         "Name": "Nuveen AMT",
         "Security Name": "Nuveen AMT-Free Municipal Value Fund",
         "Country": "USA"
+    },
+    {
+        "Symbol": "NVA",
+        "Name": "Nova Minerals Corp"        
     },
     {
         "Symbol": "NVBT",

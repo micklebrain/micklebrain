@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["EDSA"]
+stocksToAdd = ["NVA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Edesa Biotech Inc")
+    addStock(stock, name="Nova Minerals Corp")
