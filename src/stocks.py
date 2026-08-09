@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["SVRN"]
+stocksToAdd = ["ADVB"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="OceanPal Inc")
+    addStock(stock, name="Advanced Biomed Inc")
