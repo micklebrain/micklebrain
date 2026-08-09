@@ -4930,6 +4930,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "BGC",
+        "Name": "Bgc Group Inc"
+    },
+    {
         "Symbol": "BGDV",
         "Name": "ETF Series Solutions Bahl & Gaynor Dividend ETF",
         "Security Name": "ETF Series Solutions Bahl & Gaynor Dividend ETF",
@@ -31513,6 +31517,12 @@
         "Security Name": "Morgan Stanley Pathway Funds Morgan Stanley Pathway Large Cap Equity ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "MSLE",
+        "Name": "Satellos Bioscience Inc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "MSM",
