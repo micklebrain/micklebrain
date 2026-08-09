@@ -3049,6 +3049,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "ATHE",
+        "Name": "Alterity Therapeutics Ltd"        
+    },
+    {
         "Symbol": "ATHM",
         "Name": "Autohome Inc.",
         "Security Name": "Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",
@@ -4495,6 +4499,10 @@
         "Country": "USA",
         "ownWebull": true,
         "dividend": true
+    },
+    {
+        "Symbol": "BCTX",
+        "Name": "Briacell Therapeutics Corp"
     },
     {
         "Symbol": "BCUS",
@@ -12540,6 +12548,10 @@
         "Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
         "Security Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
         "Country": "USA"
+    },
+    {
+        "Symbol": "DPRO",
+        "Name": "Draganfly Inc"        
     },
     {
         "Symbol": "DPST",

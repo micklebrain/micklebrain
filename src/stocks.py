@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["TMC"]
+stocksToAdd = ["DPRO"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="TMC the metals company Inc")
+    addStock(stock, name="Draganfly Inc")
