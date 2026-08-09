@@ -3050,7 +3050,7 @@
     },
     {
         "Symbol": "ATHE",
-        "Name": "Alterity Therapeutics Ltd"        
+        "Name": "Alterity Therapeutics Ltd"
     },
     {
         "Symbol": "ATHM",
@@ -12551,7 +12551,7 @@
     },
     {
         "Symbol": "DPRO",
-        "Name": "Draganfly Inc"        
+        "Name": "Draganfly Inc"
     },
     {
         "Symbol": "DPST",
@@ -13569,6 +13569,10 @@
         "Name": "EuroDry Ltd",
         "Country": "Greece",
         "ownEtrade": true
+    },
+    {
+        "Symbol": "EDSA",
+        "Name": "Edesa Biotech Inc"
     },
     {
         "Symbol": "EDU",

@@ -162,7 +162,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["DPRO"]
+stocksToAdd = ["EDSA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Draganfly Inc")
+    addStock(stock, name="Edesa Biotech Inc")
