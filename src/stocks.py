@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AZUL"]
+stocksToAdd = ["KG"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Azul SA")
+    addStock(stock, name="Kestrel Group Ltd")
