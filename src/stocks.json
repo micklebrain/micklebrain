@@ -3754,6 +3754,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AZUL",
+        "Name": "Azul SA"
+    },
+    {
         "Symbol": "AZZ",
         "Name": "AZZ Inc.",
         "Security Name": "AZZ Inc.",
