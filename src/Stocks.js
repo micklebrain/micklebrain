@@ -242,21 +242,23 @@ function Stocks() {
     const trimmed = newSymbol.trim().toUpperCase();
     if (!trimmed) return;
 
-    setExtraStocks((prev) => [
-      ...prev,
-      {
-        Symbol: trimmed,
-        ownWebull: newOwnWebull,
-        ownEtrade: newOwnEtrade,
-        ownRobinhood: newOwnRobinhood,
-        ownInteractiveBrokers: newOwnInteractiveBrokers,
-        ownChase: newOwnChase,
-        ownSchwab: newOwnSchwab,
-        ownAlly: newOwnAlly,
-        ownFidelity: newOwnFidelity,
-        ownMoomoo: newOwnMoomoo,
-      },
-    ]);
+    const newStock = { Symbol: trimmed };
+    const ownershipFlags = {
+      ownWebull: newOwnWebull,
+      ownEtrade: newOwnEtrade,
+      ownRobinhood: newOwnRobinhood,
+      ownInteractiveBrokers: newOwnInteractiveBrokers,
+      ownChase: newOwnChase,
+      ownSchwab: newOwnSchwab,
+      ownAlly: newOwnAlly,
+      ownFidelity: newOwnFidelity,
+      ownMoomoo: newOwnMoomoo,
+    };
+    Object.entries(ownershipFlags).forEach(([key, value]) => {
+      if (value !== false) newStock[key] = value;
+    });
+
+    setExtraStocks((prev) => [...prev, newStock]);
 
     setNewSymbol("");
     setNewOwnWebull(false);

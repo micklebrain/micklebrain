@@ -25,18 +25,22 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
         data = json.load(f)
 
     new_item = {
-        "Symbol": symbol.upper(),
-        "Name": name,
-        "ownWebull": ownWebull,
-        "ownEtrade": ownEtrade,
-        "ownRobinhood": ownRobinhood,
-        "ownChase": ownChase,
-        "ownSchwab": ownSchwab,
-        "ownAlly": ownAlly,
-        "ownFidelity": ownFidelity,
-        "ownInteractiveBrokers": ownInteractiveBrokers,
-        "dividend": dividend,
-        "ETF": ETF
+        k: v
+        for k, v in {
+            "Symbol": symbol.upper(),
+            "Name": name,
+            "ownWebull": ownWebull,
+            "ownEtrade": ownEtrade,
+            "ownRobinhood": ownRobinhood,
+            "ownChase": ownChase,
+            "ownSchwab": ownSchwab,
+            "ownAlly": ownAlly,
+            "ownFidelity": ownFidelity,
+            "ownInteractiveBrokers": ownInteractiveBrokers,
+            "dividend": dividend,
+            "ETF": ETF,
+        }.items()
+        if v is not False and v is not None
     }
 
     found = False
@@ -162,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["NVA"]
+stocksToAdd = ["SVRN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Nova Minerals Corp")
+    addStock(stock, name="OceanPal Inc")

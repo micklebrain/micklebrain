@@ -2608,7 +2608,7 @@
     },
     {
         "Symbol": "ARKO",
-        "Name": "Arko Corp."        
+        "Name": "Arko Corp."
     },
     {
         "Symbol": "ARKQ",
@@ -33731,7 +33731,7 @@
     },
     {
         "Symbol": "NVA",
-        "Name": "Nova Minerals Corp"        
+        "Name": "Nova Minerals Corp"
     },
     {
         "Symbol": "NVBT",
@@ -44758,6 +44758,10 @@
         "Security Name": "Simplify Volatility Premium ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "SVRN",
+        "Name": "OceanPal Inc"
     },
     {
         "Symbol": "SVV",
