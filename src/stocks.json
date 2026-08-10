@@ -218,7 +218,9 @@
     },
     {
         "Symbol": "AAPG",
-        "Name": "Ascentage Pharma Group Internatinl - ADR"
+        "Name": "Ascentage Pharma Group Internatinl - ADR",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "AAPL",
@@ -16818,7 +16820,7 @@
     {
         "Symbol": "FGL",
         "Name": "Founder Group Ltd",
-        "Country": "Malaysia"        
+        "Country": "Malaysia"
     },
     {
         "Symbol": "FGN",
