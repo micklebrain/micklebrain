@@ -15273,9 +15273,10 @@
     },
     {
         "Symbol": "ETN",
-        "Name": "Eaton Corporation, PLC Ordinary Shares",
+        "Name": "Eaton Corporation, PLC",
         "Security Name": "Eaton Corporation, PLC Ordinary Shares",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "ETO",
@@ -16817,8 +16818,7 @@
     {
         "Symbol": "FGL",
         "Name": "Founder Group Ltd",
-        "Country": "Malaysia",
-        "ownWebull": true
+        "Country": "Malaysia"        
     },
     {
         "Symbol": "FGN",
