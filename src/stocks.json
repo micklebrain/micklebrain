@@ -44346,6 +44346,12 @@
         "ownWebull": true
     },
     {
+        "Symbol": "SSUMY",
+        "Name": "Sumitomo Corp",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "SSUS",
         "Name": "Day Hagan Smart Sector ETF",
         "Security Name": "Day Hagan Smart Sector ETF",
