@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["PRE"]
+stocksToAdd = ["AAPG"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Prenetics Global Ltd")
+    addStock(stock, name="Ascentage Pharma Group Internatinl - ADR")

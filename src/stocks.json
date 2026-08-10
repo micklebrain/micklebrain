@@ -217,6 +217,10 @@
         "ownWebull": true
     },
     {
+        "Symbol": "AAPG",
+        "Name": "Ascentage Pharma Group Internatinl - ADR"
+    },
+    {
         "Symbol": "AAPL",
         "Name": "Apple Inc",
         "Country": "USA",
