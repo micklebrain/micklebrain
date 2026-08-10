@@ -817,6 +817,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AEBI",
+        "Name": "Aebi Schmidt Holding AG"
+    },
+    {
         "Symbol": "AEC",
         "Name": "Anfield Energy Inc"
     },
@@ -10240,6 +10244,10 @@
         "Security Name": "iShares Enhanced Short-Term Bond Active ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "CSIQ",
+        "Name": "Canadian Solar Inc"
     },
     {
         "Symbol": "CSL",
@@ -27695,6 +27703,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "KZIA",
+        "Name": "Kazia Therapeutics Ltd",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "L",
         "Name": "Loews Corporation",
         "Security Name": "Loews Corporation Common Stock",
@@ -30033,6 +30047,10 @@
         "Symbol": "MERC",
         "Name": "Mercer International Inc",
         "Country": "Canada"
+    },
+    {
+        "Symbol": "MESO",
+        "Name": "Mesoblast Ltd"
     },
     {
         "Symbol": "MET",
@@ -37767,6 +37785,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "PSNY",
+        "Name": "Polestar Automotive Holding Uk Plc"
+    },
+    {
         "Symbol": "PSO",
         "Name": "Pearson, Plc",
         "Security Name": "Pearson, Plc Common Stock",
@@ -41428,6 +41450,12 @@
         "Security Name": "Schwab International Dividend Equity ETF",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "SCHYY",
+        "Name": "Sands China ADR",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "SCHZ",

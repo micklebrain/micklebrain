@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LBTYA"]
+stocksToAdd = ["SCHYY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Liberty Global Ltd.")
+    addStock(stock, name="Sands China ADR")
