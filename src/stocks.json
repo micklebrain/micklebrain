@@ -21553,6 +21553,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "HELP",
+        "Name": "Cybin Inc"
+    },
+    {
         "Symbol": "HELX",
         "Name": "Franklin Genomic Advancements ETF",
         "Security Name": "Franklin Genomic Advancements ETF",
@@ -27852,6 +27856,10 @@
         "Name": "Liberty Energy Inc. Class A",
         "Security Name": "Liberty Energy Inc. Class A common stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "LBTYA",
+        "Name": "Liberty Global Ltd."
     },
     {
         "Symbol": "LBTYK",
