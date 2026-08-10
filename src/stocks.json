@@ -37287,6 +37287,10 @@
         "dividend": true
     },
     {
+        "Symbol": "PRE",
+        "Name": "Prenetics Global Ltd"
+    },
+    {
         "Symbol": "PREF",
         "Name": "Principal Spectrum Preferred Securities Active ETF",
         "Security Name": "Principal Spectrum Preferred Securities Active ETF",
