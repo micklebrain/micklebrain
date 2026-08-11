@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AAPG"]
+stocksToAdd = ["ATLKY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Ascentage Pharma Group Internatinl - ADR")
+    addStock(stock, name="Atlas Copco Group")

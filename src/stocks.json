@@ -1774,6 +1774,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AM",
+        "Name": "Antero Midstream Corp"
+    },
+    {
         "Symbol": "AMAT",
         "Name": "Applied Materials Inc",
         "Country": "USA",
@@ -2487,6 +2491,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "ARCC",
+        "Name": "Ares Capital Corporation"
+    },
+    {
         "Symbol": "ARCM",
         "Name": "Arrow Reserve Capital Management ETF",
         "Security Name": "Arrow Reserve Capital Management ETF",
@@ -3111,6 +3119,12 @@
         "Security Name": "Atkore Inc. Common Stock",
         "Country": "USA",
         "ownWebull": true
+    },
+    {
+        "Symbol": "ATLKY",
+        "Name": "Atlas Copco Group",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "ATLX",
@@ -4403,6 +4417,10 @@
         "Name": "Brunswick Corporation 6.375% Notes due 2049",
         "Security Name": "Brunswick Corporation 6.375% Notes due 2049",
         "Country": "USA"
+    },
+    {
+        "Symbol": "BCAL",
+        "Name": "California Bancorp"
     },
     {
         "Symbol": "BCAT",
@@ -22273,6 +22291,12 @@
         "dividend": true
     },
     {
+        "Symbol": "HSAI",
+        "Name": "Hesai Group",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "HSBC",
         "Name": "HSBC Holdings, plc.",
         "Security Name": "HSBC Holdings, plc. Common Stock",
@@ -30417,6 +30441,10 @@
         "Name": "Western Asset Municipal High Income Fund, Inc.",
         "Security Name": "Western Asset Municipal High Income Fund, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "MHGVY",
+        "Name": "Mowi ASA"
     },
     {
         "Symbol": "MHH",
@@ -43526,6 +43554,10 @@
         "Security Name": "Virgin Galactic Holdings, Inc. Common Stock",
         "Country": "USA",
         "ownWebull": true
+    },
+    {
+        "Symbol": "SPCK",
+        "Name": "SPAC and New Issue ETF"
     },
     {
         "Symbol": "SPCX",
