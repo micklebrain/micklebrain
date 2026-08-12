@@ -17760,7 +17760,8 @@
         "Symbol": "FN",
         "Name": "Fabrinet Ordinary Shares",
         "Security Name": "Fabrinet Ordinary Shares",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "FNB",
@@ -40262,7 +40263,8 @@
         "Symbol": "RS",
         "Name": "Reliance, Inc.",
         "Security Name": "Reliance, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "RSBA",
