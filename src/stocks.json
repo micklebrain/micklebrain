@@ -3662,7 +3662,7 @@
         "ownEtrade": true
     },
     {
-        "Symbol": "AXIA",
+        "Symbol": "AXIAY",
         "Name": "Axia Energia SA",
         "Country": "Brazil",
         "ownWebull": true
@@ -38817,17 +38817,23 @@
         "Country": "USA"
     },
     {
-        "Symbol": "QVCC",
-        "Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",
-        "Security Name": "QVC, Inc. 6.250% Senior Secured Notes due 2068",
-        "Country": "USA",
+        "Symbol": "QVCCQWB1",
+        "Name": "QVC Inc",        
         "ownWebull": true
     },
     {
-        "Symbol": "QVCD",
-        "Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067",
-        "Security Name": "QVC, Inc. 6.375% Senior Secured Notes due 2067",
-        "Country": "USA",
+        "Symbol": "QVCCQWB2",
+        "Name": "QVC Inc",
+        "ownWebull": true
+    },
+    {
+        "Symbol": "QVCDQWB1",
+        "Name": "QVC Inc",
+        "ownWebull": true
+    },
+    {
+        "Symbol": "QVCDQWB2",
+        "Name": "QVC Inc",
         "ownWebull": true
     },
     {
