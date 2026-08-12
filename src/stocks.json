@@ -3148,8 +3148,7 @@
         "Symbol": "ATNM",
         "Name": "Actinium Pharmaceuticals, Inc.",
         "Security Name": "Actinium Pharmaceuticals, Inc. (Delaware) Common Stock",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"
     },
     {
         "Symbol": "ATO",
@@ -8471,8 +8470,7 @@
         "Symbol": "CHGG",
         "Name": "Chegg, Inc.",
         "Security Name": "Chegg, Inc. Common Stock",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"
     },
     {
         "Symbol": "CHH",
@@ -23339,7 +23337,6 @@
         "Symbol": "ICMB",
         "Name": "Investcorp Credit Management Bdc Inc",
         "Country": "USA",
-        "ownWebull": true,
         "dividend": true
     },
     {
@@ -40849,7 +40846,6 @@
         "Name": "Sachem Capital Corp.",
         "Security Name": "Sachem Capital Corp. Common Shares",
         "Country": "USA",
-        "ownWebull": true,
         "dividend": true
     },
     {
@@ -52368,8 +52364,7 @@
     {
         "Symbol": "YTRA",
         "Name": "Yatra Online Inc",
-        "Country": "India",
-        "ownWebull": true
+        "Country": "India"
     },
     {
         "Symbol": "YUM",
