@@ -45535,7 +45535,8 @@
         "Symbol": "TDY",
         "Name": "Teledyne Technologies Incorporated",
         "Security Name": "Teledyne Technologies Incorporated Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "TE",
