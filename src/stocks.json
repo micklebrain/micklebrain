@@ -17761,7 +17761,7 @@
         "Name": "Fabrinet Ordinary Shares",
         "Security Name": "Fabrinet Ordinary Shares",
         "Country": "USA",
-        "ownWebull": true
+        "ownEtrade": true
     },
     {
         "Symbol": "FNB",
