@@ -24876,6 +24876,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "ISRG",
+        "Name": "Intuitive Surgical Inc",
+        "ownWebull": true
+    },
+    {
         "Symbol": "ISTR",
         "Name": "Investar Holding Corp",
         "Country": "USA",
