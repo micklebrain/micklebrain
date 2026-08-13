@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["QVCDQWB2"]
+stocksToAdd = ["NVMI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="QVC Inc")
+    addStock(stock, name="Nova Ltd")

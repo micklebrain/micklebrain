@@ -33944,6 +33944,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "NVMI",
+        "Name": "Nova Ltd",
+        "ownWebull": true
+    },
+    {
         "Symbol": "NVNI",
         "Name": "Nvni Group Ltd",
         "Country": "Cayman Islands",
@@ -38819,7 +38824,7 @@
     },
     {
         "Symbol": "QVCCQWB1",
-        "Name": "QVC Inc",        
+        "Name": "QVC Inc",
         "ownWebull": true
     },
     {
