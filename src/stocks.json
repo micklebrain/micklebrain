@@ -28405,7 +28405,9 @@
     {
         "Symbol": "LI",
         "Name": "Li Auto Inc",
-        "ownWebull": true
+        "ownWebull": true,
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "LIAE",
