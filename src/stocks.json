@@ -28403,6 +28403,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "LI",
+        "Name": "Li Auto Inc",
+        "ownWebull": true
+    },
+    {
         "Symbol": "LIAE",
         "Name": "LifeX 2050 Inflation",
         "Security Name": "LifeX 2050 Inflation-Protected Longevity Income ETF",
