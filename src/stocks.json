@@ -31089,7 +31089,8 @@
         "Symbol": "MOG.A",
         "Name": "Moog Inc. Class A",
         "Security Name": "Moog Inc. Class A Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "MOG.B",
