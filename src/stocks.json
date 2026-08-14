@@ -19601,12 +19601,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "GHLD",
-        "Name": "Guild Holdings Company Class A",
-        "Security Name": "Guild Holdings Company Class A Common Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "GHM",
         "Name": "Graham Corporation",
         "Security Name": "Graham Corporation Common Stock",
@@ -23015,7 +23009,7 @@
     {
         "Symbol": "IBG",
         "Name": "Innovation Beverage Group Ltd",
-        "Country": "Australia"        
+        "Country": "Australia"
     },
     {
         "Symbol": "IBHE",
@@ -24622,6 +24616,11 @@
         "Security Name": "Renaissance Capital Greenwich Fund",
         "ETF": "Y",
         "Country": "USA"
+    },
+    {
+        "Symbol": "IPXHY",
+        "Name": "Inpex Corporation",
+        "Country": "Japan"
     },
     {
         "Symbol": "IQDF",
