@@ -13182,7 +13182,8 @@
         "Symbol": "DY",
         "Name": "Dycom Industries, Inc.",
         "Security Name": "Dycom Industries, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "DYLD",
