@@ -45702,7 +45702,8 @@
         "Symbol": "TER",
         "Name": "Teradyne Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "TESL",
