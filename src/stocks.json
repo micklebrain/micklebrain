@@ -4739,7 +4739,7 @@
     },
     {
         "Symbol": "BEN",
-        "Name": "Franklin Resources, Inc.",
+        "Name": "Franklin Templeton",
         "Security Name": "Franklin Resources, Inc. Common Stock",
         "Country": "USA",
         "ownWebull": true,
@@ -14914,9 +14914,9 @@
         "dividend": true
     },
     {
-        "Symbol": "EQR",
-        "Name": "Equity Residential",
-        "Security Name": "Equity Residential Common Shares of Beneficial Interest",
+        "Symbol": "VMRK",
+        "Name": "Vivmark Residential",
+        "Security Name": "Vivmark Residential Common Shares of Beneficial Interest",
         "Country": "USA",
         "ownWebull": true,
         "dividend": true
