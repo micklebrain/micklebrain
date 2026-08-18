@@ -15604,8 +15604,7 @@
         "Symbol": "EVTL",
         "Name": "Vertical Aerospace Ltd.",
         "Security Name": "Vertical Aerospace Ltd. Ordinary Shares",
-        "Country": "United Kingdom",
-        "ownWebull": true
+        "Country": "United Kingdom"        
     },
     {
         "Symbol": "EVTR",
@@ -31097,7 +31096,8 @@
         "Symbol": "MOG.B",
         "Name": "Moog Inc. Class B",
         "Security Name": "Moog Inc. Class B Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "MOGU",
