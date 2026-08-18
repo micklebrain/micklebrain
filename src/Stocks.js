@@ -150,8 +150,8 @@ function Stocks() {
 
     if (selectedCountry && item.Country !== selectedCountry) return false;
     if (showDividendOnly && !item.dividend) return false;
-    if (showETFOnly && item.ETF !== "Y") return false;
-    if (showNonETFOnly && item.ETF === "Y") return false;
+    if (showETFOnly && item.Fund !== "Y") return false;
+    if (showNonETFOnly && item.Fund === "Y") return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
@@ -375,7 +375,7 @@ function Stocks() {
             setShowETFOnly((prev) => !prev);
           }}
         >
-          ETF
+          Fund
         </button>
         <button
           type="button"
@@ -385,7 +385,7 @@ function Stocks() {
             setShowNonETFOnly((prev) => !prev);
           }}
         >
-          Non-ETF
+          Non-Fund
         </button>
         <button
           type="button"
