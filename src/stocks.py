@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IPXHY"]
+stocksToAdd = ["AMGN"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Inpex Corporation")
+    addStock(stock, name="Amgen Inc")

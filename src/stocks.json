@@ -1881,6 +1881,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AMGN",
+        "Name": "Amgen Inc",
+        "ownWebull": true
+    },
+    {
         "Symbol": "AMH",
         "Name": "American Homes 4 Rent of Beneficial Interest",
         "Security Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
@@ -14912,14 +14917,6 @@
         "Symbol": "EQPT",
         "Name": "Equipmentshare.Com Inc",
         "Country": "USA",
-        "dividend": true
-    },
-    {
-        "Symbol": "VMRK",
-        "Name": "Vivmark Residential",
-        "Security Name": "Vivmark Residential Common Shares of Beneficial Interest",
-        "Country": "USA",
-        "ownWebull": true,
         "dividend": true
     },
     {
@@ -49410,6 +49407,14 @@
         "Name": "Invesco Municipal Opportunity Trust",
         "Security Name": "Invesco Municipal Opportunity Trust Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "VMRK",
+        "Name": "Vivmark Residential",
+        "Security Name": "Vivmark Residential Common Shares of Beneficial Interest",
+        "Country": "USA",
+        "ownWebull": true,
+        "dividend": true
     },
     {
         "Symbol": "VNAM",
