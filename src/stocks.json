@@ -1415,6 +1415,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AIP",
+        "Name": "Arteris Inc",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "AIR",
         "Name": "AAR Corp.",
         "Security Name": "AAR Corp. Common Stock",
