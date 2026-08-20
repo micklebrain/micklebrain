@@ -9726,7 +9726,8 @@
         "Symbol": "CPAY",
         "Name": "Corpay, Inc.",
         "Security Name": "Corpay, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "CPB",
