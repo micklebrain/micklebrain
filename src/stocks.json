@@ -50118,7 +50118,8 @@
         "Symbol": "WAT",
         "Name": "Waters Corporation",
         "Security Name": "Waters Corporation Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "WB",
