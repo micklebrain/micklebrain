@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AMGN"]
+stocksToAdd = ["RVI"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Amgen Inc")
+    addStock(stock, name="Robinhood Ventures Fund I")

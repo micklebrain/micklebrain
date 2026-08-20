@@ -40570,6 +40570,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "RVI",
+        "Name": "Robinhood Ventures Fund I",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "RVLV",
         "Name": "Revolve Group, Inc. Class A",
         "Security Name": "Revolve Group, Inc. Class A Common Stock",
