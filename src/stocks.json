@@ -897,7 +897,8 @@
         "Symbol": "AFB",
         "Name": "AllianceBernstein National Municipal Income Fund Inc",
         "Security Name": "AllianceBernstein National Municipal Income Fund Inc",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AFCG",
@@ -1027,7 +1028,8 @@
         "Symbol": "AGD",
         "Name": "abrdn Global Dynamic Dividend Fund of Beneficial Interest",
         "Security Name": "abrdn Global Dynamic Dividend Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AGG",
@@ -1088,36 +1090,6 @@
         "Security Name": "Federal Agricultural Mortgage Corporation Common Stock",
         "Country": "USA",
         "dividend": true
-    },
-    {
-        "Symbol": "AGM-D",
-        "Name": "Federal Agricultural Mortgage Corporation 5.700% Non",
-        "Security Name": "Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AGM-E",
-        "Name": "Federal Agricultural Mortgage Corporation 5.750% Non",
-        "Security Name": "Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AGM-F",
-        "Name": "Federal Agricultural Mortgage Corporation 5.250% Non",
-        "Security Name": "Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AGM-G",
-        "Name": "Federal Agricultural Mortgage Corporation 4.875% Non",
-        "Security Name": "Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AGM-H",
-        "Name": "Federal Agricultural Mortgage Corporation 6.500% Non",
-        "Security Name": "Federal Agricultural Mortgage Corporation 6.500% Non-Cumulative Preferred Stock, Series H",
-        "Country": "USA"
     },
     {
         "Symbol": "AGM.A",
@@ -1208,22 +1180,10 @@
     {
         "Symbol": "AGZ",
         "Name": "iShares  Agency Bond ETF",
-        "Security Name": "iShares  Agency Bond ETF",
-        "Fund": true,
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHH",
-        "Name": "Armada Hoffler Properties, Inc.",
-        "Security Name": "Armada Hoffler Properties, Inc. Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHH-A",
-        "Name": "Armada Hoffler Properties, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
-        "Security Name": "Armada Hoffler Properties, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
-        "Country": "USA"
-    },
+        "Security Name": "iShares  Agency Bond ETF",        
+        "Country": "USA",
+        "Fund": true
+    },    
     {
         "Symbol": "AHL",
         "Name": "Aspen Insurance Holdings Limited Class A Ordinary Shares",
@@ -1271,36 +1231,6 @@
         "Symbol": "AHT",
         "Name": "Ashford Hospitality Trust Inc",
         "Security Name": "Ashford Hospitality Trust Inc Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHT-D",
-        "Name": "Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock",
-        "Security Name": "Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHT-F",
-        "Name": "Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock",
-        "Security Name": "Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHT-G",
-        "Name": "Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock",
-        "Security Name": "Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHT-H",
-        "Name": "Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock",
-        "Security Name": "Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AHT-I",
-        "Name": "Ashford Hospitality Trust Inc 7.50% Series I Cumulative Preferred Stock",
-        "Security Name": "Ashford Hospitality Trust Inc 7.50% Series I Cumulative Preferred Stock",
         "Country": "USA"
     },
     {
@@ -42943,6 +42873,12 @@
         "Name": "Summit Midstream Corporation",
         "Security Name": "Summit Midstream Corporation Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "SMCAY",
+        "Name": "SMC Corp",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "SMCI",
