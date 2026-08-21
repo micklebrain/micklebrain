@@ -1132,8 +1132,8 @@
         "Symbol": "AGOX",
         "Name": "Adaptive Alpha Opportunities ETF",
         "Security Name": "Adaptive Alpha Opportunities ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AGQ",
@@ -1145,16 +1145,16 @@
     {
         "Symbol": "AGQI",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII First Trust Active Global Quality Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund VIII First Trust Active Global Quality Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AGRH",
         "Name": "iShares U.S. ETF Trust iShares Interest Rate Hedged U.S. Aggregate Bond ETF",
-        "Security Name": "iShares U.S. ETF Trust iShares Interest Rate Hedged U.S. Aggregate Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares U.S. ETF Trust iShares Interest Rate Hedged U.S. Aggregate Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AGRO",
@@ -1167,8 +1167,8 @@
         "Symbol": "AGRW",
         "Name": "Allspring Exchange",
         "Security Name": "Allspring Exchange-Traded Funds Trust Allspring LT Large Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AGX",
@@ -1236,9 +1236,9 @@
     {
         "Symbol": "AHYB",
         "Name": "American Century Select High Yield ETF",
-        "Security Name": "American Century Select High Yield ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "American Century Select High Yield ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AI",
@@ -1309,9 +1309,9 @@
     {
         "Symbol": "AIOO",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer100 Protection ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer100 Protection ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer100 Protection ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AIP",
@@ -1402,9 +1402,9 @@
     {
         "Symbol": "AJAN",
         "Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF",
-        "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 2 Yr to January 2026",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 2 Yr to January 2026",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AJG",
@@ -1607,9 +1607,9 @@
     {
         "Symbol": "ALRG",
         "Name": "Allspring Exchange",
-        "Security Name": "Allspring Exchange-Traded Funds Trust Allspring LT Large Core ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Allspring Exchange-Traded Funds Trust Allspring LT Large Core ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ALSN",
@@ -1691,9 +1691,9 @@
     {
         "Symbol": "AMAX",
         "Name": "Adaptive Hedged Multi",
-        "Security Name": "Adaptive Hedged Multi-Asset Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Adaptive Hedged Multi-Asset Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AMBC",
@@ -1959,9 +1959,9 @@
     {
         "Symbol": "AMZA",
         "Name": "InfraCap MLP ETF",
-        "Security Name": "InfraCap MLP ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "InfraCap MLP ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AMZE",
@@ -1978,23 +1978,23 @@
     {
         "Symbol": "AMZP",
         "Name": "Kurv Yield Premium Strategy Amazon (AMZN) ETF",
-        "Security Name": "Kurv Yield Premium Strategy Amazon (AMZN) ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Kurv Yield Premium Strategy Amazon (AMZN) ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AMZW",
         "Name": "Roundhill ETF Trust Roundhill AMZN WeeklyPay ETF",
         "Security Name": "Roundhill ETF Trust Roundhill AMZN WeeklyPay ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AMZY",
         "Name": "Tidal ETF Trust II YieldMax AMZN Option Income Strategy ETF",
         "Security Name": "Tidal ETF Trust II YieldMax AMZN Option Income Strategy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AN",
