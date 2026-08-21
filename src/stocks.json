@@ -13441,9 +13441,9 @@
     {
         "Symbol": "ECON",
         "Name": "Columbia Research Enhanced Emerging Economies ETF",
-        "Security Name": "Columbia Research Enhanced Emerging Economies ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Columbia Research Enhanced Emerging Economies ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ECVT",
@@ -26045,7 +26045,8 @@
         "Symbol": "JLL",
         "Name": "Jones Lang LaSalle Incorporated",
         "Security Name": "Jones Lang LaSalle Incorporated Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "JLQD",
@@ -40860,7 +40861,8 @@
         "Symbol": "SAM",
         "Name": "Boston Beer Company, Inc. (The)",
         "Security Name": "Boston Beer Company, Inc. (The) Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "SAMG",
@@ -40871,9 +40873,9 @@
     {
         "Symbol": "SAMM",
         "Name": "The Advisors' Inner Circle Fund III Strategas Macro Momentum ETF",
-        "Security Name": "The Advisors' Inner Circle Fund III Strategas Macro Momentum ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "The Advisors' Inner Circle Fund III Strategas Macro Momentum ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SAMT",
@@ -40907,9 +40909,9 @@
     {
         "Symbol": "SAPH",
         "Name": "Precidian ETFs Trust SAP SE ADRhedged",
-        "Security Name": "Precidian ETFs Trust SAP SE ADRhedged",
-        "Fund": true,
-        "Country": "Germany"
+        "Security Name": "Precidian ETFs Trust SAP SE ADRhedged",        
+        "Country": "Germany",
+        "Fund": true
     },
     {
         "Symbol": "SAR",
@@ -40939,29 +40941,29 @@
         "Symbol": "SATO",
         "Name": "Invesco Alerian Galaxy Crypto Economy ETF",
         "Security Name": "Invesco Alerian Galaxy Crypto Economy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SAUG",
         "Name": "FT Vest U.S. Small Cap Moderate Buffer ETF",
-        "Security Name": "FT Vest U.S. Small Cap Moderate Buffer ETF - August",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "FT Vest U.S. Small Cap Moderate Buffer ETF - August",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SAWG",
         "Name": "ETF Series Solutions AAM Sawgrass US Large Cap Quality Growth ETF",
-        "Security Name": "ETF Series Solutions AAM Sawgrass US Large Cap Quality Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ETF Series Solutions AAM Sawgrass US Large Cap Quality Growth ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SAWS",
         "Name": "ETF Series Solutions AAM Sawgrass US Small Cap Quality Growth ETF",
-        "Security Name": "ETF Series Solutions AAM Sawgrass US Small Cap Quality Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ETF Series Solutions AAM Sawgrass US Small Cap Quality Growth ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SAY",
@@ -41073,9 +41075,9 @@
     {
         "Symbol": "SBIT",
         "Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",
-        "Security Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SBLK",
@@ -41154,15 +41156,15 @@
         "Symbol": "SCAP",
         "Name": "Infrastructure Capital Small Cap Income ETF",
         "Security Name": "Infrastructure Capital Small Cap Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCC",
         "Name": "ProShares UltraShort Consumer Discretionary",
         "Security Name": "ProShares UltraShort Consumer Discretionary",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCCC",
@@ -41203,9 +41205,9 @@
     {
         "Symbol": "SCCR",
         "Name": "Schwab Strategic Trust Schwab Core Bond ETF",
-        "Security Name": "Schwab Strategic Trust Schwab Core Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Schwab Strategic Trust Schwab Core Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCD",
@@ -41266,30 +41268,30 @@
     {
         "Symbol": "SCEC",
         "Name": "Capitol Series Trust Sterling Capital Enhanced Core Bond ETF",
-        "Security Name": "Capitol Series Trust Sterling Capital Enhanced Core Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Capitol Series Trust Sterling Capital Enhanced Core Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCHA",
         "Name": "Schwab U.S. Small",
-        "Security Name": "Schwab U.S. Small-Cap ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Schwab U.S. Small-Cap ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCHB",
         "Name": "Schwab U.S. Broad Market ETF",
         "Security Name": "Schwab U.S. Broad Market ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCHC",
         "Name": "Schwab International Small",
         "Security Name": "Schwab International Small-Cap Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SCHD",
