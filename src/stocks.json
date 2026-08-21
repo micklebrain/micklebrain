@@ -7339,7 +7339,8 @@
         "Symbol": "CAR",
         "Name": "Avis Budget Group Inc",
         "dividend": false,
-        "ETF": false
+        "ETF": false,
+        "ownEtrade": true
     },
     {
         "Symbol": "CARD",
