@@ -1304,7 +1304,8 @@
         "Symbol": "AIO",
         "Name": "Virtus Artificial Intelligence & Technology Opportunities Fund of Beneficial Interest",
         "Security Name": "Virtus Artificial Intelligence & Technology Opportunities Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AIOO",
@@ -19099,48 +19100,51 @@
     {
         "Symbol": "GDIV",
         "Name": "Harbor ETF Trust Harbor Dividend Growth Leaders ETF",
-        "Security Name": "Harbor ETF Trust Harbor Dividend Growth Leaders ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Harbor ETF Trust Harbor Dividend Growth Leaders ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDL",
         "Name": "GDL Fund, The of Beneficial Interest",
         "Security Name": "GDL Fund, The Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDMA",
         "Name": "GadsdenA DynamicA Multi",
-        "Security Name": "GadsdenA DynamicA Multi-AssetA ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "GadsdenA DynamicA Multi-AssetA ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDMN",
         "Name": "WisdomTree Trust WisdomTree Efficient Gold Plus Gold Miners Strategy Fund",
-        "Security Name": "WisdomTree Trust WisdomTree Efficient Gold Plus Gold Miners Strategy Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "WisdomTree Trust WisdomTree Efficient Gold Plus Gold Miners Strategy Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDO",
         "Name": "Western Asset Global Corporate Opportunity Fund Inc.",
         "Security Name": "Western Asset Global Corporate Opportunity Fund Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDOC",
         "Name": "Goldman Sachs Future Health Care Equity ETF",
-        "Security Name": "Goldman Sachs Future Health Care Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Goldman Sachs Future Health Care Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDOT",
         "Name": "Green Dot Corporation Class A, $0.001 par value",
         "Security Name": "Green Dot Corporation Class A Common Stock, $0.001 par value",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "GDV",
@@ -19163,39 +19167,39 @@
     {
         "Symbol": "GDX",
         "Name": "VanEck Gold Miners ETF",
-        "Security Name": "VanEck Gold Miners ETF",
-        "Fund": true,
+        "Security Name": "VanEck Gold Miners ETF",        
         "Country": "USA",
+        "Fund": true,
         "ownWebull": true,
         "dividend": true
     },
     {
         "Symbol": "GDXD",
         "Name": "MicroSectors Gold Miners",
-        "Security Name": "MicroSectors Gold Miners -3X Inverse Leveraged ETNs",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "MicroSectors Gold Miners -3X Inverse Leveraged ETNs",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDXJ",
         "Name": "VanEck Junior Gold Miners ETF",
-        "Security Name": "VanEck Junior Gold Miners ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "VanEck Junior Gold Miners ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDXU",
         "Name": "MicroSectors Gold Miners 3X Leveraged ETN",
-        "Security Name": "MicroSectors Gold Miners 3X Leveraged ETN",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "MicroSectors Gold Miners 3X Leveraged ETN",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GDXY",
         "Name": "Tidal Trust II YieldMax Gold Miners Option Income Strategy ETF",
-        "Security Name": "Tidal Trust II YieldMax Gold Miners Option Income Strategy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust II YieldMax Gold Miners Option Income Strategy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GE",
@@ -19284,8 +19288,8 @@
         "Symbol": "GEND",
         "Name": "Spinnaker ETF Series Genter Capital Dividend Income ETF",
         "Security Name": "Spinnaker ETF Series Genter Capital Dividend Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GENI",
