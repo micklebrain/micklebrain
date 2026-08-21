@@ -13898,12 +13898,6 @@
         "ownWebull": true
     },
     {
-        "Symbol": "EHAB",
-        "Name": "Enhabit, Inc.",
-        "Security Name": "Enhabit, Inc. Common Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "EHC",
         "Name": "Encompass Health Corporation",
         "Security Name": "Encompass Health Corporation Common Stock",
@@ -13913,7 +13907,8 @@
         "Symbol": "EHI",
         "Name": "Western Asset Global High Income Fund Inc",
         "Security Name": "Western Asset Global High Income Fund Inc Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EHLD",
@@ -14123,8 +14118,7 @@
     {
         "Symbol": "ELOG",
         "Name": "Eastern International Ltd.",
-        "Country": "China",
-        "ownWebull": true
+        "Country": "China"
     },
     {
         "Symbol": "ELON",
