@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AIP"]
+stocksToAdd = ["ABR"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Arteris Inc")
+    addStock(stock, name="Arbor Realty Trust Inc")

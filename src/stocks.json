@@ -154,19 +154,8 @@
         "ownWebull": true
     },
     {
-        "Symbol": "AACT",
-        "Name": "Ares Acquisition Corporation II Class A Ordinary Shares",
-        "Security Name": "Ares Acquisition Corporation II Class A Ordinary Shares",
-        "Country": "USA"
-    },
-    {
         "Symbol": "AACT.U",
         "Name": "Ares Acquisition Corporation II Units, each consisting of one Class A ordinary share and one",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "AACT.W",
-        "Name": "Ares Acquisition Corporation II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50",
         "Country": "USA"
     },
     {
@@ -389,24 +378,6 @@
         "ownEtrade": true
     },
     {
-        "Symbol": "ABR-D",
-        "Name": "Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share",
-        "Security Name": "Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "ABR-E",
-        "Name": "Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock",
-        "Security Name": "Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "ABR-F",
-        "Name": "Arbor Realty Trust 6.25% Series F Fixed",
-        "Security Name": "Arbor Realty Trust 6.25% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per share",
-        "Country": "USA"
-    },
-    {
         "Symbol": "ABT",
         "Name": "Abbott Laboratories",
         "Security Name": "Abbott Laboratories Common Stock",
@@ -588,7 +559,8 @@
         "Symbol": "ACP",
         "Name": "abrdn Income Credit Strategies Fund",
         "Security Name": "abrdn Income Credit Strategies Fund Common Shares",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ACP-A",
@@ -645,7 +617,8 @@
         "Symbol": "ACV",
         "Name": "Virtus Diversified Income & Convertible Fund",
         "Security Name": "Virtus Diversified Income & Convertible Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ACVA",
@@ -706,12 +679,6 @@
         "Country": "USA",
         "ownWebull": true,
         "dividend": true
-    },
-    {
-        "Symbol": "ADC-A",
-        "Name": "Agree Realty Corporation Depositary Shares, each representing 1/1,000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",
-        "Security Name": "Agree Realty Corporation Depositary Shares, each representing 1/1,000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",
-        "Country": "USA"
     },
     {
         "Symbol": "ADCT",
@@ -820,7 +787,8 @@
         "Symbol": "ADX",
         "Name": "Adams Diversified Equity Fund Inc.",
         "Security Name": "Adams Diversified Equity Fund Inc.",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AEBI",
@@ -840,7 +808,8 @@
         "Symbol": "AEF",
         "Name": "abrdn Emerging Markets ex",
         "Security Name": "abrdn Emerging Markets ex-China Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AEFC",
