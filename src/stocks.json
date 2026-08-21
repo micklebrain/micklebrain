@@ -12493,7 +12493,8 @@
         "Symbol": "DNP",
         "Name": "DNP Select Income Fund, Inc.",
         "Security Name": "DNP Select Income Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DNP",
