@@ -1145,14 +1145,14 @@
     {
         "Symbol": "AGQI",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII First Trust Active Global Quality Income ETF",        
+        "Security Name": "First Trust Exchange-Traded Fund VIII First Trust Active Global Quality Income ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "AGRH",
         "Name": "iShares U.S. ETF Trust iShares Interest Rate Hedged U.S. Aggregate Bond ETF",
-        "Security Name": "iShares U.S. ETF Trust iShares Interest Rate Hedged U.S. Aggregate Bond ETF",        
+        "Security Name": "iShares U.S. ETF Trust iShares Interest Rate Hedged U.S. Aggregate Bond ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -1180,10 +1180,10 @@
     {
         "Symbol": "AGZ",
         "Name": "iShares  Agency Bond ETF",
-        "Security Name": "iShares  Agency Bond ETF",        
+        "Security Name": "iShares  Agency Bond ETF",
         "Country": "USA",
         "Fund": true
-    },    
+    },
     {
         "Symbol": "AHL",
         "Name": "Aspen Insurance Holdings Limited Class A Ordinary Shares",
@@ -1236,7 +1236,7 @@
     {
         "Symbol": "AHYB",
         "Name": "American Century Select High Yield ETF",
-        "Security Name": "American Century Select High Yield ETF",        
+        "Security Name": "American Century Select High Yield ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -1309,7 +1309,7 @@
     {
         "Symbol": "AIOO",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer100 Protection ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer100 Protection ETF",        
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer100 Protection ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -1402,7 +1402,7 @@
     {
         "Symbol": "AJAN",
         "Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF",
-        "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 2 Yr to January 2026",        
+        "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 2 Yr to January 2026",
         "Country": "USA",
         "Fund": true
     },
@@ -1607,7 +1607,7 @@
     {
         "Symbol": "ALRG",
         "Name": "Allspring Exchange",
-        "Security Name": "Allspring Exchange-Traded Funds Trust Allspring LT Large Core ETF",        
+        "Security Name": "Allspring Exchange-Traded Funds Trust Allspring LT Large Core ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -1691,7 +1691,7 @@
     {
         "Symbol": "AMAX",
         "Name": "Adaptive Hedged Multi",
-        "Security Name": "Adaptive Hedged Multi-Asset Income ETF",        
+        "Security Name": "Adaptive Hedged Multi-Asset Income ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -1959,7 +1959,7 @@
     {
         "Symbol": "AMZA",
         "Name": "InfraCap MLP ETF",
-        "Security Name": "InfraCap MLP ETF",        
+        "Security Name": "InfraCap MLP ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -1978,7 +1978,7 @@
     {
         "Symbol": "AMZP",
         "Name": "Kurv Yield Premium Strategy Amazon (AMZN) ETF",
-        "Security Name": "Kurv Yield Premium Strategy Amazon (AMZN) ETF",        
+        "Security Name": "Kurv Yield Premium Strategy Amazon (AMZN) ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -7333,6 +7333,12 @@
         "Name": "CrossAmerica Partners LP Common Units representing limited partner interests",
         "Security Name": "CrossAmerica Partners LP Common Units representing limited partner interests",
         "Country": "USA"
+    },
+    {
+        "Symbol": "CAR",
+        "Name": "Avis Budget Group Inc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "CARD",
@@ -39732,6 +39738,11 @@
         "Security Name": "First Trust Exchange-Traded Fund VIII FT Raymond James Multicap Growth Equity ETF",
         "Fund": true,
         "Country": "USA"
+    },
+    {
+        "Symbol": "RKLB",
+        "Name": "Rocket Lab Corporation",
+        "ownEtrade": true
     },
     {
         "Symbol": "RKT",
