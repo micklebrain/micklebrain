@@ -13443,7 +13443,7 @@
     {
         "Symbol": "ECON",
         "Name": "Columbia Research Enhanced Emerging Economies ETF",
-        "Security Name": "Columbia Research Enhanced Emerging Economies ETF",        
+        "Security Name": "Columbia Research Enhanced Emerging Economies ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -13921,7 +13921,8 @@
         "Symbol": "EIC",
         "Name": "Eagle Point Income Company Inc.",
         "Security Name": "Eagle Point Income Company Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EICA",
@@ -19095,7 +19096,7 @@
     {
         "Symbol": "GDIV",
         "Name": "Harbor ETF Trust Harbor Dividend Growth Leaders ETF",
-        "Security Name": "Harbor ETF Trust Harbor Dividend Growth Leaders ETF",        
+        "Security Name": "Harbor ETF Trust Harbor Dividend Growth Leaders ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -19109,14 +19110,14 @@
     {
         "Symbol": "GDMA",
         "Name": "GadsdenA DynamicA Multi",
-        "Security Name": "GadsdenA DynamicA Multi-AssetA ETF",        
+        "Security Name": "GadsdenA DynamicA Multi-AssetA ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "GDMN",
         "Name": "WisdomTree Trust WisdomTree Efficient Gold Plus Gold Miners Strategy Fund",
-        "Security Name": "WisdomTree Trust WisdomTree Efficient Gold Plus Gold Miners Strategy Fund",        
+        "Security Name": "WisdomTree Trust WisdomTree Efficient Gold Plus Gold Miners Strategy Fund",
         "Country": "USA",
         "Fund": true
     },
@@ -19130,7 +19131,7 @@
     {
         "Symbol": "GDOC",
         "Name": "Goldman Sachs Future Health Care Equity ETF",
-        "Security Name": "Goldman Sachs Future Health Care Equity ETF",        
+        "Security Name": "Goldman Sachs Future Health Care Equity ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -19162,7 +19163,7 @@
     {
         "Symbol": "GDX",
         "Name": "VanEck Gold Miners ETF",
-        "Security Name": "VanEck Gold Miners ETF",        
+        "Security Name": "VanEck Gold Miners ETF",
         "Country": "USA",
         "Fund": true,
         "ownWebull": true,
@@ -19171,28 +19172,28 @@
     {
         "Symbol": "GDXD",
         "Name": "MicroSectors Gold Miners",
-        "Security Name": "MicroSectors Gold Miners -3X Inverse Leveraged ETNs",        
+        "Security Name": "MicroSectors Gold Miners -3X Inverse Leveraged ETNs",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "GDXJ",
         "Name": "VanEck Junior Gold Miners ETF",
-        "Security Name": "VanEck Junior Gold Miners ETF",        
+        "Security Name": "VanEck Junior Gold Miners ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "GDXU",
         "Name": "MicroSectors Gold Miners 3X Leveraged ETN",
-        "Security Name": "MicroSectors Gold Miners 3X Leveraged ETN",        
+        "Security Name": "MicroSectors Gold Miners 3X Leveraged ETN",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "GDXY",
         "Name": "Tidal Trust II YieldMax Gold Miners Option Income Strategy ETF",
-        "Security Name": "Tidal Trust II YieldMax Gold Miners Option Income Strategy ETF",        
+        "Security Name": "Tidal Trust II YieldMax Gold Miners Option Income Strategy ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -33561,6 +33562,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "NTSK",
+        "Name": "Netskope Inc",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "NTST",
         "Name": "NetSTREIT Corp.",
         "Security Name": "NetSTREIT Corp. Common Stock",
@@ -40851,6 +40858,12 @@
         "dividend": true
     },
     {
+        "Symbol": "SAIL",
+        "Name": "Sailpoint Inc",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "SAJ",
         "Name": "Saratoga Investment Corp 8.00% Notes due 2027",
         "Security Name": "Saratoga Investment Corp 8.00% Notes due 2027",
@@ -40872,7 +40885,7 @@
     {
         "Symbol": "SAMM",
         "Name": "The Advisors' Inner Circle Fund III Strategas Macro Momentum ETF",
-        "Security Name": "The Advisors' Inner Circle Fund III Strategas Macro Momentum ETF",        
+        "Security Name": "The Advisors' Inner Circle Fund III Strategas Macro Momentum ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40908,7 +40921,7 @@
     {
         "Symbol": "SAPH",
         "Name": "Precidian ETFs Trust SAP SE ADRhedged",
-        "Security Name": "Precidian ETFs Trust SAP SE ADRhedged",        
+        "Security Name": "Precidian ETFs Trust SAP SE ADRhedged",
         "Country": "Germany",
         "Fund": true
     },
@@ -40946,21 +40959,21 @@
     {
         "Symbol": "SAUG",
         "Name": "FT Vest U.S. Small Cap Moderate Buffer ETF",
-        "Security Name": "FT Vest U.S. Small Cap Moderate Buffer ETF - August",        
+        "Security Name": "FT Vest U.S. Small Cap Moderate Buffer ETF - August",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "SAWG",
         "Name": "ETF Series Solutions AAM Sawgrass US Large Cap Quality Growth ETF",
-        "Security Name": "ETF Series Solutions AAM Sawgrass US Large Cap Quality Growth ETF",        
+        "Security Name": "ETF Series Solutions AAM Sawgrass US Large Cap Quality Growth ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "SAWS",
         "Name": "ETF Series Solutions AAM Sawgrass US Small Cap Quality Growth ETF",
-        "Security Name": "ETF Series Solutions AAM Sawgrass US Small Cap Quality Growth ETF",        
+        "Security Name": "ETF Series Solutions AAM Sawgrass US Small Cap Quality Growth ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -41074,7 +41087,7 @@
     {
         "Symbol": "SBIT",
         "Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",
-        "Security Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",        
+        "Security Name": "ProShares Trust ProShares UltraShort Bitcoin ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -41204,7 +41217,7 @@
     {
         "Symbol": "SCCR",
         "Name": "Schwab Strategic Trust Schwab Core Bond ETF",
-        "Security Name": "Schwab Strategic Trust Schwab Core Bond ETF",        
+        "Security Name": "Schwab Strategic Trust Schwab Core Bond ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -41267,14 +41280,14 @@
     {
         "Symbol": "SCEC",
         "Name": "Capitol Series Trust Sterling Capital Enhanced Core Bond ETF",
-        "Security Name": "Capitol Series Trust Sterling Capital Enhanced Core Bond ETF",        
+        "Security Name": "Capitol Series Trust Sterling Capital Enhanced Core Bond ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "SCHA",
         "Name": "Schwab U.S. Small",
-        "Security Name": "Schwab U.S. Small-Cap ETF",        
+        "Security Name": "Schwab U.S. Small-Cap ETF",
         "Country": "USA",
         "Fund": true
     },
