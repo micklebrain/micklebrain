@@ -13537,16 +13537,16 @@
     {
         "Symbol": "EDOG",
         "Name": "ALPS Emerging Sector Dividend Dogs ETF",
-        "Security Name": "ALPS Emerging Sector Dividend Dogs ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ALPS Emerging Sector Dividend Dogs ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EDOW",
         "Name": "First Trust Dow 30 Equal Weight ETF",
-        "Security Name": "First Trust Dow 30 Equal Weight ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Dow 30 Equal Weight ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EDRY",
@@ -13567,16 +13567,16 @@
     {
         "Symbol": "EDV",
         "Name": "Vanguard Extended Duration Treasury ETF",
-        "Security Name": "Vanguard Extended Duration Treasury ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Vanguard Extended Duration Treasury ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EDZ",
         "Name": "Direxion Emerging Markets Bear 3X Shares",
         "Security Name": "Direxion Emerging Markets Bear 3X Shares",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EE",
@@ -13593,107 +13593,107 @@
     {
         "Symbol": "EELV",
         "Name": "Invesco S&P Emerging Markets Low Volatility ETF",
-        "Security Name": "Invesco S&P Emerging Markets Low Volatility ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P Emerging Markets Low Volatility ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EEM",
         "Name": "iShares MSCI Emerging Index Fund",
-        "Security Name": "iShares MSCI Emerging Index Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares MSCI Emerging Index Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EEMO",
         "Name": "Invesco S&P Emerging Markets Momentum ETF",
-        "Security Name": "Invesco S&P Emerging Markets Momentum ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P Emerging Markets Momentum ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EEMS",
         "Name": "iShares MSCI Emerging Markets Small Cap ETF",
-        "Security Name": "iShares MSCI Emerging Markets Small Cap ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares MSCI Emerging Markets Small Cap ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EEMV",
         "Name": "iShares MSCI Emerging Markets Min Vol Factor ETF",
-        "Security Name": "iShares MSCI Emerging Markets Min Vol Factor ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares MSCI Emerging Markets Min Vol Factor ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EEMX",
         "Name": "SPDR MSCI Emerging Markets Fuel Reserves Free ETF",
-        "Security Name": "SPDR MSCI Emerging Markets Fuel Reserves Free ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "SPDR MSCI Emerging Markets Fuel Reserves Free ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EES",
         "Name": "WisdomTree U.S. SmallCap Fund",
-        "Security Name": "WisdomTree U.S. SmallCap Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "WisdomTree U.S. SmallCap Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EET",
         "Name": "ProShares Ultra MSCI Emerging Markets",
-        "Security Name": "ProShares Ultra MSCI Emerging Markets",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Ultra MSCI Emerging Markets",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EETH",
         "Name": "ProShares Ether ETF",
-        "Security Name": "ProShares Ether ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Ether ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EEV",
         "Name": "ProShares UltraShort MSCI Emerging Markets",
-        "Security Name": "ProShares UltraShort MSCI Emerging Markets",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares UltraShort MSCI Emerging Markets",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFA",
         "Name": "iShares MSCI EAFE ETF",
-        "Security Name": "iShares MSCI EAFE ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares MSCI EAFE ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFAA",
         "Name": "Invesco Actively Managed Exchange",
         "Security Name": "Invesco Actively Managed Exchange-Traded Fund Trus Invesco MSCI EAFE Income Advantage ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFAD",
         "Name": "ProShares Trust ProShares MSCI EAFE Dividend Growers ETF",
-        "Security Name": "ProShares Trust ProShares MSCI EAFE Dividend Growers ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Trust ProShares MSCI EAFE Dividend Growers ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFAV",
         "Name": "iShares MSCI EAFE Min Vol Factor ETF",
         "Security Name": "iShares MSCI EAFE Min Vol Factor ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFAX",
         "Name": "SPDR MSCI EAFE Fossil Fuel Reserves Free ETF",
         "Security Name": "SPDR MSCI EAFE Fossil Fuel Reserves Free ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFC",
@@ -13728,44 +13728,44 @@
     {
         "Symbol": "EFFE",
         "Name": "Harbor ETF Trust Harbor Osmosis Emerging Markets Resource Efficient ETF",
-        "Security Name": "Harbor ETF Trust Harbor Osmosis Emerging Markets Resource Efficient ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Harbor ETF Trust Harbor Osmosis Emerging Markets Resource Efficient ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFFI",
         "Name": "Harbor ETF Trust Harbor Osmosis International Resource Efficient ETF",
         "Security Name": "Harbor ETF Trust Harbor Osmosis International Resource Efficient ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFG",
         "Name": "iShares MSCI EAFE Growth ETF",
-        "Security Name": "iShares MSCI EAFE Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares MSCI EAFE Growth ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFIV",
         "Name": "SPDR S&P 500 ESG ETF",
-        "Security Name": "SPDR S&P 500 ESG ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "SPDR S&P 500 ESG ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFNL",
         "Name": "iShares Inc iShares MSCI Finland ETF",
-        "Security Name": "iShares Inc iShares MSCI Finland ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares Inc iShares MSCI Finland ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFO",
         "Name": "ProShares Ultra MSCI EAFE",
-        "Security Name": "ProShares Ultra MSCI EAFE",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Ultra MSCI EAFE",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFR",
@@ -13794,16 +13794,16 @@
     {
         "Symbol": "EFU",
         "Name": "ProShares UltraShort MSCI EAFE",
-        "Security Name": "ProShares UltraShort MSCI EAFE",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares UltraShort MSCI EAFE",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFV",
         "Name": "iShares MSCI EAFE Value ETF",
-        "Security Name": "iShares MSCI EAFE Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares MSCI EAFE Value ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "EFX",
