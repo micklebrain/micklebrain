@@ -10957,13 +10957,7 @@
         "Name": "Dave Inc",
         "Country": "USA",
         "ownEtrade": true
-    },
-    {
-        "Symbol": "DAY",
-        "Name": "Dayforce, Inc.",
-        "Security Name": "Dayforce, Inc. Common Stock",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "DB",
         "Name": "Deutsche Bank AG",
@@ -10989,16 +10983,16 @@
     {
         "Symbol": "DBB",
         "Name": "Invesco DB Base Metals Fund",
-        "Security Name": "Invesco DB Base Metals Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco DB Base Metals Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBC",
         "Name": "Invesco DB Commodity Index Tracking Fund",
-        "Security Name": "Invesco DB Commodity Index Tracking Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco DB Commodity Index Tracking Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBD",
@@ -11009,37 +11003,37 @@
     {
         "Symbol": "DBE",
         "Name": "Invesco DB Energy Fund",
-        "Security Name": "Invesco DB Energy Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco DB Energy Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBEF",
         "Name": "Xtrackers MSCI EAFE Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI EAFE Hedged Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Xtrackers MSCI EAFE Hedged Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBEM",
         "Name": "Xtrackers MSCI Emerging Markets Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Emerging Markets Hedged Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Xtrackers MSCI Emerging Markets Hedged Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBEU",
         "Name": "Xtrackers MSCI Europe Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Europe Hedged Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Xtrackers MSCI Europe Hedged Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBEZ",
         "Name": "Xtrackers MSCI Eurozone Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Eurozone Hedged Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Xtrackers MSCI Eurozone Hedged Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBI",
@@ -11051,9 +11045,9 @@
     {
         "Symbol": "DBJP",
         "Name": "Xtrackers MSCI Japan Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Japan Hedged Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Xtrackers MSCI Japan Hedged Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBL",
@@ -11064,30 +11058,30 @@
     {
         "Symbol": "DBMF",
         "Name": "iMGP DBi Managed Futures Strategy ETF",
-        "Security Name": "iMGP DBi Managed Futures Strategy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iMGP DBi Managed Futures Strategy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBND",
         "Name": "DoubleLine Opportunistic Core Bond ETF",
-        "Security Name": "DoubleLine Opportunistic Core Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "DoubleLine Opportunistic Core Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBO",
         "Name": "Invesco DB Oil Fund",
         "Security Name": "Invesco DB Oil Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBP",
         "Name": "Invesco DB Precious Metals Fund",
-        "Security Name": "Invesco DB Precious Metals Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco DB Precious Metals Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DBRG",
@@ -11319,87 +11313,87 @@
     {
         "Symbol": "DECM",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Max Buffer ETF - December",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Max Buffer ETF - December",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DECP",
         "Name": "PGIM S&P 500 Buffer 12 ETF",
-        "Security Name": "PGIM S&P 500 Buffer 12 ETF - December",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "PGIM S&P 500 Buffer 12 ETF - December",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DECT",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DECU",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DECW",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DECZ",
         "Name": "TrueShares Structured Outcome (December) ETF",
         "Security Name": "TrueShares Structured Outcome (December) ETF",
-        "Exchange": "Z",
-        "Fund": true,
-        "Country": "USA"
+        "Exchange": "Z",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEED",
         "Name": "First Trust Securitized Plus ETF",
         "Security Name": "First Trust Securitized Plus ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEEF",
         "Name": "Xtrackers FTSE Developed ex US Multifactor ETF",
-        "Security Name": "Xtrackers FTSE Developed ex US Multifactor ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Xtrackers FTSE Developed ex US Multifactor ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEEP",
         "Name": "Acquirers Small and Micro Deep Value ETF",
-        "Security Name": "Acquirers Small and Micro Deep Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Acquirers Small and Micro Deep Value ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEFI",
         "Name": "Tidal Commodities Trust I Hashdex Bitcoin ETF",
-        "Security Name": "Tidal Commodities Trust I Hashdex Bitcoin ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Commodities Trust I Hashdex Bitcoin ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEFR",
         "Name": "ETF Series Solutions Aptus Deferred Income ETF",
         "Security Name": "ETF Series Solutions Aptus Deferred Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEHP",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets High Profitability ETF",
         "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets High Profitability ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEI",
@@ -11418,8 +11412,8 @@
         "Symbol": "DEM",
         "Name": "WisdomTree Emerging Markets High Dividend Fund",
         "Security Name": "WisdomTree Emerging Markets High Dividend Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEO",
@@ -11433,15 +11427,15 @@
         "Symbol": "DES",
         "Name": "WisdomTree U.S. SmallCap Dividend Fund",
         "Security Name": "WisdomTree U.S. SmallCap Dividend Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DESK",
         "Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",
-        "Security Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DETX",
@@ -11453,29 +11447,29 @@
         "Symbol": "DEUS",
         "Name": "Xtrackers Russell US Multifactor ETF",
         "Security Name": "Xtrackers Russell US Multifactor ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEW",
         "Name": "WisdomTree Global High Dividend Fund",
-        "Security Name": "WisdomTree Global High Dividend Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "WisdomTree Global High Dividend Fund", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DEXC",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets ex China Core Equity ETF",
         "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets ex China Core Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAC",
         "Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
-        "Fund": true,
+        "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",        
         "Country": "USA",
+        "Fund": true,
         "ownRobinhood": true,
         "dividend": true
     },
@@ -11483,113 +11477,113 @@
         "Symbol": "DFAE",
         "Name": "Dimensional Emerging Core Equity Market ETF",
         "Security Name": "Dimensional Emerging Core Equity Market ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAI",
         "Name": "Dimensional International Core Equity Market ETF",
-        "Security Name": "Dimensional International Core Equity Market ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional International Core Equity Market ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAR",
         "Name": "Dimensional ETF Trust Dimensional US Real Estate ETF",
         "Security Name": "Dimensional ETF Trust Dimensional US Real Estate ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAS",
         "Name": "Dimensional U.S. Small Cap ETF",
-        "Security Name": "Dimensional U.S. Small Cap ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional U.S. Small Cap ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAT",
         "Name": "Dimensional U.S. Targeted Value ETF",
-        "Security Name": "Dimensional U.S. Targeted Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional U.S. Targeted Value ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAU",
         "Name": "Dimensional US Core Equity Market ETF",
         "Security Name": "Dimensional US Core Equity Market ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAW",
         "Name": "Dimensional ETF Trust Dimensional World Equity ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional World Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional World Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFAX",
         "Name": "Dimensional World ex U.S. Core Equity 2 ETF",
         "Security Name": "Dimensional World ex U.S. Core Equity 2 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFCA",
         "Name": "Dimensional ETF Trust Dimensional California Municipal Bond ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional California Municipal Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional California Municipal Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFCF",
         "Name": "Dimensional ETF Trust Dimensional Core Fixed Income ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Core Fixed Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Core Fixed Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFE",
         "Name": "WisdomTree Europe SmallCap Dividend Fund",
-        "Security Name": "WisdomTree Europe SmallCap Dividend Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "WisdomTree Europe SmallCap Dividend Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFEB",
         "Name": "FT Vest U.S. Equity Deep Buffer ETF",
-        "Security Name": "FT Vest U.S. Equity Deep Buffer ETF - February",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "FT Vest U.S. Equity Deep Buffer ETF - February",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFEM",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets Core Equity 2 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Core Equity 2 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Core Equity 2 ETF",     
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFEN",
         "Name": "Direxion Daily Aerospace & Defense Bull 3X Shares",
         "Security Name": "Direxion Daily Aerospace & Defense Bull 3X Shares",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFEV",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets Value ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Value ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFGR",
         "Name": "Dimensional ETF Trust Dimensional Global Real Estate ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Global Real Estate ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Global Real Estate ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFH",
@@ -11600,16 +11594,16 @@
     {
         "Symbol": "DFIC",
         "Name": "Dimensional ETF Trust Dimensional International Core Equity 2 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional International Core Equity 2 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional International Core Equity 2 ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFII",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund FT Vest Bitcoin Strategy & Target Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund FT Vest Bitcoin Strategy & Target Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFIN",
@@ -11621,8 +11615,8 @@
         "Symbol": "DFIP",
         "Name": "Dimensional ETF Trust Dimensional Inflation",
         "Security Name": "Dimensional ETF Trust Dimensional Inflation-Protected Securities ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFIS",
@@ -11635,43 +11629,43 @@
         "Symbol": "DFIV",
         "Name": "Dimensional International Value ETF",
         "Security Name": "Dimensional International Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFJ",
         "Name": "WisdomTree Japan SmallCap Fund",
-        "Security Name": "WisdomTree Japan SmallCap Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "WisdomTree Japan SmallCap Fund", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFLV",
         "Name": "Dimensional ETF Trust Dimensional US Large Cap Value ETF",
         "Security Name": "Dimensional ETF Trust Dimensional US Large Cap Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFND",
         "Name": "Siren DIVCON Dividend Defender ETF",
         "Security Name": "Siren DIVCON Dividend Defender ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFNL",
         "Name": "Davis Fundamental ETF Trust Davis Select Financial ETF",
-        "Security Name": "Davis Fundamental ETF Trust Davis Select Financial ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Davis Fundamental ETF Trust Davis Select Financial ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFNM",
         "Name": "Dimensional ETF Trust Dimensional National Municipal Bond ETF",
         "Security Name": "Dimensional ETF Trust Dimensional National Municipal Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFP",
@@ -11682,72 +11676,72 @@
     {
         "Symbol": "DFSB",
         "Name": "Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFSD",
         "Name": "Dimensional ETF Trust Dimensional Short",
-        "Security Name": "Dimensional ETF Trust Dimensional Short-Duration Fixed Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Short-Duration Fixed Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFSE",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFSI",
         "Name": "Dimensional ETF Trust Dimensional International Sustainability Core 1 ETF",
         "Security Name": "Dimensional ETF Trust Dimensional International Sustainability Core 1 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFSU",
         "Name": "Dimensional ETF Trust Dimensional US Sustainability Core 1 ETF",
         "Security Name": "Dimensional ETF Trust Dimensional US Sustainability Core 1 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFSV",
         "Name": "Dimensional ETF Trust Dimensional US Small Cap Value ETF",
         "Security Name": "Dimensional ETF Trust Dimensional US Small Cap Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFUS",
         "Name": "Dimensional U.S. Equity Market ETF",
-        "Security Name": "Dimensional U.S. Equity Market ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional U.S. Equity Market ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFUV",
         "Name": "Dimensional ETF Trust Dimensional US Marketwide Value ETF",
         "Security Name": "Dimensional ETF Trust Dimensional US Marketwide Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFVE",
         "Name": "DoubleLine ETF Trust DoubleLine Fortune 500 Equal Weight ETF",
         "Security Name": "DoubleLine ETF Trust DoubleLine Fortune 500 Equal Weight ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DFVX",
         "Name": "Dimensional ETF Trust Dimensional US Large Cap Vector ETF",
         "Security Name": "Dimensional ETF Trust Dimensional US Large Cap Vector ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DG",
@@ -11765,9 +11759,9 @@
     {
         "Symbol": "DGIN",
         "Name": "VanEck ETF Trust VanEck Digital India ETF",
-        "Security Name": "VanEck ETF Trust VanEck Digital India ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "VanEck ETF Trust VanEck Digital India ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DGNX",
@@ -11784,25 +11778,25 @@
     {
         "Symbol": "DGRO",
         "Name": "iShares Core Dividend Growth ETF",
-        "Security Name": "iShares Core Dividend Growth ETF",
-        "Fund": true,
+        "Security Name": "iShares Core Dividend Growth ETF",        
         "Country": "USA",
         "ownRobinhood": true,
+        "Fund": true,
         "dividend": true
     },
     {
         "Symbol": "DGS",
         "Name": "WisdomTree Emerging Market SmallCap Fund",
         "Security Name": "WisdomTree Emerging Market SmallCap Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DGT",
         "Name": "SPDR Global Dow ETF (based on The Global Dow)",
         "Security Name": "SPDR Global Dow ETF (based on The Global Dow)",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DGX",
@@ -11827,9 +11821,9 @@
     {
         "Symbol": "DHDG",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Quarterly 2.5 to 15 Buffer ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Quarterly 2.5 to 15 Buffer ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DHER",
