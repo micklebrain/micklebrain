@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["NTSK"]
+stocksToAdd = ["BA-PRA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Netskope Inc")
+    addStock(stock, name="The Boeing Company Depositary Shares")
