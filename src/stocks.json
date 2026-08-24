@@ -1419,8 +1419,8 @@
         "Symbol": "AJUL",
         "Name": "SHL Telemedicine Ltd Innovator Equity Defined Protection ETF",
         "Security Name": "SHL Telemedicine Ltd Innovator Equity Defined Protection ETF - 2 Yr to July 2026",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AKA",
@@ -1432,8 +1432,8 @@
         "Symbol": "AKAF",
         "Name": "ETF Series Solutions The Frontier Economic Fund",
         "Security Name": "ETF Series Solutions The Frontier Economic Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AKO.A",
@@ -1458,6 +1458,12 @@
         "Name": "Aktis Oncology Inc",
         "Country": "USA",
         "dividend": true
+    },
+    {
+        "Symbol": "AKZOY",
+        "Name": "Akzo Nobel NV",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "AL",
@@ -3098,6 +3104,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "ATTO",
+        "Name": "Attovia Therapeutics Inc",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "ATUS",
         "Name": "Altice USA, Inc. Class A",
         "Security Name": "Altice USA, Inc. Class A Common Stock",
@@ -4092,7 +4104,7 @@
         "Security Name": "BondBloxx ETF Trust BondBloxx BBB Rated 1-5 Year Corporate Bond ETF",
         "Fund": true,
         "Country": "USA"
-    },    
+    },
     {
         "Symbol": "BBC",
         "Name": "Virtus LifeSci Biotech Clinical Trials ETF",
@@ -4468,7 +4480,7 @@
     {
         "Symbol": "BCUS",
         "Name": "Exchange Listed Funds Trust Bancreek U.S. Large Cap ETF",
-        "Security Name": "Exchange Listed Funds Trust Bancreek U.S. Large Cap ETF",        
+        "Security Name": "Exchange Listed Funds Trust Bancreek U.S. Large Cap ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -4495,7 +4507,7 @@
     {
         "Symbol": "BDBT",
         "Name": "Exchange Traded Concepts Trust Bluemonte Core Bond ETF",
-        "Security Name": "Exchange Traded Concepts Trust Bluemonte Core Bond ETF",        
+        "Security Name": "Exchange Traded Concepts Trust Bluemonte Core Bond ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -4509,8 +4521,8 @@
         "Symbol": "BDCX",
         "Name": "ETRACS Quarterly Pay 1.5x Leveraged MarketVector BDC Liquid Index ETN due June 10, 2050",
         "Security Name": "ETRACS Quarterly Pay 1.5x Leveraged MarketVector BDC Liquid Index ETN due June 10, 2050",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BDCZ",
@@ -4523,21 +4535,22 @@
         "Symbol": "BDEC",
         "Name": "Innovator U.S. Equity Buffer ETF",
         "Security Name": "Innovator U.S. Equity Buffer ETF - December",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BDIV",
         "Name": "ETF Series Solutions AAM Brentview Dividend Growth ETF",
         "Security Name": "ETF Series Solutions AAM Brentview Dividend Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BDJ",
         "Name": "Blackrock Enhanced Equity Dividend Trust",
         "Security Name": "Blackrock Enhanced Equity Dividend Trust",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BDL",
@@ -4678,12 +4691,6 @@
         "Name": "Brookfield Renewable Corporation Brookfield Renewable Corporation Class A Subordinate Voting Shares",
         "Security Name": "Brookfield Renewable Corporation Brookfield Renewable Corporation Class A Subordinate Voting Shares",
         "Country": "USA"
-    },
-    {
-        "Symbol": "BEPH",
-        "Name": "Brookfield BRP Holdings (Canada) Inc. 4.625% Perpetual Subordinated Notes",
-        "Security Name": "Brookfield BRP Holdings (Canada) Inc. 4.625% Perpetual Subordinated Notes",
-        "Country": "Canada"
     },
     {
         "Symbol": "BEPI",
@@ -5078,7 +5085,7 @@
     {
         "Symbol": "BIDD",
         "Name": "iShares International Dividend Active ETF",
-        "Security Name": "iShares International Dividend Active ETF",        
+        "Security Name": "iShares International Dividend Active ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -5663,6 +5670,10 @@
         "Security Name": "Bullish Ordinary Shares",
         "Country": "Cayman Islands",
         "ownWebull": true
+    },
+    {
+        "Symbol": "BLSM",
+        "Name": "BlossomHill Therapeutics, Inc."
     },
     {
         "Symbol": "BLST",
@@ -6373,6 +6384,12 @@
         "Name": "BRT Apartments Corp. (MD)",
         "Security Name": "BRT Apartments Corp. (MD) Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "BRVE",
+        "Name": "Braveheart Bio Inc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "BRW",
@@ -15975,6 +15992,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "FBDT",
+        "Name": "First Breach Ord Shs"
+    },
+    {
         "Symbol": "FBIN",
         "Name": "Fortune Brands Innovations, Inc.",
         "Security Name": "Fortune Brands Innovations, Inc. Common Stock",
@@ -17842,6 +17863,12 @@
         "Name": "Hang Feng Technology Innovation Co Ltd",
         "Country": "Hong Kong",
         "ownWebull": true
+    },
+    {
+        "Symbol": "FOIL",
+        "Name": "Londian Wason New Energy Tech Inc.",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "FOPC",
@@ -20135,6 +20162,10 @@
         "Name": "GAMCO Natural Resources, Gold & Income Tust  5.20% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)",
         "Security Name": "GAMCO Natural Resources, Gold & Income Tust  5.20% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)",
         "Country": "USA"
+    },
+    {
+        "Symbol": "GNTX",
+        "Name": "Gentex Corp"        
     },
     {
         "Symbol": "GNTY",
@@ -23976,6 +24007,10 @@
         "Security Name": "SHL Telemedicine Ltd Innovator International Developed Power Buffer ETF - May",
         "Fund": true,
         "Country": "USA"
+    },
+    {
+        "Symbol": "IMC",
+        "Name": "IMC Rare Earths Ltd"
     },
     {
         "Symbol": "IMCB",
@@ -29018,6 +29053,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "LTGO",
+        "Name": "Latigo Biotherapeutics, Inc.",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "LTH",
         "Name": "Life Time Group Holdings, Inc.",
         "Security Name": "Life Time Group Holdings, Inc. Common Stock",
@@ -29201,6 +29242,12 @@
         "Security Name": "Cambria ETF Trust Cambria Large Cap Shareholder Yield ETF",
         "Fund": true,
         "Country": "USA"
+    },
+    {
+        "Symbol": "LYNX",
+        "Name": "Lyntris Inc.",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "LYTS",
@@ -38555,6 +38602,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "QNBC",
+        "Name": "QNB Corp.",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "QNCX",
         "Name": "Quince",
         "Country": "USA",
@@ -39204,6 +39257,12 @@
         "Security Name": "iShares Trust iShares Global REIT ETF",
         "Fund": true,
         "Country": "USA"
+    },
+    {
+        "Symbol": "REF",
+        "Name": "Reformation Inc.",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "REFI",
@@ -40207,37 +40266,37 @@
     {
         "Symbol": "RSBA",
         "Name": "Tidal Trust II Return Stacked Bonds & Merger Arbitrage ETF",
-        "Security Name": "Tidal Trust II Return Stacked Bonds & Merger Arbitrage ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust II Return Stacked Bonds & Merger Arbitrage ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSBT",
         "Name": "Return Stacked Bonds & Managed Futures ETF",
-        "Security Name": "Return Stacked Bonds & Managed Futures ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Return Stacked Bonds & Managed Futures ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSBY",
         "Name": "Tidal Trust II Return Stacked Bonds & Futures Yield ETF",
         "Security Name": "Tidal Trust II Return Stacked Bonds & Futures Yield ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSDE",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF - December",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSEE",
         "Name": "Collaborative Investment Series Trust Rareview Systematic Equity ETF",
         "Security Name": "Collaborative Investment Series Trust Rareview Systematic Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSF",
@@ -40254,9 +40313,9 @@
     {
         "Symbol": "RSHO",
         "Name": "Tema ETF Trust Tema American Reshoring ETF",
-        "Security Name": "Tema ETF Trust Tema American Reshoring ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tema ETF Trust Tema American Reshoring ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSI",
@@ -40268,8 +40327,8 @@
         "Symbol": "RSJN",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF - June",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSKD",
@@ -40280,170 +40339,170 @@
     {
         "Symbol": "RSMC",
         "Name": "Tidal Trust III Rockefeller U.S. Small",
-        "Security Name": "Tidal Trust III Rockefeller U.S. Small-Mid Cap ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust III Rockefeller U.S. Small-Mid Cap ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSMR",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF - March",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF - March",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSMV",
         "Name": "Listed Funds Trust Relative Strength Managed Volatility Strategy ETF",
-        "Security Name": "Listed Funds Trust Relative Strength Managed Volatility Strategy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Listed Funds Trust Relative Strength Managed Volatility Strategy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSP",
         "Name": "Invesco S&P 500 Equal Weight ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPA",
         "Name": "Invesco Actively Managed Exchange",
-        "Security Name": "Invesco Actively Managed Exchange-Traded Fund Trus Invesco S&P 500 Equal Weight Income Advantage ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco Actively Managed Exchange-Traded Fund Trus Invesco S&P 500 Equal Weight Income Advantage ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPC",
         "Name": "Invesco S&P 500 Equal Weight Communication Services ETF",
         "Security Name": "Invesco S&P 500 Equal Weight Communication Services ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPD",
         "Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPE",
         "Name": "Invesco ESG S&P 500 Equal Weight ETF",
-        "Security Name": "Invesco ESG S&P 500 Equal Weight ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco ESG S&P 500 Equal Weight ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPF",
         "Name": "Invesco S&P 500 Equal Weight Financial ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Financial ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Financial ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPG",
         "Name": "Invesco S&P 500 Equal Weight Energy ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Energy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Energy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPH",
         "Name": "Invesco S&P 500 Equal Weight Health Care ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Health Care ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Health Care ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPM",
         "Name": "Invesco S&P 500 Equal Weight Materials ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Materials ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Materials ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPN",
         "Name": "Invesco S&P 500 Equal Weight Industrials Portfolio",
         "Security Name": "Invesco S&P 500 Equal Weight Industrials Portfolio",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPR",
         "Name": "Invesco S&P 500 Equal Weight Real Estate ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Real Estate ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Real Estate ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPS",
         "Name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPT",
         "Name": "Invesco S&P 500 Equal Weight Technology ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Technology ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Technology ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSPU",
         "Name": "Invesco S&P 500 Equal Weight Utilities ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Utilities ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Equal Weight Utilities ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSSB",
         "Name": "Tidal Trust II Return Stacked Global Stocks & Bonds ETF",
-        "Security Name": "Tidal Trust II Return Stacked Global Stocks & Bonds ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust II Return Stacked Global Stocks & Bonds ETF", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSSE",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF  September",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF  September",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSSL",
         "Name": "Global X Funds Global X Russell 2000 ETF",
-        "Security Name": "Global X Funds Global X Russell 2000 ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Global X Funds Global X Russell 2000 ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSST",
         "Name": "Tidal Trust II Return Stacked U.S. Stocks & Managed Futures ETF",
-        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Managed Futures ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Managed Futures ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSSX",
         "Name": "Tidal Trust II Return Stacked U.S. Stocks & Gold/Bitcoin ETF",
         "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Gold/Bitcoin ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RSSY",
         "Name": "Tidal Trust II Return Stacked U.S. Stocks & Futures Yield ETF",
-        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Futures Yield ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Futures Yield ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RTAI",
         "Name": "Rareview Tax Advantaged Income ETF",
-        "Security Name": "Rareview Tax Advantaged Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Rareview Tax Advantaged Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RTO",
@@ -40454,9 +40513,9 @@
     {
         "Symbol": "RTRE",
         "Name": "Collaborative Investment Series Trust Rareview Total Return Bond ETF",
-        "Security Name": "Collaborative Investment Series Trust Rareview Total Return Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Collaborative Investment Series Trust Rareview Total Return Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "RTX",
@@ -43233,6 +43292,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "SNSC",
+        "Name": "SunScout Holding Limited"
+    },
+    {
         "Symbol": "SNTH",
         "Name": "Tidal Trust III MRP SynthEquity ETF",
         "Security Name": "Tidal Trust III MRP SynthEquity ETF",
@@ -45344,6 +45407,12 @@
         "dividend": true
     },
     {
+        "Symbol": "TCGX",
+        "Name": "Tcgx Acquisition Corp",
+        "dividend": false,
+        "ETF": false
+    },
+    {
         "Symbol": "TCHP",
         "Name": "T. Rowe Price Blue Chip Growth ETF",
         "Security Name": "T. Rowe Price Blue Chip Growth ETF",
@@ -46629,6 +46698,12 @@
         "Name": "TOYO Co., Ltd",
         "Country": "Japan",
         "ownWebull": true
+    },
+    {
+        "Symbol": "TP",
+        "Name": "Ticketplus Ltd.",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "TPB",
@@ -49488,6 +49563,12 @@
         "Security Name": "Vanguard Mid-Cap Value ETF",
         "Fund": true,
         "Country": "USA"
+    },
+    {
+        "Symbol": "VOGX",
+        "Name": "Vogenx, Inc.",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "VOO",
