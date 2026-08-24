@@ -13343,13 +13343,15 @@
         "Symbol": "ECAT",
         "Name": "BlackRock ESG Capital Allocation Term Trust of Beneficial Interest",
         "Security Name": "BlackRock ESG Capital Allocation Term Trust Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ECC",
         "Name": "Eagle Point Credit Company Inc.",
         "Security Name": "Eagle Point Credit Company Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ECC-D",
