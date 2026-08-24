@@ -11861,15 +11861,15 @@
         "Symbol": "DHS",
         "Name": "WisdomTree U.S. High Dividend Fund",
         "Security Name": "WisdomTree U.S. High Dividend Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DHSB",
         "Name": "Strategy Shares Day Hagan Smart Buffer ETF",
-        "Security Name": "Strategy Shares Day Hagan Smart Buffer ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Strategy Shares Day Hagan Smart Buffer ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DHT",
@@ -11893,8 +11893,8 @@
         "Symbol": "DIA",
         "Name": "SPDR Dow Jones Industrial Average ETF",
         "Security Name": "SPDR Dow Jones Industrial Average ETF",
-        "Fund": true,
         "Country": "USA",
+        "Fund": true,
         "ownWebull": true,
         "dividend": true
     },
@@ -11902,8 +11902,8 @@
         "Symbol": "DIAL",
         "Name": "Columbia Diversified Fixed Income Allocation ETF",
         "Security Name": "Columbia Diversified Fixed Income Allocation ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIAX",
@@ -11921,29 +11921,29 @@
         "Symbol": "DIEM",
         "Name": "Franklin Emerging Market Core Dividend Tilt Index ETF",
         "Security Name": "Franklin Emerging Market Core Dividend Tilt Index ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIG",
         "Name": "ProShares Ultra Energy",
-        "Security Name": "ProShares Ultra Energy",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Ultra Energy", 
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIHP",
         "Name": "Dimensional ETF Trust Dimensional International High Profitability ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional International High Profitability ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Dimensional ETF Trust Dimensional International High Profitability ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIM",
         "Name": "WisdomTree International MidCap Dividend Fund",
-        "Security Name": "WisdomTree International MidCap Dividend Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "WisdomTree International MidCap Dividend Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIN",
@@ -11962,16 +11962,16 @@
     {
         "Symbol": "DINT",
         "Name": "Davis Fundamental ETF Trust Davis Select International ETF",
-        "Security Name": "Davis Fundamental ETF Trust Davis Select International ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Davis Fundamental ETF Trust Davis Select International ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIPS",
         "Name": "Tidal Trust II YieldMax Short NVDA Option Income Strategy ETF",
         "Security Name": "Tidal Trust II YieldMax Short NVDA Option Income Strategy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIS",
@@ -11984,16 +11984,16 @@
     {
         "Symbol": "DISO",
         "Name": "Tidal ETF Trust II YieldMax DIS Option Income Strategy ETF",
-        "Security Name": "Tidal ETF Trust II YieldMax DIS Option Income Strategy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal ETF Trust II YieldMax DIS Option Income Strategy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DISV",
         "Name": "Dimensional ETF Trust Dimensional International Small Cap Value ETF",
         "Security Name": "Dimensional ETF Trust Dimensional International Small Cap Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "DIT",
