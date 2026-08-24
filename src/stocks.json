@@ -4280,13 +4280,7 @@
         "Country": "Spain",
         "ownWebull": true,
         "dividend": true
-    },
-    {
-        "Symbol": "BBW",
-        "Name": "Build",
-        "Security Name": "Build-A-Bear Workshop, Inc. Common Stock",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "BBW",
         "Name": "Build-A-Bear Workshop, Inc",
@@ -5154,8 +5148,8 @@
         "Symbol": "BINC",
         "Name": "iShares Flexible Income Active ETF",
         "Security Name": "iShares Flexible Income Active ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BINI",
@@ -5165,22 +5159,23 @@
     {
         "Symbol": "BINT",
         "Name": "Exchange Traded Concepts Trust Bluemonte Global Equity ETF",
-        "Security Name": "Exchange Traded Concepts Trust Bluemonte Global Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Exchange Traded Concepts Trust Bluemonte Global Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BINV",
         "Name": "Brandes International ETF",
         "Security Name": "Brandes International ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BIO",
         "Name": "Bio",
         "Security Name": "Bio-Rad Laboratories, Inc. Class A Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "BIO.B",
@@ -40825,7 +40820,8 @@
         "Symbol": "S",
         "Name": "SentinelOne, Inc. Class A",
         "Security Name": "SentinelOne, Inc. Class A Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "SA",
