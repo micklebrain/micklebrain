@@ -10261,16 +10261,16 @@
     {
         "Symbol": "CSRE",
         "Name": "Cohen & Steers ETF Trust Cohen & Steers Real Estate Active ETF",
-        "Security Name": "Cohen & Steers ETF Trust Cohen & Steers Real Estate Active ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Cohen & Steers ETF Trust Cohen & Steers Real Estate Active ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "CSTK",
         "Name": "Invesco Comstock Contrarian Equity ETF",
         "Security Name": "Invesco Comstock Contrarian Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "CSTM",
