@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IFJPY"]
+stocksToAdd = ["DCBO"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Informa plc")
+    addStock(stock, name="Docebo Inc")

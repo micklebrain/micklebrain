@@ -10386,12 +10386,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "CTRA",
-        "Name": "Coterra Energy Inc.",
-        "Security Name": "Coterra Energy Inc. Common Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "CTRE",
         "Name": "Caretrust REIT Inc",
         "Security Name": "CareTrust REIT, Inc. Common Stock",
@@ -11130,6 +11124,12 @@
         "Security Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
         "Exchange": "A",
         "Country": "USA"
+    },
+    {
+        "Symbol": "DCBO",
+        "Name": "Docebo Inc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "DCI",
