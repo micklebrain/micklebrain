@@ -166,7 +166,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IMC"]
+stocksToAdd = ["IFJPY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="IMC Rare Earths Ltd")
+    addStock(stock, name="Informa plc")

@@ -4280,7 +4280,7 @@
         "Country": "Spain",
         "ownWebull": true,
         "dividend": true
-    },    
+    },
     {
         "Symbol": "BBW",
         "Name": "Build-A-Bear Workshop, Inc",
@@ -5159,7 +5159,7 @@
     {
         "Symbol": "BINT",
         "Name": "Exchange Traded Concepts Trust Bluemonte Global Equity ETF",
-        "Security Name": "Exchange Traded Concepts Trust Bluemonte Global Equity ETF",        
+        "Security Name": "Exchange Traded Concepts Trust Bluemonte Global Equity ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -8449,12 +8449,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "CHN",
-        "Name": "China Fund, Inc. (The)",
-        "Security Name": "China Fund, Inc. (The) Common Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "CHOW",
         "Name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
         "Security Name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
@@ -8471,8 +8465,8 @@
         "Symbol": "CHPY",
         "Name": "Tidal Trust II YieldMax Semiconductor Portfolio Option Income ETF",
         "Security Name": "Tidal Trust II YieldMax Semiconductor Portfolio Option Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "CHRD",
@@ -8556,7 +8550,8 @@
         "Symbol": "CIF",
         "Name": "MFS Intermediate High Income Fund",
         "Security Name": "MFS Intermediate High Income Fund Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "CIFR",
@@ -8588,13 +8583,15 @@
         "Symbol": "CII",
         "Name": "BlackRock Enhanced Large Cap Core Fund, Inc.",
         "Security Name": "BlackRock Enhanced Large Cap Core Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "CIK",
         "Name": "Credit Suisse Asset Management Income Fund, Inc.",
         "Security Name": "Credit Suisse Asset Management Income Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "CIM",
@@ -10256,7 +10253,7 @@
     {
         "Symbol": "CSRE",
         "Name": "Cohen & Steers ETF Trust Cohen & Steers Real Estate Active ETF",
-        "Security Name": "Cohen & Steers ETF Trust Cohen & Steers Real Estate Active ETF",        
+        "Security Name": "Cohen & Steers ETF Trust Cohen & Steers Real Estate Active ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -10952,7 +10949,7 @@
         "Name": "Dave Inc",
         "Country": "USA",
         "ownEtrade": true
-    },    
+    },
     {
         "Symbol": "DB",
         "Name": "Deutsche Bank AG",
@@ -10978,14 +10975,14 @@
     {
         "Symbol": "DBB",
         "Name": "Invesco DB Base Metals Fund",
-        "Security Name": "Invesco DB Base Metals Fund",        
+        "Security Name": "Invesco DB Base Metals Fund",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DBC",
         "Name": "Invesco DB Commodity Index Tracking Fund",
-        "Security Name": "Invesco DB Commodity Index Tracking Fund",        
+        "Security Name": "Invesco DB Commodity Index Tracking Fund",
         "Country": "USA",
         "Fund": true
     },
@@ -10998,35 +10995,35 @@
     {
         "Symbol": "DBE",
         "Name": "Invesco DB Energy Fund",
-        "Security Name": "Invesco DB Energy Fund",        
+        "Security Name": "Invesco DB Energy Fund",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DBEF",
         "Name": "Xtrackers MSCI EAFE Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI EAFE Hedged Equity ETF",        
+        "Security Name": "Xtrackers MSCI EAFE Hedged Equity ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DBEM",
         "Name": "Xtrackers MSCI Emerging Markets Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Emerging Markets Hedged Equity ETF",        
+        "Security Name": "Xtrackers MSCI Emerging Markets Hedged Equity ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DBEU",
         "Name": "Xtrackers MSCI Europe Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Europe Hedged Equity ETF",        
+        "Security Name": "Xtrackers MSCI Europe Hedged Equity ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DBEZ",
         "Name": "Xtrackers MSCI Eurozone Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Eurozone Hedged Equity ETF",        
+        "Security Name": "Xtrackers MSCI Eurozone Hedged Equity ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11040,7 +11037,7 @@
     {
         "Symbol": "DBJP",
         "Name": "Xtrackers MSCI Japan Hedged Equity ETF",
-        "Security Name": "Xtrackers MSCI Japan Hedged Equity ETF",        
+        "Security Name": "Xtrackers MSCI Japan Hedged Equity ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11053,14 +11050,14 @@
     {
         "Symbol": "DBMF",
         "Name": "iMGP DBi Managed Futures Strategy ETF",
-        "Security Name": "iMGP DBi Managed Futures Strategy ETF",        
+        "Security Name": "iMGP DBi Managed Futures Strategy ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DBND",
         "Name": "DoubleLine Opportunistic Core Bond ETF",
-        "Security Name": "DoubleLine Opportunistic Core Bond ETF",        
+        "Security Name": "DoubleLine Opportunistic Core Bond ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11074,7 +11071,7 @@
     {
         "Symbol": "DBP",
         "Name": "Invesco DB Precious Metals Fund",
-        "Security Name": "Invesco DB Precious Metals Fund",        
+        "Security Name": "Invesco DB Precious Metals Fund",
         "Country": "USA",
         "Fund": true
     },
@@ -11308,35 +11305,35 @@
     {
         "Symbol": "DECM",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Max Buffer ETF - December",        
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Max Buffer ETF - December",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DECP",
         "Name": "PGIM S&P 500 Buffer 12 ETF",
-        "Security Name": "PGIM S&P 500 Buffer 12 ETF - December",        
+        "Security Name": "PGIM S&P 500 Buffer 12 ETF - December",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DECT",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF",        
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DECU",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF",        
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DECW",
         "Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",
-        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",        
+        "Security Name": "AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11344,7 +11341,7 @@
         "Symbol": "DECZ",
         "Name": "TrueShares Structured Outcome (December) ETF",
         "Security Name": "TrueShares Structured Outcome (December) ETF",
-        "Exchange": "Z",        
+        "Exchange": "Z",
         "Country": "USA",
         "Fund": true
     },
@@ -11358,21 +11355,21 @@
     {
         "Symbol": "DEEF",
         "Name": "Xtrackers FTSE Developed ex US Multifactor ETF",
-        "Security Name": "Xtrackers FTSE Developed ex US Multifactor ETF",        
+        "Security Name": "Xtrackers FTSE Developed ex US Multifactor ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DEEP",
         "Name": "Acquirers Small and Micro Deep Value ETF",
-        "Security Name": "Acquirers Small and Micro Deep Value ETF",        
+        "Security Name": "Acquirers Small and Micro Deep Value ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DEFI",
         "Name": "Tidal Commodities Trust I Hashdex Bitcoin ETF",
-        "Security Name": "Tidal Commodities Trust I Hashdex Bitcoin ETF",        
+        "Security Name": "Tidal Commodities Trust I Hashdex Bitcoin ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11428,7 +11425,7 @@
     {
         "Symbol": "DESK",
         "Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",
-        "Security Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",        
+        "Security Name": "VanEck ETF Trust VanEck Office and Commercial REIT ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11448,7 +11445,7 @@
     {
         "Symbol": "DEW",
         "Name": "WisdomTree Global High Dividend Fund",
-        "Security Name": "WisdomTree Global High Dividend Fund", 
+        "Security Name": "WisdomTree Global High Dividend Fund",
         "Country": "USA",
         "Fund": true
     },
@@ -11462,7 +11459,7 @@
     {
         "Symbol": "DFAC",
         "Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional U.S. Core Equity 2 ETF",
         "Country": "USA",
         "Fund": true,
         "ownRobinhood": true,
@@ -11478,7 +11475,7 @@
     {
         "Symbol": "DFAI",
         "Name": "Dimensional International Core Equity Market ETF",
-        "Security Name": "Dimensional International Core Equity Market ETF",        
+        "Security Name": "Dimensional International Core Equity Market ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11492,14 +11489,14 @@
     {
         "Symbol": "DFAS",
         "Name": "Dimensional U.S. Small Cap ETF",
-        "Security Name": "Dimensional U.S. Small Cap ETF",        
+        "Security Name": "Dimensional U.S. Small Cap ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFAT",
         "Name": "Dimensional U.S. Targeted Value ETF",
-        "Security Name": "Dimensional U.S. Targeted Value ETF", 
+        "Security Name": "Dimensional U.S. Targeted Value ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11513,7 +11510,7 @@
     {
         "Symbol": "DFAW",
         "Name": "Dimensional ETF Trust Dimensional World Equity ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional World Equity ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional World Equity ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11527,35 +11524,35 @@
     {
         "Symbol": "DFCA",
         "Name": "Dimensional ETF Trust Dimensional California Municipal Bond ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional California Municipal Bond ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional California Municipal Bond ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFCF",
         "Name": "Dimensional ETF Trust Dimensional Core Fixed Income ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Core Fixed Income ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional Core Fixed Income ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFE",
         "Name": "WisdomTree Europe SmallCap Dividend Fund",
-        "Security Name": "WisdomTree Europe SmallCap Dividend Fund",        
+        "Security Name": "WisdomTree Europe SmallCap Dividend Fund",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFEB",
         "Name": "FT Vest U.S. Equity Deep Buffer ETF",
-        "Security Name": "FT Vest U.S. Equity Deep Buffer ETF - February",        
+        "Security Name": "FT Vest U.S. Equity Deep Buffer ETF - February",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFEM",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets Core Equity 2 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Core Equity 2 ETF",     
+        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Core Equity 2 ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11569,14 +11566,14 @@
     {
         "Symbol": "DFEV",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets Value ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Value ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Value ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFGR",
         "Name": "Dimensional ETF Trust Dimensional Global Real Estate ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Global Real Estate ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional Global Real Estate ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11589,14 +11586,14 @@
     {
         "Symbol": "DFIC",
         "Name": "Dimensional ETF Trust Dimensional International Core Equity 2 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional International Core Equity 2 ETF", 
+        "Security Name": "Dimensional ETF Trust Dimensional International Core Equity 2 ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFII",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund FT Vest Bitcoin Strategy & Target Income ETF",        
+        "Security Name": "First Trust Exchange-Traded Fund FT Vest Bitcoin Strategy & Target Income ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11630,7 +11627,7 @@
     {
         "Symbol": "DFJ",
         "Name": "WisdomTree Japan SmallCap Fund",
-        "Security Name": "WisdomTree Japan SmallCap Fund", 
+        "Security Name": "WisdomTree Japan SmallCap Fund",
         "Country": "USA",
         "Fund": true
     },
@@ -11651,7 +11648,7 @@
     {
         "Symbol": "DFNL",
         "Name": "Davis Fundamental ETF Trust Davis Select Financial ETF",
-        "Security Name": "Davis Fundamental ETF Trust Davis Select Financial ETF", 
+        "Security Name": "Davis Fundamental ETF Trust Davis Select Financial ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11671,21 +11668,21 @@
     {
         "Symbol": "DFSB",
         "Name": "Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFSD",
         "Name": "Dimensional ETF Trust Dimensional Short",
-        "Security Name": "Dimensional ETF Trust Dimensional Short-Duration Fixed Income ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional Short-Duration Fixed Income ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DFSE",
         "Name": "Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11713,7 +11710,7 @@
     {
         "Symbol": "DFUS",
         "Name": "Dimensional U.S. Equity Market ETF",
-        "Security Name": "Dimensional U.S. Equity Market ETF", 
+        "Security Name": "Dimensional U.S. Equity Market ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11754,7 +11751,7 @@
     {
         "Symbol": "DGIN",
         "Name": "VanEck ETF Trust VanEck Digital India ETF",
-        "Security Name": "VanEck ETF Trust VanEck Digital India ETF",        
+        "Security Name": "VanEck ETF Trust VanEck Digital India ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11773,7 +11770,7 @@
     {
         "Symbol": "DGRO",
         "Name": "iShares Core Dividend Growth ETF",
-        "Security Name": "iShares Core Dividend Growth ETF",        
+        "Security Name": "iShares Core Dividend Growth ETF",
         "Country": "USA",
         "ownRobinhood": true,
         "Fund": true,
@@ -11816,7 +11813,7 @@
     {
         "Symbol": "DHDG",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Quarterly 2.5 to 15 Buffer ETF",        
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Quarterly 2.5 to 15 Buffer ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11862,7 +11859,7 @@
     {
         "Symbol": "DHSB",
         "Name": "Strategy Shares Day Hagan Smart Buffer ETF",
-        "Security Name": "Strategy Shares Day Hagan Smart Buffer ETF",        
+        "Security Name": "Strategy Shares Day Hagan Smart Buffer ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11922,21 +11919,21 @@
     {
         "Symbol": "DIG",
         "Name": "ProShares Ultra Energy",
-        "Security Name": "ProShares Ultra Energy", 
+        "Security Name": "ProShares Ultra Energy",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DIHP",
         "Name": "Dimensional ETF Trust Dimensional International High Profitability ETF",
-        "Security Name": "Dimensional ETF Trust Dimensional International High Profitability ETF",        
+        "Security Name": "Dimensional ETF Trust Dimensional International High Profitability ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "DIM",
         "Name": "WisdomTree International MidCap Dividend Fund",
-        "Security Name": "WisdomTree International MidCap Dividend Fund",        
+        "Security Name": "WisdomTree International MidCap Dividend Fund",
         "Country": "USA",
         "Fund": true
     },
@@ -11957,7 +11954,7 @@
     {
         "Symbol": "DINT",
         "Name": "Davis Fundamental ETF Trust Davis Select International ETF",
-        "Security Name": "Davis Fundamental ETF Trust Davis Select International ETF",        
+        "Security Name": "Davis Fundamental ETF Trust Davis Select International ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -11979,7 +11976,7 @@
     {
         "Symbol": "DISO",
         "Name": "Tidal ETF Trust II YieldMax DIS Option Income Strategy ETF",
-        "Security Name": "Tidal ETF Trust II YieldMax DIS Option Income Strategy ETF",        
+        "Security Name": "Tidal ETF Trust II YieldMax DIS Option Income Strategy ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -20156,7 +20153,7 @@
     },
     {
         "Symbol": "GNTX",
-        "Name": "Gentex Corp"        
+        "Name": "Gentex Corp"
     },
     {
         "Symbol": "GNTY",
@@ -23581,6 +23578,12 @@
         "Country": "USA",
         "ownEtrade": true,
         "dividend": true
+    },
+    {
+        "Symbol": "IFJPY",
+        "Name": "Informa plc",
+        "dividend": false,
+        "ETF": false
     },
     {
         "Symbol": "IFN",
@@ -40257,14 +40260,14 @@
     {
         "Symbol": "RSBA",
         "Name": "Tidal Trust II Return Stacked Bonds & Merger Arbitrage ETF",
-        "Security Name": "Tidal Trust II Return Stacked Bonds & Merger Arbitrage ETF",        
+        "Security Name": "Tidal Trust II Return Stacked Bonds & Merger Arbitrage ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSBT",
         "Name": "Return Stacked Bonds & Managed Futures ETF",
-        "Security Name": "Return Stacked Bonds & Managed Futures ETF",        
+        "Security Name": "Return Stacked Bonds & Managed Futures ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40304,7 +40307,7 @@
     {
         "Symbol": "RSHO",
         "Name": "Tema ETF Trust Tema American Reshoring ETF",
-        "Security Name": "Tema ETF Trust Tema American Reshoring ETF",        
+        "Security Name": "Tema ETF Trust Tema American Reshoring ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40330,35 +40333,35 @@
     {
         "Symbol": "RSMC",
         "Name": "Tidal Trust III Rockefeller U.S. Small",
-        "Security Name": "Tidal Trust III Rockefeller U.S. Small-Mid Cap ETF",        
+        "Security Name": "Tidal Trust III Rockefeller U.S. Small-Mid Cap ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSMR",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF - March",        
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF - March",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSMV",
         "Name": "Listed Funds Trust Relative Strength Managed Volatility Strategy ETF",
-        "Security Name": "Listed Funds Trust Relative Strength Managed Volatility Strategy ETF",        
+        "Security Name": "Listed Funds Trust Relative Strength Managed Volatility Strategy ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSP",
         "Name": "Invesco S&P 500 Equal Weight ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPA",
         "Name": "Invesco Actively Managed Exchange",
-        "Security Name": "Invesco Actively Managed Exchange-Traded Fund Trus Invesco S&P 500 Equal Weight Income Advantage ETF",        
+        "Security Name": "Invesco Actively Managed Exchange-Traded Fund Trus Invesco S&P 500 Equal Weight Income Advantage ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40372,42 +40375,42 @@
     {
         "Symbol": "RSPD",
         "Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPE",
         "Name": "Invesco ESG S&P 500 Equal Weight ETF",
-        "Security Name": "Invesco ESG S&P 500 Equal Weight ETF",        
+        "Security Name": "Invesco ESG S&P 500 Equal Weight ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPF",
         "Name": "Invesco S&P 500 Equal Weight Financial ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Financial ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight Financial ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPG",
         "Name": "Invesco S&P 500 Equal Weight Energy ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Energy ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight Energy ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPH",
         "Name": "Invesco S&P 500 Equal Weight Health Care ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Health Care ETF", 
+        "Security Name": "Invesco S&P 500 Equal Weight Health Care ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPM",
         "Name": "Invesco S&P 500 Equal Weight Materials ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Materials ETF", 
+        "Security Name": "Invesco S&P 500 Equal Weight Materials ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40421,56 +40424,56 @@
     {
         "Symbol": "RSPR",
         "Name": "Invesco S&P 500 Equal Weight Real Estate ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Real Estate ETF", 
+        "Security Name": "Invesco S&P 500 Equal Weight Real Estate ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPS",
         "Name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPT",
         "Name": "Invesco S&P 500 Equal Weight Technology ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Technology ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight Technology ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSPU",
         "Name": "Invesco S&P 500 Equal Weight Utilities ETF",
-        "Security Name": "Invesco S&P 500 Equal Weight Utilities ETF",        
+        "Security Name": "Invesco S&P 500 Equal Weight Utilities ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSSB",
         "Name": "Tidal Trust II Return Stacked Global Stocks & Bonds ETF",
-        "Security Name": "Tidal Trust II Return Stacked Global Stocks & Bonds ETF", 
+        "Security Name": "Tidal Trust II Return Stacked Global Stocks & Bonds ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSSE",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF  September",        
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Equal Weight Buffer ETF  September",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSSL",
         "Name": "Global X Funds Global X Russell 2000 ETF",
-        "Security Name": "Global X Funds Global X Russell 2000 ETF",        
+        "Security Name": "Global X Funds Global X Russell 2000 ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RSST",
         "Name": "Tidal Trust II Return Stacked U.S. Stocks & Managed Futures ETF",
-        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Managed Futures ETF",        
+        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Managed Futures ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40484,14 +40487,14 @@
     {
         "Symbol": "RSSY",
         "Name": "Tidal Trust II Return Stacked U.S. Stocks & Futures Yield ETF",
-        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Futures Yield ETF",        
+        "Security Name": "Tidal Trust II Return Stacked U.S. Stocks & Futures Yield ETF",
         "Country": "USA",
         "Fund": true
     },
     {
         "Symbol": "RTAI",
         "Name": "Rareview Tax Advantaged Income ETF",
-        "Security Name": "Rareview Tax Advantaged Income ETF",        
+        "Security Name": "Rareview Tax Advantaged Income ETF",
         "Country": "USA",
         "Fund": true
     },
@@ -40504,7 +40507,7 @@
     {
         "Symbol": "RTRE",
         "Name": "Collaborative Investment Series Trust Rareview Total Return Bond ETF",
-        "Security Name": "Collaborative Investment Series Trust Rareview Total Return Bond ETF",        
+        "Security Name": "Collaborative Investment Series Trust Rareview Total Return Bond ETF",
         "Country": "USA",
         "Fund": true
     },
