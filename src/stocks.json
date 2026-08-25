@@ -32128,7 +32128,8 @@
         "Symbol": "MYRG",
         "Name": "MYR Group Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "MYY",
@@ -40901,7 +40902,8 @@
         "Symbol": "SAIA",
         "Name": "Saia Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "SAIC",
@@ -40911,9 +40913,7 @@
     },
     {
         "Symbol": "SAIL",
-        "Name": "Sailpoint Inc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Sailpoint Inc"        
     },
     {
         "Symbol": "SAJ",
