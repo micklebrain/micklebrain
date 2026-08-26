@@ -3946,7 +3946,8 @@
         "Symbol": "BAP",
         "Name": "Credicorp Ltd.",
         "Security Name": "Credicorp Ltd. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "BAPR",
