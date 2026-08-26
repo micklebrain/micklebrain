@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["RMS"]
+stocksToAdd = ["FFIV"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Hermès International S.C.A.")
+    addStock(stock, name="F5 Inc")

@@ -1661,7 +1661,7 @@
         "Name": "Antero Midstream Corporation",
         "Security Name": "Antero Midstream Corporation Common Stock",
         "Country": "USA"
-    },    
+    },
     {
         "Symbol": "AMAT",
         "Name": "Applied Materials Inc",
@@ -5316,7 +5316,7 @@
         "Security Name": "Innovator U.S. Equity Buffer ETF - June",
         "Country": "USA",
         "Fund": true
-    },    
+    },
     {
         "Symbol": "BKAG",
         "Name": "BNY Mellon Core Bond ETF",
@@ -13297,7 +13297,7 @@
         "Name": "Eagle Point Credit Company Inc. 6.50% Series C Term Preferred Stock due 2031",
         "Security Name": "Eagle Point Credit Company Inc. 6.50% Series C Term Preferred Stock due 2031",
         "Country": "USA"
-    },    
+    },
     {
         "Symbol": "ECCU",
         "Name": "Eagle Point Credit Company Inc. 7.75% Notes due 2030",
@@ -16582,6 +16582,11 @@
         "Fund": true
     },
     {
+        "Symbol": "FFIV",
+        "Name": "F5 Inc",
+        "ownWebull": true
+    },
+    {
         "Symbol": "FFLC",
         "Name": "Fidelity Fundamental Large Cap Core ETF",
         "Security Name": "Fidelity Fundamental Large Cap Core ETF",
@@ -16763,7 +16768,7 @@
         "Security Name": "Federated Hermes ETF Trust Federated Hermes Short Duration High Yield ETF",
         "Country": "USA",
         "Fund": true
-    },    
+    },
     {
         "Symbol": "FIAT",
         "Name": "Tidal Trust II YieldMax Short COIN Option Income Strategy ETF",
@@ -16824,7 +16829,7 @@
         "Name": "FIGS, Inc. Class A",
         "Security Name": "FIGS, Inc. Class A Common Stock",
         "Country": "USA"
-    },    
+    },
     {
         "Symbol": "FIIG",
         "Name": "First Trust Exchange",
@@ -28584,8 +28589,7 @@
     {
         "Symbol": "LNKS",
         "Name": "Linkers Industries Ltd",
-        "Country": "Malaysia",
-        "ownWebull": true
+        "Country": "Malaysia"        
     },
     {
         "Symbol": "LNN",
