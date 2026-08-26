@@ -45217,9 +45217,9 @@
     {
         "Symbol": "TAPR",
         "Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF",
-        "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 2 Yr to April 2027",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Innovator ETFs Trust Innovator Equity Defined Protection ETF - 2 Yr to April 2027",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TASK",
@@ -45230,23 +45230,23 @@
     {
         "Symbol": "TAXF",
         "Name": "American Century Diversified Municipal Bond ETF",
-        "Security Name": "American Century Diversified Municipal Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "American Century Diversified Municipal Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TAXM",
         "Name": "BondBloxx ETF Trust BondBloxx IR+M Tax",
-        "Security Name": "BondBloxx ETF Trust BondBloxx IR+M Tax-Aware ETF for Massachusetts Residents",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "BondBloxx ETF Trust BondBloxx IR+M Tax-Aware ETF for Massachusetts Residents",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TAXX",
         "Name": "BondBloxx ETF Trust BondBloxx IR+M Tax",
-        "Security Name": "BondBloxx ETF Trust BondBloxx IR+M Tax-Aware Short Duration ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "BondBloxx ETF Trust BondBloxx IR+M Tax-Aware Short Duration ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBB",
@@ -45264,30 +45264,30 @@
     {
         "Symbol": "TBF",
         "Name": "ProShares Short 20+ Year Treasury",
-        "Security Name": "ProShares Short 20+ Year Treasury",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Short 20+ Year Treasury",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBFC",
         "Name": "ETF Series Solutions The Brinsmere Fund  Conservative ETF",
-        "Security Name": "ETF Series Solutions The Brinsmere Fund  Conservative ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ETF Series Solutions The Brinsmere Fund  Conservative ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBFG",
         "Name": "ETF Series Solutions The Brinsmere Fund Growth ETF",
-        "Security Name": "ETF Series Solutions The Brinsmere Fund Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ETF Series Solutions The Brinsmere Fund Growth ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBG",
         "Name": "EA Series Trust TBG Dividend Focus ETF",
-        "Security Name": "EA Series Trust TBG Dividend Focus ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "EA Series Trust TBG Dividend Focus ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBI",
@@ -45299,23 +45299,23 @@
     {
         "Symbol": "TBJL",
         "Name": "Innovator 20  Year Treasury Bond 9 Buffer ETF",
-        "Security Name": "Innovator 20  Year Treasury Bond 9 Buffer ETF - July",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Innovator 20  Year Treasury Bond 9 Buffer ETF - July",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBLL",
         "Name": "Invesco Short Term Treasury ETF",
-        "Security Name": "Invesco Short Term Treasury ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco Short Term Treasury ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBLU",
         "Name": "Tortoise Capital Series Trust Tortoise Global Water Fund",
-        "Security Name": "Tortoise Capital Series Trust Tortoise Global Water Fund",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tortoise Capital Series Trust Tortoise Global Water Fund",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBN",
@@ -45326,9 +45326,9 @@
     {
         "Symbol": "TBT",
         "Name": "ProShares UltraShort Lehman 20  Year Treasury",
-        "Security Name": "ProShares UltraShort Lehman 20  Year Treasury",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares UltraShort Lehman 20  Year Treasury",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBUX",
@@ -45347,9 +45347,9 @@
     {
         "Symbol": "TCAF",
         "Name": "T. Rowe Price Exchange",
-        "Security Name": "T. Rowe Price Exchange-Traded Funds, Inc. T. Rowe Price Capital Appreciation Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "T. Rowe Price Exchange-Traded Funds, Inc. T. Rowe Price Capital Appreciation Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TCAI",
