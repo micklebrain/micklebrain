@@ -1661,11 +1661,7 @@
         "Name": "Antero Midstream Corporation",
         "Security Name": "Antero Midstream Corporation Common Stock",
         "Country": "USA"
-    },
-    {
-        "Symbol": "AM",
-        "Name": "Antero Midstream Corp"
-    },
+    },    
     {
         "Symbol": "AMAT",
         "Name": "Applied Materials Inc",
@@ -5320,19 +5316,7 @@
         "Security Name": "Innovator U.S. Equity Buffer ETF - June",
         "Country": "USA",
         "Fund": true
-    },
-    {
-        "Symbol": "BK",
-        "Name": "The Bank of New York Mellon Corporation",
-        "Security Name": "The Bank of New York Mellon Corporation Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "BK-K",
-        "Name": "The Bank Of New York Mellon Corporation  Depositary Shares, each representing a 1/4,000th interest in a share of Series K Noncumulative Perpetual Preferred Stock",
-        "Security Name": "The Bank Of New York Mellon Corporation  Depositary Shares, each representing a 1/4,000th interest in a share of Series K Noncumulative Perpetual Preferred Stock",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "BKAG",
         "Name": "BNY Mellon Core Bond ETF",
@@ -5450,12 +5434,6 @@
         "Fund": true
     },
     {
-        "Symbol": "BKN",
-        "Name": "BlackRock Investment Quality Municipal Trust Inc. (The)",
-        "Security Name": "BlackRock Investment Quality Municipal Trust Inc. (The)",
-        "Country": "USA"
-    },
-    {
         "Symbol": "BKNG",
         "Name": "Booking Holdings",
         "Country": "USA",
@@ -5484,7 +5462,8 @@
         "Symbol": "BKT",
         "Name": "BlackRock Income Trust Inc. (The)",
         "Security Name": "BlackRock Income Trust Inc. (The)",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "BKTI",
@@ -13318,13 +13297,7 @@
         "Name": "Eagle Point Credit Company Inc. 6.50% Series C Term Preferred Stock due 2031",
         "Security Name": "Eagle Point Credit Company Inc. 6.50% Series C Term Preferred Stock due 2031",
         "Country": "USA"
-    },
-    {
-        "Symbol": "ECCF",
-        "Name": "Eagle Point Credit Company Inc. 8.00% Series F Term Preferred Stock due 2029",
-        "Security Name": "Eagle Point Credit Company Inc. 8.00% Series F Term Preferred Stock due 2029",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "ECCU",
         "Name": "Eagle Point Credit Company Inc. 7.75% Notes due 2030",
@@ -16790,13 +16763,7 @@
         "Security Name": "Federated Hermes ETF Trust Federated Hermes Short Duration High Yield ETF",
         "Country": "USA",
         "Fund": true
-    },
-    {
-        "Symbol": "FI",
-        "Name": "Fiserv, Inc.",
-        "Security Name": "Fiserv, Inc. Common Stock",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "FIAT",
         "Name": "Tidal Trust II YieldMax Short COIN Option Income Strategy ETF",
@@ -16857,13 +16824,7 @@
         "Name": "FIGS, Inc. Class A",
         "Security Name": "FIGS, Inc. Class A Common Stock",
         "Country": "USA"
-    },
-    {
-        "Symbol": "FIHL",
-        "Name": "Fidelis Insurance Holdings Limited",
-        "Security Name": "Fidelis Insurance Holdings Limited Common Shares",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "FIIG",
         "Name": "First Trust Exchange",
@@ -16882,7 +16843,8 @@
         "Symbol": "FINS",
         "Name": "Angel Oak Financial Strategies Income Term Trust of Beneficial Interest",
         "Security Name": "Angel Oak Financial Strategies Income Term Trust Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "FINT",
@@ -17075,7 +17037,8 @@
         "Symbol": "FLC",
         "Name": "Flaherty & Crumrine Total Return Fund Inc",
         "Security Name": "Flaherty & Crumrine Total Return Fund Inc Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "FLCA",
