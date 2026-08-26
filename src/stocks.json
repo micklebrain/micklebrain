@@ -44336,23 +44336,23 @@
     {
         "Symbol": "SSFI",
         "Name": "Day Hagan Smart Sector Fixed Income ETF",
-        "Security Name": "Day Hagan Smart Sector Fixed Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Day Hagan Smart Sector Fixed Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SSG",
         "Name": "ProShares UltraShort Semiconductors",
-        "Security Name": "ProShares UltraShort Semiconductors",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares UltraShort Semiconductors",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SSK",
         "Name": "ETF Opportunities Trust REX",
-        "Security Name": "ETF Opportunities Trust REX-Osprey SOL + Staking ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ETF Opportunities Trust REX-Osprey SOL + Staking ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SSL",
@@ -44381,23 +44381,23 @@
     {
         "Symbol": "SSO",
         "Name": "ProShares Ultra S&P500",
-        "Security Name": "ProShares Ultra S&P500",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Ultra S&P500",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SSPX",
         "Name": "Janus Henderson U.S. Sustainable Equity ETF",
-        "Security Name": "Janus Henderson U.S. Sustainable Equity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Janus Henderson U.S. Sustainable Equity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SSPY",
         "Name": "Exchange Listed Funds Trust Stratified LargeCap Index ETF",
-        "Security Name": "Exchange Listed Funds Trust Stratified LargeCap Index ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Exchange Listed Funds Trust Stratified LargeCap Index ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SSRM",
@@ -44481,9 +44481,9 @@
     {
         "Symbol": "STBF",
         "Name": "Trust for Professional Managers Performance Trust Short Term Bond ETF",
-        "Security Name": "Trust for Professional Managers Performance Trust Short Term Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Trust for Professional Managers Performance Trust Short Term Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "STBFY",
@@ -44501,9 +44501,9 @@
     {
         "Symbol": "STCE",
         "Name": "Schwab Strategic Trust Schwab Crypto Thematic ETF",
-        "Security Name": "Schwab Strategic Trust Schwab Crypto Thematic ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Schwab Strategic Trust Schwab Crypto Thematic ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "STDN",
@@ -44933,9 +44933,9 @@
     {
         "Symbol": "SWAN",
         "Name": "Amplify ETF Trust Amplify BlackSwan Growth & Treasury Core ETF",
-        "Security Name": "Amplify ETF Trust Amplify BlackSwan Growth & Treasury Core ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Amplify ETF Trust Amplify BlackSwan Growth & Treasury Core ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SWBI",
@@ -44997,9 +44997,9 @@
     {
         "Symbol": "SXQG",
         "Name": "ETC 6 Meridian Quality Growth ETF",
-        "Security Name": "ETC 6 Meridian Quality Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ETC 6 Meridian Quality Growth ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SXT",
