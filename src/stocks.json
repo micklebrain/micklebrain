@@ -1645,9 +1645,9 @@
     {
         "Symbol": "ALTL",
         "Name": "Pacer Lunt Large Cap Alternator ETF",
-        "Security Name": "Pacer Lunt Large Cap Alternator ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Pacer Lunt Large Cap Alternator ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "ALV",
@@ -2090,16 +2090,16 @@
     {
         "Symbol": "AOK",
         "Name": "iShares Core 30/70 Conservative Allocation ETF",
-        "Security Name": "iShares Core 30/70 Conservative Allocation ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares Core 30/70 Conservative Allocation ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AOM",
         "Name": "iShares Core 40/60 Moderate Allocation ETF",
-        "Security Name": "iShares Core 40/60 Moderate Allocation ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares Core 40/60 Moderate Allocation ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AOMD",
@@ -2128,9 +2128,9 @@
     {
         "Symbol": "AOR",
         "Name": "iShares Core 60/40 Balanced Allocation ETF",
-        "Security Name": "iShares Core 60/40 Balanced Allocation ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "iShares Core 60/40 Balanced Allocation ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "AORT",
@@ -45334,15 +45334,15 @@
         "Symbol": "TBUX",
         "Name": "T. Rowe Price Ultra Short",
         "Security Name": "T. Rowe Price Ultra Short-Term Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TBX",
         "Name": "ProShares Short 7 10 Year Treasury",
-        "Security Name": "ProShares Short 7 10 Year Treasury",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares Short 7 10 Year Treasury",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TCAF",
@@ -45355,15 +45355,15 @@
         "Symbol": "TCAI",
         "Name": "Tortoise Capital Series Trust Tortoise AI Infrastructure ETF",
         "Security Name": "Tortoise Capital Series Trust Tortoise AI Infrastructure ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TCAL",
         "Name": "T. Rowe Price Exchange",
         "Security Name": "T. Rowe Price Exchange-Traded Funds, Inc. T. Rowe Price Capital Appreciation Premium Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TCBI",
@@ -45392,16 +45392,14 @@
     },
     {
         "Symbol": "TCGX",
-        "Name": "Tcgx Acquisition Corp",
-        "dividend": false,
-        "ETF": false
+        "Name": "Tcgx Acquisition Corp"        
     },
     {
         "Symbol": "TCHP",
         "Name": "T. Rowe Price Blue Chip Growth ETF",
         "Security Name": "T. Rowe Price Blue Chip Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TCI",
@@ -45418,9 +45416,9 @@
     {
         "Symbol": "TCPB",
         "Name": "Thrivent ETF Trust Thrivent Core Plus Bond ETF",
-        "Security Name": "Thrivent ETF Trust Thrivent Core Plus Bond ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Thrivent ETF Trust Thrivent Core Plus Bond ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TCPC",
@@ -45431,9 +45429,9 @@
     {
         "Symbol": "TCV",
         "Name": "EA Series Trust Towle Value ETF",
-        "Security Name": "EA Series Trust Towle Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "EA Series Trust Towle Value ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TD",
@@ -45460,9 +45458,9 @@
     {
         "Symbol": "TDEC",
         "Name": "First Trust Exchange",
-        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest Emerging Markets Buffer ETF - December",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "First Trust Exchange-Traded Fund VIII FT Vest Emerging Markets Buffer ETF - December",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "TDF",
