@@ -43955,50 +43955,50 @@
         "Symbol": "SPUC",
         "Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Upside Convexity ETF",
         "Security Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Upside Convexity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPUS",
         "Name": "SP Funds S&P 500 Sharia Industry Exclusions ETF",
-        "Security Name": "SP Funds S&P 500 Sharia Industry Exclusions ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "SP Funds S&P 500 Sharia Industry Exclusions ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPUT",
         "Name": "Innovator ETFs Trust Innovator Equity Premium Income",
-        "Security Name": "Innovator ETFs Trust Innovator Equity Premium Income - Daily PutWrite ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Innovator ETFs Trust Innovator Equity Premium Income - Daily PutWrite ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPUU",
         "Name": "Direxion Daily S&P 500 Bull 2X Shares",
-        "Security Name": "Direxion Daily S&P 500 Bull 2X Shares",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Direxion Daily S&P 500 Bull 2X Shares",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPVM",
         "Name": "Invesco S&P 500 Value with Momentum ETF",
-        "Security Name": "Invesco S&P 500 Value with Momentum ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Value with Momentum ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPVU",
         "Name": "Invesco S&P 500 Enhanced Value ETF",
-        "Security Name": "Invesco S&P 500 Enhanced Value ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Invesco S&P 500 Enhanced Value ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPWO",
         "Name": "SP Funds Trust SP Funds S&P World (ex",
-        "Security Name": "SP Funds Trust SP Funds S&P World (ex-US) ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "SP Funds Trust SP Funds S&P World (ex-US) ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXC",
@@ -44009,58 +44009,58 @@
     {
         "Symbol": "SPXE",
         "Name": "ProShares S&P 500 Ex",
-        "Security Name": "ProShares S&P 500 Ex-Energy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares S&P 500 Ex-Energy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXL",
         "Name": "Direxion Daily S&P 500 Bull 3X Shares",
-        "Security Name": "Direxion Daily S&P 500 Bull 3X Shares",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Direxion Daily S&P 500 Bull 3X Shares",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXM",
         "Name": "Tidal Trust III Azoria 500 Meritocracy ETF",
-        "Security Name": "Tidal Trust III Azoria 500 Meritocracy ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Tidal Trust III Azoria 500 Meritocracy ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXN",
         "Name": "ProShares S&P 500 Ex",
-        "Security Name": "ProShares S&P 500 Ex-Financials ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares S&P 500 Ex-Financials ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXS",
         "Name": "Direxion Daily S&P 500 Bear 3X",
-        "Security Name": "Direxion Daily S&P 500 Bear 3X",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Direxion Daily S&P 500 Bear 3X",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXT",
         "Name": "ProShares S&P 500 Ex",
-        "Security Name": "ProShares S&P 500 Ex-Technology ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares S&P 500 Ex-Technology ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXU",
         "Name": "ProShares UltraPro Short S&P500",
-        "Security Name": "ProShares UltraPro Short S&P500",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares UltraPro Short S&P500",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXV",
         "Name": "ProShares S&P 500 Ex",
-        "Security Name": "ProShares S&P 500 Ex-Health Care ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "ProShares S&P 500 Ex-Health Care ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPXX",
@@ -44071,9 +44071,9 @@
     {
         "Symbol": "SPY",
         "Name": "SPDR S&P 500",
-        "Security Name": "SPDR S&P 500",
-        "Fund": true,
+        "Security Name": "SPDR S&P 500",        
         "Country": "USA",
+        "Fund": true,
         "ownWebull": true,
         "dividend": true
     },
@@ -44081,36 +44081,36 @@
         "Symbol": "SPYA",
         "Name": "The RBB Fund Trust Twin Oak Endure ETF",
         "Security Name": "The RBB Fund Trust Twin Oak Endure ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPYC",
         "Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Convexity ETF",
-        "Security Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Convexity ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "Simplify Exchange Traded Funds Simplify US Equity PLUS Convexity ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPYD",
         "Name": "SPDR Series Trust SPDR Portfolio S&P 500 High Dividend ETF",
-        "Security Name": "SPDR Series Trust SPDR Portfolio S&P 500 High Dividend ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "SPDR Series Trust SPDR Portfolio S&P 500 High Dividend ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPYG",
         "Name": "SPDR Series Trust SPDR Portfolio S&P 500 Growth ETF",
-        "Security Name": "SPDR Series Trust SPDR Portfolio S&P 500 Growth ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "SPDR Series Trust SPDR Portfolio S&P 500 Growth ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPYH",
         "Name": "NEOS ETF Trust NEOS S&P 500 Hedged Equity Income ETF",
-        "Security Name": "NEOS ETF Trust NEOS S&P 500 Hedged Equity Income ETF",
-        "Fund": true,
-        "Country": "USA"
+        "Security Name": "NEOS ETF Trust NEOS S&P 500 Hedged Equity Income ETF",        
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "SPYI",
