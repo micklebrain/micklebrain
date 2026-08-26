@@ -64,8 +64,14 @@ def addStock(symbol, name=None, ownWebull=False, ownEtrade=False, ownRobinhood=F
                 item["ownInteractiveBrokers"] = True
             if name:
                 item["Name"] = name
-            item["dividend"] = dividend
-            item["ETF"] = ETF
+            if dividend:
+                item["dividend"] = True
+            else:
+                item.pop("dividend", None)
+            if ETF:
+                item["ETF"] = True
+            else:
+                item.pop("ETF", None)
             found = True
             print("stock updated")
             break

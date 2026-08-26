@@ -90,7 +90,6 @@
         "Name": "4ig Plc.",
         "Country": "Hungary",
         "dividend": true,
-        "Fund": false,
         "ownInteractiveBrokers": true
     },
     {
@@ -207,9 +206,7 @@
     },
     {
         "Symbol": "AAPG",
-        "Name": "Ascentage Pharma Group Internatinl - ADR",
-        "dividend": false,
-        "Fund": false
+        "Name": "Ascentage Pharma Group Internatinl - ADR"
     },
     {
         "Symbol": "AAPL",
@@ -396,14 +393,11 @@
         "Name": "Abivax SA",
         "Country": "France",
         "dividend": true,
-        "Fund": false,
         "ownEtrade": true
     },
     {
         "Symbol": "ABX",
-        "Name": "Abacus Global Management Inc",
-        "dividend": false,
-        "Fund": false
+        "Name": "Abacus Global Management Inc"
     },
     {
         "Symbol": "ABXB",
@@ -1223,9 +1217,7 @@
     },
     {
         "Symbol": "AHRT",
-        "Name": "AH Realty Trust, Inc",
-        "dividend": false,
-        "Fund": false
+        "Name": "AH Realty Trust, Inc"
     },
     {
         "Symbol": "AHT",
@@ -1316,9 +1308,7 @@
     },
     {
         "Symbol": "AIP",
-        "Name": "Arteris Inc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Arteris Inc"
     },
     {
         "Symbol": "AIR",
@@ -1461,9 +1451,7 @@
     },
     {
         "Symbol": "AKZOY",
-        "Name": "Akzo Nobel NV",
-        "dividend": false,
-        "ETF": false
+        "Name": "Akzo Nobel NV"
     },
     {
         "Symbol": "AL",
@@ -3028,9 +3016,7 @@
     },
     {
         "Symbol": "ATLKY",
-        "Name": "Atlas Copco Group",
-        "dividend": false,
-        "Fund": false
+        "Name": "Atlas Copco Group"
     },
     {
         "Symbol": "ATLX",
@@ -3094,9 +3080,7 @@
     },
     {
         "Symbol": "ATTO",
-        "Name": "Attovia Therapeutics Inc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Attovia Therapeutics Inc"
     },
     {
         "Symbol": "ATUS",
@@ -3960,16 +3944,7 @@
     {
         "Symbol": "BANR",
         "Name": "Banner Corp",
-        "dividend": true,
-        "Fund": false,
-        "ownWebull": false,
-        "ownEtrade": false,
-        "ownInteractiveBrokers": false,
-        "ownRobinhood": false,
-        "ownChase": false,
-        "ownSchwab": false,
-        "ownAlly": false,
-        "ownFidelity": false
+        "dividend": true
     },
     {
         "Symbol": "BAP",
@@ -4632,7 +4607,6 @@
         "Name": "Bel Fuse Inc",
         "Country": "USA",
         "dividend": true,
-        "Fund": false,
         "ownWebull": true
     },
     {
@@ -6371,9 +6345,7 @@
     },
     {
         "Symbol": "BRVE",
-        "Name": "Braveheart Bio Inc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Braveheart Bio Inc"
     },
     {
         "Symbol": "BRW",
@@ -7337,9 +7309,7 @@
     {
         "Symbol": "CAR",
         "Name": "Avis Budget Group Inc",
-        "dividend": false,
-        "ownEtrade": true,
-        "ETF": false
+        "ownEtrade": true
     },
     {
         "Symbol": "CARD",
@@ -11116,9 +11086,7 @@
     },
     {
         "Symbol": "DCBO",
-        "Name": "Docebo Inc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Docebo Inc"
     },
     {
         "Symbol": "DCI",
@@ -14164,9 +14132,7 @@
     },
     {
         "Symbol": "ELVA",
-        "Name": "Electrovaya Inc",
-        "dividend": false,
-        "Fund": false
+        "Name": "Electrovaya Inc"
     },
     {
         "Symbol": "EMA",
@@ -17843,9 +17809,7 @@
     },
     {
         "Symbol": "FOIL",
-        "Name": "Londian Wason New Energy Tech Inc.",
-        "dividend": false,
-        "ETF": false
+        "Name": "Londian Wason New Energy Tech Inc."
     },
     {
         "Symbol": "FOPC",
@@ -22202,9 +22166,7 @@
     },
     {
         "Symbol": "HSAI",
-        "Name": "Hesai Group",
-        "dividend": false,
-        "Fund": false
+        "Name": "Hesai Group"
     },
     {
         "Symbol": "HSBC",
@@ -22234,9 +22196,7 @@
     },
     {
         "Symbol": "HSLV",
-        "Name": "Highlander Silver Corp",
-        "dividend": false,
-        "Fund": false
+        "Name": "Highlander Silver Corp"
     },
     {
         "Symbol": "HSMV",
@@ -23570,9 +23530,7 @@
     },
     {
         "Symbol": "IFJPY",
-        "Name": "Informa plc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Informa plc"
     },
     {
         "Symbol": "IFN",
@@ -27663,9 +27621,7 @@
     },
     {
         "Symbol": "KZIA",
-        "Name": "Kazia Therapeutics Ltd",
-        "dividend": false,
-        "Fund": false
+        "Name": "Kazia Therapeutics Ltd"
     },
     {
         "Symbol": "L",
@@ -28331,8 +28287,6 @@
     {
         "Symbol": "LI",
         "Name": "Li Auto Inc",
-        "dividend": false,
-        "Fund": false,
         "ownWebull": true
     },
     {
@@ -29037,9 +28991,7 @@
     },
     {
         "Symbol": "LTGO",
-        "Name": "Latigo Biotherapeutics, Inc.",
-        "dividend": false,
-        "ETF": false
+        "Name": "Latigo Biotherapeutics, Inc."
     },
     {
         "Symbol": "LTH",
@@ -29228,9 +29180,7 @@
     },
     {
         "Symbol": "LYNX",
-        "Name": "Lyntris Inc.",
-        "dividend": false,
-        "ETF": false
+        "Name": "Lyntris Inc."
     },
     {
         "Symbol": "LYTS",
@@ -29369,9 +29319,7 @@
     },
     {
         "Symbol": "MAKO",
-        "Name": "Mako Mining Corp",
-        "dividend": false,
-        "Fund": false
+        "Name": "Mako Mining Corp"
     },
     {
         "Symbol": "MAKX",
@@ -31530,9 +31478,7 @@
     },
     {
         "Symbol": "MSLE",
-        "Name": "Satellos Bioscience Inc",
-        "dividend": false,
-        "Fund": false
+        "Name": "Satellos Bioscience Inc"
     },
     {
         "Symbol": "MSM",
@@ -33592,9 +33538,7 @@
     },
     {
         "Symbol": "NTSK",
-        "Name": "Netskope Inc",
-        "dividend": false,
-        "ETF": false
+        "Name": "Netskope Inc"
     },
     {
         "Symbol": "NTST",
@@ -38587,9 +38531,7 @@
     },
     {
         "Symbol": "QNBC",
-        "Name": "QNB Corp.",
-        "dividend": false,
-        "ETF": false
+        "Name": "QNB Corp."
     },
     {
         "Symbol": "QNCX",
@@ -39244,9 +39186,7 @@
     },
     {
         "Symbol": "REF",
-        "Name": "Reformation Inc.",
-        "dividend": false,
-        "ETF": false
+        "Name": "Reformation Inc."
     },
     {
         "Symbol": "REFI",
@@ -40543,9 +40483,7 @@
     },
     {
         "Symbol": "RVI",
-        "Name": "Robinhood Ventures Fund I",
-        "dividend": false,
-        "ETF": false
+        "Name": "Robinhood Ventures Fund I"
     },
     {
         "Symbol": "RVLV",
@@ -41495,9 +41433,7 @@
     },
     {
         "Symbol": "SCHYY",
-        "Name": "Sands China ADR",
-        "dividend": false,
-        "Fund": false
+        "Name": "Sands China ADR"
     },
     {
         "Symbol": "SCHZ",
@@ -42532,8 +42468,6 @@
         "Symbol": "SITM",
         "Name": "SiTime Corp",
         "Country": "USA",
-        "dividend": false,
-        "Fund": false,
         "ownEtrade": true
     },
     {
@@ -42948,9 +42882,7 @@
     },
     {
         "Symbol": "SMCAY",
-        "Name": "SMC Corp",
-        "dividend": false,
-        "ETF": false
+        "Name": "SMC Corp"
     },
     {
         "Symbol": "SMCI",
@@ -44439,9 +44371,7 @@
     },
     {
         "Symbol": "SSUMY",
-        "Name": "Sumitomo Corp",
-        "dividend": false,
-        "Fund": false
+        "Name": "Sumitomo Corp"
     },
     {
         "Symbol": "SSUS",
@@ -44515,8 +44445,6 @@
         "Symbol": "STDN",
         "Name": "Standard Nuclear Inc",
         "Country": "USA",
-        "dividend": false,
-        "Fund": false,
         "ownEtrade": true
     },
     {
@@ -46366,9 +46294,7 @@
     },
     {
         "Symbol": "TMC",
-        "Name": "TMC the metals company Inc",
-        "dividend": false,
-        "Fund": false
+        "Name": "TMC the metals company Inc"
     },
     {
         "Symbol": "TMDE",
@@ -46689,9 +46615,7 @@
     },
     {
         "Symbol": "TP",
-        "Name": "Ticketplus Ltd.",
-        "dividend": false,
-        "ETF": false
+        "Name": "Ticketplus Ltd."
     },
     {
         "Symbol": "TPB",
@@ -49554,9 +49478,7 @@
     },
     {
         "Symbol": "VOGX",
-        "Name": "Vogenx, Inc.",
-        "dividend": false,
-        "ETF": false
+        "Name": "Vogenx, Inc."
     },
     {
         "Symbol": "VOO",
