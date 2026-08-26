@@ -39941,6 +39941,12 @@
         "dividend": true
     },
     {
+        "Symbol": "RMS",
+        "Name": "Hermes International S.C.A.",
+        "Country": "France",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "RMT",
         "Name": "Royce Micro",
         "Security Name": "Royce Micro-Cap Trust, Inc. Common Stock",
