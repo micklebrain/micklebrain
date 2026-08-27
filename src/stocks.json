@@ -30887,7 +30887,7 @@
         "Name": "MainStreet Bancshares Inc",
         "Country": "USA",
         "dividend": true
-    },    
+    },
     {
         "Symbol": "MNSO",
         "Name": "MINISO Group Holding Limited American Depositary Shares, each representing four Ordinary Shares",
@@ -34588,6 +34588,12 @@
         "Name": "Old National Bancorp",
         "Country": "USA",
         "dividend": true
+    },
+    {
+        "Symbol": "ONC",
+        "Name": "BeOne Medicines AG",
+        "Country": "Switzerland",
+        "ownWebull": true
     },
     {
         "Symbol": "OND",
