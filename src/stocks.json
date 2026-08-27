@@ -702,6 +702,10 @@
         "dividend": true
     },
     {
+        "Symbol": "ADIG",
+        "Name": "ADI Global Distribution Inc."
+    },
+    {
         "Symbol": "ADIV",
         "Name": "SmartETFs Asia Pacific Dividend Builder ETF",
         "Security Name": "SmartETFs Asia Pacific Dividend Builder ETF",
@@ -30883,13 +30887,7 @@
         "Name": "MainStreet Bancshares Inc",
         "Country": "USA",
         "dividend": true
-    },
-    {
-        "Symbol": "MNSB",
-        "Name": "Martin Midstream Partners LP",
-        "Country": "USA",
-        "dividend": true
-    },
+    },    
     {
         "Symbol": "MNSO",
         "Name": "MINISO Group Holding Limited American Depositary Shares, each representing four Ordinary Shares",

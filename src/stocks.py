@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["FFIV"]
+stocksToAdd = ["ADIG"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="F5 Inc")
+    addStock(stock, name="ADI Global Distribution Inc.")
