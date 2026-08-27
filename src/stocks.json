@@ -49315,8 +49315,7 @@
         "Security Name": "Vivmark Residential Common Shares of Beneficial Interest",
         "Country": "USA",
         "dividend": true,
-        "ownWebull": true,
-        "ownEtrade": true
+        "ownWebull": true        
     },
     {
         "Symbol": "VNAM",
