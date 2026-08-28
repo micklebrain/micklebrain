@@ -8466,7 +8466,7 @@
         "Symbol": "CICB",
         "Name": "CION Investment Corporation 7.50% Notes due 2029",
         "Security Name": "CION Investment Corporation 7.50% Notes due 2029",
-        "Country": "USA"
+        "Country": "USA"        
     },
     {
         "Symbol": "CICHY",
@@ -21545,7 +21545,8 @@
         "Symbol": "HFRO",
         "Name": "Highland Opportunities and Income Fund of Beneficial Interest",
         "Security Name": "Highland Opportunities and Income Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "HFRO-A",
@@ -21596,7 +21597,8 @@
         "Symbol": "HGLB",
         "Name": "Highland Global Allocation Fund",
         "Security Name": "Highland Global Allocation Fund Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "HGRO",
@@ -21623,13 +21625,7 @@
         "Security Name": "Howard Hughes Holdings Inc. Common Stock",
         "Country": "USA",
         "ownWebull": true
-    },
-    {
-        "Symbol": "HI",
-        "Name": "Hillenbrand Inc",
-        "Security Name": "Hillenbrand Inc Common Stock",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "HIBL",
         "Name": "Direxion Daily S&P 500 High Beta Bull 3X Shares",
@@ -21706,7 +21702,8 @@
         "Symbol": "HIO",
         "Name": "Western Asset High Income Opportunity Fund, Inc.",
         "Security Name": "Western Asset High Income Opportunity Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "HIPO",
@@ -21741,7 +21738,8 @@
         "Symbol": "HIX",
         "Name": "Western Asset High Income Fund II Inc.",
         "Security Name": "Western Asset High Income Fund II Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "HIYS",
