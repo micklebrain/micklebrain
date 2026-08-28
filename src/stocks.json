@@ -16105,26 +16105,14 @@
         "Name": "Four Corners Property Trust, Inc.",
         "Security Name": "Four Corners Property Trust, Inc. Common Stock",
         "Country": "USA"
-    },
-    {
-        "Symbol": "FCRX",
-        "Name": "Crescent Capital BDC, Inc. 5.00% Notes due 2026",
-        "Security Name": "Crescent Capital BDC, Inc. 5.00% Notes due 2026",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "FCSH",
         "Name": "Federated Hermes ETF Trust Federated Hermes Short Duration Corporate ETF",
         "Security Name": "Federated Hermes ETF Trust Federated Hermes Short Duration Corporate ETF",
         "Country": "USA",
         "Fund": true
-    },
-    {
-        "Symbol": "FCT",
-        "Name": "First Trust Senior Floating Rate Income Fund II of Beneficial Interest",
-        "Security Name": "First Trust Senior Floating Rate Income Fund II Common Shares of Beneficial Interest",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "FCTR",
         "Name": "First Trust Lunt U.S. Factor Rotation ETF",
