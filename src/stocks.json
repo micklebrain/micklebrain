@@ -149,8 +149,7 @@
     {
         "Symbol": "AACG",
         "Name": "ATA Creativity Global",
-        "Country": "China",
-        "ownWebull": true
+        "Country": "China"
     },
     {
         "Symbol": "AACT.U",
@@ -6118,7 +6117,8 @@
         "Symbol": "BPRE",
         "Name": "Bluerock Private Real Estate Fund Closed-Ended Fund",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "Fund": true
     },
     {
         "Symbol": "BPRN",
@@ -8466,7 +8466,7 @@
         "Symbol": "CICB",
         "Name": "CION Investment Corporation 7.50% Notes due 2029",
         "Security Name": "CION Investment Corporation 7.50% Notes due 2029",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "CICHY",
@@ -16105,14 +16105,14 @@
         "Name": "Four Corners Property Trust, Inc.",
         "Security Name": "Four Corners Property Trust, Inc. Common Stock",
         "Country": "USA"
-    },    
+    },
     {
         "Symbol": "FCSH",
         "Name": "Federated Hermes ETF Trust Federated Hermes Short Duration Corporate ETF",
         "Security Name": "Federated Hermes ETF Trust Federated Hermes Short Duration Corporate ETF",
         "Country": "USA",
         "Fund": true
-    },    
+    },
     {
         "Symbol": "FCTR",
         "Name": "First Trust Lunt U.S. Factor Rotation ETF",
@@ -17234,7 +17234,7 @@
     {
         "Symbol": "FLNA",
         "Name": "Filana Therapeutics Inc",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "FLNC",
@@ -20762,18 +20762,6 @@
         "ownWebull": true
     },
     {
-        "Symbol": "GTLS",
-        "Name": "Chart Industries, Inc.",
-        "Security Name": "Chart Industries, Inc. Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "GTLS-B",
-        "Name": "Chart Industries, Inc. Depositary Shares, each Representing a 1/20th Interest in a Share of 6.75% Series B Mandatory Convertible Preferred Stock",
-        "Security Name": "Chart Industries, Inc. Depositary Shares, each Representing a 1/20th Interest in a Share of 6.75% Series B Mandatory Convertible Preferred Stock",
-        "Country": "USA"
-    },
-    {
         "Symbol": "GTN",
         "Name": "Gray Media, Inc.",
         "Security Name": "Gray Media, Inc. Common Stock",
@@ -20784,12 +20772,6 @@
         "Name": "Gray Media, Inc. Class A",
         "Security Name": "Gray Media, Inc. Class A Common Stock",
         "Country": "USA"
-    },
-    {
-        "Symbol": "GTNX",
-        "Name": "Gentex Corp",
-        "Country": "USA",
-        "dividend": true
     },
     {
         "Symbol": "GTO",
@@ -20828,7 +20810,8 @@
         "Symbol": "GUG",
         "Name": "Guggenheim Active Allocation Fund of Beneficial Interest",
         "Security Name": "Guggenheim Active Allocation Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GUMI",
@@ -20869,7 +20852,8 @@
         "Symbol": "GUT",
         "Name": "Gabelli Utility Trust (The)",
         "Security Name": "Gabelli Utility Trust (The) Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "GUT-C",
@@ -21613,7 +21597,7 @@
         "Security Name": "Howard Hughes Holdings Inc. Common Stock",
         "Country": "USA",
         "ownWebull": true
-    },    
+    },
     {
         "Symbol": "HIBL",
         "Name": "Direxion Daily S&P 500 High Beta Bull 3X Shares",
@@ -28377,6 +28361,11 @@
         "ownWebull": true
     },
     {
+        "Symbol": "LINC",
+        "Name": "Lincoln Educational Services Corp",
+        "ownWebull": true
+    },
+    {
         "Symbol": "LINE",
         "Name": "Lineage Inc",
         "Country": "USA",
@@ -31167,7 +31156,7 @@
     {
         "Symbol": "MRM",
         "Name": "Medirom Healthcare Technologies Inc",
-        "Country": "Japan"        
+        "Country": "Japan"
     },
     {
         "Symbol": "MRNA",
@@ -49295,7 +49284,7 @@
         "Security Name": "Vivmark Residential Common Shares of Beneficial Interest",
         "Country": "USA",
         "dividend": true,
-        "ownWebull": true        
+        "ownWebull": true
     },
     {
         "Symbol": "VNAM",
@@ -52571,7 +52560,7 @@
     {
         "Symbol": "ZTG",
         "Name": "Zenta Group Co Ltd",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "ZTO",
