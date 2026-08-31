@@ -31047,7 +31047,8 @@
         "Symbol": "MPC",
         "Name": "Marathon Petroleum Corporation",
         "Security Name": "Marathon Petroleum Corporation Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "MPLX",
