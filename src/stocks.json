@@ -47427,7 +47427,8 @@
         "Symbol": "TYL",
         "Name": "Tyler Technologies, Inc.",
         "Security Name": "Tyler Technologies, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "TYLD",
