@@ -34041,7 +34041,8 @@
         "Symbol": "NZF",
         "Name": "Nuveen Municipal Credit Income Fund",
         "Security Name": "Nuveen Municipal Credit Income Fund",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "O",
@@ -52570,8 +52571,7 @@
     {
         "Symbol": "ZTG",
         "Name": "Zenta Group Co Ltd",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"        
     },
     {
         "Symbol": "ZTO",
