@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["FRT"]
+stocksToAdd = ["WETO"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Lincoln Educational Services Corp")
+    addStock(stock, name="Wetour Robotics Ltd")

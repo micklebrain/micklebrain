@@ -21120,7 +21120,8 @@
     {
         "Symbol": "HAWK",
         "Name": "HawkEye 360 Inc",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "HAWX",
@@ -34170,7 +34171,7 @@
         "Security Name": "Professionally Managed Portfolios Otter Creek Focus Strategy ETF",
         "Country": "USA",
         "Fund": true
-    },    
+    },
     {
         "Symbol": "OCIO",
         "Name": "ClearShares OCIO ETF",
@@ -50256,6 +50257,11 @@
         "Name": "Western Midstream Partners, LP Common Units Representing Limited Partner Interests",
         "Security Name": "Western Midstream Partners, LP Common Units Representing Limited Partner Interests",
         "Country": "USA"
+    },
+    {
+        "Symbol": "WETO",
+        "Name": "Wetour Robotics Ltd",
+        "ownEtrade": true
     },
     {
         "Symbol": "WEX",
