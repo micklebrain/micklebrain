@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["LINC"]
+stocksToAdd = ["FRT"]
 
 for stock in stocksToAdd:
     addStock(stock, name="Lincoln Educational Services Corp")

@@ -18056,12 +18056,6 @@
         "Country": "USA"
     },
     {
-        "Symbol": "FRT",
-        "Name": "Federal Realty Investment Trust",
-        "Country": "USA",
-        "dividend": true
-    },
-    {
         "Symbol": "FRT-C",
         "Name": "Federal Realty Investment Trust Depositary Shares, each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share",
         "Security Name": "Federal Realty Investment Trust Depositary Shares, each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share",
@@ -18225,7 +18219,8 @@
         "Symbol": "FT",
         "Name": "Franklin Universal Trust",
         "Security Name": "Franklin Universal Trust Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "FTAI",
@@ -18272,7 +18267,8 @@
         "Symbol": "FTF",
         "Name": "Franklin Limited Duration Income Trust of Beneficial Interest",
         "Security Name": "Franklin Limited Duration Income Trust Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "FTHF",
@@ -18285,7 +18281,8 @@
         "Symbol": "FTHY",
         "Name": "First Trust High Yield Opportunities 2027 Term Fund",
         "Security Name": "First Trust High Yield Opportunities 2027 Term Fund Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Fund": true
     },
     {
         "Symbol": "FTI",
@@ -34173,13 +34170,7 @@
         "Security Name": "Professionally Managed Portfolios Otter Creek Focus Strategy ETF",
         "Country": "USA",
         "Fund": true
-    },
-    {
-        "Symbol": "OCFT",
-        "Name": "OneConnect Financial Technology Co., Ltd. American Depositary Shares, each representing thirty ordinary shares",
-        "Security Name": "OneConnect Financial Technology Co., Ltd. American Depositary Shares, each representing thirty ordinary shares",
-        "Country": "China"
-    },
+    },    
     {
         "Symbol": "OCIO",
         "Name": "ClearShares OCIO ETF",
