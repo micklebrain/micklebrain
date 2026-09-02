@@ -16676,7 +16676,8 @@
         "Symbol": "FGN",
         "Name": "F&G Annuities & Life, Inc. 7.950% Senior Notes due 2053",
         "Security Name": "F&G Annuities & Life, Inc. 7.950% Senior Notes due 2053",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "FGSM",
@@ -20135,6 +20136,11 @@
         "Country": "USA",
         "dividend": true,
         "ownWebull": true
+    },
+    {
+        "Symbol": "GOOGM",
+        "Name": "Alphabet Dep Shs Repstg 1 20Th Int Mandatory Conv Prf Shs Ser A",
+        "ownEtrade": true
     },
     {
         "Symbol": "GOOP",
@@ -37137,6 +37143,11 @@
         "Security Name": "Northern Lights Fund Trust III PlanRock Alternative Growth ETF",
         "Country": "USA",
         "Pooled": true
+    },
+    {
+        "Symbol": "PRAX",
+        "Name": "Praxis Precision Medicines Inc",
+        "ownEtrade": true
     },
     {
         "Symbol": "PRAY",

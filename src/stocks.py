@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["WETO"]
+stocksToAdd = ["PRAX"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Wetour Robotics Ltd")
+    addStock(stock, name="Praxis Precision Medicines Inc")
