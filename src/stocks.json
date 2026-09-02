@@ -3775,6 +3775,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "BAC-PRE",
+        "Name": "Bank of America Corp. Dep. Pfd.",
+        "ownWebull": true
+    },
+    {
         "Symbol": "BAC-Q",
         "Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.250% Non",
         "Security Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.250% Non-Cumulative Preferred Stock, Series QQ",
