@@ -16682,7 +16682,8 @@
         "Name": "F&G Annuities & Life, Inc. 7.950% Senior Notes due 2053",
         "Security Name": "F&G Annuities & Life, Inc. 7.950% Senior Notes due 2053",
         "Country": "USA",
-        "Pooled": true
+        "Pooled": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "FGSM",
