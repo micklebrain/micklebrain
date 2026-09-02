@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["PRAX"]
+stocksToAdd = ["LX"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Praxis Precision Medicines Inc")
+    addStock(stock, name="LexinFintech Holdings Ltd")

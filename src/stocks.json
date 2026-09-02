@@ -20143,6 +20143,11 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "GOOGN",
+        "Name": "Alphabet Dep Shs Repstg 1 20Th Int Mandatory Conv Prf Shs Ser B",
+        "ownWebull": true
+    },
+    {
         "Symbol": "GOOP",
         "Name": "Kurv Yield Premium Strategy Google (GOOGL) ETF",
         "Security Name": "Kurv Yield Premium Strategy Google (GOOGL) ETF",
@@ -29069,8 +29074,7 @@
     {
         "Symbol": "LX",
         "Name": "LexinFintech Holdings Ltd",
-        "Country": "China",
-        "ownWebull": true
+        "Country": "China"
     },
     {
         "Symbol": "LXFR",
@@ -33791,8 +33795,7 @@
     {
         "Symbol": "NVNI",
         "Name": "Nvni Group Ltd",
-        "Country": "Cayman Islands",
-        "ownWebull": true
+        "Country": "Cayman Islands"
     },
     {
         "Symbol": "NVO",
