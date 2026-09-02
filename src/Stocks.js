@@ -150,8 +150,8 @@ function Stocks() {
 
     if (selectedCountry && item.Country !== selectedCountry) return false;
     if (showDividendOnly && !item.dividend) return false;
-    if (showETFOnly && item.Fund !== true) return false;
-    if (showNonETFOnly && item.Fund === true) return false;
+    if (showETFOnly && item.Pooled !== true) return false;
+    if (showNonETFOnly && item.Pooled === true) return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
@@ -375,7 +375,7 @@ function Stocks() {
             setShowETFOnly((prev) => !prev);
           }}
         >
-          Fund
+          Pooled
         </button>
         <button
           type="button"
@@ -385,7 +385,7 @@ function Stocks() {
             setShowNonETFOnly((prev) => !prev);
           }}
         >
-          Non-Fund
+          Non-Pooled
         </button>
         <button
           type="button"
