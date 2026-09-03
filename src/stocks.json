@@ -10143,7 +10143,8 @@
         "Symbol": "CSL",
         "Name": "Carlisle Companies Incorporated",
         "Security Name": "Carlisle Companies Incorporated Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "CSM",
