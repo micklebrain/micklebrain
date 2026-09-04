@@ -13767,7 +13767,8 @@
         "Symbol": "EG",
         "Name": "Everest Group, Ltd.",
         "Security Name": "Everest Group, Ltd. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "EGBN",
@@ -34505,8 +34506,7 @@
     {
         "Symbol": "OLOX",
         "Name": "Olenox Industries Inc",
-        "Country": "USA",
-        "ownWebull": true
+        "Country": "USA"        
     },
     {
         "Symbol": "OLP",
