@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["BAC-PRE"]
+stocksToAdd = ["ZBRA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Bank of America Corp. Dep. Pfd.")
+    addStock(stock, name="Zebra Technologies Corp")

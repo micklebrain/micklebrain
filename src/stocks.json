@@ -44956,7 +44956,7 @@
     {
         "Symbol": "SYRA",
         "Name": "Syra Health",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "SYSB",
@@ -52359,6 +52359,11 @@
         "Name": "Zimmer Biomet Holdings, Inc.",
         "Security Name": "Zimmer Biomet Holdings, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "ZBRA",
+        "Name": "Zebra Technologies Corp",
+        "ownWebull": true
     },
     {
         "Symbol": "ZDEK",
