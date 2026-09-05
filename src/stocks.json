@@ -408,6 +408,10 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "ABXL",
+        "Name": "Abacus Global Management, Inc."
+    },
+    {
         "Symbol": "ACA",
         "Name": "Arcosa, Inc.",
         "Security Name": "Arcosa, Inc. Common Stock",
@@ -34506,7 +34510,7 @@
     {
         "Symbol": "OLOX",
         "Name": "Olenox Industries Inc",
-        "Country": "USA"        
+        "Country": "USA"
     },
     {
         "Symbol": "OLP",
