@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ABXL"]
+stocksToAdd = ["ANG-A"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Abacus Global Management, Inc.")
+    addStock(stock, name="American National Group Inc.'s 5.95% Series A Preferred Stock")

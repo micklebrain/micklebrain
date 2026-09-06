@@ -678,6 +678,10 @@
         "ownWebull": true
     },
     {
+        "Symbol": "ADC-A",
+        "Name": "Agree Realty Corporation's Series A Preferred Stock"
+    },
+    {
         "Symbol": "ADCT",
         "Name": "ADC Therapeutics SA",
         "Security Name": "ADC Therapeutics SA Common Shares",
@@ -1225,6 +1229,10 @@
     {
         "Symbol": "AHRT",
         "Name": "AH Realty Trust, Inc"
+    },
+    {
+        "Symbol": "AHRT-A",
+        "Name": "AH Realty Trust, Inc. Preferred Shares Series A"
     },
     {
         "Symbol": "AHT",
@@ -2014,6 +2022,10 @@
         "Security Name": "Abercrombie & Fitch Company Common Stock",
         "Country": "USA",
         "ownWebull": true
+    },
+    {
+        "Symbol": "ANG-A",
+        "Name": "American National Group Inc.'s 5.95% Series A Preferred Stock"
     },
     {
         "Symbol": "ANG-B",
@@ -36409,6 +36421,11 @@
         "Name": "Alpine Income Property Trust, Inc.",
         "Security Name": "Alpine Income Property Trust, Inc. Common Stock",
         "Country": "USA"
+    },
+    {
+        "Symbol": "PINE-A",
+        "Name": "Alpine Income Property Trust Inc Preferred Shares Series A",
+        "Pooled": true
     },
     {
         "Symbol": "PINK",
