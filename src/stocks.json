@@ -563,7 +563,8 @@
         "Symbol": "ACP-A",
         "Name": "abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock",
         "Security Name": "abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "ACR",
@@ -1228,11 +1229,13 @@
     },
     {
         "Symbol": "AHRT",
-        "Name": "AH Realty Trust, Inc"
+        "Name": "AH Realty Trust, Inc",
+        "Pooled": true
     },
     {
         "Symbol": "AHRT-A",
-        "Name": "AH Realty Trust, Inc. Preferred Shares Series A"
+        "Name": "AH Realty Trust, Inc. Preferred Shares Series A",
+        "Pooled": true
     },
     {
         "Symbol": "AHT",
@@ -27629,7 +27632,8 @@
         "Symbol": "LAD",
         "Name": "Lithia Motors, Inc.",
         "Security Name": "Lithia Motors, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "LADR",
@@ -50463,7 +50467,8 @@
         "Symbol": "WINA",
         "Name": "Winmark Corp",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "WING",
