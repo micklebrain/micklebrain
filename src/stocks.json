@@ -3746,10 +3746,11 @@
         "ownEtrade": true
     },
     {
-        "Symbol": "BAC-B",
+        "Symbol": "BAC.PR.O",
         "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non",
         "Security Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non-Cumulative Preferred Stock, Series GG",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "BAC-E",
@@ -20123,7 +20124,8 @@
         "Symbol": "GOF",
         "Name": "Guggenheim Strategic Opportunities Fund of Beneficial Interest",
         "Security Name": "Guggenheim Strategic Opportunities Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "GOLD",
@@ -23191,8 +23193,7 @@
     {
         "Symbol": "ICON",
         "Name": "Icon Energy Corp",
-        "Country": "Greece",
-        "ownWebull": true
+        "Country": "Greece"        
     },
     {
         "Symbol": "ICOW",
