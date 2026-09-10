@@ -47448,8 +47448,7 @@
         "Symbol": "TYIDY",
         "Name": "Toyota Industries",
         "Country": "Japan",
-        "dividend": true,
-        "ownWebull": true
+        "dividend": true        
     },
     {
         "Symbol": "TYL",
