@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ANG-A"]
+stocksToAdd = ["AMSF"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="American National Group Inc.'s 5.95% Series A Preferred Stock")
+    addStock(stock, name="Amerisafe Inc")

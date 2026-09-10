@@ -1907,6 +1907,11 @@
         "Country": "USA"
     },
     {
+        "Symbol": "AMSF",
+        "Name": "Amerisafe Inc",
+        "ownWebull": true
+    },
+    {
         "Symbol": "AMT",
         "Name": "American Tower Corporation (REIT)",
         "Security Name": "American Tower Corporation (REIT) Common Stock",
@@ -3746,13 +3751,6 @@
         "ownEtrade": true
     },
     {
-        "Symbol": "BAC.PR.O",
-        "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non",
-        "Security Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non-Cumulative Preferred Stock, Series GG",
-        "Country": "USA",
-        "ownEtrade": true
-    },
-    {
         "Symbol": "BAC-E",
         "Name": "Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E",
         "Security Name": "Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E",
@@ -3810,6 +3808,13 @@
         "Name": "Bank of America Corporation",
         "Security Name": "Bank of America Corporation Depositary shares, each representing 1/1,000th interest in a share of 4.750% Non-Cumulative Preferred Stock, Series SS",
         "Country": "USA"
+    },
+    {
+        "Symbol": "BAC.PR.O",
+        "Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non",
+        "Security Name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 6.000% Non-Cumulative Preferred Stock, Series GG",
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "BACHY",
@@ -23193,7 +23198,7 @@
     {
         "Symbol": "ICON",
         "Name": "Icon Energy Corp",
-        "Country": "Greece"        
+        "Country": "Greece"
     },
     {
         "Symbol": "ICOW",
@@ -45752,7 +45757,7 @@
         "Symbol": "TGE",
         "Name": "The Generation Essentials Group",
         "Security Name": "The Generation Essentials Group Class A Ordinary Shares",
-        "Country": "France"        
+        "Country": "France"
     },
     {
         "Symbol": "TGE.W",
@@ -47448,7 +47453,7 @@
         "Symbol": "TYIDY",
         "Name": "Toyota Industries",
         "Country": "Japan",
-        "dividend": true        
+        "dividend": true
     },
     {
         "Symbol": "TYL",
