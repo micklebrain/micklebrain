@@ -707,7 +707,8 @@
         "Symbol": "ADI",
         "Name": "Analog Devices Inc",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "ADIG",
@@ -15693,7 +15694,8 @@
         "Symbol": "EXG",
         "Name": "Eaton Vance Tax",
         "Security Name": "Eaton Vance Tax-Managed Global Diversified Equity Income Fund Common Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "EXI",
@@ -15712,12 +15714,6 @@
         "Symbol": "EXOD",
         "Name": "Exodus Movement, Inc. Class A",
         "Security Name": "Exodus Movement, Inc. Class A Common Stock",
-        "Country": "USA"
-    },
-    {
-        "Symbol": "EXP",
-        "Name": "Eagle Materials Inc",
-        "Security Name": "Eagle Materials Inc Common Stock",
         "Country": "USA"
     },
     {
@@ -15854,12 +15850,6 @@
         "Pooled": true
     },
     {
-        "Symbol": "FANG",
-        "Name": "Diamondback Energy Inc",
-        "Country": "USA",
-        "dividend": true
-    },
-    {
         "Symbol": "FAPR",
         "Name": "FT Vest U.S. Equity Buffer ETF",
         "Security Name": "FT Vest U.S. Equity Buffer ETF - April",
@@ -15902,7 +15892,8 @@
         "Symbol": "FAX",
         "Name": "abrdn Asia",
         "Security Name": "abrdn Asia-Pacific Income Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "FAZ",
