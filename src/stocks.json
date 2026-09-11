@@ -8803,7 +8803,8 @@
         "Symbol": "CLPR",
         "Name": "Clipper Realty Inc.",
         "Security Name": "Clipper Realty Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "CLS",
