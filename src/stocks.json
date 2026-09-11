@@ -49252,7 +49252,8 @@
         "Symbol": "VLO",
         "Name": "Valero Energy Corporation",
         "Security Name": "Valero Energy Corporation Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "VLRS",
