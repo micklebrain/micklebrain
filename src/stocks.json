@@ -1782,7 +1782,8 @@
         "Symbol": "AMG",
         "Name": "Affiliated Managers Group, Inc.",
         "Security Name": "Affiliated Managers Group, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "AMGN",
@@ -14931,7 +14932,8 @@
         "Symbol": "ESBA",
         "Name": "Empire State Realty OP, L.P. Series ES Operating Partnership Units Representing Limited Partnership Interests",
         "Security Name": "Empire State Realty OP, L.P. Series ES Operating Partnership Units Representing Limited Partnership Interests",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "ESCA",
