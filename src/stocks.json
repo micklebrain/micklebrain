@@ -20287,8 +20287,7 @@
         "Name": "Granite Point Mortgage Trust Inc.",
         "Security Name": "Granite Point Mortgage Trust Inc. Common Stock",
         "Country": "USA",
-        "dividend": true,
-        "ownWebull": true
+        "dividend": true        
     },
     {
         "Symbol": "GPMT-A",
