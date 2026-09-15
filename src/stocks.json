@@ -4734,10 +4734,11 @@
         "Country": "USA"
     },
     {
-        "Symbol": "BF.B",
+        "Symbol": "BF-B",
         "Name": "Brown Forman Inc Class B",
         "Security Name": "Brown Forman Inc Class B Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownWebull": true
     },
     {
         "Symbol": "BFAM",
@@ -8595,13 +8596,15 @@
         "Symbol": "CIMN",
         "Name": "Chimera Investment Corporation 9.000% Senior Notes due 2029",
         "Security Name": "Chimera Investment Corporation 9.000% Senior Notes due 2029",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "CIMO",
         "Name": "Chimera Investment Corporation 9.250% Senior Notes due 2029",
         "Security Name": "Chimera Investment Corporation 9.250% Senior Notes due 2029",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "CINF",
@@ -23676,7 +23679,8 @@
         "Symbol": "IHD",
         "Name": "Voya Emerging Markets High Income Dividend Equity Fund",
         "Security Name": "Voya Emerging Markets High Income Dividend Equity Fund Common Shares",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "IHDG",
@@ -23725,7 +23729,8 @@
         "Symbol": "IHT",
         "Name": "InnSuites Hospitality Trust Shares of Beneficial Interest",
         "Security Name": "InnSuites Hospitality Trust Shares of Beneficial Interest",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "IHY",
@@ -23738,7 +23743,8 @@
         "Symbol": "IIF",
         "Name": "Morgan Stanley India Investment Fund, Inc.",
         "Security Name": "Morgan Stanley India Investment Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "IIGD",
@@ -23763,7 +23769,8 @@
         "Symbol": "IIM",
         "Name": "Invesco Value Municipal Income Trust",
         "Security Name": "Invesco Value Municipal Income Trust Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "IIPR",
@@ -23885,7 +23892,8 @@
         "Symbol": "ILPT",
         "Name": "Industrial Logistics Properties Trust",
         "Country": "USA",
-        "dividend": true
+        "dividend": true,
+        "Pooled": true
     },
     {
         "Symbol": "ILS",
@@ -50810,7 +50818,8 @@
         "Symbol": "WST",
         "Name": "West Pharmaceutical Services, Inc.",
         "Security Name": "West Pharmaceutical Services, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "ownEtrade": true
     },
     {
         "Symbol": "WT",
