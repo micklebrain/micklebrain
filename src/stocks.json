@@ -41266,26 +41266,6 @@
         "Pooled": true
     },
     {
-        "Symbol": "QVCCQWB1",
-        "Name": "QVC Inc",
-        "ownWebull": true
-    },
-    {
-        "Symbol": "QVCCQWB2",
-        "Name": "QVC Inc",
-        "ownWebull": true
-    },
-    {
-        "Symbol": "QVCDQWB1",
-        "Name": "QVC Inc",
-        "ownWebull": true
-    },
-    {
-        "Symbol": "QVCDQWB2",
-        "Name": "QVC Inc",
-        "ownWebull": true
-    },
-    {
         "Symbol": "QVML",
         "Name": "Invesco S&P 500 QVM Multi",
         "Security Name": "Invesco S&P 500 QVM Multi-factor ETF",
@@ -49620,7 +49600,8 @@
     },
     {
         "Symbol": "TP",
-        "Name": "Ticketplus Ltd."
+        "Name": "Ticketplus Ltd.",
+        "ownEtrade": true
     },
     {
         "Symbol": "TPB",
@@ -54235,7 +54216,8 @@
         "Name": "Watts Water Technologies, Inc. Class A",
         "Security Name": "Watts Water Technologies, Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "WTTR",
