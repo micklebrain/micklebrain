@@ -3681,6 +3681,7 @@
         "Name": "AutoZone, Inc.",
         "Security Name": "AutoZone, Inc. Common Stock",
         "Country": "USA",
+        "Exchange": "NYSE",
         "ownWebull": true
     },
     {
@@ -16392,9 +16393,9 @@
         "Name": "TrueShares Structured Outcome (February) ETF",
         "Security Name": "TrueShares Structured Outcome (February) ETF",
         "Country": "USA",
-        "Pooled": true,
         "Exchange": "Z",
-        "CQS Symbol": "FEBZ"
+        "CQS Symbol": "FEBZ",
+        "Pooled": true
     },
     {
         "Symbol": "FEDM",
@@ -33861,6 +33862,7 @@
         "Name": "NVR, Inc.",
         "Security Name": "NVR, Inc. Common Stock",
         "Country": "USA",
+        "Exchange": "NYSE",
         "ownWebull": true
     },
     {
@@ -41657,6 +41659,7 @@
         "Name": "Seaboard Corporation",
         "Security Name": "Seaboard Corporation Common Stock",
         "Country": "USA",
+        "Exchange": "NYSE",
         "ownWebull": true
     },
     {
@@ -50872,6 +50875,7 @@
         "Name": "White Mountains Insurance Group, Ltd.",
         "Security Name": "White Mountains Insurance Group, Ltd. Common Stock",
         "Country": "USA",
+        "Exchange": "NYSE",
         "ownWebull": true
     },
     {

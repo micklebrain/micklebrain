@@ -75,6 +75,7 @@ function Stocks() {
   const [showAllOwnedOnly, setShowAllOwnedOnly] = useState(false);
   const [showNotOwnedOnly, setShowNotOwnedOnly] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState("");
+  const [selectedExchange, setSelectedExchange] = useState("");
   const [showDividendOnly, setShowDividendOnly] = useState(false);
   const [showETFOnly, setShowETFOnly] = useState(false);
   const [showNonETFOnly, setShowNonETFOnly] = useState(false);
@@ -100,6 +101,14 @@ function Stocks() {
     const set = new Set();
     effectiveItems.forEach((item) => {
       if (item.Country) set.add(item.Country);
+    });
+    return [...set].sort();
+  }, [effectiveItems]);
+
+  const exchanges = React.useMemo(() => {
+    const set = new Set();
+    effectiveItems.forEach((item) => {
+      if (item.Exchange) set.add(item.Exchange);
     });
     return [...set].sort();
   }, [effectiveItems]);
@@ -149,6 +158,7 @@ function Stocks() {
     const ownedInAny = isOwnedInAnyBroker || !!item.ownMoomoo;
 
     if (selectedCountry && item.Country !== selectedCountry) return false;
+    if (selectedExchange && item.Exchange !== selectedExchange) return false;
     if (showDividendOnly && !item.dividend) return false;
     if (showETFOnly && item.Pooled !== true) return false;
     if (showNonETFOnly && item.Pooled === true) return false;
@@ -156,7 +166,7 @@ function Stocks() {
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
-  }), [effectiveItems, selectedCountry, showDividendOnly, showETFOnly, showNonETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
+  }), [effectiveItems, selectedCountry, selectedExchange, showDividendOnly, showETFOnly, showNonETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
 
   const sortedItems = React.useMemo(() => {
     return [...filteredItems].sort((a, b) => {
@@ -189,6 +199,7 @@ function Stocks() {
       moomoo: false,
     });
     setSelectedCountry("");
+    setSelectedExchange("");
     setShowAllOwnedOnly(false);
     setShowNotOwnedOnly(false);
     setShowDividendOnly(false);
@@ -387,6 +398,18 @@ function Stocks() {
         >
           Non-Pooled
         </button>
+        <select
+          className="stocks-exchange-select"
+          value={selectedExchange}
+          onChange={(e) => setSelectedExchange(e.target.value)}
+        >
+          <option value="">All Exchanges</option>
+          {exchanges.map((exchange) => (
+            <option key={exchange} value={exchange}>
+              {exchange}
+            </option>
+          ))}
+        </select>
         <button
           type="button"
           className={`stocks-filter-btn ${showName ? "active" : ""}`}
