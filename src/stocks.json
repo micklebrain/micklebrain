@@ -9473,7 +9473,8 @@
         "Name": "Celestica, Inc.",
         "Security Name": "Celestica, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "CLSE",
@@ -24210,7 +24211,8 @@
         "Symbol": "IAF",
         "Name": "abrdn Australia Equity Fund, Inc.",
         "Security Name": "abrdn Australia Equity Fund, Inc. Common Stock",
-        "Country": "USA"
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "IAG",
@@ -24804,7 +24806,8 @@
         "Name": "Voya Infrastructure, Industrials and Materials Fund of Beneficial Interest",
         "Security Name": "Voya Infrastructure, Industrials and Materials Fund Common Shares of Beneficial Interest",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Pooled": true
     },
     {
         "Symbol": "IDEC",
