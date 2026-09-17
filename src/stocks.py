@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["AMSF"]
+stocksToAdd = ["JTTT"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Amerisafe Inc")
+    addStock(stock, name="Jatt III Acquisition Corp")
