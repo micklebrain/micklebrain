@@ -35699,6 +35699,11 @@
         "Exchange": "NYSE"
     },
     {
+        "Symbol": "NTRA",
+        "Name": "Natera Inc",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "NTRP",
         "Name": "NextTrip",
         "Country": "USA",

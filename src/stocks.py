@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["JTTT"]
+stocksToAdd = ["NTRA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Jatt III Acquisition Corp")
+    addStock(stock, name="Natera Inc")
