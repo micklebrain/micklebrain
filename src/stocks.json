@@ -1345,55 +1345,64 @@
     "Symbol": "ADAMG",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMH",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMI",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMK",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAML",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMM",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMN",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMO",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADAMZ",
     "Name": "ADAMAS TRUST INC.",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "ADBE",
@@ -8056,7 +8065,8 @@
     "Symbol": "BANFP",
     "Name": "BFC CAPITAL TRUST II",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "BANL",
@@ -9502,7 +9512,8 @@
     "Name": "BlackRock Municipal Income Trust",
     "Security Name": "BlackRock Municipal Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BFLB",
@@ -9620,7 +9631,8 @@
     "Name": "BlackRock California Municipal Income Trust",
     "Security Name": "BlackRock California Municipal Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BG",
@@ -9762,7 +9774,8 @@
     "Name": "BlackRock Energy and Resources Trust",
     "Security Name": "BlackRock Energy and Resources Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BGRN",
@@ -9806,7 +9819,8 @@
     "Name": "BlackRock Floating Rate Income Trust",
     "Security Name": "BlackRock Floating Rate Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BGUS",
@@ -9828,7 +9842,8 @@
     "Name": "Blackrock Enhanced International Dividend Trust",
     "Security Name": "Blackrock Enhanced International Dividend Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BH",
@@ -9933,7 +9948,8 @@
     "Name": "Blackrock Core Bond Trust",
     "Security Name": "Blackrock Core Bond Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BHKLY",
@@ -10011,7 +10027,8 @@
     "Name": "BlackRock Virginia Municipal Bond Trust",
     "Security Name": "BlackRock Virginia Municipal Bond Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BHVN",
@@ -10309,7 +10326,8 @@
     "Name": "BlackRock Multi",
     "Security Name": "BlackRock Multi-Sector Income Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BITA",
@@ -10814,7 +10832,8 @@
     "Name": "BlackRock Municipal Income Trust II",
     "Security Name": "BlackRock Municipal Income Trust II",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BLES",
@@ -11021,7 +11040,8 @@
     "Name": "Blackrock Limited Duration Income Trust",
     "Security Name": "Blackrock Limited Duration Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BLX",
@@ -11101,7 +11121,8 @@
     "Name": "BlackRock Health Sciences Term Trust of Beneficial Interest",
     "Security Name": "BlackRock Health Sciences Term Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BMGL",
@@ -11183,7 +11204,8 @@
     "Name": "BlackRock 2037 Municipal Target Term Trust of Beneficial Interest",
     "Security Name": "BlackRock 2037 Municipal Target Term Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BMNG",
@@ -11529,7 +11551,8 @@
     "Name": "BlackRock New York Municipal Income Trust",
     "Security Name": "BlackRock New York Municipal Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BNY PRK",
@@ -11587,7 +11610,8 @@
     "Name": "Blackrock Enhanced Global Dividend Trust of Beneficial Interest",
     "Security Name": "Blackrock Enhanced Global Dividend Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BOEG",
@@ -12669,7 +12693,8 @@
     "Name": "BlackRock Science and Technology Trust of Beneficial Interest",
     "Security Name": "BlackRock Science and Technology Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BSTP",
@@ -12705,7 +12730,8 @@
     "Name": "BlackRock Science and Technology Term Trust of Beneficial Interest",
     "Security Name": "BlackRock Science and Technology Term Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BSV",
@@ -12749,7 +12775,8 @@
     "Name": "BlackRock Long",
     "Security Name": "BlackRock Long-Term Municipal Advantage Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "BTAL",
@@ -12994,7 +13021,8 @@
     "Name": "BlackRock Municipal 2030 Target Term Trust",
     "Security Name": "BlackRock Municipal 2030 Target Term Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BTTC",
@@ -13015,14 +13043,16 @@
     "Security Name": "BlackRock Technology and Private Equity Term Trust Common Shares of Beneficial Interest",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "BTZ",
     "Name": "BlackRock Credit Allocation Income Trust",
     "Security Name": "BlackRock Credit Allocation Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BUCK",
@@ -13192,7 +13222,8 @@
     "Name": "BlackRock Utility, Infrastructure & Power Opportunities Trust",
     "Security Name": "BlackRock Utility, Infrastructure & Power Opportunities Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BUIL",
@@ -13703,7 +13734,8 @@
     "Name": "Blackrock Municipal Income Quality Trust of Beneficial Interest",
     "Security Name": "Blackrock Municipal Income Quality Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BYND",
@@ -13804,7 +13836,8 @@
     "Symbol": "C-N",
     "Name": "Citigroup Capital XIII 7.875% Fixed rate Floating Rate trust Preferred Securities (TruPS)",
     "Security Name": "Citigroup Capital XIII 7.875% Fixed rate Floating Rate trust Preferred Securities (TruPS)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CA",
@@ -15492,7 +15525,8 @@
     "Name": "Eaton Vance California Municipal Income Trust Shares of Beneficial Interest",
     "Security Name": "Eaton Vance California Municipal Income Trust Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "CEVA",
@@ -17514,7 +17548,8 @@
     "Name": "MFS Municipal Income Trust",
     "Security Name": "MFS Municipal Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CNA",
@@ -19293,7 +19328,8 @@
     "Name": "Cross Timbers Royalty Trust",
     "Security Name": "Cross Timbers Royalty Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CRTC",
@@ -20479,14 +20515,16 @@
     "Name": "MFS High Income Municipal Trust",
     "Security Name": "MFS High Income Municipal Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CXH",
     "Name": "MFS Investment Grade Municipal Trust",
     "Security Name": "MFS Investment Grade Municipal Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CXII",
@@ -21363,7 +21401,8 @@
     "Name": "Dillard's Capital Trust I",
     "Security Name": "Dillard's Capital Trust I",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DDTA",
@@ -25642,7 +25681,8 @@
     "Name": "Eaton Vance Floating Rate Income Trust of Beneficial Interest",
     "Security Name": "Eaton Vance Floating Rate Income Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EFTY",
@@ -26023,7 +26063,8 @@
     "Name": "Entergy Louisiana, Inc. Collateral Trust Mortgage Bonds, 4.875 % Series due September 1, 2066",
     "Security Name": "Entergy Louisiana, Inc. Collateral Trust Mortgage Bonds, 4.875 % Series due September 1, 2066",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ELCV",
@@ -26993,7 +27034,8 @@
     "Name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
     "Security Name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EP",
@@ -28061,7 +28103,8 @@
     "Name": "Eaton Vance Municipal Income 2028 Term Trust of Beneficial Interest",
     "Security Name": "Eaton Vance Municipal Income 2028 Term Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ETY",
@@ -28260,7 +28303,8 @@
     "Name": "Eaton Vance Senior Income Trust",
     "Security Name": "Eaton Vance Senior Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EVG",
@@ -28376,7 +28420,8 @@
     "Name": "Eaton Vance Municipal Income Trust",
     "Security Name": "Eaton Vance Municipal Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EVNT",
@@ -32132,7 +32177,8 @@
     "Name": "MicroSectors FANG  Index",
     "Security Name": "MicroSectors FANG  Index -3X Inverse Leveraged ETNs due January 8, 2038",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "FNGG",
@@ -32147,7 +32193,8 @@
     "Name": "MicroSectors FANG  Index 2X Leveraged ETNs due January 8, 2038",
     "Security Name": "MicroSectors FANG  Index 2X Leveraged ETNs due January 8, 2038",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "FNGR",
@@ -34032,7 +34079,8 @@
     "Name": "Gabelli Equity Trust, Inc. (The)",
     "Security Name": "Gabelli Equity Trust, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GAB PRG",
@@ -34056,19 +34104,22 @@
     "Symbol": "GAB-G",
     "Name": "Gabelli Equity Trust, Inc. (The) Series G Cumulative Preferred Stock",
     "Security Name": "Gabelli Equity Trust, Inc. (The) Series G Cumulative Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GAB-H",
     "Name": "Gabelli Equity Trust, Inc. (The) Pfd Ser H",
     "Security Name": "Gabelli Equity Trust, Inc. (The) Pfd Ser H",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GAB-K",
     "Name": "Gabelli Equity Trust, Inc. (The) 5.00% Series K Cumulative Preferred Stock",
     "Security Name": "Gabelli Equity Trust, Inc. (The) 5.00% Series K Cumulative Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GABC",
@@ -34287,7 +34338,8 @@
     "Name": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust of Beneficial Interest",
     "Security Name": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GBCI",
@@ -34715,7 +34767,8 @@
     "Name": "Gabelli Dividend & Income Trust of Beneficial Interest",
     "Security Name": "Gabelli Dividend & Income Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GDV PRH",
@@ -34733,13 +34786,15 @@
     "Symbol": "GDV-H",
     "Name": "The Gabelli Dividend & Income Trust 5.375% Series H Cumulative Preferred Shares",
     "Security Name": "The Gabelli Dividend & Income Trust 5.375% Series H Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GDV-K",
     "Name": "The Gabelli Dividend & Income Trust 4.250% Series K Cumulative Preferred Shares",
     "Security Name": "The Gabelli Dividend & Income Trust 4.250% Series K Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GDX",
@@ -35243,7 +35298,8 @@
     "Name": "GAMCO Global Gold, Natural Resources & Income Trust",
     "Security Name": "GAMCO Global Gold, Natural Resources & Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "GGN PRB",
@@ -35255,7 +35311,8 @@
     "Symbol": "GGN-B",
     "Name": "GAMCO Global Gold, Natural Reources & Income Trust 5.00% Series B Cumulative 25.00 Liquidation Preference",
     "Security Name": "GAMCO Global Gold, Natural Reources & Income Trust 5.00% Series B Cumulative 25.00 Liquidation Preference",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GGOV",
@@ -35284,7 +35341,8 @@
     "Name": "Gabelli Multi",
     "Security Name": "Gabelli Multi-Media Trust, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GGT PRE",
@@ -35302,13 +35360,15 @@
     "Symbol": "GGT-E",
     "Name": "Gabelli Multi",
     "Security Name": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series E Cumulative Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GGT-G",
     "Name": "Gabelli Multi",
     "Security Name": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series G Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GGTL",
@@ -35330,7 +35390,8 @@
     "Name": "Gabelli Global Small and Mid Cap Value Trust (The) of Beneficial Interest",
     "Security Name": "Gabelli Global Small and Mid Cap Value Trust (The) Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GH",
@@ -35618,35 +35679,40 @@
     "Name": "Synthetic Fixed",
     "Security Name": "Synthetic Fixed-Income Securities, Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores, Inc. Securities, Series 2004-5",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GJP",
     "Name": "Synthetic Fixed",
     "Security Name": "Synthetic Fixed-Income Securities, Inc. on behalf of STRATS (SM) Trust for Dominion Resources, Inc. Securities, Series 2005-6, Floating Rate Structured Repackaged Asset-Backed Trust Securities (STRATS) Certificates",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GJR",
     "Name": "Synthetic Fixed",
     "Security Name": "Synthetic Fixed-Income Securities, Inc. STRATS Trust for Procter&Gamble Securities, Series 2006-1",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GJS",
     "Name": "Goldman Sachs Group Securities STRATS Trust for Goldman Sachs Group Securities, Series 2006",
     "Security Name": "Goldman Sachs Group Securities STRATS Trust for Goldman Sachs Group Securities, Series 2006-2",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GJT",
     "Name": "Synthetic Fixed",
     "Security Name": "Synthetic Fixed-Income Securities, Inc. Floating Rate Structured Repackaged Asset-Backed Trust Securities Certificates, Series 2006-3",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GJUL",
@@ -36046,13 +36112,15 @@
     "Symbol": "GLU-A",
     "Name": "The Gabelli Global Utility and Income Trust Series A Cumulative Puttable and Callable Preferred Shares",
     "Security Name": "The Gabelli Global Utility and Income Trust Series A Cumulative Puttable and Callable Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GLU-B",
     "Name": "The Gabelli Global Utility and Income Trust Series B Cumulative Puttable and Callable Preferred Shares",
     "Security Name": "The Gabelli Global Utility and Income Trust Series B Cumulative Puttable and Callable Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GLUE",
@@ -36489,7 +36557,8 @@
     "Name": "GAMCO Natural Resources, Gold & Income Trust",
     "Security Name": "GAMCO Natural Resources, Gold & Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GNT PRA",
@@ -37327,7 +37396,8 @@
     "Name": "The Gabelli Healthcare & Wellness Trust of Beneficial Interest",
     "Security Name": "The Gabelli Healthcare & Wellness Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GS",
@@ -37912,7 +37982,8 @@
     "Symbol": "GUT-C",
     "Name": "Gabelli Utility Trust (The) 5.375% Series C Cumulative Preferred Shares",
     "Security Name": "Gabelli Utility Trust (The) 5.375% Series C Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GUTS",
@@ -40521,12 +40592,6 @@
     "Exchange": "NASDAQ"
   },
   {
-    "Symbol": "HUSA",
-    "Name": "Houston American Energy Corporation",
-    "Security Name": "Houston American Energy Corporation Common Stock",
-    "Country": "USA"
-  },
-  {
     "Symbol": "HUSV",
     "Name": "First Trust Exchange",
     "Security Name": "First Trust Exchange-Traded Fund III First Trust Horizon Managed Volatility Domestic ETF",
@@ -42653,7 +42718,8 @@
     "Name": "Western Asset Investment Grade Opportunity Trust Inc.",
     "Security Name": "Western Asset Investment Grade Opportunity Trust Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IGIB",
@@ -44349,7 +44415,8 @@
     "Name": "Invesco Quality Municipal Income Trust",
     "Security Name": "Invesco Quality Municipal Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IQLT",
@@ -46419,7 +46486,8 @@
     "Name": "John Hancock Investors Trust",
     "Security Name": "John Hancock Investors Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JHID",
@@ -46490,7 +46558,8 @@
     "Name": "John Hancock Income Securities Trust",
     "Security Name": "John Hancock Income Securities Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JHSC",
@@ -49270,7 +49339,8 @@
     "Name": "DWS Municipal Income Trust",
     "Security Name": "DWS Municipal Income Trust",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KTH",
@@ -49284,7 +49354,8 @@
     "Name": "Structured Products Corp 8.205% CorTS 8.205% Corporate Backed Trust Securities (CorTS)",
     "Security Name": "Structured Products Corp 8.205% CorTS 8.205% Corporate Backed Trust Securities (CorTS)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KTOS",
@@ -52647,7 +52718,8 @@
     "Name": "Marine Petroleum Trust",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "MARS",
@@ -53256,7 +53328,8 @@
     "Name": "MFS Charter Income Trust",
     "Security Name": "MFS Charter Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MCRB",
@@ -53982,7 +54055,8 @@
     "Name": "MFS Municipal Income Trust",
     "Security Name": "MFS Municipal Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MFMO",
@@ -54124,7 +54198,8 @@
     "Name": "MFS Government Markets Income Trust",
     "Security Name": "MFS Government Markets Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MGIH",
@@ -54496,7 +54571,8 @@
     "Name": "MFS Intermediate Income Trust",
     "Security Name": "MFS Intermediate Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MIND",
@@ -54602,14 +54678,16 @@
     "Name": "AG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",
     "Security Name": "AG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MITP",
     "Name": "AG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",
     "Security Name": "AG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MITQ",
@@ -55158,7 +55236,8 @@
     "Name": "MFS Multimarket Income Trust",
     "Security Name": "MFS Multimarket Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MMTM",
@@ -56140,7 +56219,8 @@
     "Name": "Mesabi Trust",
     "Security Name": "Mesabi Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MSBI",
@@ -56734,7 +56814,8 @@
     "Name": "Mesa Royalty Trust",
     "Security Name": "Mesa Royalty Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MTRA",
@@ -57162,7 +57243,8 @@
     "Name": "MV Oil Trust Units of Beneficial Interests",
     "Security Name": "MV Oil Trust Units of Beneficial Interests",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MVPA",
@@ -60003,7 +60085,8 @@
     "Name": "North European Oil Royality Trust",
     "Security Name": "North European Oil Royality Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NRUC",
@@ -62084,7 +62167,8 @@
     "Name": "Invesco Municipal Income Opportunities Trust",
     "Security Name": "Invesco Municipal Income Opportunities Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "OIH",
@@ -64267,7 +64351,8 @@
     "Name": "Permian Basin Royalty Trust",
     "Security Name": "Permian Basin Royalty Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PBTP",
@@ -65779,7 +65864,8 @@
     "Name": "Putnam Master Intermediate Income Trust",
     "Security Name": "Putnam Master Intermediate Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PIN",
@@ -66557,7 +66643,8 @@
     "Name": "Putnam Managed Municipal Income Trust",
     "Security Name": "Putnam Managed Municipal Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMMF",
@@ -66608,7 +66695,8 @@
     "Name": "Putnam Municipal Opportunities Trust",
     "Security Name": "Putnam Municipal Opportunities Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMOC",
@@ -66706,21 +66794,24 @@
     "Name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
     "Security Name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMTV",
     "Name": "PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030",
     "Security Name": "PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMTW",
     "Name": "PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030",
     "Security Name": "PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMVP",
@@ -67114,7 +67205,8 @@
     "Name": "Putnam Premier Income Trust",
     "Security Name": "Putnam Premier Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PPTA",
@@ -67605,7 +67697,8 @@
     "Name": "PermRock Royalty Trust Trust Units",
     "Security Name": "PermRock Royalty Trust Trust Units",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PRTA",
@@ -68731,7 +68824,8 @@
     "Name": "Permianville Royalty Trust Trust Units",
     "Security Name": "Permianville Royalty Trust Trust Units",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PVLA",
@@ -71878,7 +71972,8 @@
     "Name": "Royce Global Trust, Inc.",
     "Security Name": "Royce Global Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RGTC",
@@ -72664,7 +72759,8 @@
     "Name": "Royce Micro",
     "Security Name": "Royce Micro-Cap Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RMTI",
@@ -73711,7 +73807,8 @@
     "Name": "Royce Small",
     "Security Name": "Royce Small-Cap Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RVTY",
@@ -73848,33 +73945,38 @@
     "Name": "Redwood Trust, Inc. 9.125% Senior Notes Due 2029",
     "Security Name": "Redwood Trust, Inc. 9.125% Senior Notes Due 2029",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWTO",
     "Name": "Redwood Trust, Inc. 9.00% Senior Notes Due 2029",
     "Security Name": "Redwood Trust, Inc. 9.00% Senior Notes Due 2029",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWTP",
     "Name": "Redwood Trust, Inc. 9.125% Senior Notes Due 2030",
     "Security Name": "Redwood Trust, Inc. 9.125% Senior Notes Due 2030",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWTQ",
     "Name": "REDWOOD TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWTS",
     "Name": "REDWOOD TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWX",
@@ -74653,7 +74755,8 @@
     "Name": "Sabine Royalty Trust",
     "Security Name": "Sabine Royalty Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SBRA",
@@ -74872,37 +74975,43 @@
     "Symbol": "SCE-G",
     "Name": "SCE Trust II Trust Preferred Securities",
     "Security Name": "SCE Trust II Trust Preferred Securities",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SCE-J",
     "Name": "Southern California Edison Company 5.375% Fixed",
     "Security Name": "Southern California Edison Company 5.375% Fixed-to-Floating Rate Trust Preference Securities",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SCE-K",
     "Name": "Southern California Edison Company 5.45% Fixed",
     "Security Name": "Southern California Edison Company 5.45% Fixed-to-Floating Rate Trust Preference Securities",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SCE-L",
     "Name": "SCE TRUST VI",
     "Security Name": "SCE TRUST VI",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SCE-M",
     "Name": "SCE Trust VII 7.50% Trust Preference Securities",
     "Security Name": "SCE Trust VII 7.50% Trust Preference Securities",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SCE-N",
     "Name": "SCE Trust VIII 6.95% Trust Preference Securities",
     "Security Name": "SCE Trust VIII 6.95% Trust Preference Securities",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SCEC",
@@ -77149,7 +77258,8 @@
     "Name": "San Juan Basin Royalty Trust",
     "Security Name": "San Juan Basin Royalty Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SK",
@@ -84938,7 +85048,8 @@
     "Name": "Terra Property Trust, Inc. 6.00% Notes due 2026",
     "Security Name": "Terra Property Trust, Inc. 6.00% Notes due 2026",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TPTS",
@@ -89116,7 +89227,8 @@
     "Name": "Invesco California Value Municipal Income Trust",
     "Security Name": "Invesco California Value Municipal Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VCX",
@@ -89525,7 +89637,8 @@
     "Name": "Invesco Trust for Investment Grade Municipals (DE)",
     "Security Name": "Invesco Trust for Investment Grade Municipals Common Stock (DE)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VGMS",
@@ -89864,14 +89977,16 @@
     "Name": "Invesco Advantage Municipal Income Trust II of Beneficial Interest (DE)",
     "Security Name": "Invesco Advantage Municipal Income Trust II Common Shares of Beneficial Interest (DE)",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "VKQ",
     "Name": "Invesco Municipal Trust",
     "Security Name": "Invesco Municipal Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VKTX",
@@ -89936,7 +90051,8 @@
     "Name": "Invesco High Income Trust II",
     "Security Name": "Invesco High Income Trust II",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VLTO",
@@ -90040,7 +90156,8 @@
     "Name": "Invesco Municipal Opportunity Trust",
     "Security Name": "Invesco Municipal Opportunity Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VMRK",
@@ -90246,7 +90363,8 @@
     "Name": "VOC Energy Trust Units of Beneficial Interest",
     "Security Name": "VOC Energy Trust Units of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VOD",
@@ -90471,7 +90589,8 @@
     "Name": "Invesco Pennsylvania Value Municipal Income Trust (DE)",
     "Security Name": "Invesco Pennsylvania Value Municipal Income Trust Common Stock (DE)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VPX",
@@ -90909,7 +91028,8 @@
     "Name": "Invesco Trust for Investment Grade New York Municipals",
     "Security Name": "Invesco Trust for Investment Grade New York Municipals Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VTOL",
@@ -91072,7 +91192,8 @@
     "Name": "Invesco Senior Income Trust (DE)",
     "Security Name": "Invesco Senior Income Trust Common Stock (DE)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VVV",
@@ -93584,7 +93705,8 @@
     "Symbol": "XFLT-A",
     "Name": "XAI Octagon Floating Rate & Alternative Income Trust 6.50% Series 2026 Term Preferred Shares, (Liquidation Preference $25.00)",
     "Security Name": "XAI Octagon Floating Rate & Alternative Income Trust 6.50% Series 2026 Term Preferred Shares, (Liquidation Preference $25.00)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "XFLX",
