@@ -4134,8 +4134,7 @@
         "Symbol": "BAER",
         "Name": "Bridger Aerospace Group Holdings, Inc.",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "BAGY",
