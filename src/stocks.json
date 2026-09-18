@@ -88396,9 +88396,9 @@
     "Symbol": "USO",
     "Name": "United States Oil Fund",
     "Security Name": "United States Oil Fund",
-    "Country": "USA",
-    "Pooled": true,
-    "Exchange": "NYSE Arca"
+    "Country": "USA",    
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "USOI",
