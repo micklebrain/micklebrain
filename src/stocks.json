@@ -91613,7 +91613,8 @@
     "Name": "WESCO International, Inc.",
     "Security Name": "WESCO International, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "ownEtrade": true
   },
   {
     "Symbol": "WCCB",
