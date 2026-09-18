@@ -403,7 +403,8 @@
     "Name": "American Assets Trust, Inc.",
     "Security Name": "American Assets Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AAUA",
@@ -630,25 +631,29 @@
     "Security Name": "Arbor Realty Trust Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "ABR PRD",
     "Name": "ARBOR REALTY TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ABR PRE",
     "Name": "ARBOR REALTY TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ABR PRF",
     "Name": "ARBOR REALTY TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ABSI",
@@ -1092,31 +1097,36 @@
     "Name": "ACRES Commercial Realty Corp.",
     "Security Name": "ACRES Commercial Realty Corp. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ACR PRC",
     "Name": "ACRES COMMERCIAL REALTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ACR PRD",
     "Name": "ACRES COMMERCIAL REALTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ACR-C",
     "Name": "ACRES Commercial Realty Corp. 8.625% Fixed",
     "Security Name": "ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "ACR-D",
     "Name": "ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock",
     "Security Name": "ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "ACRE",
@@ -1124,7 +1134,8 @@
     "Security Name": "Ares Commercial Real Estate Corporation Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "ACRS",
@@ -1327,7 +1338,8 @@
     "Name": "Adamas Trust Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "ADAMG",
@@ -1416,17 +1428,20 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "ADC PRA",
     "Name": "AGREE RLTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ADC-A",
-    "Name": "Agree Realty Corporation's Series A Preferred Stock"
+    "Name": "Agree Realty Corporation's Series A Preferred Stock",
+    "Pooled": true
   },
   {
     "Symbol": "ADCT",
@@ -2279,7 +2294,8 @@
     "Country": "USA",
     "Exchange": "NASDAQ",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "AGNCL",
@@ -2291,7 +2307,8 @@
     "Symbol": "AGNCM",
     "Name": "AGNC INVT CORP",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "AGNCN",
@@ -2529,7 +2546,8 @@
     "Name": "American Healthcare REIT, Inc.",
     "Security Name": "American Healthcare REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHRT",
@@ -2541,7 +2559,8 @@
     "Symbol": "AHRT PRA",
     "Name": "AH RLTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHRT-A",
@@ -2553,37 +2572,43 @@
     "Name": "Ashford Hospitality Trust Inc",
     "Security Name": "Ashford Hospitality Trust Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHT PRD",
     "Name": "ASHFORD HOSPITALITY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHT PRF",
     "Name": "ASHFORD HOSPITALITY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHT PRG",
     "Name": "ASHFORD HOSPITALITY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHT PRH",
     "Name": "ASHFORD HOSPITALITY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHT PRI",
     "Name": "ASHFORD HOSPITALITY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AHYB",
@@ -2975,7 +3000,8 @@
     "Security Name": "Apartment Investment and Management Company Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "AIVC",
@@ -3130,7 +3156,8 @@
     "Name": "Acadia Realty Trust",
     "Security Name": "Acadia Realty Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AKRE",
@@ -3277,7 +3304,8 @@
     "Name": "Alexander & Baldwin, Inc. REIT Holding Company",
     "Security Name": "Alexander & Baldwin, Inc. Common Stock REIT Holding Company",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ALFVY",
@@ -3656,7 +3684,8 @@
     "Security Name": "Alexander's, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "ALXO",
@@ -3922,31 +3951,36 @@
     "Security Name": "American Homes 4 Rent Common Shares of Beneficial Interest",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "AMH PRG",
     "Name": "AMERICAN HOMES 4 RENT",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AMH PRH",
     "Name": "AMERICAN HOMES 4 RENT",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AMH-G",
     "Name": "American Homes 4 Rent Series G cumulative redeemable perpetual preferred shares of beneficial interest",
     "Security Name": "American Homes 4 Rent Series G cumulative redeemable perpetual preferred shares of beneficial interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "AMH-H",
     "Name": "American Homes 4 Rent Series H cumulative redeemable perpetual Preferred Shares of Beneficial Interest",
     "Security Name": "American Homes 4 Rent Series H cumulative redeemable perpetual Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "AMHI",
@@ -4174,7 +4208,8 @@
     "Name": "American Tower Corporation (REIT)",
     "Security Name": "American Tower Corporation (REIT) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AMTB",
@@ -4209,7 +4244,8 @@
     "Name": "ETRACS Alerian MLP Index ETN Series B due July 18, 2042",
     "Security Name": "ETRACS Alerian MLP Index ETN Series B due July 18, 2042",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "AMUN",
@@ -4555,7 +4591,8 @@
     "Name": "abrdn Total Dynamic Dividend Fund of Beneficial Interest",
     "Security Name": "abrdn Total Dynamic Dividend Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AOHY",
@@ -4585,21 +4622,24 @@
     "Name": "Angel Oak Mortgage REIT, Inc. 9.750% Senior Notes due 2030",
     "Security Name": "Angel Oak Mortgage REIT, Inc. 9.750% Senior Notes due 2030",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AOMN",
     "Name": "Angel Oak Mortgage REIT, Inc. 9.500% Senior Notes due 2029",
     "Security Name": "Angel Oak Mortgage REIT, Inc. 9.500% Senior Notes due 2029",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AOMR",
     "Name": "Angel Oak Mortgage REIT, Inc.",
     "Security Name": "Angel Oak Mortgage REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AON",
@@ -4769,7 +4809,8 @@
     "Name": "Apple Hospitality REIT, Inc.",
     "Security Name": "Apple Hospitality REIT, Inc. Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "APLM",
@@ -5217,7 +5258,8 @@
     "Name": "Ares Dynamic Credit Allocation Fund, Inc.",
     "Security Name": "Ares Dynamic Credit Allocation Fund, Inc. Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ARDT",
@@ -5239,7 +5281,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "AREA",
@@ -5308,7 +5351,8 @@
     "Name": "Apollo Commercial Real Estate Finance, Inc",
     "Security Name": "Apollo Commercial Real Estate Finance, Inc",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ARIA",
@@ -5591,19 +5635,22 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "ARR PRC",
     "Name": "ARMOUR RESIDENTIAL REIT INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ARR-C",
     "Name": "ARMOUR Residential REIT, Inc. 7% Series C Cumulative Redeemable Preferred Stock (liquidation preference $25.00 per share)",
     "Security Name": "ARMOUR Residential REIT, Inc. 7% Series C Cumulative Redeemable Preferred Stock (liquidation preference $25.00 per share)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "ARRY",
@@ -5832,14 +5879,16 @@
     "Name": "Liberty All",
     "Security Name": "Liberty All-Star Growth Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ASGI",
     "Name": "abrdn Global Infrastructure Income Fund of Beneficial Interest",
     "Security Name": "abrdn Global Infrastructure Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ASGM",
@@ -6403,7 +6452,8 @@
     "Name": "iPath Select MLP ETN",
     "Security Name": "iPath Select MLP ETN",
     "Country": "USA",
-    "Exchange": "Cboe BZX"
+    "Exchange": "Cboe BZX",
+    "Pooled": true
   },
   {
     "Symbol": "ATMU",
@@ -6962,7 +7012,8 @@
     "Name": "Advent Convertible and Income Fund",
     "Security Name": "Advent Convertible and Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AVL",
@@ -7257,7 +7308,8 @@
     "Name": "Alliancebernstein Global High Income Fund",
     "Security Name": "Alliancebernstein Global High Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AWI",
@@ -7278,7 +7330,8 @@
     "Name": "abrdn Global Premier Properties Fund of Beneficial Interest",
     "Security Name": "abrdn Global Premier Properties Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "AWR",
@@ -8870,7 +8923,8 @@
     "Symbol": "BCV-A",
     "Name": "Bancroft Fund Limited 5.375% Series A Cumulative Preferred Shares",
     "Security Name": "Bancroft Fund Limited 5.375% Series A Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "BCX",
@@ -8980,7 +9034,8 @@
     "Security Name": "Brandywine Realty Trust Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "BDORY",
@@ -9523,25 +9578,29 @@
     "Name": "Saul Centers, Inc.",
     "Security Name": "Saul Centers, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BFS PRD",
     "Name": "SAUL CTRS INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BFS-D",
     "Name": "Saul Centers, Inc. Depositary Shares, each representing 1/100th of a share of 6.125% Series D Cumulative Redeemable Preferred Stock",
     "Security Name": "Saul Centers, Inc. Depositary Shares, each representing 1/100th of a share of 6.125% Series D Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "BFS-E",
     "Name": "Saul Centers, Inc. Depositary shares, each representing a 1/100th fractional interest in a share of 6.000% Series E Cumulative Redeemable Preferred Stock",
     "Security Name": "Saul Centers, Inc. Depositary shares, each representing a 1/100th fractional interest in a share of 6.000% Series E Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "BFST",
@@ -9575,7 +9634,8 @@
     "Name": "Blackstone Strategic Credit 2027 Term Fund of Beneficial Interest",
     "Security Name": "Blackstone Strategic Credit 2027 Term Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BGC",
@@ -9634,7 +9694,8 @@
     "Name": "Barings Global Short Duration High Yield Fund of Beneficial Interests",
     "Security Name": "Barings Global Short Duration High Yield Fund Common Shares of Beneficial Interests",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BGI",
@@ -9759,7 +9820,8 @@
     "Name": "Blackstone Long Short Credit Income Fund",
     "Security Name": "Blackstone Long Short Credit Income Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BGY",
@@ -9883,7 +9945,8 @@
     "Name": "Bluerock Homes Trust, Inc",
     "Security Name": "Bluerock Homes Trust, Inc. Class A Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "BHP",
@@ -9899,31 +9962,36 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "BHR PRB",
     "Name": "BRAEMAR HOTELS & RESORTS INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BHR PRD",
     "Name": "BRAEMAR HOTELS & RESORTS INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BHR-B",
     "Name": "Braemar Hotels & Resorts Inc. 5.50% Series B Cumulative Convertible Preferred Stock, par value $0.01 per share",
     "Security Name": "Braemar Hotels & Resorts Inc. 5.50% Series B Cumulative Convertible Preferred Stock, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "BHR-D",
     "Name": "Braemar Hotels & Resorts Inc. 8.25% Series D Cumulative Preferred Stock,  par value $0.01 per share",
     "Security Name": "Braemar Hotels & Resorts Inc. 8.25% Series D Cumulative Preferred Stock,  par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "BHRB",
@@ -11252,7 +11320,8 @@
     "Country": "USA",
     "dividend": true,
     "ownRobinhood": true,
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "BNDC",
@@ -11378,7 +11447,8 @@
     "Security Name": "Broadstone Net Lease, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "BNMC",
@@ -12156,7 +12226,8 @@
     "Security Name": "BrightSpire Capital, Inc. Class A Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "BRSV",
@@ -12170,7 +12241,8 @@
     "Name": "BRT Apartments Corp. (MD)",
     "Security Name": "BRT Apartments Corp. (MD) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BRTM",
@@ -12207,14 +12279,16 @@
     "Name": "Saba Capital Income & Opportunities Fund SBI",
     "Security Name": "Saba Capital Income & Opportunities Fund SBI",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BRX",
     "Name": "Brixmor Property Group Inc.",
     "Security Name": "Brixmor Property Group Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BRZD",
@@ -12467,7 +12541,8 @@
     "Name": "Blackstone Senior Floating Rate 2027 Term Fund of Beneficial Interest",
     "Security Name": "Blackstone Senior Floating Rate 2027 Term Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BSM",
@@ -12863,7 +12938,8 @@
     "Name": "John Hancock Financial Opportunities Fund",
     "Security Name": "John Hancock Financial Opportunities Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BTOC",
@@ -13412,7 +13488,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "BWIN",
@@ -13541,7 +13618,8 @@
     "Name": "Blackstone Digital Infrastructr Trst Inc",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "BXMT",
@@ -13550,21 +13628,24 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "BXMX",
     "Name": "Nuveen S&P 500 Buy",
     "Security Name": "Nuveen S&P 500 Buy-Write Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BXP",
     "Name": "BXP, Inc.",
     "Security Name": "BXP, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "BXSL",
@@ -13573,7 +13654,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "BY",
@@ -13850,7 +13932,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "CAFG",
@@ -14393,7 +14476,8 @@
     "Security Name": "CBL & Associates Properties, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "CBLL",
@@ -14767,27 +14851,31 @@
     "Security Name": "Crown Castle Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "CCIA",
     "Name": "Carlyle Credit Income Fund 8.75% Series A Preferred Shares due 2028",
     "Security Name": "Carlyle Credit Income Fund 8.75% Series A Preferred Shares due 2028",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CCID",
     "Name": "CARLYLE CREDIT INCOME FUND",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CCIF",
     "Name": "Carlyle Credit Income Fund Shares of Beneficial Interest",
     "Security Name": "Carlyle Credit Income Fund Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CCII",
@@ -15077,7 +15165,8 @@
     "Name": "COPT Defense Properties of Beneficial Interest",
     "Security Name": "COPT Defense Properties Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CDPI",
@@ -15102,13 +15191,15 @@
     "Symbol": "CDR-B",
     "Name": "Cedar Realty Trust, Inc. 7.25% Series B Cumulative Redeemable Preferred Stock",
     "Security Name": "Cedar Realty Trust, Inc. 7.25% Series B Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CDR-C",
     "Name": "Cedar Realty Trust, Inc. 6.50% Series C Cumulative Redeemable Preferred Stock",
     "Security Name": "Cedar Realty Trust, Inc. 6.50% Series C Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CDRE",
@@ -15190,7 +15281,8 @@
     "Name": "The Central and Eastern Europe Fund, Inc. (The)",
     "Security Name": "The Central and Eastern Europe Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CEF",
@@ -15507,7 +15599,8 @@
     "Name": "C1 Fund Inc.",
     "Security Name": "C1 Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CFO",
@@ -15937,7 +16030,8 @@
     "Name": "Community Healthcare Trust Incorporated",
     "Security Name": "Community Healthcare Trust Incorporated Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CHD",
@@ -16058,31 +16152,36 @@
     "Security Name": "Cherry Hill Mortgage Investment Corporation Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "CHMI PRA",
     "Name": "CHERRY HILL MTG INVT CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CHMI PRB",
     "Name": "CHERRY HILL MTG INVT CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CHMI-A",
     "Name": "Cherry Hill Mortgage Investment Corporation 8.20% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Cherry Hill Mortgage Investment Corporation 8.20% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CHMI-B",
     "Name": "Cherry Hill Mortgage Investment Corporation 8.250% Series B Fixed",
     "Security Name": "Cherry Hill Mortgage Investment Corporation 8.250% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CHNL",
@@ -16446,55 +16545,64 @@
     "Name": "Chimera Investment Corporation",
     "Security Name": "Chimera Investment Corporation Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CIM PRA",
     "Name": "CHIMERA INVT CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CIM PRB",
     "Name": "CHIMERA INVT CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CIM PRC",
     "Name": "CHIMERA INVT CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CIM PRD",
     "Name": "CHIMERA INVT CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CIM-A",
     "Name": "Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CIM-B",
     "Name": "Chimera Investment Corporation 8.00% Series B Fixed",
     "Security Name": "Chimera Investment Corporation 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CIM-C",
     "Name": "Chimera Investment Corporation 7.75% Series C Fixed",
     "Security Name": "Chimera Investment Corporation 7.75% Series C Fixed-to-Floating Rate  Cumulative Redeemable  Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CIM-D",
     "Name": "Chimera Investment Corporation 8.00% Series D Fixed",
     "Security Name": "Chimera Investment Corporation 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CIMN",
@@ -16544,13 +16652,15 @@
     "Name": "City Office REIT, Inc.",
     "Security Name": "City Office REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CIO-A",
     "Name": "City Office REIT, Inc. 6.625% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "City Office REIT, Inc. 6.625% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CION",
@@ -16727,13 +16837,15 @@
     "Name": "Chatham Lodging Trust (REIT) of Beneficial Interest",
     "Security Name": "Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CLDT-A",
     "Name": "Chatham Lodging Trust (REIT) 6.625% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "Chatham Lodging Trust (REIT) 6.625% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CLDX",
@@ -16819,7 +16931,8 @@
     "Name": "Cornerstone Strategic Investment Fund, Inc.",
     "Security Name": "Cornerstone Strategic Investment Fund, Inc. Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "CLMB",
@@ -17162,7 +17275,8 @@
     "Country": "USA",
     "Exchange": "NASDAQ",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "CMDB",
@@ -17379,7 +17493,8 @@
     "Security Name": "Claros Mortgage Trust, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "CMTL",
@@ -17985,7 +18100,8 @@
     "Name": "Americold Realty Trust, Inc.",
     "Security Name": "Americold Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "COLL",
@@ -18710,7 +18826,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "CPTAF",
@@ -18984,7 +19101,8 @@
     "Name": "Cornerstone Total Return Fund, Inc. (The)",
     "Security Name": "Cornerstone Total Return Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "CRGO",
@@ -19495,7 +19613,8 @@
     "Name": "D/B/A Centerspace",
     "Security Name": "D/B/A Centerspace Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CSRA",
@@ -19744,13 +19863,15 @@
     "Security Name": "CTO Realty Growth, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "CTO-A",
     "Name": "CTO Realty Growth, Inc. 6.375% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "CTO Realty Growth, Inc. 6.375% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "CTOR",
@@ -19771,7 +19892,8 @@
     "Security Name": "CareTrust REIT, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "CTRI",
@@ -19878,7 +20000,8 @@
     "Name": "CubeSmart",
     "Security Name": "CubeSmart Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CUBI",
@@ -19917,7 +20040,8 @@
     "Name": "Curbline Properties Corp.",
     "Security Name": "Curbline Properties Corp. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CURE",
@@ -19972,7 +20096,8 @@
     "Name": "Cousins Properties Incorporated",
     "Security Name": "Cousins Properties Incorporated Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "CV",
@@ -20834,7 +20959,8 @@
     "Name": "DoubleLine Opportunistic Credit Fund of Beneficial Interest",
     "Security Name": "DoubleLine Opportunistic Credit Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DBMF",
@@ -21368,7 +21494,8 @@
     "Name": "Easterly Government Properties, Inc.",
     "Security Name": "Easterly Government Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DEC",
@@ -21499,7 +21626,8 @@
     "Name": "Douglas Emmett, Inc.",
     "Security Name": "Douglas Emmett, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DELHY",
@@ -21891,7 +22019,8 @@
     "Name": "Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.",
     "Security Name": "Flaherty & Crumrine Dynamic Preferred and Income Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DFSB",
@@ -22087,7 +22216,8 @@
     "Name": "DB Gold Double Long ETN due February 15, 2038",
     "Security Name": "DB Gold Double Long ETN due February 15, 2038",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "DGRE",
@@ -22156,7 +22286,8 @@
     "Name": "DB Gold Short ETN due February 15, 2038",
     "Security Name": "DB Gold Short ETN due February 15, 2038",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "DH",
@@ -22169,7 +22300,8 @@
     "Name": "Diversified Healthcare Trust",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "DHCNI",
@@ -22203,7 +22335,8 @@
     "Name": "BNY Mellon High Yield Strategies Fund",
     "Security Name": "BNY Mellon High Yield Strategies Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DHI",
@@ -22273,7 +22406,8 @@
     "Name": "Credit Suisse High Yield Credit Fund",
     "Security Name": "Credit Suisse High Yield Credit Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "DIA",
@@ -22298,7 +22432,8 @@
     "Name": "Nuveen Dow 30SM Dynamic Overwrite Fund of Beneficial Interest",
     "Security Name": "Nuveen Dow 30SM Dynamic Overwrite Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DIBS",
@@ -22780,43 +22915,50 @@
     "Name": "Digital Realty Trust, Inc.",
     "Security Name": "Digital Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DLR PRJ",
     "Name": "DIGITAL RLTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DLR PRK",
     "Name": "DIGITAL RLTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DLR PRL",
     "Name": "DIGITAL RLTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DLR-J",
     "Name": "Digital Realty Trust, Inc. 5.250% Series J Cumulative Redeemable Preferred Stock",
     "Security Name": "Digital Realty Trust, Inc. 5.250% Series J Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "DLR-K",
     "Name": "Digital Realty Trust, Inc. 5.850% Series K Cumulative Redeemable Preferred Stock, par value $0.01 per share",
     "Security Name": "Digital Realty Trust, Inc. 5.850% Series K Cumulative Redeemable Preferred Stock, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "DLR-L",
     "Name": "Digital Realty Trust, Inc. 5.200% Series L Cumulative Redeemable Preferred Stock",
     "Security Name": "Digital Realty Trust, Inc. 5.200% Series L Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "DLS",
@@ -22864,14 +23006,16 @@
     "Name": "DoubleLine Yield Opportunities Fund of Beneficial Interest",
     "Security Name": "DoubleLine Yield Opportunities Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DMA",
     "Name": "Destra Multi",
     "Security Name": "Destra Multi-Alternative Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DMAA",
@@ -22914,7 +23058,8 @@
     "Name": "BNY Mellon Municipal Bond Infrastructure Fund, Inc.",
     "Security Name": "BNY Mellon Municipal Bond Infrastructure Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DMBS",
@@ -22965,7 +23110,8 @@
     "Name": "Western Asset Mortgage Opportunity Fund Inc.",
     "Security Name": "Western Asset Mortgage Opportunity Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DMRA",
@@ -23129,7 +23275,8 @@
     "Name": "Healthpeak Properties, Inc.",
     "Security Name": "Healthpeak Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DOCK",
@@ -23300,7 +23447,8 @@
     "Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
     "Security Name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DPRE",
@@ -23433,13 +23581,15 @@
     "Name": "Diamondrock Hospitality Company",
     "Security Name": "Diamondrock Hospitality Company Common Stock",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "DRH-A",
     "Name": "Diamondrock Hospitality Company 8.250% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Diamondrock Hospitality Company 8.250% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "DRI",
@@ -23659,14 +23809,16 @@
     "Name": "DoubleLine Income Solutions Fund of Beneficial Interests",
     "Security Name": "DoubleLine Income Solutions Fund Common Shares of Beneficial Interests",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DSM",
     "Name": "BNY Mellon Strategic Municipal Bond Fund, Inc.",
     "Security Name": "BNY Mellon Strategic Municipal Bond Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DSMC",
@@ -23730,7 +23882,8 @@
     "Name": "Blackrock Debt Strategies Fund, Inc.",
     "Security Name": "Blackrock Debt Strategies Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DSWL",
@@ -23847,7 +24000,8 @@
     "Name": "DTF Tax",
     "Security Name": "DTF Tax-Free Income 2028 Term Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DTG",
@@ -24320,19 +24474,22 @@
     "Name": "Dynex Capital, Inc.",
     "Security Name": "Dynex Capital, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DX PRC",
     "Name": "DYNEX CAP INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "DX-C",
     "Name": "Dynex Capital, Inc. 6.900% Series C Fixed",
     "Security Name": "Dynex Capital, Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "DXC",
@@ -24499,7 +24656,8 @@
     "Name": "DB Gold Double Short ETN due February 15, 2038",
     "Security Name": "DB Gold Double Short ETN due February 15, 2038",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "E",
@@ -24515,7 +24673,8 @@
     "Name": "Allspring Income Opportunities Fund",
     "Security Name": "Allspring Income Opportunities Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "EADSY",
@@ -24843,7 +25002,8 @@
     "Name": "Ellsworth Growth and Income Fund Ltd.",
     "Security Name": "Ellsworth Growth and Income Fund Ltd.",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "ECF PRA",
@@ -24855,7 +25015,8 @@
     "Symbol": "ECF-A",
     "Name": "Ellsworth Growth and Income Fund Ltd. 5.25% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)",
     "Security Name": "Ellsworth Growth and Income Fund Ltd. 5.25% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "ECG",
@@ -24981,7 +25142,8 @@
     "Name": "Morgan Stanley Emerging Markets Domestic Debt Fund, Inc.",
     "Security Name": "Morgan Stanley Emerging Markets Domestic Debt Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EDEN",
@@ -24996,7 +25158,8 @@
     "Name": "Virtus Stone Harbor Emerging Markets Income Fund of Beneficial Interest",
     "Security Name": "Virtus Stone Harbor Emerging Markets Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EDGE",
@@ -25166,7 +25329,8 @@
     "Name": "The European Equity Fund, Inc.",
     "Security Name": "The European Equity Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EEE",
@@ -25326,49 +25490,57 @@
     "Name": "Ellington Financial Inc.",
     "Security Name": "Ellington Financial Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EFC PRB",
     "Name": "ELLINGTON FINANCIAL INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EFC PRC",
     "Name": "ELLINGTON FINANCIAL INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EFC PRD",
     "Name": "ELLINGTON FINANCIAL INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EFC-A",
     "Name": "Ellington Financial Inc. 6.750% Series A Fixed",
     "Security Name": "Ellington Financial Inc. 6.750% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EFC-B",
     "Name": "Ellington Financial Inc. 6.250% Series B Fixed",
     "Security Name": "Ellington Financial Inc. 6.250% Series B Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EFC-C",
     "Name": "Ellington Financial Inc. 8.625% Series C Fixed",
     "Security Name": "Ellington Financial Inc. 8.625% Series C Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EFC-D",
     "Name": "Ellington Financial Inc. 7.00% Series D Cumulative Perpetual Redeemable Preferred Stock",
     "Security Name": "Ellington Financial Inc. 7.00% Series D Cumulative Perpetual Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EFFE",
@@ -25435,7 +25607,8 @@
     "Name": "Eaton Vance Senior Floating",
     "Security Name": "Eaton Vance Senior Floating-Rate Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EFRA",
@@ -25602,7 +25775,8 @@
     "Name": "EastGroup Properties, Inc.",
     "Security Name": "EastGroup Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EGUS",
@@ -25723,7 +25897,8 @@
     "Name": "Eagle Point Institutional Income Fund 8.125% Series A Term Preferred Shares Due 2029",
     "Security Name": "Eagle Point Institutional Income Fund 8.125% Series A Term Preferred Shares Due 2029",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EIKN",
@@ -25940,7 +26115,8 @@
     "Security Name": "Elme Communities Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "ELMT",
@@ -26003,7 +26179,8 @@
     "Name": "Equity Lifestyle Properties, Inc.",
     "Security Name": "Equity Lifestyle Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ELTK",
@@ -26162,7 +26339,8 @@
     "Name": "Western Asset Emerging Markets Debt Fund Inc",
     "Security Name": "Western Asset Emerging Markets Debt Fund Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EMDM",
@@ -26223,7 +26401,8 @@
     "Name": "Templeton Emerging Markets Fund",
     "Security Name": "Templeton Emerging Markets Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EMFI",
@@ -26357,12 +26536,14 @@
     "Name": "ClearBridge Energy Midstream Opportunity Fund Inc.",
     "Security Name": "ClearBridge Energy Midstream Opportunity Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EMO.V",
     "Name": "ClearBridge Energy Midstream Opportunity Fund Inc. Rights (expiring October 10, 2025) Rights when issued",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EMOP",
@@ -26700,7 +26881,8 @@
     "Name": "Eaton Vance New York Municipal Bond Fund",
     "Security Name": "Eaton Vance New York Municipal Bond Fund Common Shares of Beneficial Interest, $.01 par value",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "ENZL",
@@ -26735,7 +26917,8 @@
     "Name": "Allspring Global Dividend Opportunity Fund",
     "Security Name": "Allspring Global Dividend Opportunity Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EOG",
@@ -26749,7 +26932,8 @@
     "Name": "Eaton Vance Enhance Equity Income Fund Eaton Vance Enhanced Equity Income Fund Shares of Beneficial Interest",
     "Security Name": "Eaton Vance Enhance Equity Income Fund Eaton Vance Enhanced Equity Income Fund Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EOLS",
@@ -26781,7 +26965,8 @@
     "Name": "Eaton Vance Enhance Equity Income Fund II",
     "Security Name": "Eaton Vance Enhance Equity Income Fund II Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EOSE",
@@ -26947,43 +27132,50 @@
     "Name": "EPR Properties",
     "Security Name": "EPR Properties Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EPR PRC",
     "Name": "EPR PPTYS",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EPR PRE",
     "Name": "EPR PPTYS",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EPR PRG",
     "Name": "EPR PPTYS",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EPR-C",
     "Name": "EPR Properties 5.75% Series C Cumulative Convertible Preferred Shares",
     "Security Name": "EPR Properties 5.75% Series C Cumulative Convertible Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EPR-E",
     "Name": "EPR Properties Series E Cumulative Conv Pfd Shs Ser E",
     "Security Name": "EPR Properties Series E Cumulative Conv Pfd Shs Ser E",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EPR-G",
     "Name": "EPR Properties 5.750% Series G Cumulative Redeemable Preferred Shares",
     "Security Name": "EPR Properties 5.750% Series G Cumulative Redeemable Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "EPRF",
@@ -26998,7 +27190,8 @@
     "Name": "Essential Properties Realty Trust, Inc.",
     "Security Name": "Essential Properties Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EPRX",
@@ -27117,7 +27310,8 @@
     "Country": "USA",
     "Exchange": "NASDAQ",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "EQL",
@@ -27231,7 +27425,8 @@
     "Name": "Allspring Multi",
     "Security Name": "Allspring Multi-Sector Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "ERET",
@@ -27245,7 +27440,8 @@
     "Name": "Allspring Utilities and High Income Fund",
     "Security Name": "Allspring Utilities and High Income Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "ERIC",
@@ -27552,7 +27748,8 @@
     "Name": "Empire State Realty Trust, Inc. Class A",
     "Security Name": "Empire State Realty Trust, Inc. Class A Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ESS",
@@ -27560,7 +27757,8 @@
     "Security Name": "Essex Property Trust, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "ESSC",
@@ -27620,7 +27818,8 @@
     "Name": "Eaton Vance Tax",
     "Security Name": "Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ETCO",
@@ -27656,7 +27855,8 @@
     "Name": "Eaton Vance Tax",
     "Security Name": "Eaton Vance Tax-Advantaged Global Dividend Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ETH",
@@ -27753,7 +27953,8 @@
     "Name": "Eaton Vance Risk",
     "Security Name": "Eaton Vance Risk-Managed Diversified Equity Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ETN",
@@ -27844,14 +28045,16 @@
     "Name": "Eaton Vance Corporation Eaton Vance Tax",
     "Security Name": "Eaton Vance Corporation Eaton Vance Tax-Managed Buy-Write Opportunities Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ETW",
     "Name": "Eaton Vance Corporation Eaton Vance Tax",
     "Security Name": "Eaton Vance Corporation Eaton Vance Tax-Managed Global Buy-Write Opportunites Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ETX",
@@ -27865,7 +28068,8 @@
     "Name": "Eaton Vance Tax",
     "Security Name": "Eaton Vance Tax-Managed Diversified Equity Income Fund Common Shares of Beneficial Interest,",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EU",
@@ -28063,7 +28267,8 @@
     "Name": "Eaton Vance Short Diversified Income Fund Eaton Vance Short Duration Diversified Income Fund of Beneficial Interest",
     "Security Name": "Eaton Vance Short Diversified Income Fund Eaton Vance Short Duration Diversified Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EVGN",
@@ -28135,7 +28340,8 @@
     "Name": "Eaton Vance California Municipal Bond Fund of Beneficial Interest, $.01 par value",
     "Security Name": "Eaton Vance California Municipal Bond Fund Common Shares of Beneficial Interest, $.01 par value",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "EVMN",
@@ -28242,7 +28448,8 @@
     "Name": "Eaton Vance Tax Advantaged Dividend Income Fund of Beneficial Interest",
     "Security Name": "Eaton Vance Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EVTC",
@@ -28281,7 +28488,8 @@
     "Name": "Eaton Vance Limited Duration Income Fund of Beneficial Interest",
     "Security Name": "Eaton Vance Limited Duration Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "EVVTY",
@@ -28646,7 +28854,8 @@
     "Name": "Extra Space Storage Inc",
     "Security Name": "Extra Space Storage Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "EXTR",
@@ -29138,19 +29347,22 @@
     "Name": "Franklin BSP Realty Trust, Inc.",
     "Security Name": "Franklin BSP Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FBRT PRE",
     "Name": "FRANKLIN BSP RLTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FBRT-E",
     "Name": "Franklin BSP Realty Trust, Inc. 7.50% Series E Cumulative Redeemable Preferred Stock",
     "Security Name": "Franklin BSP Realty Trust, Inc. 7.50% Series E Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "FBT",
@@ -29369,7 +29581,8 @@
     "Name": "abrdn Global Income Fund, Inc.",
     "Security Name": "abrdn Global Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "FCOM",
@@ -29402,7 +29615,8 @@
     "Name": "Four Corners Property Trust, Inc.",
     "Security Name": "Four Corners Property Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FCRS",
@@ -30129,7 +30343,8 @@
     "Name": "First Trust Enhanced Equity Income Fund",
     "Security Name": "First Trust Enhanced Equity Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FFAI",
@@ -30149,7 +30364,8 @@
     "Name": "Flaherty & Crumrine Preferred and Income Securities Fund Incorporated",
     "Security Name": "Flaherty & Crumrine Preferred and Income Securities Fund Incorporated",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FFDI",
@@ -31733,7 +31949,8 @@
     "Name": "Federated Hermes Premier Municipal Income Fund",
     "Security Name": "Federated Hermes Premier Municipal Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FMNB",
@@ -31815,7 +32032,8 @@
     "Security Name": "First Trust Motgage Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "FN",
@@ -32088,7 +32306,8 @@
     "Name": "Cohen & Steers Closed",
     "Security Name": "Cohen & Steers Closed-End Opportunity Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FOFO",
@@ -32279,7 +32498,8 @@
     "Name": "First Trust Intermediate Duration Preferred & Income Fund of Beneficial Interest",
     "Security Name": "First Trust Intermediate Duration Preferred & Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FPFD",
@@ -32303,7 +32523,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "FPRO",
@@ -32370,14 +32591,16 @@
     "Name": "First Industrial Realty Trust, Inc.",
     "Security Name": "First Industrial Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FRA",
     "Name": "Blackrock Floating Rate Income Strategies Fund Inc",
     "Security Name": "Blackrock Floating Rate Income Strategies Fund Inc  Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FRAF",
@@ -32490,7 +32713,8 @@
     "Name": "Fermi Inc.",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "FRMM",
@@ -32563,19 +32787,22 @@
     "Name": "Federal Realty Investment Trust",
     "Security Name": "Federal Realty Investment Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FRT PRC",
     "Name": "FEDERAL RLTY INVT TR NEW",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FRT-C",
     "Name": "Federal Realty Investment Trust Depositary Shares, each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share",
     "Security Name": "Federal Realty Investment Trust Depositary Shares, each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "FRTT",
@@ -32797,7 +33024,8 @@
     "Name": "Franklin Street Properties Corp.",
     "Security Name": "Franklin Street Properties Corp. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "FSPC",
@@ -33518,7 +33746,8 @@
     "Name": "FrontView REIT, Inc.",
     "Security Name": "FrontView REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "FVRR",
@@ -33591,7 +33820,8 @@
     "Name": "Fidelity 500 Index Fund",
     "Country": "USA",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "FXB",
@@ -34782,7 +35012,8 @@
     "Name": "Geo Group Inc (The) REIT",
     "Security Name": "Geo Group Inc (The) REIT",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GEOA",
@@ -34874,7 +35105,8 @@
     "Name": "New Germany Fund, Inc. (The)",
     "Security Name": "New Germany Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GFAI",
@@ -35171,7 +35403,8 @@
     "Name": "PGIM Global High Yield Fund, Inc.",
     "Security Name": "PGIM Global High Yield Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GHYB",
@@ -35322,7 +35555,8 @@
     "Symbol": "GIPR",
     "Name": "GENERATION INCOME PPTYS INC",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "GIS",
@@ -35652,7 +35886,8 @@
     "Name": "Clough Global Opportunities Fund",
     "Security Name": "Clough Global Opportunities Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "GLOB",
@@ -35749,14 +35984,16 @@
     "Name": "Gaming and Leisure Properties Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "GLQ",
     "Name": "Clough Global Equity Fund Clough Global Equity Fund of Beneficial Interest",
     "Security Name": "Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "GLRE",
@@ -35828,7 +36065,8 @@
     "Name": "Clough Global Dividend and Income Fund of beneficial interest",
     "Security Name": "Clough Global Dividend and Income Fund Common Shares of beneficial interest",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "GLW",
@@ -36038,13 +36276,15 @@
     "Symbol": "GMRE",
     "Name": "Global Medical REIT Inc.",
     "Security Name": "Global Medical REIT Inc. Common Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GMRE-A",
     "Name": "Global Medical REIT Inc. Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Global Medical REIT Inc. Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GMRS",
@@ -36105,55 +36345,64 @@
     "Name": "Global Net Lease, Inc.",
     "Security Name": "Global Net Lease, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GNL PRA",
     "Name": "GLOBAL NET LEASE INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GNL PRB",
     "Name": "GLOBAL NET LEASE INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GNL PRD",
     "Name": "GLOBAL NET LEASE INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GNL PRE",
     "Name": "GLOBAL NET LEASE INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GNL-A",
     "Name": "Global Net Lease, Inc. 7.25% Series A Cumulative Redeemable Preferred Stock, $0.01 par value per share",
     "Security Name": "Global Net Lease, Inc. 7.25% Series A Cumulative Redeemable Preferred Stock, $0.01 par value per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GNL-B",
     "Name": "Global Net Lease, Inc. 6.875% Series B Cumulative Redeemable Perpetual Preferred Stock",
     "Security Name": "Global Net Lease, Inc. 6.875% Series B Cumulative Redeemable Perpetual Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GNL-D",
     "Name": "Global Net Lease, Inc. 7.50% Series D Cumulative Redeemable Perpetual Preferred Stock",
     "Security Name": "Global Net Lease, Inc. 7.50% Series D Cumulative Redeemable Perpetual Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GNL-E",
     "Name": "Global Net Lease, Inc. 7.375% Series E Cumulative Redeemable Perpetual Preferred Stock",
     "Security Name": "Global Net Lease, Inc. 7.375% Series E Cumulative Redeemable Perpetual Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GNLN",
@@ -36378,7 +36627,8 @@
     "Name": "Gladstone Commercial Corp",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "GOODN",
@@ -36624,19 +36874,22 @@
     "Security Name": "Granite Point Mortgage Trust Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "GPMT PRA",
     "Name": "GRANITE PT MTG TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GPMT-A",
     "Name": "Granite Point Mortgage Trust Inc. 7.00% Series A Fixed",
     "Security Name": "Granite Point Mortgage Trust Inc. 7.00% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "GPN",
@@ -36859,7 +37112,8 @@
     "Name": "Eagle Capital Growth Fund, Inc.",
     "Security Name": "Eagle Capital Growth Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "GRFS",
@@ -37570,7 +37824,8 @@
     "Name": "Getty Realty Corporation",
     "Security Name": "Getty Realty Corporation Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "GUAC",
@@ -38663,7 +38918,8 @@
     "Name": "John Hancock Diversified Income Fund of Beneficial Interest",
     "Security Name": "John Hancock Diversified Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HEQQ",
@@ -38705,7 +38961,8 @@
     "Name": "Herzfeld Credit Income Fund Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "HESAY",
@@ -38830,13 +39087,15 @@
     "Symbol": "HFRO-A",
     "Name": "Highland Opportunities and Income Fund 5.375% Series A Cumulative Preferred Shares",
     "Security Name": "Highland Opportunities and Income Fund 5.375% Series A Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "HFRO-B",
     "Name": "Highland Opportunities and Income Fund 5.375% Series B Cumulative Preferred Shares",
     "Security Name": "Highland Opportunities and Income Fund 5.375% Series B Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "HFSI",
@@ -38925,7 +39184,8 @@
     "Security Name": "Howard Hughes Holdings Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "HHS",
@@ -39121,7 +39381,8 @@
     "Name": "Highwoods Properties, Inc.",
     "Security Name": "Highwoods Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HIX",
@@ -39449,7 +39710,8 @@
     "Name": "Pioneer Diversified High Income Fund, Inc.",
     "Security Name": "Pioneer Diversified High Income Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "HOCPY",
@@ -39710,14 +39972,16 @@
     "Name": "John Hancock Pfd Income Fund II Pfd Income Fund II",
     "Security Name": "John Hancock Pfd Income Fund II Pfd Income Fund II",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HPI",
     "Name": "John Hancock Preferred Income Fund of Beneficial Interest",
     "Security Name": "John Hancock Preferred Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HPK",
@@ -39732,19 +39996,22 @@
     "Security Name": "Hudson Pacific Properties, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "HPP PRC",
     "Name": "HUDSON PACIFIC PROPERTIES INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HPP-C",
     "Name": "Hudson Pacific Properties, Inc. 4.750% Series C Cumulative Redeemable Preferred Stock",
     "Security Name": "Hudson Pacific Properties, Inc. 4.750% Series C Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "HPQ",
@@ -39760,7 +40027,8 @@
     "Name": "John Hancock Preferred Income Fund III Preferred Income Fund III",
     "Security Name": "John Hancock Preferred Income Fund III Preferred Income Fund III",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HQ",
@@ -39814,7 +40082,8 @@
     "Name": "Healthcare Realty Trust Incorporated",
     "Security Name": "Healthcare Realty Trust Incorporated Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HRB",
@@ -39978,7 +40247,8 @@
     "Name": "Host Hotels and Resorts, Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "HSTM",
@@ -40036,7 +40306,8 @@
     "Name": "John Hancock Tax Advantaged Dividend Income Fund of Beneficial Interest",
     "Security Name": "John Hancock Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HTEC",
@@ -40634,7 +40905,8 @@
     "Name": "Western Asset High Yield Opportunity Fund Inc.",
     "Security Name": "Western Asset High Yield Opportunity Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HYIN",
@@ -40764,7 +41036,8 @@
     "Name": "Blackrock Corporate High Yield Fund, Inc.",
     "Security Name": "Blackrock Corporate High Yield Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "HYTI",
@@ -40848,7 +41121,8 @@
     "Name": "Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund of Beneficial Interest",
     "Security Name": "Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IAF",
@@ -41350,7 +41624,8 @@
     "Name": "iShares Bitcoin Trust ETF",
     "Country": "USA",
     "ownWebull": true,
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "IBKR",
@@ -42252,7 +42527,8 @@
     "Name": "India Fund, Inc. (The)",
     "Security Name": "India Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IFNNY",
@@ -42300,7 +42576,8 @@
     "Name": "Voya Global Advantage and Premium Opportunity Fund of Beneficial Interest",
     "Security Name": "Voya Global Advantage and Premium Opportunity Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IGBH",
@@ -42330,7 +42607,8 @@
     "Name": "Voya Global Equity Dividend and Premium Opportunity Fund",
     "Security Name": "Voya Global Equity Dividend and Premium Opportunity Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IGE",
@@ -42444,7 +42722,8 @@
     "Name": "CBRE Global Real Estate Income Fund of Beneficial Interest",
     "Security Name": "CBRE Global Real Estate Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IGRO",
@@ -42632,19 +42911,22 @@
     "Name": "Innovative Industrial Properties, Inc.",
     "Security Name": "Innovative Industrial Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IIPR PRA",
     "Name": "INNOVATIVE INDL PPTYS INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IIPR-A",
     "Name": "Innovative Industrial Properties, Inc. 9.00% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Innovative Industrial Properties, Inc. 9.00% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "IJAN",
@@ -43426,31 +43708,36 @@
     "Name": "Summit Hotel Properties, Inc.",
     "Security Name": "Summit Hotel Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "INN PRE",
     "Name": "SUMMIT HOTEL PPTYS",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "INN PRF",
     "Name": "SUMMIT HOTEL PPTYS",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "INN-E",
     "Name": "Summit Hotel Properties, Inc. 6.250% Series E Cumulative Redeemable Preferred Stock",
     "Security Name": "Summit Hotel Properties, Inc. 6.250% Series E Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "INN-F",
     "Name": "Summit Hotel Properties, Inc. 5.875% Series F Cumulative Redeemable Preferred Stock, $0.01 par value per share",
     "Security Name": "Summit Hotel Properties, Inc. 5.875% Series F Cumulative Redeemable Preferred Stock, $0.01 par value per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "INNV",
@@ -43665,7 +43952,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "INVN",
@@ -44255,7 +44543,8 @@
     "Name": "Iron Mountain Incorporated (Delaware) REIT",
     "Security Name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IRMD",
@@ -44297,7 +44586,8 @@
     "Name": "Independence Realty Trust, Inc.",
     "Security Name": "Independence Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IRTC",
@@ -44378,7 +44668,8 @@
     "Name": "PGIM High Yield Bond Fund, Inc.",
     "Security Name": "PGIM High Yield Bond Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ISEP",
@@ -44887,19 +45178,22 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "IVR PRC",
     "Name": "INVESCO MORTGAGE CAPITAL INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IVR-C",
     "Name": "INVESCO MORTGAGE CAPITAL INC 7.5% Fixed",
     "Security Name": "INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock, Liquation Preference $25.00 per Share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "IVRA",
@@ -44943,7 +45237,8 @@
     "Name": "InvenTrust Properties Corp.",
     "Security Name": "InvenTrust Properties Corp. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "IVV",
@@ -45493,7 +45788,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "JANB",
@@ -45634,7 +45930,8 @@
     "Name": "JBG SMITH Properties",
     "Security Name": "JBG SMITH Properties Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JBHT",
@@ -45734,7 +46031,8 @@
     "Name": "Nuveen Core Equity Alpha Fund of Beneficial Interest",
     "Security Name": "Nuveen Core Equity Alpha Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JCHI",
@@ -45940,7 +46238,8 @@
     "Name": "abrdn Japan Equity Fund, Inc.",
     "Security Name": "abrdn Japan Equity Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JETD",
@@ -45999,7 +46298,8 @@
     "Name": "Nuveen Floating Rate Income Fund",
     "Security Name": "Nuveen Floating Rate Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JFU",
@@ -46018,7 +46318,8 @@
     "Name": "Nuveen Global High Income Fund of Beneficial Interest",
     "Security Name": "Nuveen Global High Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JGLO",
@@ -46321,7 +46622,8 @@
     "Name": "Nuveen Mortgage and Income Fund",
     "Security Name": "Nuveen Mortgage and Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JLVP",
@@ -46393,7 +46695,8 @@
     "Name": "Nuveen Multi",
     "Security Name": "Nuveen Multi-Market Income Fund (MA)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JMMF",
@@ -46542,7 +46845,8 @@
     "Name": "Japan Smaller Capitalization Fund Inc",
     "Security Name": "Japan Smaller Capitalization Fund Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JOJO",
@@ -46600,7 +46904,8 @@
     "Name": "Nuveen Preferred & Income Opportunities Fund",
     "Security Name": "Nuveen Preferred & Income Opportunities Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JPEF",
@@ -46637,7 +46942,8 @@
     "Name": "Nuveen Preferred Securities & Income Opportunities Fund",
     "Security Name": "Nuveen Preferred Securities & Income Opportunities Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JPIB",
@@ -46868,7 +47174,8 @@
     "Name": "Nuveen Credit Strategies Income Fund Shares of Beneficial Interest",
     "Security Name": "Nuveen Credit Strategies Income Fund Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JQUA",
@@ -46891,7 +47198,8 @@
     "Name": "Nuveen Real Asset Income and Growth Fund of Beneficial Interest",
     "Security Name": "Nuveen Real Asset Income and Growth Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JRONY",
@@ -46903,7 +47211,8 @@
     "Name": "Nuveen Real Estate Income Fund of Beneficial Interest",
     "Security Name": "Nuveen Real Estate Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "JRSH",
@@ -47820,7 +48129,8 @@
     "Name": "Korea Fund, Inc. (The) New",
     "Security Name": "Korea Fund, Inc. (The) New Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KFEB",
@@ -47974,25 +48284,29 @@
     "Name": "Kimco Realty Corporation (HC)",
     "Security Name": "Kimco Realty Corporation (HC) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KIM PRL",
     "Name": "KIMCO REALTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KIM PRM",
     "Name": "KIMCO REALTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KIM PRN",
     "Name": "KIMCO REALTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KINS",
@@ -48006,7 +48320,8 @@
     "Name": "KKR Income Opportunities Fund",
     "Security Name": "KKR Income Opportunities Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KITT",
@@ -48688,7 +49003,8 @@
     "Name": "Kilroy Realty Corporation",
     "Security Name": "Kilroy Realty Corporation Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KRE",
@@ -48703,26 +49019,30 @@
     "Name": "KKR Real Estate Finance Trust Inc.",
     "Security Name": "KKR Real Estate Finance Trust Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KREF PRA",
     "Name": "KKR REAL ESTATE FIN TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KREF-A",
     "Name": "KKR Real Estate Finance Trust Inc. 6.50% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "KKR Real Estate Finance Trust Inc. 6.50% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "KRG",
     "Name": "Kite Realty Group Trust",
     "Security Name": "Kite Realty Group Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KRKR",
@@ -49149,7 +49469,8 @@
     "Name": "Kayne Anderson Energy Infrastructure Fund, Inc.",
     "Security Name": "Kayne Anderson Energy Infrastructure Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "KYNB",
@@ -49244,7 +49565,8 @@
     "Name": "Ladder Capital Corp Class A",
     "Security Name": "Ladder Capital Corp Class A Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LAES",
@@ -49279,14 +49601,16 @@
     "Name": "Lamar Advertising Co",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "LAND",
     "Name": "Gladstone Land Corp",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "LANDO",
@@ -49657,7 +49981,8 @@
     "Name": "Cohen & Steers Limited Duration Preferred and Income Fund, Inc.",
     "Security Name": "Cohen & Steers Limited Duration Preferred and Income Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LDRC",
@@ -50080,19 +50405,22 @@
     "Security Name": "Lument Finance Trust, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "LFT PRA",
     "Name": "LUMENT FINANCE TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LFT-A",
     "Name": "Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "LFTO",
@@ -50194,7 +50522,8 @@
     "Name": "Lazard Global Total Return and Income Fund",
     "Security Name": "Lazard Global Total Return and Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LGIH",
@@ -50525,7 +50854,8 @@
     "Name": "Lineage Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "LINK",
@@ -50945,7 +51275,8 @@
     "Name": "Manhattan Bridge Capital Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "LOAR",
@@ -51596,7 +51927,8 @@
     "Name": "LTC Properties, Inc.",
     "Security Name": "LTC Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LTGHY",
@@ -51902,19 +52234,22 @@
     "Name": "LXP Industrial Trust (Maryland REIT)",
     "Security Name": "LXP Industrial Trust Common Stock (Maryland REIT)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LXP PRC",
     "Name": "LXP INDUSTRIAL TRUST",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "LXP-C",
     "Name": "LXP Industrial Trust 6.5% Series C Cumulative Convertible Preferred Stock",
     "Security Name": "LXP Industrial Trust 6.5% Series C Cumulative Convertible Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "LXRX",
@@ -52049,19 +52384,22 @@
     "Name": "Mid",
     "Security Name": "Mid-America Apartment Communities, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MAA PRI",
     "Name": "MID-AMER APT CMNTYS INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MAA-I",
     "Name": "Mid",
     "Security Name": "Mid-America Apartment Communities, Inc. 8.50% Series I Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MAAS",
@@ -52081,7 +52419,8 @@
     "Name": "Macerich Company (The)",
     "Security Name": "Macerich Company (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MACI",
@@ -52892,7 +53231,8 @@
     "Name": "XAI Madison Equity Premium Income Fund",
     "Security Name": "XAI Madison Equity Premium Income Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MCO",
@@ -53237,7 +53577,8 @@
     "Name": "NYLI CBRE Global Infrastructure Megatrends Term Fund",
     "Security Name": "NYLI CBRE Global Infrastructure Megatrends Term Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MEGL",
@@ -53512,31 +53853,36 @@
     "Name": "MFA Financial, Inc.",
     "Security Name": "MFA Financial, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MFA PRB",
     "Name": "MFA FINL INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MFA PRC",
     "Name": "MFA FINL INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MFA-B",
     "Name": "MFA Financial, Inc. Preferred Series B",
     "Security Name": "MFA Financial, Inc. Preferred Series B",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MFA-C",
     "Name": "MFA Financial, Inc. 6.50% Series C Fixed",
     "Security Name": "MFA Financial, Inc. 6.50% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MFAN",
@@ -53960,14 +54306,16 @@
     "Name": "Blackrock MuniHoldings Fund, Inc.",
     "Security Name": "Blackrock MuniHoldings Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MHF",
     "Name": "Western Asset Municipal High Income Fund, Inc.",
     "Security Name": "Western Asset Municipal High Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MHGVY",
@@ -54014,7 +54362,8 @@
     "Name": "Blackrock MuniHoldings New York Quality Fund, Inc.",
     "Security Name": "Blackrock MuniHoldings New York Quality Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MHNC",
@@ -54282,50 +54631,58 @@
     "Name": "AG Mortgage Investment Trust, Inc.",
     "Security Name": "AG Mortgage Investment Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MITT PRA",
     "Name": "TPG MTG INVTS TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MITT PRB",
     "Name": "TPG MTG INVTS TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MITT PRC",
     "Name": "TPG MTG INVTS TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MITT-A",
     "Name": "AG Mortgage Investment Trust, Inc. 8.25% Preferred Series A",
     "Security Name": "AG Mortgage Investment Trust, Inc. 8.25% Preferred Series A",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MITT-B",
     "Name": "AG Mortgage Investment Trust, Inc. Preferred Series B",
     "Security Name": "AG Mortgage Investment Trust, Inc. Preferred Series B",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MITT-C",
     "Name": "AG Mortgage Investment Trust, Inc. 8.00% Series C Fixed",
     "Security Name": "AG Mortgage Investment Trust, Inc. 8.00% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, $0.01 par value per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MIY",
     "Name": "Blackrock MuniYield Michigan Quality Fund, Inc.",
     "Security Name": "Blackrock MuniYield Michigan Quality Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MJ",
@@ -54451,7 +54808,8 @@
     "Country": "USA",
     "Exchange": "NASDAQ",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "MLAA",
@@ -54571,7 +54929,8 @@
     "Name": "ETRACS Alerian MLP Infrastructure Index ETN Series B due April 2, 2040",
     "Security Name": "ETRACS Alerian MLP Infrastructure Index ETN Series B due April 2, 2040",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "MLPD",
@@ -54678,7 +55037,8 @@
     "Name": "NYLI MacKay DefinedTerm Muni Opportunities Fund",
     "Security Name": "NYLI MacKay DefinedTerm Muni Opportunities Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MMED",
@@ -54819,7 +55179,8 @@
     "Name": "Western Asset Managed Municipals Fund, Inc.",
     "Security Name": "Western Asset Managed Municipals Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MMYT",
@@ -55225,7 +55586,8 @@
     "Name": "Blackrock MuniYield Pennsylvania Quality Fund",
     "Security Name": "Blackrock MuniYield Pennsylvania Quality Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MPAA",
@@ -55322,7 +55684,8 @@
     "Name": "Medical Properties Trust Inc",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "MPTI",
@@ -55356,7 +55719,8 @@
     "Symbol": "MPW",
     "Name": "Medical Properties Trust, Inc.",
     "Security Name": "Medical Properties Trust, Inc. common stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "MPWC",
@@ -55410,14 +55774,16 @@
     "Name": "Blackrock MuniYield Quality Fund II, Inc.",
     "Security Name": "Blackrock MuniYield Quality Fund II, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MQY",
     "Name": "Blackrock MuniYield Quality Fund, Inc.",
     "Security Name": "Blackrock MuniYield Quality Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MRA",
@@ -55563,7 +55929,8 @@
     "Name": "Millrose Properties, Inc. Class A",
     "Security Name": "Millrose Properties, Inc. Class A Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MRPLY",
@@ -55817,14 +56184,16 @@
     "Name": "Morgan Stanley Emerging Markets Debt Fund, Inc.",
     "Security Name": "Morgan Stanley Emerging Markets Debt Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MSDL",
     "Name": "Morgan Stanley Direct Lending Fund",
     "Security Name": "Morgan Stanley Direct Lending Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MSEP",
@@ -55950,7 +56319,8 @@
     "Name": "MSC Income Fund, Inc.",
     "Security Name": "MSC Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MSII",
@@ -56484,7 +56854,8 @@
     "Name": "Blackrock MuniAssets Fund, Inc",
     "Security Name": "Blackrock MuniAssets Fund, Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MUB",
@@ -56499,7 +56870,8 @@
     "Name": "Blackrock MuniHoldings California Quality Fund, Inc.",
     "Security Name": "Blackrock MuniHoldings California Quality Fund, Inc.  Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MUD",
@@ -56513,7 +56885,8 @@
     "Name": "Blackrock MuniHoldings Quality Fund II, Inc.",
     "Security Name": "Blackrock MuniHoldings Quality Fund II, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MUEL",
@@ -56549,7 +56922,8 @@
     "Name": "Blackrock MuniHoldings New Jersey Quality Fund, Inc.",
     "Security Name": "Blackrock MuniHoldings New Jersey Quality Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MULL",
@@ -56751,7 +57125,8 @@
     "Name": "Blackrock MuniVest Fund, Inc.",
     "Security Name": "Blackrock MuniVest Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MVFD",
@@ -56824,7 +57199,8 @@
     "Name": "Blackrock MuniVest Fund II, Inc.",
     "Security Name": "Blackrock MuniVest Fund II, Inc.  Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MVV",
@@ -56899,14 +57275,16 @@
     "Name": "Mexico Equity and Income Fund, Inc. (The)",
     "Security Name": "Mexico Equity and Income Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MXF",
     "Name": "Mexico Fund, Inc. (The)",
     "Security Name": "Mexico Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MXI",
@@ -57004,7 +57382,8 @@
     "Name": "Blackrock MuniYield Fund, Inc.",
     "Security Name": "Blackrock MuniYield Fund, Inc.  Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MYE",
@@ -57058,7 +57437,8 @@
     "Name": "Blackrock MuniYield Quality Fund III, Inc",
     "Security Name": "Blackrock MuniYield Quality Fund III, Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MYLD",
@@ -57115,7 +57495,8 @@
     "Name": "Blackrock MuniYield New York Quality Fund, Inc.",
     "Security Name": "Blackrock MuniYield New York Quality Fund, Inc.Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "MYND",
@@ -57226,7 +57607,8 @@
     "Name": "Nuveen California Quality Municipal Income Fund",
     "Security Name": "Nuveen California Quality Municipal Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NACP",
@@ -57241,7 +57623,8 @@
     "Name": "Nuveen Quality Municipal Income Fund",
     "Security Name": "Nuveen Quality Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NAGE",
@@ -57299,7 +57682,8 @@
     "Name": "Nuveen New York Quality Municipal Income Fund",
     "Security Name": "Nuveen New York Quality Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NANC",
@@ -57400,7 +57784,8 @@
     "Name": "Nuveen Arizona Quality Municipal Income Fund",
     "Security Name": "Nuveen Arizona Quality Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NB",
@@ -57413,7 +57798,8 @@
     "Name": "Nuveen Taxable Municipal Income Fund of Beneficial Interest",
     "Security Name": "Nuveen Taxable Municipal Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NBBK",
@@ -57490,7 +57876,8 @@
     "Name": "Neuberger Berman Municipal Fund Inc.",
     "Security Name": "Neuberger Berman Municipal Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "NBHC",
@@ -57631,7 +58018,8 @@
     "Name": "Neuberger Berman Next Generation Connectivity Fund Inc.",
     "Security Name": "Neuberger Berman Next Generation Connectivity Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NBY",
@@ -57651,7 +58039,8 @@
     "Name": "Nuveen California Municipal Value Fund",
     "Security Name": "Nuveen California Municipal Value Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NCBDY",
@@ -57779,7 +58168,8 @@
     "Name": "Virtus Convertible & Income Fund of Beneficial Interest",
     "Security Name": "Virtus Convertible & Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NCV PRA",
@@ -57791,14 +58181,16 @@
     "Symbol": "NCV-A",
     "Name": "Virtus Convertible & Income Fund 5.625% Series A Cumulative Preferred Shares",
     "Security Name": "Virtus Convertible & Income Fund 5.625% Series A Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NCZ",
     "Name": "Virtus Convertible & Income Fund II of Beneficial Interest",
     "Security Name": "Virtus Convertible & Income Fund II Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NCZ PRA",
@@ -57810,7 +58202,8 @@
     "Symbol": "NCZ-A",
     "Name": "Virtus Convertible & Income Fund II 5.50% Series A Cumulative Preferred Shares",
     "Security Name": "Virtus Convertible & Income Fund II 5.50% Series A Cumulative Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NDAA",
@@ -57872,7 +58265,8 @@
     "Name": "Nuveen Dynamic Municipal Opportunities Fund of Beneficial Interest",
     "Security Name": "Nuveen Dynamic Municipal Opportunities Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NDOW",
@@ -57925,7 +58319,8 @@
     "Name": "Nuveen AMT",
     "Security Name": "Nuveen AMT-Free Quality Municipal Income Fund Common Shares of Beneficial Interest Par Value $.01",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NEAR",
@@ -58288,7 +58683,8 @@
     "Name": "Virtus Dividend, Interest & Premium Strategy Fund of Beneficial Interest",
     "Security Name": "Virtus Dividend, Interest & Premium Strategy Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NFLP",
@@ -58490,7 +58886,8 @@
     "Name": "National Health Investors, Inc.",
     "Security Name": "National Health Investors, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NHIC",
@@ -58509,7 +58906,8 @@
     "Name": "National Healthcare Properties Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "NHPBP",
@@ -58522,7 +58920,8 @@
     "Name": "Neuberger Berman High Yield Strategies Fund",
     "Security Name": "Neuberger Berman High Yield Strategies Fund",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "NHTC",
@@ -58589,7 +58988,8 @@
     "Name": "Virtus Equity & Convertible Income Fund of Beneficial Interest",
     "Security Name": "Virtus Equity & Convertible Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NIHI",
@@ -58616,7 +59016,8 @@
     "Name": "Nuveen Select Maturities Municipal Fund",
     "Security Name": "Nuveen Select Maturities Municipal Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NINE",
@@ -58785,7 +59186,8 @@
     "Name": "Nuveen California AMT",
     "Security Name": "Nuveen California AMT-Free Quality Municipal Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NL",
@@ -58799,7 +59201,8 @@
     "Name": "Net Lease Office Properties of Beneficial Interest",
     "Security Name": "Net Lease Office Properties Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NLR",
@@ -58826,55 +59229,64 @@
     "Name": "Annaly Capital Management Inc.",
     "Security Name": "Annaly Capital Management Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NLY PRF",
     "Name": "ANNALY CAPITAL MANAGEMENT INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NLY PRG",
     "Name": "ANNALY CAPITAL MANAGEMENT INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NLY PRI",
     "Name": "ANNALY CAPITAL MANAGEMENT INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NLY PRJ",
     "Name": "ANNALY CAPITAL MANAGEMENT INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NLY-F",
     "Name": "Annaly Capital Management Inc 6.95% Series F",
     "Security Name": "Annaly Capital Management Inc 6.95% Series F",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NLY-G",
     "Name": "Annaly Capital Management Inc 6.50% Series G Fixed",
     "Security Name": "Annaly Capital Management Inc 6.50% Series G Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NLY-I",
     "Name": "Annaly Capital Management Inc 6.750% Series I Fixed",
     "Security Name": "Annaly Capital Management Inc 6.750% Series I Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NLY-J",
     "Name": "Annaly Capital Management Inc. 8.875% Series J Fixed",
     "Security Name": "Annaly Capital Management Inc. 8.875% Series J Fixed-Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NMAD",
@@ -58887,7 +59299,8 @@
     "Name": "Nuveen Multi",
     "Security Name": "Nuveen Multi-Asset Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NMAR",
@@ -58932,7 +59345,8 @@
     "Name": "Nuveen Municipal Credit Opportunities Fund",
     "Security Name": "Nuveen Municipal Credit Opportunities Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NMFC",
@@ -58959,7 +59373,8 @@
     "Name": "Nuveen Municipal Income Fund, Inc.",
     "Security Name": "Nuveen Municipal Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NMIH",
@@ -58972,7 +59387,8 @@
     "Name": "Neuberger Berman Energy Infrastructure and Income Fund Inc.",
     "Security Name": "Neuberger Berman Energy Infrastructure and Income Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "NMM",
@@ -59014,14 +59430,16 @@
     "Name": "Nuveen Minnesota Quality Municipal Income Fund",
     "Security Name": "Nuveen Minnesota Quality Municipal Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NMT",
     "Name": "Nuveen Massachusetts Quality Municipal Income Fund",
     "Security Name": "Nuveen Massachusetts Quality Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NMTC",
@@ -59034,7 +59452,8 @@
     "Name": "Nuveen Municipal High Income Opportunity Fund, $0.01 par value, per share",
     "Security Name": "Nuveen Municipal High Income Opportunity Fund Common Stock, $0.01 par value, per share",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NN",
@@ -59077,7 +59496,8 @@
     "Name": "NNN REIT, Inc.",
     "Security Name": "NNN REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NNNN",
@@ -59112,7 +59532,8 @@
     "Name": "Nuveen New York Municipal Value Fund",
     "Security Name": "Nuveen New York Municipal Value Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NOA",
@@ -59200,7 +59621,8 @@
     "Name": "Nuveen Missouri Quality Municipal Income Fund",
     "Security Name": "Nuveen Missouri Quality Municipal Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NOMA",
@@ -59324,14 +59746,16 @@
     "Name": "Nuveen Core Plus Impact Fund of Beneficial Interest",
     "Security Name": "Nuveen Core Plus Impact Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NPFD",
     "Name": "Nuveen Variable Rate Preferred & Income Fund",
     "Security Name": "Nuveen Variable Rate Preferred & Income Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NPFE",
@@ -59396,7 +59820,8 @@
     "Name": "Nuveen Virginia Quality Municipal Income Fund",
     "Security Name": "Nuveen Virginia Quality Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NPWR",
@@ -59423,7 +59848,8 @@
     "Name": "Nuveen Pennsylvania Quality Municipal Income Fund",
     "Security Name": "Nuveen Pennsylvania Quality Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NRAM",
@@ -59463,19 +59889,22 @@
     "Name": "NexPoint Real Estate Finance, Inc.",
     "Security Name": "NexPoint Real Estate Finance, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NREF PRA",
     "Name": "NEXPOINT REAL ESTATE FIN INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NREF-A",
     "Name": "NexPoint Real Estate Finance, Inc. 8.50% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "NexPoint Real Estate Finance, Inc. 8.50% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NRES",
@@ -59537,14 +59966,16 @@
     "Name": "Nuveen New York AMT",
     "Security Name": "Nuveen New York AMT-Free Quality Municipal Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NRO",
     "Name": "Neuberger Berman Real Estate Securities Income Fund, Inc.",
     "Security Name": "Neuberger Berman Real Estate Securities Income Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "NRP",
@@ -59599,19 +60030,22 @@
     "Name": "National Storage Affiliates Trust of Beneficial Interest",
     "Security Name": "National Storage Affiliates Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NSA-A",
     "Name": "National Storage Affiliates Trust 6.000% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest (Liquidation Preference $25.00 per share)",
     "Security Name": "National Storage Affiliates Trust 6.000% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest (Liquidation Preference $25.00 per share)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NSA-B",
     "Name": "National Storage Affiliates Trust 6.000% Series B Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "National Storage Affiliates Trust 6.000% Series B Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NSAI",
@@ -59910,7 +60344,8 @@
     "Name": "NetSTREIT Corp.",
     "Security Name": "NetSTREIT Corp. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NTSX",
@@ -60197,7 +60632,8 @@
     "Name": "Nuveen Municipal Value Fund, Inc.",
     "Security Name": "Nuveen Municipal Value Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NUVB",
@@ -60216,7 +60652,8 @@
     "Name": "Nuveen AMT",
     "Security Name": "Nuveen AMT-Free Municipal Value Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NUWE",
@@ -60388,7 +60825,8 @@
     "Name": "Nuveen AMT",
     "Security Name": "Nuveen AMT-Free Municipal Credit Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NVGS",
@@ -60687,19 +61125,22 @@
     "Name": "NexPoint Diversified Real Estate Trust",
     "Security Name": "NexPoint Diversified Real Estate Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NXDT PRA",
     "Name": "NEXPOINT DIVERSIFIED REL ET TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NXDT-A",
     "Name": "NexPoint Diversified Real Estate Trust 5.50% Series A Cumulative Preferred Shares ($25.00 liquidation preference per share)",
     "Security Name": "NexPoint Diversified Real Estate Trust 5.50% Series A Cumulative Preferred Shares ($25.00 liquidation preference per share)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "NXE",
@@ -60713,7 +61154,8 @@
     "Name": "NXG NextGen Infrastructure Income Fund of Beneficial Interest",
     "Security Name": "NXG NextGen Infrastructure Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NXGL",
@@ -60732,7 +61174,8 @@
     "Name": "Nuveen New Jersey Qualified Municipal Fund",
     "Security Name": "Nuveen New Jersey Qualified Municipal Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NXL",
@@ -60786,7 +61229,8 @@
     "Name": "NexPoint Residential Trust, Inc.",
     "Security Name": "NexPoint Residential Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "NXST",
@@ -60942,7 +61386,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "OABI",
@@ -61617,7 +62062,8 @@
     "Name": "Omega Healthcare Investors, Inc.",
     "Security Name": "Omega Healthcare Investors, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "OHNO",
@@ -61809,7 +62255,8 @@
     "Name": "One Liberty Properties, Inc.",
     "Security Name": "One Liberty Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "OLSI",
@@ -62090,7 +62537,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "ONLN",
@@ -62268,7 +62716,8 @@
     "Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.",
     "Security Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "OPP PRA",
@@ -62292,19 +62741,22 @@
     "Symbol": "OPP-A",
     "Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 4.375% Series A Cumulative Preferred Stock",
     "Security Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 4.375% Series A Cumulative Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "OPP-B",
     "Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 4.75% Series B Cumulative Preferred Stock",
     "Security Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 4.75% Series B Cumulative Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "OPP-C",
     "Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share)",
     "Security Name": "RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share)",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "OPPE",
@@ -62432,7 +62884,8 @@
     "Name": "Orchid Island Capital, Inc.",
     "Security Name": "Orchid Island Capital, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "ORCL",
@@ -62797,7 +63250,8 @@
     "Name": "OUTFRONT Media Inc.",
     "Security Name": "OUTFRONT Media Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "OVB",
@@ -63178,7 +63632,8 @@
     "Name": "Western Asset Investment Grade Income Fund Inc.",
     "Security Name": "Western Asset Investment Grade Income Fund Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PAII",
@@ -63432,7 +63887,8 @@
     "Name": "PIMCO Access Income Fund of Beneficial Interest",
     "Security Name": "PIMCO Access Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PAY",
@@ -63905,7 +64361,8 @@
     "Name": "High Income Securities Fund",
     "Security Name": "High Income Securities Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PCFI",
@@ -64112,7 +64569,8 @@
     "Name": "PCM Fund, Inc.",
     "Security Name": "PCM Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PCMM",
@@ -64126,7 +64584,8 @@
     "Name": "Pimco Corporate & Income Strategy Fund",
     "Security Name": "Pimco Corporate & Income Strategy Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PCOR",
@@ -64168,7 +64627,8 @@
     "Name": "PIMCO California Municipal Income Fund",
     "Security Name": "PIMCO California Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PCR",
@@ -64264,7 +64724,8 @@
     "Name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF",
     "Country": "USA",
     "ownRobinhood": true,
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "PDC",
@@ -64319,7 +64780,8 @@
     "Name": "PIMCO Dynamic Income Fund",
     "Security Name": "PIMCO Dynamic Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PDLB",
@@ -64332,7 +64794,8 @@
     "Name": "Piedmont Realty Trust, Inc. Class A",
     "Security Name": "Piedmont Realty Trust, Inc. Class A Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PDN",
@@ -64347,7 +64810,8 @@
     "Name": "PIMCO Dynamic Income Opportunities Fund of Beneficial Interest",
     "Security Name": "PIMCO Dynamic Income Opportunities Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PDP",
@@ -64381,14 +64845,16 @@
     "Name": "John Hancock Premium Dividend Fund",
     "Security Name": "John Hancock Premium Dividend Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PDX",
     "Name": "PIMCO Dynamic Income Strategy Fund of Beneficial Interest",
     "Security Name": "PIMCO Dynamic Income Strategy Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PDYN",
@@ -64401,49 +64867,57 @@
     "Name": "Pebblebrook Hotel Trust of Beneficial Interest",
     "Security Name": "Pebblebrook Hotel Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PEB PRE",
     "Name": "PEBBLEBROOK HOTEL TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PEB PRF",
     "Name": "PEBBLEBROOK HOTEL TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PEB PRG",
     "Name": "PEBBLEBROOK HOTEL TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PEB-E",
     "Name": "Pebblebrook Hotel Trust 6.375% Series E Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "Pebblebrook Hotel Trust 6.375% Series E Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PEB-F",
     "Name": "Pebblebrook Hotel Trust 6.3% Series F Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "Pebblebrook Hotel Trust 6.3% Series F Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PEB-G",
     "Name": "Pebblebrook Hotel Trust 6.375% Series G Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "Pebblebrook Hotel Trust 6.375% Series G Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PEB-H",
     "Name": "Pebblebrook Hotel Trust 5.700% Series H Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "Pebblebrook Hotel Trust 5.700% Series H Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PEBK",
@@ -64470,7 +64944,8 @@
     "Name": "Phillips Edison & Co Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "PED",
@@ -64541,7 +65016,8 @@
     "Name": "Adams Natural Resources Fund, Inc.",
     "Security Name": "Adams Natural Resources Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PEP",
@@ -64669,7 +65145,8 @@
     "Name": "Flaherty & Crumrine Preferred and Income Fund Incorporated",
     "Security Name": "Flaherty & Crumrine Preferred and Income Fund Incorporated",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PFDE",
@@ -64723,7 +65200,8 @@
     "Name": "ETRACS 2xMonthly Pay Leveraged Preferred Stock Index ETN due September 25, 2048",
     "Security Name": "ETRACS 2xMonthly Pay Leveraged Preferred Stock Index ETN due September 25, 2048",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "PFFR",
@@ -64797,7 +65275,8 @@
     "Name": "PIMCO Income Strategy Fund Shares of Beneficial Interest",
     "Security Name": "PIMCO Income Strategy Fund Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PFLA",
@@ -64832,14 +65311,16 @@
     "Name": "PIMCO Income Strategy Fund II",
     "Security Name": "PIMCO Income Strategy Fund II",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PFO",
     "Name": "Flaherty & Crumrine Preferred and Income Opportunity Fund Incorporated",
     "Security Name": "Flaherty & Crumrine Preferred and Income Opportunity Fund Incorporated",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PFOE",
@@ -64967,7 +65448,8 @@
     "Name": "Pimco Global StocksPlus & Income Fund of Beneficial Interest",
     "Security Name": "Pimco Global StocksPlus & Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PGR",
@@ -65019,7 +65501,8 @@
     "Name": "Principal Real Estate Income Fund of Beneficial Interest",
     "Security Name": "Principal Real Estate Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PH",
@@ -65055,7 +65538,8 @@
     "Name": "Pioneer Floating Rate Fund, Inc.",
     "Security Name": "Pioneer Floating Rate Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PHDG",
@@ -65115,7 +65599,8 @@
     "Name": "Pimco High Income Fund",
     "Security Name": "Pimco High Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PHM",
@@ -65163,7 +65648,8 @@
     "Name": "Pioneer High Income Fund, Inc.",
     "Security Name": "Pioneer High Income Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PHUN",
@@ -65314,13 +65800,15 @@
     "Name": "Alpine Income Property Trust, Inc.",
     "Security Name": "Alpine Income Property Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PINE PRA",
     "Name": "ALPINE INCOME PPTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PINE-A",
@@ -65486,7 +65974,8 @@
     "Name": "Park Hotels & Resorts Inc.",
     "Security Name": "Park Hotels & Resorts Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PKB",
@@ -65544,7 +66033,8 @@
     "Name": "Peakstone Realty Trust",
     "Security Name": "Peakstone Realty Trust Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PKW",
@@ -65645,7 +66135,8 @@
     "Security Name": "Prologis, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "PLDR",
@@ -65904,7 +66395,8 @@
     "Name": "Plymouth Industrial REIT, Inc.",
     "Security Name": "Plymouth Industrial REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PLYX",
@@ -66057,7 +66549,8 @@
     "Name": "Pimco Municipal Income Fund II of Beneficial Interest",
     "Security Name": "Pimco Municipal Income Fund II Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMM",
@@ -66144,43 +66637,50 @@
     "Name": "PennyMac Mortgage Investment Trust of Beneficial Interest",
     "Security Name": "PennyMac Mortgage Investment Trust Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMT PRA",
     "Name": "PENNYMAC MTG INVT TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMT PRB",
     "Name": "PENNYMAC MTG INVT TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMT PRC",
     "Name": "PENNYMAC MTG INVT TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PMT-A",
     "Name": "PennyMac Mortgage Investment Trust 8.125% Series A Fixed",
     "Security Name": "PennyMac Mortgage Investment Trust 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PMT-B",
     "Name": "PennyMac Mortgage Investment Trust 8.00% Series B Fixed",
     "Security Name": "PennyMac Mortgage Investment Trust 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PMT-C",
     "Name": "PennyMac Mortgage Investment Trust 6.75% Series C Cumulative Redeemable Preferred Shares of Beneficial Interest",
     "Security Name": "PennyMac Mortgage Investment Trust 6.75% Series C Cumulative Redeemable Preferred Shares of Beneficial Interest",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PMTL",
@@ -66278,7 +66778,8 @@
     "Name": "Pimco New York Municipal Income Fund II of Beneficial Interest",
     "Security Name": "Pimco New York Municipal Income Fund II Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PNNT",
@@ -66896,25 +67397,29 @@
     "Symbol": "PRIF-D",
     "Name": "Priority Income Fund, Inc. 7.00% Series D Term Preferred Stock due 2029",
     "Security Name": "Priority Income Fund, Inc. 7.00% Series D Term Preferred Stock due 2029",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PRIF-J",
     "Name": "Priority Income Fund, Inc. 6.000% Series J Term Preferred Stock due 2028",
     "Security Name": "Priority Income Fund, Inc. 6.000% Series J Term Preferred Stock due 2028",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PRIF-K",
     "Name": "Priority Income Fund, Inc. 7.000% Series K Cumulative Preferred Stock",
     "Security Name": "Priority Income Fund, Inc. 7.000% Series K Cumulative Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PRIF-L",
     "Name": "Priority Income Fund, Inc. 6.375% Series L Term Preferred Stock Due 2029",
     "Security Name": "Priority Income Fund, Inc. 6.375% Series L Term Preferred Stock Due 2029",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PRIM",
@@ -67197,181 +67702,211 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRF",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRG",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRH",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRI",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRJ",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRK",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRL",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRN",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRO",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRP",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRQ",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRR",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRS",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRT",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA PRU",
     "Name": "PUBLIC STORAGE",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-F",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 5.15% Cumulative Preferred Share of Beneficial Interest, Series F, par value $0.01 per share",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 5.15% Cumulative Preferred Share of Beneficial Interest, Series F, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-G",
     "Name": "Public Storage Depositary Shares, Each Representing 1/1,000 of a 5.05% Cumulative Preferred Share of Beneficial Interest, Series G",
     "Security Name": "Public Storage Depositary Shares, Each Representing 1/1,000 of a 5.05% Cumulative Preferred Share of Beneficial Interest, Series G",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-H",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest, Series H",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest, Series H",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-I",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.875% Cumulative Preferred Share of Beneficial Interest, Series I, par value $0.01 per share",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.875% Cumulative Preferred Share of Beneficial Interest, Series I, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-J",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.700% Cumulative Preferred Share of Beneficial Interest, Series J, par value $0.01 per share",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.700% Cumulative Preferred Share of Beneficial Interest, Series J, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-K",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.75% Cumulative Preferred Share of Beneficial Interest, Series K",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.75% Cumulative Preferred Share of Beneficial Interest, Series K",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-L",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.625% Cumulative Preferred Share of Beneficial Interest, Series L, par value $0.01 per share",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.625% Cumulative Preferred Share of Beneficial Interest, Series L, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-M",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.125% Cumulative Preferred Share of Beneficial Interest, Series M",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.125% Cumulative Preferred Share of Beneficial Interest, Series M",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-N",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 3.875% Cumulative Preferred Share of Beneficial Interest, Series N",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 3.875% Cumulative Preferred Share of Beneficial Interest, Series N",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-O",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 3.900% Cumulative Preferred Share of Beneficial Interest, Series O",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 3.900% Cumulative Preferred Share of Beneficial Interest, Series O",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-P",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.000% Cumulative Preferred Share of Bene cial Interest, Series P",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.000% Cumulative Preferred Share of Bene cial Interest, Series P",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-Q",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 3.950% Cumulative Preferred Share of Beneficial Interest, Series Q, par value $0.01 per share",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 3.950% Cumulative Preferred Share of Beneficial Interest, Series Q, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-R",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.00% Cumulative Preferred Share of Bene cial Interest, Series R",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.00% Cumulative Preferred Share of Bene cial Interest, Series R",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSA-S",
     "Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.100% Cumulative Preferred Share of Beneficial Interest, Series S",
     "Security Name": "Public Storage Depositary Shares Each Representing 1/1,000 of a 4.100% Cumulative Preferred Share of Beneficial Interest, Series S",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PSBD",
@@ -67530,7 +68065,8 @@
     "Name": "Cohen & Steers Select Preferred and Income Fund, Inc.",
     "Security Name": "Cohen & Steers Select Preferred and Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSFD",
@@ -67809,7 +68345,8 @@
     "Name": "Postal Realty Trust, Inc. Class A",
     "Security Name": "Postal Realty Trust, Inc. Class A Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PSTP",
@@ -67852,7 +68389,8 @@
     "Name": "Cohen & Steers Tax",
     "Security Name": "Cohen & Steers Tax-Advantaged Preferred Securities and Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PTAC",
@@ -68040,7 +68578,8 @@
     "Name": "Pimco Corporate & Income Opportunity Fund",
     "Security Name": "Pimco Corporate & Income Opportunity Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "PUBGY",
@@ -68205,19 +68744,22 @@
     "Name": "Power REIT (MD)",
     "Security Name": "Power REIT (MD) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "PW PRA",
     "Name": "POWER REIT",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "PW-A",
     "Name": "Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock",
     "Security Name": "Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "PWB",
@@ -69282,7 +69824,8 @@
     "Name": "Defiance 2X Daily Long Pure Quantum ETF",
     "Country": "USA",
     "ownEtrade": true,
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "QPX",
@@ -69966,7 +70509,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "RAA",
@@ -70347,25 +70891,29 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "RC PRC",
     "Name": "READY CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RC-C",
     "Name": "Ready Capital Corporation 6.25% Series C Cumulative Convertible Preferred Stock",
     "Security Name": "Ready Capital Corporation 6.25% Series C Cumulative Convertible Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RC-E",
     "Name": "Ready Capital Corporation 6.50% Series E Cumulative Redeemable Preferred Stock",
     "Security Name": "Ready Capital Corporation 6.50% Series E Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RCAT",
@@ -70418,7 +70966,8 @@
     "Name": "RENN Fund, Inc",
     "Security Name": "RENN Fund, Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "RCGE",
@@ -70499,7 +71048,8 @@
     "Name": "PIMCO Strategic Income Fund, Inc.",
     "Security Name": "PIMCO Strategic Income Fund, Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RCT",
@@ -70798,7 +71348,8 @@
     "Name": "Chicago Atlantic Real Estate Finance Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "REFR",
@@ -70811,7 +71362,8 @@
     "Name": "Regency Centers Corp",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "REGL",
@@ -71046,31 +71598,36 @@
     "Name": "Rexford Industrial Realty, Inc.",
     "Security Name": "Rexford Industrial Realty, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "REXR PRB",
     "Name": "REXFORD INDL RLTY INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "REXR PRC",
     "Name": "REXFORD INDL RLTY INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "REXR-B",
     "Name": "Rexford Industrial Realty, Inc. 5.875% Series B Cumulative Redeemable Preferred Stock",
     "Security Name": "Rexford Industrial Realty, Inc. 5.875% Series B Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "REXR-C",
     "Name": "Rexford Industrial Realty, Inc. 5.625% Series C Cumulative Redeemable Preferred Stock, par value $0.01 per share",
     "Security Name": "Rexford Industrial Realty, Inc. 5.625% Series C Cumulative Redeemable Preferred Stock, par value $0.01 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "REYN",
@@ -71172,7 +71729,8 @@
     "Name": "Cohen & Steers Total Return Realty Fund, Inc.",
     "Security Name": "Cohen & Steers Total Return Realty Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RFIL",
@@ -71213,14 +71771,16 @@
     "Name": "RiverNorth Flexible Municipal Income Fund, Inc.",
     "Security Name": "RiverNorth Flexible Municipal Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RFMZ",
     "Name": "RiverNorth Flexible Municipal Income Fund II, Inc.",
     "Security Name": "RiverNorth Flexible Municipal Income Fund II, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RFV",
@@ -71388,7 +71948,8 @@
     "Name": "Ryman Hospitality Properties, Inc. (REIT)",
     "Security Name": "Ryman Hospitality Properties, Inc. (REIT)",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RHRX",
@@ -71597,74 +72158,86 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "RITM PRA",
     "Name": "RITHM CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RITM PRB",
     "Name": "RITHM CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RITM PRC",
     "Name": "RITHM CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RITM PRD",
     "Name": "RITHM CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RITM PRE",
     "Name": "RITHM CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RITM PRF",
     "Name": "RITHM CAPITAL CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RITM-A",
     "Name": "Rithm Capital Corp. 7.50% Series A Fixed",
     "Security Name": "Rithm Capital Corp. 7.50% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RITM-B",
     "Name": "Rithm Capital Corp. 7.125% Series B Fixed",
     "Security Name": "Rithm Capital Corp. 7.125% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RITM-C",
     "Name": "Rithm Capital Corp. 6.375% Series C Fixed",
     "Security Name": "Rithm Capital Corp. 6.375% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RITM-D",
     "Name": "Rithm Capital Corp. 7.00% Fixed",
     "Security Name": "Rithm Capital Corp. 7.00% Fixed-Rate Reset Series D Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RIV",
     "Name": "RiverNorth Opportunities Fund, Inc.",
     "Security Name": "RiverNorth Opportunities Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RIV PRA",
@@ -71676,12 +72249,14 @@
     "Symbol": "RIV-A",
     "Name": "RiverNorth Opportunities Fund, Inc. 6.00% Series A Perpetual Preferred Stock",
     "Security Name": "RiverNorth Opportunities Fund, Inc. 6.00% Series A Perpetual Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RIV.V",
     "Name": "RiverNorth Opportunities Fund, Inc. Rights (expiring October 6, 2025) Rights when issued",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RIVC",
@@ -71855,19 +72430,22 @@
     "Name": "RLJ Lodging Trust of Beneficial Interest $0.01 par value",
     "Security Name": "RLJ Lodging Trust Common Shares of Beneficial Interest $0.01 par value",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RLJ PRA",
     "Name": "RLJ LODGING TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RLJ-A",
     "Name": "RLJ Lodging Trust $1.95 Series A Cumulative Convertible  Preferred Shares",
     "Security Name": "RLJ Lodging Trust $1.95 Series A Cumulative Convertible  Preferred Shares",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RLMD",
@@ -71880,7 +72458,8 @@
     "Name": "Cohen & Steers Real Estate Opportunities and Income Fund of Beneficial Interest",
     "Security Name": "Cohen & Steers Real Estate Opportunities and Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RLX",
@@ -71985,7 +72564,8 @@
     "Name": "RiverNorth Opportunistic Municipal Income Fund, Inc.",
     "Security Name": "RiverNorth Opportunistic Municipal Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RMIF",
@@ -72012,7 +72592,8 @@
     "Name": "RiverNorth Managed Duration Municipal Income Fund, Inc.",
     "Security Name": "RiverNorth Managed Duration Municipal Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RMME",
@@ -72026,7 +72607,8 @@
     "Name": "RiverNorth Managed Duration Municipal Income Fund II, Inc.",
     "Security Name": "RiverNorth Managed Duration Municipal Income Fund II, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RMNI",
@@ -72183,7 +72765,8 @@
     "Name": "Cohen & Steers REIT and Preferred and Income Fund, Inc.",
     "Security Name": "Cohen & Steers REIT and Preferred and Income Fund, Inc. Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RNR",
@@ -72547,19 +73130,22 @@
     "Name": "Rithm Property Trust Inc.",
     "Security Name": "Rithm Property Trust Inc. Common stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RPT PRC",
     "Name": "RITHM PPTY TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RPT-C",
     "Name": "Rithm Property Trust Inc. 9.875% Series C Fixed",
     "Security Name": "Rithm Property Trust Inc. 9.875% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RPV",
@@ -72574,7 +73160,8 @@
     "Name": "Cohen & Steers Quality Income Realty Fund Inc",
     "Security Name": "Cohen & Steers Quality Income Realty Fund Inc Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RR",
@@ -72676,7 +73263,8 @@
     "Name": "RiverNorth Capital and Income Fund",
     "Security Name": "RiverNorth Capital and Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RSG",
@@ -73054,12 +73642,14 @@
   {
     "Symbol": "RVI",
     "Name": "Robinhood Ventures Fund I",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RVII",
     "Name": "Robinhood Ventures Fund II Closed End Fund",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RVLV",
@@ -73236,19 +73826,22 @@
     "Name": "Redwood Trust, Inc.",
     "Security Name": "Redwood Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWT PRA",
     "Name": "REDWOOD TRUST INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RWT-A",
     "Name": "Redwood Trust, Inc. 10.00% Series A Fixed",
     "Security Name": "Redwood Trust, Inc. 10.00% Series A Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "RWTN",
@@ -73425,7 +74018,8 @@
     "Name": "Rayonier Inc. REIT",
     "Security Name": "Rayonier Inc. REIT Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "RYOJ",
@@ -73531,7 +74125,8 @@
     "Name": "Saba Capital Income & Opportunities Fund II Shares of Beneficial Interest",
     "Security Name": "Saba Capital Income & Opportunities Fund II Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SABR",
@@ -73557,19 +74152,22 @@
     "Security Name": "Sachem Capital Corp. Common Shares",
     "Country": "USA",
     "dividend": true,
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "SACH PRA",
     "Name": "SACHEM CAP CORP",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "SACH-A",
     "Name": "Sachem Capital Corp. 7.75% Series A Cumulative Redeemable Preferred Stock",
     "Security Name": "Sachem Capital Corp. 7.75% Series A Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SAEF",
@@ -73584,7 +74182,8 @@
     "Name": "Safehold Inc. New",
     "Security Name": "Safehold Inc. New Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SAFRY",
@@ -73916,7 +74515,8 @@
     "Name": "SBA Communications Corp",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "SBAR",
@@ -73998,7 +74598,8 @@
     "Name": "Western Asset Intermediate Muni Fund Inc",
     "Security Name": "Western Asset Intermediate Muni Fund Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SBIL",
@@ -74059,7 +74660,8 @@
     "Name": "Sabra Health Care REIT Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "SBS",
@@ -74216,7 +74818,8 @@
     "Name": "LMP Capital and Income Fund Inc.",
     "Security Name": "LMP Capital and Income Fund Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SCDL",
@@ -74853,7 +75456,8 @@
     "Name": "PGIM Short Duration High Yield Opportunities Fund",
     "Security Name": "PGIM Short Duration High Yield Opportunities Fund Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SDIV",
@@ -75183,7 +75787,8 @@
     "Name": "Global Self Storage Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "SELV",
@@ -75395,7 +76000,8 @@
     "Name": "Seven Hills Realty Trust",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "SEZL",
@@ -75960,19 +76566,22 @@
     "Name": "Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc.",
     "Security Name": "Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SHO-H",
     "Name": "Sunstone Hotel Investors, Inc. 6.125% Series H Cumulative Redeemable Preferred Stock",
     "Security Name": "Sunstone Hotel Investors, Inc. 6.125% Series H Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SHO-I",
     "Name": "Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock",
     "Security Name": "Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SHOC",
@@ -76250,7 +76859,8 @@
     "Name": "Sila Realty Trust, Inc.",
     "Security Name": "Sila Realty Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SILC",
@@ -76363,7 +76973,8 @@
     "Name": "SITE Centers Corp.",
     "Security Name": "SITE Centers Corp. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SITE",
@@ -76704,7 +77315,8 @@
     "Name": "Tanger Inc.",
     "Security Name": "Tanger Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SKUU",
@@ -76848,19 +77460,22 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "SLG PRI",
     "Name": "SL GREEN RLTY CORP",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SLG-I",
     "Name": "SL Green Realty Corporation Preferred Series I",
     "Security Name": "SL Green Realty Corporation Preferred Series I",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SLGB",
@@ -77130,7 +77745,8 @@
     "Name": "SmartStop Self Storage REIT, Inc.",
     "Security Name": "SmartStop Self Storage REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SMAP",
@@ -77332,7 +77948,8 @@
     "Name": "ETRACS Monthly Pay 2x Leveraged Small Cap High Dividend ETN Series B",
     "Security Name": "ETRACS Monthly Pay 2x Leveraged Small Cap High Dividend ETN Series B",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "SMHC",
@@ -77736,7 +78353,8 @@
     "Name": "Sonida Senior Living, Inc.",
     "Security Name": "Sonida Senior Living, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SNDC",
@@ -78450,7 +79068,8 @@
     "Symbol": "SPAXX",
     "Name": "Fidelity Government Money Market Fund",
     "Country": "USA",
-    "ownFidelity": true
+    "ownFidelity": true,
+    "Pooled": true
   },
   {
     "Symbol": "SPB",
@@ -78543,7 +79162,8 @@
   {
     "Symbol": "SPCK",
     "Name": "SPAC and New Issue ETF",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "SPCL",
@@ -78646,7 +79266,8 @@
     "Name": "Special Opportunities Fund, Inc",
     "Security Name": "Special Opportunities Fund, Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SPE PRC",
@@ -78658,7 +79279,8 @@
     "Symbol": "SPE-C",
     "Name": "Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C",
     "Security Name": "Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SPEG",
@@ -78703,19 +79325,22 @@
     "Security Name": "Simon Property Group, Inc. Common Stock",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "SPG PRJ",
     "Name": "SIMON PPTY GROUP INC NEW",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SPG-J",
     "Name": "Simon Property Group, Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock",
     "Security Name": "Simon Property Group, Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "SPGI",
@@ -79280,7 +79905,8 @@
     "Name": "Nuveen S&P 500 Dynamic Overwrite Fund",
     "Security Name": "Nuveen S&P 500 Dynamic Overwrite Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SPY",
@@ -79405,7 +80031,8 @@
     "Symbol": "SQFT",
     "Name": "PRESIDIO PPTY TR INC",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "SQFTP",
@@ -79638,7 +80265,8 @@
     "Name": "NXG Cushing Midstream Energy Fund of Beneficial Interest",
     "Security Name": "NXG Cushing Midstream Energy Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SRVR",
@@ -79919,7 +80547,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "STAK",
@@ -80020,7 +80649,8 @@
     "Name": "SRH Total Return Fund, Inc.",
     "Security Name": "SRH Total Return Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "STEX",
@@ -80080,7 +80710,8 @@
     "Name": "Columbia Seligman Premium Technology Growth Fund Inc",
     "Security Name": "Columbia Seligman Premium Technology Growth Fund Inc",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "STKE",
@@ -80288,7 +80919,8 @@
     "Name": "Strawberry Fields REIT, Inc.",
     "Security Name": "Strawberry Fields REIT, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "STRZ",
@@ -80345,7 +80977,8 @@
     "Name": "STARWOOD PROPERTY TRUST, INC. Starwood Property Trust Inc.",
     "Security Name": "STARWOOD PROPERTY TRUST, INC. Starwood Property Trust Inc.",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "STX",
@@ -80501,7 +81134,8 @@
     "Name": "Sun Communities, Inc.",
     "Security Name": "Sun Communities, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SUIG",
@@ -80568,7 +81202,8 @@
     "Name": "Sunrise Realty Trust Inc",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "SUOPY",
@@ -80700,7 +81335,8 @@
     "Name": "Service Properties Trust",
     "Country": "USA",
     "Exchange": "NASDAQ",
-    "dividend": true
+    "dividend": true,
+    "Pooled": true
   },
   {
     "Symbol": "SVCC",
@@ -80904,7 +81540,8 @@
     "Name": "Total Return Securities Fund",
     "Security Name": "Total Return Securities Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "SXC",
@@ -81815,7 +82452,8 @@
     "Name": "Templeton Dragon Fund, Inc.",
     "Security Name": "Templeton Dragon Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TDG",
@@ -82015,7 +82653,8 @@
     "Name": "Tortoise Sustainable and Social Impact Term Fund of beneficial interest",
     "Security Name": "Tortoise Sustainable and Social Impact Term Fund Common shares of beneficial interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TEAM",
@@ -82093,7 +82732,8 @@
     "Name": "Templeton Emerging Markets Income Fund, Inc.",
     "Security Name": "Templeton Emerging Markets Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TEK",
@@ -82520,7 +83160,8 @@
     "Name": "Terra Income Fund 6, LLC 7.00% Notes due 2026",
     "Security Name": "Terra Income Fund 6, LLC 7.00% Notes due 2026",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TFSL",
@@ -82820,7 +83461,8 @@
     "Name": "abrdn Healthcare Opportunities Fund Shares of Beneficial Interest",
     "Security Name": "abrdn Healthcare Opportunities Fund Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "THR",
@@ -82876,7 +83518,8 @@
     "Name": "abrdn World Healthcare Fund Shares of Beneficial Interest",
     "Security Name": "abrdn World Healthcare Fund Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "THY",
@@ -84544,7 +85187,8 @@
     "Name": "Terreno Realty Corporation",
     "Security Name": "Terreno Realty Corporation Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TRNR",
@@ -84725,19 +85369,22 @@
     "Name": "TPG RE Finance Trust, Inc.",
     "Security Name": "TPG RE Finance Trust, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TRTX PRC",
     "Name": "TPG RE FIN TR INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TRTX-C",
     "Name": "TPG RE Finance Trust, Inc. 6.25% Series C Cumulative Redeemable Preferred Stock, $0.001 par value per share",
     "Security Name": "TPG RE Finance Trust, Inc. 6.25% Series C Cumulative Redeemable Preferred Stock, $0.001 par value per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "TRTY",
@@ -85022,7 +85669,8 @@
     "Name": "TCW Strategic Income Fund, Inc.",
     "Security Name": "TCW Strategic Income Fund, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TSIB",
@@ -85522,7 +86170,8 @@
     "Country": "Turkey",
     "dividend": true,
     "ownWebull": true,
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "TURB",
@@ -85700,7 +86349,8 @@
     "Name": "Taiwan Fund, Inc. (The)",
     "Security Name": "Taiwan Fund, Inc. (The) Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "TWO",
@@ -86218,7 +86868,8 @@
     "Name": "ETRACS UBS Bloomberg Constant Maturity Commodity Index (CMCI) Total Return ETN Series B due April 5, 2038",
     "Security Name": "ETRACS UBS Bloomberg Constant Maturity Commodity Index (CMCI) Total Return ETN Series B due April 5, 2038",
     "Country": "USA",
-    "Exchange": "NYSE Arca"
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "UCL",
@@ -86321,14 +86972,16 @@
     "Name": "UDR, Inc.",
     "Security Name": "UDR, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "UE",
     "Name": "Urban Edge Properties of Beneficial Interest",
     "Security Name": "Urban Edge Properties Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "UEC",
@@ -86513,7 +87166,8 @@
     "Name": "Universal Health Realty Income Trust",
     "Security Name": "Universal Health Realty Income Trust Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "UI",
@@ -86747,19 +87401,22 @@
     "Name": "UMH Properties, Inc.",
     "Security Name": "UMH Properties, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "UMH PRD",
     "Name": "UMH PPTYS INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "UMH-D",
     "Name": "UMH Properties, Inc. 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25 per share",
     "Security Name": "UMH Properties, Inc. 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "UMI",
@@ -86862,7 +87519,8 @@
     "Symbol": "UNIT",
     "Name": "UNITI GROUP LLC",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "UNIY",
@@ -87212,7 +87870,8 @@
     "Name": "Liberty All",
     "Security Name": "Liberty All-Star Equity Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "USAC",
@@ -87760,14 +88419,16 @@
     "Name": "Cohen & Steers Infrastructure Fund, Inc",
     "Security Name": "Cohen & Steers Infrastructure Fund, Inc Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "UTG",
     "Name": "Reaves Utility Income Fund of Beneficial Interest",
     "Security Name": "Reaves Utility Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "UTHR",
@@ -88291,7 +88952,8 @@
     "Name": "Invesco Bond Fund",
     "Security Name": "Invesco Bond Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VBIL",
@@ -88461,7 +89123,8 @@
     "Name": "Fundrise Innovation Fund, LLC",
     "Country": "USA",
     "Exchange": "NYSE",
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "VCYT",
@@ -88750,7 +89413,8 @@
     "Name": "abrdn National Municipal Income Fund",
     "Security Name": "abrdn National Municipal Income Fund Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE American"
+    "Exchange": "NYSE American",
+    "Pooled": true
   },
   {
     "Symbol": "VFLO",
@@ -88831,7 +89495,8 @@
     "Name": "Virtus Global Multi",
     "Security Name": "Virtus Global Multi-Sector Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VGIT",
@@ -88997,7 +89662,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "VICR",
@@ -89383,7 +90049,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "VMSB",
@@ -89456,55 +90123,64 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "VNO PRL",
     "Name": "VORNADO RLTY TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VNO PRM",
     "Name": "VORNADO RLTY TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VNO PRN",
     "Name": "VORNADO RLTY TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VNO PRO",
     "Name": "VORNADO RLTY TR",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VNO-L",
     "Name": "Vornado Realty Trust Pfd Ser L %",
     "Security Name": "Vornado Realty Trust Pfd Ser L %",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "VNO-M",
     "Name": "Vornado Realty Trust 5.25% Series M Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share, no par value per share",
     "Security Name": "Vornado Realty Trust 5.25% Series M Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share, no par value per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "VNO-N",
     "Name": "Vornado Realty Trust 5.25% Series N Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share",
     "Security Name": "Vornado Realty Trust 5.25% Series N Cumulative Redeemable Preferred Shares of Beneficial Interest, liquidation preference $25.00 per share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "VNO-O",
     "Name": "Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares, Liquidation Preference $25.00 Per Share",
     "Security Name": "Vornado Realty Trust 4.45% Series O Cumulative Redeemable Preferred Shares, Liquidation Preference $25.00 Per Share",
-    "Country": "USA"
+    "Country": "USA",
+    "Pooled": true
   },
   {
     "Symbol": "VNOM",
@@ -89848,7 +90524,8 @@
     "Name": "Veris Residential, Inc.",
     "Security Name": "Veris Residential, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VREX",
@@ -90254,7 +90931,8 @@
     "Name": "Ventas, Inc.",
     "Security Name": "Ventas, Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "VTRO",
@@ -90480,14 +91158,16 @@
     "Name": "iPath Series B S&P 500 VIX Short",
     "Security Name": "iPath Series B S&P 500 VIX Short-Term Futures ETN",
     "Country": "USA",
-    "Exchange": "Cboe BZX"
+    "Exchange": "Cboe BZX",
+    "Pooled": true
   },
   {
     "Symbol": "VXZ",
     "Name": "iPath Series B S&P 500 VIX Mid",
     "Security Name": "iPath Series B S&P 500 VIX Mid-Term Futures ETN",
     "Country": "USA",
-    "Exchange": "Cboe BZX"
+    "Exchange": "Cboe BZX",
+    "Pooled": true
   },
   {
     "Symbol": "VYGR",
@@ -90973,7 +91653,8 @@
     "Name": "Western Asset Diversified Income Fund of Beneficial Interest",
     "Security Name": "Western Asset Diversified Income Fund Common Shares of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WDIG",
@@ -91025,7 +91706,8 @@
     "Name": "Western Asset Bond Fund Share of Beneficial Interest",
     "Security Name": "Western Asset Bond Fund Share of Beneficial Interest",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WEAT",
@@ -91125,7 +91807,8 @@
     "Name": "Welltower Inc.",
     "Security Name": "Welltower Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WEN",
@@ -91401,7 +92084,8 @@
     "Symbol": "WHLR",
     "Name": "Wheeler Real Estate Invt Tr",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Pooled": true
   },
   {
     "Symbol": "WHLRD",
@@ -91455,7 +92139,8 @@
     "Name": "Western Asset Inflation",
     "Security Name": "Western Asset Inflation-Linked Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WILC",
@@ -91535,7 +92220,8 @@
     "Name": "Western Asset Inflation",
     "Security Name": "Western Asset Inflation-Linked Opportunities & Income Fund",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WIX",
@@ -91844,7 +92530,8 @@
     "Name": "W. P. Carey Inc. REIT",
     "Security Name": "W. P. Carey Inc. REIT",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WPM",
@@ -92112,7 +92799,8 @@
     "Name": "Whitestone REIT",
     "Security Name": "Whitestone REIT Common Shares",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WST",
@@ -92427,7 +93115,8 @@
     "Name": "Weyerhaeuser Company",
     "Security Name": "Weyerhaeuser Company Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "WYFI",
@@ -92967,7 +93656,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownWebull": true
+    "ownWebull": true,
+    "Pooled": true
   },
   {
     "Symbol": "XHS",
@@ -93849,13 +94539,15 @@
     "Symbol": "XRN PRA",
     "Name": "CHIRON REAL ESTATE INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "XRN PRB",
     "Name": "CHIRON REAL ESTATE INC",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "Pooled": true
   },
   {
     "Symbol": "XRP",
@@ -95483,7 +96175,8 @@
     "Country": "USA",
     "Exchange": "NYSE",
     "dividend": true,
-    "ownEtrade": true
+    "ownEtrade": true,
+    "Pooled": true
   },
   {
     "Symbol": "ZTRE",
