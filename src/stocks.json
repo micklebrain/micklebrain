@@ -95164,9 +95164,9 @@
     "Symbol": "XYLG",
     "Name": "Global X S&P 500 Covered Call & Growth ETF",
     "Security Name": "Global X S&P 500 Covered Call & Growth ETF",
-    "Country": "USA",
-    "Pooled": true,
-    "Exchange": "NYSE Arca"
+    "Country": "USA",    
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "XYZ",
@@ -95187,9 +95187,9 @@
     "Symbol": "XYZY",
     "Name": "Tidal Trust II YieldMax XYZ Option Income Strategy ETF",
     "Security Name": "Tidal Trust II YieldMax XYZ Option Income Strategy ETF",
-    "Country": "USA",
-    "Pooled": true,
-    "Exchange": "NYSE Arca"
+    "Country": "USA",    
+    "Exchange": "NYSE Arca",
+    "Pooled": true
   },
   {
     "Symbol": "XZO",
