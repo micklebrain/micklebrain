@@ -14449,7 +14449,8 @@
     "Name": "Chubb Limited",
     "Security Name": "Chubb Limited  Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "ownEtrade": true
   },
   {
     "Symbol": "CBAN",
@@ -48178,7 +48179,8 @@
     "Name": "Keysight Technologies Inc.",
     "Security Name": "Keysight Technologies Inc. Common Stock",
     "Country": "USA",
-    "Exchange": "NYSE"
+    "Exchange": "NYSE",
+    "ownWebull": true
   },
   {
     "Symbol": "KEYX",
