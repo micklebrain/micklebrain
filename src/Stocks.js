@@ -79,6 +79,7 @@ function Stocks() {
   const [showDividendOnly, setShowDividendOnly] = useState(false);
   const [showETFOnly, setShowETFOnly] = useState(false);
   const [showNonETFOnly, setShowNonETFOnly] = useState(false);
+  const [showNonPennyOnly, setShowNonPennyOnly] = useState(false);
   const [showName, setShowName] = useState(false);
   const [extraStocks, setExtraStocks] = useState([]);
   const [newSymbol, setNewSymbol] = useState("");
@@ -162,11 +163,12 @@ function Stocks() {
     if (showDividendOnly && !item.dividend) return false;
     if (showETFOnly && item.Pooled !== true) return false;
     if (showNonETFOnly && item.Pooled === true) return false;
+    if (showNonPennyOnly && item.Penny === true) return false;
     if (showAllOwnedOnly) return ownedInAny;
     if (showNotOwnedOnly) return !ownedInAny;
     if (!hasAnyBrokerFilter) return true;
     return activeBrokers.every((broker) => !!item[brokerToOwnershipField[broker]]);
-  }), [effectiveItems, selectedCountry, selectedExchange, showDividendOnly, showETFOnly, showNonETFOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
+  }), [effectiveItems, selectedCountry, selectedExchange, showDividendOnly, showETFOnly, showNonETFOnly, showNonPennyOnly, showAllOwnedOnly, showNotOwnedOnly, hasAnyBrokerFilter, activeBrokers]);
 
   const sortedItems = React.useMemo(() => {
     return [...filteredItems].sort((a, b) => {
@@ -205,6 +207,7 @@ function Stocks() {
     setShowDividendOnly(false);
     setShowETFOnly(false);
     setShowNonETFOnly(false);
+    setShowNonPennyOnly(false);
   };
 
   const toggleBrokerFilter = (broker) => {
@@ -397,6 +400,13 @@ function Stocks() {
           }}
         >
           Non-Pooled
+        </button>
+        <button
+          type="button"
+          className={`stocks-filter-btn ${showNonPennyOnly ? "active" : ""}`}
+          onClick={() => setShowNonPennyOnly((prev) => !prev)}
+        >
+          Non-Penny
         </button>
         <select
           className="stocks-exchange-select"
