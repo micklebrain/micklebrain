@@ -3211,7 +3211,8 @@
     "Symbol": "ALAB",
     "Name": "ASTERA LABS INC",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "ownEtrade": true
   },
   {
     "Symbol": "ALAI",
@@ -24343,7 +24344,8 @@
     "Symbol": "DVLT",
     "Name": "DATAVAULT AI INC",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "Penny": true
   },
   {
     "Symbol": "DVLU",
@@ -49232,7 +49234,8 @@
     "Symbol": "KRYS",
     "Name": "KRYSTAL BIOTECH INC",
     "Country": "USA",
-    "Exchange": "NASDAQ"
+    "Exchange": "NASDAQ",
+    "ownWebull": true
   },
   {
     "Symbol": "KSA",
@@ -49607,9 +49610,10 @@
     "Symbol": "LABX",
     "Name": "Tradr 2X Long ALAB Daily ETF",
     "Security Name": "Tradr 2X Long ALAB Daily ETF",
-    "Country": "USA",
+    "Country": "USA",    
+    "Exchange": "Cboe BZX",
     "Pooled": true,
-    "Exchange": "Cboe BZX"
+    "ownEtrade": true
   },
   {
     "Symbol": "LAC",
