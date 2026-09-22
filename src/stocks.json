@@ -18590,7 +18590,8 @@
         "Name": "China Pharma Holdings, Inc.",
         "Security Name": "China Pharma Holdings, Inc. Common Stock",
         "Country": "China",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "CPHY",
@@ -18866,11 +18867,6 @@
         "dividend": true,
         "ownWebull": true,
         "Pooled": true
-    },
-    {
-        "Symbol": "CPTAF",
-        "Name": "Jaguar Global Growth Corporation I",
-        "Exchange": "OTC Expert Market"
     },
     {
         "Symbol": "CPTL",
