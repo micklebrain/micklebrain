@@ -10471,7 +10471,8 @@
         "Symbol": "BJDX",
         "Name": "BLUEJAY DIAGNOSTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BJRI",
@@ -17611,7 +17612,8 @@
         "Symbol": "CNEY",
         "Name": "CN ENERGY GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CNF",
@@ -20605,7 +20607,8 @@
         "Symbol": "CYN",
         "Name": "CYNGN INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CYPH",
@@ -30068,7 +30071,8 @@
         "Symbol": "FEBO",
         "Name": "Fenbo Holdings Limited",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FEBP",
@@ -36094,7 +36098,8 @@
         "Name": "Gabelli Global Utility of Beneficial Ownership",
         "Security Name": "Gabelli Global Utility Common Shares of Beneficial Ownership",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Pooled": true
     },
     {
         "Symbol": "GLU PRA",
@@ -36161,7 +36166,8 @@
         "Symbol": "GLXG",
         "Name": "GALAXY PAYROLL GROUP LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GLXU",
