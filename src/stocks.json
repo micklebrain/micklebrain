@@ -5525,7 +5525,8 @@
         "Symbol": "ARM",
         "Name": "ARM HOLDINGS PLC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownWebull": true
     },
     {
         "Symbol": "ARMA",
@@ -8436,7 +8437,8 @@
         "Symbol": "BBLG",
         "Name": "BONE BIOLOGICS CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BBLS",
@@ -25882,7 +25884,8 @@
         "Symbol": "EHTH",
         "Name": "EHEALTH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "EHY",
@@ -25903,20 +25906,6 @@
         "Symbol": "EICA",
         "Name": "Eagle Point Income Company Inc. 5.00% Series A Term Preferred Stock due 2026",
         "Security Name": "Eagle Point Income Company Inc. 5.00% Series A Term Preferred Stock due 2026",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
-    {
-        "Symbol": "EICB",
-        "Name": "Eagle Point Income Company Inc. 7.75% Series B Term Preferred Stock Due 2028",
-        "Security Name": "Eagle Point Income Company Inc. 7.75% Series B Term Preferred Stock Due 2028",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
-    {
-        "Symbol": "EICC",
-        "Name": "Eagle Point Income Company Inc. 8.00% Series C Term Preferred Stock due 2029",
-        "Security Name": "Eagle Point Income Company Inc. 8.00% Series C Term Preferred Stock due 2029",
         "Country": "USA",
         "Exchange": "NYSE"
     },
@@ -42181,7 +42170,8 @@
         "Name": "InterDigital Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "IDE",
@@ -84106,7 +84096,8 @@
         "Name": "Talen Energy Corp",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "TLNC",
