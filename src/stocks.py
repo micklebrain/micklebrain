@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ESOA"]
+stocksToAdd = ["IGIC"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Energy Services Of America Corp")
+    addStock(stock, name="International General Insuranc Hldgs Ltd")

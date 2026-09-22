@@ -16718,13 +16718,15 @@
         "Symbol": "CIRC",
         "Name": "CIRCLE8 GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CISO",
         "Name": "CISO GLOBAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CITR",
@@ -16738,14 +16740,7 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
-    },
-    {
-        "Symbol": "CIVI",
-        "Name": "Civitas Resources, Inc.",
-        "Security Name": "Civitas Resources, Inc. Common Stock",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
+    },    
     {
         "Symbol": "CIX",
         "Name": "CompX International Inc.",
@@ -42738,7 +42733,6 @@
         "Name": "International General Insuranc Hldgs Ltd",
         "Country": "Jordan",
         "Exchange": "NASDAQ",
-        "dividend": true,
         "ownWebull": true
     },
     {
@@ -59740,7 +59734,8 @@
         "Name": "FiscalNote Holdings, Inc. Class A",
         "Security Name": "FiscalNote Holdings, Inc. Class A common stock",
         "Country": "USA",
-        "Exchange": "OTC Pink"
+        "Exchange": "OTC Pink",
+        "Penny": true
     },
     {
         "Symbol": "NOTE.W",
@@ -62340,7 +62335,8 @@
         "Symbol": "OLOX",
         "Name": "Olenox Industries Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OLP",
@@ -62411,7 +62407,8 @@
         "Symbol": "OMEX",
         "Name": "ODYSSEY MARINE EXPL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OMF",
