@@ -2994,7 +2994,8 @@
         "Name": "Applied Industrial Technologies, Inc.",
         "Security Name": "Applied Industrial Technologies, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "AIUP",
@@ -16743,7 +16744,7 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
-    },    
+    },
     {
         "Symbol": "CIX",
         "Name": "CompX International Inc.",
@@ -21650,7 +21651,8 @@
         "Symbol": "DEFT",
         "Name": "DEFI TECHNOLOGIES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DEHP",
@@ -27493,13 +27495,7 @@
         "Name": "ENERGY RECOVERY INC",
         "Country": "USA",
         "Exchange": "NASDAQ"
-    },
-    {
-        "Symbol": "ERJ",
-        "Name": "Embraer S.A.",
-        "Security Name": "Embraer S.A. Common Stock",
-        "Country": "USA"
-    },
+    },    
     {
         "Symbol": "ERNA",
         "Name": "ERNEXA THERAPEUTICS INC",
@@ -29284,13 +29280,15 @@
     {
         "Symbol": "FBDT",
         "Name": "First Breach Ord Shs",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FBGL",
         "Name": "FBS GLOBAL LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FBIN",
