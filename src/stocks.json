@@ -95975,8 +95975,7 @@
         "Name": "Yiren Digital Ltd.",
         "Security Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
         "Country": "China",
-        "Exchange": "NYSE",
-        "ownWebull": true
+        "Exchange": "NYSE"        
     },
     {
         "Symbol": "YSAG",
