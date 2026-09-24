@@ -93509,7 +93509,8 @@
         "Name": "Woodward, Inc.",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "WWJD",
