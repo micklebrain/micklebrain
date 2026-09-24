@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IGIC"]
+stocksToAdd = ["ARLP"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="International General Insuranc Hldgs Ltd")
+    addStock(stock, name="Alliance Resource Partners LP")

@@ -4874,7 +4874,7 @@
         "Symbol": "APLY",
         "Name": "Tidal ETF Trust II YieldMax AAPL Option Income Strategy ETF",
         "Security Name": "Tidal ETF Trust II YieldMax AAPL Option Income Strategy ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -5536,6 +5536,10 @@
         "Security Name": "Arlo Technologies, Inc. Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "ARLP",
+        "Name": "Alliance Resource Partners LP"
     },
     {
         "Symbol": "ARLU",
@@ -15151,7 +15155,7 @@
         "Name": "CHURCHILL CAP CORP XI",
         "Country": "USA",
         "Exchange": "NASDAQ"
-    },    
+    },
     {
         "Symbol": "CD",
         "Name": "CHAINCE DIGITAL HOLDINGS INC",
@@ -40747,13 +40751,6 @@
         "Exchange": "NYSE Arca"
     },
     {
-        "Symbol": "ONEN",
-        "Name": "Hennessy Capital Investment Corp VII",
-        "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
-    },
-    {
         "Symbol": "HVMC",
         "Name": "HIGHVIEW MERGER CORP",
         "Country": "USA",
@@ -44328,12 +44325,6 @@
         "Symbol": "IP",
         "Name": "International Paper Company",
         "Security Name": "International Paper Company Common Stock",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
-    {
-        "Symbol": "IP",
-        "Name": "International Paper Co",
         "Country": "USA",
         "Exchange": "NYSE",
         "dividend": true
@@ -48797,9 +48788,9 @@
         "Symbol": "KMLM",
         "Name": "KraneShares Mount Lucas Managed Futures Index Strategy ETF",
         "Security Name": "KraneShares Mount Lucas Managed Futures Index Strategy ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "KMPB",
@@ -62764,6 +62755,13 @@
         "Name": "ONECONSTRUCTION GROUP LTD",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "ONEN",
+        "Name": "Hennessy Capital Investment Corp VII",
+        "Country": "USA",
+        "Exchange": "NASDAQ",
+        "ownWebull": true
     },
     {
         "Symbol": "ONEO",
@@ -95975,7 +95973,7 @@
         "Name": "Yiren Digital Ltd.",
         "Security Name": "Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",
         "Country": "China",
-        "Exchange": "NYSE"        
+        "Exchange": "NYSE"
     },
     {
         "Symbol": "YSAG",
