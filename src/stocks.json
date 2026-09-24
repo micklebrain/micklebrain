@@ -182,7 +182,8 @@
         "Symbol": "AACG",
         "Name": "ATA Creativity Global",
         "Country": "China",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AACI",
@@ -584,7 +585,8 @@
         "Symbol": "ABLV",
         "Name": "ABLE VIEW GLOBAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ABM",
@@ -891,7 +893,8 @@
         "Symbol": "ACH",
         "Name": "ACCENDRA HEALTH INC",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "ACHC",
@@ -1208,7 +1211,8 @@
         "Symbol": "ACTU",
         "Name": "ACTUATE THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ACTV",
@@ -1421,7 +1425,8 @@
     {
         "Symbol": "ADBT",
         "Name": "Advasa Holdings Ord Shs",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ADBU",
@@ -1492,7 +1497,8 @@
         "Symbol": "ADGM",
         "Name": "ADAGIO MED HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ADI",
@@ -1730,7 +1736,8 @@
         "Symbol": "AEI",
         "Name": "ALSET INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AEIS",
@@ -1805,7 +1812,8 @@
         "Name": "AEON Biopharma, Inc.",
         "Security Name": "AEON Biopharma, Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "AEP",
@@ -2288,7 +2296,8 @@
         "Name": "AGM Group Holdings Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "Penny": true
     },
     {
         "Symbol": "AGMI",
@@ -2421,7 +2430,8 @@
         "Symbol": "AGRZ",
         "Name": "AGROZ INC.",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AGX",
@@ -2486,7 +2496,8 @@
         "Symbol": "AHG",
         "Name": "AKSO HEALTH GROUP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AHKSY",
@@ -2687,7 +2698,8 @@
         "Symbol": "AIDX",
         "Name": "20/20 BIOLABS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AIEQ",
@@ -2707,7 +2719,8 @@
         "Symbol": "AIFC",
         "Name": "AI FINL CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AIFD",
@@ -2779,7 +2792,8 @@
         "Name": "AIM ImmunoTech Inc.",
         "Security Name": "AIM ImmunoTech Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "AIMD",
@@ -3147,7 +3161,8 @@
         "Symbol": "AKBA",
         "Name": "AKEBIA THREAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AKO.A",
@@ -3576,7 +3591,8 @@
         "Symbol": "ALPS",
         "Name": "ALPS GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ALPX",
@@ -4206,7 +4222,8 @@
         "Symbol": "AMSS",
         "Name": "AMASS BRANDS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AMST",
@@ -4234,7 +4251,8 @@
         "Name": "AMTD IDEA Group American Depositary Shares, each representing six (6) Class A Ordinary Shares",
         "Security Name": "AMTD IDEA Group American Depositary Shares, each representing six (6) Class A Ordinary Shares",
         "Country": "Hong Kong",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "AMTM",
@@ -4313,7 +4331,8 @@
         "Name": "Amaze Holdings, Inc.",
         "Security Name": "Amaze Holdings, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "AMZG",
@@ -4979,7 +4998,8 @@
         "Symbol": "APRE",
         "Name": "APREA THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "APRH",
@@ -5170,13 +5190,15 @@
         "Symbol": "ARAI",
         "Name": "ARRIVE AI INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ARAY",
         "Name": "Accuray Incorp",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ARB",
@@ -5308,7 +5330,8 @@
         "Symbol": "AREB",
         "Name": "American Rebel H",
         "Country": "USA",
-        "Exchange": "OTC Pink"
+        "Exchange": "OTC Pink",
+        "Penny": true
     },
     {
         "Symbol": "AREC",
@@ -6250,7 +6273,8 @@
         "Name": "AtlasClear Holdings, Inc.",
         "Security Name": "AtlasClear Holdings, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "ATCL",
@@ -6289,7 +6313,8 @@
         "Symbol": "ATER",
         "Name": "ATERIAN INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ATEX",
@@ -6582,7 +6607,8 @@
         "Symbol": "ATYR",
         "Name": "ATYR PHARMA INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AU",
@@ -6703,7 +6729,8 @@
         "Symbol": "AUID",
         "Name": "AUTHID INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "AUMI",
@@ -7614,7 +7641,8 @@
         "Name": "Azitra Inc",
         "Security Name": "Azitra Inc Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "AZUL",
@@ -7847,7 +7875,8 @@
         "Symbol": "BAER",
         "Name": "Bridger Aerospace Group Holdings, Inc.",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BAESY",
@@ -8094,7 +8123,8 @@
         "Symbol": "BAOS",
         "Name": "BAOSHENG MEDIA GROUP HLDNG LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BAP",
@@ -9152,7 +9182,8 @@
         "Symbol": "BEAT",
         "Name": "HEARTBEAM INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BEBE",
@@ -9574,7 +9605,8 @@
         "Symbol": "BFRG",
         "Name": "BULLFROG AI HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BFRI",
@@ -9746,7 +9778,8 @@
         "Symbol": "BGL",
         "Name": "BLUE GOLD LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BGLC",
@@ -9767,13 +9800,15 @@
         "Symbol": "BGM",
         "Name": "BGM GROUP LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BGMS",
         "Name": "BIO GREEN MED SOLUTION  INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BGR",
@@ -9947,7 +9982,8 @@
         "Symbol": "BHILQ",
         "Name": "Benson Hill Inc",
         "Country": "USA",
-        "Exchange": "OTC Expert Market"
+        "Exchange": "OTC Expert Market",
+        "Penny": true
     },
     {
         "Symbol": "BHK",
@@ -10194,7 +10230,8 @@
         "Symbol": "BINI",
         "Name": "Bollinger Innovations Inc",
         "Country": "USA",
-        "Exchange": "OTC Pink"
+        "Exchange": "OTC Pink",
+        "Penny": true
     },
     {
         "Symbol": "BINT",
@@ -10237,13 +10274,15 @@
         "Symbol": "BIOT",
         "Name": "INSTINCT BIO TECHNICAL CO",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BIOX",
         "Name": "Bioceres Crop Solutions Corp",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BIOY",
@@ -10868,7 +10907,8 @@
         "Symbol": "BLIN",
         "Name": "BRIDGELINE DIGITAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BLIV",
@@ -10925,13 +10965,15 @@
         "Symbol": "BLNE",
         "Name": "BEELINE HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BLNK",
         "Name": "Blink Charging Co",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BLOK",
@@ -11922,7 +11964,8 @@
         "Name": "Boqii Holding Limited Class A Ordinary Shares",
         "Security Name": "Boqii Holding Limited Class A Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "BR",
@@ -12193,7 +12236,8 @@
         "Name": "Barnwell Industries, Inc.",
         "Security Name": "Barnwell Industries, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "BRNX",
@@ -12959,7 +13003,8 @@
         "Symbol": "BTLN",
         "Name": "BRIGHTLINE INTERACTIVE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BTMD",
@@ -12979,7 +13024,8 @@
         "Symbol": "BTOC",
         "Name": "ARMLOGI HOLDING CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BTOP",
@@ -13035,7 +13081,8 @@
         "Symbol": "BTTC",
         "Name": "BLACK TITAN CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BTU",
@@ -13768,7 +13815,8 @@
         "Symbol": "BYSI",
         "Name": "BEYONDSPRING INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BZ",
@@ -13781,7 +13829,8 @@
         "Symbol": "BZAI",
         "Name": "BLAIZE HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "BZFD",
@@ -14148,7 +14197,8 @@
         "Symbol": "CAN",
         "Name": "CANAAN INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CANC",
@@ -14233,7 +14283,8 @@
         "Symbol": "CAPS",
         "Name": "CAPSTONE HLDG CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CAQ",
@@ -15075,7 +15126,8 @@
         "Symbol": "CCTG",
         "Name": "CCSC TECHNOLOGY INTL HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CCU",
@@ -15253,7 +15305,8 @@
         "Symbol": "CDT",
         "Name": "CDT Equity",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CDTG",
@@ -15400,7 +15453,8 @@
         "Symbol": "CELZ",
         "Name": "CREATIVE MED TECHNOLOGY HLDGS",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CEMB",
@@ -15956,7 +16010,8 @@
         "Symbol": "CGTX",
         "Name": "COGNITION THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CGUI",
@@ -16023,7 +16078,8 @@
         "Symbol": "CHAI",
         "Name": "Core AI Holdings Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CHAR",
@@ -16140,7 +16196,8 @@
         "Name": "Chegg, Inc.",
         "Security Name": "Chegg, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "CHGX",
@@ -16243,7 +16300,8 @@
         "Name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
         "Security Name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "CHPG",
@@ -16546,7 +16604,8 @@
         "Symbol": "CIGL",
         "Name": "CONCORDE INTL GROUP LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CIHKY",
@@ -17374,7 +17433,8 @@
         "Symbol": "CMND",
         "Name": "CLEARMIND MEDICINE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CMP",
@@ -17768,7 +17828,8 @@
         "Symbol": "CNTX",
         "Name": "CONTEXT THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CNTY",
@@ -17845,7 +17906,8 @@
         "Symbol": "COCH",
         "Name": "ENVOY MEDICAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "COCO",
@@ -18254,7 +18316,8 @@
         "Symbol": "COOT",
         "Name": "AUSTRALIAN OILSEEDS HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "COP",
@@ -18404,7 +18467,8 @@
         "Symbol": "COSM",
         "Name": "COSMOS HEALTH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "COSO",
@@ -19175,7 +19239,8 @@
         "Symbol": "CRIS",
         "Name": "CURIS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CRK",
@@ -19859,7 +19924,8 @@
         "Name": "Castellum, Inc.",
         "Security Name": "Castellum, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "CTMA",
@@ -19884,7 +19950,8 @@
         "Symbol": "CTNT",
         "Name": "CHEETAH NET SUPPLY CHAIN INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CTO",
@@ -20009,7 +20076,8 @@
         "Symbol": "CTXR",
         "Name": "CITIUS PHARMACEUTICALS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CUB",
@@ -20561,7 +20629,8 @@
         "Symbol": "CYAB",
         "Name": "CYABRA INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CYBN",
@@ -20805,7 +20874,8 @@
         "Symbol": "DARE",
         "Name": "DARE BIOSCIENCE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DARP",
@@ -21119,7 +21189,8 @@
         "Symbol": "DCGO",
         "Name": "DOCGO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DCH",
@@ -21194,7 +21265,8 @@
         "Symbol": "DCX",
         "Name": "Digital Currency X Technology Inc",
         "Country": "China",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DD",
@@ -21209,7 +21281,8 @@
         "Name": "DDC Enterprise Limited",
         "Security Name": "DDC Enterprise Limited Class A Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "DDD",
@@ -21995,7 +22068,8 @@
         "Symbol": "DFLI",
         "Name": "DRAGONFLY ENERGY HOLDINGS CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DFLV",
@@ -23027,7 +23101,8 @@
         "Symbol": "DLXY",
         "Name": "DELIXY HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DLY",
@@ -23370,7 +23445,8 @@
         "Symbol": "DOGZ",
         "Name": "DOGNESS INTL CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DOJE",
@@ -23887,7 +23963,8 @@
         "Name": "DSS, Inc.",
         "Security Name": "DSS, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "DSTL",
@@ -24089,7 +24166,8 @@
         "Symbol": "DTSS",
         "Name": "DATASEA INTELLIGENT TECHNOLOGY",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DTST",
@@ -24215,7 +24293,8 @@
         "Symbol": "DUO",
         "Name": "Fangdd Network Group Ltd.",
         "Country": "China",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DUOG",
@@ -24546,7 +24625,8 @@
         "Name": "Eason Technology Limited American Depositary Shares (each representing sixty",
         "Security Name": "Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60,000) Ordinary Shares)",
         "Country": "China",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "DXIV",
@@ -24568,7 +24648,8 @@
         "Symbol": "DXLG",
         "Name": "DESTINATION XL GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DXPE",
@@ -24615,7 +24696,8 @@
         "Symbol": "DYAI",
         "Name": "DYADIC INTL INC DEL",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "DYFI",
@@ -25336,7 +25418,8 @@
         "Symbol": "EDVA",
         "Name": "ENDOVIA HEALTH SCIENCES INC",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "EDZ",
@@ -25841,7 +25924,8 @@
         "Symbol": "EHGO",
         "Name": "ESHALLGO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "EHI",
@@ -26033,7 +26117,8 @@
         "Symbol": "ELBM",
         "Name": "Electra Battery Materials Corp",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ELC",
@@ -26147,7 +26232,8 @@
         "Symbol": "ELOG",
         "Name": "Eastern International Ltd.",
         "Country": "China",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ELOL",
@@ -26216,7 +26302,8 @@
         "Symbol": "ELUT",
         "Name": "ELUTIA INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ELUXY",
@@ -26708,7 +26795,8 @@
         "Name": "Enlightify Inc.",
         "Security Name": "Enlightify Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "OTC Pink"
+        "Exchange": "OTC Pink",
+        "Penny": true
     },
     {
         "Symbol": "ENGGY",
@@ -26777,7 +26865,8 @@
         "Symbol": "ENLV",
         "Name": "ENLIVEX LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ENO",
@@ -26839,7 +26928,8 @@
         "Symbol": "ENSC",
         "Name": "ENSYSCE BIOSCIENCES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ENSG",
@@ -26969,7 +27059,8 @@
         "Name": "EON Resources Inc. Class A",
         "Security Name": "EON Resources Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "EONR.W",
@@ -27383,7 +27474,8 @@
         "Name": "Equus Total Return, Inc.",
         "Security Name": "Equus Total Return, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "EQT",
@@ -27667,7 +27759,8 @@
         "Symbol": "ESLA",
         "Name": "ESTRELLA IMMUNOPHARMA INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ESLG",
@@ -28289,7 +28382,8 @@
         "Symbol": "EVGN",
         "Name": "EVOGENE LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "EVGO",
@@ -28481,7 +28575,8 @@
         "Name": "Vertical Aerospace Ltd.",
         "Security Name": "Vertical Aerospace Ltd. Ordinary Shares",
         "Country": "United Kingdom",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "EVTR",
@@ -28954,7 +29049,8 @@
         "Symbol": "EZGO",
         "Name": "EZGO TECHNOLOGIES LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "EZJ",
@@ -29139,7 +29235,8 @@
         "Symbol": "FAMI",
         "Name": "FARMMI INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FAN",
@@ -31312,7 +31409,8 @@
         "Symbol": "FLD",
         "Name": "FOLD HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FLDB",
@@ -31526,7 +31624,8 @@
         "Symbol": "FLNA",
         "Name": "Filana Therapeutics Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FLNC",
@@ -31707,7 +31806,8 @@
         "Symbol": "FLUX",
         "Name": "FLUX PWR HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FLV",
@@ -31728,7 +31828,8 @@
         "Symbol": "FLX",
         "Name": "BINGEX LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FLXN",
@@ -31946,7 +32047,8 @@
         "Symbol": "FMFC",
         "Name": "KANDAL M VENTURE LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FMHI",
@@ -32008,7 +32110,8 @@
         "Name": "Foremost Clean Energy Ltd",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "Penny": true
     },
     {
         "Symbol": "FMTL",
@@ -32174,7 +32277,8 @@
         "Symbol": "FNGR",
         "Name": "FINGERMOTION INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FNGS",
@@ -33321,7 +33425,8 @@
         "Symbol": "FTHM",
         "Name": "FATHOM HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FTHY",
@@ -33660,7 +33765,8 @@
         "Name": "Fury Gold Mines Limited",
         "Security Name": "Fury Gold Mines Limited Common Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "FUSB",
@@ -33680,7 +33786,8 @@
         "Symbol": "FUSE",
         "Name": "FUSEMACHINES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FUSI",
@@ -34396,7 +34503,8 @@
         "Name": "New Concept Energy, Inc",
         "Security Name": "New Concept Energy, Inc Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "GBTC",
@@ -34486,7 +34594,8 @@
         "Symbol": "GCDT",
         "Name": "GREEN CIRCLE DECARBONIZE TECHN",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "GCGR",
@@ -34505,7 +34614,8 @@
         "Symbol": "GCL",
         "Name": "GCL GLOBAL HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GCLO",
@@ -34735,7 +34845,8 @@
         "Symbol": "GDTC",
         "Name": "CYTOMED THERAPEUTICS LIMITED",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GDV",
@@ -34918,7 +35029,8 @@
         "Symbol": "GELS",
         "Name": "GELTEQ LIMITED",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GEM",
@@ -35084,7 +35196,8 @@
         "Name": "Getty Images Holdings, Inc. Class A",
         "Security Name": "Getty Images Holdings, Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "GEV",
@@ -35142,7 +35255,8 @@
         "Symbol": "GFAI",
         "Name": "GUARDFORCE AI CO LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GFEB",
@@ -35499,7 +35613,8 @@
         "Symbol": "GIFT",
         "Name": "GIFTIFY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GIGB",
@@ -35844,7 +35959,8 @@
         "Symbol": "GLE",
         "Name": "GLOBAL ENGINE GROUP HOLDING LT",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GLED",
@@ -36225,7 +36341,8 @@
     {
         "Symbol": "GMEX",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GMEY",
@@ -36247,7 +36364,8 @@
         "Symbol": "GMHS",
         "Name": "GAMEHAUS HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GMM",
@@ -36521,7 +36639,8 @@
         "Name": "Genius Group Limited Ordinary Shares",
         "Security Name": "Genius Group Limited Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "GNSS",
@@ -36824,7 +36943,8 @@
         "Symbol": "GOVX",
         "Name": "GEOVAX LABS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GOVZ",
@@ -36838,7 +36958,8 @@
         "Symbol": "GP",
         "Name": "GREENPOWER MTR CO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GPAC",
@@ -37000,7 +37121,8 @@
         "Name": "Hyperscale Data, Inc.",
         "Security Name": "Hyperscale Data, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "GPUS PRD",
@@ -37666,7 +37788,8 @@
         "Symbol": "GSUN",
         "Name": "GOLDEN SUN TECHNOLOGY GROUP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GSUS",
@@ -37966,7 +38089,8 @@
         "Symbol": "GUTS",
         "Name": "FRACTYL HEALTH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GVA",
@@ -38043,7 +38167,8 @@
         "Name": "ESS Tech, Inc.",
         "Security Name": "ESS Tech, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "GWH.W",
@@ -38090,7 +38215,8 @@
         "Symbol": "GXAI",
         "Name": "GAXOS.AI INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GXC",
@@ -38193,7 +38319,8 @@
         "Symbol": "GYGY",
         "Name": "GAME YOUR GAME INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "GYLD",
@@ -38270,7 +38397,8 @@
         "Symbol": "HAIN",
         "Name": "HAIN CELESTIAL GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HAKY",
@@ -38580,7 +38708,8 @@
         "Symbol": "HCAI",
         "Name": "HUACHEN AI PKG MGMT TECHNOLOGY",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HCAT",
@@ -38671,7 +38800,8 @@
         "Symbol": "HCTI",
         "Name": "HEALTHCARE TRIANGLE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HCWB",
@@ -38907,7 +39037,8 @@
     {
         "Symbol": "HELFY",
         "Name": "HELLOFRESH SE",
-        "Exchange": "OTC Pink"
+        "Exchange": "OTC Pink",
+        "Penny": true
     },
     {
         "Symbol": "HELO",
@@ -39317,7 +39448,8 @@
         "Symbol": "HIHO",
         "Name": "HIGHWAY HOLDINGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HII",
@@ -39410,7 +39542,8 @@
         "Symbol": "HIT",
         "Name": "HEALTH IN TECH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HITI",
@@ -39499,7 +39632,8 @@
         "Symbol": "HKPD",
         "Name": "CELLYAN BIOTECHNOLOGY CO LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HKXCY",
@@ -39613,7 +39747,8 @@
         "Symbol": "HLSQ",
         "Name": "TESSERA DEFENSE & HOMELAND",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "HLT",
@@ -39786,7 +39921,8 @@
         "Symbol": "HODO",
         "Name": "HOUSE OF DOGE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HODU",
@@ -39963,7 +40099,8 @@
         "Symbol": "HOWL",
         "Name": "WEREWOLF THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HOYY",
@@ -39985,7 +40122,8 @@
         "Symbol": "HPAI",
         "Name": "HELPORT AI LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HPE",
@@ -40195,7 +40333,8 @@
         "Symbol": "HRTX",
         "Name": "HERON THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HRZN",
@@ -40492,7 +40631,8 @@
         "Symbol": "HUDI",
         "Name": "HUADI INTERNATIONAL GRP CO LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HUHU",
@@ -40526,7 +40666,8 @@
         "Symbol": "HUMA",
         "Name": "HUMACYTE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HUMM",
@@ -40747,7 +40888,8 @@
         "Symbol": "HXHX",
         "Name": "HAOXIN HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HXL",
@@ -40873,7 +41015,8 @@
         "Symbol": "HYFM",
         "Name": "HYDROFARM HLDGS GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HYFT",
@@ -41039,7 +41182,8 @@
         "Symbol": "HYPR",
         "Name": "HYPERFINE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "HYRM",
@@ -41445,7 +41589,8 @@
         "Symbol": "IBG",
         "Name": "Innovation Beverage Group Ltd",
         "Country": "Australia",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IBGA",
@@ -42033,7 +42178,8 @@
         "Name": "Investcorp Credit Management Bdc Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "Penny": true
     },
     {
         "Symbol": "ICOI",
@@ -42047,7 +42193,8 @@
         "Symbol": "ICON",
         "Name": "Icon Energy Corp",
         "Country": "Greece",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ICOP",
@@ -42505,7 +42652,8 @@
         "Symbol": "IFBD",
         "Name": "INFOBIRD CO LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IFEB",
@@ -42635,7 +42783,8 @@
         "Name": "IGC Pharma, Inc.",
         "Security Name": "IGC Pharma, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "IGCB",
@@ -43105,7 +43254,8 @@
         "Symbol": "ILLR",
         "Name": "TRILLER GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ILLU",
@@ -43260,7 +43410,8 @@
         "Symbol": "IMMP",
         "Name": "IMMUTEP LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IMMR",
@@ -43374,7 +43525,8 @@
         "Symbol": "IMTE",
         "Name": "INTEGRATED MEDIA TECHNLOGY LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IMTM",
@@ -43594,7 +43746,8 @@
         "Symbol": "INEO",
         "Name": "INNEOVA HOLDINGS LTD.",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "INEQ",
@@ -43953,20 +44106,23 @@
         "Symbol": "INTZ",
         "Name": "INTRUSION INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "INUV",
         "Name": "Inuvo, Inc.",
         "Security Name": "Inuvo, Inc.",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "INV",
         "Name": "INNVENTURE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "INVA",
@@ -44017,7 +44173,8 @@
         "Symbol": "INVZ",
         "Name": "INNOVIZ TECHNOLOGIES LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "INYY",
@@ -44580,7 +44737,8 @@
         "Symbol": "IRIX",
         "Name": "IRIDEX CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IRM",
@@ -45018,7 +45176,8 @@
         "Symbol": "ITOC",
         "Name": "ITONIC HOLDINGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ITOL",
@@ -45041,7 +45200,8 @@
         "Name": "IT Tech Packaging, Inc.",
         "Security Name": "IT Tech Packaging, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "ITRG",
@@ -45144,7 +45304,8 @@
         "Symbol": "IVDA",
         "Name": "IVEDA SOLUTIONS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IVE",
@@ -45304,7 +45465,8 @@
         "Symbol": "IVVD",
         "Name": "INVIVYD INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "IVVM",
@@ -46313,7 +46475,8 @@
         "Symbol": "JF",
         "Name": "J & FRIENDS HOLDINGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "JFIN",
@@ -46841,7 +47004,8 @@
         "Name": "GEE Group Inc.",
         "Security Name": "GEE Group Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "JOBC",
@@ -47324,7 +47488,8 @@
         "Symbol": "JSPR",
         "Name": "JASPER THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "JSTC",
@@ -47620,7 +47785,8 @@
         "Symbol": "JZ",
         "Name": "JIANZHI ED TECHNOLOGY GROUP CO",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "JZXN",
@@ -47646,7 +47812,8 @@
         "Symbol": "KALA",
         "Name": "KALA BIO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KALU",
@@ -48374,7 +48541,8 @@
         "Symbol": "KITT",
         "Name": "NAUTICUS ROBOTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KJAN",
@@ -48651,7 +48819,8 @@
         "Symbol": "KMRK",
         "Name": "K-Tech Solutions Company",
         "Country": "Hong Kong",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KMT",
@@ -48703,7 +48872,8 @@
         "Symbol": "KNDI",
         "Name": "KANDI TECHNOLOGIES GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KNF",
@@ -48775,7 +48945,8 @@
         "Symbol": "KNRX",
         "Name": "KNOREX LTD.",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "KNSA",
@@ -49223,7 +49394,8 @@
         "Symbol": "KSCP",
         "Name": "KNIGHTSCOPE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KSEP",
@@ -49346,7 +49518,8 @@
         "Symbol": "KTTA",
         "Name": "PASITHEA THERAPEUTICS CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KTUP",
@@ -49398,7 +49571,8 @@
         "Symbol": "KUST",
         "Name": "KUSTOM ENTERTAINMENT INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "KVHI",
@@ -49555,7 +49729,8 @@
         "Symbol": "LAB",
         "Name": "STANDARD BIOTOOLS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LABD",
@@ -49720,7 +49895,8 @@
         "Symbol": "LASE",
         "Name": "LASER PHOTONICS CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LASR",
@@ -49987,7 +50163,8 @@
         "Name": "Lineage Cell Therapeutics, Inc.",
         "Security Name": "Lineage Cell Therapeutics, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "LCUT",
@@ -50016,7 +50193,8 @@
         "Name": "loanDepot, Inc. Class A",
         "Security Name": "loanDepot, Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "LDOS",
@@ -50249,7 +50427,8 @@
         "Symbol": "LESL",
         "Name": "LESLIES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LEU",
@@ -50621,7 +50800,8 @@
         "Symbol": "LGO",
         "Name": "LARGO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LGOV",
@@ -50636,7 +50816,8 @@
         "Name": "LogProstyle Inc.",
         "Security Name": "LogProstyle Inc. Common Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "LGRDY",
@@ -50673,7 +50854,8 @@
         "Symbol": "LHSW",
         "Name": "LIANHE SOWELL INTL GROUP LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LHV1T",
@@ -50932,7 +51114,8 @@
         "Symbol": "LIQT",
         "Name": "Liqtech Internat",
         "Country": "Denmark",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LIT",
@@ -51359,7 +51542,8 @@
         "Symbol": "LOBO",
         "Name": "LOBO TECHNOLOGIES LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LOCL",
@@ -51467,7 +51651,8 @@
         "Symbol": "LOOP",
         "Name": "LOOP INDS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LOPE",
@@ -51487,7 +51672,8 @@
         "Symbol": "LOT",
         "Name": "LOTUS TECHNOLOGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LOTI",
@@ -52059,7 +52245,8 @@
         "Symbol": "LUCD",
         "Name": "LUCID DIAGNOSTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LUCK",
@@ -52072,7 +52259,8 @@
         "Symbol": "LUCY",
         "Name": "Lucyd Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LUD",
@@ -52259,7 +52447,8 @@
         "Symbol": "LX",
         "Name": "LexinFintech Holdings Ltd",
         "Country": "China",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "LXEH",
@@ -52611,7 +52800,8 @@
         "Symbol": "MAMO",
         "Name": "MASSIMO GROUP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MAN",
@@ -52756,7 +52946,8 @@
         "Symbol": "MASK",
         "Name": "3 E NETWORK TECHNOLOGY GROUP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MASS",
@@ -53032,7 +53223,8 @@
         "Symbol": "MBIO",
         "Name": "MUSTANG BIO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MBLY",
@@ -53080,7 +53272,8 @@
         "Symbol": "MBRX",
         "Name": "MOLECULIN BIOTECH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MBS",
@@ -53329,7 +53522,8 @@
         "Name": "Micropolis Holding Company Ordinary Shares",
         "Security Name": "Micropolis Holding Company Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MCS",
@@ -53417,7 +53611,8 @@
         "Symbol": "MDCX",
         "Name": "MEDICUS PHARMA LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MDEV",
@@ -53542,7 +53737,8 @@
         "Symbol": "MDXH",
         "Name": "MDxHealth SA",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MDY",
@@ -53741,7 +53937,8 @@
         "Symbol": "MERC",
         "Name": "Mercer International Inc",
         "Country": "Canada",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MESH",
@@ -54200,7 +54397,8 @@
         "Name": "The Marygold Companies, Inc.",
         "Security Name": "The Marygold Companies, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MGM",
@@ -54313,7 +54511,8 @@
         "Symbol": "MGRX",
         "Name": "MANGOCEUTICALS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MGTX",
@@ -54544,7 +54743,8 @@
         "Symbol": "MIMI",
         "Name": "MINT INCORPORATION LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MIN",
@@ -54616,7 +54816,8 @@
         "Symbol": "MIRA",
         "Name": "MIRA PHARMACEUTICALS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MIRM",
@@ -54637,7 +54838,8 @@
         "Name": "Milestone Pharmaceuticals Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "Penny": true
     },
     {
         "Symbol": "MITEY",
@@ -54674,7 +54876,8 @@
         "Name": "Moving iMage Technologies, Inc.",
         "Security Name": "Moving iMage Technologies, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MITSY",
@@ -55033,7 +55236,8 @@
         "Name": "Milestone Scientific, Inc.",
         "Security Name": "Milestone Scientific, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MLTX",
@@ -55052,7 +55256,8 @@
         "Name": "Mixed Martial Arts Group Limited Ordinary Shares",
         "Security Name": "Mixed Martial Arts Group Limited Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MMAR",
@@ -55412,7 +55617,8 @@
         "Symbol": "MNY",
         "Name": "MONEYHERO LIMITED",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MNZL",
@@ -55455,7 +55661,8 @@
         "Symbol": "MOBX",
         "Name": "MOBIX LABS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MOD",
@@ -55920,7 +56127,8 @@
         "Symbol": "MREO",
         "Name": "MEREO BIOPHARMA GROUP PLC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MRGR",
@@ -55953,7 +56161,8 @@
         "Symbol": "MRM",
         "Name": "Medirom Healthcare Technologies Inc",
         "Country": "Japan",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MRNA",
@@ -55966,7 +56175,8 @@
         "Symbol": "MRNO",
         "Name": "Hcm Acquisition Co",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MRNX",
@@ -56228,7 +56438,8 @@
         "Name": "Studio City International Holdings Limited American depositary shares, each representing four  Class A ordinary shares",
         "Security Name": "Studio City International Holdings Limited American depositary shares, each representing four  Class A ordinary shares",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "MSCI",
@@ -56430,7 +56641,8 @@
         "Name": "Emerson Radio Corporation",
         "Security Name": "Emerson Radio Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MSOL",
@@ -56715,7 +56927,8 @@
         "Symbol": "MTEK",
         "Name": "MARIS TECH LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MTEN",
@@ -56776,7 +56989,8 @@
         "Name": "Matinas Biopharma Holdings, Inc.",
         "Security Name": "Matinas Biopharma Holdings, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MTNE",
@@ -57254,7 +57468,8 @@
         "Symbol": "MVST",
         "Name": "MICROVAST HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MVT",
@@ -57565,7 +57780,8 @@
         "Name": "Mynd.ai, Inc. American Depositary Shares",
         "Security Name": "Mynd.ai, Inc. American Depositary Shares",
         "Country": "China",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "MYO",
@@ -57578,7 +57794,8 @@
         "Symbol": "MYPS",
         "Name": "PLAYSTUDIOS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "MYRG",
@@ -57826,7 +58043,8 @@
         "Symbol": "NAUT",
         "Name": "NAUTILUS BIOTECHNOLOGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NAVI",
@@ -58524,7 +58742,8 @@
         "Symbol": "NEON",
         "Name": "NEONODE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NEOV",
@@ -59162,7 +59381,8 @@
         "Symbol": "NIXX",
         "Name": "NIXXY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NJAN",
@@ -59478,7 +59698,8 @@
         "Symbol": "NMRA",
         "Name": "Neumora Therapeutics Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NMRK",
@@ -59580,7 +59801,8 @@
         "Symbol": "NNOX",
         "Name": "NANO X IMAGING LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NNVC",
@@ -60199,7 +60421,8 @@
         "Symbol": "NSPR",
         "Name": "INSPIREMD INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NSRGY",
@@ -60723,7 +60946,8 @@
         "Symbol": "NUWE",
         "Name": "NUWELLIS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NVA",
@@ -60939,7 +61163,8 @@
         "Symbol": "NVNI",
         "Name": "Nvni Group Ltd",
         "Country": "Cayman Islands",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NVNO",
@@ -61225,7 +61450,8 @@
         "Symbol": "NXGL",
         "Name": "NEXGEL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NXH",
@@ -61361,7 +61587,8 @@
         "Symbol": "NXXT",
         "Name": "NEXTNRG INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "NYAX",
@@ -61582,7 +61809,8 @@
         "Symbol": "OBAI",
         "Name": "OUR BD INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OBAWU",
@@ -61991,7 +62219,8 @@
         "Symbol": "OFAL",
         "Name": "OFA GROUP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OFED",
@@ -62071,7 +62300,8 @@
         "Name": "Oragenics Inc.",
         "Security Name": "Oragenics Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "OGG",
@@ -62275,7 +62505,8 @@
         "Symbol": "OLB",
         "Name": "OLB GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OLCLY",
@@ -62476,13 +62707,15 @@
         "Symbol": "ONCO",
         "Name": "ONCONETIX INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ONCY",
         "Name": "ONCOLYTICS BIOTECH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OND",
@@ -62581,7 +62814,8 @@
         "Symbol": "ONFO",
         "Name": "ONFOLIO HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ONG",
@@ -62619,7 +62853,8 @@
         "Symbol": "ONMD",
         "Name": "ONEMEDNET CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ONOF",
@@ -63254,7 +63489,8 @@
         "Symbol": "OTLK",
         "Name": "OUTLOOK THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "OTLY",
@@ -63828,7 +64064,8 @@
         "Name": "Pineapple Financial Inc.",
         "Security Name": "Pineapple Financial Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "PAPR",
@@ -63849,7 +64086,8 @@
         "Symbol": "PARA",
         "Name": "BANZAI INTERNATIONAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PARK",
@@ -63875,7 +64113,8 @@
         "Symbol": "PASW",
         "Name": "Ping An Biomedical",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PATH",
@@ -64199,7 +64438,8 @@
         "Symbol": "PBK",
         "Name": "POWERBANK CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PBL",
@@ -64906,7 +65146,8 @@
         "Symbol": "PDSB",
         "Name": "PDS BIOTECHNOLOGY CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PDT",
@@ -66157,7 +66398,8 @@
         "Name": "Planet Green Holdings Corp.",
         "Security Name": "Planet Green Holdings Corp. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "PLAY",
@@ -66524,7 +66766,8 @@
         "Symbol": "PMAX",
         "Name": "POWELL MAX LIMITED",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PMAY",
@@ -66545,7 +66788,8 @@
         "Symbol": "PMCB",
         "Name": "PHARMACYTE BIOTECH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PMDE",
@@ -66558,7 +66802,8 @@
         "Symbol": "PMEC",
         "Name": "PRIMECH HOLDINGS LTD.",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PMFB",
@@ -66664,7 +66909,8 @@
         "Name": "Perfect Moment Ltd.",
         "Security Name": "Perfect Moment Ltd. Common Stock",
         "Country": "USA",
-        "Exchange": "OTCQB"
+        "Exchange": "OTCQB",
+        "Penny": true
     },
     {
         "Symbol": "PMNV",
@@ -66812,7 +67058,8 @@
         "Symbol": "PNBK",
         "Name": "PATRIOT NATL BANCORP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PNC",
@@ -66916,7 +67163,8 @@
         "Symbol": "POAS",
         "Name": "PHAOS TECHNOLOGY HLDGS (CAYMAN",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "POCI",
@@ -66974,7 +67222,8 @@
         "Symbol": "POM",
         "Name": "POMDOCTOR LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PONO",
@@ -67087,7 +67336,8 @@
         "Name": "Propanc Biopharma Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "Penny": true
     },
     {
         "Symbol": "PPCCY",
@@ -67615,7 +67865,8 @@
         "Symbol": "PROP",
         "Name": "PRAIRIE OPER CO",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PROSY",
@@ -67666,7 +67917,8 @@
         "Symbol": "PRSO",
         "Name": "PERASO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PRSU",
@@ -67762,7 +68014,8 @@
         "Symbol": "PRZO",
         "Name": "PARAZERO TECHNOLOGIES LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "PS",
@@ -69354,7 +69607,8 @@
         "Symbol": "QCLS",
         "Name": "Q/C TECHNOLOGIES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "QCMD",
@@ -69847,7 +70101,8 @@
         "Symbol": "QNME",
         "Name": "QUANOME TECHNOLOGIES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "QNRX",
@@ -70182,7 +70437,8 @@
         "Symbol": "QSI",
         "Name": "QUANTUM SI INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "QSIG",
@@ -70263,7 +70519,8 @@
         "Symbol": "QTEX",
         "Name": "QTREX QUANTUM LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "QTI",
@@ -70752,7 +71009,8 @@
         "Symbol": "RANI",
         "Name": "RANI THERAPEUTICS HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RANJY",
@@ -70939,7 +71197,8 @@
         "Name": "Vicarious Surgical Inc. Class A",
         "Security Name": "Vicarious Surgical Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "OTC Pink"
+        "Exchange": "OTC Pink",
+        "Penny": true
     },
     {
         "Symbol": "RBOT.W",
@@ -71132,7 +71391,8 @@
         "Symbol": "RCT",
         "Name": "REDCLOUD HLDGS PLC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RCTR",
@@ -71199,13 +71459,15 @@
         "Symbol": "RDGT",
         "Name": "RIDGETECH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RDHL",
         "Name": "REDHILL BIOPHARMA LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RDI",
@@ -71398,7 +71660,8 @@
         "Symbol": "REED",
         "Name": "REEDS INC",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "REET",
@@ -71432,7 +71695,8 @@
         "Symbol": "REFR",
         "Name": "RESEARCH FRONTIERS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "REG",
@@ -71497,7 +71761,8 @@
         "Symbol": "REKR",
         "Name": "REKOR SYSTEMS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "REKT",
@@ -71625,13 +71890,15 @@
         "Symbol": "RETO",
         "Name": "RETO ECO SOLUTIONS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "REVB",
         "Name": "REVELATION BIOSCIENCES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "REVG",
@@ -72144,7 +72411,8 @@
         "Symbol": "RIME",
         "Name": "ALGORHYTHM HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RINC",
@@ -72416,7 +72684,8 @@
         "Symbol": "RKDA",
         "Name": "ARCADIA BIOSCIENCES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RKLB",
@@ -72457,7 +72726,8 @@
         "Symbol": "RKTO",
         "Name": "ROCKET ONE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RKUNY",
@@ -72614,7 +72884,8 @@
         "Symbol": "RMCF",
         "Name": "ROCKY MTN CHOCOLATE FACTORY",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RMCO",
@@ -72735,7 +73006,8 @@
         "Symbol": "RMSG",
         "Name": "REAL MESSENGER CORP.",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RMT",
@@ -72883,7 +73155,8 @@
         "Symbol": "RNTX",
         "Name": "REIN THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RNTY",
@@ -73763,7 +74036,8 @@
         "Name": "Retractable Technologies, Inc.",
         "Security Name": "Retractable Technologies, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "RVRB",
@@ -74057,13 +74331,15 @@
         "Name": "Ryde Group Ltd. Class A Ordinary Shares",
         "Security Name": "Ryde Group Ltd. Class A Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "RYET",
         "Name": "RUANYUN EDAI TECHNOLOGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "RYI",
@@ -74286,7 +74562,8 @@
         "Symbol": "SAFX",
         "Name": "XCF GLOBAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SAGP",
@@ -74300,7 +74577,8 @@
         "Symbol": "SAGT",
         "Name": "South Asia Gateway Terminals Ltd",
         "Country": "Sri Lanka",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SAGU",
@@ -74656,7 +74934,8 @@
         "Symbol": "SBFM",
         "Name": "SUNSHINE BIOPHARMA INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SBGI",
@@ -74819,7 +75098,8 @@
         "Symbol": "SCAG",
         "Name": "SCAGE FUTURE",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SCAP",
@@ -75265,7 +75545,8 @@
         "Symbol": "SCKT",
         "Name": "SOCKET MOBILE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SCL",
@@ -75341,7 +75622,8 @@
         "Symbol": "SCNX",
         "Name": "SCIENTURE HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SCO",
@@ -75469,7 +75751,8 @@
         "Symbol": "SDA",
         "Name": "SUNCAR TECHNOLOGY GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SDCI",
@@ -75622,7 +75905,8 @@
         "Symbol": "SDST",
         "Name": "STARDUST PWR INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SDTY",
@@ -75772,7 +76056,8 @@
         "Symbol": "SEED",
         "Name": "ORIGIN AGRITECH LIMITED",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SEEM",
@@ -76052,7 +76337,8 @@
         "Name": "SES AI Corporation Class A",
         "Security Name": "SES AI Corporation Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "SES.W",
@@ -76592,7 +76878,8 @@
         "Symbol": "SHFS",
         "Name": "SHF HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SHG",
@@ -77195,7 +77482,8 @@
         "Symbol": "SJ",
         "Name": "SCIENJOY HOLDING CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SJB",
@@ -77361,7 +77649,8 @@
         "Symbol": "SKIN",
         "Name": "SKINHEALTH SYSTEMS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SKK",
@@ -77574,7 +77863,8 @@
         "Symbol": "SLGB",
         "Name": "SMART LOGISTICS GLOBAL LIMITED",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SLGL",
@@ -77640,7 +77930,8 @@
         "Name": "Southland Holdings, Inc.",
         "Security Name": "Southland Holdings, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "SLND.W",
@@ -77701,7 +77992,8 @@
         "Name": "SelectQuote, Inc.",
         "Security Name": "SelectQuote, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "SLRC",
@@ -77720,7 +78012,8 @@
         "Symbol": "SLSN",
         "Name": "SOLESENCE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SLSR",
@@ -77808,7 +78101,8 @@
         "Symbol": "SLXN",
         "Name": "SILEXION THERAPEUTICS CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SLYG",
@@ -78507,7 +78801,8 @@
         "Symbol": "SNES",
         "Name": "SENESTECH INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SNEX",
@@ -78525,7 +78820,8 @@
         "Symbol": "SNGX",
         "Name": "SOLIGENIX INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SNK",
@@ -78659,7 +78955,8 @@
         "Symbol": "SNTI",
         "Name": "SENTI BIOSCIENCES HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SNTQ",
@@ -78740,7 +79037,8 @@
         "Name": "Volato Group, Inc. Class A",
         "Security Name": "Volato Group, Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "SOBKY",
@@ -78943,7 +79241,8 @@
         "Symbol": "SONDQ",
         "Name": "SONDER HOLDINGS INC",
         "Country": "USA",
-        "Exchange": "OTC Expert Market"
+        "Exchange": "OTC Expert Market",
+        "Penny": true
     },
     {
         "Symbol": "SONM",
@@ -79001,7 +79300,8 @@
         "Name": "SOS Limited Class A Ordinary Shares",
         "Security Name": "SOS Limited Class A Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "SOTGY",
@@ -79913,7 +80213,8 @@
         "Symbol": "SPWR",
         "Name": "SUNPOWER INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SPXC",
@@ -80236,7 +80537,8 @@
         "Name": "Surf Air Mobility Inc.",
         "Security Name": "Surf Air Mobility Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "SRG",
@@ -80647,7 +80949,8 @@
         "Symbol": "STAK",
         "Name": "STAK INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "STAX",
@@ -80749,7 +81052,8 @@
         "Symbol": "STEX",
         "Name": "STREAMEX CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "STFS",
@@ -81215,7 +81519,8 @@
         "Symbol": "SUGP",
         "Name": "SU GROUP HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SUHJY",
@@ -81350,7 +81655,8 @@
         "Symbol": "SURG",
         "Name": "SURGEPAYS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "SURI",
@@ -81781,7 +82087,8 @@
         "Name": "Silynxcom Ltd. Ordinary Shares",
         "Security Name": "Silynxcom Ltd. Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "SYPR",
@@ -81793,7 +82100,8 @@
         "Symbol": "SYRA",
         "Name": "Syra Health",
         "Country": "USA",
-        "Exchange": "OTCQB"
+        "Exchange": "OTCQB",
+        "Penny": true
     },
     {
         "Symbol": "SYRE",
@@ -82034,7 +82342,8 @@
         "Symbol": "TAOP",
         "Name": "TAOPING INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TAOX",
@@ -82471,7 +82780,8 @@
         "Symbol": "TCRX",
         "Name": "TSCAN THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TCV",
@@ -82739,7 +83049,8 @@
         "Symbol": "TEAD",
         "Name": "TEADS HLDG CO",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TEAF",
@@ -83289,7 +83600,8 @@
         "Name": "The Generation Essentials Group",
         "Security Name": "The Generation Essentials Group Class A Ordinary Shares",
         "Country": "France",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "Penny": true
     },
     {
         "Symbol": "TGE.W",
@@ -83309,7 +83621,8 @@
         "Symbol": "TGHL",
         "Name": "The GrowHub Limited",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TGL",
@@ -84249,7 +84562,8 @@
         "Name": "TMD Energy Limited Ordinary Shares",
         "Security Name": "TMD Energy Limited Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "TMDV",
@@ -84594,7 +84908,8 @@
         "Symbol": "TNYA",
         "Name": "TENAYA THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TOAK",
@@ -84688,7 +85003,8 @@
         "Name": "Kartoon Studios, Inc.",
         "Security Name": "Kartoon Studios, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "TOP",
@@ -84709,14 +85025,16 @@
         "Name": "Toppoint Holdings Inc.",
         "Security Name": "Toppoint Holdings Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "TOPS",
         "Name": "TOP Ships, Inc.",
         "Security Name": "TOP Ships, Inc. Common Stock",
         "Country": "Greece",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "TOPT",
@@ -84813,7 +85131,8 @@
         "Name": "Theriva Biologics, Inc.",
         "Security Name": "Theriva Biologics, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "TOWN",
@@ -85025,7 +85344,8 @@
         "Symbol": "TPST",
         "Name": "TEMPEST THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TPTA",
@@ -85111,7 +85431,8 @@
         "Symbol": "TRAW",
         "Name": "Traws Pharma",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TRAX",
@@ -85522,7 +85843,8 @@
         "Symbol": "TRUG",
         "Name": "TRUGOLF HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TRUH",
@@ -86401,7 +86723,8 @@
         "Symbol": "TWG",
         "Name": "TOP WEALTH GROUP HLDG LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TWI",
@@ -86689,7 +87012,8 @@
         "Symbol": "TYGO",
         "Name": "TIGO ENERGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "TYIDY",
@@ -86970,7 +87294,8 @@
         "Symbol": "UCL",
         "Name": "UCLOUDLINK GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "UCO",
@@ -87124,7 +87449,8 @@
         "Symbol": "UFG",
         "Name": "UNI-FUELS HLDGS LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "UFI",
@@ -88103,7 +88429,8 @@
         "Name": "USBC, Inc.",
         "Security Name": "USBC, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "USCA",
@@ -89722,7 +90049,8 @@
         "Symbol": "VHUB",
         "Name": "VENHUB GLOBAL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "VIA",
@@ -89926,7 +90254,8 @@
         "Symbol": "VIVK",
         "Name": "VIVAKOR INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "VIVO",
@@ -89938,7 +90267,8 @@
         "Symbol": "VIVS",
         "Name": "VIVOSIM LABS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "VIXM",
@@ -90310,7 +90640,8 @@
         "Name": "VolitionRX Limited",
         "Security Name": "VolitionRX Limited Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "VNSE",
@@ -90332,7 +90663,8 @@
         "Name": "Vantage Corp Class A Ordinary Shares",
         "Security Name": "Vantage Corp Class A Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "VO",
@@ -90815,7 +91147,8 @@
         "Symbol": "VSME",
         "Name": "VS MEDIA HOLDINGS LTD.",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "VSMV",
@@ -90895,7 +91228,8 @@
         "Name": "Catheter Precision, Inc.",
         "Security Name": "Catheter Precision, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "VTC",
@@ -90963,7 +91297,8 @@
         "Symbol": "VTGN",
         "Name": "VISTAGEN THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "VTHR",
@@ -91169,7 +91504,8 @@
         "Symbol": "VVOS",
         "Name": "VIVOS THERAPEUTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "VVR",
@@ -91568,7 +91904,8 @@
         "Symbol": "WBUY",
         "Name": "WEBUY GLOBAL LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "WBX",
@@ -92273,7 +92610,8 @@
         "Symbol": "WIMI",
         "Name": "WIMI HOLOGRAM CLOUD INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "WINA",
@@ -92372,7 +92710,8 @@
         "Symbol": "WKSP",
         "Name": "WORKSPORT LTD",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "WLCO",
@@ -93185,7 +93524,8 @@
         "Name": "Westwater Resources, Inc.",
         "Security Name": "Westwater Resources, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "WWW",
@@ -93606,7 +93946,8 @@
         "Symbol": "XELB",
         "Name": "XCEL BRANDS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "XELLL",
@@ -94537,7 +94878,8 @@
         "Name": "Solitario Resources Corp.",
         "Security Name": "Solitario Resources Corp. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "XPND",
@@ -94893,7 +95235,8 @@
         "Symbol": "XTIA",
         "Name": "XTI AEROSPACE INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "XTJA",
@@ -94944,7 +95287,8 @@
         "Name": "Xtant Medical Holdings, Inc.",
         "Security Name": "Xtant Medical Holdings, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "XTOC",
@@ -95072,7 +95416,8 @@
         "Symbol": "XWEL",
         "Name": "XWELL INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "XWNG",
@@ -95286,7 +95631,8 @@
         "Name": "cbdMD, Inc.",
         "Security Name": "cbdMD, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "YCL",
@@ -95342,7 +95688,8 @@
         "Symbol": "YDKG",
         "Name": "YUEDA DIGITAL HOLDING",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "YEAR",
@@ -95591,7 +95938,8 @@
         "Symbol": "YOUL",
         "Name": "YOULIFE GROUP INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "YPF",
@@ -95746,7 +96094,8 @@
         "Symbol": "YYAI",
         "Name": "AIRWA Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "YYY",
@@ -95816,7 +96165,8 @@
         "Symbol": "ZBAO",
         "Name": "ZHIBAO TECHNOLOGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ZBH",
@@ -95876,7 +96226,8 @@
         "Symbol": "ZCMD",
         "Name": "ZHONGCHAO INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ZCSH",
@@ -95937,7 +96288,8 @@
         "Symbol": "ZEO",
         "Name": "ZEO ENERGY CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "ZEPP",
@@ -96173,7 +96525,8 @@
         "Name": "CleanCore Solutions Inc. Class B",
         "Security Name": "CleanCore Solutions Inc. Class B Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "ZOOZ",
