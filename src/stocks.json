@@ -4855,9 +4855,9 @@
         "Symbol": "APLY",
         "Name": "Tidal ETF Trust II YieldMax AAPL Option Income Strategy ETF",
         "Security Name": "Tidal ETF Trust II YieldMax AAPL Option Income Strategy ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "APLZ",
@@ -15099,14 +15099,7 @@
         "Name": "CHURCHILL CAP CORP XI",
         "Country": "USA",
         "Exchange": "NASDAQ"
-    },
-    {
-        "Symbol": "CCZ",
-        "Name": "Comcast Holdings ZONES",
-        "Security Name": "Comcast Holdings ZONES",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
+    },    
     {
         "Symbol": "CD",
         "Name": "CHAINCE DIGITAL HOLDINGS INC",
@@ -20376,13 +20369,6 @@
         "ownWebull": true
     },
     {
-        "Symbol": "CWAN",
-        "Name": "Clearwater Analytics Holdings, Inc. Class A",
-        "Security Name": "Clearwater Analytics Holdings, Inc. Class A Common Stock",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
-    {
         "Symbol": "CWB",
         "Name": "SPDR Bloomberg Convertible Securities ETF",
         "Security Name": "SPDR Bloomberg Convertible Securities ETF",
@@ -20408,7 +20394,8 @@
         "Symbol": "CWD",
         "Name": "CALIBERCOS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CWEB",
@@ -32842,7 +32829,8 @@
         "Symbol": "FRTT",
         "Name": "FORT TECHNOLOGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "FRTY",
