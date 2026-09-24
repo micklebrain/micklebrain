@@ -15577,7 +15577,8 @@
         "Symbol": "CETY",
         "Name": "CLEAN ENERGY TECHNOLOGIES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CEV",
