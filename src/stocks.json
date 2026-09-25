@@ -59302,10 +59302,10 @@
     {
         "Symbol": "NINOY",
         "Name": "Nikon Corp",
-        "Country": "Japan",
+        "Country": "Japan",        
+        "Exchange": "OTC Pink",
         "dividend": true,
-        "ownWebull": true,
-        "Exchange": "OTC Pink"
+        "ownWebull": true
     },
     {
         "Symbol": "NIO",
@@ -59352,9 +59352,9 @@
         "Symbol": "NITE",
         "Name": "Capitol Series Trust The Nightview Fund NITE",
         "Security Name": "Capitol Series Trust The Nightview Fund NITE",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "NIU",
@@ -59393,9 +59393,9 @@
         "Symbol": "NJNK",
         "Name": "Columbia ETF Trust I Columbia U.S. High Yield ETF",
         "Security Name": "Columbia ETF Trust I Columbia U.S. High Yield ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "NJR",
@@ -59408,17 +59408,17 @@
         "Symbol": "NJUL",
         "Name": "Innovator Growth",
         "Security Name": "Innovator Growth-100 Power Buffer ETF - July",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "NJUN",
         "Name": "SHL Telemedicine Ltd Innovator Growth",
         "Security Name": "SHL Telemedicine Ltd Innovator Growth-100 Power Buffer ETF - June",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "NKE",
