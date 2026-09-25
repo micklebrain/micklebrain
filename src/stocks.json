@@ -34095,9 +34095,9 @@
         "Name": "Invesco Currency Shares Japanese Yen Trust",
         "Security Name": "Invesco Currency Shares Japanese Yen Trust",
         "Country": "USA",
+        "Exchange": "NYSE Arca",
         "Pooled": true,
-        "ownRobinhood": true,
-        "Exchange": "NYSE Arca"
+        "ownRobinhood": true        
     },
     {
         "Symbol": "FXZ",
@@ -45570,10 +45570,10 @@
         "Name": "iShares Russell 2000 ETF",
         "Security Name": "iShares Russell 2000 ETF",
         "Country": "USA",
+        "Exchange": "NYSE Arca",
         "dividend": true,
         "Pooled": true,
-        "ownRobinhood": true,
-        "Exchange": "NYSE Arca"
+        "ownRobinhood": true        
     },
     {
         "Symbol": "IWMI",
@@ -75356,10 +75356,10 @@
         "Name": "Schwab U.S. REIT ETF",
         "Security Name": "Schwab U.S. REIT ETF",
         "Country": "USA",
+        "Exchange": "NYSE Arca",
         "dividend": true,
         "Pooled": true,
-        "ownRobinhood": true,
-        "Exchange": "NYSE Arca"
+        "ownRobinhood": true        
     },
     {
         "Symbol": "SCHI",
@@ -91566,10 +91566,10 @@
         "Name": "Vanguard FTSE Emerging Markets ETF",
         "Security Name": "Vanguard FTSE Emerging Markets ETF",
         "Country": "USA",
+        "Exchange": "NYSE Arca",
         "dividend": true,
         "Pooled": true,
-        "ownRobinhood": true,
-        "Exchange": "NYSE Arca"
+        "ownRobinhood": true        
     },
     {
         "Symbol": "VWOB",
