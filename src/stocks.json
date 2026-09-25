@@ -51925,7 +51925,8 @@
         "Name": "Lam Research Corp",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "LRE",
@@ -59200,8 +59201,7 @@
         "Symbol": "NHTC",
         "Name": "Natural Health Trends Corp",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "NHYB",
@@ -73123,7 +73123,8 @@
         "Name": "RenaissanceRe Holdings Ltd.",
         "Security Name": "RenaissanceRe Holdings Ltd. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "RNR PRF",
