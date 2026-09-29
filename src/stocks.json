@@ -20,6 +20,12 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "004990",
+        "Name": "Lotte Corp",
+        "Country": "South Korea",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "005930",
         "Name": "Samsung Electronics Co Ltd",
         "Country": "South Korea",
@@ -34097,7 +34103,7 @@
         "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true,
-        "ownRobinhood": true        
+        "ownRobinhood": true
     },
     {
         "Symbol": "FXZ",
@@ -45573,7 +45579,7 @@
         "Exchange": "NYSE Arca",
         "dividend": true,
         "Pooled": true,
-        "ownRobinhood": true        
+        "ownRobinhood": true
     },
     {
         "Symbol": "IWMI",
@@ -48789,7 +48795,7 @@
         "Symbol": "KMLM",
         "Name": "KraneShares Mount Lucas Managed Futures Index Strategy ETF",
         "Security Name": "KraneShares Mount Lucas Managed Futures Index Strategy ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -59302,7 +59308,7 @@
     {
         "Symbol": "NINOY",
         "Name": "Nikon Corp",
-        "Country": "Japan",        
+        "Country": "Japan",
         "Exchange": "OTC Pink",
         "dividend": true,
         "ownWebull": true
@@ -59352,7 +59358,7 @@
         "Symbol": "NITE",
         "Name": "Capitol Series Trust The Nightview Fund NITE",
         "Security Name": "Capitol Series Trust The Nightview Fund NITE",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -59393,7 +59399,7 @@
         "Symbol": "NJNK",
         "Name": "Columbia ETF Trust I Columbia U.S. High Yield ETF",
         "Security Name": "Columbia ETF Trust I Columbia U.S. High Yield ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -59408,7 +59414,7 @@
         "Symbol": "NJUL",
         "Name": "Innovator Growth",
         "Security Name": "Innovator Growth-100 Power Buffer ETF - July",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -59416,7 +59422,7 @@
         "Symbol": "NJUN",
         "Name": "SHL Telemedicine Ltd Innovator Growth",
         "Security Name": "SHL Telemedicine Ltd Innovator Growth-100 Power Buffer ETF - June",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -60656,7 +60662,6 @@
         "Name": "Natuzzi, S.p.A.",
         "Security Name": "Natuzzi, S.p.A.",
         "Country": "Italy",
-        "ownWebull": true,
         "Exchange": "NYSE"
     },
     {
@@ -75360,7 +75365,7 @@
         "Exchange": "NYSE Arca",
         "dividend": true,
         "Pooled": true,
-        "ownRobinhood": true        
+        "ownRobinhood": true
     },
     {
         "Symbol": "SCHI",
@@ -91570,7 +91575,7 @@
         "Exchange": "NYSE Arca",
         "dividend": true,
         "Pooled": true,
-        "ownRobinhood": true        
+        "ownRobinhood": true
     },
     {
         "Symbol": "VWOB",

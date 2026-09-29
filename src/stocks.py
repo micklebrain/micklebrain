@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["ARLP"]
+stocksToAdd = ["004990"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Alliance Resource Partners LP")
+    addStock(stock, name="Lotte Corp")
