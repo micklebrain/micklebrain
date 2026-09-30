@@ -15247,7 +15247,8 @@
         "Symbol": "CDNS",
         "Name": "CADENCE DESIGN SYSTEM INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownEtrade": true
     },
     {
         "Symbol": "CDP",
