@@ -7136,13 +7136,6 @@
         "Exchange": "NYSE Arca"
     },
     {
-        "Symbol": "AVNS",
-        "Name": "Avanos Medical, Inc.",
-        "Security Name": "Avanos Medical, Inc. Common Stock",
-        "Country": "USA",
-        "Exchange": "NYSE"
-    },
-    {
         "Symbol": "AVNT",
         "Name": "Avient Corporation",
         "Security Name": "Avient Corporation Common Stock",
@@ -58566,7 +58559,8 @@
         "Name": "Nordson Corp",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "NDVG",
