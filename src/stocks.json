@@ -65297,7 +65297,8 @@
         "Name": "Penumbra, Inc.",
         "Security Name": "Penumbra, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "PENG",
@@ -90094,7 +90095,8 @@
         "Symbol": "VICR",
         "Name": "VICOR CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownWebull": true
     },
     {
         "Symbol": "VIDA",
