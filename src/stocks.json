@@ -18101,7 +18101,8 @@
         "Name": "Coherent Corp.",
         "Security Name": "Coherent Corp. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "COHU",
@@ -44653,11 +44654,6 @@
         "Exchange": "NYSE"
     },
     {
-        "Symbol": "IRBT",
-        "Name": "Irobot",
-        "Country": "USA"
-    },
-    {
         "Symbol": "IRD",
         "Name": "OPUS GENETICS INC",
         "Country": "USA",
@@ -55466,8 +55462,7 @@
         "Symbol": "MNDO",
         "Name": "Mind Cti",
         "Country": "Israel",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "MNDR",
