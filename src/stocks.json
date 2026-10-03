@@ -954,6 +954,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "ACIG",
+        "Name": "Hartford Alpha Capture International Growth ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "ACII",
         "Name": "Innovator Index Autocallable Income Strategy ETF",
         "Country": "USA",
@@ -1184,6 +1190,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "ACSM",
+        "Name": "Hartford Alpha Capture SMID Cap ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "ACSP",
@@ -2688,6 +2700,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "NYSE Arca"
+    },
+    {
+        "Symbol": "AIBF",
+        "Name": "iShares Future AI Beneficiaries ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "AIBU",
@@ -5472,6 +5490,12 @@
         "Exchange": "Cboe BZX"
     },
     {
+        "Symbol": "ARKI",
+        "Name": "ARK DIET Q2 Buffer ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "ARKK",
         "Name": "ARK Innovation ETF",
         "Security Name": "ARK Innovation ETF",
@@ -7141,6 +7165,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "NYSE Arca"
+    },
+    {
+        "Symbol": "AVNC",
+        "Name": "Avantis All International Core Equity ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "AVNM",
@@ -8889,6 +8919,12 @@
         "Exchange": "NYSE",
         "dividend": true,
         "ownWebull": true
+    },
+    {
+        "Symbol": "BCOM",
+        "Name": "Rareview Bloomberg Commodity Index ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "BCOR",
@@ -12314,6 +12350,12 @@
         "ownWebull": true
     },
     {
+        "Symbol": "BRSM",
+        "Name": "MFS Blended Research Small-Mid Cap ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "BRSP",
         "Name": "Brightspire Capital Inc",
         "Security Name": "BrightSpire Capital, Inc. Class A Common Stock",
@@ -12890,6 +12932,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "BTCK",
+        "Name": "7RCC Spot Bitcoin and Carbon Credit Futures ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "BTCL",
@@ -16254,6 +16302,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "CHIP",
+        "Name": "REX AI Chipmaking ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CHIQ",
         "Name": "Global X MSCI China Consumer Discretionary ETF",
         "Security Name": "Global X MSCI China Consumer Discretionary ETF",
@@ -16851,6 +16905,12 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
+    },
+    {
+        "Symbol": "CIVG",
+        "Name": "Corgi 1-5 Year Investment Grade Corporate Bond ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "CIX",
@@ -19186,6 +19246,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "CRDD",
+        "Name": "Cardano ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CRDF",
         "Name": "CARDIFF ONCOLOGY INC",
         "Country": "USA",
@@ -20247,6 +20313,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "CUST",
+        "Name": "Corgi 1-3 Year Treasury Bond ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CUT",
         "Name": "Invesco MSCI Global Timber ETF",
         "Security Name": "Invesco MSCI Global Timber ETF",
@@ -21024,6 +21096,12 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "DBAR",
+        "Name": "iMGP DBi Absolute Return ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "DBAW",
         "Name": "Xtrackers MSCI All World ex US Hedged Equity ETF",
         "Security Name": "Xtrackers MSCI All World ex US Hedged Equity ETF",
@@ -21245,6 +21323,12 @@
         "Security Name": "Dakota Gold Corp. Warrants, each warrant exercisable for one Common Share at an exercise price of $2.08",
         "Country": "USA",
         "Exchange": "NYSE American"
+    },
+    {
+        "Symbol": "DCAP",
+        "Name": "T-Strive Digital CreditPreferred Income ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "DCBG",
@@ -23680,6 +23764,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "DQSE",
+        "Name": "FT Vest Nasdaq-100 Dual Directional Buffer ETF - September",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "DRAG",
         "Name": "Roundhill ETF Trust Roundhill China Dragons ETF",
         "Security Name": "Roundhill ETF Trust Roundhill China Dragons ETF",
@@ -25993,6 +26083,12 @@
         "Exchange": "NYSE"
     },
     {
+        "Symbol": "EHCC",
+        "Name": "Global X Ethereum Covered Call ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "EHGO",
         "Name": "ESHALLGO INC",
         "Country": "USA",
@@ -26905,6 +27001,12 @@
         "Exchange": "NYSE"
     },
     {
+        "Symbol": "ENHE",
+        "Name": "iShares Enhanced Emerging Markets Active ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "ENHI",
         "Name": "Ishares Enhanced International Active ETF",
         "Country": "USA",
@@ -26998,6 +27100,12 @@
         "Name": "EINRIDE AB",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "ENRG",
+        "Name": "Ninepoint North American Energy Independence ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "ENS",
@@ -31944,6 +32052,12 @@
         "Penny": true
     },
     {
+        "Symbol": "FLXI",
+        "Name": "Invesco Flexible Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "FLXN",
         "Name": "Horizon Funds Horizon Flexible Income ETF",
         "Security Name": "Horizon Funds Horizon Flexible Income ETF",
@@ -34477,6 +34591,12 @@
         "Exchange": "Cboe BZX"
     },
     {
+        "Symbol": "GARY",
+        "Name": "Mango Growth ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "GASS",
         "Name": "StealthGas Inc",
         "Country": "Greece",
@@ -34776,6 +34896,12 @@
         "Name": "Goldman Sachs Core Plus Bond ETF",
         "Country": "USA",
         "Exchange": "NYSE",
+        "Pooled": true
+    },
+    {
+        "Symbol": "GCPU",
+        "Name": "Grayscale AI Compute ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -40967,6 +41093,12 @@
         "Country": "USA"
     },
     {
+        "Symbol": "HWMV",
+        "Name": "Hotchkis & Wiley Mid-Cap Value Fund/ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "HWO",
         "Name": "Hotchkis & Wiley Opportunities Fund ETF Class",
         "Country": "USA",
@@ -42309,6 +42441,12 @@
         "Exchange": "NASDAQ",
         "dividend": true,
         "Penny": true
+    },
+    {
+        "Symbol": "ICMO",
+        "Name": "Symmetry Panoramic International Country Momentum ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "ICOI",
@@ -43663,6 +43801,12 @@
         "Penny": true
     },
     {
+        "Symbol": "IMTG",
+        "Name": "Invesco Agency MBS ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "IMTM",
         "Name": "iShares MSCI Intl Momentum Factor ETF",
         "Security Name": "iShares MSCI Intl Momentum Factor ETF",
@@ -43897,6 +44041,12 @@
         "Security Name": "Informatica Inc. Class A Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "INFH",
+        "Name": "Defiance Daily Target 2X Long INFQ ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "INFL",
@@ -44148,6 +44298,12 @@
         "Security Name": "International Seaways, Inc. Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "INT",
+        "Name": "Corgi INTC 2x Daily ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "INTA",
@@ -46142,6 +46298,12 @@
         "Exchange": "Cboe BZX"
     },
     {
+        "Symbol": "JANI",
+        "Name": "AllianzIM International Equity Buffer15 Uncapped Jan ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "JANJ",
         "Name": "Innovator ETFs Trust Innovator Premium Income 30 Barrier ETF",
         "Security Name": "Innovator ETFs Trust Innovator Premium Income 30 Barrier ETF - January",
@@ -47517,6 +47679,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "JQTY",
+        "Name": "Jensen US Quality Index ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "JQUA",
         "Name": "JPMorgan U.S. Quality Factor ETF",
         "Security Name": "JPMorgan U.S. Quality Factor ETF",
@@ -48664,6 +48832,12 @@
         "Security Name": "KKR Income Opportunities Fund Common Shares",
         "Country": "USA",
         "Exchange": "NYSE",
+        "Pooled": true
+    },
+    {
+        "Symbol": "KIQQ",
+        "Name": "KraneShares InspereX Nasdaq Dynamic Buffered High Income Index ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -51408,6 +51582,12 @@
         "Exchange": "OTC Pink"
     },
     {
+        "Symbol": "LLMA",
+        "Name": "Global X LLM ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "LLY",
         "Name": "Eli Lilly and Company",
         "Security Name": "Eli Lilly and Company Common Stock",
@@ -52298,6 +52478,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "LTCC",
+        "Name": "Canary Litecoin ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "LTGHY",
         "Name": "LIFE HEALTHCARE GRP HLDGS LTD",
         "Exchange": "OTC Pink"
@@ -52426,6 +52612,12 @@
         "Security Name": "Lumen Technologies, Inc. Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "LUNC",
+        "Name": "Longnook Uncommon Compounders ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "LUNG",
@@ -54515,6 +54707,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "MGIN",
+        "Name": "Man Active Global Infrastructure ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MGK",
         "Name": "Vanguard Mega Cap Growth ETF",
         "Security Name": "Vanguard Mega Cap Growth ETF",
@@ -54855,6 +55053,12 @@
         "Exchange": "Cboe BZX"
     },
     {
+        "Symbol": "MIGO",
+        "Name": "MIG Core ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MILK",
         "Name": "Pacer Funds Trust Pacer US Cash Cows Bond ETF",
         "Security Name": "Pacer Funds Trust Pacer US Cash Cows Bond ETF",
@@ -55064,6 +55268,12 @@
         "Symbol": "MITT-C",
         "Name": "AG Mortgage Investment Trust, Inc. 8.00% Series C Fixed",
         "Security Name": "AG Mortgage Investment Trust, Inc. 8.00% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, $0.01 par value per share",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
+        "Symbol": "MIVL",
+        "Name": "MFS Active International Value ETF",
         "Country": "USA",
         "Pooled": true
     },
@@ -55441,6 +55651,12 @@
         "dividend": true
     },
     {
+        "Symbol": "MMHI",
+        "Name": "NYLIM MacKay Muni High Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MMI",
         "Name": "Marcus & Millichap, Inc.",
         "Security Name": "Marcus & Millichap, Inc. Common Stock",
@@ -55584,6 +55800,12 @@
         "ownWebull": true
     },
     {
+        "Symbol": "MN",
+        "Name": "Corgi MANGOS ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MNA",
         "Name": "NYLI Merger Arbitrage ETF",
         "Security Name": "NYLI Merger Arbitrage ETF",
@@ -55617,6 +55839,12 @@
         "Country": "Israel",
         "Exchange": "NASDAQ",
         "ownWebull": true
+    },
+    {
+        "Symbol": "MNGB",
+        "Name": "Yorkville America 2X Inverse MANGOS Plus Daily Target ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "MNGU",
@@ -57495,6 +57723,12 @@
         "Exchange": "NYSE"
     },
     {
+        "Symbol": "MUY",
+        "Name": "YieldMax MU Option Income Strategy ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MUYY",
         "Name": "GraniteShares YieldBOOST MU ETF",
         "Country": "USA",
@@ -57789,6 +58023,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "MYCP",
+        "Name": "State Street My2036 Corporate Bond ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MYD",
         "Name": "Blackrock MuniYield Fund, Inc.",
         "Security Name": "Blackrock MuniYield Fund, Inc.  Common Stock",
@@ -57830,6 +58070,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "MYHC",
+        "Name": "State Street My2029 High Yield Corporate Bond ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "MYHD",
         "Name": "State Street\u00ae My2030 High Yield Corporate Bond ETF",
         "Country": "USA",
@@ -57841,6 +58087,12 @@
         "Name": "State Street\u00ae My2031 High Yield Corporate Bond ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "MYHF",
+        "Name": "State Street My2032 High Yield Corporate Bond ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -57899,6 +58151,12 @@
         "Name": "State Street\u00ae My2031 Municipal Bond ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "MYML",
+        "Name": "State Street My2032 Municipal Bond ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -58759,6 +59017,12 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
+    },
+    {
+        "Symbol": "NECK",
+        "Name": "XETFs AI Bottlenecks ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "NEE",
@@ -60402,6 +60666,12 @@
         "Security Name": "Natural Resource Partners LP Limited Partnership",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "NRR",
+        "Name": "Bitwise NEAR ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "NRSH",
@@ -62147,6 +62417,12 @@
         "dividend": true
     },
     {
+        "Symbol": "OCT",
+        "Name": "VanEck US Equity Buffer ETF - October",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "OCTB",
         "Name": "Aptus October Buffer ETF",
         "Country": "USA",
@@ -62168,6 +62444,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "OCTI",
+        "Name": "AllianzIM International Equity Buffer15 Uncapped Oct ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "OCTJ",
@@ -62912,6 +63194,12 @@
         "Name": "ONECONSTRUCTION GROUP LTD",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "ONEH",
+        "Name": "TrueShares Equity Hedge ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "ONEN",
@@ -64472,6 +64760,12 @@
         "Exchange": "OTC Pink"
     },
     {
+        "Symbol": "PBCS",
+        "Name": "Portfolio Building Block World Consumer Staples ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "PBD",
         "Name": "Invesco Global Clean Energy ETF",
         "Security Name": "Invesco Global Clean Energy ETF",
@@ -64756,6 +65050,12 @@
         "Exchange": "Cboe BZX"
     },
     {
+        "Symbol": "PBUB",
+        "Name": "Portfolio Building Block US Banks ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "PBUS",
         "Name": "Invesco MSCI USA ETF",
         "Security Name": "Invesco MSCI USA ETF",
@@ -64770,6 +65070,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "NYSE Arca"
+    },
+    {
+        "Symbol": "PBWN",
+        "Name": "Portfolio Building Block World Ex US Industrials ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "PBYI",
@@ -65818,6 +66124,12 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "PFRX",
+        "Name": "Putnam Focused US Research ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "PFS",
         "Name": "Provident Financial Services, Inc",
         "Security Name": "Provident Financial Services, Inc Common Stock",
@@ -66215,6 +66527,12 @@
         "Name": "Invesco Dorsey Wright Emerging Markets Momentum ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "PIEL",
+        "Name": "Pacer International Export Leaders ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -70358,6 +70676,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "QQBF",
+        "Name": "FT Vest Nasdaq 100 Quarterly 15 Buffer ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "QQDN",
         "Name": "ProShares UltraShort QQQ Mega",
         "Country": "USA",
@@ -70384,6 +70708,12 @@
         "Name": "Invesco QQQ Hedged Advantage ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "QQI",
+        "Name": "Invesco Nasdaq International Innovators 100 ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -70433,6 +70763,12 @@
         "Name": "ProShares Nasdaq-100 Dorsey Wright Momentum ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "QQQB",
+        "Name": "VistaShares Shield Nasdaq 100 Enhanced Protection ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -72898,6 +73234,12 @@
         "Name": "Defiance Retail Kings ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "RKSG",
+        "Name": "Ruk Strategic Growth ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -75836,6 +76178,12 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "SCOP",
+        "Name": "Sprott Physical Copper Trust",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "SCOR",
         "Name": "COMSCORE INC",
         "Country": "USA",
@@ -76211,6 +76559,12 @@
         "Country": "USA",
         "Exchange": "NYSE",
         "ownWebull": true
+    },
+    {
+        "Symbol": "SECA",
+        "Name": "Main Active Rotation ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "SECR",
@@ -80637,6 +80991,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "SQLT",
+        "Name": "iShares MSCI USA Small-Cap Quality Factor ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "SQLV",
         "Name": "Royce Quant Small-Cap Quality Value ETF",
         "Country": "USA",
@@ -81186,6 +81546,12 @@
         "Exchange": "OTC Pink"
     },
     {
+        "Symbol": "STBQ",
+        "Name": "Amplify Stablecoin Technology Leaders ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "STC",
         "Name": "Stewart Information Services Corporation",
         "Security Name": "Stewart Information Services Corporation Common Stock",
@@ -81362,6 +81728,18 @@
         "Name": "STARLING ONCOLOGY INC",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "STLR",
+        "Name": "Stellar ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
+        "Symbol": "STLU",
+        "Name": "2x Stellar ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "STM",
@@ -83076,6 +83454,12 @@
         "Exchange": "Cboe BZX"
     },
     {
+        "Symbol": "TDEM",
+        "Name": "T Rowe Price Dynamic Emerging Markets Bond ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "TDF",
         "Name": "Templeton Dragon Fund, Inc.",
         "Security Name": "Templeton Dragon Fund, Inc. Common Stock",
@@ -83633,6 +84017,12 @@
         "Name": "iShares Texas Equity ETF",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "TEXU",
+        "Name": "Direxion Daily Energy Top 5 Bull 2X ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -84514,6 +84904,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "TKNQ",
+        "Name": "Amplify Tokenization Technology Leaders ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "TKNS",
         "Name": "21Shares Active Crypto ETF",
         "Country": "USA",
@@ -84595,6 +84991,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "NYSE Arca"
+    },
+    {
+        "Symbol": "TLIE",
+        "Name": "American Beacon The London Co Income Equity ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "TLIH",
@@ -84908,6 +85310,12 @@
         "Name": "T ROWE PRICE EXCHANGE-TRADED",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Pooled": true
+    },
+    {
+        "Symbol": "TMLP",
+        "Name": "Tortoise MLP ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -85279,6 +85687,12 @@
         "Name": "Roundhill Top WeeklyPay ETF",
         "Country": "USA",
         "Exchange": "Cboe BZX",
+        "Pooled": true
+    },
+    {
+        "Symbol": "TORK",
+        "Name": "KraneShares Actuator ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -85760,6 +86174,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "TRIL",
+        "Name": "VegaShares Trillions ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "TRIN",
         "Name": "Trinity Capital Inc",
         "Country": "USA",
@@ -86227,6 +86647,12 @@
         "Exchange": "NASDAQ",
         "dividend": true,
         "ownWebull": true
+    },
+    {
+        "Symbol": "TSCV",
+        "Name": "Thrivent Small Cap Value ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "TSCZ",
@@ -87086,6 +87512,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "TXCA",
+        "Name": "Northern Trust California Intermediate Tax-Exempt Bond ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "TXG",
         "Name": "10X GENOMICS INC",
         "Country": "USA",
@@ -87117,6 +87549,12 @@
         "Name": "Direxion Daily Txn Bull 2X ETF",
         "Country": "USA",
         "Exchange": "NYSE Arca",
+        "Pooled": true
+    },
+    {
+        "Symbol": "TXNY",
+        "Name": "Northern Trust New York Intermediate Tax-Exempt Bond ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -88880,6 +89318,12 @@
         "Pooled": true
     },
     {
+        "Symbol": "USMD",
+        "Name": "CoreValues America First Technology ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "USMF",
         "Name": "WisdomTree U.S. Multifactor Fund",
         "Security Name": "WisdomTree U.S. Multifactor Fund",
@@ -89429,6 +89873,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "VAIC",
+        "Name": "VegaShares US Equity Autocallable Conservative Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "VAIE",
         "Name": "Vegashares US Equity Autocallable Income ETF",
         "Country": "USA",
@@ -89679,6 +90129,12 @@
         "Name": "VERICEL CORP",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "VCHY",
+        "Name": "Vanguard U.S. High-Yield Corporate Bond Index ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "VCIG",
@@ -90197,6 +90653,12 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "VGRO",
+        "Name": "Virtus Silvant Growth Opportunities ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "VGSH",
         "Name": "Vanguard Short-Term Treasury Index Fund ETF Shares",
         "Country": "USA",
@@ -90694,6 +91156,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "VMHY",
+        "Name": "VictoryShares Municipal High Yield ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "VMI",
         "Name": "Valmont Industries, Inc.",
         "Security Name": "Valmont Industries, Inc. Common Stock",
@@ -90724,6 +91192,12 @@
         "Name": "Voya Multi Sector Income ETF",
         "Country": "USA",
         "Exchange": "NYSE Arca",
+        "Pooled": true
+    },
+    {
+        "Symbol": "VMSD",
+        "Name": "VictoryShares Short-Duration Municipal ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -90981,6 +91455,12 @@
         "Pooled": true,
         "ownWebull": true,
         "Exchange": "NYSE Arca"
+    },
+    {
+        "Symbol": "VOOB",
+        "Name": "VistaShares Shield S&P 500 Enhanced Protection ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "VOOG",
@@ -93817,6 +94297,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "WYFL",
+        "Name": "Defiance Daily Target 2X Long WYFI ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "WYHG",
         "Name": "WING YIP FOOD HOLDINGS GROUP",
         "Country": "USA",
@@ -93996,6 +94482,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "XBNB",
+        "Name": "Teucrium xETFs 2x Long Daily BNB ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "XBOC",
@@ -94208,6 +94700,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "XEML",
+        "Name": "Xtrackers Europe Market Leaders ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "XENE",
@@ -95613,10 +96111,40 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "XVAD",
+        "Name": "FT Vest AMD & Target Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "XVAP",
         "Name": "FT Vest AAPL & Target Income ETF",
         "Country": "USA",
         "Exchange": "Cboe BZX",
+        "Pooled": true
+    },
+    {
+        "Symbol": "XVAZ",
+        "Name": "FT Vest AMZN & Target Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
+        "Symbol": "XVGL",
+        "Name": "FT Vest GOOG & Target Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
+        "Symbol": "XVMS",
+        "Name": "FT Vest MSFT & Target Income ETF",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
+        "Symbol": "XVMT",
+        "Name": "FT Vest META & Target Income ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -95633,6 +96161,12 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "XVPT",
+        "Name": "FT Vest PLTR & Target Income ETF",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "XVSP",
@@ -95675,6 +96209,12 @@
         "Name": "Amplify Top 10 Space ETF",
         "Country": "USA",
         "Exchange": "NYSE Arca",
+        "Pooled": true
+    },
+    {
+        "Symbol": "XX",
+        "Name": "Roundhill S&P 500 Target 10000 2030 ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
@@ -96456,6 +96996,12 @@
         "Name": "Global X Zero Coupon Bond 2032 ETF",
         "Country": "USA",
         "Exchange": "NYSE Arca",
+        "Pooled": true
+    },
+    {
+        "Symbol": "ZCBE",
+        "Name": "Global X Zero Coupon Bond 2033 ETF",
+        "Country": "USA",
         "Pooled": true
     },
     {
