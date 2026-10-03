@@ -802,6 +802,11 @@
         "Exchange": "NYSE American"
     },
     {
+        "Symbol": "ACCV",
+        "Name": "Accelevation Holdings Corp",
+        "Country": "USA"
+    },
+    {
         "Symbol": "ACDC",
         "Name": "PROFRAC HLDG CORP",
         "Country": "USA",
@@ -1594,6 +1599,11 @@
         "Symbol": "ADRNY",
         "Name": "KONINKLIJKE AHOLD DELHAIZE N",
         "Exchange": "OTCQX"
+    },
+    {
+        "Symbol": "ADRX",
+        "Name": "ADARx Pharmaceuticals Inc",
+        "Country": "USA"
     },
     {
         "Symbol": "ADSE",
@@ -3338,6 +3348,11 @@
         "Country": "USA",
         "Exchange": "NYSE",
         "Pooled": true
+    },
+    {
+        "Symbol": "ALF",
+        "Name": "Centurion Acquisition Corp",
+        "Country": "USA"
     },
     {
         "Symbol": "ALFVY",
@@ -14884,6 +14899,12 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "CCD",
+        "Name": "Calamos Dynamic Convertible & Income Fund",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CCEC",
         "Name": "Capital Clean Energy Carriers Corp",
         "Country": "USA",
@@ -15962,6 +15983,12 @@
         "dividend": true
     },
     {
+        "Symbol": "CGO",
+        "Name": "Calamos Global Total Return Fund",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CGON",
         "Name": "CG ONCOLOGY INC",
         "Country": "USA",
@@ -16221,6 +16248,12 @@
         "ownEtrade": true
     },
     {
+        "Symbol": "CHI",
+        "Name": "Calamos Convertible Opportunities & Income Fund",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CHIQ",
         "Name": "Global X MSCI China Consumer Discretionary ETF",
         "Security Name": "Global X MSCI China Consumer Discretionary ETF",
@@ -16447,6 +16480,12 @@
         "Country": "USA",
         "Exchange": "NYSE",
         "ownWebull": true
+    },
+    {
+        "Symbol": "CHY",
+        "Name": "Calamos Convertible & High Income Fund",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "CHYG",
@@ -17034,6 +17073,10 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "ownEtrade": true
+    },
+    {
+        "Symbol": "CLMT",
+        "Name": "Calumet Inc"
     },
     {
         "Symbol": "CLNE",
@@ -18948,6 +18991,12 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "CPZ",
+        "Name": "Calamos Long/Short Equity & Dynamic Income Trust",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "CQP",
         "Name": "Cheniere Energy Partners, LP Common Units",
         "Security Name": "Cheniere Energy Partners, LP Common Units",
@@ -19700,6 +19749,12 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
+    },
+    {
+        "Symbol": "CSQ",
+        "Name": "Calamos Strategic Total Return Fund",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "CSQR",
@@ -28119,6 +28174,11 @@
         "Exchange": "NYSE"
     },
     {
+        "Symbol": "ETRA",
+        "Name": "Electra Therapeutics",
+        "Country": "USA"
+    },
+    {
         "Symbol": "ETS",
         "Name": "ELITE EXPRESS HOLDING INC.",
         "Country": "USA",
@@ -33172,6 +33232,12 @@
         "Security Name": "Federal Signal Corporation Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "FSSL",
+        "Name": "FS Specialty Lending Fund",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "FSST",
@@ -42769,6 +42835,11 @@
         "Pooled": true
     },
     {
+        "Symbol": "IGAC",
+        "Name": "Invest Green Acquisition",
+        "Country": "USA"
+    },
+    {
         "Symbol": "IGBH",
         "Name": "iShares Interest Rate Hedged Long",
         "Security Name": "iShares Interest Rate Hedged Long-Term Corporate Bond ETF",
@@ -45279,6 +45350,12 @@
         "Country": "France",
         "Exchange": "NASDAQ",
         "ownWebull": true
+    },
+    {
+        "Symbol": "IVAI",
+        "Name": "Ives Ultra AI Opportunities",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "IVAL",
@@ -62995,6 +63072,11 @@
         "Exchange": "OTC Pink"
     },
     {
+        "Symbol": "OPI",
+        "Name": "Office Properties Income Trust",
+        "Country": "USA"
+    },
+    {
         "Symbol": "OPK",
         "Name": "OPKO HEALTH INC",
         "Country": "USA",
@@ -63825,6 +63907,11 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "NYSE Arca"
+    },
+    {
+        "Symbol": "PAAC",
+        "Name": "Proem Acquisition Corp I",
+        "Country": "USA"
     },
     {
         "Symbol": "PAAI",
@@ -70333,6 +70420,12 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "QQQX",
+        "Name": "Nuveen NASDAQ 100 Dynamic Overwrite Fund",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "QQQY",
         "Name": "Defiance Nasdaq 100 Target 30 Weekly Distribution ETF",
         "Country": "USA",
@@ -72025,6 +72118,10 @@
         "Country": "USA"
     },
     {
+        "Symbol": "RFAI",
+        "Name": "RF Acquisition Corp II"
+    },
+    {
         "Symbol": "RFAM",
         "Name": "RF ACQUISITION CORP III",
         "Country": "USA",
@@ -73085,6 +73182,11 @@
         "Security Name": "Ranger Energy Services, Inc. Class A Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "RNGT",
+        "Name": "Range Capital Acquisition Corp II",
+        "Country": "USA"
     },
     {
         "Symbol": "RNIN",
@@ -74404,6 +74506,11 @@
         "Country": "USA",
         "Exchange": "NYSE",
         "dividend": true
+    },
+    {
+        "Symbol": "RZAI",
+        "Name": "Roze AI",
+        "Country": "USA"
     },
     {
         "Symbol": "RZB",
@@ -82577,6 +82684,12 @@
         "Name": "TABOOLA.COM LTD",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "TBLD",
+        "Name": "Thornburg Income Builder Opportunities Trust",
+        "Country": "USA",
+        "Pooled": true
     },
     {
         "Symbol": "TBLL",
@@ -91621,6 +91734,10 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "VYLR",
+        "Name": "Vylor Inc."
+    },
+    {
         "Symbol": "VYM",
         "Name": "Vanguard High Dividend Yield ETF",
         "Security Name": "Vanguard High Dividend Yield ETF",
@@ -92748,6 +92865,11 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
+    },
+    {
+        "Symbol": "WLII",
+        "Name": "Willow Lane Acquisition Corp II",
+        "Country": "USA"
     },
     {
         "Symbol": "WLK",
@@ -94204,6 +94326,11 @@
         "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
+    },
+    {
+        "Symbol": "XIII",
+        "Name": "Churchill Capital Corp XIII",
+        "Country": "USA"
     },
     {
         "Symbol": "XIJN",
