@@ -16474,6 +16474,17 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "CHW",
+        "Name": "Calamos Global Dynamic Income Fund",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
+        "Symbol": "CHWM",
+        "Name": "Chilwa Minerals",
+        "Country": "USA"
+    },
+    {
         "Symbol": "CHWY",
         "Name": "Chewy, Inc. Class A",
         "Security Name": "Chewy, Inc. Class A Common Stock",
@@ -26133,6 +26144,11 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "EJH",
+        "Name": "E-Home Household Service",
+        "Country": "USA"
+    },
+    {
         "Symbol": "EJPRY",
         "Name": "EAST JAPAN RAILWAY CO",
         "Exchange": "OTC Pink"
@@ -26166,6 +26182,11 @@
         "Security Name": "Envela Corporation Common Stock",
         "Country": "USA",
         "Exchange": "NYSE American"
+    },
+    {
+        "Symbol": "ELAB",
+        "Name": "PMGC Holdings",
+        "Country": "USA"
     },
     {
         "Symbol": "ELAN",
@@ -27152,6 +27173,11 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "EOSEW",
+        "Name": "Eos Energy Enterprises, Inc. Warrant",
+        "Country": "USA"
+    },
+    {
         "Symbol": "EOSU",
         "Name": "T-Rex 2X Long Eose Daily Target ETF",
         "Country": "USA",
@@ -27960,6 +27986,11 @@
         "Symbol": "ESYJY",
         "Name": "EASYJET PLC",
         "Exchange": "OTC Pink"
+    },
+    {
+        "Symbol": "ESYN",
+        "Name": "Enersyn Global Inc.",
+        "Country": "USA"
     },
     {
         "Symbol": "ET",
@@ -30673,6 +30704,11 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "FFR",
+        "Name": "FF EAI Robotics Ecosystem",
+        "Country": "USA"
+    },
+    {
         "Symbol": "FFSM",
         "Name": "Fidelity Fundamental Small",
         "Security Name": "Fidelity Fundamental Small-Mid Cap ETF",
@@ -30721,6 +30757,11 @@
         "Name": "FIRST GTY BANCSHARES INC",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "FGC",
+        "Name": "FG Communities Holdings",
+        "Country": "USA"
     },
     {
         "Symbol": "FGD",
@@ -31301,6 +31342,11 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "FJDI",
+        "Name": "ARC Group Securities Acquisition I",
+        "Country": "USA"
     },
     {
         "Symbol": "FJET",
@@ -33825,6 +33871,12 @@
         "dividend": true
     },
     {
+        "Symbol": "FUND",
+        "Name": "Sprott Focus Trust",
+        "Country": "USA",
+        "Pooled": true
+    },
+    {
         "Symbol": "FUNL",
         "Name": "CornerCap Fundametrics Large",
         "Security Name": "CornerCap Fundametrics Large-Cap ETF",
@@ -34674,13 +34726,6 @@
         "Name": "GENERAL CATALYST GBL RESIL MRG",
         "Country": "USA",
         "Exchange": "NASDAQ"
-    },
-    {
-        "Symbol": "GCI",
-        "Name": "Gannett Co., Inc.",
-        "Security Name": "Gannett Co., Inc. Common Stock",
-        "Country": "USA",
-        "Exchange": "NYSE"
     },
     {
         "Symbol": "GCL",
@@ -37024,6 +37069,11 @@
         "Country": "USA",
         "Pooled": true,
         "Exchange": "Cboe BZX"
+    },
+    {
+        "Symbol": "GOW",
+        "Name": "GOWell Energy Technology",
+        "Country": "USA"
     },
     {
         "Symbol": "GP",
@@ -40135,6 +40185,11 @@
         "Exchange": "NYSE"
     },
     {
+        "Symbol": "HOST",
+        "Name": "Host Digital",
+        "Country": "USA"
+    },
+    {
         "Symbol": "HOUR",
         "Name": "HOUR LOOP INC",
         "Country": "USA",
@@ -40684,6 +40739,11 @@
         "ownWebull": true
     },
     {
+        "Symbol": "HUBC",
+        "Name": "Hub Cyber Security",
+        "Country": "USA"
+    },
+    {
         "Symbol": "HUBG",
         "Name": "Hub Group Inc",
         "Country": "USA",
@@ -40697,6 +40757,11 @@
         "Country": "USA",
         "Exchange": "NYSE",
         "ownWebull": true
+    },
+    {
+        "Symbol": "HUCK",
+        "Name": "Huckleberry AI",
+        "Country": "USA"
     },
     {
         "Symbol": "HUDI",
@@ -56894,6 +56959,11 @@
         "Exchange": "NYSE American"
     },
     {
+        "Symbol": "MTAK",
+        "Name": "Market Technology Acquisition Corp",
+        "Country": "USA"
+    },
+    {
         "Symbol": "MTAL",
         "Name": "MAC Copper Limited Ordinary Shares",
         "Security Name": "MAC Copper Limited Ordinary Shares",
@@ -60511,6 +60581,11 @@
         "dividend": true
     },
     {
+        "Symbol": "NSTR",
+        "Name": "NorthStar Earth & Space",
+        "Country": "USA"
+    },
+    {
         "Symbol": "NSTS",
         "Name": "NSTS BANCORP INC",
         "Country": "USA",
@@ -61361,6 +61436,11 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "dividend": true
+    },
+    {
+        "Symbol": "NWCL",
+        "Name": "Newcleo plc",
+        "Country": "USA"
     },
     {
         "Symbol": "NWE",
@@ -62445,6 +62525,11 @@
         "Pooled": true
     },
     {
+        "Symbol": "OIG",
+        "Name": "Orion180 Insurance Group",
+        "Country": "USA"
+    },
+    {
         "Symbol": "OIH",
         "Name": "VanEck Oil Services ETF",
         "Security Name": "VanEck Oil Services ETF",
@@ -63087,6 +63172,11 @@
         "Name": "OPENLANE INC",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "OPNW",
+        "Name": "OpenWorld",
+        "Country": "USA"
     },
     {
         "Symbol": "OPP",
@@ -67134,6 +67224,11 @@
         "Name": "PN SMART ENERGY LTD",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "PNAQ",
+        "Name": "Pinnacle Acquisition Corp",
+        "Country": "USA"
     },
     {
         "Symbol": "PNBK",
@@ -74722,6 +74817,11 @@
         "Exchange": "NASDAQ"
     },
     {
+        "Symbol": "SAIQ",
+        "Name": "WISeSAT.Space Holdings",
+        "Country": "USA"
+    },
+    {
         "Symbol": "SAJ",
         "Name": "Saratoga Investment Corp 8.00% Notes due 2027",
         "Security Name": "Saratoga Investment Corp 8.00% Notes due 2027",
@@ -81185,6 +81285,11 @@
         "Exchange": "NYSE Arca"
     },
     {
+        "Symbol": "STHO",
+        "Name": "Star Holdings",
+        "Country": "USA"
+    },
+    {
         "Symbol": "STI",
         "Name": "SOLIDION TECHNOLOGY INC",
         "Country": "USA",
@@ -81850,6 +81955,11 @@
         "Name": "SILVACO GROUP INC",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "SVIA",
+        "Name": "Silvia, Inc.",
+        "Country": "USA"
     },
     {
         "Symbol": "SVIV",
@@ -82924,9 +83034,9 @@
         "Symbol": "TDAQ",
         "Name": "ETF Opportunities Trust TappAlpha Innovation 100 Growth & Daily Income ETF",
         "Security Name": "ETF Opportunities Trust TappAlpha Innovation 100 Growth & Daily Income ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "TDAX",
@@ -82934,6 +83044,13 @@
         "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
+    },
+    {
+        "Symbol": "TDAY",
+        "Name": "USA TODAY Co.",
+        "Security Name": "USA TODAY Co. Common Stock",
+        "Country": "USA",
+        "Exchange": "NYSE"
     },
     {
         "Symbol": "TDC",
@@ -83208,9 +83325,9 @@
         "Symbol": "TECL",
         "Name": "Direxion Technology Bull 3X Shares",
         "Security Name": "Direxion Technology Bull 3X Shares",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "TECS",
@@ -83251,9 +83368,9 @@
         "Symbol": "TEK",
         "Name": "BlackRock ETF Trust iShares Technology Opportunities Active ETF",
         "Security Name": "BlackRock ETF Trust iShares Technology Opportunities Active ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "TEKX",
@@ -83330,9 +83447,9 @@
         "Symbol": "TEMP",
         "Name": "J.P. Morgan Exchange",
         "Security Name": "J.P. Morgan Exchange-Traded Fund Trust JPMorgan Climate Change Solutions ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "TEMR",
@@ -83345,17 +83462,17 @@
         "Symbol": "TEMT",
         "Name": "Tradr 2X Long TEM Daily ETF",
         "Security Name": "Tradr 2X Long TEM Daily ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "TEMX",
         "Name": "Touchstone ETF Trust Touchstone Sands Capital Emerging Markets ex",
         "Security Name": "Touchstone ETF Trust Touchstone Sands Capital Emerging Markets ex-China Growth ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "TEN",
@@ -85004,6 +85121,11 @@
         "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
+    },
+    {
+        "Symbol": "TNXP",
+        "Name": "Tonix Pharmaceuticals",
+        "Country": "USA"
     },
     {
         "Symbol": "TNXT",
@@ -90531,6 +90653,11 @@
         "Name": "VALLEY NATL BANCORP",
         "Country": "USA",
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "VMAR",
+        "Name": "Vision Marine Technologies",
+        "Country": "USA"
     },
     {
         "Symbol": "VMAX",
