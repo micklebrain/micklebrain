@@ -35508,8 +35508,7 @@
         "Name": "GreenTree Hospitality Group Ltd.",
         "Security Name": "GreenTree Hospitality Group Ltd. American depositary shares, each representing one Class A ordinary share",
         "Country": "China",
-        "Exchange": "NYSE",
-        "ownWebull": true
+        "Exchange": "NYSE"
     },
     {
         "Symbol": "GHI",
