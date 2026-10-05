@@ -36731,7 +36731,8 @@
         "Name": "Genie Energy Ltd. Class B Stock",
         "Security Name": "Genie Energy Ltd. Class B Common Stock Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "GNGBY",
