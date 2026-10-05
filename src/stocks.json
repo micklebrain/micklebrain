@@ -19419,8 +19419,7 @@
         "Symbol": "CRMT",
         "Name": "Amer Carmart",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "CRMU",
