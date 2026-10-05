@@ -36717,9 +36717,9 @@
         "Symbol": "GMUN",
         "Name": "Goldman Sachs Access Municipal Bond ETF",
         "Security Name": "Goldman Sachs Access Municipal Bond ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "GMVHY",
@@ -52074,7 +52074,8 @@
         "Name": "LPL Financial Holdings Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "LPRE",
