@@ -60478,7 +60478,8 @@
         "Name": "Enpro Inc.",
         "Security Name": "Enpro Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "NPSCY",
@@ -63333,7 +63334,8 @@
         "Name": "Onto Innovation Inc.",
         "Security Name": "Onto Innovation Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "ONTX",
@@ -83428,7 +83430,8 @@
         "Name": "USA TODAY Co.",
         "Security Name": "USA TODAY Co. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "TDC",
@@ -91231,25 +91234,25 @@
         "Symbol": "VNIE",
         "Name": "The Advisors Inner Circle Fund II Vontobel International Equity Active ETF",
         "Security Name": "The Advisors Inner Circle Fund II Vontobel International Equity Active ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "VNLA",
         "Name": "Janus Henderson Short Duration Income ETF",
         "Security Name": "Janus Henderson Short Duration Income ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "VNM",
         "Name": "VanEck Vietnam ETF",
         "Security Name": "VanEck Vietnam ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "VNME",
