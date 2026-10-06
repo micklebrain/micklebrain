@@ -76311,33 +76311,33 @@
         "Symbol": "SDCI",
         "Name": "USCF SummerHaven Dynamic Commodity Strategy No K",
         "Security Name": "USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SDCP",
         "Name": "Virtus ETF Trust II Virtus Newfleet Short Duration Core Plus Bond ETF",
         "Security Name": "Virtus ETF Trust II Virtus Newfleet Short Duration Core Plus Bond ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SDD",
         "Name": "ProShares UltraShort SmallCap600",
         "Security Name": "ProShares UltraShort SmallCap600",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SDEM",
         "Name": "Global X MSCI SuperDividend Emerging Markets ETF",
         "Security Name": "Global X MSCI SuperDividend Emerging Markets ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SDEV",
@@ -76391,9 +76391,9 @@
         "Symbol": "SDIV",
         "Name": "Global X SuperDividend ETF",
         "Security Name": "Global X SuperDividend ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SDMF",
