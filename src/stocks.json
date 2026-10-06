@@ -92,6 +92,176 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "000660",
+        "Name": "SK hynix Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "005380",
+        "Name": "Hyundai Motor Company",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "005490",
+        "Name": "POSCO Holdings Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "006400",
+        "Name": "Samsung SDI Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "009150",
+        "Name": "Samsung Electro-Mechanics Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "009540",
+        "Name": "HD Korea Shipbuilding & Offshore Engineering Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "010130",
+        "Name": "Korea Zinc Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "011200",
+        "Name": "HMM Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "012330",
+        "Name": "Hyundai Mobis Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "012450",
+        "Name": "Hanwha Aerospace Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "015760",
+        "Name": "Korea Electric Power Corporation",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "017670",
+        "Name": "SK Telecom Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "018260",
+        "Name": "Samsung SDS Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "028260",
+        "Name": "Samsung C&T Corporation",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "030200",
+        "Name": "KT Corporation",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "032830",
+        "Name": "Samsung Life Insurance Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "034020",
+        "Name": "Doosan Enerbility Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "034730",
+        "Name": "SK Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "042660",
+        "Name": "Hanwha Ocean Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "051910",
+        "Name": "LG Chem Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "066570",
+        "Name": "LG Electronics Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "068270",
+        "Name": "Celltrion Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "086520",
+        "Name": "EcoPro Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "086790",
+        "Name": "Hana Financial Group Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "096770",
+        "Name": "SK Innovation Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "105560",
+        "Name": "KB Financial Group Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "138040",
+        "Name": "Meritz Financial Group Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "196170",
+        "Name": "Alteogen Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "207940",
+        "Name": "Samsung Biologics Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "247540",
+        "Name": "EcoPro BM Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "259960",
+        "Name": "Krafton Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "316140",
+        "Name": "Woori Financial Group Inc.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "329180",
+        "Name": "HD Hyundai Heavy Industries Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "373220",
+        "Name": "LG Energy Solution Ltd.",
+        "Country": "South Korea"
+    },
+    {
         "Symbol": "4IG",
         "Name": "4ig Plc.",
         "Country": "Hungary",
@@ -19419,7 +19589,7 @@
         "Symbol": "CRMT",
         "Name": "Amer Carmart",
         "Country": "USA",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "CRMU",
@@ -36716,7 +36886,7 @@
         "Symbol": "GMUN",
         "Name": "Goldman Sachs Access Municipal Bond ETF",
         "Security Name": "Goldman Sachs Access Municipal Bond ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -75887,7 +76057,7 @@
         "Symbol": "SCHF",
         "Name": "Schwab International Equity ETF",
         "Security Name": "Schwab International Equity ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -75921,7 +76091,7 @@
         "Symbol": "SCHJ",
         "Name": "Schwab 1",
         "Security Name": "Schwab 1-5 Year Corporate Bond ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -75929,7 +76099,7 @@
         "Symbol": "SCHK",
         "Name": "Schwab 1000 Index ETF",
         "Security Name": "Schwab 1000 Index ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -75969,7 +76139,7 @@
         "Symbol": "SCHQ",
         "Name": "Schwab Long",
         "Security Name": "Schwab Long-Term U.S. Treasury ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -75977,7 +76147,7 @@
         "Symbol": "SCHR",
         "Name": "Schwab Intermediate",
         "Security Name": "Schwab Intermediate-Term U.S. Treasury ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76020,7 +76190,7 @@
         "Symbol": "SCHX",
         "Name": "Schwab U.S. Large",
         "Security Name": "Schwab U.S. Large-Cap ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76028,7 +76198,7 @@
         "Symbol": "SCHY",
         "Name": "Schwab International Dividend Equity ETF",
         "Security Name": "Schwab International Dividend Equity ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76041,7 +76211,7 @@
         "Symbol": "SCHZ",
         "Name": "Schwab US Aggregate Bond ETF",
         "Security Name": "Schwab US Aggregate Bond ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76062,7 +76232,7 @@
         "Symbol": "SCIO",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund IV First Trust Structured Credit Income Opportunities ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76070,7 +76240,7 @@
         "Symbol": "SCJ",
         "Name": "iShares MSCI Japan Sm Cap",
         "Security Name": "iShares MSCI Japan Sm Cap",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76114,7 +76284,7 @@
         "Symbol": "SCLZ",
         "Name": "Northern Lights Fund Trust III Swan Enhanced Dividend Income ETF",
         "Security Name": "Northern Lights Fund Trust III Swan Enhanced Dividend Income ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -76129,7 +76299,7 @@
         "Symbol": "SCMB",
         "Name": "Schwab Strategic Trust Schwab Municipal Bond ETF",
         "Security Name": "Schwab Strategic Trust Schwab Municipal Bond ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76311,7 +76481,7 @@
         "Symbol": "SDCI",
         "Name": "USCF SummerHaven Dynamic Commodity Strategy No K",
         "Security Name": "USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76319,7 +76489,7 @@
         "Symbol": "SDCP",
         "Name": "Virtus ETF Trust II Virtus Newfleet Short Duration Core Plus Bond ETF",
         "Security Name": "Virtus ETF Trust II Virtus Newfleet Short Duration Core Plus Bond ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76327,7 +76497,7 @@
         "Symbol": "SDD",
         "Name": "ProShares UltraShort SmallCap600",
         "Security Name": "ProShares UltraShort SmallCap600",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76335,7 +76505,7 @@
         "Symbol": "SDEM",
         "Name": "Global X MSCI SuperDividend Emerging Markets ETF",
         "Security Name": "Global X MSCI SuperDividend Emerging Markets ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -76391,7 +76561,7 @@
         "Symbol": "SDIV",
         "Name": "Global X SuperDividend ETF",
         "Security Name": "Global X SuperDividend ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -83415,7 +83585,7 @@
         "Symbol": "TDAQ",
         "Name": "ETF Opportunities Trust TappAlpha Innovation 100 Growth & Daily Income ETF",
         "Security Name": "ETF Opportunities Trust TappAlpha Innovation 100 Growth & Daily Income ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -83713,7 +83883,7 @@
         "Symbol": "TECL",
         "Name": "Direxion Technology Bull 3X Shares",
         "Security Name": "Direxion Technology Bull 3X Shares",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -83756,7 +83926,7 @@
         "Symbol": "TEK",
         "Name": "BlackRock ETF Trust iShares Technology Opportunities Active ETF",
         "Security Name": "BlackRock ETF Trust iShares Technology Opportunities Active ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -83835,7 +84005,7 @@
         "Symbol": "TEMP",
         "Name": "J.P. Morgan Exchange",
         "Security Name": "J.P. Morgan Exchange-Traded Fund Trust JPMorgan Climate Change Solutions ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -83850,7 +84020,7 @@
         "Symbol": "TEMT",
         "Name": "Tradr 2X Long TEM Daily ETF",
         "Security Name": "Tradr 2X Long TEM Daily ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -83858,7 +84028,7 @@
         "Symbol": "TEMX",
         "Name": "Touchstone ETF Trust Touchstone Sands Capital Emerging Markets ex",
         "Security Name": "Touchstone ETF Trust Touchstone Sands Capital Emerging Markets ex-China Growth ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -91235,7 +91405,7 @@
         "Symbol": "VNIE",
         "Name": "The Advisors Inner Circle Fund II Vontobel International Equity Active ETF",
         "Security Name": "The Advisors Inner Circle Fund II Vontobel International Equity Active ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -91243,7 +91413,7 @@
         "Symbol": "VNLA",
         "Name": "Janus Henderson Short Duration Income ETF",
         "Security Name": "Janus Henderson Short Duration Income ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -91251,7 +91421,7 @@
         "Symbol": "VNM",
         "Name": "VanEck Vietnam ETF",
         "Security Name": "VanEck Vietnam ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
