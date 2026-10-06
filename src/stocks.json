@@ -75848,56 +75848,56 @@
         "Name": "Schwab U.S. Small",
         "Security Name": "Schwab U.S. Small-Cap ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHB",
         "Name": "Schwab U.S. Broad Market ETF",
         "Security Name": "Schwab U.S. Broad Market ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHC",
         "Name": "Schwab International Small",
         "Security Name": "Schwab International Small-Cap Equity ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHD",
         "Name": "Schwab US Dividend Equity ETF",
         "Security Name": "Schwab US Dividend Equity ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHE",
         "Name": "Schwab Emerging Markets Equity ETF",
         "Security Name": "Schwab Emerging Markets Equity ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHF",
         "Name": "Schwab International Equity ETF",
         "Security Name": "Schwab International Equity ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHG",
         "Name": "Schwab U.S. Large",
         "Security Name": "Schwab U.S. Large-Cap Growth ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHH",
@@ -75914,24 +75914,24 @@
         "Name": "Schwab 5",
         "Security Name": "Schwab 5-10 Year Corporate Bond ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHJ",
         "Name": "Schwab 1",
         "Security Name": "Schwab 1-5 Year Corporate Bond ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHK",
         "Name": "Schwab 1000 Index ETF",
         "Security Name": "Schwab 1000 Index ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHL",
@@ -75946,40 +75946,40 @@
         "Name": "Schwab U.S. Mid Cap ETF",
         "Security Name": "Schwab U.S. Mid Cap ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHO",
         "Name": "Schwab Short",
         "Security Name": "Schwab Short-Term U.S. Treasury ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHP",
         "Name": "Schwab U.S. TIPs ETF",
         "Security Name": "Schwab U.S. TIPs ETF",
         "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHQ",
         "Name": "Schwab Long",
         "Security Name": "Schwab Long-Term U.S. Treasury ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHR",
         "Name": "Schwab Intermediate",
         "Security Name": "Schwab Intermediate-Term U.S. Treasury ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHV",
@@ -76020,17 +76020,17 @@
         "Symbol": "SCHX",
         "Name": "Schwab U.S. Large",
         "Security Name": "Schwab U.S. Large-Cap ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHY",
         "Name": "Schwab International Dividend Equity ETF",
         "Security Name": "Schwab International Dividend Equity ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCHYY",
@@ -76041,9 +76041,9 @@
         "Symbol": "SCHZ",
         "Name": "Schwab US Aggregate Bond ETF",
         "Security Name": "Schwab US Aggregate Bond ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCI",
@@ -76062,17 +76062,17 @@
         "Symbol": "SCIO",
         "Name": "First Trust Exchange",
         "Security Name": "First Trust Exchange-Traded Fund IV First Trust Structured Credit Income Opportunities ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCJ",
         "Name": "iShares MSCI Japan Sm Cap",
         "Security Name": "iShares MSCI Japan Sm Cap",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCJL",
@@ -76114,9 +76114,9 @@
         "Symbol": "SCLZ",
         "Name": "Northern Lights Fund Trust III Swan Enhanced Dividend Income ETF",
         "Security Name": "Northern Lights Fund Trust III Swan Enhanced Dividend Income ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "SCM",
@@ -76129,9 +76129,9 @@
         "Symbol": "SCMB",
         "Name": "Schwab Strategic Trust Schwab Municipal Bond ETF",
         "Security Name": "Schwab Strategic Trust Schwab Municipal Bond ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "SCMC",
