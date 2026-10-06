@@ -9388,7 +9388,8 @@
         "Security Name": "Bloom Energy Corporation Class A Common Stock",
         "Country": "USA",
         "Exchange": "NYSE",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "BEAG",
@@ -71375,7 +71376,8 @@
         "Symbol": "QURE",
         "Name": "UNIQURE NV",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownEtrade": true
     },
     {
         "Symbol": "QUS",
