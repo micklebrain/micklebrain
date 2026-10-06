@@ -57576,7 +57576,8 @@
         "Symbol": "MTSI",
         "Name": "MACOM TECH SOLUTIONS HLDGS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownEtrade": true
     },
     {
         "Symbol": "MTUAY",
