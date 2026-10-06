@@ -17181,9 +17181,9 @@
         "Symbol": "CLCG",
         "Name": "Crossmark ETF Trust Crossmark Large Cap Growth ETF",
         "Security Name": "Crossmark ETF Trust Crossmark Large Cap Growth ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "CLCO",
@@ -17196,9 +17196,9 @@
         "Symbol": "CLCV",
         "Name": "Crossmark ETF Trust Crossmark Large Cap Value ETF",
         "Security Name": "Crossmark ETF Trust Crossmark Large Cap Value ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "CLDI",
@@ -17252,7 +17252,8 @@
         "Name": "Clean Harbors, Inc.",
         "Security Name": "Clean Harbors, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "CLIK",
