@@ -45898,17 +45898,18 @@
         "Symbol": "IVV",
         "Name": "iShares Core S&P 500 ETF",
         "Security Name": "iShares Core S&P 500 ETF",
-        "Country": "USA",
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
         "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "ownChase": true
     },
     {
         "Symbol": "IVVB",
         "Name": "BlackRock ETF Trust II iShares Large Cap Deep Buffer ETF",
         "Security Name": "BlackRock ETF Trust II iShares Large Cap Deep Buffer ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "IVVD",
@@ -45921,25 +45922,25 @@
         "Symbol": "IVVM",
         "Name": "BlackRock ETF Trust II iShares Large Cap Moderate Buffer ETF",
         "Security Name": "BlackRock ETF Trust II iShares Large Cap Moderate Buffer ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "IVVW",
         "Name": "iShares Trust iShares S&P 500 BuyWrite ETF",
         "Security Name": "iShares Trust iShares S&P 500 BuyWrite ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "IVW",
         "Name": "iShares S&P 500 Growth ETF",
         "Security Name": "iShares S&P 500 Growth ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "IVZ",
