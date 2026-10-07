@@ -6,6 +6,11 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "000660",
+        "Name": "SK hynix Inc.",
+        "Country": "South Korea"
+    },
+    {
         "Symbol": "003490",
         "Name": "Korean Air Lines Co.",
         "Country": "South Korea",
@@ -24,6 +29,16 @@
         "Name": "Lotte Corp",
         "Country": "South Korea",
         "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "005380",
+        "Name": "Hyundai Motor Company",
+        "Country": "South Korea"
+    },
+    {
+        "Symbol": "005490",
+        "Name": "POSCO Holdings Inc.",
+        "Country": "South Korea"
     },
     {
         "Symbol": "005930",
@@ -46,70 +61,16 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "006400",
+        "Name": "Samsung SDI Co., Ltd.",
+        "Country": "South Korea"
+    },
+    {
         "Symbol": "006800",
         "Name": "Mirae Asset Securities Co Ltd",
         "Country": "South Korea",
         "dividend": true,
         "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "024110",
-        "Name": "Industrial Bank of Korea",
-        "Country": "South Korea",
-        "dividend": true,
-        "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "035420",
-        "Name": "NAVER Corporation",
-        "Country": "South Korea",
-        "dividend": true,
-        "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "035720",
-        "Name": "Kakao Corp",
-        "Country": "South Korea",
-        "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "047040",
-        "Name": "Daewoo Engineering & Construction Co Ltd",
-        "Country": "South Korea",
-        "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "055550",
-        "Name": "Shinhan Financial Group Co Ltd",
-        "Country": "South Korea",
-        "dividend": true,
-        "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "352820",
-        "Name": "Hybe Co Ltd",
-        "Country": "South Korea",
-        "ownInteractiveBrokers": true
-    },
-    {
-        "Symbol": "000660",
-        "Name": "SK hynix Inc.",
-        "Country": "South Korea"
-    },
-    {
-        "Symbol": "005380",
-        "Name": "Hyundai Motor Company",
-        "Country": "South Korea"
-    },
-    {
-        "Symbol": "005490",
-        "Name": "POSCO Holdings Inc.",
-        "Country": "South Korea"
-    },
-    {
-        "Symbol": "006400",
-        "Name": "Samsung SDI Co., Ltd.",
-        "Country": "South Korea"
     },
     {
         "Symbol": "009150",
@@ -157,6 +118,13 @@
         "Country": "South Korea"
     },
     {
+        "Symbol": "024110",
+        "Name": "Industrial Bank of Korea",
+        "Country": "South Korea",
+        "dividend": true,
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "028260",
         "Name": "Samsung C&T Corporation",
         "Country": "South Korea"
@@ -182,14 +150,40 @@
         "Country": "South Korea"
     },
     {
+        "Symbol": "035420",
+        "Name": "NAVER Corporation",
+        "Country": "South Korea",
+        "dividend": true,
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "035720",
+        "Name": "Kakao Corp",
+        "Country": "South Korea",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "042660",
         "Name": "Hanwha Ocean Co., Ltd.",
         "Country": "South Korea"
     },
     {
+        "Symbol": "047040",
+        "Name": "Daewoo Engineering & Construction Co Ltd",
+        "Country": "South Korea",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "051910",
         "Name": "LG Chem Ltd.",
         "Country": "South Korea"
+    },
+    {
+        "Symbol": "055550",
+        "Name": "Shinhan Financial Group Co Ltd",
+        "Country": "South Korea",
+        "dividend": true,
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "066570",
@@ -255,6 +249,12 @@
         "Symbol": "329180",
         "Name": "HD Hyundai Heavy Industries Co., Ltd.",
         "Country": "South Korea"
+    },
+    {
+        "Symbol": "352820",
+        "Name": "Hybe Co Ltd",
+        "Country": "South Korea",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "373220",
@@ -17181,7 +17181,7 @@
         "Symbol": "CLCG",
         "Name": "Crossmark ETF Trust Crossmark Large Cap Growth ETF",
         "Security Name": "Crossmark ETF Trust Crossmark Large Cap Growth ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -17196,7 +17196,7 @@
         "Symbol": "CLCV",
         "Name": "Crossmark ETF Trust Crossmark Large Cap Value ETF",
         "Security Name": "Crossmark ETF Trust Crossmark Large Cap Value ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -19829,11 +19829,9 @@
         "Exchange": "NASDAQ"
     },
     {
-        "Symbol": "CSAN",
-        "Name": "Cosan S.A. ADS",
-        "Security Name": "Cosan S.A. ADS",
+        "Symbol": "CSANY",
+        "Name": "Cosan SA - ADR",
         "Country": "Brazil",
-        "Exchange": "NYSE",
         "ownWebull": true
     },
     {
@@ -40188,7 +40186,7 @@
         "Symbol": "HLTOY",
         "Name": "HELLENIC TELECOM ORG S A",
         "Exchange": "OTC Pink"
-    },    
+    },
     {
         "Symbol": "HLXC",
         "Name": "HELIX ACQUISITION CORP III",
@@ -69164,13 +69162,6 @@
         "Exchange": "NYSE Arca"
     },
     {
-        "Symbol": "PSKY",
-        "Name": "Paramount Skydance Corp",
-        "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
-    },
-    {
         "Symbol": "PSL",
         "Name": "Invesco Dorsey Wright Consumer Staples Momentum ETF",
         "Country": "USA",
@@ -78453,6 +78444,11 @@
         "Country": "USA",
         "ownWebull": true,
         "Exchange": "NASDAQ"
+    },
+    {
+        "Symbol": "SKYD",
+        "Name": "Skydance Corporation",
+        "ownWebull": true
     },
     {
         "Symbol": "SKYE",

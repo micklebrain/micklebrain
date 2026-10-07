@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["RFAI"]
+stocksToAdd = ["CSANY"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="RF Acquisition Corp II")
+    addStock(stock, name="Cosan SA - ADR")
