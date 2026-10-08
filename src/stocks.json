@@ -18126,8 +18126,7 @@
         "Symbol": "CNTY",
         "Name": "Century Casinos",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "CNVS",
@@ -18695,7 +18694,8 @@
         "Name": "Cencora, Inc.",
         "Security Name": "Cencora, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "CORB",
@@ -29894,12 +29894,6 @@
     },
     {
         "Symbol": "FBYD",
-        "Name": "FALCONS BEYOND GLOBAL INC",
-        "Country": "USA",
-        "Exchange": "NASDAQ"
-    },
-    {
-        "Symbol": "FBYDP",
         "Name": "FALCONS BEYOND GLOBAL INC",
         "Country": "USA",
         "Exchange": "NASDAQ"
@@ -92719,8 +92713,7 @@
         "Symbol": "WBD",
         "Name": "Warner Bros Discovery Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "WBI",
