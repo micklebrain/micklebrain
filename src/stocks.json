@@ -32456,9 +32456,9 @@
         "Symbol": "FMKT",
         "Name": "The Free Markets ETF",
         "Security Name": "The Free Markets ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
+        "Pooled": true
     },
     {
         "Symbol": "FMN",
