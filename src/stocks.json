@@ -15419,9 +15419,10 @@
         "Symbol": "CDEI",
         "Name": "Morgan Stanley ETF Trust Calvert US Large",
         "Security Name": "Morgan Stanley ETF Trust Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF",
-        "Country": "USA",
+        "Country": "USA",        
+        "Exchange": "NYSE Arca",
         "Pooled": true,
-        "Exchange": "NYSE Arca"
+        "ownChase": true
     },
     {
         "Symbol": "CDI",
