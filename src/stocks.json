@@ -14848,9 +14848,10 @@
         "Symbol": "CBOE",
         "Name": "Cboe Global Markets Inc",
         "Security Name": "Cboe Global Markets, Inc. Common Stock",
-        "Country": "USA",
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
         "dividend": true,
-        "Exchange": "Cboe BZX"
+        "ownWebull": true
     },
     {
         "Symbol": "CBOJ",
@@ -51305,7 +51306,8 @@
         "Name": "Labcorp Holdings Inc.",
         "Security Name": "Labcorp Holdings Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "LHAI",
@@ -51344,17 +51346,17 @@
         "Symbol": "LIAE",
         "Name": "LifeX 2050 Inflation",
         "Security Name": "LifeX 2050 Inflation-Protected Longevity Income ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "LIAM",
         "Name": "LifeX 2055 Inflation",
         "Security Name": "LifeX 2055 Inflation-Protected Longevity Income ETF",
-        "Country": "USA",
-        "Pooled": true,
-        "Exchange": "Cboe BZX"
+        "Country": "USA",        
+        "Exchange": "Cboe BZX",
+        "Pooled": true
     },
     {
         "Symbol": "LIAO",
@@ -60919,7 +60921,8 @@
         "Name": "Norfolk Southern Corporation",
         "Security Name": "Norfolk Southern Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "NSCI",
