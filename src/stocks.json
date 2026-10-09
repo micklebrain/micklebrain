@@ -23210,8 +23210,7 @@
         "Symbol": "DKI",
         "Name": "DARKIRIS INC.",
         "Country": "Hong Kong",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "DKL",
