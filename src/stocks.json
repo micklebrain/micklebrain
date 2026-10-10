@@ -92973,8 +92973,7 @@
         "Name": "Waterdrop Inc.",
         "Security Name": "Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)",
         "Country": "China",
-        "Exchange": "NYSE",
-        "ownWebull": true
+        "Exchange": "NYSE"        
     },
     {
         "Symbol": "WDI",
