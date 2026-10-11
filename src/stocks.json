@@ -67007,14 +67007,7 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "Pooled": true
-    },
-    {
-        "Symbol": "PKX",
-        "Name": "POSCO HOLDINGS INC. American Depositary Shares (Each representing 1/4th of a share of)",
-        "Security Name": "POSCO HOLDINGS INC. American Depositary Shares (Each representing 1/4th of a share of Common Stock)",
-        "Country": "South Korea",
-        "Exchange": "NYSE"
-    },
+    },    
     {
         "Symbol": "PKX",
         "Name": "Posco Holdings Inc",
