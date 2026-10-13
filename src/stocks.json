@@ -51258,7 +51258,8 @@
         "Symbol": "LGND",
         "Name": "LIGAND PHARMACEUTICALS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownWebull": true
     },
     {
         "Symbol": "LGO",
@@ -67181,8 +67182,7 @@
         "Symbol": "PLRX",
         "Name": "Pilant Therapeutics. Inc.",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "PLRZ",
