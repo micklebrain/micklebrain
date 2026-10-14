@@ -70734,8 +70734,7 @@
         "Symbol": "QNCX",
         "Name": "Quince",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "QNDX",
