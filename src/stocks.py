@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["IRLA"]
+stocksToAdd = ["SKYD-WS"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="IRulya Therapeutics Inc")
+    addStock(stock, name="Skydance Corporation Warrants")

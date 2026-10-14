@@ -71897,7 +71897,7 @@
         "Security Name": "Ready Capital Corporation Common Stock",
         "Country": "USA",
         "Exchange": "NYSE",
-        "dividend": true,        
+        "dividend": true,
         "Pooled": true
     },
     {
@@ -78440,6 +78440,11 @@
     {
         "Symbol": "SKYD",
         "Name": "Skydance Corporation",
+        "ownWebull": true
+    },
+    {
+        "Symbol": "SKYD-WS",
+        "Name": "Skydance Corporation Warrants",
         "ownWebull": true
     },
     {
