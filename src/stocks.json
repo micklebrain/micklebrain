@@ -19560,7 +19560,8 @@
         "Name": "Charles River Laboratories International, Inc.",
         "Security Name": "Charles River Laboratories International, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "CRM",
@@ -71896,8 +71897,7 @@
         "Security Name": "Ready Capital Corporation Common Stock",
         "Country": "USA",
         "Exchange": "NYSE",
-        "dividend": true,
-        "ownWebull": true,
+        "dividend": true,        
         "Pooled": true
     },
     {
@@ -74688,7 +74688,8 @@
         "Symbol": "RVII",
         "Name": "Robinhood Ventures Fund II Closed End Fund",
         "Exchange": "NYSE",
-        "Pooled": true
+        "Pooled": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "RVLV",
