@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["CSANY"]
+stocksToAdd = ["IRLA"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="Cosan SA - ADR")
+    addStock(stock, name="IRulya Therapeutics Inc")

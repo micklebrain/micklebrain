@@ -14848,7 +14848,7 @@
         "Symbol": "CBOE",
         "Name": "Cboe Global Markets Inc",
         "Security Name": "Cboe Global Markets, Inc. Common Stock",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "dividend": true,
         "ownWebull": true
@@ -15420,7 +15420,7 @@
         "Symbol": "CDEI",
         "Name": "Morgan Stanley ETF Trust Calvert US Large",
         "Security Name": "Morgan Stanley ETF Trust Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true,
         "ownChase": true
@@ -18128,7 +18128,7 @@
         "Symbol": "CNTY",
         "Name": "Century Casinos",
         "Country": "USA",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "CNVS",
@@ -23210,7 +23210,7 @@
         "Symbol": "DKI",
         "Name": "DARKIRIS INC.",
         "Country": "Hong Kong",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "DKL",
@@ -32451,7 +32451,7 @@
         "Symbol": "FMKT",
         "Name": "The Free Markets ETF",
         "Security Name": "The Free Markets ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -45179,6 +45179,11 @@
         "Penny": true
     },
     {
+        "Symbol": "IRLA",
+        "Name": "IRulya Therapeutics Inc",
+        "ownWebull": true
+    },
+    {
         "Symbol": "IRM",
         "Name": "Iron Mountain Incorporated (Delaware) REIT",
         "Security Name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
@@ -45893,7 +45898,7 @@
         "Symbol": "IVV",
         "Name": "iShares Core S&P 500 ETF",
         "Security Name": "iShares Core S&P 500 ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true,
         "ownChase": true
@@ -45902,7 +45907,7 @@
         "Symbol": "IVVB",
         "Name": "BlackRock ETF Trust II iShares Large Cap Deep Buffer ETF",
         "Security Name": "BlackRock ETF Trust II iShares Large Cap Deep Buffer ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -45917,7 +45922,7 @@
         "Symbol": "IVVM",
         "Name": "BlackRock ETF Trust II iShares Large Cap Moderate Buffer ETF",
         "Security Name": "BlackRock ETF Trust II iShares Large Cap Moderate Buffer ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -45925,7 +45930,7 @@
         "Symbol": "IVVW",
         "Name": "iShares Trust iShares S&P 500 BuyWrite ETF",
         "Security Name": "iShares Trust iShares S&P 500 BuyWrite ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -45933,7 +45938,7 @@
         "Symbol": "IVW",
         "Name": "iShares S&P 500 Growth ETF",
         "Security Name": "iShares S&P 500 Growth ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "NYSE Arca",
         "Pooled": true
     },
@@ -51347,7 +51352,7 @@
         "Symbol": "LIAE",
         "Name": "LifeX 2050 Inflation",
         "Security Name": "LifeX 2050 Inflation-Protected Longevity Income ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -51355,7 +51360,7 @@
         "Symbol": "LIAM",
         "Name": "LifeX 2055 Inflation",
         "Security Name": "LifeX 2055 Inflation-Protected Longevity Income ETF",
-        "Country": "USA",        
+        "Country": "USA",
         "Exchange": "Cboe BZX",
         "Pooled": true
     },
@@ -67009,7 +67014,7 @@
         "Country": "USA",
         "Exchange": "NASDAQ",
         "Pooled": true
-    },    
+    },
     {
         "Symbol": "PKX",
         "Name": "Posco Holdings Inc",
@@ -67182,7 +67187,7 @@
         "Symbol": "PLRX",
         "Name": "Pilant Therapeutics. Inc.",
         "Country": "USA",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "PLRZ",
@@ -70729,12 +70734,6 @@
         "Name": "QUANTUM EMOTION CORP",
         "Country": "USA",
         "Exchange": "NYSE American"
-    },
-    {
-        "Symbol": "QNCX",
-        "Name": "Quince",
-        "Country": "USA",
-        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "QNDX",
@@ -92710,7 +92709,7 @@
         "Symbol": "WBD",
         "Name": "Warner Bros Discovery Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "WBI",
@@ -92967,7 +92966,7 @@
         "Name": "Waterdrop Inc.",
         "Security Name": "Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)",
         "Country": "China",
-        "Exchange": "NYSE"        
+        "Exchange": "NYSE"
     },
     {
         "Symbol": "WDI",
