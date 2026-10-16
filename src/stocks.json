@@ -14073,8 +14073,7 @@
         "Symbol": "BZFD",
         "Name": "BUZZFEED INC",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "BZH",
@@ -35157,8 +35156,7 @@
         "Symbol": "GDHG",
         "Name": "Golden Heaven Gr",
         "Country": "China",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "GDIV",
@@ -91900,7 +91898,8 @@
         "Name": "VeriSign, Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "VRT",
