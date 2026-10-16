@@ -10116,7 +10116,8 @@
         "Name": "Biglari Holdings Inc. Class B",
         "Security Name": "Biglari Holdings Inc. Class B Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "BH-A",
