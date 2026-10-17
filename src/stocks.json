@@ -445,8 +445,7 @@
         "Symbol": "AAME",
         "Name": "Atlantic American Corp",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "AAMI",
@@ -60683,8 +60682,7 @@
         "Name": "NET Power Inc.",
         "Security Name": "NET Power Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE",
-        "ownWebull": true
+        "Exchange": "NYSE"        
     },
     {
         "Symbol": "NPWR.W",
