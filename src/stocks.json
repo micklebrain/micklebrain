@@ -6653,8 +6653,7 @@
         "Name": "Atkore Inc.",
         "Security Name": "Atkore Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE",
-        "ownWebull": true
+        "Exchange": "NYSE"
     },
     {
         "Symbol": "ATLC",
@@ -7788,7 +7787,8 @@
         "Name": "Acuity Inc.",
         "Security Name": "Acuity Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "AYTU",
