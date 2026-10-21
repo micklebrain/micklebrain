@@ -445,7 +445,7 @@
         "Symbol": "AAME",
         "Name": "Atlantic American Corp",
         "Country": "USA",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "AAMI",
@@ -14074,7 +14074,7 @@
         "Symbol": "BZFD",
         "Name": "BUZZFEED INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "BZH",
@@ -20940,6 +20940,10 @@
         "Security Name": "CoreCivic, Inc. Common Stock",
         "Country": "USA",
         "Exchange": "NYSE"
+    },
+    {
+        "Symbol": "CXW",
+        "Name": "Corecivic Inc"
     },
     {
         "Symbol": "CYAB",
@@ -35157,7 +35161,7 @@
         "Symbol": "GDHG",
         "Name": "Golden Heaven Gr",
         "Country": "China",
-        "Exchange": "NASDAQ"        
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "GDIV",
@@ -39419,7 +39423,8 @@
         "Name": "Heico Corporation",
         "Security Name": "Heico Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "HEI.A",
@@ -60682,7 +60687,7 @@
         "Name": "NET Power Inc.",
         "Security Name": "NET Power Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"        
+        "Exchange": "NYSE"
     },
     {
         "Symbol": "NPWR.W",
@@ -62229,8 +62234,7 @@
         "Symbol": "NYXH",
         "Name": "Nyxoah SA",
         "Country": "Belgium",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "NYYY",
@@ -90500,7 +90504,8 @@
         "Name": "Veeva Systems Inc. Class A",
         "Security Name": "Veeva Systems Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "VEFA",
