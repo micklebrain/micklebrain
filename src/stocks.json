@@ -163,6 +163,16 @@
         "ownInteractiveBrokers": true
     },
     {
+        "Symbol": "035900",
+        "Name": "JYP Entertainment Corp",
+        "ownInteractiveBrokers": true
+    },
+    {
+        "Symbol": "041510",
+        "Name": "SM Entertainment Co Ltd",
+        "ownInteractiveBrokers": true
+    },
+    {
         "Symbol": "042660",
         "Name": "Hanwha Ocean Co., Ltd.",
         "Country": "South Korea"
@@ -214,6 +224,11 @@
         "Symbol": "105560",
         "Name": "KB Financial Group Inc.",
         "Country": "South Korea"
+    },
+    {
+        "Symbol": "122870",
+        "Name": "YG Entertainment Inc.",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "138040",
@@ -4978,7 +4993,8 @@
         "Name": "Air Products and Chemicals, Inc.",
         "Security Name": "Air Products and Chemicals, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "APDB",
