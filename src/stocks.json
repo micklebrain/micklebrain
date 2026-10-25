@@ -17705,7 +17705,8 @@
         "Name": "CME Group Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "CMF",
@@ -63882,8 +63883,7 @@
         "Symbol": "ORGO",
         "Name": "Organogenesis Hldgs Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"    
     },
     {
         "Symbol": "ORI",
@@ -82826,7 +82826,8 @@
         "Name": "Stryker Corporation",
         "Security Name": "Stryker Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "SYLD",
