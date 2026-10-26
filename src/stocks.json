@@ -8181,8 +8181,7 @@
         "Security Name": "Braskem SA ADR",
         "Country": "Brazil",
         "Exchange": "NYSE",
-        "dividend": true,
-        "ownWebull": true
+        "dividend": true        
     },
     {
         "Symbol": "BALI",
@@ -77863,8 +77862,7 @@
         "Security Name": "Companhia Siderurgica Nacional S.A. Common Stock",
         "Country": "Brazil",
         "Exchange": "NYSE",
-        "dividend": true,
-        "ownWebull": true
+        "dividend": true        
     },
     {
         "Symbol": "SIDU",
@@ -86339,7 +86337,8 @@
         "Name": "Targa Resources, Inc.",
         "Security Name": "Targa Resources, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "TRGS",
@@ -88841,7 +88840,8 @@
         "Name": "Union Pacific Corporation",
         "Security Name": "Union Pacific Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "UNTY",
