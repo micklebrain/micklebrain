@@ -39851,7 +39851,8 @@
         "Name": "Hingham Institution for Savings",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true
+        "dividend": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "HIG",
@@ -63883,7 +63884,7 @@
         "Symbol": "ORGO",
         "Name": "Organogenesis Hldgs Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ"    
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "ORI",
