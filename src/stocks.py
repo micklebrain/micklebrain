@@ -172,7 +172,7 @@ print(f"{len(printedResults)} / {totalNumberStocks} stocks | {percentageComplete
 # upcoming splits -
 # upcoming delisting -
 # upcoming spin offs -
-stocksToAdd = ["035900"]
+stocksToAdd = ["MSGK"]
 
 for stock in stocksToAdd:
-    addStock(stock, name="JYP Entertainment Corp")
+    addStock(stock, name="Madison Square Garden Sports Corp")
