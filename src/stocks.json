@@ -5177,7 +5177,8 @@
         "Symbol": "APP",
         "Name": "APPLOVIN CORP",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownWebull": true
     },
     {
         "Symbol": "APPC",
@@ -35611,8 +35612,7 @@
         "Symbol": "GERN",
         "Name": "Geron Corp",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "GES",
@@ -51932,7 +51932,8 @@
         "Name": "Cheniere Energy, Inc.",
         "Security Name": "Cheniere Energy, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "LNGX",
