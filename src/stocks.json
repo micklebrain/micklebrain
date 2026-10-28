@@ -78679,7 +78679,8 @@
         "Name": "Southland Holdings, Inc. Warrants",
         "Security Name": "Southland Holdings, Inc. Warrants",
         "Country": "USA",
-        "Exchange": "NYSE American"
+        "Exchange": "NYSE American",
+        "Penny": true
     },
     {
         "Symbol": "SLNG",
