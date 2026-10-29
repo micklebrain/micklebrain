@@ -57323,7 +57323,8 @@
         "Symbol": "MSTR",
         "Name": "STRATEGY INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownEtrade": true
     },
     {
         "Symbol": "MSTU",
