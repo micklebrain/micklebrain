@@ -55606,8 +55606,7 @@
         "Name": "MacKenzie Realty Capital Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true,
-        "ownWebull": true,
+        "dividend": true,        
         "Pooled": true
     },
     {
