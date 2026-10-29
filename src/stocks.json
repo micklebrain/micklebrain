@@ -39893,7 +39893,8 @@
         "Name": "Huntington Ingalls Industries, Inc.",
         "Security Name": "Huntington Ingalls Industries, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "HIMC",
