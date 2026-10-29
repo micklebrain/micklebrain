@@ -28918,10 +28918,11 @@
     },
     {
         "Symbol": "EVR",
-        "Name": "Evercore Inc. Class A",
+        "Name": "Evercore Inc.",
         "Security Name": "Evercore Inc. Class A Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "EVRG",
