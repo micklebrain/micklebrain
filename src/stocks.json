@@ -67108,8 +67108,7 @@
         "Name": "Childrens PL Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "Penny": true,
-        "ownWebull": true
+        "Penny": true
     },
     {
         "Symbol": "PLCI",
