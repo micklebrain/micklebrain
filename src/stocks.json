@@ -42411,7 +42411,8 @@
         "Name": "Installed Building Products, Inc.",
         "Security Name": "Installed Building Products, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownChase": true
     },
     {
         "Symbol": "IBRN",
@@ -67107,6 +67108,7 @@
         "Name": "Childrens PL Inc",
         "Country": "USA",
         "Exchange": "NASDAQ",
+        "Penny": true,
         "ownWebull": true
     },
     {
