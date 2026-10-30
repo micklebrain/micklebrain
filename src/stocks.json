@@ -662,7 +662,8 @@
         "Name": "AbbVie Inc.",
         "Security Name": "AbbVie Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "ABCB",
@@ -25518,7 +25519,8 @@
         "Name": "Ecolab Inc.",
         "Security Name": "Ecolab Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "ECML",
