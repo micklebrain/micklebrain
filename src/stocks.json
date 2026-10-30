@@ -10027,8 +10027,7 @@
         "Symbol": "BGLC",
         "Name": "BioNexus Gene Lab Corp",
         "Country": "Malaysia",
-        "Exchange": "NASDAQ",
-        "ownWebull": true
+        "Exchange": "NASDAQ"        
     },
     {
         "Symbol": "BGLD",
