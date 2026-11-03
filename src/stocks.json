@@ -67138,8 +67138,7 @@
         "Name": "Oxford Square Ca",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true,
-        "ownWebull": true,
+        "dividend": true,        
         "lastWebullTradeDate": "2026-05-19",
         "lastWebullSide": "BUY",
         "lastWebullFillPrice": 1.4,
@@ -91960,7 +91959,8 @@
         "Symbol": "UFPT",
         "Name": "UFP TECHNOLOGIES INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "ownEtrade": true
     },
     {
         "Symbol": "UG",
@@ -95053,7 +95053,8 @@
         "Name": "Vulcan Materials Company (Holding Company)",
         "Security Name": "Vulcan Materials Company (Holding Company) Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "VMD",
