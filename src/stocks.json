@@ -52211,12 +52211,11 @@
         "Name": "Kenvue Inc.",
         "Security Name": "Kenvue Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE",
-        "dividend": true,
-        "ownWebull": true,
+        "Exchange": "NYSE",                
         "lastWebullTradeDate": "2026-02-10",
         "lastWebullSide": "SELL",
         "lastWebullFillPrice": 18.36,
+        "dividend": true,
         "hasWebullSell": true
     },
     {
@@ -71266,7 +71265,8 @@
         "Name": "Primerica, Inc.",
         "Security Name": "Primerica, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "PRIF PRK",
