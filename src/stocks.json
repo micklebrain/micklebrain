@@ -96359,7 +96359,8 @@
         "Name": "Westinghouse Air Brake Technologies Corporation",
         "Security Name": "Westinghouse Air Brake Technologies Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "WABC",
