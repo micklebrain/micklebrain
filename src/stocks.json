@@ -30772,7 +30772,8 @@
         "Security Name": "Extra Space Storage Inc Common Stock",
         "Country": "USA",
         "Exchange": "NYSE",
-        "Pooled": true
+        "Pooled": true,
+        "ownEtrade": true
     },
     {
         "Symbol": "EXTR",
