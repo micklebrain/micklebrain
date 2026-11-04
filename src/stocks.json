@@ -50331,7 +50331,8 @@
         "Name": "Kadant Inc",
         "Security Name": "Kadant Inc Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "KAIT",
@@ -54428,11 +54429,11 @@
         "Symbol": "LOVE",
         "Name": "Lovesac Co.",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true,
+        "Exchange": "NASDAQ",        
         "lastWebullTradeDate": "2026-04-14",
         "lastWebullSide": "SELL",
         "lastWebullFillPrice": 16.16,
+        "ownWebull": true,
         "hasWebullSell": true
     },
     {
@@ -54440,7 +54441,8 @@
         "Name": "Lowe's Companies, Inc.",
         "Security Name": "Lowe's Companies, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "LOWV",
@@ -97964,7 +97966,8 @@
         "Name": "Williams",
         "Security Name": "Williams-Sonoma, Inc. Common Stock (DE)",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "WSMD",
