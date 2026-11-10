@@ -29349,7 +29349,8 @@
         "Name": "ERock Ord Shs Class A",
         "Country": "USA",
         "Exchange": "NYSE",
-        "dividend": true
+        "dividend": true,
+        "ownWebull": true
     },
     {
         "Symbol": "EROK",
@@ -77062,12 +77063,7 @@
         "Symbol": "ROKU",
         "Name": "Roku",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true,
-        "lastWebullTradeDate": "2025-04-08",
-        "lastWebullSide": "SELL",
-        "lastWebullFillPrice": 59.18,
-        "hasWebullSell": true
+        "Exchange": "NASDAQ"
     },
     {
         "Symbol": "ROL",
@@ -82641,7 +82637,8 @@
         "Name": "SharkNinja, Inc. Ordinary Shares",
         "Security Name": "SharkNinja, Inc. Ordinary Shares",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "SNA",
