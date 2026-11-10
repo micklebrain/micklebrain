@@ -75971,7 +75971,8 @@
         "Name": "RH",
         "Security Name": "RH Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "RHI",
