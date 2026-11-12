@@ -6682,7 +6682,8 @@
         "Security Name": "Grupo Aeroportuario del Sureste, S.A. de C.V. Common Stock",
         "Country": "Mexico",
         "Exchange": "NYSE",
-        "dividend": true
+        "dividend": true,
+        "ownMoomoo": true
     },
     {
         "Symbol": "ASRV",
