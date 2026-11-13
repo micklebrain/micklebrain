@@ -14344,7 +14344,8 @@
         "Name": "Burlington Stores, Inc.",
         "Security Name": "Burlington Stores, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownEtrade": true
     },
     {
         "Symbol": "BURU",
@@ -19274,7 +19275,8 @@
         "Symbol": "CODX",
         "Name": "CO-DIAGNOSTICS INC",
         "Country": "USA",
-        "Exchange": "NASDAQ"
+        "Exchange": "NASDAQ",
+        "Penny": true
     },
     {
         "Symbol": "CODYY",
@@ -47719,7 +47721,8 @@
         "Name": "Illinois Tool Works Inc.",
         "Security Name": "Illinois Tool Works Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "ITWO",
@@ -87969,7 +87972,8 @@
         "Name": "Tenet Healthcare Corporation",
         "Security Name": "Tenet Healthcare Corporation Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownChase": true
     },
     {
         "Symbol": "THCH",
@@ -88676,12 +88680,12 @@
         "Symbol": "TLPH",
         "Name": "Talphera Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ",
-        "ownWebull": true,
+        "Exchange": "NASDAQ",        
         "lastWebullTradeDate": "2026-07-08",
         "lastWebullSide": "SELL",
         "lastWebullFillPrice": 1.27,
-        "hasWebullSell": true
+        "hasWebullSell": true,
+        "Penny": true
     },
     {
         "Symbol": "TLRY",
