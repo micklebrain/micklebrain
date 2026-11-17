@@ -15080,7 +15080,8 @@
         "Name": "Cardinal Health, Inc.",
         "Security Name": "Cardinal Health, Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE"
+        "Exchange": "NYSE",
+        "ownWebull": true
     },
     {
         "Symbol": "CAI",
