@@ -8,7 +8,8 @@
     {
         "Symbol": "000660",
         "Name": "SK hynix Inc.",
-        "Country": "South Korea"
+        "Country": "South Korea",
+        "ownInteractiveBrokers": true
     },
     {
         "Symbol": "003490",
@@ -897,7 +898,7 @@
         "Symbol": "ABTS",
         "Name": "Abits Group Inc",
         "Country": "Hong Kong",
-        "Exchange": "NASDAQ",        
+        "Exchange": "NASDAQ",
         "lastWebullTradeDate": "2026-08-21",
         "lastWebullSide": "SELL",
         "Penny": true,
@@ -5028,6 +5029,11 @@
         "hasWebullSell": true
     },
     {
+        "Symbol": "ANT",
+        "Name": "Anthropic",
+        "ownEtrade": true
+    },
+    {
         "Symbol": "ANTA",
         "Name": "ANTALPHA PLATFORM HLDG CO",
         "Country": "USA",
@@ -7517,8 +7523,7 @@
         "Security Name": "American Vanguard Corporation Common Stock ($0.10 Par Value)",
         "Country": "USA",
         "Exchange": "NYSE",
-        "dividend": true,
-        "ownWebull": true,
+        "dividend": true,        
         "lastWebullTradeDate": "2026-03-19",
         "lastWebullSide": "BUY",
         "lastWebullFillPrice": 2.63,
@@ -52219,7 +52224,7 @@
         "Name": "Kenvue Inc.",
         "Security Name": "Kenvue Inc. Common Stock",
         "Country": "USA",
-        "Exchange": "NYSE",                
+        "Exchange": "NYSE",
         "lastWebullTradeDate": "2026-02-10",
         "lastWebullSide": "SELL",
         "lastWebullFillPrice": 18.36,
@@ -54436,7 +54441,7 @@
         "Symbol": "LOVE",
         "Name": "Lovesac Co.",
         "Country": "USA",
-        "Exchange": "NASDAQ",        
+        "Exchange": "NASDAQ",
         "lastWebullTradeDate": "2026-04-14",
         "lastWebullSide": "SELL",
         "lastWebullFillPrice": 16.16,
@@ -67146,7 +67151,7 @@
         "Name": "Oxford Square Ca",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "dividend": true,        
+        "dividend": true,
         "lastWebullTradeDate": "2026-05-19",
         "lastWebullSide": "BUY",
         "lastWebullFillPrice": 1.4,
@@ -88681,7 +88686,7 @@
         "Symbol": "TLPH",
         "Name": "Talphera Inc",
         "Country": "USA",
-        "Exchange": "NASDAQ",        
+        "Exchange": "NASDAQ",
         "lastWebullTradeDate": "2026-07-08",
         "lastWebullSide": "SELL",
         "lastWebullFillPrice": 1.27,
