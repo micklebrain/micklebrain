@@ -7523,7 +7523,7 @@
         "Security Name": "American Vanguard Corporation Common Stock ($0.10 Par Value)",
         "Country": "USA",
         "Exchange": "NYSE",
-        "dividend": true,        
+        "dividend": true,
         "lastWebullTradeDate": "2026-03-19",
         "lastWebullSide": "BUY",
         "lastWebullFillPrice": 2.63,
