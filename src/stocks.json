@@ -7954,7 +7954,7 @@
         "Name": "Anavex Life Scie",
         "Country": "USA",
         "Exchange": "NASDAQ",
-        "ownWebull": true,
+        "Penny": true,
         "lastWebullTradeDate": "2026-03-25",
         "lastWebullSide": "BUY",
         "lastWebullFillPrice": 2.8,
@@ -84830,11 +84830,11 @@
         "Symbol": "SSM",
         "Name": "Sono Group NV",
         "Country": "Germany",
-        "Exchange": "NASDAQ",
-        "ownWebull": true,
+        "Exchange": "NASDAQ",        
         "lastWebullTradeDate": "2026-05-26",
         "lastWebullSide": "BUY",
         "lastWebullFillPrice": 3.92,
+        "Penny": true,
         "hasWebullSell": false
     },
     {
